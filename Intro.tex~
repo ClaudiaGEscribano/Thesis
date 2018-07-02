@@ -1,0 +1,70 @@
+% Este documento contiene el índice del manuscrito de la tesis.
+%\documentclass[12pt,a4paper]{report}
+%\usepackage{graphicx}
+
+%\title{Introduction}
+%\author{Claudia Guti\'errez}
+%\date{ January 2018}
+
+
+%\begin{document}
+
+%\maketitle
+
+%\tableofcontents{}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\part{Introduction\label{cha:intro}}
+
+% \section{Transversalidad}
+
+% La ciencia aplicada o aplicación de la ciencia, ha evolucionado las sociedades a través de la conexión de los estudios de ciencia básica con los ingenios que implementaban el conocimiento estructural al día a día de los individuos. La construcción del puente entre los estudios fundamentales y su adaptación/evolución para el desarrollo de las sociedades, ha sido cuestión de una interpretación (y por lo tanto de intérpretes) capaz de econtrar el lenguaje adecuado para intercambiar este conocimiento.
+
+% Esta transversalidad entre las disciplinas básicas de la física, la química o la biología con distintas acepciones prácticas, la mayoría de ellas recogidas bajo el paraguas de las ingenierías, desemboca ineludiblemente en una transformación de lo abstracto en lo tangible con la premisa o el ideal de mejorar el bienestar de las sociedades presentes y futuras. 
+
+% Es sin embargo muy probable, que esta concepción de la aplicación científica haya desembocado en el mayor problema al que hacer frente desde.Siendo este antropocentrismo parte del problema, y no de la solución. Jorge Wasenberg escibe en su libro, ``el pensador intruso'' en referencia a la evolución de la ciencia y el progreso subyacente lo siguiente:
+
+% ``Existen sobre todo dos vicios que tienden a inyectar ideología precocinada en la ciencia. Una de ellas se basa en las distintas formas de antropocentrismo y consiste en situar instintivamente al sujeto del conocimiento en el centro del cosmos. La historia del conocimiento es testigo: cada vez que barremos el Yo del centro del escenario el conocimiento avanza, y avanza sólo por ello.''
+
+% Sin caer en lo pretencioso, este trabajo contribuye a la imbricación entre la ciencia del cambio climático y la tecnología renovable de producción eléctrica con mayor potencial a día de hoy, la solar fotovoltaica.
+
+\chapter{Introduction}
+\section{A changing world} 
+ 
+\section{Renewable Energies}
+% La energía renovable es la forma de energ
+
+
+% The evolution of renewable energies since its origin has been made in a context with two main drivers. In first place, a society concerned about environmental issues has to deal with 
+
+
+% as well as interested in finding alternatives to traditional energy sources, Alternative energy generation sources have been evolving and have adquired an important role, mostly in the electricity sector, in the generation proccess
+%\subsection{Context of renewable energies}
+%\subsubsection{History and evolution}
+%\subsection{Scenarios and future evolution of renewable energies}
+%\subsection{Photovoltaic technology}
+\section{Links between climate and renewable energy}
+\section{Photovoltaic Energy}
+\section{Resource assessment}
+\section{Climate change and the Mediterranean area}
+\section{General scientific question: spatiotemporal behaviour of solar resource and photovoltaic production}
+\section{Organization of the manuscript}
+% \section{General scientific question: spatiotemporal variability of solar resource and photovoltaic production}
+% \section{State of the art}
+% \subsection{From short to long term varibility issues}
+% \subsection{Solar radiation data measurements}
+% \subsection{Satellite data}
+% \subsection{Modelization of solar radiation}
+% \section{Identification of knowdlege gaps and approach to the problem}
+%\subsection{Spatiotemporal long-term variability in an almost isolated area}
+%\subsection{Role of aerosols in the spatiotemporal varibility of the photovoltaic energy production}
+%\subsection{Future availability of photovoltaic potential}
+
+
+\chapter{State of knowdlege\label{cha:state}}
+\section{Intermittency of PV}
+\section{Variability sources in PV}
+\section{From short to long term issues}
+\section{Climate Change perspectives for solar resource and photovoltaic potential}
+
+%\end{document}
