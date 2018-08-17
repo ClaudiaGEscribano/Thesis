@@ -10,6 +10,18 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \chapter{Methods\label{cha:methods}}
+
+\begin{abstract}
+
+  Para cumplir los objetivos planteados en la presente tesis es necesario el empleo de diferentes metodologías en cada uno de los capítulos de resultados, todas ellas explicadas en detalle en las correspondientes secciones. De manera general el cumplimiento de estos objetivos pasa por el análisis estadístico de las diferentes variables relacionadas con el recurso solar así como de la producción fotovoltaica, siendo esta última una estimación obtenida a partir del modelado de la misma. El análisis se realiza en escalas espacio temporales diferentes, lo que desemboca en la necesidad de utilizar adaptaciones de una misma metolodogía para cada caso.\\
+
+  En el primer capítulo, se analizará de manera espacial la variabilidad interanual y la complementariedad del recurso solar en la Península Ibérica, para lo que se aplicarán técnicas de \textbf{clustering}. La evaluación de la productividad fotovoltaica lleva asociada la necesidad de la \textbf{modelización de un sistema fotovoltaico}.\\
+
+  En el segundo capítulo se estudia el impacto de los aerosoles en la producitvidad fotovoltaica, esta vez en el área Euro-Mediterránea. En este caso, las \textbf{simulaciones climáticas} serán utilizadas como input del modelo fotovoltaico, creando una cadena de modelado que permita realizar un ejercicio comparativo de sensibilidad para cuantificar el papel de los aerosoles.\\
+  
+  Por último, se realiza el análisis del potencial fotovoltaico futuro, evaluando las tendencias y anomalías con respecto a un periodo de referencia. En este caso, se hace un \textbf{estudio multimodelo} a través de distintas simulaciones de diferentes RCMs que permita evaluar el recurso solar y se utilizan las mismas para el cálculo de la producción fotovoltaica. En este último punto vuelve a considerarse la representación del campo de AOD dentro de las simulaciones climáticas como variable determinante en las proyecciones de SSR y productividad PV.\\
+  
+\end{abstract} 
 \section{Clustering algorithm applied to climate data}
 % The culstering algorithms are design for grouping together variables and recognise patterns between them that are difficult to see at first sigth. This algorithm were first applied in ... and they have grown quickly adapting to a highly data-driven world.
 
@@ -19,9 +31,9 @@
 
 %En un mundo cada vez más movido por los datos, el reconocimiento de patrones se ha utilizado en  muchas disciplinas, desde la biología a las finanzas o las ciencias socialses, para extraer información relevante de los diferentes conjuntos de datos. Éstas técnicas, ayudan a conocer relaciones difíciles de extraer a simple vista, bien por el volumen de los datos, o por la complejidad de las mismas y la cantidad de variables involucradas. 
 
-In a data-driven world, \textbf{pattern recognition} is being applied to many disciplines, from biology to finanze or social science, to extract relevant information from the different datasets. These techniques help to understand relationships that are difficult to extract at a first sight, either due to the volume of the data, or the complexity of those relationships and the amount of different variables involved. Behind all the pattern recognition methods rely the simple fact of classify objects into similar classes.\\
+In a data-driven world, \textbf{pattern recognition} is being applied to many disciplines from biology to finanze through social science, in order to obtain relevant information from different datasets. These techniques help to understand relationships that are difficult to extract at a first sight, either due to the volume of the data, or the complexity of those relationships and the amount of different variables involved. Behind all the pattern recognition methods rely the simple fact of classifying objects into similar classes.\\
 
-Depending on the a priori information about the data, it is possible to applied a supervised data classification/pattern recognition or unsupervised pattern recognition.\\
+Depending on the a priori information about the data, it is possible to applied a \textbf{supervised} data classification/pattern recognition or \textbf{unsupervised} pattern recognition.\\
 
 In the first stage of a supervised pattern recognition analysis there is the ability to set the measurements that will define similarity between objects, meaning the definition of the features from the dataset. The classification of different objects in the pattern recognition analysis is implemented through these features and its selection. After that, a criteria to optimally divide the features into classes is decided and applied to them. This stage is called the clasifier stage and its complexity increase with the dimensionality of the data.\\
 
@@ -31,9 +43,9 @@ However, if the similarity measurements can not be define first, due to unknown 
 
 It is not under the scope of this work to analayse in detail all the clustering methods available, due to the vast number of them and its increasing complexity. However, it is worth it to give an overview of its classification and application in order to better understand the choice made in the study of our problem.\\
 
-There are different types of clustering algorithms based on its application and the criteria to construct the clusters. The two main categories are divided in \textbf{hierarchical} and \textbf{non-hierarchical algorithms}, but there are other taxonomies based on the algorithm construction that can be used to classified different methods [ref].\\
+There are different types of clustering algorithms based on its application and the criteria applied to construct the clusters. The two main categories are divided in \textbf{hierarchical} and \textbf{non-hierarchical algorithms}, but there are other taxonomies based on the algorithm construction that can be used to classified different methods [ref].\\
 
-The \textbf{hierarchical clustering algorithms} create a number of nested clusters and can be also divided itself in agglomerative or divisive. The first one, obtain a smaller number of cluster in each step, whereas the divisive algorithms, works on the other direction.\\
+The \textbf{hierarchical clustering algorithms} create a number of nested clusters and they can be also divided themselves in agglomerative or divisive. The first one, obtain a smaller number of cluster in each step, whereas the divisive algorithms, works on the other direction.\\
 
 Most of these hierarchical algorithms are variants of the single-link or complete-link algorithms. They have a different way to measure similarity. In the first case, the distance between two clusters is the minimum of all the pairwise distances measured between the objects of the two clusters, in contrast, for the complete-link algorithm the distance is considered the maximum of all the pairwise distances.\\
 
@@ -48,7 +60,7 @@ The partitional methods create the group of clusters using an \textbf{optimizati
 
 As previously commented, the use of pattern recognition and in particular, the clustering analysis, has been widely used across many different disciplines. The use of these techniques to group together atmospheric variables that could help in environmental classifications is a more recent research field.[ref]\\
 
-Historically, the climatic divisions were based mostly on the differences in vegetation types around the globe. The Koppen-Terawata classification [ref] is the most widely known climate classification and bases its divisions in obtaining the vegetation thresholds from precipitation and temperature data. Some authors had already pointed the limitations of this classifications, mostly due to two aspects: the first one is that vegetation thresholds are not well defined and that could be an issue when higher resoultion spatial scales want to be defined. On the other hand, is the fact that not only precipitation and temperature are influencing the vegetation species but also other atmospheric variables, like solar irradiation, but also other environmental factors that could be related to antropoghenic emissions or waste.\\
+Historically, the climatic divisions were based mostly on the differences in vegetation types around the globe. The Koppen-Terawata classification [ref] is the most widely known climate classification and bases its divisions in obtaining the vegetation thresholds from precipitation and temperature data. Some authors had already pointed the limitations of this classification method mostly due to two aspects: the first one is that vegetation thresholds are not well defined and that could be an issue when higher spatial resoultion scales want to be defined. On the other hand, is the fact that not only precipitation and temperature are influencing the vegetation species but also other atmospheric variables like solar irradiation, as well as other environmental factors that could be related to antropoghenic emissions or waste.\\
 
 {\color{red}{Buscar más biblio de esto}}
 
@@ -79,6 +91,10 @@ The PCA has been applied in advance to K-means clustering algorithm among the li
 \subsubsection{Validity Index}
 
 \subsubsection{Initialize K-Means}
+
+\section{Regional Climate Modeling}
+
+El sistema climático y su modelización. Modelos de circulación globales. Orígenes de los modelos de área limitada, LAM. Downscalling dinámico que pasó a ser el desarrollo de los RCM.
 
 \section{Simulating a photovoltaic system}
 
@@ -217,6 +233,6 @@ After considering all these factors, the power output of the whole system is ass
 \nomenclature[kinv]{$k_{i}^{o}$}{Coefficients of the
   efficiency curve of a inverter}
 
-\section{Regional Climate Modeling simulations}
+
 \section{Future projections and scenarios}
 

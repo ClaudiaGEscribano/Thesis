@@ -1,8 +1,18 @@
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
-\usepackage[a4paper]{geometry}
-\geometry{verbose,tmargin=2.5cm,bmargin=2.5cm,lmargin=2.5cm,rmargin=2.5cm}
+\usepackage[b5paper]{geometry}%[a4paper]{geometry}
+%\geometry{verbose,tmargin=2.5cm,bmargin=2.5cm,lmargin=2.5cm,rmargin=2.5cm}
+%\usepackage{geometry}
+%\geometry{
+% b5paper
+% total={170mm,257mm},
+% left=20mm,
+% top=20mm,
+% }
 \pagestyle{Ruled}
+%\settypeblocksize{6.5in}{4.5in}{*}
+%\setlrmargins{*}{*}{1}
+%\checkandfixthelayout
 \usepackage{array}
 \usepackage{verbatim}
 \usepackage{prettyref}
@@ -170,7 +180,7 @@ backend=bibtex, doi=true, url=true]{biblatex}
 \setlength{\afterchapskip}{35pt}
 \maxtocdepth{section}
 
-%\setcounter{topnumber}{3}
+% \setcounter{topnumber}{3}
 %\setcounter{bottomnumber}{2}
 %\setcounter{totalnumber}{4}
 \renewcommand{\topfraction}{0.85}
@@ -270,3 +280,7 @@ backend=bibtex, doi=true, url=true]{biblatex}
 }
 \makeatother
 \chapterstyle{daleif1}
+
+\epigraphfontsize{\small\itshape}
+\setlength\epigraphwidth{8cm}
+\setlength\epigraphrule{0pt}
