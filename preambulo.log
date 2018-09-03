@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.24)  27 AUG 2018 17:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.30)  3 SEP 2018 12:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1346,7 +1346,7 @@ If that doesn't work, type  X <return>  to quit.
 
 ./preambulo.tex:161: Undefined control sequence.
 l.161 \pretitle
-               {\vfill \begin{center} \bfseries \scshape \HUGE \color{Black}}
+               {\vfill \begin{center} \bfseries\HUGE \color{Black}}% \scshap...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1361,7 +1361,8 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.161 \pretitle{\vfill \begin{center}
-                                      \bfseries \scshape \HUGE \color{Black}}
+                                      \bfseries\HUGE \color{Black}}% \scshap...
+
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -1370,13 +1371,9 @@ Overfull \hbox (20.0pt too wide) in paragraph at lines 161--161
 [] 
  []
 
-
-LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
-(Font)              using `OT1/cmr/bx/n' instead on input line 161.
-
 ./preambulo.tex:161: Undefined control sequence.
-l.161 ...l \begin{center} \bfseries \scshape \HUGE
-                                                   \color{Black}}
+l.161 ...itle{\vfill \begin{center} \bfseries\HUGE
+                                                   \color{Black}}% \scshape ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1384,8 +1381,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ./preambulo.tex:161: Undefined control sequence.
-l.161 ...n{center} \bfseries \scshape \HUGE \color
-                                                  {Black}}
+l.161 ...fill \begin{center} \bfseries\HUGE \color
+                                                  {Black}}% \scshape \HUGE \...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1393,8 +1390,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ./preambulo.tex:161: Extra }, or forgotten \endgroup.
-l.161 ...} \bfseries \scshape \HUGE \color{Black}}
-                                                  
+l.161 ...gin{center} \bfseries\HUGE \color{Black}}
+                                                  % \scshape \HUGE \color{Bl...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
 you forgot something else, as in `\hbox{$x}'. In such cases
@@ -1442,7 +1439,7 @@ my insertion and my current dilemma will both disappear.
 
 ./preambulo.tex:164: Undefined control sequence.
 l.164 \preauthor
-                {\begin{center} \large \scshape}
+                {\begin{center} \large}% \scshape}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1457,7 +1454,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.164 \preauthor{\begin{center}
-                                \large \scshape}
+                                \large}% \scshape}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -1468,7 +1465,7 @@ Overfull \hbox (20.0pt too wide) in paragraph at lines 164--164
 
 ./preambulo.tex:164: Undefined control sequence.
 l.164 \preauthor{\begin{center} \large
-                                       \scshape}
+                                      }% \scshape}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1476,8 +1473,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ./preambulo.tex:164: Extra }, or forgotten \endgroup.
-l.164 \preauthor{\begin{center} \large \scshape}
-                                                
+l.164 \preauthor{\begin{center} \large}
+                                       % \scshape}
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
 you forgot something else, as in `\hbox{$x}'. In such cases
@@ -1744,22 +1741,45 @@ Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./preambulo.tex:285: LaTeX Error: \usepackage before \documentclass.
+./preambulo.tex:314: LaTeX Error: \usepackage before \documentclass.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.285 \usepackage{
-                  calc,color}
+l.314 \usepackage{
+                  fourier} % or what ever
 \usepackage may only appear in the document preamble, i.e.,
 between \documentclass and \begin{document}.
 
-./preambulo.tex:291: Undefined control sequence.
-<argument> \midchapskip 
-                        
-l.291 \setlength\midchapskip{0pt}
-                                 
+
+./preambulo.tex:315: LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.315 \usepackage[scaled=.92]{
+                              helvet}%. Sans serif - Helvetica
+\usepackage may only appear in the document preamble, i.e.,
+between \documentclass and \begin{document}.
+
+
+./preambulo.tex:316: LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.316 \usepackage{
+                  color,calc}
+\usepackage may only appear in the document preamble, i.e.,
+between \documentclass and \begin{document}.
+
+\ChpNumBox=\box26
+./preambulo.tex:318: Undefined control sequence.
+l.318 \definecolor
+                  {ChapBlue}{rgb}{0.00,0.65,0.65}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1767,137 +1787,234 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-./preambulo.tex:291: LaTeX Error: Missing \begin{document}.
+./preambulo.tex:318: LaTeX Error: Missing \begin{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.291 \setlength\midchapskip{0pt}
-                                 
+l.318 \definecolor{C
+                    hapBlue}{rgb}{0.00,0.65,0.65}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-Missing character: There is no 0 in font nullfont!
+Missing character: There is no C in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no a in font nullfont!
 Missing character: There is no p in font nullfont!
-Missing character: There is no t in font nullfont!
-./preambulo.tex:292: Undefined control sequence.
-l.292 \makechapterstyle
-                       {VZ43}{
+Missing character: There is no B in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 5 in font nullfont!
+./preambulo.tex:330: Undefined control sequence.
+l.330 \makechapterstyle
+                       {BlueBox}{%
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-Missing character: There is no V in font nullfont!
-Missing character: There is no Z in font nullfont!
-Missing character: There is no 4 in font nullfont!
-Missing character: There is no 3 in font nullfont!
+Missing character: There is no B in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no B in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no x in font nullfont!
 
-./preambulo.tex:293: LaTeX Error: \chapternamenum undefined.
+./preambulo.tex:331: LaTeX Error: \chapnamefont undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.293 \renewcommand\chapternamenum
-                                  {}
+l.331 \renewcommand{\chapnamefont}
+                                  {\large\scshape}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./preambulo.tex:294: LaTeX Error: \printchaptername undefined.
+./preambulo.tex:332: LaTeX Error: \chapnumfont undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.294 \renewcommand\printchaptername
+l.332 \renewcommand{\chapnumfont}
+                                 {\Huge\bfseries}
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./preambulo.tex:333: LaTeX Error: \chaptitlefont undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.333 \renewcommand{\chaptitlefont}
+                                   {\raggedright\Huge\bfseries}
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+./preambulo.tex:334: Undefined control sequence.
+<argument> \beforechapskip 
+                           
+l.334 \setlength{\beforechapskip}{20pt}
+                                       
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+./preambulo.tex:335: Undefined control sequence.
+<argument> \midchapskip 
+                        
+l.335 \setlength{\midchapskip}{26pt}
+                                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+./preambulo.tex:336: Undefined control sequence.
+<argument> \afterchapskip 
+                          
+l.336 \setlength{\afterchapskip}{40pt}
+                                      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no 4 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+
+./preambulo.tex:337: LaTeX Error: \printchaptername undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.337 \renewcommand{\printchaptername}
+                                      {}
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./preambulo.tex:338: LaTeX Error: \chapternamenum undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.338 \renewcommand{\chapternamenum}
                                     {}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./preambulo.tex:295: LaTeX Error: \printchapternum undefined.
+./preambulo.tex:339: LaTeX Error: \printchapternum undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.295 \renewcommand\printchapternum
-                                   {}
+l.339 \renewcommand{\printchapternum}
+                                     {%
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./preambulo.tex:296: LaTeX Error: \chapnumfont undefined.
+./preambulo.tex:343: LaTeX Error: \printchapternonum undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.296 \renewcommand\chapnumfont
-                               {\Huge\bfseries\centering}
+l.343 \renewcommand{\printchapternonum}
+                                       {%
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./preambulo.tex:297: LaTeX Error: \chaptitlefont undefined.
+./preambulo.tex:347: LaTeX Error: \afterchapternum undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.297 \renewcommand\chaptitlefont
-                                 {\Huge\bfseries\raggedright}
+l.347 \renewcommand{\afterchapternum}
+                                     {}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./preambulo.tex:298: LaTeX Error: \printchaptertitle undefined.
+./preambulo.tex:348: LaTeX Error: \printchaptertitle undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.298 \renewcommand\printchaptertitle
-                                     [1]{%
+l.348 \renewcommand{\printchaptertitle}
+                                       [1]{%
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-
-./preambulo.tex:309: LaTeX Error: \printchapternonum undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.309 \renewcommand\printchapternonum
-                                     {\NoChapNumbertrue}
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-./preambulo.tex:312: Undefined control sequence.
-l.312 \chapterstyle
-                   {VZ43}
+./preambulo.tex:355: Undefined control sequence.
+l.355 \chapterstyle
+                   {BlueBox}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-Missing character: There is no V in font nullfont!
-Missing character: There is no Z in font nullfont!
-Missing character: There is no 4 in font nullfont!
-Missing character: There is no 3 in font nullfont!
+Missing character: There is no B in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no B in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no x in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 291--313
+Overfull \hbox (20.0pt too wide) in paragraph at lines 318--356
 []
  []
 
-./preambulo.tex:315: Undefined control sequence.
-l.315 \epigraphfontsize
+./preambulo.tex:357: Undefined control sequence.
+l.357 \epigraphfontsize
                        {\small\itshape}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1905,8 +2022,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./preambulo.tex:315: Undefined control sequence.
-l.315 \epigraphfontsize{\small
+./preambulo.tex:357: Undefined control sequence.
+l.357 \epigraphfontsize{\small
                               \itshape}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1914,10 +2031,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./preambulo.tex:316: Undefined control sequence.
+./preambulo.tex:358: Undefined control sequence.
 <argument> \epigraphwidth 
                           
-l.316 \setlength\epigraphwidth{8cm}
+l.358 \setlength\epigraphwidth{8cm}
                                    
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1926,13 +2043,13 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-./preambulo.tex:316: LaTeX Error: Missing \begin{document}.
+./preambulo.tex:358: LaTeX Error: Missing \begin{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.316 \setlength\epigraphwidth{8cm}
+l.358 \setlength\epigraphwidth{8cm}
                                    
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1940,10 +2057,10 @@ If that doesn't work, type  X <return>  to quit.
 Missing character: There is no 8 in font nullfont!
 Missing character: There is no c in font nullfont!
 Missing character: There is no m in font nullfont!
-./preambulo.tex:317: Undefined control sequence.
+./preambulo.tex:359: Undefined control sequence.
 <argument> \epigraphrule 
                          
-l.317 \setlength\epigraphrule{0pt}
+l.359 \setlength\epigraphrule{0pt}
                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1962,11 +2079,11 @@ Missing character: There is no t in font nullfont!
 
  
 Here is how much of TeX's memory you used:
- 60 strings out of 493029
- 724 string characters out of 6136234
- 54097 words of memory out of 5000000
- 3693 multiletter control sequences out of 15000+600000
+ 61 strings out of 494953
+ 728 string characters out of 6180977
+ 46171 words of memory out of 5000000
+ 3443 multiletter control sequences out of 15000+600000
  4595 words of font info for 17 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 12i,1n,10p,122b,123s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 14 hyphenation exceptions out of 8191
+ 12i,1n,12p,131b,105s stack positions out of 5000i,500n,10000p,200000b,80000s
 !  ==> Fatal error occurred, no output PDF file produced!

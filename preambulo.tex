@@ -64,27 +64,30 @@
 %\raggedbottomsection
 \feetbelowfloat
 
+% !! esta seccion esta comentadda porque da problemas en veleta
 
-\usepackage[citestyle=alphabetic, bibstyle=alphabetic, maxbibnames=5,minbibnames=3,
-backend=bibtex, doi=true, url=true]{biblatex}
+%\usepackage[citestyle=alphabetic, bibstyle=alphabetic, maxbibnames=5,minbibnames=3,
+%backend=bibtex, doi=true, url=true]{biblatex}
 
-\DefineBibliographyStrings{spanish}{%
-  andothers        = {et\addabbrvspace al\adddot},
-  andmore          = {et\addabbrvspace al\adddot},
-  in               = {},
-}
+% \DefineBibliographyStrings{spanish}{%
+%   andothers        = {et\addabbrvspace al\adddot},
+%   andmore          = {et\addabbrvspace al\adddot},
+%   in               = {},
+% }
 
-\addbibresource{../biblio.bib}
+%\addbibresource{../biblio.bib}
 
 \let\cite\parencite
 
-\renewcommand{\bibsection}{%
-	\chapter*{\bibname}
-	\bibmark
-	\phantomsection
-	\addcontentsline{toc}{chapter}{\bibname}
-	\prebibhook}
+% \renewcommand{\bibsection}{%
+% 	\chapter*{\bibname}
+% 	\bibmark
+% 	\phantomsection
+% 	\addcontentsline{toc}{chapter}{\bibname}
+% 	\prebibhook}
 % \renewcommand{\bbltechreport}{Informe T\'ecnico}
+
+% !!
 
 %definition of some colors I could use.      
 \definecolor{amaranth}{rgb}{0.9, 0.17, 0.31}
