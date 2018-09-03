@@ -4,7 +4,7 @@
 \contentsline {part}{\partnumberline {I}Introduction}{1}{part.1}
 \contentsline {chapter}{\chapternumberline {1}Introduction}{3}{chapter.1}
 \contentsline {section}{\numberline {1.1}A changing world}{3}{section.1.1}
-\contentsline {section}{\numberline {1.2}Renewable Energies}{4}{section.1.2}
+\contentsline {section}{\numberline {1.2}Renewable Energies}{3}{section.1.2}
 \contentsline {section}{\numberline {1.3}Links between climate and renewable energy}{5}{section.1.3}
 \contentsline {section}{\numberline {1.4}Photovoltaic Energy}{5}{section.1.4}
 \contentsline {section}{\numberline {1.5}Climate change and the Mediterranean area}{5}{section.1.5}
@@ -17,32 +17,32 @@
 \contentsline {section}{\numberline {2.4}Climate Change perspectives for solar resource and photovoltaic potential}{7}{section.2.4}
 \contentsline {part}{\partnumberline {II}Data \& Methods}{9}{part.2}
 \contentsline {chapter}{\chapternumberline {3}Data}{11}{chapter.3}
-\contentsline {section}{\numberline {3.1}Solar radiation measurements}{11}{section.3.1}
-\contentsline {section}{\numberline {3.2}Satellite data}{11}{section.3.2}
-\contentsline {section}{\numberline {3.3}Modelling solar radiation}{11}{section.3.3}
-\contentsline {section}{\numberline {3.4}photovoltaic prodution data}{11}{section.3.4}
-\contentsline {chapter}{\chapternumberline {4}Methods}{13}{chapter.4}
+\contentsline {section}{\numberline {3.1}Solar radiation measurements \textit {Baseline Surface Radiation Network, BSRN}}{11}{section.3.1}
+\contentsline {section}{\numberline {3.2}Satellite data: \textit {Climate Monitoring Satellite Application Facility, CM-SAF}}{12}{section.3.2}
+\contentsline {section}{\numberline {3.3}Modelling solar radiation}{13}{section.3.3}
+\contentsline {section}{\numberline {3.4}Photovoltaic prodution data}{13}{section.3.4}
+\contentsline {section}{\numberline {3.5}Other datasets}{13}{section.3.5}
+\contentsline {chapter}{\chapternumberline {4}Methods}{15}{chapter.4}
 \contentsline {section}{\numberline {4.1}Clustering algorithm applied to climate data}{16}{section.4.1}
 \contentsline {subsection}{\numberline {4.1.1}Clustering algorithms}{16}{subsection.4.1.1}
 \contentsline {subsection}{\numberline {4.1.2}Clustering climate data}{17}{subsection.4.1.2}
-\contentsline {subsection}{\numberline {4.1.3}Applied clustering method}{18}{subsection.4.1.3}
-\contentsline {subsubsection}{K-Means algorithm}{19}{subsection.4.1.3}
-\contentsline {subsubsection}{Principal Component Analysis}{19}{subsection.4.1.3}
-\contentsline {subsubsection}{Validity Index}{20}{subsection.4.1.3}
-\contentsline {subsubsection}{Initialize K-Means}{20}{subsection.4.1.3}
-\contentsline {section}{\numberline {4.2}Regional Climate Modeling}{20}{section.4.2}
-\contentsline {section}{\numberline {4.3}Simulating a photovoltaic system}{20}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Global effective irradiation}{21}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}Photovoltaic energy yield}{22}{subsection.4.3.2}
-\contentsline {section}{\numberline {4.4}Future projections and scenarios}{25}{section.4.4}
-\contentsline {part}{\partnumberline {III}Results}{27}{part.3}
-\contentsline {chapter}{\chapternumberline {5}Long-term characteristics of solar resource over the Iberian Peninsula}{29}{chapter.5}
-\contentsline {section}{\numberline {5.1}Introduction}{34}{section.5.1}
-\contentsline {subsection}{\numberline {5.1.1}Methods}{35}{subsection.5.1.1}
-\contentsline {subsubsection}{Regionalization by clustering}{36}{figure.5.1}
-\contentsline {subsubsection}{Photovoltaic energy yield}{40}{equation.5.1.2}
-\contentsline {subsubsection}{Variability and complementarity}{41}{Item.4}
-\contentsline {subsection}{\numberline {5.1.2}Results}{42}{subsection.5.1.2}
-\contentsline {subsubsection}{Variability and complementarity results}{42}{figure.5.3}
+\contentsline {subsection}{\numberline {4.1.3}Applied clustering method}{17}{subsection.4.1.3}
+\contentsline {subsubsection}{K-Means algorithm}{18}{subsection.4.1.3}
+\contentsline {subsubsection}{Principal Component Analysis}{18}{equation.4.1.1}
+\contentsline {subsubsection}{Validity Index}{19}{equation.4.1.1}
+\contentsline {section}{\numberline {4.2}Simulating a photovoltaic system}{20}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Global effective irradiation}{21}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Photovoltaic energy yield}{22}{subsection.4.2.2}
+\contentsline {section}{\numberline {4.3}Using Regional Climate Models}{23}{section.4.3}
+\contentsline {section}{\numberline {4.4}Future projections and scenarios}{27}{section.4.4}
+\contentsline {part}{\partnumberline {III}Results}{29}{part.3}
+\contentsline {chapter}{\chapternumberline {5}Long-term characteristics of solar resource over the Iberian Peninsula}{31}{chapter.5}
+\contentsline {section}{\numberline {5.1}Introduction}{36}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Methods}{37}{subsection.5.1.1}
+\contentsline {subsubsection}{Regionalization by clustering}{37}{figure.5.1}
+\contentsline {subsubsection}{Photovoltaic energy yield}{41}{equation.5.1.2}
+\contentsline {subsubsection}{Variability and complementarity}{42}{Item.2}
+\contentsline {subsection}{\numberline {5.1.2}Results}{43}{subsection.5.1.2}
+\contentsline {subsubsection}{Variability and complementarity results}{43}{figure.5.3}
 \contentsline {subsection}{\numberline {5.1.3}Conclusion}{49}{subsection.5.1.3}
 \contentsline {subsection}{\numberline {5.1.4}Summary}{49}{subsection.5.1.4}

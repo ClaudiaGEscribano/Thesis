@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.24)  16 AUG 2018 18:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.24)  29 AUG 2018 16:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1688,31 +1688,6 @@ and I'll forget about whatever was undefined.
 (/usr/share/texlive/texmf-dist/tex/latex/eso-pic/eso-pic.sty
 Package: eso-pic 2015/07/21 v2.0g eso-pic (RN)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
-Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count399
-\calc@Bcount=\count400
-\calc@Adimen=\dimen284
-\calc@Bdimen=\dimen285
-\calc@Askip=\skip274
-\calc@Bskip=\skip275
-LaTeX Info: Redefining \setlength on input line 80.
-LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count401
-\calc@Cskip=\skip276
-)
-(/usr/share/texlive/texmf-dist/tex/latex/soul/soul.sty
-Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
-\SOUL@word=\toks31
-\SOUL@lasttoken=\toks32
-\SOUL@cmds=\toks33
-\SOUL@buffer=\toks34
-\SOUL@token=\toks35
-\SOUL@spaceskip=\skip277
-\SOUL@ttwidth=\dimen286
-\SOUL@uldp=\dimen287
-\SOUL@ulht=\dimen288
-)
 (/usr/share/texlive/texmf-dist/tex/latex/fourier/fourier.sty
 Package: fourier 2005/01/01 1.4 fourier-GUTenberg package
 Now handling font encoding FML ...
@@ -1859,8 +1834,23 @@ LaTeX Font Info:    Redeclaring math accent \dot on input line 255.
 LaTeX Font Info:    Redeclaring math accent \mathring on input line 256.
 \symUfutm=\mathgroup8
 )
-\dlf@normtxtw=\skip278
-\feline@chapter=\box53
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/helvet.sty
+Package: helvet 2005/04/12 PSNFSS-v9.2a (WaS) 
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count399
+\calc@Bcount=\count400
+\calc@Adimen=\dimen284
+\calc@Bdimen=\dimen285
+\calc@Askip=\skip274
+\calc@Bskip=\skip275
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count401
+\calc@Cskip=\skip276
+)
+\ChpNumBox=\box53
 )
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
@@ -1874,7 +1864,11 @@ File: english.lbx 2016/03/03 v3.3 biblatex localization (PK/JW/AB)
 
 LaTeX Warning: Label `cha:data' multiply defined.
 
-) (./Resultados.aux))
+) (./Resultados.aux
+
+LaTeX Warning: Label `eq:euclidean' multiply defined.
+
+))
 \openout1 = `tesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
@@ -1962,16 +1956,16 @@ File: t1futs.fd 2004/03/02 Fontinst v1.926 font definitions for T1/futs.
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count404
-\scratchdimen=\dimen289
+\scratchdimen=\dimen286
 \scratchbox=\box54
 \nofMPsegments=\count405
 \nofMParguments=\count406
-\everyMPshowfont=\toks36
+\everyMPshowfont=\toks31
 \MPscratchCnt=\count407
-\MPscratchDim=\dimen290
+\MPscratchDim=\dimen287
 \MPnumerator=\count408
 \makeMPintoPDFobject=\count409
-\everyMPtoPDFconversion=\toks37
+\everyMPtoPDFconversion=\toks32
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
@@ -2916,7 +2910,17 @@ File: siunitx-abbreviations.cfg 2016/03/01 v2.6q siunitx: Abbreviated units
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
+. Defining command \hl with sig. '' on line 7.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
 . Defining command \ml with sig. '' on line 7.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \ul with sig. '' on line 7.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
@@ -3262,10 +3266,8 @@ LaTeX Font Info:    Font shape `U/futm/m/n' will be
 \c__siunitx_mathtt_int=\count412
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <10> not available
 (Font)              Font shape `T1/futs/b/n' tried instead on input line 22.
-LaTeX Font Info:    Font shape `T1/futs/bx/sc' in size <10> not available
-(Font)              Font shape `T1/futs/b/sc' tried instead on input line 22.
-LaTeX Font Info:    Font shape `T1/futs/bx/sc' in size <24.88> not available
-(Font)              Font shape `T1/futs/b/sc' tried instead on input line 22.
+LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <24.88> not available
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 22.
 
 
 ./tesis.tex:22: LaTeX Error: \begin{center} on input line 22 ended by \end{flus
@@ -3300,11 +3302,12 @@ or  <return>  to continue without it.
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2
 
 ]
-LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <17.28> not available
+LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <20.74> not available
 (Font)              Font shape `T1/futs/b/n' tried instead on input line 32.
-LaTeX Font Info:    Font shape `T1/futs/bx/sc' in size <17.28> not available
-(Font)              Font shape `T1/futs/b/sc' tried instead on input line 32.
- (./tesis.toc
+ [1
+
+
+] (./tesis.toc
 
 ./tesis.toc:2: Package xcolor Error: Undefined color `grey'.
 
@@ -3317,10 +3320,6 @@ l.2 ...tentsline {chapter}{Preface}{i}{chapter*.1}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[1
-
-
-]
 
 ./tesis.toc:3: Package xcolor Error: Undefined color `grey'.
 
@@ -3394,7 +3393,7 @@ See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.7 ...ne {1.2}Renewable Energies}{4}{section.1.2}
+l.7 ...ne {1.2}Renewable Energies}{3}{section.1.2}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -3549,6 +3548,9 @@ l.19 ...\chapternumberline {3}Data}{11}{chapter.3}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
+[2
+
+]
 
 ./tesis.toc:20: Package xcolor Error: Undefined color `grey'.
 
@@ -3556,10 +3558,16 @@ See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.20 ...r radiation measurements}{11}{section.3.1}
+l.20 ...Radiation Network, BSRN}}{11}{section.3.1}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (1.17322pt too wide) in paragraph at lines 20--20
+ [][] [][][]\T1/futs/m/n/10 Solar ra-di-a-tion mea-sure-ments \T1/futs/m/it/10 
+Base-line Sur-face Ra-di-a-tion Net-work, BSRN[][] []  
+ []
 
 
 ./tesis.toc:21: Package xcolor Error: Undefined color `grey'.
@@ -3568,7 +3576,7 @@ See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.21 ...line {3.2}Satellite data}{11}{section.3.2}
+l.21 ...cation Facility, CM-SAF}}{12}{section.3.2}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -3580,7 +3588,7 @@ See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.22 ...odelling solar radiation}{11}{section.3.3}
+l.22 ...odelling solar radiation}{13}{section.3.3}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -3592,7 +3600,7 @@ See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.23 ...tovoltaic prodution data}{11}{section.3.4}
+l.23 ...tovoltaic prodution data}{13}{section.3.4}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -3604,12 +3612,11 @@ See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.24 ...apternumberline {4}Methods}{13}{chapter.4}
+l.24 ...line {3.5}Other datasets}{13}{section.3.5}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[2]
 
 ./tesis.toc:25: Package xcolor Error: Undefined color `grey'.
 
@@ -3617,7 +3624,19 @@ See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.25 ... applied to climate data}{16}{section.4.1}
+l.25 ...apternumberline {4}Methods}{15}{chapter.4}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./tesis.toc:26: Package xcolor Error: Undefined color `grey'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.26 ... applied to climate data}{16}{section.4.1}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -3629,19 +3648,19 @@ See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.33 ...egional Climate Modeling}{20}{section.4.2}
+l.33 ...ng a photovoltaic system}{20}{section.4.2}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./tesis.toc:34: Package xcolor Error: Undefined color `grey'.
+./tesis.toc:36: Package xcolor Error: Undefined color `grey'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.34 ...ng a photovoltaic system}{20}{section.4.3}
+l.36 ... Regional Climate Models}{23}{section.4.3}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -3653,7 +3672,7 @@ See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.37 ...rojections and scenarios}{25}{section.4.4}
+l.37 ...rojections and scenarios}{27}{section.4.4}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -3665,7 +3684,7 @@ See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.38 ...{\partnumberline {III}Results}{27}{part.3}
+l.38 ...{\partnumberline {III}Results}{29}{part.3}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -3677,7 +3696,7 @@ See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.39 ...over the Iberian Peninsula}{29}{chapter.5}
+l.39 ...over the Iberian Peninsula}{31}{chapter.5}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -3689,7 +3708,7 @@ See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.40 ...erline {5.1}Introduction}{34}{section.5.1}
+l.40 ...erline {5.1}Introduction}{36}{section.5.1}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -3704,7 +3723,7 @@ If that doesn't work, type  X <return>  to quit.
 \openout2 = `Intro.aux'.
 
  (./Intro.tex
-LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <20.74> not available
+LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <17.28> not available
 (Font)              Font shape `T1/futs/b/n' tried instead on input line 17.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
@@ -3720,11 +3739,6 @@ l.17 \part{Introduction\label{cha:intro}}
                    \relax 
 l.17 \part{Introduction\label{cha:intro}}
                                           [2]
-LaTeX Font Info:    Try loading font information for T1+cmss on input line 33.
-
-(/usr/share/texlive/texmf-dist/tex/latex/base/t1cmss.fd
-File: t1cmss.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
 (Font)              scaled to size 8.27998pt on input line 37.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
@@ -3735,86 +3749,171 @@ LaTeX Font Info:    Font shape `U/futm/m/n' will be
 (Font)              scaled to size 8.27998pt on input line 37.
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <12> not available
 (Font)              Font shape `T1/futs/b/n' tried instead on input line 39.
- [3
 
-] [4] [5] [6
+Overfull \hbox (18.44643pt too wide) in paragraph at lines 49--51
+[]\T1/futs/m/n/10 * En-tre-laza-miento de to-das es-tas cues-tiones. * El conoc
+imiento puro + el conocimiento
+ []
 
-])
-[7]
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--74
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 75--76
+
+ []
+
+[3
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 77--78
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 81--82
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 83--84
+
+ []
+
+[4] [5] [6
+
+]) [7]
 \openout2 = `DataMethods.aux'.
 
  (./DataMethods.tex [8
 
 
 
-] [9] [10] [11
+] [9] [10]
+Underfull \hbox (badness 10000) in paragraph at lines 6--7
 
-] [12
+ []
 
-] [13] [14
+
+Overfull \hbox (7.00298pt too wide) in paragraph at lines 8--9
+\T1/futs/m/n/10 source as-sess-ment tech-niques, but also for the study of the 
+whole at-mo-spheric/climatic
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--9
+
+ []
+
+LaTeX Font Info:    Font shape `T1/futs/bx/it' in size <12> not available
+(Font)              Font shape `T1/futs/b/it' tried instead on input line 10.
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--14
+
+ []
+
+
+./DataMethods.tex:15: Package xcolor Error: Undefined color `grey'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.15 ...ic zones. In figure \ref{fig:bsrnstations}
+                                                   all the available station...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--16
+
+ []
+
+[11
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 16--17
+Overfull \hbox (11.29247pt too wide) in paragraph at lines 17--18
+\T1/futs/m/n/10 ini-ti-ated the Base-line Sur-face Ra-di-a-tion Net-work (BSRN)
+ to sup-port the re-search projects
+ []
+
+<DataMethodsFIGS/bsrn.pdf, id=247, 807.41652pt x 548.24826pt>
+File: DataMethodsFIGS/bsrn.pdf Graphic file (type pdf)
+
+<use DataMethodsFIGS/bsrn.pdf>
+Package pdftex.def Info: DataMethodsFIGS/bsrn.pdf used on input line 22.
+(pdftex.def)             Requested size: 280.43019pt x 190.41742pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--40
+
+ []
+
+./DataMethods.tex:43: Misplaced alignment tab character &.
+l.43 ... covers parameters related to the energy &
+                                                   water cycle and addresses...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--44
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 18--19
+Overfull \hbox (1.33214pt too wide) in paragraph at lines 45--46
+[]\T1/futs/m/n/10 The CM SAF pro-duces both En-vi-ro-men-tal Data Records and C
+li-mate Data Records. 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--46
+
+ []
+
+[12 <./DataMethodsFIGS/bsrn.pdf>]
+Overfull \hbox (0.63257pt too wide) in paragraph at lines 47--48
+[]\T1/futs/m/n/10 Environmental Data Records (EDR) are time-tagged earth-locate
+d geo-phys-i-cal pa-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 47--48
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 20--21
+Underfull \hbox (badness 10000) in paragraph at lines 49--50
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 22--23
-
+Overfull \hbox (4.19255pt too wide) in paragraph at lines 51--52
+\T1/futs/m/n/10 on-board the new EU-MET-SAT Me-te-o-ro-log-i-cal Op-er-a-tional
+ satel-lite (MetOP). The prod-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 34--35
-
+Overfull \hbox (0.27641pt too wide) in paragraph at lines 51--52
+\T1/futs/m/n/10 time is suf-fi-cient to mon-i-tor vari-abil-ity on di-ur-nal an
+d sea-sonal scales. Prod-ucts based
  []
 
-[15]
-Underfull \hbox (badness 10000) in paragraph at lines 36--37
+[13] [14
 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 38--39
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 44--45
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 46--47
-
- []
-
-[16]
-Underfull \hbox (badness 10000) in paragraph at lines 48--49
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 50--51
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 52--53
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 54--55
+]
+Underfull \hbox (badness 10000) in paragraph at lines 59--60
 
  []
 
@@ -3823,48 +3922,253 @@ Underfull \hbox (badness 10000) in paragraph at lines 61--62
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--67
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--69
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 72--73
+
+ []
+
+[15]
+Underfull \hbox (badness 10000) in paragraph at lines 90--91
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--93
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 94--95
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 96--97
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 98--99
+
+ []
+
+[16]
+Underfull \hbox (badness 10000) in paragraph at lines 100--101
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 107--108
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 109--110
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 117--118
+
+ []
+
 [17]
-Underfull \hbox (badness 10000) in paragraph at lines 63--64
+
+./DataMethods.tex:123: Package xcolor Error: Undefined color `grey'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.123 ...he euclidean distance, \ref{eq:euclidean}
+                                                  . The algorithm initiates ...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 123--124
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 71--72
+Underfull \hbox (badness 10000) in paragraph at lines 129--130
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 77--78
+Underfull \hbox (badness 10000) in paragraph at lines 131--132
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 135--136
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 137--138
 
  []
 
 [18]
-Underfull \hbox (badness 10000) in paragraph at lines 79--80
+Underfull \hbox (badness 10000) in paragraph at lines 139--140
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 85--86
+Underfull \hbox (badness 10000) in paragraph at lines 143--144
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 87--88
+Overfull \hbox (13.01302pt too wide) in paragraph at lines 145--146
+[]\T1/futs/m/n/10 External val-i-da-tion tech-niques use in-for-ma-tion out-sid
+e the dataset in-volved, whereas
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 145--146
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 89--90
+./DataMethods.tex:147: Package xcolor Error: Undefined color `grey'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.147 ... the \textbf{Calinski-Harabasz}\footnote{
+                                                  In the equation \ref{eq:ca...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 7.35999pt on input line 147.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 6.25598pt on input line 147.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 8.33606pt on input line 147.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 7.08565pt on input line 147.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 8.33606pt on input line 147.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 7.08565pt on input line 147.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 7.35999pt on input line 147.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 6.25598pt on input line 147.
+
+./DataMethods.tex:147: Package xcolor Error: Undefined color `grey'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.147 ... centroid. 'k' is the number of clusters}
+                                                   index (Eq.:\ref{eq:calins...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./DataMethods.tex:147: Package xcolor Error: Undefined color `grey'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.147 ...of clusters} index (Eq.:\ref{eq:calinski}
+                                                  ), the \textbf{Davies-Boul...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./DataMethods.tex:147: Package xcolor Error: Undefined color `grey'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.147 ...), the \textbf{Davies-Bouldien}\footnote{
+                                                  In the equation \ref{eq:da...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./DataMethods.tex:147: Package xcolor Error: Undefined color `grey'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.147 ... centers. 'k' is the number of clusters.}
+                                                    index (Eq.:\ref{eq:davie...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./DataMethods.tex:147: Package xcolor Error: Undefined color `grey'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.147 ...of clusters.}  index (Eq.:\ref{eq:davies}
+                                                  ), and the L-method propos...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 147--148
 
  []
 
 [19]
-Underfull \hbox (badness 10000) in paragraph at lines 101--102
+Underfull \hbox (badness 10000) in paragraph at lines 160--161
 
  []
 
-./DataMethods.tex:114: Undefined control sequence.
-l.114 ...n of these methods can be found in \citep
+
+Overfull \hbox (1.39313pt too wide) in paragraph at lines 162--163
+[]\T1/futs/m/n/10 Both stages in-volve some mod-el-ing as-sump-tions and each o
+ne would be ex-plained
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 162--163
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 164--166
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 167--168
+
+ []
+
+./DataMethods.tex:180: Undefined control sequence.
+l.180 ...n of these methods can be found in \citep
                                                   {Perpinan.Marcos.ea2013}. ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3873,128 +4177,128 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 [20]
-LaTeX Font Info:    Try loading font information for TS1+futs on input line 117
+LaTeX Font Info:    Try loading font information for TS1+futs on input line 183
 .
  (/usr/share/texlive/texmf-dist/tex/latex/fourier/ts1futs.fd
 File: ts1futs.fd 2004/03/26 Fontinst v1.926 font definitions for TS1/futs.
 )
 
-./DataMethods.tex:117: Package xcolor Error: Undefined color `grey'.
+./DataMethods.tex:183: Package xcolor Error: Undefined color `grey'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.117 ...} irradiation, Eq.\ref{GlobalIrradiation}
+l.183 ...} irradiation, Eq.\ref{GlobalIrradiation}
                                                   . To estimate these quanti...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-LaTeX Warning: Citation 'Liu1960' on page 21 undefined on input line 117.
+LaTeX Warning: Citation 'Liu1960' on page 21 undefined on input line 183.
 
 
-./DataMethods.tex:117: Package xcolor Error: Undefined color `grey'.
+./DataMethods.tex:183: Package xcolor Error: Undefined color `grey'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.117 ...rness index}, Eq.\ref{K.indicedeclaridad}
+l.183 ...rness index}, Eq.\ref{K.indicedeclaridad}
                                                   , is the ratio between glo...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./DataMethods.tex:117: Package xcolor Error: Undefined color `grey'.
+./DataMethods.tex:183: Package xcolor Error: Undefined color `grey'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.117 ...irradiation in Eq.\ref{F.diffusefraction}
+l.183 ...irradiation in Eq.\ref{F.diffusefraction}
                                                   . This relation varies dep...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-LaTeX Warning: Citation 'Aguiar1992' on page 21 undefined on input line 117.
+LaTeX Warning: Citation 'Aguiar1992' on page 21 undefined on input line 183.
 
 
-./DataMethods.tex:117: Package xcolor Error: Undefined color `grey'.
+./DataMethods.tex:183: Package xcolor Error: Undefined color `grey'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.117 ...use fraction}, Eq.\ref{F.diffusefraction}
+l.183 ...use fraction}, Eq.\ref{F.diffusefraction}
                                                   .
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-LaTeX Warning: Citation 'Aguiar1992' on page 21 undefined on input line 139.
+LaTeX Warning: Citation 'Aguiar1992' on page 21 undefined on input line 205.
 
 
-./DataMethods.tex:139: Package xcolor Error: Undefined color `grey'.
+./DataMethods.tex:205: Package xcolor Error: Undefined color `grey'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.139 ...aterrestrial irradiation Eq.\ref{ratioB0}
+l.205 ...aterrestrial irradiation Eq.\ref{ratioB0}
                                                   , and the ratio of global ...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./DataMethods.tex:139: Package xcolor Error: Undefined color `grey'.
+./DataMethods.tex:205: Package xcolor Error: Undefined color `grey'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.139 ... from the same reference Eq.\ref{ratioG0}
+l.205 ... from the same reference Eq.\ref{ratioG0}
                                                   .
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
+
+LaTeX Warning: Citation 'hay1985estimating' on page 21 undefined on input line 
+222.
+
+
+LaTeX Warning: Citation 'Martin2001' on page 21 undefined on input line 224.
+
 [21]
 
-LaTeX Warning: Citation 'hay1985estimating' on page 22 undefined on input line 
-156.
-
-
-LaTeX Warning: Citation 'Martin2001' on page 22 undefined on input line 158.
-
-
-./DataMethods.tex:162: Package xcolor Error: Undefined color `grey'.
+./DataMethods.tex:228: Package xcolor Error: Undefined color `grey'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.162 In figure \ref{fig:algorithm_outline}
+l.228 In figure \ref{fig:algorithm_outline}
                                             the steps to assess effective ir...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-<figs/algorithm_outline.pdf, id=303, 443.96465pt x 425.63718pt>
+<figs/algorithm_outline.pdf, id=333, 443.96465pt x 425.63718pt>
 File: figs/algorithm_outline.pdf Graphic file (type pdf)
 
 <use figs/algorithm_outline.pdf>
-Package pdftex.def Info: figs/algorithm_outline.pdf used on input line 166.
+Package pdftex.def Info: figs/algorithm_outline.pdf used on input line 232.
 (pdftex.def)             Requested size: 210.32397pt x 201.64069pt.
 
-./DataMethods.tex:173: Undefined control sequence.
+./DataMethods.tex:239: Undefined control sequence.
 <argument> \kilo \watthour 
                            \per \kilo \wattpeak 
-l.173 ...d $[\si{\kilo\watthour\per\kilo\wattpeak}
+l.239 ...d $[\si{\kilo\watthour\per\kilo\wattpeak}
                                                   ]$. That energy, comes fro...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4002,10 +4306,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./DataMethods.tex:173: Undefined control sequence.
+./DataMethods.tex:239: Undefined control sequence.
 <argument> \kilo \watthour \per \kilo \wattpeak 
                                                 
-l.173 ...d $[\si{\kilo\watthour\per\kilo\wattpeak}
+l.239 ...d $[\si{\kilo\watthour\per\kilo\wattpeak}
                                                   ]$. That energy, comes fro...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4013,10 +4317,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./DataMethods.tex:173: Undefined control sequence.
+./DataMethods.tex:239: Undefined control sequence.
 <argument> \kilo \watthour 
                            \per \kilo \wattpeak 
-l.173 ...d $[\si{\kilo\watthour\per\kilo\wattpeak}
+l.239 ...d $[\si{\kilo\watthour\per\kilo\wattpeak}
                                                   ]$. That energy, comes fro...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4024,10 +4328,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./DataMethods.tex:173: Undefined control sequence.
+./DataMethods.tex:239: Undefined control sequence.
 <argument> \kilo \watthour \per \kilo \wattpeak 
                                                 
-l.173 ...d $[\si{\kilo\watthour\per\kilo\wattpeak}
+l.239 ...d $[\si{\kilo\watthour\per\kilo\wattpeak}
                                                   ]$. That energy, comes fro...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4038,7 +4342,7 @@ and I'll forget about whatever was undefined.
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !
-./DataMethods.tex:173: siunitx error: "prefix-only"
+./DataMethods.tex:239: siunitx error: "prefix-only"
 ! 
 ! Prefix with no unit.
 ! 
@@ -4047,7 +4351,7 @@ and I'll forget about whatever was undefined.
 ! Type <return> to continue.
 !...............................................  
                                                   
-l.173 ...d $[\si{\kilo\watthour\per\kilo\wattpeak}
+l.239 ...d $[\si{\kilo\watthour\per\kilo\wattpeak}
                                                   ]$. That energy, comes fro...
 
 |'''''''''''''''''''''''''''''''''''''''''''''''
@@ -4060,7 +4364,7 @@ l.173 ...d $[\si{\kilo\watthour\per\kilo\wattpeak}
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !
-./DataMethods.tex:173: siunitx error: "prefix-only"
+./DataMethods.tex:239: siunitx error: "prefix-only"
 ! 
 ! Prefix with no unit.
 ! 
@@ -4069,7 +4373,7 @@ l.173 ...d $[\si{\kilo\watthour\per\kilo\wattpeak}
 ! Type <return> to continue.
 !...............................................  
                                                   
-l.173 ...d $[\si{\kilo\watthour\per\kilo\wattpeak}
+l.239 ...d $[\si{\kilo\watthour\per\kilo\wattpeak}
                                                   ]$. That energy, comes fro...
 
 |'''''''''''''''''''''''''''''''''''''''''''''''
@@ -4080,35 +4384,45 @@ l.173 ...d $[\si{\kilo\watthour\per\kilo\wattpeak}
 |...............................................
 
 
-./DataMethods.tex:185: Package xcolor Error: Undefined color `grey'.
+Underfull \hbox (badness 10000) in paragraph at lines 239--240
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 241--242
+
+ []
+
+
+./DataMethods.tex:251: Package xcolor Error: Undefined color `grey'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.185 ...l effective irradiation, Eq.\ref{Tcelula}
+l.251 ...l effective irradiation, Eq.\ref{Tcelula}
                                                   . NOCT in equation \ref{Tc...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./DataMethods.tex:185: Package xcolor Error: Undefined color `grey'.
+./DataMethods.tex:251: Package xcolor Error: Undefined color `grey'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.185 ...{Tcelula}. NOCT in equation \ref{Tcelula}
+l.251 ...{Tcelula}. NOCT in equation \ref{Tcelula}
                                                    is considered constant be...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-./DataMethods.tex:185: Undefined control sequence.
+./DataMethods.tex:251: Undefined control sequence.
 <argument> \watt \over \metro 
                               ^2
-l.185 ...radiance of 800 $[\si{\watt\over\metro^2}
+l.251 ...radiance of 800 $[\si{\watt\over\metro^2}
                                                   ]$ and ambient temperature...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4119,12 +4433,12 @@ and I'll forget about whatever was undefined.
 
 Package amsmath Warning: Foreign command \over;
 (amsmath)                \frac or \genfrac should be used instead
-(amsmath)                 on input line 185.
+(amsmath)                 on input line 251.
 
-./DataMethods.tex:185: Undefined control sequence.
+./DataMethods.tex:251: Undefined control sequence.
 \l__siunitx_print_arg_tl ->\watt \over \metro 
                                               \__siunitx_unit_format_literal...
-l.185 ...radiance of 800 $[\si{\watt\over\metro^2}
+l.251 ...radiance of 800 $[\si{\watt\over\metro^2}
                                                   ]$ and ambient temperature...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4132,10 +4446,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./DataMethods.tex:185: Undefined control sequence.
+./DataMethods.tex:251: Undefined control sequence.
 \l__siunitx_print_arg_tl ->\watt \over \metro 
                                               \__siunitx_unit_format_literal...
-l.185 ...radiance of 800 $[\si{\watt\over\metro^2}
+l.251 ...radiance of 800 $[\si{\watt\over\metro^2}
                                                   ]$ and ambient temperature...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4143,10 +4457,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./DataMethods.tex:185: Undefined control sequence.
+./DataMethods.tex:251: Undefined control sequence.
 \l__siunitx_print_arg_tl ->\watt \over \metro 
                                               \__siunitx_unit_format_literal...
-l.185 ...radiance of 800 $[\si{\watt\over\metro^2}
+l.251 ...radiance of 800 $[\si{\watt\over\metro^2}
                                                   ]$ and ambient temperature...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4154,10 +4468,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./DataMethods.tex:185: Undefined control sequence.
+./DataMethods.tex:251: Undefined control sequence.
 \l__siunitx_print_arg_tl ->\watt \over \metro 
                                               \__siunitx_unit_format_literal...
-l.185 ...radiance of 800 $[\si{\watt\over\metro^2}
+l.251 ...radiance of 800 $[\si{\watt\over\metro^2}
                                                   ]$ and ambient temperature...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4166,58 +4480,335 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Command \textordmasculine invalid in math mode on input line 185
+LaTeX Warning: Command \textordmasculine invalid in math mode on input line 251
 .
 
 
-LaTeX Warning: Command \textordmasculine invalid in math mode on input line 185
-.
-
-[22]
-
-LaTeX Warning: Citation 'Lamigueiro2012' on page 23 undefined on input line 195
+LaTeX Warning: Command \textordmasculine invalid in math mode on input line 251
 .
 
 
-./DataMethods.tex:195: Package xcolor Error: Undefined color `grey'.
+LaTeX Warning: Citation 'Lamigueiro2012' on page 22 undefined on input line 261
+.
+
+
+./DataMethods.tex:261: Package xcolor Error: Undefined color `grey'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.195 ...utput is summarized in table \ref{tabla1}
+l.261 ...utput is summarized in table \ref{tabla1}
                                                    including all the steps a...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-LaTeX Warning: Citation 'Perpinan2009' on page 23 undefined on input line 195.
+LaTeX Warning: Citation 'Perpinan2009' on page 22 undefined on input line 261.
 
 
-LaTeX Warning: Citation 'garcia2005caracterizacion' on page 23 undefined on inp
-ut line 204.
+LaTeX Warning: Citation 'garcia2005caracterizacion' on page 22 undefined on inp
+ut line 270.
 
 
-LaTeX Warning: Citation 'jantsch1992results' on page 23 undefined on input line
- 207.
+LaTeX Warning: Citation 'jantsch1992results' on page 22 undefined on input line
+ 273.
 
 
-Overfull \hbox (14.89664pt too wide) in paragraph at lines 198--226
+Overfull \hbox (14.89664pt too wide) in paragraph at lines 264--292
  [][] 
  []
 
-) [23 <./figs/algorithm_outline.pdf>] [24] [25]
+[22]
+Underfull \hbox (badness 10000) in paragraph at lines 305--306
+
+ []
+
+
+./DataMethods.tex:307: Package xcolor Error: Undefined color `grey'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.307 ... las series temporales es clave\footnote{
+                                                  el estudio climático es l...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 307--308
+
+ []
+
+[23 <./figs/algorithm_outline.pdf>] [24]
+Underfull \hbox (badness 10000) in paragraph at lines 309--310
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 311--312
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 313--315
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 316--317
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 318--319
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 320--321
+
+ []
+
+[25]
+Underfull \hbox (badness 10000) in paragraph at lines 322--323
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 324--325
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 326--327
+
+ []
+
+<DataMethodsFIGS/medcordex2.png, id=388, 515.9275pt x 509.905pt>
+File: DataMethodsFIGS/medcordex2.png Graphic file (type png)
+
+<use DataMethodsFIGS/medcordex2.png>
+Package pdftex.def Info: DataMethodsFIGS/medcordex2.png used on input line 330.
+
+(pdftex.def)             Requested size: 140.21242pt x 138.57094pt.
+
+<DataMethodsFIGS/eurocordex2.png, id=389, 489.83pt x 492.84125pt>
+File: DataMethodsFIGS/eurocordex2.png Graphic file (type png)
+
+<use DataMethodsFIGS/eurocordex2.png>
+Package pdftex.def Info: DataMethodsFIGS/eurocordex2.png used on input line 332
+.
+(pdftex.def)             Requested size: 140.21242pt x 141.07034pt.
+
+Overfull \hbox (0.50307pt too wide) in paragraph at lines 345--346
+\T1/futs/m/n/10 elel-men-tos in-fluyen en el bi-en-es-tar de los dis-tin-tos ec
+o-sis-temas y es-pecies en la Tierra. 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 345--346
+
+ []
+
+[26 <./DataMethodsFIGS/medcordex2.png> <./DataMethodsFIGS/eurocordex2.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 347--348
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 349--350
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 351--352
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 353--354
+
+ []
+
+
+./DataMethods.tex:355: Package xcolor Error: Undefined color `grey'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.355 In table \ref{climatemodels}
+                                   there is a summary of the climate models ...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 355--356
+
+ []
+
+./DataMethods.tex:364: Misplaced \noalign.
+\midrule ->\noalign 
+                    {\ifnum 0=`}\fi \@aboverulesep =\aboverulesep \global \@...
+l.364 ...ing{MED-CORDEX} & \centering{AER}\midrule
+                                                  \\
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+
+./DataMethods.tex:364: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.364 ...g{MED-CORDEX} & \centering{AER}\midrule\\
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./DataMethods.tex:365: Misplaced \noalign.
+\midrule ->\noalign 
+                    {\ifnum 0=`}\fi \@aboverulesep =\aboverulesep \global \@...
+l.365     \centering{NO-AER}\midrule
+                                    \\
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+
+./DataMethods.tex:365: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.365     \centering{NO-AER}\midrule\\
+                                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./DataMethods.tex:369: Misplaced \noalign.
+\midrule ->\noalign 
+                    {\ifnum 0=`}\fi \@aboverulesep =\aboverulesep \global \@...
+l.369 ...{CNRM-CM5} & \centering{ALADIN53}\midrule
+                                                  \\
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+
+./DataMethods.tex:369: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.369 ...NRM-CM5} & \centering{ALADIN53}\midrule\\
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./DataMethods.tex:370: Misplaced \noalign.
+\midrule ->\noalign 
+                    {\ifnum 0=`}\fi \@aboverulesep =\aboverulesep \global \@...
+l.370     \centering{RCA4}\midrule
+                                  \\
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+
+./DataMethods.tex:370: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.370     \centering{RCA4}\midrule\\
+                                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./DataMethods.tex:371: Misplaced \noalign.
+\midrule ->\noalign 
+                    {\ifnum 0=`}\fi \@aboverulesep =\aboverulesep \global \@...
+l.371     \centering{CCLM4}\midrule
+                                    & \centering{EURO-CORDEX} & \centering{H...
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+./DataMethods.tex:375: Misplaced \noalign.
+\midrule ->\noalign 
+                    {\ifnum 0=`}\fi \@aboverulesep =\aboverulesep \global \@...
+l.375 ...HEC-EC-EARTH} & \centering{RACMO}\midrule
+                                                  \\
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+
+./DataMethods.tex:375: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.375 ...C-EC-EARTH} & \centering{RACMO}\midrule\\
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./DataMethods.tex:376: Misplaced \noalign.
+\midrule ->\noalign 
+                    {\ifnum 0=`}\fi \@aboverulesep =\aboverulesep \global \@...
+l.376     \centering{RCA4}\midrule
+                                  \\
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+
+./DataMethods.tex:376: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.376     \centering{RCA4}\midrule\\
+                                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./DataMethods.tex:377: Misplaced \noalign.
+\midrule ->\noalign 
+                    {\ifnum 0=`}\fi \@aboverulesep =\aboverulesep \global \@...
+l.377     \centering{CCLM4}\midrule
+                                    & \centering{EURO-CORDEX} & \centering{H...
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 388--389
+
+ []
+
+) [27] [28]
 \openout2 = `Resultados.aux'.
 
- (./Resultados.tex [26
+ (./Resultados.tex [29
 
 
 
-] [27]
-[28] [29
+] [30] [31
 
-] [30
+] [32
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 31--32
@@ -4244,11 +4835,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 44--45
 
  []
 
-[31] [32]
+
 Underfull \hbox (badness 10000) in paragraph at lines 46--47
 
  []
 
+[33] [34]
 ./Resultados.tex:64: Undefined control sequence.
 l.64 ...f solar PV energy,  its variability \citep
                                                   {Widen2015} can be studied...
@@ -4313,7 +4905,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 66--67
 
  []
 
-[33]
 ./Resultados.tex:68: Undefined control sequence.
 l.68 ...ocused on long series from stations \citep
                                                   {Sanchez-Lorenzo2009, Sanc...
@@ -4382,7 +4973,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 68--69
 
  []
 
-[34]
 ./Resultados.tex:70: Undefined control sequence.
 l.70 ...from a climatological point of view \citep
                                                   {Argueso2011} or for solar...
@@ -4406,18 +4996,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 70--71
 
  []
 
-
+[35]
 Underfull \hbox (badness 10000) in paragraph at lines 72--73
 
  []
 
-
+[36]
 Underfull \hbox (badness 10000) in paragraph at lines 74--75
 
  []
 
 
-LaTeX Warning: Reference `Methods' on page 35 undefined on input line 78.
+LaTeX Warning: Reference `Methods' on page 37 undefined on input line 78.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 78--79
@@ -4447,7 +5037,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 84--85
 
  []
 
-[35] <figs/multi_step.pdf, id=402, 728.07408pt x 387.79079pt>
+<figs/multi_step.pdf, id=444, 728.07408pt x 387.79079pt>
 File: figs/multi_step.pdf Graphic file (type pdf)
 
 <use figs/multi_step.pdf>
@@ -4540,6 +5130,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 101--102
 
  []
 
+[37]
 ./Resultados.tex:105: Undefined control sequence.
 l.105 ...rough Principal Component Analysis \citep
                                                   {Ding2004}. This two-step ...
@@ -4566,23 +5157,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 105--106
 
  []
 
-[36]
+[38 <./figs/multi_step.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 107--108
 
  []
 
 
-LaTeX Warning: Citation 'Argueso2011' on page 37 undefined on input line 109.
+LaTeX Warning: Citation 'Argueso2011' on page 39 undefined on input line 109.
 
 
-LaTeX Warning: Citation 'Zagouras2014' on page 37 undefined on input line 109.
+LaTeX Warning: Citation 'Zagouras2014' on page 39 undefined on input line 109.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 109--110
 
  []
 
-[37 <./figs/multi_step.pdf>]
+
 Overfull \hbox (0.19598pt too wide) in paragraph at lines 113--114
 []\T1/futs/b/n/10 Hierarchical clus-ter-ing to ini-tial-ize k-means\T1/futs/m/n
 /10 . A hi-er-ar-chi-cal clus-ter-ing method
@@ -4625,6 +5216,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+[39]
 
 ./Resultados.tex:127: Package xcolor Error: Undefined color `grey'.
 
@@ -4674,7 +5266,7 @@ Overfull \hbox (5.74252pt too wide) in paragraph at lines 127--128
 in-sula re-gion-al-iza-tion is shown
  []
 
-[38] <figs/CHindex.pdf, id=428, 505.89pt x 505.89pt>
+<figs/CHindex.pdf, id=469, 505.89pt x 505.89pt>
 File: figs/CHindex.pdf Graphic file (type pdf)
  <use figs/CHindex.pdf>
 Package pdftex.def Info: figs/CHindex.pdf used on input line 130.
@@ -4689,7 +5281,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[39 <./figs/CHindex.pdf>]
+[40 <./figs/CHindex.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 153--154
 
  []
@@ -4792,7 +5384,7 @@ l.175 ...efficient of variation, CV Eq.\ref{eq:CV}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[40]
+[41]
 Underfull \hbox (badness 10000) in paragraph at lines 181--182
 
  []
@@ -4819,12 +5411,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 191--192
 
  []
 
-[41]
+
 Underfull \hbox (badness 10000) in paragraph at lines 193--194
 
  []
 
-
+[42]
 Underfull \hbox (badness 10000) in paragraph at lines 195--197
 
  []
@@ -4843,10 +5435,10 @@ Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-LaTeX Warning: Citation 'davies1979cluster' on page 42 undefined on input line 
+LaTeX Warning: Citation 'davies1979cluster' on page 43 undefined on input line 
 201.
 
-<figs/clusters2.pdf, id=457, 505.89pt x 505.89pt>
+<figs/clusters2.pdf, id=498, 505.89pt x 505.89pt>
 File: figs/clusters2.pdf Graphic file (type pdf)
  <use figs/clusters2.pdf>
 Package pdftex.def Info: figs/clusters2.pdf used on input line 204.
@@ -4862,7 +5454,7 @@ Overfull \hbox (6.53249pt too wide) in paragraph at lines 213--214
 the CV of two time-aggregated
  []
 
-[42]
+
 Underfull \hbox (badness 10000) in paragraph at lines 220--221
 
  []
@@ -5113,8 +5705,7 @@ and I'll forget about whatever was undefined.
 LaTeX Warning: Citation 'Antonanzas-Torres2013' on page 43 undefined on input l
 ine 226.
 
-[43 <./figs/clusters2.pdf>]
-<figs/productividadTemp_byCluster.pdf, id=476, 505.89pt x 505.89pt>
+[43] <figs/productividadTemp_byCluster.pdf, id=506, 505.89pt x 505.89pt>
 File: figs/productividadTemp_byCluster.pdf Graphic file (type pdf)
 
 <use figs/productividadTemp_byCluster.pdf>
@@ -5395,6 +5986,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+[44 <./figs/clusters2.pdf>]
 
 ./Resultados.tex:238: Package xcolor Error: Undefined color `grey'.
 
@@ -5408,13 +6000,13 @@ l.238 ...n is represented in figure \ref{ratiosCV}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-<figs/dotplot_ratio_zone.pdf, id=478, 505.89pt x 505.89pt>
+<figs/dotplot_ratio_zone.pdf, id=519, 505.89pt x 505.89pt>
 File: figs/dotplot_ratio_zone.pdf Graphic file (type pdf)
 
 <use figs/dotplot_ratio_zone.pdf>
 Package pdftex.def Info: figs/dotplot_ratio_zone.pdf used on input line 241.
 (pdftex.def)             Requested size: 210.32397pt x 210.32639pt.
- [44]
+
 
 LaTeX Warning: Citation 'Perpinan2009' on page 45 undefined on input line 248.
 
@@ -5433,7 +6025,7 @@ l.258 ...epresented in figure\ref{horizonplot_rad}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-<figs/horizonplot_series_rad2.pdf, id=505, 505.89pt x 505.89pt>
+<figs/horizonplot_series_rad2.pdf, id=543, 505.89pt x 505.89pt>
 File: figs/horizonplot_series_rad2.pdf Graphic file (type pdf)
 
 <use figs/horizonplot_series_rad2.pdf>
@@ -5474,7 +6066,7 @@ ation, fig-ure [][]5.7[][] presents,
  []
 
 [47] [48 <./figs/horizonplot_series_rad2.pdf>]
-<figs/horizonplot_months_rad2.pdf, id=524, 505.89pt x 505.89pt>
+<figs/horizonplot_months_rad2.pdf, id=562, 505.89pt x 505.89pt>
 File: figs/horizonplot_months_rad2.pdf Graphic file (type pdf)
 
 <use figs/horizonplot_months_rad2.pdf>
@@ -5532,18 +6124,18 @@ If that doesn't work, type  X <return>  to quit.
 
 ) [49] [50 <./figs/horizonplot_months_rad2.pdf>]
 
-LaTeX Warning: Empty bibliography on input line 114.
+LaTeX Warning: Empty bibliography on input line 115.
 
 \tf@toc=\write7
 \openout7 = `tesis.toc'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 116.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 116.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 117.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 117.
 (./tesis.aux (./Intro.aux) (./DataMethods.aux) (./Resultados.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 116.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 116.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 117.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 117.
 Package rerunfilecheck Info: File `tesis.out' has not changed.
-(rerunfilecheck)             Checksum: 35634E7C6A750A4AE09147641156AA0F;5841.
+(rerunfilecheck)             Checksum: 798B0CDC7F96CF08308DA3F9AC68FF15;6525.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -5566,30 +6158,30 @@ Package logreq Info: Writing requests to 'tesis.run.xml'.
  )
 (\end occurred when \iftrue on line 7 was incomplete) 
 Here is how much of TeX's memory you used:
- 31374 strings out of 493029
- 547439 string characters out of 6136234
- 672747 words of memory out of 5000000
- 34408 multiletter control sequences out of 15000+600000
- 190641 words of font info for 198 fonts, out of 8000000 for 9000
+ 31259 strings out of 493029
+ 546054 string characters out of 6136234
+ 673578 words of memory out of 5000000
+ 34279 multiletter control sequences out of 15000+600000
+ 197393 words of font info for 221 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  49i,19n,61p,10443b,1228s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-
-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-
-super-t1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr1
-0.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/fourier/fourier-mex.pfb
-></usr/share/texlive/texmf-dist/fonts/type1/public/fourier/fourier-mlit.pfb></u
-sr/share/texlive/texmf-dist/fonts/type1/public/fourier/fourier-ms.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></usr/share/texliv
-e/texmf-dist/fonts/type1/adobe/utopia/putb8a.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/adobe/utopia/putr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/adobe/utopia/putri8a.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx100
-0.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texliv
-e/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on tesis.pdf (58 pages, 753050 bytes).
+dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/fou
+rier/fourier-mex.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/fourier/
+fourier-mlit.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/fourier/four
+ier-ms.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathpazo/fplmri.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/adobe/utopia/putb8a.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/adobe/utopia/putbi8a.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/adobe/utopia/putr8a.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/adobe/utopia/putri8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/u
+rw/palatino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/
+uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
+
+Output written on tesis.pdf (58 pages, 3459017 bytes).
 PDF statistics:
- 607 PDF objects out of 1000 (max. 8388607)
- 513 compressed objects within 6 object streams
- 124 named destinations out of 1000 (max. 500000)
- 281 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 645 PDF objects out of 1000 (max. 8388607)
+ 545 compressed objects within 6 object streams
+ 134 named destinations out of 1000 (max. 500000)
+ 304 words of extra memory for PDF output out of 10000 (max. 10000000)
 
