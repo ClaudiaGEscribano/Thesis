@@ -17,7 +17,7 @@
 \contentsline {section}{\numberline {2.4}Climate Change perspectives for solar resource and photovoltaic potential}{7}{section.2.4}
 \contentsline {part}{\partnumberline {II}Data \& Methods}{9}{part.2}
 \contentsline {chapter}{\chapternumberline {3}Data}{11}{chapter.3}
-\contentsline {section}{\numberline {3.1}Solar radiation measurements \textit {Baseline Surface Radiation Network, BSRN}}{11}{section.3.1}
+\contentsline {section}{\numberline {3.1}Solar radiation measurements: \textit {Baseline Surface Radiation Network, BSRN}}{11}{section.3.1}
 \contentsline {section}{\numberline {3.2}Satellite data: \textit {Climate Monitoring Satellite Application Facility, CM-SAF}}{12}{section.3.2}
 \contentsline {section}{\numberline {3.3}Modelling solar radiation}{13}{section.3.3}
 \contentsline {section}{\numberline {3.4}Photovoltaic prodution data}{13}{section.3.4}

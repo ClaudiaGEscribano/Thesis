@@ -45,10 +45,12 @@
     <generic>latex</generic>
     <provides type="dynamic">
       <file>tesis.aux</file>
+      <file>tesis1-blx.aux</file>
       <file>tesis-blx.bib</file>
     </provides>
     <requires type="dynamic">
       <file>tesis.bbl</file>
+      <file>tesis1-blx.bbl</file>
     </requires>
     <requires type="static">
       <file>blx-compat.def</file>
@@ -81,7 +83,34 @@
       <file>tesis-blx.bib</file>
     </requires>
     <requires type="editable">
-      <file>../biblio.bib</file>
+      <file>Data.bib</file>
+    </requires>
+    <requires type="static">
+      <file>biblatex.bst</file>
+    </requires>
+  </external>
+  <external package="biblatex" priority="5" active="1">
+    <generic>bibtex</generic>
+    <cmdline>
+      <binary>bibtex</binary>
+      <option>-min-crossrefs 2</option>
+      <infile>tesis1-blx</infile>
+    </cmdline>
+    <input>
+      <file>tesis1-blx.aux</file>
+    </input>
+    <output>
+      <file>tesis1-blx.bbl</file>
+    </output>
+    <provides type="dynamic">
+      <file>tesis1-blx.bbl</file>
+    </provides>
+    <requires type="dynamic">
+      <file>tesis1-blx.aux</file>
+      <file>tesis-blx.bib</file>
+    </requires>
+    <requires type="editable">
+      <file>Data.bib</file>
     </requires>
     <requires type="static">
       <file>biblatex.bst</file>
