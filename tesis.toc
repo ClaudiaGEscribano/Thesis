@@ -18,10 +18,10 @@
 \contentsline {part}{\partnumberline {II}Data \& Methods}{9}{part.2}
 \contentsline {chapter}{\chapternumberline {3}Data}{11}{chapter.3}
 \contentsline {section}{\numberline {3.1}Solar radiation measurements: \textit {Baseline Surface Radiation Network, BSRN}}{11}{section.3.1}
-\contentsline {section}{\numberline {3.2}Satellite data: \textit {Climate Monitoring Satellite Application Facility, CM-SAF}}{12}{section.3.2}
-\contentsline {section}{\numberline {3.3}Modelling solar radiation}{13}{section.3.3}
-\contentsline {section}{\numberline {3.4}Photovoltaic prodution data}{13}{section.3.4}
-\contentsline {section}{\numberline {3.5}Other datasets}{13}{section.3.5}
+\contentsline {section}{\numberline {3.2}Modelling of solar radiation}{12}{section.3.2}
+\contentsline {section}{\numberline {3.3}Satellite data: \textit {Climate Monitoring Satellite Application Facility, CM-SAF}}{13}{section.3.3}
+\contentsline {section}{\numberline {3.4}Photovoltaic prodution data}{14}{section.3.4}
+\contentsline {section}{\numberline {3.5}Other datasets}{14}{section.3.5}
 \contentsline {chapter}{\chapternumberline {4}Methods}{15}{chapter.4}
 \contentsline {section}{\numberline {4.1}Clustering algorithm applied to climate data}{16}{section.4.1}
 \contentsline {subsection}{\numberline {4.1.1}Clustering algorithms}{16}{subsection.4.1.1}
@@ -46,3 +46,6 @@
 \contentsline {subsubsection}{Variability and complementarity results}{43}{figure.5.3}
 \contentsline {subsection}{\numberline {5.1.3}Conclusion}{49}{subsection.5.1.3}
 \contentsline {subsection}{\numberline {5.1.4}Summary}{49}{subsection.5.1.4}
+\contentsline {chapter}{\chapternumberline {6}Impact of aerosols in photovoltaic energy production over the Euro-Mediterranean area}{51}{chapter.6}
+\contentsline {chapter}{\chapternumberline {7}Future projections of solar resource for photovoltaic applications}{53}{chapter.7}
+\contentsline {chapter}{Bibliography}{57}{section*.7}

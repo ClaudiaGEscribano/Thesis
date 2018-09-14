@@ -4,31 +4,49 @@
   
 \chapter{Data\label{cha:Data}}
 
-  In the present chapter, the datasets used in this manuscript are described. Different type of data is used in each of the studies, due to the fact that different problems are addressed.\\
+  In the present chapter, the datasets used in this manuscript are described. Different type of data is used in each of the studies due to the fact that different problems are addressed. A more specific description is included in each of the results chapters.\\
 
-  It is well-known that the lack of a well spread solar radiation measurements network has been a constrain not only for the development of solar forecasting or resource assessment techniques, but also for the study of the whole atmospheric/climatic processes in which solar radiation takes places. However, the progress and the improvement in the satellite dataset has helped to overcome some of this issues.\\
+  There are many applications from meteorology to agriculture or even health sciences, that would benefit from an accuarate station network that provide high quality radiation measurements at the surface. However, it is well-known that the lack of  well spread solar radiation measurements has been a constrain not only for the development of solar forecasting or resource assessment techniques, but also for the study of the whole atmospheric/climatic processes in which solar radiation takes places. The progress and improvement in the satellite-based products and dataset has helped to overcome some of these issues providing gridded data at a high spatial and temporal resolution.\\
+
+%   Sometimes it is necessary to model solar radiation for the study of some of the processes that take places when it goes through the atmosphere and reach the Earth's surface. In this case, we will
+  
+%   Solar radiation data at ground level are important for a wide range of applications in
+% meteorology, engineering, agricultural sciences (particularly for soil physics, agricultural
+% hydrology, crop modeling and estimating crop evapo-transpiration), as well
+% as in the health sector and in research in many fields of the natural sciences. A few
+% examples showing the diversity of applications may include: architecture and building
+% design (e.g. air conditioning and cooling systems); solar heating system design
+% and use; solar power generation and solar powered car races; weather and climate
+% prediction models; evaporation and irrigation; calculation of water requirements for
+% crops; monitoring plant growth and disease control and skin cancer research.
+% The solar radiation reaching the Earth upper atmosphere is a quantity rather constant
+% in time. But the radiation reaching some point on Earth surface is random
+% in nature, due to the gases, clouds and dust within the atmosphere, which absorb
+% and/or scatter radiation at different wavelengths. Obtaining reliable radiation data at
+% ground level requires systematic measurements. However, in most countries the spatial
+% density of actinometric stations is inadequat
+%   It is well-known that the lack of a well spread solar radiation measurements network has been a constrain not only for the development of solar forecasting or resource assessment techniques, but also for the study of the whole atmospheric/climatic processes in which solar radiation takes places. However, the progress and the improvement in the satellite-based products and dataset has helped to overcome some of this issues.\\
 
 
 
   \section{Solar radiation measurements: \textit{Baseline Surface Radiation Network, BSRN}}
 
-  Solar radiation data from ground stations are not common at the publicly available metheorological stations network. One of the main sources of high quality data that can be easily obtain is the 'Baseline Surface Radiation Network', BSRN \cite{Konig-Langlo2013}.\\ %[König-Langlo, G. , Sieger, R. , Schmithüsen, H. , Bücker, A. , Richter, F. and Dutton E.G. 2013. The Baseline Surface Radiation Network and its World Radiation Monitoring Centre at the Alfred Wegener Institute.
+  Solar radiation data from ground stations are not common at the publicly available metheorological stations network. One of the main sources of high quality data that can be easily obtain is the 'Baseline Surface Radiation Network', BSRN \cite*{Konig-Langlo2013}.\\ %[König-Langlo, G. , Sieger, R. , Schmithüsen, H. , Bücker, A. , Richter, F. and Dutton E.G. 2013. The Baseline Surface Radiation Network and its World Radiation Monitoring Centre at the Alfred Wegener Institute.
 %GCOS - 174, WCRP Report 24/2013, 30 pp..] \\
 
-  The aim of this project is to detect changes in the Earth's radiation field that could be a consequence of climate changes [ref web]. The monitoring network provides high-quality and high-frequence data of short and log-wave radiation fluxesnfrom different stations around the globe which correspond to different climatic zones. In figure \ref{fig:bsrnstations} all the available stations from BSRN are displayed.\\
+  The aim of the BSRN project is to detect changes in the Earth's radiation field that could be a consequence of climatic changes [ref web]. The monitoring network provides high-quality and high-frequence data of short and long-wave radiation fluxes from different stations around the globe, which correspond to different climatic zones. In figure \ref{fig:bsrnstations} all the available stations from BSRN are displayed.\\
 
-The World Climate Research Programme (WCRP) Radiative Fluxes Working Group initiated the Baseline Surface Radiation Network (BSRN) to support the research projects of the WCRP and other scientific programs related to solar radiation.
+The World Climate Research Programme (WCRP) Radiative Fluxes Working Group initiated the Baseline Surface Radiation Network (BSRN) to support the research projects of the WCRP and other scientific programs related to solar radiation.\\
 
+By the time this manuscript is writen, 52 BSRN are in operation. There are some stations with 'candidate' status and some that will be close in 2019. Among these stations there are different levels of data provided, from the basic measurements taht include the components od solar radiation, air temperature and pressure to other variables and synoptic observations.
 
-\begin{figure}
+\begin{figure}[h]
   \centering
   \includegraphics[width=0.8\textwidth]{DataMethodsFIGS/bsrn.pdf}
-  \caption{}
+  \caption{Solar radiation stations from BSRN.}
  \label{fig:bsrnstations}
 \end{figure}
-  
-
-% to the World Radiation Monitoring Center (WRMC), the central archive of the Baseline Surface Radiation Network (BSRN). All radiation measurements are stored together with collocated surface and upper-air meteorological observations and station metadata in an integrated database. These pages offer both: Information for all scientists who will use BSRN-data as well as information to any station scientist who delivers data.
+  % to the World Radiation Monitoring Center (WRMC), the central archive of the Baseline Surface Radiation Network (BSRN). All radiation measurements are stored together with collocated surface and upper-air meteorological observations and station metadata in an integrated database. These pages offer both: Information for all scientists who will use BSRN-data as well as information to any station scientist who delivers data.
 
 % BSRN is a project of the Data and Assessments Panel from the Global Energy and Water Cycle Experiment (GEWEX) under the umbrella of the World Climate Research Programme (WCRP) and as such is aimed at detecting important changes in the Earth's radiation field at the Earth's surface which may be related to climate changes.
 
@@ -36,26 +54,62 @@ The World Climate Research Programme (WCRP) Radiative Fluxes Working Group initi
 
 % In 2004 the BSRN was designated as the global baseline network for surface radiation for the Global Climate Observing System (GCOS). The BSRN stations also contribute to the Global Atmospheric Watch (GAW). Since 2011 the BSRN and the Network for the Detection of Atmospheric Composition Change (NDACC) have reached a formal agreement to become cooperative networks.
 
-  
+\section{Modelling of solar radiation}
+
+Sometimes it is necessary to model solar radiation for the study of some of the processes that take places when it goes through the atmosphere and reach the Earth's surface. This modeling process to understand solar radiation behaviour can be made using two different approaches (Festa and Ratto, 1993).\\
+
+In first place we can consider a physical modeling of solar radiation, that would be based on physical equations of the interaction between atmospheric components and solar radiation (aerosols, water vapour, clouds...). When solar radiation goes through the atmosphere, it can interact with components being absorbed by molecules, backscattered to space or scattered in any other direction. Thus, only part of the solar radiation at the top of the atmosphere (TOA) will reach the Earth's surface.\\ 
+
+This process is the physical process of energy transfer described by the radiative transfer equation (RTE) and its solution needs a radiative transfer model (RTM). From this models it is possible to reproduce the solar radiation behaviour across the atmosphere and at the surface. This models are used to obtain solar radiation from satellite images and part of numerical weather prediction models or climate models. \\
+
+Secondly, the solar radiation at the surface can be estimated using statistical models. In this case it is necessary to have enough data to validate the model and likely these models will not be able to reproduce solar behaviour universally.\\
+
+In chapters 7 and 8 different climate models are used as main source of solar radiation data. This variable comes from different schemes that depends on the model and that are different forms of solving the radiative transfer equations. Besides solar radiation is not being analysed deeply in these models, it is an important source of information in order to analyse future or past trends and possible changes.\\
+% Physical models are not dependent on 
+
+% In order to understand and to model the behaviour of solar radiation, two approaches
+% can be used (Festa and Ratto, 1993).
+% a) The first one is called “physical modelling”, and studies the physical processes
+% occurring in the atmosphere and influencing solar radiation.
+% In the upper atmosphere, the incoming solar radiation is affected by atmospheric
+% components, such as molecular gases, aerosols, water vapour or clouds. Part of this
+% radiation is backscattered to space, another part is absorbed and the rest falls into
+% the Earth’s surface. This latter component interacts with the surface, part is absorbed
+% and the rest is reflected back to space. Therefore, the diffuse radiation is composed
+% by the radiation backscattered by the atmosphere before reaching the ground and by
+% the component reflected by the Earth’s surface. Finally, the radiation on the surface
+% depends on the absorption and scattering processes in the atmosphere.
+% The physical method is exclusively based on physical considerations, allowing
+% that the radiant energy exchanges take place within the Earth-atmosphere system.
+% This approach dictates models that account for the estimated solar irradiation at the
+% ground in terms of a certain number of physical parameters (water vapour content,
+% dust, aerosols, clouds and cloud types, etc.).
+% The main advantage offered by the physical methods, in comparison to the statistical
+% ones, is their spatial independence. In addition, they do not require solar
+% radiation data measured at the Earth’s surface. However, the physical method needs
+% complementary meteorological data to characterise the interactions of solar radiation
+% with the atmosphere
 \section{Satellite data: \textit{Climate Monitoring Satellite Application Facility, CM-SAF}}
 
-It has been previously commented that it is a well known problem the scarcity of available ground-based solar radiation measurements. As the preference alternative, satellite datasets has become one of the main sources of solar radition data because its high spatial and temporal resolution as well as its increasing accuracy.\\
+It has been previously commented that the scarcity of available ground-based solar radiation measurements is a well-known problem. Satellite datasets has become one of the main sources of solar radition data because its high spatial and temporal resolution as well as its increasing accuracy.\\
 
-{\color{red}a partir de aquí copiado}
+There are different methods to retrieve solar radiation from satellite images that goes from physical models to empirical ones. In the first case, the models try to explain the radiance observed by the satellite instrumentation with a radiation-transfer model. In order to do that, it is necessary to know the composition of the atmosphere. On the other hand, empirical models are based in simple regression models between the visible-channel's recorded intensity and grounded measurements. There are also some approaches that are in between theses two sides: the semi-empirical models. They use a simpler radiative-transfer scheme and some statistical regressions between data from satellite sensors and observed data.Schmetz (1989), Noia et al. (1993), Pinker et al. (1995), Zelenka (2001), and Hammer et al (2003). [Jan Kleiss, Solar Energy Forecasting and Resource assessment, pp.22.23]\\
 
-The Satellite Application Facility on Climate Monitoring (CM SAF) develops, produces, archives and disseminates satellite-data-based products in support to climate monitoring. The product suite mainly covers parameters related to the energy & water cycle and addresses many of the Essential Climate Variables as defined by GCOS (GCOS 138).\\
+In this work some satellite-data-based products from CM-SAF (The Satellite Application Facility on Climate Monitoring) have been used. The aim of CM-SAF consortium from EUMETSAT [ref] is to develop satellite-data-based-products for climate monitoring since in 2000 it was recognised the importance of using satellite for this purpose.\\
 
-The CM SAF produces both Enviromental Data Records and Climate Data Records.\\
+There are two main products that can be obtained from the CM-SAF. They produce operational products and Climate Data Records (CDR). The main purpose of the CDR is to provide a high-quality database to monitor climate variability and change (ref).\\
 
-Environmental Data Records (EDR) are time-tagged earth-located geophysical parameters produced from sensor data. EDRs are derived in low to medium latency not fulfilling strictest climate requirements.\\
+%{\color{red}a partir de aquí copiado}\\
 
-Climate Data Records (CDR) are time series of measurements of sufficient length, consistency, and continuity to determine climate variability and change.\\
+The CM SAF products are derived from several instruments on-board operational satellites in geostationary and polar orbit, i.e., the Meteosat and NOAA satellites, respectively. The existing data sets will be continued using data from the instruments on-board the new EUMETSAT Meteorological Operational satellite (MetOP). The products have mostly been validated against several ground-based data sets both in situ and remotely sensed. %The accomplished accuracy for products derived in near real time is sufficient to monitor variability on diurnal and seasonal scales. Products based on intercalibrated radiance data can also be used for climate variability analysis up to inter-annual scale. A central goal of the recently started 2nd Continuous Development and Operations Phase of the CM SAF (2012–2017) is to further improve all CM SAF data sets to a quality level that allows for studies of inter-annual variability.\\
 
-The CM SAF products are derived from several instruments on-board operational satellites in geostationary and polar orbit, i.e., the Meteosat and NOAA satellites, respectively. The existing data sets will be continued using data from the instruments on-board the new EUMETSAT Meteorological Operational satellite (MetOP). The products have mostly been validated against several ground-based data sets both in situ and remotely sensed. The accomplished accuracy for products derived in near real time is sufficient to monitor variability on diurnal and seasonal scales. Products based on intercalibrated radiance data can also be used for climate variability analysis up to inter-annual scale. A central goal of the recently started 2nd Continuous Development and Operations Phase of the CM SAF (2012–2017) is to further improve all CM SAF data sets to a quality level that allows for studies of inter-annual variability.
-\section{Modelling solar radiation}
 
-Atmospheric variables can be obtain as a product of meteorological or climate models. 
 \section{Photovoltaic prodution data}
+
+In order to evaulate the performance of a PV model it is necessary to use the data from real PV plants. However, these data is not easy to obtain, due to the fact that it owes to private companies and it could compromises some of their strategies. This makes necessary to get agreements and confidential contracts between these companies and researchers that are not always easy to obtain if an inmediate benefit does not arise from those relationships.\\
+
+Some alternatives are the databases of aggregated data that are available for the European countries throught the ENSO data portal website. However, these data will be only useful for certain modeling exercices.
+
 \section{Other datasets}
 
 \begin{itemize}
