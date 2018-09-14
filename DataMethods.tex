@@ -4,7 +4,7 @@
   
 \chapter{Data\label{cha:Data}}
 
-  In the present chapter, the datasets used in this manuscript are described. Different type of data is used in each of the studies due to the fact that different problems are addressed. A more specific description is included in each of the results chapters.\\
+  In the present chapter, the datasets used in this manuscript are described. Different types of data are used in each of the studies due to the fact that different problems are addressed. A more specific description is included in each of the results chapters.\\
 
   There are many applications from meteorology to agriculture or even health sciences, that would benefit from an accuarate station network that provide high quality radiation measurements at the surface. However, it is well-known that the lack of  well spread solar radiation measurements has been a constrain not only for the development of solar forecasting or resource assessment techniques, but also for the study of the whole atmospheric/climatic processes in which solar radiation takes places. The progress and improvement in the satellite-based products and dataset has helped to overcome some of these issues providing gridded data at a high spatial and temporal resolution.\\
 
@@ -36,9 +36,7 @@
 
   The aim of the BSRN project is to detect changes in the Earth's radiation field that could be a consequence of climatic changes [ref web]. The monitoring network provides high-quality and high-frequence data of short and long-wave radiation fluxes from different stations around the globe, which correspond to different climatic zones. In figure \ref{fig:bsrnstations} all the available stations from BSRN are displayed.\\
 
-The World Climate Research Programme (WCRP) Radiative Fluxes Working Group initiated the Baseline Surface Radiation Network (BSRN) to support the research projects of the WCRP and other scientific programs related to solar radiation.\\
-
-By the time this manuscript is writen, 52 BSRN are in operation. There are some stations with 'candidate' status and some that will be close in 2019. Among these stations there are different levels of data provided, from the basic measurements taht include the components od solar radiation, air temperature and pressure to other variables and synoptic observations.
+The World Climate Research Programme (WCRP) Radiative Fluxes Working Group initiated the Baseline Surface Radiation Network (BSRN) to support the research projects of the WCRP and other scientific programs related to solar radiation. By the time this manuscript is written, 52 BSRN are in operation. There are some stations with 'candidate' status and some that will be close in 2019. Among these stations there are different levels of data provided, from the basic measurements that include the components of solar radiation, air temperature and pressure to other variables and synoptic observations.
 
 \begin{figure}[h]
   \centering
@@ -56,15 +54,18 @@ By the time this manuscript is writen, 52 BSRN are in operation. There are some 
 
 \section{Modelling of solar radiation}
 
-Sometimes it is necessary to model solar radiation for the study of some of the processes that take places when it goes through the atmosphere and reach the Earth's surface. This modeling process to understand solar radiation behaviour can be made using two different approaches (Festa and Ratto, 1993).\\
+In order to understand the processes that take places when solar radiation goes through the atmosphere and reach the Earth's surface it is necessary a modelling approach. This modelling process can be made by a physical approach or using an statistical approach (Festa and Ratto, 1993).\\
 
-In first place we can consider a physical modeling of solar radiation, that would be based on physical equations of the interaction between atmospheric components and solar radiation (aerosols, water vapour, clouds...). When solar radiation goes through the atmosphere, it can interact with components being absorbed by molecules, backscattered to space or scattered in any other direction. Thus, only part of the solar radiation at the top of the atmosphere (TOA) will reach the Earth's surface.\\ 
+The physical modeling of solar radiation is based on physical equations of the interaction between atmospheric components and solar radiation (aerosols, water vapour, clouds...). When solar radiation goes through the atmosphere, it can interact with its components being absorbed by molecules, backscattered to space or scattered in any other direction. Thus, only part of the solar radiation at the top of the atmosphere (TOA) will reach the Earth's surface.\\ 
 
-This process is the physical process of energy transfer described by the radiative transfer equation (RTE) and its solution needs a radiative transfer model (RTM). From this models it is possible to reproduce the solar radiation behaviour across the atmosphere and at the surface. This models are used to obtain solar radiation from satellite images and part of numerical weather prediction models or climate models. \\
+This process is the physical process of energy transfer described by the radiative transfer equation (RTE) and its solution needs a radiative transfer model (RTM). The radiative transfer is a very complex process that needs to be simplified to be solved numerically and some parametrizations are needed. However, from these models it is possible to reproduce the solar radiation behaviour across the atmosphere and at the surface. RTMs are in the core of numerical weather prediction models and climate models and sometimes they are used to obtain solar radiation from satellite images, although in this case empirical or semi-empirical approaches are also commonly applied.\\
 
-Secondly, the solar radiation at the surface can be estimated using statistical models. In this case it is necessary to have enough data to validate the model and likely these models will not be able to reproduce solar behaviour universally.\\
+Secondly, the solar radiation at the surface can be estimated using statistical methods. In this case it is necessary to have enough data to validate the model and likely these models will not be able to reproduce solar behaviour universally.However, they can be very useful for local applications.\\
 
-In chapters 7 and 8 different climate models are used as main source of solar radiation data. This variable comes from different schemes that depends on the model and that are different forms of solving the radiative transfer equations. Besides solar radiation is not being analysed deeply in these models, it is an important source of information in order to analyse future or past trends and possible changes.\\
+In chapters 7 and 8 different climate models are used as main source of solar radiation data. The output of each model will be the result of the radiative scheme inside their codes and it can be used as the input variable for a photovoltaic production model to analyse photovoltaic potential under different climate conditions.
+
+%Although solar radiation has not been analysed deeply in these models, it is an important source of information in order to analyse future or past trends and possible changes.\\
+
 % Physical models are not dependent on 
 
 % In order to understand and to model the behaviour of solar radiation, two approaches
@@ -93,16 +94,24 @@ In chapters 7 and 8 different climate models are used as main source of solar ra
 
 It has been previously commented that the scarcity of available ground-based solar radiation measurements is a well-known problem. Satellite datasets has become one of the main sources of solar radition data because its high spatial and temporal resolution as well as its increasing accuracy.\\
 
-There are different methods to retrieve solar radiation from satellite images that goes from physical models to empirical ones. In the first case, the models try to explain the radiance observed by the satellite instrumentation with a radiation-transfer model. In order to do that, it is necessary to know the composition of the atmosphere. On the other hand, empirical models are based in simple regression models between the visible-channel's recorded intensity and grounded measurements. There are also some approaches that are in between theses two sides: the semi-empirical models. They use a simpler radiative-transfer scheme and some statistical regressions between data from satellite sensors and observed data.Schmetz (1989), Noia et al. (1993), Pinker et al. (1995), Zelenka (2001), and Hammer et al (2003). [Jan Kleiss, Solar Energy Forecasting and Resource assessment, pp.22.23]\\
+There are different methods to retrieve solar radiation from satellite images that goes from physical models to empirical ones. In the first case, the models try to explain the radiance observed by the satellite instrumentation with a radiation transfer model (RTM). In order to do that, it is necessary to know the composition of the atmosphere. On the other hand, empirical models are based in simple regression models between the visible-channel's recorded intensity and grounded measurements. There are also some approaches that are in between theses two sides: the semi-empirical models. They use a simpler radiative-transfer scheme and some statistical regressions between data from satellite sensors and observed data.Schmetz (1989), Noia et al. (1993), Pinker et al. (1995), Zelenka (2001), and Hammer et al (2003).\footnote{Jan Kleiss, Solar Energy Forecasting and Resource assessment, pp.22.23}\\
 
 In this work some satellite-data-based products from CM-SAF (The Satellite Application Facility on Climate Monitoring) have been used. The aim of CM-SAF consortium from EUMETSAT [ref] is to develop satellite-data-based-products for climate monitoring since in 2000 it was recognised the importance of using satellite for this purpose.\\
 
-There are two main products that can be obtained from the CM-SAF. They produce operational products and Climate Data Records (CDR). The main purpose of the CDR is to provide a high-quality database to monitor climate variability and change (ref).\\
+The CM SAF products are derived from several instruments on-board operational satellites in geostationary and polar orbits. There are two main types of products that can be obtained from the CM-SAF. They produce operational products and Climate Data Records (CDR). The main purpose of the CDR is to provide a high-quality database to monitor climate variability and changes (ref), as well as the detection of trends. Operational products, on the other hand, are not accurate enough for this purpose because some errors like inter-satellite biases or sensors degradation are not corrected (ref: PUM producte user manual).\\
 
-%{\color{red}a partir de aquí copiado}\\
 
-The CM SAF products are derived from several instruments on-board operational satellites in geostationary and polar orbit, i.e., the Meteosat and NOAA satellites, respectively. The existing data sets will be continued using data from the instruments on-board the new EUMETSAT Meteorological Operational satellite (MetOP). The products have mostly been validated against several ground-based data sets both in situ and remotely sensed. %The accomplished accuracy for products derived in near real time is sufficient to monitor variability on diurnal and seasonal scales. Products based on intercalibrated radiance data can also be used for climate variability analysis up to inter-annual scale. A central goal of the recently started 2nd Continuous Development and Operations Phase of the CM SAF (2012–2017) is to further improve all CM SAF data sets to a quality level that allows for studies of inter-annual variability.\\
+The SARAH dataset from CM-SAF has been used in chapters 7 and 8 of this manuscript for the analysis of shortwave solar radiation at the surface. The data is based on the records from Meteosat images, first and second generation, using the on-board MVIRI and SEVIRI instruments respectively. As the purpose of the CDR is to provide long time series convering more than 20 years, it is necessary a retrieval algorithm that can be appplied to SEVIRI intruments as well as to the older MVIRI. This algorithm has been called MAGICSOL and has to parts: first, the modified Heliosat method is used to obtain the cloud effective albedo (CAL) and second, the MAGIC appoach is used to obtain all sky surface radiation based on CAL. (ref PUM)\\
 
+{\color{red} No sé si merece la pena poner algo más acerca del método. Puede ser de ayuda también para ver como se incluyen los aerosoles. Incluyo una imagen del esquema que hice del proceso de obtención de la radiación con los datos del satélite y podría estar bien incluir.}\\
+
+
+\begin{figure}
+  \centering
+  \includegraphics[width=0.6\textwidth]{figs/esquema}
+  \caption{Algorithm scheme: Retrieval of shortwave solar radiation from satellite images.}
+ \label{fig:algorithm_outline}
+\end{figure}
 
 \section{Photovoltaic prodution data}
 
