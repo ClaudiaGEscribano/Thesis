@@ -357,28 +357,50 @@ HadGEM2-ES&KNMI&RACMO&\\
 
 \section{PV potential}
 
-In order to to obtain a projection of the photovoltaic productivity over Europe under cliamte change scenarios, a modeling chain approach is considered. Shortwave solar radiation from different climate simulations is used as an input of a photovoltaic model that will give an estimation of the power output. The complete process is explained in chapter 4.\\
+In order to obtain a projection of the photovoltaic productivity over Europe under cliamte change scenarios, a modeling chain approach is considered. Shortwave solar radiation from different climate simulations is used as an input of a photovoltaic model that will give an estimation of the power output. The complete process is explained in chapter 4.\\
 
-The two steps followed in the modeling process of the photovoltaic output are: first, it is necessary to get solar irradiation that reach solar cells, after that it is modeled the electrical performance of the system.\\
+The two steps followed in the modeling process of the photovoltaic output are: first, it is necessary to get solar irradiation that reach solar cells, after that the electrical performance of the system is modeled.\\
+
+The process is described in \ref{cha:methods}. In this case, monthly means of daily solar irradiation are used for the decomposition and transformation to the plane of array. Correlation equations between de diffuse fraction and the clearness index described by Page are aplied.   
 
 \section{Results}
 
 \subsection{Anomalies of SSR and CLT}
 
-The mean anomaly of the period 2021-2050 with respect to the reference period 1971-2000 is represented in figures 1 and 2 first for shortwave solar irradiation and then for total cloud cover.\\
+The anual mean anomaly of the period 2021-2050 for summer months (JJA) with respect to the reference period 1971-2000 is represented in figures 1 and 2 first for shortwave solar irradiation, SSR, and then for total cloud cover, CLT.\\
 
 \begin{figure}[h!]
-\centering\includegraphics[width=0.7\textwidth]{figs/capitulo7/ANOMALIAS_JJA_SSR_2050-2021.pdf}
+\centering\includegraphics[width=1\textwidth]{figs/capitulo7/ANOMALIAS_JJA_SSR_2050-2021.png}
 \caption{}
 \label{}
 \end{figure}
 
-Anual mean anomaly for summer months shows and increase in Central Europe for climate models with evolving aerosols in scenarios, GCMs and RCMs. In the case of RCMs there are differences in the magnitude of the changes. ALADIN5.3 presents highest anomaly in the mentioned area, which agrees with the anaomaly and spatial pattern of aod of these model, as can be seen in figure 3. For RACMO, the aod anomaly has similar spatial pattern but the magnitude is smaller and the same happend with the projected SSR.\\
+Anual mean anomaly for summer months shows an increase in Central Europe for climate models with evolving aerosols in scenarios, GCMs and RCMs. In the case of RCMs there are differences in the magnitude of the changes. ALADIN5.3 presents highest anomaly in the mentioned area, which agrees with the anomaly and spatial pattern of aod of this model, as can be seen in figure 3. For RACMO, the aod anomaly has similar spatial pattern but the magnitude is smaller. The same happends with the projected SSR anomalies.\\
+
+The CLT spatial pattern is not complementary with the SSR anomaly map for ALADIN5.3 and RACMO. It means, that the anomaly in SSR is not explained by the anomaly in the total cloud cover. It can be observed, on the contrary that for RCMs with no time-evolving aod the maps are more spatially complementary, as can be also seen in table 3 where values of spatial correlation between both variables are shown. For CM5-ALADIN5.3 and EC-EARTH-RACMO22E the spatial correlation is very low between CLT and SSR and it increase until X and X respectively if AOD is included in the spatial correlation.\\
 
 \begin{figure}[h!]
 \centering\includegraphics[width=1\textwidth]{figs/capitulo7/ANOMALIAS_JJA_AOD_2050-2021.pdf}
 \caption{}
 \label{}
 \end{figure}
+
+\subsection{Projected changes in PV production}
+
+The photovoltaic yearly productivity, defined as the power output by the power capacity installed (it is consider a 1 kW system for each grid cell), is calculated for each cell of the land in the domain of EURO-CORDEX. Then, the averaged by country of the relative difference with respect to the reference period 1970-2000 is represented in next figure.
+
+{\color{red} Anomalía para los modelos con aerosoles y los modelos sin aerosoles}
+
+The geographical dependence of the PV anomaly is due to the spatial pattern of SSR anomaly, that is close related with the evolution of AOD in central Europe projected by ALADIN5.3 and RACMO22E. It is important to notice that for the simulation including aerosols the sign in PV power output anomaly is positive and negative in the other cases.
+
+Uncertainties due to the different AOD datasets used in the two RCMs and in the radiative transfer code of the model difficults the robust answer about the change magnitude. Averaging the results for the non-aerosols simulations and aerosols simulation, we obtain the results in fugure.
+
+\section{Discussion}
+
+To determine the uncertainity in climate projections is one of the main issues in climate science because the information underlyng the simulations is difficult to comunicate. In order to isolate the uncertainity sources in a multi-model workit is necessary to design a sensitivity test for each of the models in the study. Up to now, there are not enough simulations from the EURO-CORDEX ensemble including evolving aerosols and for those that include them, there is not a the same simulation excluding the aerosols forcing.
+
+For that reason, this preliminary study, although it highlights very important issues is the firs step in order to understand the role of aerosols in the RCM projections.
+
+\section{Conclusion}
 
 % \end{document}
