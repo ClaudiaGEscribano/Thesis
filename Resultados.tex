@@ -91,7 +91,7 @@ From data of solar irradiation on the horizontal plane as the starting point of 
 \end{itemize}  
  
 \begin{figure}[h!]
-\centering\includegraphics[width=1\textwidth]{figs/multi_step}
+\centering\includegraphics[width=1\textwidth]{figs/capitulo5/multi_step}
 \caption{Scheme: Each gray block represents each of the operations needed to get the variability and complementarity results. Orange ellipses are the data employed and blue ellipses are the results of each stage. If the results of one of the blocks are used as input for another stage, connectors are represented in orange color.}
 \label{fig:multi_step}
 \end{figure}
@@ -127,7 +127,7 @@ The procedure used in \cite{Argueso2011} and in \cite{Zagouras2014} is adapted t
 \item \textbf{L-method}. CH index is calculated for every partition from 2 to $n$ clusters. The resulting CH graph in figure \ref{CHindex} for the Iberian Peninsula regionalization is shown for a number of clusters between 2 and 70 as an example. Theoretically, the partition with the maximum CH is the optimum, but the graph shows a decreasing trend which leads to imprecision in finding the optimum. The large number of data and the continuous variable analyzed are responsible for that. For that reason, the L-method is applied \citep{Salvador2004}. This method selects the intersection of two best-fit lines in the graph CH vs. \textit{k}, where \textit{k} is the number of clusters of the partition \citep{Zagouras2013}. All possible pairs of lines that fit linearly to the left and right sequence of data points are created. Each line has at least two points. The total root mean squared error is calculated as in Eq.:\ref{eq:total_RMSE}:
 
 \begin{figure}[h!]
-\centering\includegraphics[width=0.5\textwidth]{figs/CHindex}
+\centering\includegraphics[width=0.5\textwidth]{figs/capitulo5/CHindex}
 \caption{Calinski-Harabasz index by 'k' number of clusters}
 \label{CHindex}
 \end{figure}
@@ -201,7 +201,7 @@ In order to obtain the more important cluster pairs regarding complementarity, t
 The optimal partition after having applied the clustering method is represented in figure \ref{clusters}. The CH validation procedure gives an optimum number of 19 clusters for the area, where each of the clusters has an homogeneous time evolution of solar irradiation. Due to the nature of clustering techniques, there is not an unique/best method to select the optimum partition. Another index (Davies-Boudin, \cite{davies1979cluster}) has been applied for comparison, and the obtained optimum number of clusters was of the same order than for CH index.
  
 \begin{figure}[h!]
-\centering\includegraphics[width=0.6\textwidth]{figs/clusters2}
+\centering\includegraphics[width=0.6\textwidth]{figs/capitulo5/clusters2}
 \caption{Optimal partition of 19 Clusters after applied the algorithm and the validity index}
 \label{clusters}
 \end{figure}
@@ -226,7 +226,7 @@ Power from the PV generator depends quasi-linearly with solar irradiation at the
 For areas where solar irradiation is higher, yield differences between trackers are higher. This can be seen in figure \ref{yearly_productivity_byCluster} where yearly mean yield for the 30-years period is aggregated by cluster and tracking system, and clusters are sorted vertically from less to more energy yield. A noteworthy result is that yield increase from fixed panels to one-axis panels is non-linear. This increase ranges between $17\%$ for the clusters with less solar irradiation, located at the northern coast (clusters 4, 5), and $30\%$ for the southern clusters with more solar irradiation (clusters 18, 19). In contrast, enegy yield increase from one-axis to two-axes panels is almost constant, around $12\%$ for all clusters. A consequence of the non-linear PV yield increase from fixed to one-axis panels is that the energy yield differences between clusters are much higher for tracking than for fixed systems. While for fixed panels PV energy yield varies between 1000 and 1450 $[\si{\kilo\watthour\over\kilo\wattpeak}]$, for two-axes systems it varies between 1350 and 2100 $[\si{\kilo\watthour\over\kilo\wattpeak}]$. These average values are coherent with results obtained in \cite{Antonanzas-Torres2013} when considering a value of 0.75 for the system performance ratio.
  
 \begin{figure}[!tbp] 
-\includegraphics[width=0.6\textwidth]{figs/productividadTemp_byCluster.pdf}
+\includegraphics[width=0.6\textwidth]{figs/capitulo5/productividadTemp_byCluster.pdf}
 \caption{Yearly mean of PV yield by cluster and for each tracking system $[\si{\kilo\watthour\over\kilo\wattpeak}]$. Values are sort from lower to higher yield values.}
 \label{yearly_productivity_byCluster}
 \end{figure}
@@ -238,7 +238,7 @@ The interannual variability for monthly yield is higher than for the irradiation
 In order to quantify these differences in variability between solar irradiation and solar power output, the ratio between variability of yield by tracking system and solar irradiation is represented in figure \ref{ratiosCV} for each month and cluster. If CV of energy yield is higher than CV of solar irradiation, values are above one. On the other side values will be below one if CV of solar irradiation is higher than CV of energy yield. 
 
 \begin{figure}
-  \includegraphics[width=0.6\textwidth]{figs/dotplot_ratio_zone.pdf}
+  \includegraphics[width=0.6\textwidth]{figs/capitulo5/dotplot_ratio_zone.pdf}
   \caption{CV ratios between each type of tracking system and solar irradiation at the horizontal plane, grouped together by month in the graph. Ratios are calculated for each cluster, represented in the x axis. ``Fixed'' represents $\frac{CV_{fixed}}{CV_{G0}}$, ``1 axis'' is $\frac{CV_{1axis}}{CV_{G0}}$ and ``2 axis'' is $\frac{CV_{2axes}}{CV_{G0}}$}
   \label{ratiosCV}
 \end{figure}
@@ -258,7 +258,7 @@ It could be that the obtained clusters present higher complementarity in shorter
 The median value of the correlation coefficient series is calculated for each pair. Each serie comprises 12 monthly values for each of the 15-year moving windows. After that, the cluster pairs are reordered from lower to higher values of this median correlation, and the first 15 pairs (with the lowest median correlation) are selected as the most representative of complementarity. These cluster pairs are represented in figure\ref{horizonplot_rad}, showing the time-evolution of its correlation coefficient. These results are for solar irradiation on the horizontal plane. The corresponding figures for PV yield by tracking system are not shown due to the similar results obtained for this analysis.
 
 \begin{figure}[h!]
-\includegraphics[scale=0.6]{figs/horizonplot_series_rad2}
+\includegraphics[scale=0.6]{figs/capitulo5/horizonplot_series_rad2}
 \caption{Correlation coefficient of solar irradiation at the horizontal plane: evolution of a 15-year moving window of monthly values, for the 15 cluster pairs showing the smallest median correlation values. Monthly negative correlations (in red) and monthly positive correlations (in blue) are represented in the same axis to facilitate the comparison of the multiple time-series. Also, higher correlation values overlap with lower ones, enabling a compact presentation of all the information in a narrower plot. The cluster pairs are indicated on the left, while the year in the x-axis indicates the end of each 15-year moving window.}
 \label{horizonplot_rad}
 \end{figure}
@@ -272,7 +272,7 @@ It is important to notice the appearance of cluster pairs 3-4 and 3-5 in this fi
 In order to highlight the months with maximum anti-correlation,  figure \ref{horizonplot_months_rad} presents, for the same 15 cluster pairs as above, the minimum values of the monthly correlation coefficient (where the minimum for each month is calculated over all 15-year sub-periods). Differences between months are clearly observed in this graph. Only two months (March and June) show consistently positive values of this parameter, and therefore a low complementarity. In the other months, this parameter has predominantly negative values, revealing a certain degree of complementarity. July, August and September show rather low values and relatively high complementarity, which is important as these are months with a high productivity and also include the summer demand peak. In general,  for the second half of the year, the values of this minimum correlation value are lower than for the first half of the year.
 
 \begin{figure}[h!]
-\includegraphics[scale=0.6]{figs/horizonplot_months_rad2}
+\includegraphics[scale=0.6]{figs/capitulo5/horizonplot_months_rad2}
 \caption{Correlation coefficient of solar irradiation at the horizontal plane: minimum values of the monthly correlation coefficient, for the same cluster pairs as figure \ref{horizonplot_rad}. The minimum is calculated over all 15-year sub-periods. The type of representation of correlation values is the same as in figure \ref{horizonplot_rad}. The cluster pairs are indicated on the left, while the numbers in the x-axis indicate the months.}
 \label{horizonplot_months_rad}
 \end{figure}
@@ -288,10 +288,97 @@ In order to highlight the months with maximum anti-correlation,  figure \ref{hor
 \begin{abstract}
 
   With the ongoing energy transition, the evolution of renewable energy resources under different climate change scenarios is key for the investors and stakeholders of the energy industry. The possibility of changes in the actual conditions for the operating plants and the projected resources can vary the financial frame of the projects.\\
+  
   Although climate models give a robust answer in terms of global warming and other important climate variables, they dissagree in the projected changes of solar resource over Europe. Whereas global climate models, GCM, present a clear positve signal around the mid of XXI century, regional climate models, RCMs show a negative anomaly for the same period.\\
+  
   In this chapter we try to explain the reasons behind the different behaviour focusing on the representation of aerosols in the the simulations. We use regional climate models simulations from the EURO-CORDEX project.\\
+  
   A fairly pairwise comparison show that regional climate models that include evolving aerosols for the scenarios present the same sign for the signal in the shortwave solar radiation over Europe than global models.\\
+  
   We analyse total cloud cover in the regional models simulations and it is not find a clear relationship between the models with aerosols and the anomaly in cloud cover.\\
-  Due to the clear relationship between sortwave solar radiation anomaly and aerosols anomaly, it is necessary to prepare an experiment that is able to give a robust answer in the role of aerosols in terms of shortwave solar radiation projections.\\ 
-\end{abstract}  
+  
+  Due to the clear relationship between sortwave solar radiation anomaly and aerosols evolution, it is necessary to prepare an experiment that is able to give a robust answer in the role of aerosols in terms of shortwave solar radiation projections, which means, that is able to narrow down the uncertainties.\\ 
+\end{abstract}
+
+\section{Introduction}
+
+    The generalized increase in the photovoltaic installed capacity in last decades demands the delatiled study of spatio-temporal features of solar resource.\\
+
+  Due to the link between solar energy production and atmospheric variables, there is an increase concern motivated by the availability of resources under climate change scenarios. Due to that, climate modelling is a key tool to evaluate future energy potential despite of some constrains like its low spatial resolution or the coludiness representation.\\
+  
+   Although variability of solar radiation are mainly due to changes in cloudiness, in clear days other constituents of the atmosphere mostly aerosols, decrease the amount of energy reaching the generator surface. Because of its geographical situation, the Euro-Mediterranean area is one of the most influenced areas by natural and anthropogenic aerosols comming from different sources, affecting the spatio-temporal distribution of solar resource.\\
+
+   Different CMIP5 simulations with different GCMs have been evaluated to assess the photovoltaic potential under climate change conditions (wild et al.) and projecting an increase over Europe. However, later studies using regional climate models (Jerez et al. Bartok) have shown an opposite behaviour, an overall decrease in shortwave solar radiation and photovoltaic potential in the same area.\\
+
+   The added value of regional climate modeling against global simulations lies on the better representation of local features that can not be solved with coarser models. However, the increase in resolution has lead to a simplification of other processes in order to not compromise the computational time. Many regional climate simulations have been done using a very simplistic representation of aerosols content (nabat) and they do not include an evolution of aerosols in future projections.\\
+   
+   In this work we analyse the evolution of pohotovoltaic potential over Europe for the RCP8.5 scenario usinga regional climate models simulations from EURO-CORDEX initiative. We classify diferent simulations atending to the aerosol representation in the model and its driver global climate model.\\
+
+   Section \ref{Climate data} describes the regional models and simulations used in the study. In section 3 the the main results are explained and a discussion section followed.\\
+
+\section{Climate data: EURO-CORDEX}
+
+\subsection{EURO-CORDEX}
+
+The EURO-CORDEX (Jacob et. al 2014) initiative started as a 'branch' from the Coordinated Regional Climate Downscalling, CORDEX, whose aim is to provide regional climate simulations in different domains. EURO-CORDEX develops climate projections focused on the European continent at different horizontal resolutions (0.44º, 0.11º). These simulations are driven by different CMIP5 GCMs (Taylor et. al 2012).\\
+
+In table 1 there is the information about the aerosols datasets included in the EURO-CORDEX RCMs. It can be observed that only two RCMs from the EURO-CORDEX database include time-evolution of aerosols: RACMO22e and ALADIN5.3. Each of these RCMs have a different dataset of aerosols for projections. Whereas ALADIN5.3 select the Szopa dataset, RACMO22E uses.\\ 
+
+In this work, the choice for the different simulations has followed the next 'pairwise' principle: firstly, RCMs simulations from the EURO-CORDEX database including time evolving scenarios of aerosols are selected. Then, a family of RCMs simulations driven by the same GCMs is constructed around it. Following these steps, we will obtain several groups of RCMs simulations where each one will be called 'family' with the same driven GCM and with only one simulation including aerosols scenarios. Besides, we consider only the RCP8.5 because changes in SSR will be more noticeable and differences between simulations easily detected.\\ 
+
+**La tabla de la descripción de aerosoles de bartok de los GCM se puede referenciar y hacer la de aerosoles de EURO-CORDEX (o de los modelos que yo utilizo?)
+
+\begin{table}
+\caption{\label{tb:families}RCMs from EURO-CORDEX and aerosols description grouped by the CMIP5 GCMs drivers.}
+\footnotesize
+\begin{tabular*}{\textwidth}{@{}lll|lll}
+\br
+CMIP5 GCM & Institution  & RCM & Aerosols description & evaluation & scenarios\\
+\midrule
+%  \mr
+CNRM-CM5&CNRM&ALADIN5.3&\\
+&CLMcom&CCLM4-8-17&Climatology. Tegen 1987\\
+&SMHI&RCA4&Climatology\\
+\midrule
+% \mr  
+ICHEC-EC-EARTH&KNMI&RACMO&\\
+&CLMcom&CCLM4-8-17&\\
+&SMHI&RCA4&\\
+\midrule  
+HadGEM2-ES&KNMI&RACMO&\\
+&CLMcom&CCLM4-8-17&\\
+&SMHI&RCA4&\\  
+\bottomrule
+%  \br
+\end{tabular}\\
+%$^{a}$UK spelling is required; $^{b}$MSC classification numbers are required; $^{c}$titles of articles are required in journal references; $^{d}$Harvard-style references must be used (see section \ref{except}); $^{e}$final page numbers of articles are required in journal references.
+\end{table}
+\normalsize
+
+\section{PV potential}
+
+In order to to obtain a projection of the photovoltaic productivity over Europe under cliamte change scenarios, a modeling chain approach is considered. Shortwave solar radiation from different climate simulations is used as an input of a photovoltaic model that will give an estimation of the power output. The complete process is explained in chapter 4.\\
+
+The two steps followed in the modeling process of the photovoltaic output are: first, it is necessary to get solar irradiation that reach solar cells, after that it is modeled the electrical performance of the system.\\
+
+\section{Results}
+
+\subsection{Anomalies of SSR and CLT}
+
+The mean anomaly of the period 2021-2050 with respect to the reference period 1971-2000 is represented in figures 1 and 2 first for shortwave solar irradiation and then for total cloud cover.\\
+
+\begin{figure}[h!]
+\centering\includegraphics[width=0.7\textwidth]{figs/capitulo7/ANOMALIAS_JJA_SSR_2050-2021.pdf}
+\caption{}
+\label{}
+\end{figure}
+
+Anual mean anomaly for summer months shows and increase in Central Europe for climate models with evolving aerosols in scenarios, GCMs and RCMs. In the case of RCMs there are differences in the magnitude of the changes. ALADIN5.3 presents highest anomaly in the mentioned area, which agrees with the anaomaly and spatial pattern of aod of these model, as can be seen in figure 3. For RACMO, the aod anomaly has similar spatial pattern but the magnitude is smaller and the same happend with the projected SSR.\\
+
+\begin{figure}[h!]
+\centering\includegraphics[width=1\textwidth]{figs/capitulo7/ANOMALIAS_JJA_AOD_2050-2021.pdf}
+\caption{}
+\label{}
+\end{figure}
+
 % \end{document}
