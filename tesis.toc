@@ -55,6 +55,6 @@
 \contentsline {section}{\numberline {7.4}Results}{62}{section.7.4}
 \contentsline {subsection}{\numberline {7.4.1}Anomalies of SSR and CLT}{62}{subsection.7.4.1}
 \contentsline {subsection}{\numberline {7.4.2}Projected changes in PV production}{64}{subsection.7.4.2}
-\contentsline {section}{\numberline {7.5}Discussion}{64}{section.7.5}
-\contentsline {section}{\numberline {7.6}Conclusion}{64}{section.7.6}
-\contentsline {chapter}{Bibliography}{65}{section*.7}
+\contentsline {section}{\numberline {7.5}Discussion}{65}{section.7.5}
+\contentsline {section}{\numberline {7.6}Conclusion}{65}{section.7.6}
+\contentsline {chapter}{Bibliography}{67}{section*.7}

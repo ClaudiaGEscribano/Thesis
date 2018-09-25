@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.24)  19 SEP 2018 17:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.24)  21 SEP 2018 11:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1876,6 +1876,9 @@ File: english.lbx 2016/03/03 v3.3 biblatex localization (PK/JW/AB)
 ux
 
 LaTeX Warning: Label `eq:euclidean' multiply defined.
+
+
+LaTeX Warning: Label `tb:families' multiply defined.
 
 
 LaTeX Warning: Label `' multiply defined.
@@ -3807,13 +3810,37 @@ Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./tesis.toc:57: Package xcolor Error: Undefined color `grey'.
+./tesis.toc:58: Package xcolor Error: Undefined color `grey'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.57 ...ne {chapter}{Bibliography}{65}{section*.7}
+l.58 ...mberline {7.5}Discussion}{65}{section.7.5}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./tesis.toc:59: Package xcolor Error: Undefined color `grey'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.59 ...mberline {7.6}Conclusion}{65}{section.7.6}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./tesis.toc:60: Package xcolor Error: Undefined color `grey'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.60 ...ne {chapter}{Bibliography}{67}{section*.7}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -3954,7 +3981,7 @@ Overfull \hbox (11.29247pt too wide) in paragraph at lines 18--19
  to sup-port the re-search projects
  []
 
-<DataMethodsFIGS/bsrn.pdf, id=273, 807.41652pt x 548.24826pt>
+<DataMethodsFIGS/bsrn.pdf, id=283, 807.41652pt x 548.24826pt>
 File: DataMethodsFIGS/bsrn.pdf Graphic file (type pdf)
 
 <use DataMethodsFIGS/bsrn.pdf>
@@ -4073,14 +4100,14 @@ LaTeX Font Info:    Try loading font information for TS1+futs on input line 43.
 (/usr/share/texlive/texmf-dist/tex/latex/fourier/ts1futs.fd
 File: ts1futs.fd 2004/03/26 Fontinst v1.926 font definitions for TS1/futs.
 )
-<DataMethodsFIGS/medcordex2.png, id=293, 515.9275pt x 509.905pt>
+<DataMethodsFIGS/medcordex2.png, id=303, 515.9275pt x 509.905pt>
 File: DataMethodsFIGS/medcordex2.png Graphic file (type png)
 
 <use DataMethodsFIGS/medcordex2.png>
 Package pdftex.def Info: DataMethodsFIGS/medcordex2.png used on input line 47.
 (pdftex.def)             Requested size: 140.21242pt x 138.57094pt.
 
-<DataMethodsFIGS/eurocordex2.png, id=294, 489.83pt x 492.84125pt>
+<DataMethodsFIGS/eurocordex2.png, id=304, 489.83pt x 492.84125pt>
 File: DataMethodsFIGS/eurocordex2.png Graphic file (type png)
 
 <use DataMethodsFIGS/eurocordex2.png>
@@ -4136,7 +4163,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 68--69
 
  []
 
-<figs/esquema.png, id=311, 4016.00375pt x 2677.00125pt>
+<figs/esquema.png, id=321, 4016.00375pt x 2677.00125pt>
 File: figs/esquema.png Graphic file (type png)
  <use figs/esquema.png>
 Package pdftex.def Info: figs/esquema.png used on input line 73.
@@ -4814,7 +4841,7 @@ Overfull \hbox (1.66081pt too wide) in paragraph at lines 398--398
 ./DataMethods.tex:398: Misplaced \noalign.
 \midrule ->\noalign 
                     {\ifnum 0=`}\fi \@aboverulesep =\aboverulesep \global \@...
-l.398 ...centering{44º} & \centering{AER}\midrule
+l.398 ...ntering{0.44º} & \centering{AER}\midrule
                                                   \\
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
@@ -4826,7 +4853,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.398 ...ntering{44º} & \centering{AER}\midrule\\
+l.398 ...ering{0.44º} & \centering{AER}\midrule\\
                                                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -4915,7 +4942,7 @@ or  <return>  to continue without it.
 \midrule ->\noalign 
                     {\ifnum 0=`}\fi \@aboverulesep =\aboverulesep \global \@...
 l.405     \centering{CCLM4}\midrule
-                                    & \centering{EURO-CORDEX} & \centering{1...
+                                    & \centering{EURO-CORDEX} & \centering{0...
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
 
@@ -4991,7 +5018,7 @@ or  <return>  to continue without it.
 \midrule ->\noalign 
                     {\ifnum 0=`}\fi \@aboverulesep =\aboverulesep \global \@...
 l.411     \centering{CCLM4}\midrule
-                                    & \centering{EURO-CORDEX} & \centering{1...
+                                    & \centering{EURO-CORDEX} & \centering{0...
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
 
@@ -5253,7 +5280,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 84--85
 
  []
 
-<figs/capitulo5/multi_step.pdf, id=470, 728.07408pt x 387.79079pt>
+<figs/capitulo5/multi_step.pdf, id=480, 728.07408pt x 387.79079pt>
 File: figs/capitulo5/multi_step.pdf Graphic file (type pdf)
 
 <use figs/capitulo5/multi_step.pdf>
@@ -5482,7 +5509,7 @@ Overfull \hbox (5.74252pt too wide) in paragraph at lines 127--128
 in-sula re-gion-al-iza-tion is shown
  []
 
-<figs/capitulo5/CHindex.pdf, id=500, 505.89pt x 505.89pt>
+<figs/capitulo5/CHindex.pdf, id=510, 505.89pt x 505.89pt>
 File: figs/capitulo5/CHindex.pdf Graphic file (type pdf)
 
 <use figs/capitulo5/CHindex.pdf>
@@ -5569,7 +5596,7 @@ If that doesn't work, type  X <return>  to quit.
 LaTeX Warning: Citation 'davies1979cluster' on page 47 undefined on input line 
 201.
 
-<figs/capitulo5/clusters2.pdf, id=528, 505.89pt x 505.89pt>
+<figs/capitulo5/clusters2.pdf, id=539, 505.89pt x 505.89pt>
 File: figs/capitulo5/clusters2.pdf Graphic file (type pdf)
 
 <use figs/capitulo5/clusters2.pdf>
@@ -5618,7 +5645,7 @@ LaTeX Warning: Citation 'Antonanzas-Torres2013' on page 47 undefined on input l
 ine 226.
 
 [47]
-<figs/capitulo5/productividadTemp_byCluster.pdf, id=536, 505.89pt x 505.89pt>
+<figs/capitulo5/productividadTemp_byCluster.pdf, id=547, 505.89pt x 505.89pt>
 File: figs/capitulo5/productividadTemp_byCluster.pdf Graphic file (type pdf)
 
 <use figs/capitulo5/productividadTemp_byCluster.pdf>
@@ -5649,7 +5676,7 @@ l.238 ...n is represented in figure \ref{ratiosCV}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-<figs/capitulo5/dotplot_ratio_zone.pdf, id=550, 505.89pt x 505.89pt>
+<figs/capitulo5/dotplot_ratio_zone.pdf, id=560, 505.89pt x 505.89pt>
 File: figs/capitulo5/dotplot_ratio_zone.pdf Graphic file (type pdf)
 
 <use figs/capitulo5/dotplot_ratio_zone.pdf>
@@ -5675,7 +5702,7 @@ l.258 ...epresented in figure\ref{horizonplot_rad}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-<figs/capitulo5/horizonplot_series_rad2.pdf, id=574, 505.89pt x 505.89pt>
+<figs/capitulo5/horizonplot_series_rad2.pdf, id=584, 505.89pt x 505.89pt>
 File: figs/capitulo5/horizonplot_series_rad2.pdf Graphic file (type pdf)
 
 <use figs/capitulo5/horizonplot_series_rad2.pdf>
@@ -5716,7 +5743,7 @@ ation, fig-ure [][]5.7[][] presents,
  []
 
 [51] [52 <./figs/capitulo5/horizonplot_series_rad2.pdf>]
-<figs/capitulo5/horizonplot_months_rad2.pdf, id=592, 505.89pt x 505.89pt>
+<figs/capitulo5/horizonplot_months_rad2.pdf, id=602, 505.89pt x 505.89pt>
 File: figs/capitulo5/horizonplot_months_rad2.pdf Graphic file (type pdf)
 
 <use figs/capitulo5/horizonplot_months_rad2.pdf>
@@ -5847,12 +5874,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 313--314
  []
 
 
-Overfull \hbox (1.41302pt too wide) in paragraph at lines 315--316
-\T1/futs/m/n/10 the RCP8.5 sce-nario usinga re-gional cli-mate mod-els sim-u-la
--tions from EURO-CORDEX
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 315--316
 
  []
@@ -5887,14 +5908,227 @@ Underfull \hbox (badness 10000) in paragraph at lines 327--328
 
  []
 
+./Resultados.tex:336: Undefined control sequence.
+<template> ...enter \@startpbox {3cm}\raggedrigth 
+                                                  \ignorespaces 
+l.336 C
+       MIP5 GCM & Institution  & RCM  \tabularnewline
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-Underfull \hbox (badness 1728) in paragraph at lines 332--332
-[][][][]\T1/futs/m/it/10 RCMs from EURO-CORDEX and aerosols de-scrip-tion group
-ed by the
+./Resultados.tex:338: Undefined control sequence.
+<template> ...enter \@startpbox {3cm}\raggedrigth 
+                                                  \ignorespaces 
+l.338  C
+        NRM-CM5 & CNRM & ALADIN5.3 \tabularnewline
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Resultados.tex:339: Undefined control sequence.
+<template> ...enter \@startpbox {3cm}\raggedrigth 
+                                                  \ignorespaces 
+l.339 &
+       CLMcom&CCLM4-8-17\tabularnewline
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Resultados.tex:340: Undefined control sequence.
+<template> ...enter \@startpbox {3cm}\raggedrigth 
+                                                  \ignorespaces 
+l.340 &
+       SMHI&RCA4\tabularnewline
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Resultados.tex:342: Undefined control sequence.
+<template> ...enter \@startpbox {3cm}\raggedrigth 
+                                                  \ignorespaces 
+l.342 I
+       CHEC-EC-EARTH&KNMI&RACMO\tabularnewline
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Resultados.tex:343: Undefined control sequence.
+<template> ...enter \@startpbox {3cm}\raggedrigth 
+                                                  \ignorespaces 
+l.343 &
+       CLMcom&CCLM4-8-17\tabularnewline
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Resultados.tex:344: Undefined control sequence.
+<template> ...enter \@startpbox {3cm}\raggedrigth 
+                                                  \ignorespaces 
+l.344 &
+       SMHI&RCA4\tabularnewline
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Resultados.tex:346: Undefined control sequence.
+<template> ...enter \@startpbox {3cm}\raggedrigth 
+                                                  \ignorespaces 
+l.346 H
+       adGEM2-ES&KNMI&RACMO\tabularnewline
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Resultados.tex:347: Undefined control sequence.
+<template> ...enter \@startpbox {3cm}\raggedrigth 
+                                                  \ignorespaces 
+l.347 &
+       CLMcom&CCLM4-8-17\tabularnewline
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Resultados.tex:348: Undefined control sequence.
+<template> ...enter \@startpbox {3cm}\raggedrigth 
+                                                  \ignorespaces 
+l.348 &
+       SMHI&RCA4\tabularnewline
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Resultados.tex:361: Undefined control sequence.
+<template> ...ter \@startpbox {1.3cm}\raggedrigth 
+                                                  \ignorespaces 
+l.361 I
+       nstitution  & RCM & description & classes & scenarios \tabularnewline
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Resultados.tex:363: Undefined control sequence.
+<template> ...ter \@startpbox {1.3cm}\raggedrigth 
+                                                  \ignorespaces 
+l.363 C
+       NRM & ALADIN5.3 & Climatology. Szopa 2013 & 5 classes: sea salt, sulf...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Resultados.tex:364: Undefined control sequence.
+<template> ...ter \@startpbox {1.3cm}\raggedrigth 
+                                                  \ignorespaces 
+l.364 C
+       LMcom&CCLM4-8-17& Climatology. Tanré 1984 & 4 classes: sea, land, de...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Resultados.tex:365: Undefined control sequence.
+<template> ...ter \@startpbox {1.3cm}\raggedrigth 
+                                                  \ignorespaces 
+l.365 S
+       MHI&RCA4& Parametrization in radiation fluxes & Single integrated cla...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Resultados.tex:366: Undefined control sequence.
+<template> ...ter \@startpbox {1.3cm}\raggedrigth 
+                                                  \ignorespaces 
+l.366 K
+       NMI&RACMO&CAM inventory, Lamarque 2010 & 6 classes: sulfate, organic ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 377--378
+
  []
 
-./Resultados.tex:335: Undefined control sequence.
-l.335 \br
+[61]
+Underfull \hbox (badness 10000) in paragraph at lines 379--380
+
+ []
+
+
+./Resultados.tex:381: Package xcolor Error: Undefined color `grey'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.381 ...process is described in \ref{cha:methods}
+                                                  . In this case, monthly me...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 387--388
+
+ []
+
+
+<figs/capitulo7/ANOMALIAS_JJA_SSR_2050-2021.png, id=655, 505.1673pt x 336.0555p
+t>
+File: figs/capitulo7/ANOMALIAS_JJA_SSR_2050-2021.png Graphic file (type png)
+ <use figs/capitulo7/ANOMALIAS_JJA_SSR_2050-2021.png>
+Package pdftex.def Info: figs/capitulo7/ANOMALIAS_JJA_SSR_2050-2021.png used on
+ input line 390.
+(pdftex.def)             Requested size: 350.5364pt x 233.19125pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 395--396
+
+ []
+
+[62]
+Underfull \hbox (badness 10000) in paragraph at lines 397--398
+
+ []
+
+<figs/capitulo7/ANOMALIAS_JJA_AOD_2050-2021.pdf, id=663, 505.89pt x 216.81pt>
+File: figs/capitulo7/ANOMALIAS_JJA_AOD_2050-2021.pdf Graphic file (type pdf)
+
+<use figs/capitulo7/ANOMALIAS_JJA_AOD_2050-2021.pdf>
+Package pdftex.def Info: figs/capitulo7/ANOMALIAS_JJA_AOD_2050-2021.pdf used on
+ input line 400.
+(pdftex.def)             Requested size: 350.5364pt x 150.23093pt.
+
+./Resultados.tex:409: Undefined control sequence.
+l.409 \br
          
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -5903,81 +6137,29 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (3.60732pt too wide) in alignment at lines 334--353
-[][][][][][] 
+Underfull \hbox (badness 10000) in alignment at lines 408--427
+[][][][][][][] 
  []
 
 
-./Resultados.tex:353: LaTeX Error: \begin{tabular*} on input line 334 ended by 
+./Resultados.tex:427: LaTeX Error: \begin{tabular*} on input line 408 ended by 
 \end{tabular}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.353 \end{tabular}
+l.427 \end{tabular}
                    \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 360--361
-
- []
-
-[61]
-Underfull \hbox (badness 10000) in paragraph at lines 362--363
-
- []
+[63 <./figs/capitulo7/ANOMALIAS_JJA_SSR_2050-2021.png>] [64 <./figs/capitulo7/A
+NOMALIAS_JJA_AOD_2050-2021.pdf>]) [65] [66
 
 
-./Resultados.tex:364: Package xcolor Error: Undefined color `grey'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.364 ...process is described in \ref{cha:methods}
-                                                  . In this case, monthly me...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 370--371
-
- []
-
-
-<figs/capitulo7/ANOMALIAS_JJA_SSR_2050-2021.png, id=645, 505.1673pt x 336.0555p
-t>
-File: figs/capitulo7/ANOMALIAS_JJA_SSR_2050-2021.png Graphic file (type png)
- <use figs/capitulo7/ANOMALIAS_JJA_SSR_2050-2021.png>
-Package pdftex.def Info: figs/capitulo7/ANOMALIAS_JJA_SSR_2050-2021.png used on
- input line 373.
-(pdftex.def)             Requested size: 350.5364pt x 233.19125pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 378--379
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 380--381
-
- []
-
-<figs/capitulo7/ANOMALIAS_JJA_AOD_2050-2021.pdf, id=647, 505.89pt x 216.81pt>
-File: figs/capitulo7/ANOMALIAS_JJA_AOD_2050-2021.pdf Graphic file (type pdf)
-
-<use figs/capitulo7/ANOMALIAS_JJA_AOD_2050-2021.pdf>
-Package pdftex.def Info: figs/capitulo7/ANOMALIAS_JJA_AOD_2050-2021.pdf used on
- input line 383.
-(pdftex.def)             Requested size: 350.5364pt x 150.23093pt.
- [62] [63 <./figs/capitulo7/ANOMALIAS_JJA_SSR_2050-2021.png> <./figs/capitulo7/
-ANOMALIAS_JJA_AOD_2050-2021.pdf>]) [64] [65
-
-
+] [67
 
 ]
 \tf@toc=\write7
@@ -5985,19 +6167,13 @@ ANOMALIAS_JJA_AOD_2050-2021.pdf>]) [64] [65
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 70.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 70.
- (./tesis.aux (./preface.aux) (./Intro.aux) (./DataMethods.aux) (./Resultados.a
-ux))
+ (./tesis.aux (./preface.aux)
+(./Intro.aux) (./DataMethods.aux) (./Resultados.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 70.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 70.
+Package rerunfilecheck Info: File `tesis.out' has not changed.
+(rerunfilecheck)             Checksum: 109156DFBA010BC74096166B38DCCDEB;8214.
 
-
-Package rerunfilecheck Warning: File `tesis.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `tesis.out':
-(rerunfilecheck)             Before: C2B836CFD0BE25E798BB3C18C1ECFDC7;8004
-(rerunfilecheck)             After:  109156DFBA010BC74096166B38DCCDEB;8214.
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 2.26395pt have occurred.
@@ -6019,27 +6195,28 @@ Package logreq Info: Writing requests to 'tesis.run.xml'.
  )
 (\end occurred when \iftrue on line 7 was incomplete) 
 Here is how much of TeX's memory you used:
- 31363 strings out of 493029
- 547924 string characters out of 6136234
- 677683 words of memory out of 5000000
- 34322 multiletter control sequences out of 15000+600000
+ 31370 strings out of 493029
+ 548007 string characters out of 6136234
+ 680796 words of memory out of 5000000
+ 34325 multiletter control sequences out of 15000+600000
  201923 words of font info for 224 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  49i,19n,61p,10422b,1240s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-
 dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/pub
 lic/fourier/fourier-mex.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/f
-ourier/fourier-mlit.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/fouri
-er/fourier-ms.pfb></usr/share/texlive/texmf-dist/fonts/type1/adobe/utopia/putb8
-a.pfb></usr/share/texlive/texmf-dist/fonts/type1/adobe/utopia/putbi8a.pfb></usr
-/share/texlive/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/adobe/utopia/putri8a.pfb></usr/share/texlive/texmf-di
-st/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/typ
-e1/urw/palatino/uplri8a.pfb>
-Output written on tesis.pdf (71 pages, 36325630 bytes).
+ourier/fourier-ml.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/fourier
+/fourier-mlit.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/fourier/fou
+rier-ms.pfb></usr/share/texlive/texmf-dist/fonts/type1/adobe/utopia/putb8a.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/adobe/utopia/putbi8a.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/adobe/utopia/putri8a.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw
+/palatino/uplri8a.pfb>
+Output written on tesis.pdf (73 pages, 36330540 bytes).
 PDF statistics:
- 746 PDF objects out of 1000 (max. 8388607)
- 631 compressed objects within 7 object streams
- 169 named destinations out of 1000 (max. 500000)
- 362 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 770 PDF objects out of 1000 (max. 8388607)
+ 652 compressed objects within 7 object streams
+ 173 named destinations out of 1000 (max. 500000)
+ 378 words of extra memory for PDF output out of 10000 (max. 10000000)
 

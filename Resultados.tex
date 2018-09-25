@@ -312,7 +312,7 @@ In order to highlight the months with maximum anti-correlation,  figure \ref{hor
 
    The added value of regional climate modeling against global simulations lies on the better representation of local features that can not be solved with coarser models. However, the increase in resolution has lead to a simplification of other processes in order to not compromise the computational time. Many regional climate simulations have been done using a very simplistic representation of aerosols content (nabat) and they do not include an evolution of aerosols in future projections.\\
    
-   In this work we analyse the evolution of pohotovoltaic potential over Europe for the RCP8.5 scenario usinga regional climate models simulations from EURO-CORDEX initiative. We classify diferent simulations atending to the aerosol representation in the model and its driver global climate model.\\
+   In this work we analyse the evolution of pohotovoltaic potential over Europe for the RCP8.5 scenario using regional climate models simulations from EURO-CORDEX initiative. We classify diferent simulations atending to the aerosol representation in the model and its driver global climate model.\\
 
    Section \ref{Climate data} describes the regional models and simulations used in the study. In section 3 the the main results are explained and a discussion section followed.\\
 
@@ -329,31 +329,48 @@ In this work, the choice for the different simulations has followed the next 'pa
 **La tabla de la descripción de aerosoles de bartok de los GCM se puede referenciar y hacer la de aerosoles de EURO-CORDEX (o de los modelos que yo utilizo?)
 
 \begin{table}
-\caption{\label{tb:families}RCMs from EURO-CORDEX and aerosols description grouped by the CMIP5 GCMs drivers.}
+\caption{\label{tb:families}RCMs from EURO-CORDEX grouped by the CMIP5 GCMs drivers generating the 3 families of simulations studied.}
 \footnotesize
-\begin{tabular*}{\textwidth}{@{}lll|lll}
-\br
-CMIP5 GCM & Institution  & RCM & Aerosols description & evaluation & scenarios\\
+\begin{tabular}{>{\raggedrigth}m{3cm}>{\raggedright}m{3cm}>{\raggedright}m{3cm}}
+\toprule 
+CMIP5 GCM & Institution  & RCM  \tabularnewline
 \midrule
-%  \mr
-CNRM-CM5&CNRM&ALADIN5.3&\\
-&CLMcom&CCLM4-8-17&Climatology. Tegen 1987\\
-&SMHI&RCA4&Climatology\\
-\midrule
-% \mr  
-ICHEC-EC-EARTH&KNMI&RACMO&\\
-&CLMcom&CCLM4-8-17&\\
-&SMHI&RCA4&\\
+ CNRM-CM5 & CNRM & ALADIN5.3 \tabularnewline
+&CLMcom&CCLM4-8-17\tabularnewline 
+&SMHI&RCA4\tabularnewline
 \midrule  
-HadGEM2-ES&KNMI&RACMO&\\
-&CLMcom&CCLM4-8-17&\\
-&SMHI&RCA4&\\  
+ICHEC-EC-EARTH&KNMI&RACMO\tabularnewline
+&CLMcom&CCLM4-8-17\tabularnewline
+&SMHI&RCA4\tabularnewline
+\midrule  
+HadGEM2-ES&KNMI&RACMO\tabularnewline
+&CLMcom&CCLM4-8-17\tabularnewline
+&SMHI&RCA4\tabularnewline  
 \bottomrule
 %  \br
 \end{tabular}\\
 %$^{a}$UK spelling is required; $^{b}$MSC classification numbers are required; $^{c}$titles of articles are required in journal references; $^{d}$Harvard-style references must be used (see section \ref{except}); $^{e}$final page numbers of articles are required in journal references.
 \end{table}
 \normalsize
+
+\begin{table}
+\caption{\label{tb:families}RCMs from EURO-CORDEX and aerosols description.}
+\footnotesize
+\begin{tabular}{>{\raggedrigth}m{1.3cm}>{\raggedright}m{1.3cm}|>{\raggedright}m{2.2cm}>{\raggedright}m{2.2cm}>{\raggedright}m{2cm}}
+\toprule 
+Institution  & RCM & description & classes & scenarios \tabularnewline
+\midrule
+CNRM & ALADIN5.3 & Climatology. Szopa 2013 & 5 classes: sea salt, sulfate,black carbon, desert dust,organic carbon.& evolve with RCP \tabularnewline
+CLMcom&CCLM4-8-17& Climatology. Tanré 1984 & 4 classes: sea, land, desert, urban.& no evolution\tabularnewline 
+SMHI&RCA4& Parametrization in radiation fluxes & Single integrated class.& no evolution \tabularnewline
+KNMI&RACMO&CAM inventory, Lamarque 2010 & 6 classes: sulfate, organic matter, desert dust, sea salt,stratospheric aerosols, volcanic & evolve with RCP\tabularnewline
+\bottomrule
+%  \br
+\end{tabular}\\
+%$^{a}$UK spelling is required; $^{b}$MSC classification numbers are required; $^{c}$titles of articles are required in journal references; $^{d}$Harvard-style references must be used (see section \ref{except}); $^{e}$final page numbers of articles are required in journal references.
+\end{table}
+\normalsize
+
 
 \section{PV potential}
 
@@ -384,6 +401,33 @@ The CLT spatial pattern is not complementary with the SSR anomaly map for ALADIN
 \caption{}
 \label{}
 \end{figure}
+
+\begin{table}
+\caption{\label{tb:spatial correlations}Spatial correlation between SSR,CLT and AOD anomalies maps.}
+\footnotesize
+\begin{tabular*}{0.9\textwidth}{@{}lllllll}
+\br
+CMIP5 GCM & RCM & $\rho_{SSR,CLT}$  & $\rho_{SSR,AOD}$ & $\Delta{SSR}$ & $\Delta{CLT}$ & $\Delta{AOD}$\\
+\midrule
+%  \mr 
+CNRM-CM5&ALADIN5.3& -0.26 & -0.94 & 7.15 & 0.60 & -0.10\\
+&CCLM4-8-17& -0.83 & - & -4.17 & -0.15 & -\\
+&RCA4& -0.71 & - & -3.55 & 0.21 & -\\
+\midrule
+% \mr  
+ICHEC-EC-EARTH&RACMO& 0.16 & -0.52 & 2.44 & 0.13 & -0.11\\
+&CCLM4-8-17& -0.80 & - & -4.40 & -0.51 & -\\
+&RCA4& -0.59 & - & -3.44 & 0.09 & -\\
+\midrule  
+HadGEM2-ES&RACMO&\\
+&CCLM4-8-17&\\
+&RCA4&\\  
+\bottomrule
+%  \br
+\end{tabular}\\
+%$^{a}$UK spelling is required; $^{b}$MSC classification numbers are required; $^{c}$titles of articles are required in journal references; $^{d}$Harvard-style references must be used (see section \ref{except}); $^{e}$final page numbers of articles are required in journal references.
+\end{table}
+\normalsize
 
 \subsection{Projected changes in PV production}
 
