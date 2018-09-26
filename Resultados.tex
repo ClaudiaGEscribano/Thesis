@@ -283,6 +283,468 @@ In order to highlight the months with maximum anti-correlation,  figure \ref{hor
 \subsection{Summary}
 
 \chapter{Impact of aerosols in photovoltaic energy production over the Euro-Mediterranean area}
+
+\begin{abstract}
+
+The increase in the photovoltaic energy installed capacity over the world leads to the need of a better understanding of solar resource and its variability. The aim of this work is to assess the influence of aerosols on photovoltaic energy production from seasonal to multi-decadal time scales. For this purpose we use various coupled aerosol-climate simulations that take into account the complex spatial and temporal patterns of natural and anthropogenic aerosols over the Euro-Mediterranean domain.
+
+The results show that aerosols strongly influence the spatial pattern, seasonal cycle and long-term trend of PV production. The most affected area is Central Europe where sensitivity of PV production to aerosols is higher. The annual production loss due to aerosols ranges from no impact to $-16\%$ in The Netherlands, with variation depending on the area and on the typology of the tracking system. The summer production loss can even reach $-20\%$ over regions of Africa and Syria-Iraq.  
+
+We conclude that aerosols can not be neglected in the assessment of PV production at large time scales over the Euro-Mediterranean area. Besides, the potential increase in energy due to reduction in the antrophogenic aerosols is shown in the simulation of the brightening period over Europe, with an increase of 2000 ${\kilo\watthour\over\kilo\wattpeak}$ in a PV lifetime for the most affected areas. It illustrates the evolution that PV potential could follow in highly polluted areas through the effective implementation of pollution control measures.  
+  
+   
+\end{abstract}
+ 
+\begin{keyword}
+\texttt{Photovoltaic production variability\sep Aerosols\sep Regional Climate Modeling}
+\end{keyword}
+
+\end{frontmatter}
+
+\linenumbers
+
+\section{Introduction}
+
+
+In the last decades there has been an overall increase in the deployment of photovoltaic (PV) power plants over the world, demanding research in the fields that contribute to a better integration of this technology into the electricity system. Due to the variability of solar resource, a comprehensive study of its spatiotemporal behavior is needed.
+
+Aerosols particles influence the climate system directly, affecting the Earth’s radiation budget by scattering or absorption of solar radiation, or indirectly, changing cloud properties. Due to their importance in the amount of solar radiation that reaches the Earth’s surface and their effect in the changing climate, the evaluation of their impact on the solar resource for energy purposes is of special interest.
+
+A general lack of well-spread surface stations, which provide solar radiation measurements, has made the satellite information the main and most reliable source of data up to now, due to its spatial and time resolution \citep{Posselt2012, Ineichen2014}. However, satellite retrievals were not available several decades ago and they do not allow to quantify the effect of specific factors on solar irradiance. Thus for investigating long-term statistics and to disentangle the various factors influencing solar resource, a different approach is needed. Models are the best tool to understand processes that occur in the atmosphere and their link with the resource variability, as individual factors can be included or removed in them, allowing the isolation of their effects.
+
+Due to the increasing concern about the availability of renewable energy resources under climate change scenarios, climate modeling has revealed itself as a valuable tool for evaluating future energy potential \citep{Crook2011, Gaetani2014, Gaetani2015, Jerez2015, Jerez2015climix, Tobin2016}. However, representation of the clouds is still one of the main challenges for these models, and the spatio-temporal variability of aerosols is rarely taken into account in some of regional climate models \citep{Bartok2017}, which could lead to significant errors in PV power forecasting or future energy estimations \citep{Rieger2017}. Such climate simulations have to be combined with an accurate PV model capable of reproducing the system performance. Existing studies analysing the influence of aerosols on solar irradiation lack spatial detail (because of the use of relatively coarse global climate models) and/or do not apply a detailed PV production model \citep{Bergin2017}. 
+
+The Mediterranean region is considered as highly influenced by aerosols coming from different sources \citep{Lelieveld}. These aerosols have a deep impact on the climate of the region \citep{Nabat2014, Nabat2014a}, thus on the shortwave solar radiation reaching the surface \citep{Mallet2016}. Regarding possible changes in antrophogenic aerosols in the future \citep{Gaetani2014, Jimenez-Guerrero2011}, the relevance of the near-term climate change scenarios and the expected PV deployment, the study of the Euro-Mediterranean area is important for solar energy.
+
+In this work we use a regional climate model \citep{Nabat2014} with a realistic aerosol representation combined with an accurate PV model \citep{Lamigueiro2012}. The influence of these aerosols in the spatiotemporal variability of PV production over the region is quantified. The analysis is made in present climate conditions for simulations between 2003 and 2009 and different tracking types are considered in the study, due to the different sensitivity of each typology to changes in solar radiation \citep{Gutierrez2017}. On the other hand, the impact that trends in antrophogenic aerosols have in PV energy production is also investigated using longer simulations for the ``brightening'' \citep{Wild2005} period, 1980-2012, reflecting how pollution control policies could benefit the PV energy production in highly polluted areas.
+
+This paper is organized as follows: in section 2 the climate and the photovoltaic model are described. In addition, there is a description of the aerosols and the datasets used for evaluation. Section 3 presents the results and shows the impact of aerosols on photovoltaic energy production. It is organized depending on the space-time scale analysed and there is a subsection for the tracking system sensitivity.  Flinally, section 5 is a discussion section for limitations and future perspectives and section 6 shows the main conclusions.
+
+\section{Data and Methods}
+
+Different climate simulations are used as an input of a PV power model. These climate simulations provide the daily-mean shortwave solar radiation, SSR, at the surface. The energy production model simulates the performance of a general photovoltaic system and includes different tracking types, considering the tilt of photovoltaic panels as a relevant component of the whole assessment. Computation of the photovoltaic energy model is made using the R open-source package named solaR \citep{Lamigueiro2012}.
+
+\subsection{Climate Data}
+
+The climate model used in this study (CNRM-RCSM4,\citep{Sevault2014}) is a coupled Regional Climate System Model (RCSM) dedicated to the study of the Mediterranean climate. CNRM-RCSM4 is one of the RCSMs contributing to the multi-model Med-CORDEX initiative \citep{Ruti2016}. It has the specificity to represent various components (atmosphere, land surface, river, ocean) of the Mediterranean regional climate system at high-resolution as well as their high-frequency coupling. The horizontal resolution is 50 km for the atmosphere, the land surface and the river network, and about 10 km for the Mediterranean Sea. In addition, the atmosphere part of the model, the so-called ALADIN-Climate version 5.2 \citep{Colin2010} is one of the few available Regional Climate Models which can take into account a realistic representation of the spatiotemporal variability of the aerosols \citep{Nabat2014}. The model has been extensively described, evaluated and intercompared with other Med-CORDEX models in previous studies, \cite{Sevault2014, Nabat2014, Nabat2014a,Flaounas2016, Gaertner2016, DellAquila2016, Harzallah2016, Cavicchia2016}
+
+The detailed interannual aerosol dataset used in the climate simulations \citep{Nabat2013}, NAB13, is able to reproduce the spatiotemporal variability of AOD (aerosol optical depth) over the Mediterranean region. It improves the representation of aerosols against older climatologies commonly applied in regional climate studies like \cite{Tegen1997} or \cite{tanre1984first}.
+
+The NAB13 dataset includes five different aerosol species: Sea Salt, Black Carbon, Sulfate, Organic Carbon and Desert Dust (ss, bc, su, or, sd); with spatial and temporal variability. It is based on a blending of a satellite-derived AOD product and a high-resolution regional climate model using up-to-date interactive aerosols module. This dataset has also been evaluated against ground stations \citep{Nabat2013}.
+
+During the eighties, some policies against the emissions of certain types of antrophogenic aerosols were implemented in Europe, which has been linked with the observed increase in the shortwave solar radiation in the area \citep{Wild2005}. For simulations over this commonly named ``brightening period'' (1980-2012), a trend for sulfate aerosols is included in NAB13, being able to reproduce the shortwave solar radiation trend observed over Europe since 1980 \citep{Nabat2014a}.
+
+There is a large spatial and seasonal variability of the AOD at 550nm over the Euro-Mediterranean. Spring and summer months are highly influenced by dust aerosols in the south of the domain. In winter, antrophogenic aerosols dominate in central Europe and during autumn, there are few areas with high values in opposition to the rest of the domain.
+
+The domain considered in the simulations covers the Mediterranean area in addition to a large part of Europe (see figure \ref{fig:mapapral}).
+
+For the first period, 2003-2009, a pair of runs is analysed. We refer to them as \textbf{AER} and \textbf{NO-AER}. The AER simulation includes the NAB13 dataset, whereas no aerosols are included in NO-AER. This pair allows to easily attribute the obtain differences to the aerosols effect, therefore to quantify the impact of aerosols on the Euro-Mediterranean SSR and PV productivity. It is an important point considering the fact that some of the state-of-art RCM do not include aerosols in their simulation, so it gives an idea of that missing forcing.
+
+Secondly, a longer simulation between 1980 and 2012, \textbf{TREND}, covering the ``brightening'' period observed in Europe is also analysed. It will show the effect of a decreasing trend in sulfur aerosols on the shortwave solar radiation and on the PV productivity.  
+
+A summary of the different simulations is reported in table \ref{tabSIM}.
+
+\begin{table}
+  \begin{tabular}{>{\raggedright}m{2cm}>{\raggedright}m{3cm}>{\raggedright}m{2cm}}
+    \toprule 
+    Simulation & Aerosols & \centering{Period}\tabularnewline
+    \midrule
+    AER & NAB13 & 2003-2009
+    \tabularnewline
+    \midrule
+    NO-AER & Not included & 2003-2009
+   \tabularnewline
+   \midrule           
+  TREND & NAB13 + sulfates trend & 1980-2012
+   \tabularnewline
+    \bottomrule
+  \end{tabular}
+  \caption{Simulations of the CNRM-RCSM4 regional climate model to obtain SSR and temperature as input of the photovoltaic model, period and representation of aerosols in each simulation.}
+\label{tabSIM}
+\end{table}
+
+\begin{figure}[h!]
+\centering\includegraphics[width=0.7\textwidth]{figs/capitulo6/zonasPuntosLabel.pdf}
+\caption{Areas defined to evaluate the difference in solar radiation between the satellite and the climate model simulations: Western Europe, EURW; Southern Europe, EURS; North-Eastern Europe, EURNE; Central Europe, EURC; Eastern Mediterranean, EMED; British Island, BISL; Western Africa, AFRW; Eastern Africa, AFRE. The location of the BSRN stations is represented with points ``.'' and the two PV plants are plotted with ``+'' in orange.}
+\label{fig:mapapral}
+\end{figure}
+
+ 
+\subsection{PV model description}
+
+In this section we make use of the commonly used terms: shortwave solar radiation, SSR, is equivalent to the global irradiation at the horizontal plane $G(0)$, which is composed of the beam component, $B(0)$, the diffuse irradiation, $D(0)$, and the albedo $R(0)$.
+
+A photovoltaic energy system is mainly composed of the generator, consisting of several modules that include the cells to transform solar radiation into electricity, and the inverter, which transforms direct current into alternate current to be integrated into the electricity network. The assessment or estimation of the power output of a PV system implies modeling its components. For this purpose, two main steps have to be considered. The first is related to the amount of energy that reaches the generator surface and the other is based on the performance of the electrical components. The procedure is described in \cite{Perpinan2009} and the same methodology was applied in \cite{Gutierrez2017}.
+
+1) Global irradiation at the horizontal plane $G(0)$, as an output of the climate model, has to be transformed into the global effective irradiation, $G_{eff}(\alpha, \beta)$, which is the amount of energy reaching the tilted surface of the generator (where $\alpha$ is the azimuth angle and $\beta$ the inclination angle) after considering reflection losses, angle of incidence and accumulated dust.  
+
+First, for the decomposition of $G(0)$, empirical equations that correlates the \textit{clearness index} and the \textit{diffuse fraction} \citep{Page1961} are used. The clearness index is a measure for the energy lost when solar irradiation goes through the atmosphere, and the diffuse fraction is the relationship between the diffuse component, $D(0)$, and the global irradiation at the horizontal plane $G(0)$. Its value is the amount of the diffuse component in global irradiation.
+
+The equations that relate the clearness index to the diffuse fraction depend on the place and time scale involved. There are many relationships proposed depending on the area of the study \citep{deMiguel2001, Gopinathan1995}. For daily time-scales, the equations that relate the clearness index and the diffuse fraction proposed by \cite{Aguiar1992} are used in our case. 
+
+Three different tracking types are considered for the photovoltaic generator and the equations describing movements and relative position between the system and the sun are described in \cite{Perpinan2009}
+\begin{enumerate}
+\item \textbf{Fixed panels} with an optimum angle of inclination that depends on the latitude.
+\item \textbf{One} axis trackers, with a generator rotating on an axis oriented North-South. We will refer to them as \textbf{“one”}.
+\item \textbf{Two-axes} tracking system that allows variation of the azimuth and inclination angles, we will refer to them as \textbf{“two”}.
+\end{enumerate}
+
+To obtain irradiation components in the tilted surface at daily time scale, it is first necessary to estimate the irradiance profile using empirical relationships \citep{Collares-Pereira1979}. Irradiance profile is then transformed into its components at the tilted surface and integrated in time to obtain the energy reaching the generator surface. Direct irradiance can be transformed to the tilted surface using only geometrical criteria whereas the diffuse fraction is obtained with the model proposed by \cite{hay1985estimating}. This model considers an approximation where the sky sphere is seen by the generator as isotropic except for the circumsolar region, which is considered to emit direct irradiance. The albedo component is considered as isotropic, due to the fact that its contribution to global irradiance is low. 
+
+Finally, we apply equations from \cite{Martin2001} to obtain $G_{eff}(\alpha, \beta)$. It includes optical losses due to the fact that, except for the two-axis tracking system, the incident irradiation deviates from the normal of the generator. Also, transmittance losses are included for accumulated dust over the surface, considering a ``moderate dust degree'' in the terms used in the referenced paper \cite{Martin2001}. In this case, any spatial distinction is considered and the same coefficient values are used to calculate angular and transmittance losses. 
+
+2) The second step is the transformation into power output, depending on the electrical characteristics of the components in the photovoltaic system and second order effects like temperature. A summary of the modules and the inverter model can be found in table \ref{table1}. Detailed information about this step can be found in \cite{Perpinan2009}.
+
+Ambient temperature is needed since the efficiency of the cells decreases with the increase of temperature, assuming a linear relationship. In this work we use the equation of \cite{Crook2011}, to calculate the daytime temperature from the daily maximum and minimum temperature, obtaining a daily profile. 
+
+Computation of the photovoltaic energy model is carried out with the \texttt{solaR} package \citep{Lamigueiro2012}. This package implements in R a set of functions that include the sun apparent movement equations, the solar irradiation and irradiance decomposition, transposition models, and the PV generator and inverter models. 
+
+\begin{table}[h!]
+  \begin{tabular}{>{\raggedright}m{2cm}>{\raggedright}m{6cm}}
+    \toprule 
+    Element & Method\tabularnewline
+    \midrule
+    PV generator & Identical modules with
+    $dV_{oc}/dT_{c}=0,475\frac{\%}{\celsius}$ and $NOCT=47\celsius$. 
+    The MPP point calculated as in \cite{garcia2005caracterizacion}). \tabularnewline
+    \midrule
+    Inverter & Efficiency equation proposed in
+    \cite{jantsch1992results}:  
+    \begin{equation}
+      \eta_{inv}=\frac{p_{o}}{p_{o}+k_{0}^{o}+k_{1}^{o}p_{o}+k_{2}^{o}p_{o}^{2}}
+    \end{equation}
+    where $p_{o}=P_{ac}/P_{inv}$ is the normalized output power of the inverter. The characteristic coefficients of the
+    inverters are: $k_{0}^{o}=0.01$, $k_{1}^{o}=0.025$, $k_{2}^{o}=0.05$.\tabularnewline
+    \midrule
+    Other losses & \begin{itemize}
+    \item Average tolerance of the set of modules, $3\%$.
+    \item Module parameter dispersion losses, $2\%$.
+    \item Joule losses due to the wiring, $1.5\%$.
+    \item Average error of the MPP algorithm of the inverter, $1\%$.
+    \item Losses due to the MV transformer, $1\%$.
+    \item Losses due to stops of the system, $0.5\%$.
+    \end{itemize}
+    \tabularnewline
+    \bottomrule
+  \end{tabular}
+  \caption{Calculation procedure for the estimation of energy produced by a PV system from daily global horizontal irradiation data. Left column represents the element of the PV system and the right column the equations and methods used in each case for the efficiency of the elements.}
+  \label{table1}
+\end{table}
+
+\subsection{Datasets for evaluation}
+\subsubsection{Satellite product: CM-SAF.}
+
+CM-SAF (Climate Monitoring Satellite Application Facility) \citep{Schulz2009} was created as part of EUMETSAT Satellite Application Facility (SAF) when the importance of “contributing to the operational monitoring of the climate and the detection of global climatic changes” was recognized. Besides its operational products, they provide Climate Data Records generating long-term data, which is a valuable product for climate variability studies. In this work, the SARAH \citep{Muller2015} dataset for daily shortwave solar radiation, SSR, is used with an horizontal resolution of 0.44º to be consistent with the model simulations and for the period 2003 and 2009. For this product, the $85\%$ of absolute differences with shortwave solar radiation measurements is below 10 $\watt/m^2$ for monthly values and 13 $\watt/m^2$ for daily means.
+
+Concerning aerosols representation, the satellite dataset includes information from MACC \citep{Benedetti2009, Morcrette2009}, provided by the European Centre for Medium-Range Weather Forecasts (ECMWF). Monthly long-term means of a 0.5x0.5 degrees grid are spatially interpolated to assign the values of each pixel.
+
+\subsubsection{BSRN stations}
+
+The BSRN (Baseline surface radiation network) \citep{Ohmura1998} is a set of ground-based measurements, from the WRCP Radiative Fluxes Working Group. It was created for supporting research in the radiation budget of the Earth-atmosphere and the radiation distribution, considering its main role in climate processes. The main objective is to provide high-quality measurements that are able to deal with the scarcity of the existing radiometric network. Although there are not many stations available for the period of the study in the Euro-Mediterranean domain, the high quality data provided by BSRN is necessary for a first evaluation of the climate simulations.
+
+The three stations of the BSRN network used in this study (Payerne, Carpentras and Sede Boker) covered the period 2003-2009 and provide SSR monthly data. Their location is represented in figure \ref{fig:mapapral} together with the PV plants considered in the study.  
+
+\subsubsection{Temperature data: ECAD}
+
+The PV production assessment calculated using the SSR from satellite data needs also the temperature for the performance of cells inside the module. The gridded E-OBS data set from the EU-FP6 project ENSEMBLES \citep{Haylock2008} is used in the energy production model at daily resolution. Mean, maximum and minimum temperature from the dataset, in a spatial resolution of 0.25º, are interpolated to the same grid of the climate model. 
+
+\subsubsection{PV production data}
+
+Data from two different power plants are used for the evaluation of the simulated PV power and the assessment of the added value of the aerosol inclusion in the climate simulations.
+
+The two power plants are in the Iberian Peninsula and their location represented in figure \ref{fig:mapapral}. The first one, located in Tarragona in the North-East area, is a PV system with fixed structure. The second one is a two-axis tracking PV plant located in Seville, in the South of Spain. Details of both PV power plants are in table \ref{tabPlants}, including the electrical characteristics of their components. 
+
+\begin{table}[h!]
+  \begin{tabular}{>{\raggedright}m{1.5cm}>{\raggedright}m{3cm}>{\raggedright}m{3cm}}
+    \toprule 
+     & \centering{Seville} & \centering{Tarragona}\tabularnewline
+    \midrule
+    Type & \centering{two-axes} & \centering{fixed} 
+\tabularnewline
+    \midrule
+    Generator & \centering{$P_{g}=27.31$ $\kilo\wattpeak$}\\ 
+                 \centering{$N_{mp}=12$}\\
+                 \centering{$N_{ms}=11$} & \centering{$P_g=100.18$ $\kilo\wattpeak$}\\
+                               \centering{$N_{mp}=27$}\\
+                               \centering{$N_{ms}=35$}
+   \tabularnewline
+   \midrule
+   Inverter & \centering{$P_{inv}=25$ $\kilo\watt$}\\
+              \centering{$V_{min}=405$ $\volt$} & \centering{$P_{inv}=100$ $\kilo\wattpeak$}\\
+                                \centering{$V_{min}=450$ $\volt$}
+    \tabularnewline    
+    \bottomrule
+  \end{tabular}
+  \caption{Summary of the electrical components of the two photovoltaic plants, including generator characteristics (generator power $P_g$, and modules in parallel and serie, Nmp and Nms) and the inverter characteristics (power of the inverter $P_{inv}$ and the voltage $V_{min}$).}
+  \label{tabPlants}
+\end{table}
+
+
+Data of PV production are difficult to obtain due to confidentiality contracts. Moreover, when data are available time series are not always complete. Maintenance, modules substitutions, inverter problems and other stops in the production may lead to common time-gaps in the datasets. These limitations must be taken into account when establishing statistical comparisons between models and real data. In this case, the two PV power plants provide daily data within the period 2003-2009, the details are in table \ref{localData}. Monthly means of these data are compared against the monthly means of simulated daily PV productivity, energy produced by the power installed ${\kilo\watthour\over\kilo\wattpeak}$, with the models and the satellite. Only months with more than 15 days of data available are considered for the monthly mean and compared against simulated data.
+
+\section{Results} 
+
+Although the AOD dataset and the climate simulations used in this study have already been evaluated against observations and satellite datasets in \cite{Nabat2013, Nabat2014, Nabat2014a}, an additional assessment of the SSR form the climate simulations is also made in this work against the CM-SAF SARAH dataset \citep{Muller2015} for the period 2003-2009 and against some BSRN \citep{Ohmura1998} stations at a local scale. 
+\subsection{Local scale}
+
+Three different stations from BSRN cover the period between 2003-2009 with SSR monthly data. Stations are represented in figure \ref{fig:mapapral} with points. Also, two different power plants in Spain, represented in figure \ref{fig:mapapral} with a cross, are used to evaluate PV power simulations at a local scale. A summary of the data used in this section, the periods and the resolution can be found in table \ref{localData}.
+
+
+\begin{table}[h!]
+  \begin{tabular}{>{\raggedright}m{2cm}>{\raggedright}m{2cm}>{\raggedright}m{2cm}>{\raggedright}m{2cm}>{\raggedright}m{2cm}>{\raggedright}m{2cm}}
+    \toprule 
+    Data from & \centering{Seville} & \centering{Tarragona} & \centering{Payerne} &\centering{Sede Boker} &\centering{Carpentras}\tabularnewline
+    \midrule
+    Variable & \centering{PV productivity} & \centering{PV productivity} & \centering{SSR} & \centering{SSR} & \centering{SSR} 
+\tabularnewline
+    \midrule
+    Time res. & \centering{day} & \centering{day} & \centering{month} & \centering{month} & \centering{month}
+                    \tabularnewline
+   \midrule
+                                                                                            Period & \centering{518 {\small{daily values between:}} 02-07-2007\\30-11-2008} & \centering{300 {\small{daily values between:}} 01-01-2003\\19-03-2005} & \centering{2003-2009} & \centering{2003-2009} & \centering{2003-2009}
+                  \tabularnewline    
+ \midrule
+    $\%$ no data & \centering{0} & \centering{8 $\%$} & \centering{0} & \centering{10.71 $\%$} & \centering{0}
+                    \tabularnewline
+
+ \bottomrule
+  \end{tabular}
+  \caption{Summary of the local data of PV power plants and SSR from BSRN stations used for the evaluation of the simulations. SSR is evaluated as input of the PV model and the PV output as the result of the whole modeling process.}
+  \label{localData}
+\end{table}
+
+In figure \ref{fig:station} differences in monthly time series of SSR from simulations and satellite data and the stations measurements are represented.
+
+\begin{figure}[h!]
+  \centering\begin{subfigure}{0.4\textwidth}
+    \includegraphics[width=1.2\textwidth]{figs/capitulo6/CarpentrasMesesDif.pdf}
+    \caption{Carpentras}
+    \label{Carpentras}
+  \end{subfigure}
+  %
+  \centering\begin{subfigure}{0.4\textwidth}
+    \includegraphics[width=1.2\textwidth]{figs/capitulo6/PayerneMesesDif.pdf}
+    \caption{Payerne}
+    \label{Payerne}
+  \end{subfigure}
+  %
+    \centering\begin{subfigure}{0.4\textwidth}
+    \includegraphics[width=1.2\textwidth]{figs/capitulo6/SedebokerMesesDif.pdf}
+    \caption{Sede Boker}
+    \label{fig:Sde Boker}
+  \end{subfigure}
+  \caption{Difference in SSR $\si{\watt\per\metro\squared}$ between both simulations and the satellite with respect to the data from BSRN stations (BSRN)}
+    \label{fig:station}
+\end{figure}
+
+For the three stations, the satellite has better results than the simulations, although the error magnitude varies depending on the station. There is also a general improvement of the AER simulation against the NO-AER. Carpentras station is the one with lower bias with respect to the observed data \ref{Carpentras}. In the case of the Sede Boker station \ref{fig:Sde Boker}, there is a seasonal bias in the AER simulation. High negative differences appear from May to August, showing underestimation of the SSR in these months.
+
+Several statistical measurements summarize the general performance of the SSR from the climate model and the PV simulations at each location and are reported in table \ref{RMSE_MAE_table}.
+
+For the simulation of PV power output, the daily mean of PV production data averaged for each month is compared with simulated PV energy production at each power plant, using the three possibilities of SSR data as input: AER, NO-AER and SAT. For these simulations, in order to help with the visualization of the results a \textit{violin plot} is used to visualize the absolute error and its distribution.
+For the Seville PV power plant, AER performs better than NO-AER and SAT simulations showing lower errors \ref{fig:figuraSEVILLA}. Besides, only AER has some negative errors, which means underestimation for some months, whereas the satellite and the NO-AER have only positive error values.
+
+The median error for the AER simulation is less than 0.25 $\si{\kilo\watthour\per\kilo\wattpeak}$. Differences are concentrated around this value, which makes the distribution peaks around it in a narrow shape, although the range is wider due to higher values above 0.5 $\si{\kilo\watthour\per\kilo\wattpeak}$ that spread the distribution.
+
+NO-AER simulation has a wider range of errors than AER and SAT, and a wider distribution. The satellite presents a median error close to 0.5 $\si{\kilo\watthour\per\kilo\wattpeak}$, as it could be expected from the evaluation and report of the CM-SAF dataset.
+
+\begin{figure}[h!]
+  \centering\begin{subfigure}{0.45\textwidth}
+    \includegraphics[width=1\textwidth]{figs/capitulo6/violinplorSeville.pdf}
+    \caption{Seville}
+    \label{fig:figuraSEVILLA}
+  \end{subfigure}
+  %
+  \centering\begin{subfigure}{0.45\textwidth}
+    \includegraphics[width=1\textwidth]{figs/capitulo6/violinplotTarragona.pdf}
+    \caption{Tarragona}
+    \label{fig:violinTarragona}
+  \end{subfigure}
+  \caption{Distribution of differences in monthly mean of daily PV productivity $\si{\kilo\watthour\per\kilo\wattpeak}$ from Seville and Tarragona power plants and the simulated with the model, AER (blue) and NO-AER (red), and the satellite (green) in the same location. The period for Seville is from July 2007 to November 2008 and for Tarragona power plant from January 2003 to December 2005. The violin plot represents at the y-axis the probability density function of the variable, estimated with a kernel density estimation. Along this axis, the plot represents the shape of the variable distribution and it is duplicated by symmetry over an imaginary vertical axis to facilitate visualization. In this way it is easier to see not only statistical parameters represented in the boxplot, that it is also shown inside the violin, but also how the errors are distributed.}
+    \label{violin}
+  \end{figure}
+
+\begin{table}[h!]
+  \begin{tabular}{>{\raggedright}m{1.5cm}>{\raggedright}m{1.5cm}>{\raggedright}m{2cm}>{\raggedright}m{2cm}>{\raggedright}m{2cm}>{\raggedright}m{2cm}}
+    \toprule 
+    Location & \centering{Simulation} & \centering{RMSE} & \centering{MBE} &\centering{cor} &\centering{sd}\tabularnewline
+    \midrule
+    Seville & \centering{AER} & \centering{0.27} & \centering{0.18} & \centering{0.98} & \centering{1.34}
+    \tabularnewline
+    & \centering{NO-AER} & \centering{0.67} & \centering{0.60} & \centering{0.95} & \centering{1.29}
+    \tabularnewline
+    & \centering{SAT} & \centering{0.59} & \centering{0.55} & \centering{0.98} & \centering{1.45}
+    \tabularnewline
+   \midrule
+    Tarragona & \centering{AER} & \centering{0.77} & \centering{0.61} & \centering{0.87} & \centering{1.21}
+    \tabularnewline
+    & \centering{NO-AER} & \centering{0.96} & \centering{0.82} & \centering{0.9} & \centering{1.29}
+    \tabularnewline
+    & \centering{SAT} & \centering{0.76} & \centering{0.64} & \centering{0.88} & \centering{1.13}
+   \tabularnewline
+   \midrule
+  Payerne & \centering{AER} & \centering{21.21} & \centering{16.62} & \centering{0.97} & \centering{77.4}
+  \tabularnewline
+    & \centering{NO-AER} & \centering{29.70} & \centering{27.07} & \centering{0.98} & \centering{81.88}
+  \tabularnewline                           
+    & \centering{SAT} & \centering{7.36} & \centering{4.6} & \centering{0.99} & \centering{83.29}                         \tabularnewline
+      \midrule
+      Carpentras & \centering{AER} & \centering{16.59} & \centering{12.05} & \centering{0.98} & \centering{90.05}
+  \tabularnewline
+  & \centering{NO-AER} & \centering{27.26} & \centering{24.10} & \centering{0.99} & \centering{90.57}
+  \tabularnewline
+    & \centering{SAT} & \centering{6.38} & \centering{4.26} & \centering{1.00} & \centering{88.71}
+ \tabularnewline
+      \midrule
+  Sede Boker & \centering{AER} & \centering{18.89} & \centering{8.17} & \centering{0.98} & \centering{62.83}
+  \tabularnewline
+  & \centering{NO-AER} & \centering{37.42} & \centering{35.63} & \centering{0.98} & \centering{76.06}
+  \tabularnewline
+    & \centering{SAT} & \centering{12.00} & \centering{10.27} & \centering{0.99} & \centering{77.62}
+ \tabularnewline
+ \bottomrule
+  \end{tabular}
+  \caption{Values for the root mean squared error (RMSE), mean bias error (MBE), temporal correlation (cor) and standard deviation (sd) for the simulated PV production in Seville power plant and Tarragona power plant compared with the final productivity data measured $\si{\kilo\watthour\per\kilo\wattpeak}$ and the SSR from the climate model simulations and the satellite in comparison with the SSR from BSRN stations $\si{\watt\per\metro\squared}$}
+  \label{RMSE_MAE_table}
+\end{table}
+
+The Tarragona PV power plant presents larger errors. The SAT has slightly better performance than AER and the improvement with respect to NO-AER can be observed in both cases. 
+
+AER simulation's median error is 0.60 $\si{\kilo\watthour\per\kilo\wattpeak}$ and NO-AER simulation error has larger values, the median is 0.77  $\si{\kilo\watthour\per\kilo\wattpeak}$. The SAT error has lower median value: 0.48  $\si{\kilo\watthour\per\kilo\wattpeak}$.
+
+It can be also appreciated in figure \ref{fig:violinTarragona} that there are two months in the simulations where errors are specially large. As these values are clear outliers, it might be that some maintenance activities in the plant are the cause of the lower energy output than expected, which would explain the larger errors in those months.  
+
+The added value of including aerosols in climate simulations for the estimation of PV production is clearly illustrated by our results. The model using climate simulations with a good aerosols representation could be locally as good as the satellite, at least at the location of the PV power plants used (despite of its biases in some areas). The satellite product has revealed itself also as a good dataset, either for SSR (seen in the evaluation with BSRN stations) and for the PV production estimation.
+
+\subsection{Regional scale}
+
+The regions defined in figure \ref{fig:mapapral} are the same areas selected in \cite{Nabat2014}, and the acronyms used in this section are also in the figure. The difference between simulations and satellite data in annual terms is represented in figure \ref{fig:figura4}. The improvement of the simulation including aerosols is noticeable for every region. It can be appreciated also that there are some weak changes in the interannual variability of the bias due to aerosols inclusion, like in the BISL area, AFRE region in 2009 or AFRW.
+
+Western (EURW) and Southern Europe (EURS) have the lowest biases in SSR, as well as eastern Africa (AFRE) and the South of British Islands (BISL). Negative biases only appear for Africa and they could be due to the fact that in some cases the annual amount of aerosols is overestimated, or due to the optical properties of the aerosols in the model. The rest of the areas have positive biases, probably due to an underestimation of the cloud cover in the model \citep{Nabat2014}. The east side of the domain shows a higher bias (NEEUR), although it is clear that the addition of aerosols improves the representation of SSR. 
+
+\begin{figure}[h!]
+\centering\includegraphics[width=1\textwidth]{figs/capitulo6/dif_model_sat_zonas.pdf}
+\caption{Difference in shortwave solar irradiation, SSR $\si{\watt\per\metro\squared}$, between simulations and the satellite aggregated by areas defined in figure \ref{fig:mapapral} in the period 2003-2009.}
+\label{fig:figura4}
+\end{figure}
+
+In order to calculate the impact on photovolaic production, shortwave solar irradiation, SSR, from the climate model simulations and the satellite dataset is used as an input of the photovoltaic model. For a fixed typology of the panels, the difference between simulations with respect to the satellite dataset as input, in the mean of daily productivity for each month, is represented in figure \ref{fig:ciclosFixed}. The productivity is defined as the energy production per unit of power installed  $\si{\kilo\wattpeak}$.
+
+In general, The NO-AER simulation gives more production than the AER and the satellite, overestimating the PV power potential. Climate model simulations, AER and NO-AER, differ more from satellite PV production output in winter months, whereas in summer months, AER and satellite are close to each other, except form the EURNE region. This area is the most biased area of the model in comparison with the satellite, perhaps due to a bias in the cloud cover.
+
+The regions from North Africa, AFRE and AFRW, are slightly different from the rest with a roughly constant bias curve of the the annual cycle, therefore the difference in PV production between summer and winter months is lower due to the mean latitude of the area. Besides, for these areas, the AER simulations give in summer month lower PV production values than the SAT and the NO-AER, which is not the case in the rest of the regions.
+
+The EURS area is the one with largest amplitude between winter and summer months. For April and May, the AER simulations has small difference with the satellite simulation.
+
+\begin{figure}[h!]
+\centering\includegraphics[width=1\textwidth]{figs/capitulo6/diferencia_mesesFIXED.pdf}
+\caption{Annual cycle of daily energy productivity  $\si{\kilo\watthour\per\kilo\wattpeak}$ differences by area for the AER simulation and NO-AER simulation with respect to the satellite as inputs of the PV model, considering fixed panels.}
+\label{fig:ciclosFixed}\end{figure}
+
+\subsection{Impact of aerosols by tracking type}
+
+\subsubsection{Mean behavior. Period 2003-2009}
+
+In addition to the absolute difference in PV productivity between AER and NO-AER, the relative difference between simulations is presented in this section, showing the relative impact in each case. It allows us to contextualize the loss with respect of the potential of the place.
+
+The difference in yearly PV production between both simulations, for every type of tracking panel, is represented in figure \ref{fig:diferenciaYm}. The spatial pattern shows areas where the aerosols affect more the shortwave solar radiation. Central Europe, Po Valley and the South of the domain, along the African continent coast, are the areas where the differences are more noticeable.
+
+For the fixed panels, the differences are around -150 $\si{\kilo\watthour\per\kilo\wattpeak}$ for some of these areas in annual terms and reaching -200 $\si{\kilo\watthour\per\kilo\wattpeak}$ in the Po Valley, Syria, Iraq and between Algeria and Tunisia.
+
+When the two other tracking systems are considered, the difference between both simulations increases, with values of -300 $\si{\kilo\watthour\per\kilo\wattpeak}$ for the two-axes type over the most affected areas and even higher values like in the south of Turkey. These results are consistent due to the fact that the two-axes and the one-axis tracking systems are more efficient systems to give energy to the generator.
+
+\begin{figure}[h!]
+  \centering\begin{subfigure}{1\textwidth}
+    \includegraphics[width=1\textwidth]{figs/capitulo6/dif_aer_no_all_Ym20032009SIGt.pdf}
+    \caption{}
+    \label{fig:diferenciaYm}
+  \end{subfigure}
+  %
+  \centering\begin{subfigure}{1\textwidth}
+    \includegraphics[width=1\textwidth]{figs/capitulo6/byCountry.jpeg}%year_all_bycountry.pdf}%{figs/RelDif_aer_no_all_Ym20032009.pdf}
+    \caption{}
+    \label{fig:diferenciasRel}
+  \end{subfigure}
+  %
+  \caption{Differences in PV yearly productivity: (a) absolute $\si{\kilo\watthour\per\kilo\wattpeak}$, (b) relative averaged by country (\%); for the period 2003-2009 between AER and NO-AER and for the three different types of tracking. For he non-significant differences, calculated with a 't-test', a point is overplotted for (a)}
+\end{figure}
+
+The results of the country averages for the annual productivity are shown in figure \ref{fig:diferenciasRel}. It is shown that the aerosols impact range from $-4\%$ to the PV production to $-16\%$. It can be seen that from the fixed panels to the one-axis, and then to the two-axes tracking type, there is an increase in the productivity losses that is more noticeable in Central Europe, like in Belgium-The Netherlands.
+
+Germany, that have installed a high amount of PV capacity, is affected with values around $-10\%$ of loss for fixed system and more than $-12\%$ for the one-axis and two-axes panels. Thus, some countries with high PV production have moderate losses due to aerosols in relative terms. For countries in the west and south of the domain like Portugal, Spain, Morocco, Jordanian or the extension of Saudi Arabia included in the domain, the relative amount of energy loss is smaller due to its high potential, with differences between $-5\%$ and $-6\%$ for fixed panels and reaching $-8\%$ in some cases for the other types of tracking systems.
+
+\subsubsection{Seasonal cycle}
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=1\textwidth]{figs/capitulo6/RelDif_aer_no_all20032009SIGt.pdf}
+\caption{Relative difference (\%) in seasonal PV productivity between both simulation for all type of panels. For the non-significant absolute differences, calculated with a 't-test', a dot is overplotted.}
+\label{mapas}
+\end{figure}
+
+In seasonal terms spring (MAM) and summer months (JJA) show statistically significant values of the PV productivity difference. For winter (DJF) and Autumn (SON), there are few significant areas, mostly located at the south of the domain, in the African continent. An exception can be found for fixed panels in winter, with significant zones in Europe with values above $-10\%$, like the Po Valley or British Islands. 
+
+The spatial pattern for the spring season shows higher values in Central-Europe, in specific countries like Poland, Belgium and The Netherlands, or British Islands, and in northern parts of Syria and Iraq. Maximum values in these areas, range from an impact higher than $-10\%$ for fixed panels to around $-15\%$ for the two axes tracking type. Almost the whole African part of the domain shows significant differences, with impact values above $-5\%$ and local values reaching more than $-10\%$ between Algerya and Tunisia and in areas of Lybia or Egypt. 
+
+Summer months have higher loads of aerosols over the Mediterranean. For fixed panels, only a few areas in north Africa, Middle East and north-western Europe show values with a loss higher than $-10\%$. One-axis tracking enlarge the extension of areas with a decrease higher than $10\%$ and some areas with more than $-15\%$ appear in Belgium and The Netherlands, Algeria and Syria-Iraq border. Also some smaller areas appear with PV production losses above $-15\%$ within the above mentioned areas. Between the one-axis and the two-axes tracking type, there are no substantial differences in the spatial pattern but maximum values reach in these cases $-17\%$ to $-20\%$ in the same areas.
+
+Significance is not clearly linked to the magnitude of the relative difference in productivity. High relative differences in DJF and SON in central and northern Europe are not significant, due to the high climate variability in these areas and seasons, whereas lower relative differences in spring in Africa and in summer in southern and eastern Europe are mostly significant. The fact that JJA changes are significant over most of the domain explains the statistical significance of most yearly differences (figure \ref{fig:diferenciaYm}), due to the high contribution of summer to the yearly production and yearly interannual variability (see e.g. \cite{Gil2015}).
+
+
+\subsection{Long-term trends. Period 1980-2012}
+
+The impact of long term trends of solar shortwave on PV production can be illustrated with the results of the simulations of the brightening period over Europe. The simulation including the aerosols dataset, NAB13, and the decreasing trend in sulfur aerosols, TREND, is able to reproduce the observed positive trend in SSR \citep{Nabat2014}.
+
+As a compromise between the lifetime of a PV plant and the length of the simulation, two 15-year periods (at the beginning and end of the simulated period) are evaluated as a proxy for a PV project and the potential amount of energy that can be obtained during such a project. A fixed system is selected for the panels.
+
+The relative difference between the accumulated energy obtained by a 15-year project between 1997-2012 and energy obtained by a 15-year project between 1980-1995 can be seen in figure \ref{fig:trends}.
+
+\begin{figure}[h!]
+  \centering\includegraphics[width=0.7\textwidth]{figs/capitulo6/DifferencesRelativesinPVtciclo15.pdf}
+\caption{Relative difference in PV yearly productivity $[\%]$ accumulated for a 15-year period at the end and the beginning of the period: 1980-1994/1998-2012}
+\label{fig:trends}
+\end{figure}
+
+In Central-Europe the differences in the energy obtained are higher, due to the fact that it is the region where anthropogenic aerosols decrease more. Accumulated over 15 years, an increase higher than 2000 $\si{\kilo\watthour\per\kilo\wattpeak}$ is found for this area. It means that about 10-14 $\%$ more energy can be produced in the lifetime of a PV plant at the end of the period.
+
+These results highlight the impact that environmental policies could have on the PV energy production, showing that anthropogenic aerosols are able to reduce potential PV power of a project significantly. It also illustrates that future evolution of regional anthropogenic aerosols load is likely to influence expected PV production on a given site on the lifetime of a PV plant.
+
+\section{Discussion}
+\subsection{Limitations}
+
+The coarse resolution of climate models and their bias in some variables, especially in cloud cover, makes difficult their application for solar resource assessment at local scale in most areas. However, the RCM will evolve to finer resolution and besides, the use of climate models is mandatory for taking into account future climate evolution. They are also relevant tools to perform sensitivity tests allowing to disentangle the driving factors of the resource variability such as aerosols. 
+
+A multi-model approach would be necessary to obtain a more robust answer applying the same methodology to more models but, up to now, aerosols are poorly considered in many RCM, which does not allow that type of study considering actual simulations. 
+
+For the limitations in the PV model, it is important to notice that in the decomposition of SSR and the transposition to the tilted panels, some empirical relationships are used. If components of solar radiation were an output of the RCM, the additional steps for decomposition could be avoided.
+
+It could also be pointed that the spectral decomposition of the SSR reaching the panels would give a better input in order to calculate spectral losses of the PV modules, although for periods longer than a day the spectral effects become less significant \citep{Martin1999}.
+
+In the optical losses, deposition of dust over the generator surface is approximated in the assessment but could be underestimated in desert areas because it is not spatially modeled. That could mean a higher drop in transmittance and final energy production.
+
+The time-scale is also important for the AOD representation. Several processes involving aerosols in the atmosphere are in day to weeks time-scales. We have used a realistic interannual dataset of the AOD that improves the state-of the art used in climate modeling but next studies should go further with an improvement in the aerosols representation. This will include a prognostic scheme of aerosols that allows to study finer time-scales and future scenarios, through a fully-coupled and fully-interactive aerosol-climate model. 
+  
+
+\subsection{Implications for the climate services dedicated to the energy sector }
+
+The results show the necessity of considering aerosols in climate simulations used to deliver energy-related climate services. The inclusion of spatio-temporal variability of aerosols in RCMs may change the current estimates of future PV production over Europe \citep{Jerez2015}. An accurate ensemble of models is essential for bridging the gap between services providers and potential users considering that some of the discrepancies between model simulations could come from the aerosols inclusion.
+
+\subsection{PV production data issue}
+
+The scarcity of real power data at PV plant sites is an important issue that has to be overcome in order to improve research in the fields of PV forecasting, climate services or energy modeling. The potential synergies between research institutions and different stakeholders of the energy sector will enhance the PV integration, the management and planning operations as well as the efficiency of the overall system and its development. Not only production data is needed, but also, accurate metadata will be extremely important in order to integrate into the modeling chain important factors such as: days of maintenance activities, cleaning-panel days, installed capacity, electrical characteristics of the PV power plant, among others.
+
+\section{Conclusions}
+
+Two main questions are addressed in this paper: first, the evaluation of the capacity of an RCM to produce reliable estimations of PV production over the Mediterranean area. Secondly, the role of aerosols in PV production using sensitivity tests performed with the RCM. 
+
+It is demonstrated that the use of a RCM as input of a photovoltaic production model is able to reproduce real PV data accurately at monthly time scales for two locations at the domain. Besides, the added value of including aerosols in the simulations is observed over the whole area as the simulation with aerosols shows less bias in SSR than the simulations without aerosols and it is close to the simulated PV using the satellite dataset accross the whole area. 
+
+The results show that the most impacted areas are (with some exceptions) mostly in central Europe, where the lower resource amount in combination with the influence of aerosols gives a significant reduction in potential electricity production. For the annual averaged by country productivity, relative differences are around $-12\%$ for fixed typologies and are seen over Central Europe (Poland and The Netherlands). Differences increase from one axis typology to the two-axes, reaching around $-16\%$ between both simulations in Belgium and around $-13\%$ and $-14\%$ in many countries. In seasonal terms, the loss can reach values of $-20\%$ in some areas for summer months.
+
+In the multi-decadal simulation 1980-2012 a noticeable increase in productivity has been obtained in central Europe as a result of the decreasing trend of anthropogenic aerosols observed from the end of the eighties. This trend has been associated with pollution control measures as well as economic crisis in Western Europe. This result has implications beyond the domain of this study: highly polluted countries like India and China could obtain an increase in PV productivity if pollution control policies are effectively implemented.
+
+The non-negligible impact of aerosols on PV production in the area suggests that the inclusion of aerosols in future scenarios is necessary for solar energy assessment.
+
 \chapter{Future projections of solar resource for photovoltaic applications}
 
 \begin{abstract}
