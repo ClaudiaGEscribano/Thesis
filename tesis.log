@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.24)  16 OCT 2018 18:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.24)  18 OCT 2018 17:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1876,9 +1876,6 @@ File: english.lbx 2016/03/03 v3.3 biblatex localization (PK/JW/AB)
 ux
 
 LaTeX Warning: Label `eq:euclidean' multiply defined.
-
-
-LaTeX Warning: Label `tb:families' multiply defined.
 
 
 LaTeX Warning: Label `fig:diferenciaYm' multiply defined.
@@ -3888,7 +3885,7 @@ See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.83 ...mberline {7.6}Conclusion}{90}{section.7.6}
+l.83 ...mberline {7.6}Conclusion}{91}{section.7.6}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -7326,25 +7323,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 756--757
  []
 
 
-Overfull \hbox (1.67253pt too wide) in paragraph at lines 758--759
-[]\T1/futs/m/n/10 A fairly pair-wise com-par-i-son show that re-gional cli-mate
- mod-els that in-clude evolv-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 758--759
 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 760--761
-
- []
-
-
-Overfull \hbox (9.40306pt too wide) in paragraph at lines 762--763
-[]\T1/futs/m/n/10 Due to the clear re-la-tion-ship be-tween sort-wave so-lar ra
--di-a-tion anomaly and aerosols
  []
 
 
@@ -7353,8 +7333,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 762--763
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 764--765
+Underfull \hbox (badness 10000) in paragraph at lines 767--768
 
+ []
+
+
+Overfull \hbox (8.243pt too wide) in paragraph at lines 769--770
+\T1/futs/m/n/10 is an in-creas-ing con-cern mo-ti-vated by the avail-abil-ity o
+f re-sources un-der cli-mate change
  []
 
 
@@ -7363,12 +7349,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 769--770
  []
 
 [83]
-Overfull \hbox (8.243pt too wide) in paragraph at lines 771--772
-\T1/futs/m/n/10 is an in-creas-ing con-cern mo-ti-vated by the avail-abil-ity o
-f re-sources un-der cli-mate change
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 771--772
 
  []
@@ -7389,20 +7369,43 @@ Underfull \hbox (badness 10000) in paragraph at lines 777--778
  []
 
 
+LaTeX Warning: Reference `Climate data' on page 84 undefined on input line 779.
+
+
+
+LaTeX Warning: Reference `Aerosols' on page 84 undefined on input line 779.
+
+
+LaTeX Warning: Reference `Results' on page 84 undefined on input line 779.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 779--780
 
  []
 
 
-LaTeX Warning: Reference `Climate data' on page 84 undefined on input line 781.
+Underfull \hbox (badness 10000) in paragraph at lines 785--786
+
+ []
+
+[84]
+
+./Resultados.tex:787: Package xcolor Error: Undefined color `grey'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.787 In table \ref{tb:aero}
+                             there is the information about the aerosols dat...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
 
-
-LaTeX Warning: Reference `Aerosols' on page 84 undefined on input line 781.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 781--782
-
+Overfull \hbox (6.62639pt too wide) in paragraph at lines 787--788
+\T1/futs/m/n/10 RCMs have a dif-fer-ent dataset of aerosols. Whereas AL-ADIN5.3
+ se-lect the Szopa dataset,
  []
 
 
@@ -7410,21 +7413,39 @@ Underfull \hbox (badness 10000) in paragraph at lines 787--788
 
  []
 
-[84]
+
 Underfull \hbox (badness 10000) in paragraph at lines 789--790
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 791--792
+./Resultados.tex:791: Package xcolor Error: Undefined color `grey'.
 
- []
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.791 ...as can be seen in table \ref{tb:families}
+                                                  .
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
-./Resultados.tex:800: Undefined control sequence.
+./Resultados.tex:799: Undefined control sequence.
 <template> ...enter \@startpbox {3cm}\raggedrigth 
                                                   \ignorespaces 
-l.800 C
+l.799 C
        MIP5 GCM & Institution  & RCM  \tabularnewline
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Resultados.tex:801: Undefined control sequence.
+<template> ...enter \@startpbox {3cm}\raggedrigth 
+                                                  \ignorespaces 
+l.801  C
+        NRM-CM5 & CNRM & ALADIN5.3 \tabularnewline
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -7434,8 +7455,8 @@ and I'll forget about whatever was undefined.
 ./Resultados.tex:802: Undefined control sequence.
 <template> ...enter \@startpbox {3cm}\raggedrigth 
                                                   \ignorespaces 
-l.802  C
-        NRM-CM5 & CNRM & ALADIN5.3 \tabularnewline
+l.802 &
+       CLMcom&CCLM4-8-17\tabularnewline
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -7446,18 +7467,18 @@ and I'll forget about whatever was undefined.
 <template> ...enter \@startpbox {3cm}\raggedrigth 
                                                   \ignorespaces 
 l.803 &
-       CLMcom&CCLM4-8-17\tabularnewline
+       SMHI&RCA4\tabularnewline
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Resultados.tex:804: Undefined control sequence.
+./Resultados.tex:805: Undefined control sequence.
 <template> ...enter \@startpbox {3cm}\raggedrigth 
                                                   \ignorespaces 
-l.804 &
-       SMHI&RCA4\tabularnewline
+l.805 I
+       CHEC-EC-EARTH&KNMI&RACMO\tabularnewline
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -7467,8 +7488,8 @@ and I'll forget about whatever was undefined.
 ./Resultados.tex:806: Undefined control sequence.
 <template> ...enter \@startpbox {3cm}\raggedrigth 
                                                   \ignorespaces 
-l.806 I
-       CHEC-EC-EARTH&KNMI&RACMO\tabularnewline
+l.806 &
+       CLMcom&CCLM4-8-17\tabularnewline
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -7479,17 +7500,6 @@ and I'll forget about whatever was undefined.
 <template> ...enter \@startpbox {3cm}\raggedrigth 
                                                   \ignorespaces 
 l.807 &
-       CLMcom&CCLM4-8-17\tabularnewline
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./Resultados.tex:808: Undefined control sequence.
-<template> ...enter \@startpbox {3cm}\raggedrigth 
-                                                  \ignorespaces 
-l.808 &
        SMHI&RCA4\tabularnewline
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -7497,17 +7507,35 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+./Resultados.tex:821: Too many }'s.
+l.821 ...modelos que tienen evolución temporal?}}
+                                                  
+You've closed more groups than you opened.
+Such booboos are generally harmless, so keep going.
 
-Overfull \hbox (4.61638pt too wide) in paragraph at lines 822--823
+
+Overfull \hbox (4.61638pt too wide) in paragraph at lines 821--822
 \T1/futs/m/n/10 Different datasets are used for the RCMs sim-u-la-tions. Only A
 L-ADIN5.3 and RACMO22E
  []
 
-./Resultados.tex:830: Undefined control sequence.
+[85]
+./Resultados.tex:829: Undefined control sequence.
 <template> ...ter \@startpbox {1.3cm}\raggedrigth 
                                                   \ignorespaces 
-l.830 I
+l.829 I
        nstitution  & RCM & description & classes & scenarios \tabularnewline
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Resultados.tex:831: Undefined control sequence.
+<template> ...ter \@startpbox {1.3cm}\raggedrigth 
+                                                  \ignorespaces 
+l.831 C
+       NRM & ALADIN5.3 & Climatology. Szopa 2013 & 5 classes: sea salt, sulf...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -7518,7 +7546,7 @@ and I'll forget about whatever was undefined.
 <template> ...ter \@startpbox {1.3cm}\raggedrigth 
                                                   \ignorespaces 
 l.832 C
-       NRM & ALADIN5.3 & Climatology. Szopa 2013 & 5 classes: sea salt, sulf...
+       LMcom&CCLM4-8-17& Climatology. Tanré 1984 & 4 classes: sea, land, de...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -7528,8 +7556,8 @@ and I'll forget about whatever was undefined.
 ./Resultados.tex:833: Undefined control sequence.
 <template> ...ter \@startpbox {1.3cm}\raggedrigth 
                                                   \ignorespaces 
-l.833 C
-       LMcom&CCLM4-8-17& Climatology. Tanré 1984 & 4 classes: sea, land, de...
+l.833 S
+       MHI&RCA4& Parametrization in radiation fluxes & Single integrated cla...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -7539,18 +7567,7 @@ and I'll forget about whatever was undefined.
 ./Resultados.tex:834: Undefined control sequence.
 <template> ...ter \@startpbox {1.3cm}\raggedrigth 
                                                   \ignorespaces 
-l.834 S
-       MHI&RCA4& Parametrization in radiation fluxes & Single integrated cla...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./Resultados.tex:835: Undefined control sequence.
-<template> ...ter \@startpbox {1.3cm}\raggedrigth 
-                                                  \ignorespaces 
-l.835 K
+l.834 K
        NMI&RACMO&CAM inventory, Lamarque 2010 & 6 classes: sulfate, organic ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -7558,154 +7575,154 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[85]
-Underfull \hbox (badness 10000) in paragraph at lines 847--848
+
+Underfull \hbox (badness 10000) in paragraph at lines 846--847
 
  []
 
 
-Overfull \hbox (5.57307pt too wide) in paragraph at lines 849--850
+Overfull \hbox (5.57307pt too wide) in paragraph at lines 848--849
 []\T1/futs/m/n/10 The 2021-2050 pe-riod has been se-lected be-cause of two rea-
 sons: in the mid-century
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 849--850
+Underfull \hbox (badness 10000) in paragraph at lines 848--849
 
  []
 
 
-Overfull \hbox (2.25308pt too wide) in paragraph at lines 851--852
+Overfull \hbox (2.25308pt too wide) in paragraph at lines 850--851
 \T1/futs/m/n/10 tween both anoma-lies and how this cor-re-la-tion be-haves for 
 mod-els in-clud-ing aerosols. 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 851--852
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 855--856
+Underfull \hbox (badness 10000) in paragraph at lines 850--851
 
  []
 
 [86]
-Underfull \hbox (badness 10000) in paragraph at lines 857--858
+Underfull \hbox (badness 10000) in paragraph at lines 858--859
 
  []
 
 
-./Resultados.tex:859: Package xcolor Error: Undefined color `grey'.
+Underfull \hbox (badness 10000) in paragraph at lines 860--861
+
+ []
+
+
+./Resultados.tex:862: Package xcolor Error: Undefined color `grey'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.859 ...process is described in \ref{cha:methods}
+l.862 ...process is described in \ref{cha:methods}
                                                   . In this case, monthly me...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 859--860
+Underfull \hbox (badness 10000) in paragraph at lines 862--863
 
  []
 
 
-./Resultados.tex:865: Package xcolor Error: Undefined color `grey'.
+./Resultados.tex:868: Package xcolor Error: Undefined color `grey'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.865 ...presented in figures \ref{fig:anomalySSR}
+l.868 ...presented in figures \ref{fig:anomalySSR}
                                                    and \ref{fig:anomalyCLT} ...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Resultados.tex:865: Package xcolor Error: Undefined color `grey'.
+./Resultados.tex:868: Package xcolor Error: Undefined color `grey'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.865 ...{fig:anomalySSR} and \ref{fig:anomalyCLT}
+l.868 ...{fig:anomalySSR} and \ref{fig:anomalyCLT}
                                                    first for shortwave solar...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 865--866
+Underfull \hbox (badness 10000) in paragraph at lines 868--869
 
  []
 
 
-<figs/capitulo7/ANOMALIAS_JJA_SSR_2050-2021_r12.pdf, id=942, 505.89pt x 361.35p
+<figs/capitulo7/ANOMALIAS_JJA_SSR_2050-2021_r12.pdf, id=944, 505.89pt x 361.35p
 t>
 File: figs/capitulo7/ANOMALIAS_JJA_SSR_2050-2021_r12.pdf Graphic file (type pdf
 )
  <use figs/capitulo7/ANOMALIAS_JJA_SSR_2050-2021_r12.pdf>
 Package pdftex.def Info: figs/capitulo7/ANOMALIAS_JJA_SSR_2050-2021_r12.pdf use
-d on input line 868.
+d on input line 871.
 (pdftex.def)             Requested size: 350.5364pt x 250.38489pt.
 
 
-./Resultados.tex:873: Package xcolor Error: Undefined color `grey'.
+./Resultados.tex:876: Package xcolor Error: Undefined color `grey'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.873 ...an be seen in figure \ref{fig:anomalyAOD}
+l.876 ...an be seen in figure \ref{fig:anomalyAOD}
                                                   . For RACMO, the aod anoma...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 873--874
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 875--876
-
- []
-
-
-LaTeX Warning: Reference `' on page 87 undefined on input line 877.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 877--878
+Underfull \hbox (badness 10000) in paragraph at lines 876--877
 
  []
 
 [87]
-<figs/capitulo7/ANOMALIAS_JJA_CLT_2050-2021_r12.pdf, id=953, 505.89pt x 361.35p
+Underfull \hbox (badness 10000) in paragraph at lines 878--879
+
+ []
+
+
+LaTeX Warning: Reference `' on page 88 undefined on input line 880.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 880--881
+
+ []
+
+
+<figs/capitulo7/ANOMALIAS_JJA_CLT_2050-2021_r12.pdf, id=955, 505.89pt x 361.35p
 t>
 File: figs/capitulo7/ANOMALIAS_JJA_CLT_2050-2021_r12.pdf Graphic file (type pdf
 )
  <use figs/capitulo7/ANOMALIAS_JJA_CLT_2050-2021_r12.pdf>
 Package pdftex.def Info: figs/capitulo7/ANOMALIAS_JJA_CLT_2050-2021_r12.pdf use
-d on input line 882.
+d on input line 885.
 (pdftex.def)             Requested size: 350.5364pt x 250.38489pt.
-
-<figs/capitulo7/ANOMALIAS_JJA_AOD_2050-2021_r12.pdf, id=954, 505.89pt x 216.81p
+ [88 <./figs/capitulo7/ANOMALIAS_JJA_SSR_2050-2021_r12.pdf>]
+<figs/capitulo7/ANOMALIAS_JJA_AOD_2050-2021_r12.pdf, id=966, 505.89pt x 216.81p
 t>
 File: figs/capitulo7/ANOMALIAS_JJA_AOD_2050-2021_r12.pdf Graphic file (type pdf
 )
  <use figs/capitulo7/ANOMALIAS_JJA_AOD_2050-2021_r12.pdf>
 Package pdftex.def Info: figs/capitulo7/ANOMALIAS_JJA_AOD_2050-2021_r12.pdf use
-d on input line 888.
+d on input line 891.
 (pdftex.def)             Requested size: 350.5364pt x 150.23093pt.
 
-./Resultados.tex:897: Undefined control sequence.
-l.897 \br
+./Resultados.tex:900: Undefined control sequence.
+l.900 \br
          
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -7714,139 +7731,38 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (10.27695pt too wide) in alignment at lines 896--915
+Overfull \hbox (10.27695pt too wide) in alignment at lines 899--918
 [][][][][][][][] 
  []
 
 
-./Resultados.tex:915: LaTeX Error: \begin{tabular*} on input line 896 ended by 
+./Resultados.tex:918: LaTeX Error: \begin{tabular*} on input line 899 ended by 
 \end{tabular}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.915 \end{tabular}
+l.918 \end{tabular}
                    \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[88 <./figs/capitulo7/ANOMALIAS_JJA_SSR_2050-2021_r12.pdf>] [89 <./figs/capitul
-o7/ANOMALIAS_JJA_CLT_2050-2021_r12.pdf> <./figs/capitulo7/ANOMALIAS_JJA_AOD_205
-0-2021_r12.pdf>]
 
-./Resultados.tex:927: LaTeX Error: Environment subfigure undefined.
+LaTeX Warning: Reference `fig:pvcountry' on page 89 undefined on input line 925
+.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.927   \centering\begin{subfigure}
-                                   {1\textwidth}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+<figs/capitulo7/bycountrytodos.pdf, id=967, 361.35pt x 216.81pt>
+File: figs/capitulo7/bycountrytodos.pdf Graphic file (type pdf)
 
-./Resultados.tex:927: Missing number, treated as zero.
-<to be read again> 
-                   }
-l.927   \centering\begin{subfigure}{1\textwidth}
-                                                
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-./Resultados.tex:927: Illegal unit of measure (pt inserted).
-<to be read again> 
-                   }
-l.927   \centering\begin{subfigure}{1\textwidth}
-                                                
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-<figs/capitulo7/bycountry.pdf, id=982, 505.89pt x 216.81pt>
-File: figs/capitulo7/bycountry.pdf Graphic file (type pdf)
-
-<use figs/capitulo7/bycountry.pdf>
-Package pdftex.def Info: figs/capitulo7/bycountry.pdf used on input line 928.
-(pdftex.def)             Requested size: 350.5364pt x 150.23093pt.
-
-
-./Resultados.tex:931: LaTeX Error: \begin{figure} on input line 926 ended by \e
-nd{subfigure}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.931   \end{subfigure}
-                       
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-./Resultados.tex:933: LaTeX Error: Environment subfigure undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.933   \centering\begin{subfigure}
-                                   {1\textwidth}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-./Resultados.tex:933: Missing number, treated as zero.
-<to be read again> 
-                   }
-l.933   \centering\begin{subfigure}{1\textwidth}
-                                                
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-./Resultados.tex:933: Illegal unit of measure (pt inserted).
-<to be read again> 
-                   }
-l.933   \centering\begin{subfigure}{1\textwidth}
-                                                
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-<figs/capitulo7/bycountry2.pdf, id=983, 505.89pt x 216.81pt>
-File: figs/capitulo7/bycountry2.pdf Graphic file (type pdf)
-
-<use figs/capitulo7/bycountry2.pdf>
-Package pdftex.def Info: figs/capitulo7/bycountry2.pdf used on input line 934.
-(pdftex.def)             Requested size: 350.5364pt x 150.23093pt.
-
-
-./Resultados.tex:937: LaTeX Error: \begin{figure} on input line 926 ended by \e
-nd{subfigure}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.937   \end{subfigure}
-                       
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-[90] [91 <./figs/capitulo7/bycountry.pdf> <./figs/capitulo7/bycountry2.pdf>])
-[92]
+<use figs/capitulo7/bycountrytodos.pdf>
+Package pdftex.def Info: figs/capitulo7/bycountrytodos.pdf used on input line 9
+30.
+(pdftex.def)             Requested size: 350.5364pt x 210.32198pt.
+ [89] [90 <./figs/capitulo7/ANOMALIAS_JJA_CLT_2050-2021_r12.pdf> <./figs/capitu
+lo7/ANOMALIAS_JJA_AOD_2050-2021_r12.pdf>] [91 <./figs/capitulo7/bycountrytodos.
+pdf>]) [92]
 
 Class memoir Warning: The material used in the headers is too large
 (24.0pt) for the given head height (12.0pt), it is recommended to
@@ -7867,9 +7783,15 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 70.
 (./Resultados.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 70.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 70.
-Package rerunfilecheck Info: File `tesis.out' has not changed.
-(rerunfilecheck)             Checksum: 43139DDC1533776CDAA98FEF05F1F10E;8679.
 
+
+Package rerunfilecheck Warning: File `tesis.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `tesis.out':
+(rerunfilecheck)             Before: 43139DDC1533776CDAA98FEF05F1F10E;8679
+(rerunfilecheck)             After:  AA99E335B99E56A6AF6931633FB19C31;8836.
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 3.35835pt have occurred.
@@ -7891,10 +7813,10 @@ Package logreq Info: Writing requests to 'tesis.run.xml'.
  )
 (\end occurred when \iftrue on line 7 was incomplete) 
 Here is how much of TeX's memory you used:
- 31622 strings out of 493029
- 553692 string characters out of 6136234
- 700414 words of memory out of 5000000
- 34484 multiletter control sequences out of 15000+600000
+ 31618 strings out of 493029
+ 553591 string characters out of 6136234
+ 700600 words of memory out of 5000000
+ 34482 multiletter control sequences out of 15000+600000
  234426 words of font info for 262 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  49i,21n,61p,10422b,1287s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -7910,10 +7832,10 @@ fonts/type1/adobe/utopia/putr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/
 adobe/utopia/putri8a.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1000
 .pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/s
 hare/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on tesis.pdf (99 pages, 45289941 bytes).
+Output written on tesis.pdf (99 pages, 45136109 bytes).
 PDF statistics:
- 1108 PDF objects out of 1200 (max. 8388607)
- 930 compressed objects within 10 object streams
- 245 named destinations out of 1000 (max. 500000)
- 493 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1103 PDF objects out of 1200 (max. 8388607)
+ 927 compressed objects within 10 object streams
+ 244 named destinations out of 1000 (max. 500000)
+ 488 words of extra memory for PDF output out of 10000 (max. 10000000)
 
