@@ -38,49 +38,52 @@
 \contentsline {part}{\partnumberline {III}Results}{33}{part.3}
 \contentsline {chapter}{\chapternumberline {5}Long-term characteristics of solar resource over the Iberian Peninsula}{35}{chapter.5}
 \contentsline {section}{\numberline {5.1}Introduction}{37}{section.5.1}
-\contentsline {subsection}{\numberline {5.1.1}Methods}{38}{subsection.5.1.1}
-\contentsline {subsubsection}{Regionalization by clustering}{38}{figure.caption.12}
-\contentsline {subsubsection}{Photovoltaic energy yield}{42}{equation.5.1.2}
-\contentsline {subsubsection}{Variability and complementarity}{43}{Item.2}
-\contentsline {subsection}{\numberline {5.1.2}Results}{44}{subsection.5.1.2}
-\contentsline {subsubsection}{Variability and complementarity results}{45}{figure.caption.14}
-\contentsline {subsection}{\numberline {5.1.3}Conclusion}{50}{subsection.5.1.3}
-\contentsline {subsection}{\numberline {5.1.4}Summary}{50}{subsection.5.1.4}
-\contentsline {chapter}{\chapternumberline {6}Impact of aerosols in photovoltaic energy production over the Euro-Mediterranean area}{53}{chapter.6}
-\contentsline {section}{\numberline {6.1}Introduction}{55}{section.6.1}
-\contentsline {section}{\numberline {6.2}Data and Methods}{56}{section.6.2}
-\contentsline {subsection}{\numberline {6.2.1}Climate Data}{56}{subsection.6.2.1}
-\contentsline {subsection}{\numberline {6.2.2}PV model description}{57}{subsection.6.2.2}
-\contentsline {subsection}{\numberline {6.2.3}Datasets for evaluation}{60}{subsection.6.2.3}
-\contentsline {subsubsection}{Satellite product: CM-SAF.}{60}{subsection.6.2.3}
-\contentsline {subsubsection}{BSRN stations}{60}{subsection.6.2.3}
-\contentsline {subsubsection}{Temperature data: ECAD}{61}{subsection.6.2.3}
-\contentsline {subsubsection}{PV production data}{61}{subsection.6.2.3}
-\contentsline {section}{\numberline {6.3}Results}{62}{section.6.3}
-\contentsline {subsection}{\numberline {6.3.1}Local scale}{62}{subsection.6.3.1}
-\contentsline {subsection}{\numberline {6.3.2}Regional scale}{64}{subsection.6.3.2}
-\contentsline {subsection}{\numberline {6.3.3}Impact of aerosols by tracking type}{67}{subsection.6.3.3}
-\contentsline {subsubsection}{Mean behavior. Period 2003-2009}{67}{subsection.6.3.3}
-\contentsline {subsubsection}{Seasonal cycle}{70}{figure.caption.28}
-\contentsline {subsection}{\numberline {6.3.4}Long-term trends. Period 1980-2012}{70}{subsection.6.3.4}
-\contentsline {section}{\numberline {6.4}Discussion}{72}{section.6.4}
-\contentsline {subsection}{\numberline {6.4.1}Limitations}{72}{subsection.6.4.1}
-\contentsline {subsection}{\numberline {6.4.2}Implications for the climate services dedicated to the energy sector }{73}{subsection.6.4.2}
-\contentsline {subsection}{\numberline {6.4.3}PV production data issue}{73}{subsection.6.4.3}
-\contentsline {section}{\numberline {6.5}Conclusions}{74}{section.6.5}
-\contentsline {chapter}{\chapternumberline {7}Future projections of solar resource for photovoltaic applications}{75}{chapter.7}
-\contentsline {section}{\numberline {7.1}Introduction}{77}{section.7.1}
-\contentsline {section}{\numberline {7.2}Climate data}{78}{section.7.2}
-\contentsline {subsection}{\numberline {7.2.1}EURO-CORDEX}{78}{subsection.7.2.1}
-\contentsline {subsection}{\numberline {7.2.2}Aerosols datasets}{78}{subsection.7.2.2}
-\contentsline {section}{\numberline {7.3}Methods}{79}{section.7.3}
-\contentsline {subsection}{\numberline {7.3.1}Spatial analysis}{79}{subsection.7.3.1}
-\contentsline {subsubsection}{Linear regression}{79}{subsection.7.3.1}
-\contentsline {subsection}{\numberline {7.3.2}PV potential}{80}{subsection.7.3.2}
-\contentsline {section}{\numberline {7.4}Results}{80}{section.7.4}
-\contentsline {subsection}{\numberline {7.4.1}Anomalies of SSR and CLT}{80}{subsection.7.4.1}
-\contentsline {subsection}{\numberline {7.4.2}Projected changes in PV production}{81}{subsection.7.4.2}
-\contentsline {section}{\numberline {7.5}Discussion}{84}{section.7.5}
-\contentsline {section}{\numberline {7.6}Conclusion}{84}{section.7.6}
-\contentsline {section}{\numberline {.1}MED-CORDEX analysis}{84}{section.Alph0.1}
-\contentsline {chapter}{Bibliography}{85}{section*.39}
+\contentsline {section}{\numberline {5.2}Methods}{38}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Regionalization by clustering}{38}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Photovoltaic energy yield}{42}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {5.2.3}Variability and complementarity}{42}{subsection.5.2.3}
+\contentsline {section}{\numberline {5.3}Results}{44}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Variability and complementarity results}{44}{subsection.5.3.1}
+\contentsline {section}{\numberline {5.4}Conclusion}{51}{section.5.4}
+\contentsline {section}{\numberline {5.A}Yearly mean values and variability}{52}{section.5.1}
+\contentsline {section}{\numberline {5.B}Monthly series variability}{57}{section.5.2}
+\contentsline {section}{\numberline {5.C}Complementarity}{57}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Summary}{61}{subsection.5.3.1}
+\contentsline {chapter}{\chapternumberline {6}Impact of aerosols in photovoltaic energy production over the Euro-Mediterranean area}{63}{chapter.6}
+\contentsline {section}{\numberline {6.1}Introduction}{65}{section.6.1}
+\contentsline {section}{\numberline {6.2}Data and Methods}{66}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Climate Data}{66}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}PV model description}{68}{subsection.6.2.2}
+\contentsline {subsection}{\numberline {6.2.3}Datasets for evaluation}{70}{subsection.6.2.3}
+\contentsline {subsubsection}{Satellite product: CM-SAF.}{70}{subsection.6.2.3}
+\contentsline {subsubsection}{BSRN stations}{70}{subsection.6.2.3}
+\contentsline {subsubsection}{Temperature data: ECAD}{70}{subsection.6.2.3}
+\contentsline {subsubsection}{PV production data}{70}{subsection.6.2.3}
+\contentsline {section}{\numberline {6.3}Results}{71}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}Local scale}{71}{subsection.6.3.1}
+\contentsline {subsection}{\numberline {6.3.2}Regional scale}{74}{subsection.6.3.2}
+\contentsline {subsection}{\numberline {6.3.3}Impact of aerosols by tracking type}{76}{subsection.6.3.3}
+\contentsline {subsubsection}{Mean behavior. Period 2003-2009}{76}{subsection.6.3.3}
+\contentsline {subsubsection}{Seasonal cycle}{78}{figure.caption.34}
+\contentsline {subsection}{\numberline {6.3.4}Long-term trends. Period 1980-2012}{81}{subsection.6.3.4}
+\contentsline {section}{\numberline {6.4}Discussion}{82}{section.6.4}
+\contentsline {subsection}{\numberline {6.4.1}Limitations}{82}{subsection.6.4.1}
+\contentsline {subsection}{\numberline {6.4.2}Implications for the climate services dedicated to the energy sector }{83}{subsection.6.4.2}
+\contentsline {subsection}{\numberline {6.4.3}PV production data issue}{83}{subsection.6.4.3}
+\contentsline {section}{\numberline {6.5}Conclusions}{83}{section.6.5}
+\contentsline {chapter}{\chapternumberline {7}Future projections of solar resource for photovoltaic applications}{85}{chapter.7}
+\contentsline {section}{\numberline {7.1}Introduction}{87}{section.7.1}
+\contentsline {section}{\numberline {7.2}Climate data}{88}{section.7.2}
+\contentsline {subsection}{\numberline {7.2.1}EURO-CORDEX}{88}{subsection.7.2.1}
+\contentsline {subsection}{\numberline {7.2.2}Aerosols datasets}{88}{subsection.7.2.2}
+\contentsline {section}{\numberline {7.3}Methods}{89}{section.7.3}
+\contentsline {subsection}{\numberline {7.3.1}Spatial analysis}{89}{subsection.7.3.1}
+\contentsline {subsubsection}{Linear regression}{89}{subsection.7.3.1}
+\contentsline {subsection}{\numberline {7.3.2}PV potential}{90}{subsection.7.3.2}
+\contentsline {section}{\numberline {7.4}Results}{90}{section.7.4}
+\contentsline {subsection}{\numberline {7.4.1}Anomalies of SSR and CLT}{90}{subsection.7.4.1}
+\contentsline {subsection}{\numberline {7.4.2}Projected changes in PV production}{91}{subsection.7.4.2}
+\contentsline {section}{\numberline {7.5}Discussion}{94}{section.7.5}
+\contentsline {section}{\numberline {7.6}Conclusion}{94}{section.7.6}
+\contentsline {section}{\numberline {.1}MED-CORDEX analysis}{94}{section.Alph0.1}
+\contentsline {chapter}{Bibliography}{95}{section*.45}
