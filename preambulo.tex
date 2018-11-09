@@ -25,6 +25,16 @@
 \usepackage{amssymb}
 \usepackage{nomencl}
 \usepackage[usenames,dvipsnames]{xcolor}
+%\usepackage{subfig}
+\usepackage{subcaption}
+
+
+\newcommand\blfootnote[1]{%
+  \begingroup
+  \renewcommand\thefootnote{}\footnote{#1}%
+  \addtocounter{footnote}{-1}%
+  \endgroup
+}
 
 %\includeonly{DataMethods}
 
@@ -249,8 +259,9 @@
 }}}
 
 %claudia
+
 \renewenvironment{abstract}%
-{\cleardoublepage\null \vfill\begin{center}%
+{\clearpage\null \vfill\begin{center}%
 \bfseries\abstractname\end{center}}%
 {\vfill\null}
 

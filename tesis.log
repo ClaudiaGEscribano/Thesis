@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.24)  18 OCT 2018 17:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.11.2)  9 NOV 2018 13:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -963,13 +963,17 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/dvipsnam.def
 File: dvipsnam.def 2015/12/30 v3.0k Driver-dependent file (DPC,SPQR)
 ))
-\@nomenclaturefile=\write4
-\openout4 = `tesis.nlo'.
+(/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2016/02/20 v1.1-142 Sub-captions (AR)
 
 
-Writing nomenclature file tesis.nlo
-(/usr/share/texlive/texmf-dist/tex/latex/subfig/subfig.sty
-Package: subfig 2005/06/28 ver: 1.3 subfig package
+Class memoir Warning: You are using the caption package with the memoir class. 
+To prepare we will now reset all captioning macros and configurations to kernel
+ defaults, and then let the caption package take over. Please remember to use t
+he caption package interfaces in order to configure your captions. .
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
 
 (/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2016/02/04 v1.7-139 caption3 kernel (AR)
@@ -981,18 +985,24 @@ Package caption3 Info: TeX engine: e-TeX on input line 67.
 \caption@indent=\dimen172
 \caption@parindent=\dimen173
 \caption@hangindent=\dimen174
-Package caption Info: Unknown document class (or package),
-(caption)             standard defaults will be used.
 )
-\c@KVtest=\count153
+\c@ContinuedFloat=\count153
+)
+\c@subfigure=\count154
+\c@subtable=\count155
+)
+\@nomenclaturefile=\write4
+\openout4 = `tesis.nlo'.
+
+
+Writing nomenclature file tesis.nlo
+(/usr/share/texlive/texmf-dist/tex/latex/subfig/subfig.sty
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+\c@KVtest=\count156
 \sf@farskip=\skip189
 \sf@captopadj=\dimen175
 \sf@capskip=\skip190
 \sf@nearskip=\skip191
-\c@subfigure=\count154
-\c@subfigure@save=\count155
-\c@subtable=\count156
-\c@subtable@save=\count157
 \sf@top=\skip192
 \sf@bottom=\skip193
 )
@@ -1010,24 +1020,24 @@ L3 Module: l3tl 2015/09/29 v6121 L3 Token lists
 L3 Module: l3str 2016/01/03 v6357 L3 Strings
 L3 Module: l3seq 2015/08/05 v5777 L3 Sequences and stacks
 L3 Module: l3int 2016/01/05 v6366 L3 Integers
-\c_max_int=\count158
-\l_tmpa_int=\count159
-\l_tmpb_int=\count160
-\g_tmpa_int=\count161
-\g_tmpb_int=\count162
+\c_max_int=\count157
+\l_tmpa_int=\count158
+\l_tmpb_int=\count159
+\g_tmpa_int=\count160
+\g_tmpb_int=\count161
 L3 Module: l3quark 2015/08/17 v5855 L3 Quarks
 L3 Module: l3prg 2015/11/01 v6216 L3 Control structures
-\g__prg_map_int=\count163
+\g__prg_map_int=\count162
 L3 Module: l3clist 2015/09/02 v5901 L3 Comma separated lists
 L3 Module: l3token 2015/11/11 v6249 L3 Experimental token manipulation
 L3 Module: l3prop 2016/01/05 v6366 L3 Property lists
 L3 Module: l3msg 2015/09/28 v6113 L3 Messages
 L3 Module: l3file 2015/12/03 v6317 L3 File and I/O operations
-\l_iow_line_count_int=\count164
-\l__iow_target_count_int=\count165
-\l__iow_current_line_int=\count166
-\l__iow_current_word_int=\count167
-\l__iow_current_indentation_int=\count168
+\l_iow_line_count_int=\count163
+\l__iow_target_count_int=\count164
+\l__iow_current_line_int=\count165
+\l__iow_current_word_int=\count166
+\l__iow_current_indentation_int=\count167
 L3 Module: l3skip 2016/01/05 v6366 L3 Dimensions and skips
 \c_zero_dim=\dimen176
 \c_max_dim=\dimen177
@@ -1048,18 +1058,18 @@ L3 Module: l3skip 2016/01/05 v6366 L3 Dimensions and skips
 \g_tmpa_muskip=\muskip16
 \g_tmpb_muskip=\muskip17
 L3 Module: l3keys 2015/11/17 v6284 L3 Key-value interfaces
-\g__keyval_level_int=\count169
-\l_keys_choice_int=\count170
+\g__keyval_level_int=\count168
+\l_keys_choice_int=\count169
 L3 Module: l3fp 2015/08/25 v5890 L3 Floating points
-\c__fp_leading_shift_int=\count171
-\c__fp_middle_shift_int=\count172
-\c__fp_trailing_shift_int=\count173
-\c__fp_big_leading_shift_int=\count174
-\c__fp_big_middle_shift_int=\count175
-\c__fp_big_trailing_shift_int=\count176
-\c__fp_Bigg_leading_shift_int=\count177
-\c__fp_Bigg_middle_shift_int=\count178
-\c__fp_Bigg_trailing_shift_int=\count179
+\c__fp_leading_shift_int=\count170
+\c__fp_middle_shift_int=\count171
+\c__fp_trailing_shift_int=\count172
+\c__fp_big_leading_shift_int=\count173
+\c__fp_big_middle_shift_int=\count174
+\c__fp_big_trailing_shift_int=\count175
+\c__fp_Bigg_leading_shift_int=\count176
+\c__fp_Bigg_middle_shift_int=\count177
+\c__fp_Bigg_trailing_shift_int=\count178
 L3 Module: l3box 2015/08/09 v5822 L3 Experimental boxes
 \c_empty_box=\box31
 \l_tmpa_box=\box32
@@ -1109,15 +1119,15 @@ L3 Module: l3luatex 2015/11/11 v6250 L3 Experimental LuaTeX-specific functions
 )
 (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3pdfmode.def
 File: l3pdfmode.def 2015/11/11 v6250 L3 Experimental driver: PDF mode
-\l__driver_color_stack_int=\count180
+\l__driver_color_stack_int=\count179
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 Package: xparse 2016/01/19 v6377 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count181
-\l__xparse_m_args_int=\count182
-\l__xparse_mandatory_args_int=\count183
-\l__xparse_processor_int=\count184
-\l__xparse_v_nesting_int=\count185
+\l__xparse_current_arg_int=\count180
+\l__xparse_m_args_int=\count181
+\l__xparse_mandatory_args_int=\count182
+\l__xparse_processor_int=\count183
+\l__xparse_v_nesting_int=\count184
 )
 Package: siunitx 2016/03/01 v2.6q A comprehensive (SI) units package
 
@@ -1126,27 +1136,27 @@ Package: l3keys2e 2016/01/19 v6377 LaTeX2e option processing using LaTeX3 keys
 )
 \l__siunitx_tmp_box=\box46
 \l__siunitx_tmp_dim=\dimen268
-\l__siunitx_tmp_int=\count186
-\l__siunitx_number_mantissa_length_int=\count187
-\l__siunitx_number_uncert_length_int=\count188
-\l__siunitx_round_int=\count189
-\l__siunitx_process_decimal_int=\count190
-\l__siunitx_process_uncertainty_int=\count191
-\l__siunitx_process_fixed_int=\count192
-\l__siunitx_process_integer_min_int=\count193
-\l__siunitx_process_precision_int=\count194
-\l__siunitx_group_min_int=\count266
+\l__siunitx_tmp_int=\count185
+\l__siunitx_number_mantissa_length_int=\count186
+\l__siunitx_number_uncert_length_int=\count187
+\l__siunitx_round_int=\count188
+\l__siunitx_process_decimal_int=\count189
+\l__siunitx_process_uncertainty_int=\count190
+\l__siunitx_process_fixed_int=\count191
+\l__siunitx_process_integer_min_int=\count192
+\l__siunitx_process_precision_int=\count193
+\l__siunitx_group_min_int=\count194
 \l__siunitx_angle_marker_box=\box47
 \l__siunitx_angle_unit_box=\box48
 \l__siunitx_angle_marker_dim=\dimen269
 \l__siunitx_angle_unit_dim=\dimen270
-\l__siunitx_unit_int=\count267
-\l__siunitx_unit_denominator_int=\count268
-\l__siunitx_unit_numerator_int=\count269
-\l__siunitx_unit_prefix_int=\count270
-\l__siunitx_unit_prefix_base_int=\count271
-\l__siunitx_unit_prefix_gram_int=\count272
-\l__siunitx_number_product_int=\count273
+\l__siunitx_unit_int=\count266
+\l__siunitx_unit_denominator_int=\count267
+\l__siunitx_unit_numerator_int=\count268
+\l__siunitx_unit_prefix_int=\count269
+\l__siunitx_unit_prefix_base_int=\count270
+\l__siunitx_unit_prefix_gram_int=\count271
+\l__siunitx_number_product_int=\count272
 \c__siunitx_one_fill_skip=\skip261
 \l__siunitx_table_unit_align_skip=\skip262
 \l__siunitx_table_exponent_dim=\dimen271
@@ -1358,11 +1368,11 @@ PK/JW/AB)
 
 (/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2015/08/02 v2.2a e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count274
+\etb@tempcnta=\count273
 )
 (/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count275
+\lrq@indent=\count274
 
 (/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
@@ -1370,41 +1380,41 @@ File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 (/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
-\c@tabx@nest=\count276
-\c@listtotal=\count277
-\c@listcount=\count278
-\c@liststart=\count279
-\c@liststop=\count280
-\c@citecount=\count281
-\c@citetotal=\count282
-\c@multicitecount=\count283
-\c@multicitetotal=\count284
-\c@instcount=\count285
-\c@maxnames=\count286
-\c@minnames=\count287
-\c@maxitems=\count288
-\c@minitems=\count289
-\c@citecounter=\count290
-\c@savedcitecounter=\count291
-\c@uniquelist=\count292
-\c@uniquename=\count293
-\c@refsection=\count294
-\c@refsegment=\count295
-\c@maxextrayear=\count296
-\c@maxextraalpha=\count297
-\c@abbrvpenalty=\count298
-\c@highnamepenalty=\count299
-\c@lownamepenalty=\count300
-\c@maxparens=\count301
-\c@parenlevel=\count302
-\blx@tempcnta=\count303
-\blx@tempcntb=\count304
-\blx@tempcntc=\count305
-\blx@maxsection=\count306
-\blx@maxsegment=\count307
-\blx@notetype=\count308
-\blx@parenlevel@text=\count309
-\blx@parenlevel@foot=\count310
+\c@tabx@nest=\count275
+\c@listtotal=\count276
+\c@listcount=\count277
+\c@liststart=\count278
+\c@liststop=\count279
+\c@citecount=\count280
+\c@citetotal=\count281
+\c@multicitecount=\count282
+\c@multicitetotal=\count283
+\c@instcount=\count284
+\c@maxnames=\count285
+\c@minnames=\count286
+\c@maxitems=\count287
+\c@minitems=\count288
+\c@citecounter=\count289
+\c@savedcitecounter=\count290
+\c@uniquelist=\count291
+\c@uniquename=\count292
+\c@refsection=\count293
+\c@refsegment=\count294
+\c@maxextrayear=\count295
+\c@maxextraalpha=\count296
+\c@abbrvpenalty=\count297
+\c@highnamepenalty=\count298
+\c@lownamepenalty=\count299
+\c@maxparens=\count300
+\c@parenlevel=\count301
+\blx@tempcnta=\count302
+\blx@tempcntb=\count303
+\blx@tempcntc=\count304
+\blx@maxsection=\count305
+\blx@maxsegment=\count306
+\blx@notetype=\count307
+\blx@parenlevel@text=\count308
+\blx@parenlevel@foot=\count309
 \labelnumberwidth=\skip265
 \labelalphawidth=\skip266
 \shorthandwidth=\skip267
@@ -1415,75 +1425,75 @@ Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 \bibhang=\skip272
 \blx@auxin=\read3
 \blx@auxout=\write5
-\c@mincomprange=\count311
-\c@maxcomprange=\count312
-\c@mincompwidth=\count313
-\c@labelname=\count314
-\c@savedlabelname=\count315
-\c@author=\count316
-\c@savedauthor=\count317
-\c@shortauthor=\count318
-\c@savedshortauthor=\count319
-\c@editor=\count320
-\c@savededitor=\count321
-\c@editora=\count322
-\c@savededitora=\count323
-\c@editorb=\count324
-\c@savededitorb=\count325
-\c@editorc=\count326
-\c@savededitorc=\count327
-\c@shorteditor=\count328
-\c@savedshorteditor=\count329
-\c@bookauthor=\count330
-\c@savedbookauthor=\count331
-\c@translator=\count332
-\c@savedtranslator=\count333
-\c@annotator=\count334
-\c@savedannotator=\count335
-\c@commentator=\count336
-\c@savedcommentator=\count337
-\c@introduction=\count338
-\c@savedintroduction=\count339
-\c@foreword=\count340
-\c@savedforeword=\count341
-\c@afterword=\count342
-\c@savedafterword=\count343
-\c@holder=\count344
-\c@savedholder=\count345
-\c@namea=\count346
-\c@savednamea=\count347
-\c@nameb=\count348
-\c@savednameb=\count349
-\c@namec=\count350
-\c@savednamec=\count351
-\c@institution=\count352
-\c@savedinstitution=\count353
-\c@language=\count354
-\c@savedlanguage=\count355
-\c@location=\count356
-\c@savedlocation=\count357
-\c@organization=\count358
-\c@savedorganization=\count359
-\c@origlocation=\count360
-\c@savedoriglocation=\count361
-\c@origpublisher=\count362
-\c@savedorigpublisher=\count363
-\c@pageref=\count364
-\c@savedpageref=\count365
-\c@publisher=\count366
-\c@savedpublisher=\count367
-\c@lista=\count368
-\c@savedlista=\count369
-\c@listb=\count370
-\c@savedlistb=\count371
-\c@listc=\count372
-\c@savedlistc=\count373
-\c@listd=\count374
-\c@savedlistd=\count375
-\c@liste=\count376
-\c@savedliste=\count377
-\c@listf=\count378
-\c@savedlistf=\count379
+\c@mincomprange=\count310
+\c@maxcomprange=\count311
+\c@mincompwidth=\count312
+\c@labelname=\count313
+\c@savedlabelname=\count314
+\c@author=\count315
+\c@savedauthor=\count316
+\c@shortauthor=\count317
+\c@savedshortauthor=\count318
+\c@editor=\count319
+\c@savededitor=\count320
+\c@editora=\count321
+\c@savededitora=\count322
+\c@editorb=\count323
+\c@savededitorb=\count324
+\c@editorc=\count325
+\c@savededitorc=\count326
+\c@shorteditor=\count327
+\c@savedshorteditor=\count328
+\c@bookauthor=\count329
+\c@savedbookauthor=\count330
+\c@translator=\count331
+\c@savedtranslator=\count332
+\c@annotator=\count333
+\c@savedannotator=\count334
+\c@commentator=\count335
+\c@savedcommentator=\count336
+\c@introduction=\count337
+\c@savedintroduction=\count338
+\c@foreword=\count339
+\c@savedforeword=\count340
+\c@afterword=\count341
+\c@savedafterword=\count342
+\c@holder=\count343
+\c@savedholder=\count344
+\c@namea=\count345
+\c@savednamea=\count346
+\c@nameb=\count347
+\c@savednameb=\count348
+\c@namec=\count349
+\c@savednamec=\count350
+\c@institution=\count351
+\c@savedinstitution=\count352
+\c@language=\count353
+\c@savedlanguage=\count354
+\c@location=\count355
+\c@savedlocation=\count356
+\c@organization=\count357
+\c@savedorganization=\count358
+\c@origlocation=\count359
+\c@savedoriglocation=\count360
+\c@origpublisher=\count361
+\c@savedorigpublisher=\count362
+\c@pageref=\count363
+\c@savedpageref=\count364
+\c@publisher=\count365
+\c@savedpublisher=\count366
+\c@lista=\count367
+\c@savedlista=\count368
+\c@listb=\count369
+\c@savedlistb=\count370
+\c@listc=\count371
+\c@savedlistc=\count372
+\c@listd=\count373
+\c@savedlistd=\count374
+\c@liste=\count375
+\c@savedliste=\count376
+\c@listf=\count377
+\c@savedlistf=\count378
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
 
@@ -1495,13 +1505,13 @@ Package biblatex Info: ... file 'biblatex_legacy.def' found.
 
 (/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex_legacy.def
 File: biblatex_legacy.def 
-\c@textcitecount=\count380
-\c@textcitetotal=\count381
-\c@textcitemaxnames=\count382
-\c@biburlnumpenalty=\count383
-\c@biburlucpenalty=\count384
-\c@biburllcpenalty=\count385
-\c@smartand=\count386
+\c@textcitecount=\count379
+\c@textcitetotal=\count380
+\c@textcitemaxnames=\count381
+\c@biburlnumpenalty=\count382
+\c@biburlucpenalty=\count383
+\c@biburllcpenalty=\count384
+\c@smartand=\count385
 )
 Package biblatex Info: Trying to load bibliography style 'alphabetic'...
 Package biblatex Info: ... file 'alphabetic.bbx' found.
@@ -1513,8 +1523,8 @@ Package biblatex Info: ... file 'standard.bbx' found.
 
 (/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
 File: standard.bbx 2016/03/03 v3.3 biblatex bibliography style (PK/JW/AB)
-\c@bbx:relatedcount=\count387
-\c@bbx:relatedtotal=\count388
+\c@bbx:relatedcount=\count386
+\c@bbx:relatedtotal=\count387
 ))
 Package biblatex Info: Trying to load citation style 'alphabetic'...
 Package biblatex Info: ... file 'alphabetic.cbx' found.
@@ -1539,14 +1549,14 @@ Package biblatex Info: ... file 'biblatex.cfg' found.
 File: biblatex.cfg 
 )))
 
-./preambulo.tex:94: LaTeX Error: \bbltechreport undefined.
+./preambulo.tex:104: LaTeX Error: \bbltechreport undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.94 \renewcommand{\bbltechreport}
-                                  {Informe T\'ecnico}
+l.104 \renewcommand{\bbltechreport}
+                                   {Informe T\'ecnico}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -1601,15 +1611,15 @@ Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 )
 \@linkdim=\dimen280
-\Hy@linkcounter=\count389
-\Hy@pagecounter=\count390
+\Hy@linkcounter=\count388
+\Hy@pagecounter=\count389
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
-\Hy@SavedSpaceFactor=\count391
+\Hy@SavedSpaceFactor=\count390
 
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
@@ -1621,10 +1631,10 @@ Package hyperref Info: Plain pages OFF on input line 4458.
 Package hyperref Info: Backreferencing OFF on input line 4463.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4688.
-\c@Hy@tempcnt=\count392
+\c@Hy@tempcnt=\count391
 LaTeX Info: Redefining \url on input line 5041.
 \XeTeXLinkMargin=\dimen281
-\Fld@menulength=\count393
+\Fld@menulength=\count392
 \Field@Width=\dimen282
 \Fld@charsize=\dimen283
 Package hyperref Info: Hyper figures OFF on input line 6295.
@@ -1636,17 +1646,17 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6320.
 Package hyperref Info: PDF/A mode OFF on input line 6325.
 LaTeX Info: Redefining \ref on input line 6365.
 LaTeX Info: Redefining \pageref on input line 6369.
-\Hy@abspage=\count394
-\c@Item=\count395
-\c@Hfootnote=\count396
+\Hy@abspage=\count393
+\c@Item=\count394
+\c@Hfootnote=\count395
 )
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
-\Fld@listcount=\count397
-\c@bookmark@seq@number=\count398
+\Fld@listcount=\count396
+\c@bookmark@seq@number=\count397
 
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
@@ -1657,30 +1667,30 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 
 Package hyperref Warning: Option `bookmarks' has already been used,
-(hyperref)                setting the option has no effect on input line 130.
+(hyperref)                setting the option has no effect on input line 140.
 
-Package hyperref Info: Option `unicode' set `true' on input line 130.
+Package hyperref Info: Option `unicode' set `true' on input line 140.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2012/11/06 v6.83m Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
 )
-Package hyperref Info: Option `bookmarksnumbered' set `false' on input line 130
+Package hyperref Info: Option `bookmarksnumbered' set `false' on input line 140
 .
-Package hyperref Info: Option `bookmarksopen' set `false' on input line 130.
-Package hyperref Info: Option `breaklinks' set `true' on input line 130.
+Package hyperref Info: Option `bookmarksopen' set `false' on input line 140.
+Package hyperref Info: Option `breaklinks' set `true' on input line 140.
 
 
 Package hyperref Warning: Option `backref' has already been used,
-(hyperref)                setting the option has no effect on input line 130.
+(hyperref)                setting the option has no effect on input line 140.
 
-Package hyperref Info: Option `pdftoolbar' set `true' on input line 130.
-Package hyperref Info: Option `pdfmenubar' set `true' on input line 130.
-Package hyperref Info: Option `pdffitwindow' set `false' on input line 130.
-Package hyperref Info: Option `pdfnewwindow' set `true' on input line 130.
-Package hyperref Info: Option `colorlinks' set `true' on input line 130.
-./preambulo.tex:141: Undefined control sequence.
-l.141 \addto
+Package hyperref Info: Option `pdftoolbar' set `true' on input line 140.
+Package hyperref Info: Option `pdfmenubar' set `true' on input line 140.
+Package hyperref Info: Option `pdffitwindow' set `false' on input line 140.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 140.
+Package hyperref Info: Option `colorlinks' set `true' on input line 140.
+./preambulo.tex:151: Undefined control sequence.
+l.151 \addto
             \captionsspanish{%
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1688,8 +1698,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./preambulo.tex:141: Undefined control sequence.
-l.141 \addto\captionsspanish
+./preambulo.tex:151: Undefined control sequence.
+l.151 \addto\captionsspanish
                             {%
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1851,15 +1861,15 @@ Package: helvet 2005/04/12 PSNFSS-v9.2a (WaS)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count399
-\calc@Bcount=\count400
+\calc@Acount=\count398
+\calc@Bcount=\count399
 \calc@Adimen=\dimen284
 \calc@Bdimen=\dimen285
 \calc@Askip=\skip274
 \calc@Bskip=\skip275
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count401
+\calc@Ccount=\count400
 \calc@Cskip=\skip276
 )
 \ChpNumBox=\box53
@@ -1870,15 +1880,12 @@ Package biblatex Info: ... file 'english.lbx' found.
 (/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/english.lbx
 File: english.lbx 2016/03/03 v3.3 biblatex localization (PK/JW/AB)
 )
-\@quotelevel=\count402
-\@quotereset=\count403
+\@quotelevel=\count401
+\@quotereset=\count402
  (./tesis.aux (./preface.aux) (./Intro.aux) (./DataMethods.aux) (./Resultados.a
 ux
 
 LaTeX Warning: Label `eq:euclidean' multiply defined.
-
-
-LaTeX Warning: Label `fig:diferenciaYm' multiply defined.
 
 ))
 \openout1 = `tesis.aux'.
@@ -1967,16 +1974,16 @@ File: t1futs.fd 2004/03/02 Fontinst v1.926 font definitions for T1/futs.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count404
+\scratchcounter=\count403
 \scratchdimen=\dimen286
 \scratchbox=\box54
-\nofMPsegments=\count405
-\nofMParguments=\count406
+\nofMPsegments=\count404
+\nofMParguments=\count405
 \everyMPshowfont=\toks31
-\MPscratchCnt=\count407
+\MPscratchCnt=\count406
 \MPscratchDim=\dimen287
-\MPnumerator=\count408
-\makeMPintoPDFobject=\count409
+\MPnumerator=\count407
+\makeMPintoPDFobject=\count408
 \everyMPtoPDFconversion=\toks32
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
@@ -1995,7 +2002,20 @@ e
 ))
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
+
+./tesis.tex:7: Undefined control sequence.
+<argument> \sf@counterlist 
+                           
+l.7 \begin{document}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/translator/dicts/translator-bas
 ic-dictionary/translator-basic-dictionary-English.dict
@@ -3242,7 +3262,7 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count410
+\c@section@level=\count409
 )
 Redoing nameref's sectioning
 Redoing nameref's label
@@ -3254,7 +3274,7 @@ LaTeX Info: Redefining \nameref on input line 7.
 \@outlinefile=\write6
 \openout6 = `tesis.out'.
 
-\c__siunitx_mathsf_int=\count411
+\c__siunitx_mathsf_int=\count410
 LaTeX Font Info:    Try loading font information for FML+futmi on input line 7.
 
 
@@ -3290,7 +3310,7 @@ LaTeX Font Info:    Font shape `U/futm/m/n' will be
 (Font)              scaled to size 6.99199pt on input line 7.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
 (Font)              scaled to size 5.51999pt on input line 7.
-\c__siunitx_mathtt_int=\count412
+\c__siunitx_mathtt_int=\count411
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <10> not available
 (Font)              Font shape `T1/futs/b/n' tried instead on input line 22.
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <24.88> not available
@@ -3723,7 +3743,7 @@ See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.40 ...erline {5.1}Introduction}{40}{section.5.1}
+l.40 ...erline {5.1}Introduction}{38}{section.5.1}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -3735,7 +3755,7 @@ See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.49 ...he Euro-Mediterranean area}{55}{chapter.6}
+l.49 ...he Euro-Mediterranean area}{53}{chapter.6}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -3753,7 +3773,7 @@ See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.50 ...erline {6.1}Introduction}{58}{section.6.1}
+l.50 ...erline {6.1}Introduction}{55}{section.6.1}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -3765,7 +3785,7 @@ See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.51 ...ne {6.2}Data and Methods}{59}{section.6.2}
+l.51 ...ne {6.2}Data and Methods}{56}{section.6.2}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -3777,7 +3797,7 @@ See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.59 ...\numberline {6.3}Results}{66}{section.6.3}
+l.59 ...\numberline {6.3}Results}{62}{section.6.3}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -3789,7 +3809,7 @@ See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.66 ...mberline {6.4}Discussion}{77}{section.6.4}
+l.66 ...mberline {6.4}Discussion}{72}{section.6.4}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -3801,7 +3821,7 @@ See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.70 ...berline {6.5}Conclusions}{79}{section.6.5}
+l.70 ...berline {6.5}Conclusions}{74}{section.6.5}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -3813,7 +3833,7 @@ See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.71 ... photovoltaic applications}{81}{chapter.7}
+l.71 ... photovoltaic applications}{75}{chapter.7}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -3825,7 +3845,7 @@ See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.72 ...erline {7.1}Introduction}{84}{section.7.1}
+l.72 ...erline {7.1}Introduction}{77}{section.7.1}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -3837,7 +3857,7 @@ See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.73 ...erline {7.2}Climate data}{85}{section.7.2}
+l.73 ...erline {7.2}Climate data}{78}{section.7.2}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -3849,31 +3869,19 @@ See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.76 ...\numberline {7.3}Methods}{86}{section.7.3}
+l.76 ...\numberline {7.3}Methods}{79}{section.7.3}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./tesis.toc:79: Package xcolor Error: Undefined color `grey'.
+./tesis.toc:80: Package xcolor Error: Undefined color `grey'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.79 ...\numberline {7.4}Results}{87}{section.7.4}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./tesis.toc:82: Package xcolor Error: Undefined color `grey'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.82 ...mberline {7.5}Discussion}{90}{section.7.5}
+l.80 ...\numberline {7.4}Results}{80}{section.7.4}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -3885,7 +3893,7 @@ See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.83 ...mberline {7.6}Conclusion}{91}{section.7.6}
+l.83 ...mberline {7.5}Discussion}{84}{section.7.5}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -3897,7 +3905,31 @@ See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.84 ...ne {chapter}{Bibliography}{93}{section*.7}
+l.84 ...mberline {7.6}Conclusion}{84}{section.7.6}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./tesis.toc:85: Package xcolor Error: Undefined color `grey'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.85 ...}MED-CORDEX analysis}{84}{section.Alph0.1}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./tesis.toc:86: Package xcolor Error: Undefined color `grey'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.86 ...e {chapter}{Bibliography}{85}{section*.39}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -4038,7 +4070,7 @@ Overfull \hbox (11.29247pt too wide) in paragraph at lines 18--19
  to sup-port the re-search projects
  []
 
-<DataMethodsFIGS/bsrn.pdf, id=309, 807.41652pt x 548.24826pt>
+<DataMethodsFIGS/bsrn.pdf, id=314, 807.41652pt x 548.24826pt>
 File: DataMethodsFIGS/bsrn.pdf Graphic file (type pdf)
 
 <use DataMethodsFIGS/bsrn.pdf>
@@ -4157,14 +4189,42 @@ LaTeX Font Info:    Try loading font information for TS1+futs on input line 43.
 (/usr/share/texlive/texmf-dist/tex/latex/fourier/ts1futs.fd
 File: ts1futs.fd 2004/03/26 Fontinst v1.926 font definitions for TS1/futs.
 )
-<DataMethodsFIGS/medcordex2.png, id=328, 515.9275pt x 509.905pt>
+
+./DataMethods.tex:47: LaTeX Error: No counter 'subfigure@save' defined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.47   \subfloat
+                [Med-CORDEX]{\includegraphics[width=0.4\textwidth]{DataMetho...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+<DataMethodsFIGS/medcordex2.png, id=333, 515.9275pt x 509.905pt>
 File: DataMethodsFIGS/medcordex2.png Graphic file (type png)
 
 <use DataMethodsFIGS/medcordex2.png>
 Package pdftex.def Info: DataMethodsFIGS/medcordex2.png used on input line 47.
 (pdftex.def)             Requested size: 140.21242pt x 138.57094pt.
 
-<DataMethodsFIGS/eurocordex2.png, id=329, 489.83pt x 492.84125pt>
+
+./DataMethods.tex:49: LaTeX Error: No counter 'subfigure@save' defined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.49   \subfloat
+                [Euro-CORDEX]{\includegraphics[width=0.4\textwidth]{DataMeth...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+<DataMethodsFIGS/eurocordex2.png, id=334, 489.83pt x 492.84125pt>
 File: DataMethodsFIGS/eurocordex2.png Graphic file (type png)
 
 <use DataMethodsFIGS/eurocordex2.png>
@@ -4194,12 +4254,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 59--60
 
  []
 
-[14 <./DataMethodsFIGS/medcordex2.png> <./DataMethodsFIGS/eurocordex2.png>]
+
 Underfull \hbox (badness 10000) in paragraph at lines 61--62
 
  []
 
-
+[14 <./DataMethodsFIGS/medcordex2.png> <./DataMethodsFIGS/eurocordex2.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 63--64
 
  []
@@ -4220,7 +4280,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 68--69
 
  []
 
-<figs/esquema.png, id=346, 4016.00375pt x 2677.00125pt>
+<figs/esquema.png, id=352, 4016.00375pt x 2677.00125pt>
 File: figs/esquema.png Graphic file (type png)
  <use figs/esquema.png>
 Package pdftex.def Info: figs/esquema.png used on input line 73.
@@ -4230,12 +4290,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 80--81
 
  []
 
-[15]
+
 Underfull \hbox (badness 10000) in paragraph at lines 82--83
 
  []
 
-
+[15]
 Underfull \hbox (badness 10000) in paragraph at lines 86--87
 
  []
@@ -5106,43 +5166,43 @@ Overfull \hbox (17.83955pt too wide) in paragraph at lines 392--417
 
 
 
-] [33] [34] [35
+] [33] [34]
 
-] [36
+./Resultados.tex:9: Package xcolor Error: Undefined color `grey'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 https://doi.org/10.1016/j.solener.2017.09.037}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[35
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 31--32
+Underfull \hbox (badness 10000) in paragraph at lines 36--37
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 33--34
+Underfull \hbox (badness 10000) in paragraph at lines 45--46
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--39
+Underfull \hbox (badness 10000) in paragraph at lines 47--48
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 40--41
+Underfull \hbox (badness 10000) in paragraph at lines 58--59
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 44--45
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 46--47
-
- []
-
-[37] [38]
-./Resultados.tex:64: Undefined control sequence.
-l.64 ...f solar PV energy,  its variability \citep
+./Resultados.tex:76: Undefined control sequence.
+l.76 ...f solar PV energy,  its variability \citep
                                                   {Widen2015} can be studied...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -5150,8 +5210,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Resultados.tex:64: Undefined control sequence.
-l.64 ...cused on the short-term variability \citep
+./Resultados.tex:76: Undefined control sequence.
+l.76 ...cused on the short-term variability \citep
                                                   {Zamo.Mestre.ea2014} that ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -5159,8 +5219,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Resultados.tex:64: Undefined control sequence.
-l.64 ...iation associated with cloud motion \citep
+./Resultados.tex:76: Undefined control sequence.
+l.76 ...iation associated with cloud motion \citep
                                                   {Cros2014, IEA-PVPS-T14-1....
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -5168,8 +5228,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Resultados.tex:64: Undefined control sequence.
-l.64 ...PV production is being investigated \citep
+./Resultados.tex:76: Undefined control sequence.
+l.76 ...PV production is being investigated \citep
                                                   {Marcos2012, Perpinan.Marc...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -5178,12 +5238,15 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 64--65
+Underfull \hbox (badness 10000) in paragraph at lines 76--77
 
  []
 
-./Resultados.tex:66: Undefined control sequence.
-l.66 ... system more efficient and reliable \citep
+[36
+
+]
+./Resultados.tex:78: Undefined control sequence.
+l.78 ... system more efficient and reliable \citep
                                                   {Davy2012}. Policymakers, ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -5191,8 +5254,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Resultados.tex:66: Undefined control sequence.
-l.66 ...iability of renewable energy plants \citep
+./Resultados.tex:78: Undefined control sequence.
+l.78 ...iability of renewable energy plants \citep
                                                   {pryor2006inter}, as well ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -5201,12 +5264,12 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 66--67
+Underfull \hbox (badness 10000) in paragraph at lines 78--79
 
  []
 
-./Resultados.tex:68: Undefined control sequence.
-l.68 ...ocused on long series from stations \citep
+./Resultados.tex:80: Undefined control sequence.
+l.80 ...ocused on long series from stations \citep
                                                   {Sanchez-Lorenzo2009, Sanc...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -5214,8 +5277,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Resultados.tex:68: Undefined control sequence.
-l.68 ...ng” and “brightening” periods \citep
+./Resultados.tex:80: Undefined control sequence.
+l.80 ...ng” and “brightening” periods \citep
                                                   {Wild2005}, that show rela...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -5223,8 +5286,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Resultados.tex:68: Undefined control sequence.
-l.68 ...adiation and anthropogenic aerosols \citep
+./Resultados.tex:80: Undefined control sequence.
+l.80 ...adiation and anthropogenic aerosols \citep
                                                   {Nabat2014a}. Some studies...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -5232,8 +5295,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Resultados.tex:68: Undefined control sequence.
-l.68 ...tic Oscillation) on solar radiation \citep
+./Resultados.tex:80: Undefined control sequence.
+l.80 ...tic Oscillation) on solar radiation \citep
                                                   {Pozo-Vazquez2004, Jerez20...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -5241,8 +5304,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Resultados.tex:68: Undefined control sequence.
-l.68 ...instead of the temporal variability \citep
+./Resultados.tex:80: Undefined control sequence.
+l.80 ...instead of the temporal variability \citep
                                                   {Gueymard.Wilcox2011a}.\\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -5251,30 +5314,30 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (18.97307pt too wide) in paragraph at lines 68--69
+Overfull \hbox (18.97307pt too wide) in paragraph at lines 80--81
 \T1/futs/m/n/10 stud-ies fo-cused on long se-ries from sta-tions Sanchez-Lorenz
 o2009, Sanchez-Lorenzo2013,
  []
 
 
-Overfull \hbox (6.49251pt too wide) in paragraph at lines 68--69
+Overfull \hbox (6.49251pt too wide) in paragraph at lines 80--81
 \T1/futs/m/n/10 NAO (North At-lantic Os-cil-la-tion) on so-lar ra-di-a-tion Poz
 o-Vazquez2004, Jerez2013, while
  []
 
 
-Overfull \hbox (30.54286pt too wide) in paragraph at lines 68--69
+Overfull \hbox (30.54286pt too wide) in paragraph at lines 80--81
 \T1/futs/m/n/10 oth-ers study the spa-tial vari-abil-ity in-stead of the tem-po
 -ral vari-abil-ity Guey-mard.Wilcox2011a. 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 68--69
+Underfull \hbox (badness 10000) in paragraph at lines 80--81
 
  []
 
-./Resultados.tex:70: Undefined control sequence.
-l.70 ...from a climatological point of view \citep
+./Resultados.tex:82: Undefined control sequence.
+l.82 ...from a climatological point of view \citep
                                                   {Argueso2011} or for solar...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -5282,50 +5345,14 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Resultados.tex:70: Undefined control sequence.
-l.70 ...operation and short-term assessment \citep
+./Resultados.tex:82: Undefined control sequence.
+l.82 ...operation and short-term assessment \citep
                                                   {Zagouras2013, Zagouras201...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 70--71
-
- []
-
-[39]
-Underfull \hbox (badness 10000) in paragraph at lines 72--73
-
- []
-
-[40]
-Underfull \hbox (badness 10000) in paragraph at lines 74--75
-
- []
-
-
-LaTeX Warning: Reference `Methods' on page 41 undefined on input line 78.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 78--79
-
- []
-
-
-./Resultados.tex:82: Package xcolor Error: Undefined color `grey'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.82 ...represented in figure \ref{fig:multi_step}
-                                                  , showing the 4 stages and...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 82--83
@@ -5337,15 +5364,51 @@ Underfull \hbox (badness 10000) in paragraph at lines 84--85
 
  []
 
-<figs/capitulo5/multi_step.pdf, id=505, 728.07408pt x 387.79079pt>
+[37]
+Underfull \hbox (badness 10000) in paragraph at lines 86--87
+
+ []
+
+
+LaTeX Warning: Reference `Methods' on page 38 undefined on input line 90.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 90--91
+
+ []
+
+
+./Resultados.tex:94: Package xcolor Error: Undefined color `grey'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.94 ...represented in figure \ref{fig:multi_step}
+                                                  , showing the 4 stages and...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 94--95
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 96--97
+
+ []
+
+<figs/capitulo5/multi_step.pdf, id=500, 728.07408pt x 387.79079pt>
 File: figs/capitulo5/multi_step.pdf Graphic file (type pdf)
 
 <use figs/capitulo5/multi_step.pdf>
-Package pdftex.def Info: figs/capitulo5/multi_step.pdf used on input line 94.
+Package pdftex.def Info: figs/capitulo5/multi_step.pdf used on input line 106.
 (pdftex.def)             Requested size: 350.5364pt x 186.7055pt.
 
-./Resultados.tex:101: Undefined control sequence.
-l.101 ...they rely on arbitrary assumptions \citep
+./Resultados.tex:113: Undefined control sequence.
+l.113 ...they rely on arbitrary assumptions \citep
                                                   {Kottek2006} and their cri...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -5353,8 +5416,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Resultados.tex:101: Undefined control sequence.
-l.101 ...d on temperature and precipitation \citep
+./Resultados.tex:113: Undefined control sequence.
+l.113 ...d on temperature and precipitation \citep
                                                   {trewartha1980koppen}. For...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -5362,8 +5425,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Resultados.tex:101: Undefined control sequence.
-l.101 ...ysis of renewable energy resources \citep
+./Resultados.tex:113: Undefined control sequence.
+l.113 ...ysis of renewable energy resources \citep
                                                   {Polo2015}, \citep{Zagoura...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -5371,8 +5434,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Resultados.tex:101: Undefined control sequence.
-l.101 ...energy resources \citep{Polo2015}, \citep
+./Resultados.tex:113: Undefined control sequence.
+l.113 ...energy resources \citep{Polo2015}, \citep
                                                   {Zagouras2013}, \citep{Zag...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -5380,8 +5443,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Resultados.tex:101: Undefined control sequence.
-l.101 ...p{Polo2015}, \citep{Zagouras2013}, \citep
+./Resultados.tex:113: Undefined control sequence.
+l.113 ...p{Polo2015}, \citep{Zagouras2013}, \citep
                                                   {Zagouras2014}, \citep{Zag...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -5389,8 +5452,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Resultados.tex:101: Undefined control sequence.
-l.101 ...gouras2013}, \citep{Zagouras2014}, \citep
+./Resultados.tex:113: Undefined control sequence.
+l.113 ...gouras2013}, \citep{Zagouras2014}, \citep
                                                   {Zagouras.Pedro.2014}, \ci...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -5398,8 +5461,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Resultados.tex:101: Undefined control sequence.
-l.101 ...014}, \citep{Zagouras.Pedro.2014}, \citep
+./Resultados.tex:113: Undefined control sequence.
+l.113 ...014}, \citep{Zagouras.Pedro.2014}, \citep
                                                   {gomez2015characterization...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -5407,8 +5470,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Resultados.tex:101: Undefined control sequence.
-l.101 ...ization} and atmospheric variables \citep
+./Resultados.tex:113: Undefined control sequence.
+l.113 ...ization} and atmospheric variables \citep
                                                   {Argueso2011}, \citep{garc...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -5416,8 +5479,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Resultados.tex:101: Undefined control sequence.
-l.101 ...ric variables \citep{Argueso2011}, \citep
+./Resultados.tex:113: Undefined control sequence.
+l.113 ...ric variables \citep{Argueso2011}, \citep
                                                   {garcia2012seasonal}. \\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -5426,13 +5489,13 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 101--102
+Underfull \hbox (badness 10000) in paragraph at lines 113--114
 
  []
 
-[41]
-./Resultados.tex:105: Undefined control sequence.
-l.105 ...rough Principal Component Analysis \citep
+[38]
+./Resultados.tex:117: Undefined control sequence.
+l.117 ...rough Principal Component Analysis \citep
                                                   {Ding2004}. This two-step ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -5441,65 +5504,66 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (1.1326pt too wide) in paragraph at lines 105--106
+Overfull \hbox (1.1326pt too wide) in paragraph at lines 117--118
 []\T1/futs/m/n/10 A com-monly ap-plied re-gion-al-iza-tion method-ol-ogy in-clu
 des the Kmeans al-go-rithm
  []
 
 
-Overfull \hbox (2.95308pt too wide) in paragraph at lines 105--106
+Overfull \hbox (2.95308pt too wide) in paragraph at lines 117--118
 \T1/futs/m/n/10 two-step method first re-duces re-dun-dant in-for-ma-tion by a 
 Prin-ci-pal Com-po-nent Anal-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 105--106
-
- []
-
-[42 <./figs/capitulo5/multi_step.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 107--108
+Underfull \hbox (badness 10000) in paragraph at lines 117--118
 
  []
 
 
-LaTeX Warning: Citation 'Argueso2011' on page 43 undefined on input line 109.
+Underfull \hbox (badness 10000) in paragraph at lines 119--120
+
+ []
+
+[39 <./figs/capitulo5/multi_step.pdf>]
+
+LaTeX Warning: Citation 'Argueso2011' on page 40 undefined on input line 121.
 
 
-LaTeX Warning: Citation 'Zagouras2014' on page 43 undefined on input line 109.
+LaTeX Warning: Citation 'Zagouras2014' on page 40 undefined on input line 121.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 109--110
+Underfull \hbox (badness 10000) in paragraph at lines 121--122
 
  []
 
 
-Overfull \hbox (0.19598pt too wide) in paragraph at lines 113--114
+Overfull \hbox (0.19598pt too wide) in paragraph at lines 125--126
 []\T1/futs/b/n/10 Hierarchical clus-ter-ing to ini-tial-ize k-means\T1/futs/m/n
 /10 . A hi-er-ar-chi-cal clus-ter-ing method
  []
 
 
-./Resultados.tex:114: Package xcolor Error: Undefined color `grey'.
+./Resultados.tex:126: Package xcolor Error: Undefined color `grey'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.114 ...uclidean distance, Eq. \ref{eq:euclidean}
+l.126 ...uclidean distance, Eq. \ref{eq:euclidean}
                                                    between the objects or el...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (1.6531pt too wide) in paragraph at lines 114--115
+Overfull \hbox (1.6531pt too wide) in paragraph at lines 126--127
 \T1/futs/m/n/10 that min-i-mizes an ob-jec-tive func-tion that de-fines sim-i-l
 ar-ity among the el-e-ments
  []
 
-./Resultados.tex:126: Undefined control sequence.
-l.126 ... only on information from the data \citep
+./Resultados.tex:138: Undefined control sequence.
+l.138 ... only on information from the data \citep
                                                   {5694060}. The latter are ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -5507,8 +5571,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Resultados.tex:126: Undefined control sequence.
-l.126 ...index, the Calinski-Harabasz index \citep
+./Resultados.tex:138: Undefined control sequence.
+l.138 ...index, the Calinski-Harabasz index \citep
                                                   {CalinskiH}, CH, that eval...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -5516,22 +5580,22 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[43]
+[40]
 
-./Resultados.tex:127: Package xcolor Error: Undefined color `grey'.
+./Resultados.tex:139: Package xcolor Error: Undefined color `grey'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.127 ...esulting CH graph in figure \ref{CHindex}
+l.139 ...esulting CH graph in figure \ref{CHindex}
                                                    for the Iberian Peninsula...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-./Resultados.tex:127: Undefined control sequence.
-l.127 ...at reason, the L-method is applied \citep
+./Resultados.tex:139: Undefined control sequence.
+l.139 ...at reason, the L-method is applied \citep
                                                   {Salvador2004}. This metho...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -5539,8 +5603,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Resultados.tex:127: Undefined control sequence.
-l.127 ...umber of clusters of the partition \citep
+./Resultados.tex:139: Undefined control sequence.
+l.139 ...umber of clusters of the partition \citep
                                                   {Zagouras2013}. All possib...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -5549,32 +5613,32 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-./Resultados.tex:127: Package xcolor Error: Undefined color `grey'.
+./Resultados.tex:139: Package xcolor Error: Undefined color `grey'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.127 ... calculated as in Eq.:\ref{eq:total_RMSE}
+l.139 ... calculated as in Eq.:\ref{eq:total_RMSE}
                                                   :
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (5.74252pt too wide) in paragraph at lines 127--128
+Overfull \hbox (5.74252pt too wide) in paragraph at lines 139--140
 \T1/futs/m/n/10 re-sult-ing CH graph in fig-ure [][]5.2[][] for the Iberian Pen
 in-sula re-gion-al-iza-tion is shown
  []
 
-<figs/capitulo5/CHindex.pdf, id=535, 505.89pt x 505.89pt>
+<figs/capitulo5/CHindex.pdf, id=529, 505.89pt x 505.89pt>
 File: figs/capitulo5/CHindex.pdf Graphic file (type pdf)
 
 <use figs/capitulo5/CHindex.pdf>
-Package pdftex.def Info: figs/capitulo5/CHindex.pdf used on input line 130.
+Package pdftex.def Info: figs/capitulo5/CHindex.pdf used on input line 142.
 (pdftex.def)             Requested size: 175.2682pt x 175.26556pt.
 
-./Resultados.tex:147: Undefined control sequence.
-l.147 ...mum number of clusters of the data \citep
+./Resultados.tex:159: Undefined control sequence.
+l.159 ...mum number of clusters of the data \citep
                                                   {Zagouras2013} which are u...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -5582,101 +5646,101 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[44 <./figs/capitulo5/CHindex.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 153--154
+[41 <./figs/capitulo5/CHindex.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 165--166
 
  []
 
 
-./Resultados.tex:175: Package xcolor Error: Undefined color `grey'.
+./Resultados.tex:187: Package xcolor Error: Undefined color `grey'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.175 ...efficient of variation, CV Eq.\ref{eq:CV}
+l.187 ...efficient of variation, CV Eq.\ref{eq:CV}
                                                   , which is defined as:
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[45]
-Underfull \hbox (badness 10000) in paragraph at lines 181--182
+[42]
+Underfull \hbox (badness 10000) in paragraph at lines 193--194
 
  []
 
 
-./Resultados.tex:183: Package xcolor Error: Undefined color `grey'.
+./Resultados.tex:195: Package xcolor Error: Undefined color `grey'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.183 ... of pairs of clusters Eq.\ref{eq:pearson}
+l.195 ... of pairs of clusters Eq.\ref{eq:pearson}
                                                    is calculated:
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 189--190
+Underfull \hbox (badness 10000) in paragraph at lines 201--202
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 191--192
+Underfull \hbox (badness 10000) in paragraph at lines 203--204
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 193--194
+Underfull \hbox (badness 10000) in paragraph at lines 205--206
 
  []
 
-[46]
-Underfull \hbox (badness 10000) in paragraph at lines 195--197
+[43]
+Underfull \hbox (badness 10000) in paragraph at lines 207--209
 
  []
 
 
-./Resultados.tex:201: Package xcolor Error: Undefined color `grey'.
+./Resultados.tex:213: Package xcolor Error: Undefined color `grey'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.201 ...d is represented in figure \ref{clusters}
+l.213 ...d is represented in figure \ref{clusters}
                                                   . The CH validation proced...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-LaTeX Warning: Citation 'davies1979cluster' on page 47 undefined on input line 
-201.
+LaTeX Warning: Citation 'davies1979cluster' on page 44 undefined on input line 
+213.
 
-<figs/capitulo5/clusters2.pdf, id=564, 505.89pt x 505.89pt>
+<figs/capitulo5/clusters2.pdf, id=559, 505.89pt x 505.89pt>
 File: figs/capitulo5/clusters2.pdf Graphic file (type pdf)
 
 <use figs/capitulo5/clusters2.pdf>
-Package pdftex.def Info: figs/capitulo5/clusters2.pdf used on input line 204.
+Package pdftex.def Info: figs/capitulo5/clusters2.pdf used on input line 216.
 (pdftex.def)             Requested size: 210.32397pt x 210.32639pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 211--212
+Underfull \hbox (badness 10000) in paragraph at lines 223--224
 
  []
 
-
-Overfull \hbox (6.53249pt too wide) in paragraph at lines 213--214
+[44 <./figs/capitulo5/clusters2.pdf>]
+Overfull \hbox (6.53249pt too wide) in paragraph at lines 225--226
 []\T1/futs/m/n/10 Regarding in-ter-an-nual vari-abil-ity, we have cal-cu-lated 
 the CV of two time-aggregated
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 220--221
+Underfull \hbox (badness 10000) in paragraph at lines 232--233
 
  []
 
-./Resultados.tex:224: Undefined control sequence.
-l.224 ...rder effects (spectrum, wind, etc) \citep
+./Resultados.tex:236: Undefined control sequence.
+l.236 ...rder effects (spectrum, wind, etc) \citep
                                                   {Perpinan2007} . Due to th...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -5685,33 +5749,32 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-./Resultados.tex:226: Package xcolor Error: Undefined color `grey'.
+./Resultados.tex:238: Package xcolor Error: Undefined color `grey'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.226 ...igure \ref{yearly_productivity_byCluster}
+l.238 ...igure \ref{yearly_productivity_byCluster}
                                                    where yearly mean yield f...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-LaTeX Warning: Citation 'Antonanzas-Torres2013' on page 47 undefined on input l
-ine 226.
+LaTeX Warning: Citation 'Antonanzas-Torres2013' on page 45 undefined on input l
+ine 238.
 
-[47]
-<figs/capitulo5/productividadTemp_byCluster.pdf, id=572, 505.89pt x 505.89pt>
+<figs/capitulo5/productividadTemp_byCluster.pdf, id=573, 505.89pt x 505.89pt>
 File: figs/capitulo5/productividadTemp_byCluster.pdf Graphic file (type pdf)
 
 <use figs/capitulo5/productividadTemp_byCluster.pdf>
 Package pdftex.def Info: figs/capitulo5/productividadTemp_byCluster.pdf used on
- input line 229.
+ input line 241.
 (pdftex.def)             Requested size: 210.32397pt x 210.32639pt.
 
-./Resultados.tex:234: Undefined control sequence.
-l.234 ...potential in the Iberian Peninsula \citep
+./Resultados.tex:246: Undefined control sequence.
+l.246 ...potential in the Iberian Peninsula \citep
                                                   {Jerez2013a}. The winter h...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -5719,244 +5782,161 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[48 <./figs/capitulo5/clusters2.pdf>]
+[45]
 
-./Resultados.tex:238: Package xcolor Error: Undefined color `grey'.
+./Resultados.tex:250: Package xcolor Error: Undefined color `grey'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.238 ...n is represented in figure \ref{ratiosCV}
+l.250 ...n is represented in figure \ref{ratiosCV}
                                                    for each month and cluste...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-<figs/capitulo5/dotplot_ratio_zone.pdf, id=585, 505.89pt x 505.89pt>
+<figs/capitulo5/dotplot_ratio_zone.pdf, id=580, 505.89pt x 505.89pt>
 File: figs/capitulo5/dotplot_ratio_zone.pdf Graphic file (type pdf)
 
 <use figs/capitulo5/dotplot_ratio_zone.pdf>
 Package pdftex.def Info: figs/capitulo5/dotplot_ratio_zone.pdf used on input li
-ne 241.
+ne 253.
 (pdftex.def)             Requested size: 210.32397pt x 210.32639pt.
 
 
-LaTeX Warning: Citation 'Perpinan2009' on page 49 undefined on input line 248.
+LaTeX Warning: Citation 'Perpinan2009' on page 46 undefined on input line 260.
 
-[49 <./figs/capitulo5/productividadTemp_byCluster.pdf>] [50 <./figs/capitulo5/d
+[46 <./figs/capitulo5/productividadTemp_byCluster.pdf>] [47 <./figs/capitulo5/d
 otplot_ratio_zone.pdf>]
 
-./Resultados.tex:258: Package xcolor Error: Undefined color `grey'.
+./Resultados.tex:270: Package xcolor Error: Undefined color `grey'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.258 ...epresented in figure\ref{horizonplot_rad}
+l.270 ...epresented in figure\ref{horizonplot_rad}
                                                   , showing the time-evoluti...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-<figs/capitulo5/horizonplot_series_rad2.pdf, id=609, 505.89pt x 505.89pt>
+<figs/capitulo5/horizonplot_series_rad2.pdf, id=603, 505.89pt x 505.89pt>
 File: figs/capitulo5/horizonplot_series_rad2.pdf Graphic file (type pdf)
 
 <use figs/capitulo5/horizonplot_series_rad2.pdf>
 Package pdftex.def Info: figs/capitulo5/horizonplot_series_rad2.pdf used on inp
-ut line 261.
+ut line 273.
 (pdftex.def)             Requested size: 303.53633pt x 303.53633pt.
 
 
-./Resultados.tex:266: Package xcolor Error: Undefined color `grey'.
+./Resultados.tex:278: Package xcolor Error: Undefined color `grey'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.266 ...n be seen in figure \ref{horizonplot_rad}
+l.278 ...n be seen in figure \ref{horizonplot_rad}
                                                   . The negative correlation...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Resultados.tex:272: Package xcolor Error: Undefined color `grey'.
+./Resultados.tex:284: Package xcolor Error: Undefined color `grey'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.272 ...ion,  figure \ref{horizonplot_months_rad}
+l.284 ...ion,  figure \ref{horizonplot_months_rad}
                                                    presents, for the same 15...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (8.31291pt too wide) in paragraph at lines 272--273
+Overfull \hbox (8.31291pt too wide) in paragraph at lines 284--285
 []\T1/futs/m/n/10 In or-der to high-light the months with max-i-mum anti-correl
 ation, fig-ure [][]5.7[][] presents,
  []
 
-[51] [52 <./figs/capitulo5/horizonplot_series_rad2.pdf>]
-<figs/capitulo5/horizonplot_months_rad2.pdf, id=627, 505.89pt x 505.89pt>
+[48] [49 <./figs/capitulo5/horizonplot_series_rad2.pdf>]
+<figs/capitulo5/horizonplot_months_rad2.pdf, id=622, 505.89pt x 505.89pt>
 File: figs/capitulo5/horizonplot_months_rad2.pdf Graphic file (type pdf)
 
 <use figs/capitulo5/horizonplot_months_rad2.pdf>
 Package pdftex.def Info: figs/capitulo5/horizonplot_months_rad2.pdf used on inp
-ut line 275.
+ut line 287.
 (pdftex.def)             Requested size: 303.53633pt x 303.53633pt.
 
 
-./Resultados.tex:276: Package xcolor Error: Undefined color `grey'.
+./Resultados.tex:288: Package xcolor Error: Undefined color `grey'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.276 ...mbers in the x-axis indicate the months.}
+l.288 ...mbers in the x-axis indicate the months.}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Resultados.tex:276: Package xcolor Error: Undefined color `grey'.
+./Resultados.tex:288: Package xcolor Error: Undefined color `grey'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.276 ...mbers in the x-axis indicate the months.}
+l.288 ...mbers in the x-axis indicate the months.}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Resultados.tex:276: Package xcolor Error: Undefined color `grey'.
+./Resultados.tex:288: Package xcolor Error: Undefined color `grey'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.276 ...mbers in the x-axis indicate the months.}
+l.288 ...mbers in the x-axis indicate the months.}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Resultados.tex:276: Package xcolor Error: Undefined color `grey'.
+./Resultados.tex:288: Package xcolor Error: Undefined color `grey'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.276 ...mbers in the x-axis indicate the months.}
+l.288 ...mbers in the x-axis indicate the months.}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[53] [54 <./figs/capitulo5/horizonplot_months_rad2.pdf>] [55
-
-] [56
+[50] [51 <./figs/capitulo5/horizonplot_months_rad2.pdf>] [52
 
 ]
 
-./Resultados.tex:298: LaTeX Error: Environment keyword undefined.
+./Resultados.tex:301: Package xcolor Error: Undefined color `grey'.
 
-See the LaTeX manual or LaTeX Companion for explanation.
+See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.298 \begin{keyword}
-                     
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 299.
-
-(/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
-File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-./Resultados.tex:299: Undefined control sequence.
-<argument> ...ovoltaic production variability\sep 
-                                                  Aerosols\sep Regional Clim...
-l.299 ...p Aerosols\sep Regional Climate Modeling}
+l.301 ...://doi.org/10.1016/j.solener.2018.09.085}
                                                   
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
-./Resultados.tex:299: Undefined control sequence.
-<argument> ...uction variability\sep Aerosols\sep 
-                                                  Regional Climate Modeling
-l.299 ...p Aerosols\sep Regional Climate Modeling}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-./Resultados.tex:300: LaTeX Error: \begin{document} ended by \end{keyword}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.300 \end{keyword}
-                   
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-Overfull \hbox (21.37643pt too wide) in paragraph at lines 299--301
-[]\T1/cmtt/m/n/10 Photovoltaic production variabilityAerosolsRegional Climate M
-odeling
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 299--301
-
- []
-
-
-./Resultados.tex:302: LaTeX Error: \begin{document} ended by \end{frontmatter}.
-
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.302 \end{frontmatter}
-                       
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-./Resultados.tex:302: Extra \endgroup.
-<recently read> \endgroup 
-                          
-l.302 \end{frontmatter}
-                       
-Things are pretty mixed up, but I think the worst is over.
-
-./Resultados.tex:304: Undefined control sequence.
-l.304 \linenumbers
-                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./Resultados.tex:313: Undefined control sequence.
-l.313 ...to its spatial and time resolution \citep
+[53]
+./Resultados.tex:332: Undefined control sequence.
+l.332 ...to its spatial and time resolution \citep
                                                   {Posselt2012, Ineichen2014...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -5964,9 +5944,14 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[57]
-./Resultados.tex:315: Undefined control sequence.
-l.315 ...evaluating future energy potential \citep
+
+Overfull \hbox (2.93633pt too wide) in paragraph at lines 332--333
+\T1/futs/m/n/10 selt2012, In-e-ichen2014. How-ever, satel-lite re-trievals were
+ not avail-able sev-eral decades
+ []
+
+./Resultados.tex:334: Undefined control sequence.
+l.334 ...evaluating future energy potential \citep
                                                   {Crook2011, Gaetani2014, G...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -5974,8 +5959,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Resultados.tex:315: Undefined control sequence.
-l.315 ...in some of regional climate models \citep
+./Resultados.tex:334: Undefined control sequence.
+l.334 ...in some of regional climate models \citep
                                                   {Bartok2017}, which could ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -5983,8 +5968,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Resultados.tex:315: Undefined control sequence.
-l.315 ...sting or future energy estimations \citep
+./Resultados.tex:334: Undefined control sequence.
+l.334 ...sting or future energy estimations \citep
                                                   {Rieger2017}. Such climate...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -5992,8 +5977,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Resultados.tex:315: Undefined control sequence.
-l.315 ...ply a detailed PV production model \citep
+./Resultados.tex:334: Undefined control sequence.
+l.334 ...ply a detailed PV production model \citep
                                                   {Bergin2017}.
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -6002,25 +5987,37 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (0.91302pt too wide) in paragraph at lines 315--316
+Overfull \hbox (0.91302pt too wide) in paragraph at lines 334--335
 []\T1/futs/m/n/10 Due to the in-creas-ing con-cern about the avail-abil-ity of 
 re-new-able en-ergy re-sources
  []
 
 
-Overfull \hbox (24.89296pt too wide) in paragraph at lines 315--316
+Overfull \hbox (24.89296pt too wide) in paragraph at lines 334--335
 \T1/futs/m/n/10 tool for eval-u-at-ing fu-ture en-ergy po-ten-tial Crook2011, G
 ae-tani2014, Gae-tani2015, Jerez2015,
  []
 
 
-Overfull \hbox (13.99246pt too wide) in paragraph at lines 315--316
+Overfull \hbox (13.99246pt too wide) in paragraph at lines 334--335
 \T1/futs/m/n/10 lead to sig-nif-i-cant er-rors in PV power fore-cast-ing or fu-
 ture en-ergy es-ti-ma-tions Rieger2017.
  []
 
-./Resultados.tex:317: Undefined control sequence.
-l.317 ...sols coming from different sources \citep
+
+Class memoir Warning: The material used in the headers is too large
+(24.0pt) for the given head height (12.0pt), it is recommended to
+either increase the head height or redesign the header
+(in both cases you will find help in the memoir manual). on input line 335.
+
+
+Overfull \vbox (12.0pt too high) has occurred while \output is active []
+
+ [54
+
+]
+./Resultados.tex:336: Undefined control sequence.
+l.336 ...sols coming from different sources \citep
                                                   {Lelieveld}. These aerosol...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -6028,8 +6025,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Resultados.tex:317: Undefined control sequence.
-l.317 ...mpact on the climate of the region \citep
+./Resultados.tex:336: Undefined control sequence.
+l.336 ...mpact on the climate of the region \citep
                                                   {Nabat2014, Nabat2014a}, t...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -6037,8 +6034,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Resultados.tex:317: Undefined control sequence.
-l.317 ...lar radiation reaching the surface \citep
+./Resultados.tex:336: Undefined control sequence.
+l.336 ...lar radiation reaching the surface \citep
                                                   {Mallet2016}. Regarding po...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -6046,8 +6043,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Resultados.tex:317: Undefined control sequence.
-l.317 ...trophogenic aerosols in the future \citep
+./Resultados.tex:336: Undefined control sequence.
+l.336 ...trophogenic aerosols in the future \citep
                                                   {Gaetani2014, Jimenez-Guer...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -6056,13 +6053,13 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (10.89258pt too wide) in paragraph at lines 317--318
+Overfull \hbox (10.89258pt too wide) in paragraph at lines 336--337
 \T1/futs/m/n/10 change sce-nar-ios and the ex-pected PV de-ploy-ment, the study
  of the Euro-Mediterranean
  []
 
-./Resultados.tex:319: Undefined control sequence.
-l.319 ...rk we use a regional climate model \citep
+./Resultados.tex:338: Undefined control sequence.
+l.338 ...rk we use a regional climate model \citep
                                                   {Nabat2014} with a realist...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -6070,8 +6067,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Resultados.tex:319: Undefined control sequence.
-l.319 ...combined with an accurate PV model \citep
+./Resultados.tex:338: Undefined control sequence.
+l.338 ...combined with an accurate PV model \citep
                                                   {Lamigueiro2012}. The infl...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -6079,8 +6076,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Resultados.tex:319: Undefined control sequence.
-l.319 ...logy to changes in solar radiation \citep
+./Resultados.tex:338: Undefined control sequence.
+l.338 ...logy to changes in solar radiation \citep
                                                   {Gutierrez2017}. On the ot...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -6088,8 +6085,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Resultados.tex:319: Undefined control sequence.
-l.319 ...imulations for the ``brightening'' \citep
+./Resultados.tex:338: Undefined control sequence.
+l.338 ...imulations for the ``brightening'' \citep
                                                   {Wild2005} period, 1980-20...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -6097,32 +6094,36 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-
-Class memoir Warning: The material used in the headers is too large
-(24.0pt) for the given head height (12.0pt), it is recommended to
-either increase the head height or redesign the header
-(in both cases you will find help in the memoir manual). on input line 320.
-
-
-Overfull \vbox (12.0pt too high) has occurred while \output is active []
-
- [58]
-Overfull \hbox (2.0164pt too wide) in paragraph at lines 321--322
+[55]
+Overfull \hbox (2.0164pt too wide) in paragraph at lines 340--341
 \T1/futs/m/n/10 model are de-scribed. In ad-di-tion, there is a de-scrip-tion o
 f the aerosols and the datasets
  []
 
-./Resultados.tex:325: Undefined control sequence.
-l.325 ... R open-source package named solaR \citep
-                                                  {Lamigueiro2012}.
+./Resultados.tex:344: Undefined control sequence.
+l.344 ... R open-source package named solaR \citep
+                                                  {Lamigueiro2012}. Chapter ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Resultados.tex:329: Undefined control sequence.
-l.329 ...del used in this study (CNRM-RCSM4,\citep
+
+./Resultados.tex:344: Package xcolor Error: Undefined color `grey'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.344 ...amigueiro2012}. Chapter \ref{cha:methods}
+                                                   explains in detail the me...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+./Resultados.tex:348: Undefined control sequence.
+l.348 ...del used in this study (CNRM-RCSM4,\citep
                                                   {Sevault2014}) is a couple...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -6130,8 +6131,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Resultados.tex:329: Undefined control sequence.
-l.329 ... multi-model Med-CORDEX initiative \citep
+./Resultados.tex:348: Undefined control sequence.
+l.348 ... multi-model Med-CORDEX initiative \citep
                                                   {Ruti2016}. It has the spe...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -6139,8 +6140,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Resultados.tex:329: Undefined control sequence.
-l.329 ...-called ALADIN-Climate version 5.2 \citep
+./Resultados.tex:348: Undefined control sequence.
+l.348 ...-called ALADIN-Climate version 5.2 \citep
                                                   {Colin2010} is one of the ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -6148,8 +6149,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Resultados.tex:329: Undefined control sequence.
-l.329 ...mporal variability of the aerosols \citep
+./Resultados.tex:348: Undefined control sequence.
+l.348 ...mporal variability of the aerosols \citep
                                                   {Nabat2014}. The model has...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -6158,34 +6159,34 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation 'Sevault2014' on page 59 undefined on input line 329.
+LaTeX Warning: Citation 'Sevault2014' on page 56 undefined on input line 348.
 
 
-LaTeX Warning: Citation 'Nabat2014' on page 59 undefined on input line 329.
+LaTeX Warning: Citation 'Nabat2014' on page 56 undefined on input line 348.
 
 
-LaTeX Warning: Citation 'Nabat2014a' on page 59 undefined on input line 329.
+LaTeX Warning: Citation 'Nabat2014a' on page 56 undefined on input line 348.
 
 
-LaTeX Warning: Citation 'Flaounas2016' on page 59 undefined on input line 329.
+LaTeX Warning: Citation 'Flaounas2016' on page 56 undefined on input line 348.
 
 
-LaTeX Warning: Citation 'Gaertner2016' on page 59 undefined on input line 329.
+LaTeX Warning: Citation 'Gaertner2016' on page 56 undefined on input line 348.
 
 
-LaTeX Warning: Citation 'DellAquila2016' on page 59 undefined on input line 329
+LaTeX Warning: Citation 'DellAquila2016' on page 56 undefined on input line 348
 .
 
 
-LaTeX Warning: Citation 'Harzallah2016' on page 59 undefined on input line 329.
+LaTeX Warning: Citation 'Harzallah2016' on page 56 undefined on input line 348.
 
 
 
-LaTeX Warning: Citation 'Cavicchia2016' on page 59 undefined on input line 329.
+LaTeX Warning: Citation 'Cavicchia2016' on page 56 undefined on input line 348.
 
 
-./Resultados.tex:331: Undefined control sequence.
-l.331 ...et used in the climate simulations \citep
+./Resultados.tex:350: Undefined control sequence.
+l.350 ...et used in the climate simulations \citep
                                                   {Nabat2013}, NAB13, is abl...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -6194,27 +6195,30 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation 'Tegen1997' on page 59 undefined on input line 331.
+LaTeX Warning: Citation 'Tegen1997' on page 56 undefined on input line 350.
 
 
-LaTeX Warning: Citation 'tanre1984first' on page 59 undefined on input line 331
+LaTeX Warning: Citation 'tanre1984first' on page 56 undefined on input line 350
 .
 
 
-Overfull \hbox (7.99307pt too wide) in paragraph at lines 331--332
+Overfull \hbox (7.99307pt too wide) in paragraph at lines 350--351
 []\T1/futs/m/n/10 The de-tailed in-ter-an-nual aerosol dataset used in the cli-
 mate sim-u-la-tions Nabat2013,
  []
 
 
-Overfull \hbox (18.80301pt too wide) in paragraph at lines 331--332
+Overfull \hbox (18.80301pt too wide) in paragraph at lines 350--351
 \T1/futs/m/n/10 against older cli-ma-tolo-gies com-monly ap-plied in re-gional 
 cli-mate stud-ies like [[]]
  []
 
-[59]
-./Resultados.tex:333: Undefined control sequence.
-l.333 ... evaluated against ground stations \citep
+
+Overfull \vbox (12.0pt too high) has occurred while \output is active []
+
+ [56]
+./Resultados.tex:352: Undefined control sequence.
+l.352 ... evaluated against ground stations \citep
                                                   {Nabat2013}.
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -6222,8 +6226,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Resultados.tex:335: Undefined control sequence.
-l.335 ...rtwave solar radiation in the area \citep
+./Resultados.tex:354: Undefined control sequence.
+l.354 ...rtwave solar radiation in the area \citep
                                                   {Wild2005}. For simulation...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -6231,8 +6235,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Resultados.tex:335: Undefined control sequence.
-l.335 ...nd observed over Europe since 1980 \citep
+./Resultados.tex:354: Undefined control sequence.
+l.354 ...nd observed over Europe since 1980 \citep
                                                   {Nabat2014a}.
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -6241,69 +6245,68 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (30.02298pt too wide) in paragraph at lines 335--336
+Overfull \hbox (30.02298pt too wide) in paragraph at lines 354--355
 []\T1/futs/m/n/10 During the eight-ies, some poli-cies against the emis-sions o
 f cer-tain types of antrophogenic
  []
 
 
-./Resultados.tex:339: Package xcolor Error: Undefined color `grey'.
+./Resultados.tex:358: Package xcolor Error: Undefined color `grey'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.339 ... of Europe (see figure \ref{fig:mapapral}
+l.358 ... of Europe (see figure \ref{fig:mapapral}
                                                   ).
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (18.24298pt too wide) in paragraph at lines 341--342
+Overfull \hbox (18.24298pt too wide) in paragraph at lines 360--361
 \T1/futs/m/n/10 the aerosols ef-fect, there-fore to quan-tify the im-pact of ae
 rosols on the Euro-Mediterranean
  []
 
 
-Overfull \hbox (7.52306pt too wide) in paragraph at lines 343--344
+Overfull \hbox (7.52306pt too wide) in paragraph at lines 362--363
 []\T1/futs/m/n/10 Secondly, a longer sim-u-la-tion be-tween 1980 and 2012, \T1/
 futs/b/n/10 TREND\T1/futs/m/n/10 , cov-er-ing the ``bright-
  []
 
 
-./Resultados.tex:345: Package xcolor Error: Undefined color `grey'.
+./Resultados.tex:364: Package xcolor Error: Undefined color `grey'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.345 ...lations is reported in table \ref{tabSIM}
+l.364 ...lations is reported in table \ref{tabSIM}
                                                   .
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-<figs/capitulo6/zonasPuntosLabel.pdf, id=672, 361.35pt x 216.81pt>
+<figs/capitulo6/zonasPuntosLabel.pdf, id=669, 361.35pt x 216.81pt>
 File: figs/capitulo6/zonasPuntosLabel.pdf Graphic file (type pdf)
 
 <use figs/capitulo6/zonasPuntosLabel.pdf>
 Package pdftex.def Info: figs/capitulo6/zonasPuntosLabel.pdf used on input line
- 367.
+ 386.
 (pdftex.def)             Requested size: 245.3744pt x 147.22372pt.
 
 
-LaTeX Warning: Citation 'Perpinan2009' on page 60 undefined on input line 377.
+LaTeX Warning: Citation 'Perpinan2009' on page 57 undefined on input line 396.
 
 
-LaTeX Warning: Citation 'Gutierrez2017' on page 60 undefined on input line 377.
+LaTeX Warning: Citation 'Gutierrez2017' on page 57 undefined on input line 396.
 
 
-
+[57]
 Overfull \vbox (12.0pt too high) has occurred while \output is active []
 
- [60]
-[61 <./figs/capitulo6/zonasPuntosLabel.pdf>]
-./Resultados.tex:381: Undefined control sequence.
-l.381 ... and the \textit{diffuse fraction} \citep
+ [58 <./figs/capitulo6/zonasPuntosLabel.pdf>]
+./Resultados.tex:400: Undefined control sequence.
+l.400 ... and the \textit{diffuse fraction} \citep
                                                   {Page1961} are used. The c...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -6311,8 +6314,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Resultados.tex:383: Undefined control sequence.
-l.383 ...depending on the area of the study \citep
+./Resultados.tex:402: Undefined control sequence.
+l.402 ...depending on the area of the study \citep
                                                   {deMiguel2001, Gopinathan1...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -6321,13 +6324,13 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation 'Aguiar1992' on page 62 undefined on input line 383.
+LaTeX Warning: Citation 'Aguiar1992' on page 59 undefined on input line 402.
 
 
-LaTeX Warning: Citation 'Perpinan2009' on page 62 undefined on input line 385.
+LaTeX Warning: Citation 'Perpinan2009' on page 59 undefined on input line 404.
 
-./Resultados.tex:392: Undefined control sequence.
-l.392 ...file using empirical relationships \citep
+./Resultados.tex:411: Undefined control sequence.
+l.411 ...file using empirical relationships \citep
                                                   {Collares-Pereira1979}. Ir...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -6336,87 +6339,48 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation 'hay1985estimating' on page 62 undefined on input line 
-392.
+LaTeX Warning: Citation 'hay1985estimating' on page 59 undefined on input line 
+411.
 
 
-Overfull \hbox (38.97299pt too wide) in paragraph at lines 392--393
+Overfull \hbox (38.97299pt too wide) in paragraph at lines 411--412
 \T1/futs/m/n/10 te-ria whereas the dif-fuse frac-tion is ob-tained with the mod
 el pro-posed by [[]].
  []
 
+[59]
 
-Overfull \vbox (12.0pt too high) has occurred while \output is active []
-
- [62]
-
-LaTeX Warning: Citation 'Martin2001' on page 63 undefined on input line 394.
+LaTeX Warning: Citation 'Martin2001' on page 60 undefined on input line 413.
 
 
-LaTeX Warning: Citation 'Martin2001' on page 63 undefined on input line 394.
+LaTeX Warning: Citation 'Martin2001' on page 60 undefined on input line 413.
 
 
-./Resultados.tex:396: Package xcolor Error: Undefined color `grey'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.396 ... model can be found in table \ref{table1}
-                                                  . Detailed information abo...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+LaTeX Warning: Reference `table1' on page 60 undefined on input line 415.
 
 
-LaTeX Warning: Citation 'Perpinan2009' on page 63 undefined on input line 396.
+LaTeX Warning: Citation 'Perpinan2009' on page 60 undefined on input line 415.
 
 
-Overfull \hbox (21.83644pt too wide) in paragraph at lines 396--397
-\T1/futs/m/n/10 be found in ta-ble [][]6.2[][]. De-tailed in-for-ma-tion about 
-this step can be found in [[]]. 
+Overfull \hbox (18.03645pt too wide) in paragraph at lines 415--416
+\T1/futs/m/n/10 be found in ta-ble []. De-tailed in-for-ma-tion about this step
+ can be found in [[]]. 
  []
 
 
-LaTeX Warning: Citation 'Crook2011' on page 63 undefined on input line 398.
+LaTeX Warning: Citation 'Crook2011' on page 60 undefined on input line 417.
 
-./Resultados.tex:400: Undefined control sequence.
-l.400 ...ut with the \texttt{solaR} package \citep
-                                                  {Lamigueiro2012}. This pac...
+./Resultados.tex:458: Undefined control sequence.
+l.458 The SARAH \citep
+                      {Muller2015} dataset for daily shortwave solar radiati...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-
-LaTeX Warning: Citation 'garcia2005caracterizacion' on page 63 undefined on inp
-ut line 409.
-
-
-LaTeX Warning: Citation 'jantsch1992results' on page 63 undefined on input line
- 412.
-
-./Resultados.tex:437: Undefined control sequence.
-l.437 ...ng Satellite Application Facility) \citep
-                                                  {Schulz2009} was created a...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./Resultados.tex:437: Undefined control sequence.
-l.437 ...y studies. In this work, the SARAH \citep
-                                                  {Muller2015} dataset for d...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./Resultados.tex:439: Undefined control sequence.
-l.439 ...set includes information from MACC \citep
+./Resultados.tex:460: Undefined control sequence.
+l.460 ...set includes information from MACC \citep
                                                   {Benedetti2009, Morcrette2...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -6425,39 +6389,26 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (5.92308pt too wide) in paragraph at lines 439--440
+Overfull \hbox (5.92308pt too wide) in paragraph at lines 460--461
 []\T1/futs/m/n/10 Concerning aerosols rep-re-sen-ta-tion, the satel-lite datase
 t in-cludes in-for-ma-tion from
  []
 
-[63]
-Overfull \vbox (12.0pt too high) has occurred while \output is active []
 
- [64]
-./Resultados.tex:443: Undefined control sequence.
-l.443 ...aseline surface radiation network) \citep
-                                                  {Ohmura1998} is a set of g...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-./Resultados.tex:445: Package xcolor Error: Undefined color `grey'.
+./Resultados.tex:466: Package xcolor Error: Undefined color `grey'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.445 ... represented in figure \ref{fig:mapapral}
+l.466 ... represented in figure \ref{fig:mapapral}
                                                    together with the PV plan...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-./Resultados.tex:449: Undefined control sequence.
-l.449 ... from the EU-FP6 project ENSEMBLES \citep
+./Resultados.tex:470: Undefined control sequence.
+l.470 ... from the EU-FP6 project ENSEMBLES \citep
                                                   {Haylock2008} is used in t...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -6466,62 +6417,66 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-./Resultados.tex:455: Package xcolor Error: Undefined color `grey'.
+Overfull \vbox (12.0pt too high) has occurred while \output is active []
+
+ [60]
+
+./Resultados.tex:476: Package xcolor Error: Undefined color `grey'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.455 ... represented in figure \ref{fig:mapapral}
+l.476 ... represented in figure \ref{fig:mapapral}
                                                   . The first one, located i...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Resultados.tex:455: Package xcolor Error: Undefined color `grey'.
+./Resultados.tex:476: Package xcolor Error: Undefined color `grey'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.455 ...power plants are in table \ref{tabPlants}
+l.476 ...power plants are in table \ref{tabPlants}
                                                   , including the electrical...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Resultados.tex:483: Package xcolor Error: Undefined color `grey'.
+./Resultados.tex:504: Package xcolor Error: Undefined color `grey'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.483 ... the details are in table \ref{localData}
+l.504 ... the details are in table \ref{localData}
                                                   . Monthly means of these d...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (3.21594pt too wide) in paragraph at lines 483--484
+Overfull \hbox (3.21594pt too wide) in paragraph at lines 504--505
 []\T1/futs/m/n/10 Data of PV pro-duc-tion are dif-fi-cult to ob-tain due to con
 -fi-den-tial-ity con-tracts. More-
  []
 
-[65]
+[61]
 
-LaTeX Warning: Citation 'Nabat2013' on page 66 undefined on input line 487.
-
-
-LaTeX Warning: Citation 'Nabat2014' on page 66 undefined on input line 487.
+LaTeX Warning: Citation 'Nabat2013' on page 62 undefined on input line 508.
 
 
-LaTeX Warning: Citation 'Nabat2014a' on page 66 undefined on input line 487.
+LaTeX Warning: Citation 'Nabat2014' on page 62 undefined on input line 508.
 
-./Resultados.tex:487: Undefined control sequence.
-l.487 ...k against the CM-SAF SARAH dataset \citep
+
+LaTeX Warning: Citation 'Nabat2014a' on page 62 undefined on input line 508.
+
+./Resultados.tex:508: Undefined control sequence.
+l.508 ...k against the CM-SAF SARAH dataset \citep
                                                   {Muller2015} for the perio...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -6529,8 +6484,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Resultados.tex:487: Undefined control sequence.
-l.487 ...od 2003-2009 and against some BSRN \citep
+./Resultados.tex:508: Undefined control sequence.
+l.508 ...od 2003-2009 and against some BSRN \citep
                                                   {Ohmura1998} stations at a...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -6539,265 +6494,106 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-./Resultados.tex:490: Package xcolor Error: Undefined color `grey'.
+./Resultados.tex:512: Package xcolor Error: Undefined color `grey'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.490 ... represented in figure \ref{fig:mapapral}
+l.512 ... represented in figure \ref{fig:mapapral}
                                                    with points. Also, two di...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Resultados.tex:490: Package xcolor Error: Undefined color `grey'.
+./Resultados.tex:512: Package xcolor Error: Undefined color `grey'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.490 ... represented in figure \ref{fig:mapapral}
+l.512 ... represented in figure \ref{fig:mapapral}
                                                    with a cross, are used to...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Resultados.tex:490: Package xcolor Error: Undefined color `grey'.
+./Resultados.tex:512: Package xcolor Error: Undefined color `grey'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.490 ...ion can be found in table \ref{localData}
+l.512 ...ion can be found in table \ref{localData}
                                                   .
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (62.8966pt too wide) in paragraph at lines 494--512
+Overfull \hbox (62.8966pt too wide) in paragraph at lines 516--534
  [][] 
  []
 
 
-./Resultados.tex:516: Package xcolor Error: Undefined color `grey'.
+./Resultados.tex:538: Package xcolor Error: Undefined color `grey'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.516 In figure \ref{fig:station}
+l.538 In figure \ref{fig:station}
                                   differences in monthly time series of SSR ...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-
-./Resultados.tex:519: LaTeX Error: Environment subfigure undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.519   \centering\begin{subfigure}
-                                   {0.4\textwidth}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-./Resultados.tex:519: Missing number, treated as zero.
-<to be read again> 
-                   }
-l.519   \centering\begin{subfigure}{0.4\textwidth}
-                                                  
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-./Resultados.tex:519: Illegal unit of measure (pt inserted).
-<to be read again> 
-                   }
-l.519   \centering\begin{subfigure}{0.4\textwidth}
-                                                  
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-<figs/capitulo6/CarpentrasMesesDif.pdf, id=727, 505.89pt x 361.35pt>
+<figs/capitulo6/CarpentrasMesesDif.pdf, id=718, 505.89pt x 361.35pt>
 File: figs/capitulo6/CarpentrasMesesDif.pdf Graphic file (type pdf)
 
 <use figs/capitulo6/CarpentrasMesesDif.pdf>
 Package pdftex.def Info: figs/capitulo6/CarpentrasMesesDif.pdf used on input li
-ne 520.
-(pdftex.def)             Requested size: 420.64261pt x 300.4663pt.
+ne 542.
+(pdftex.def)             Requested size: 175.2682pt x 125.18968pt.
 
-Overfull \hbox (70.1062pt too wide) in paragraph at lines 519--521
- [] 
- []
-
-
-./Resultados.tex:523: LaTeX Error: \begin{figure} on input line 518 ended by \e
-nd{subfigure}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.523   \end{subfigure}
-                       
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-./Resultados.tex:525: LaTeX Error: Environment subfigure undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.525   \centering\begin{subfigure}
-                                   {0.4\textwidth}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-./Resultados.tex:525: Missing number, treated as zero.
-<to be read again> 
-                   }
-l.525   \centering\begin{subfigure}{0.4\textwidth}
-                                                  
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-./Resultados.tex:525: Illegal unit of measure (pt inserted).
-<to be read again> 
-                   }
-l.525   \centering\begin{subfigure}{0.4\textwidth}
-                                                  
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-<figs/capitulo6/PayerneMesesDif.pdf, id=728, 505.89pt x 361.35pt>
+<figs/capitulo6/PayerneMesesDif.pdf, id=719, 505.89pt x 361.35pt>
 File: figs/capitulo6/PayerneMesesDif.pdf Graphic file (type pdf)
 
 <use figs/capitulo6/PayerneMesesDif.pdf>
 Package pdftex.def Info: figs/capitulo6/PayerneMesesDif.pdf used on input line 
-526.
-(pdftex.def)             Requested size: 420.64261pt x 300.4663pt.
+548.
+(pdftex.def)             Requested size: 175.2682pt x 125.18968pt.
 
-Overfull \hbox (70.1062pt too wide) in paragraph at lines 525--527
- [] 
- []
-
-
-./Resultados.tex:529: LaTeX Error: \begin{figure} on input line 518 ended by \e
-nd{subfigure}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.529   \end{subfigure}
-                       
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-./Resultados.tex:531: LaTeX Error: Environment subfigure undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.531     \centering\begin{subfigure}
-                                     {0.4\textwidth}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-./Resultados.tex:531: Missing number, treated as zero.
-<to be read again> 
-                   }
-l.531 ...centering\begin{subfigure}{0.4\textwidth}
-                                                  
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-./Resultados.tex:531: Illegal unit of measure (pt inserted).
-<to be read again> 
-                   }
-l.531 ...centering\begin{subfigure}{0.4\textwidth}
-                                                  
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-<figs/capitulo6/SedebokerMesesDif.pdf, id=729, 505.89pt x 361.35pt>
+<figs/capitulo6/SedebokerMesesDif.pdf, id=720, 505.89pt x 361.35pt>
 File: figs/capitulo6/SedebokerMesesDif.pdf Graphic file (type pdf)
 
 <use figs/capitulo6/SedebokerMesesDif.pdf>
 Package pdftex.def Info: figs/capitulo6/SedebokerMesesDif.pdf used on input lin
-e 532.
-(pdftex.def)             Requested size: 420.64261pt x 300.4663pt.
-
-Overfull \hbox (70.1062pt too wide) in paragraph at lines 531--533
- [] 
- []
+e 554.
+(pdftex.def)             Requested size: 175.2682pt x 125.18968pt.
 
 
-./Resultados.tex:535: LaTeX Error: \begin{figure} on input line 518 ended by \e
-nd{subfigure}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.535   \end{subfigure}
-                       
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-LaTeX Warning: Float too large for page by 594.96277pt on input line 538.
-
-
-./Resultados.tex:540: Package xcolor Error: Undefined color `grey'.
+./Resultados.tex:562: Package xcolor Error: Undefined color `grey'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.540 ...ect to the observed data \ref{Carpentras}
+l.562 ...ect to the observed data \ref{Carpentras}
                                                   . In the case of the Sede ...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Resultados.tex:540: Package xcolor Error: Undefined color `grey'.
+./Resultados.tex:562: Package xcolor Error: Undefined color `grey'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.540 ...he Sede Boker station \ref{fig:Sde Boker}
+l.562 ...he Sede Boker station \ref{fig:Sde Boker}
                                                   , there is a seasonal bias...
 
 Try typing  <return>  to proceed.
@@ -6806,218 +6602,112 @@ If that doesn't work, type  X <return>  to quit.
 
 Overfull \vbox (12.0pt too high) has occurred while \output is active []
 
- [66]
-[67 <./figs/capitulo6/CarpentrasMesesDif.pdf> <./figs/capitulo6/PayerneMesesDif
+ [62]
+[63 <./figs/capitulo6/CarpentrasMesesDif.pdf> <./figs/capitulo6/PayerneMesesDif
 .pdf> <./figs/capitulo6/SedebokerMesesDif.pdf>]
 
-./Resultados.tex:542: Package xcolor Error: Undefined color `grey'.
+./Resultados.tex:564: Package xcolor Error: Undefined color `grey'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.542 ...re reported in table \ref{RMSE_MAE_table}
+l.564 ...re reported in table \ref{RMSE_MAE_table}
                                                   .
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Resultados.tex:545: Package xcolor Error: Undefined color `grey'.
+./Resultados.tex:567: Package xcolor Error: Undefined color `grey'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.545 ...wing lower errors \ref{fig:figuraSEVILLA}
+l.567 ...wing lower errors \ref{fig:figuraSEVILLA}
                                                   . Besides, only AER has so...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-
-./Resultados.tex:552: LaTeX Error: Environment subfigure undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.552   \centering\begin{subfigure}
-                                   {0.45\textwidth}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-./Resultados.tex:552: Missing number, treated as zero.
-<to be read again> 
-                   }
-l.552 ...entering\begin{subfigure}{0.45\textwidth}
-                                                  
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-./Resultados.tex:552: Illegal unit of measure (pt inserted).
-<to be read again> 
-                   }
-l.552 ...entering\begin{subfigure}{0.45\textwidth}
-                                                  
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-<figs/capitulo6/violinplorSeville.pdf, id=767, 505.89pt x 505.89pt>
+<figs/capitulo6/violinplorSeville.pdf, id=753, 505.89pt x 505.89pt>
 File: figs/capitulo6/violinplorSeville.pdf Graphic file (type pdf)
 
 <use figs/capitulo6/violinplorSeville.pdf>
 Package pdftex.def Info: figs/capitulo6/violinplorSeville.pdf used on input lin
-e 553.
-(pdftex.def)             Requested size: 350.5364pt x 350.53883pt.
+e 575.
+(pdftex.def)             Requested size: 157.74031pt x 157.74286pt.
 
-
-./Resultados.tex:556: LaTeX Error: \begin{figure} on input line 551 ended by \e
-nd{subfigure}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.556   \end{subfigure}
-                       
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-./Resultados.tex:558: LaTeX Error: Environment subfigure undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.558   \centering\begin{subfigure}
-                                   {0.45\textwidth}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-./Resultados.tex:558: Missing number, treated as zero.
-<to be read again> 
-                   }
-l.558 ...entering\begin{subfigure}{0.45\textwidth}
-                                                  
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-./Resultados.tex:558: Illegal unit of measure (pt inserted).
-<to be read again> 
-                   }
-l.558 ...entering\begin{subfigure}{0.45\textwidth}
-                                                  
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-<figs/capitulo6/violinplotTarragona.pdf, id=768, 505.89pt x 505.89pt>
+<figs/capitulo6/violinplotTarragona.pdf, id=754, 505.89pt x 505.89pt>
 File: figs/capitulo6/violinplotTarragona.pdf Graphic file (type pdf)
 
 <use figs/capitulo6/violinplotTarragona.pdf>
 Package pdftex.def Info: figs/capitulo6/violinplotTarragona.pdf used on input l
-ine 559.
-(pdftex.def)             Requested size: 350.5364pt x 350.53883pt.
+ine 581.
+(pdftex.def)             Requested size: 157.74031pt x 157.74286pt.
 
-
-./Resultados.tex:562: LaTeX Error: \begin{figure} on input line 551 ended by \e
-nd{subfigure}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.562   \end{subfigure}
-                       
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-LaTeX Warning: Float too large for page by 463.48157pt on input line 565.
-
-
-Overfull \hbox (3.0908pt too wide) in paragraph at lines 570--570
+Overfull \hbox (3.0908pt too wide) in paragraph at lines 592--592
  []|\T1/futs/m/n/10 Simulation| 
  []
 
 
-Overfull \hbox (3.3708pt too wide) in paragraph at lines 592--592
+Overfull \hbox (3.3708pt too wide) in paragraph at lines 614--614
 []|\T1/futs/m/n/10 Carpentras|  
  []
 
 
-Overfull \hbox (34.44385pt too wide) in paragraph at lines 568--607
+Overfull \hbox (34.44385pt too wide) in paragraph at lines 590--629
  [][] 
  []
 
 
-Overfull \vbox (12.0pt too high) has occurred while \output is active []
-
- [68]
-[69 <./figs/capitulo6/violinplorSeville.pdf> <./figs/capitulo6/violinplotTarrag
-ona.pdf>]
-
-./Resultados.tex:615: Package xcolor Error: Undefined color `grey'.
+./Resultados.tex:637: Package xcolor Error: Undefined color `grey'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.615 ...iated in figure \ref{fig:violinTarragona}
+l.637 ...iated in figure \ref{fig:violinTarragona}
                                                    that there are two months...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \vbox (12.0pt too high) has occurred while \output is active []
-
- [70]
-
-./Resultados.tex:621: Package xcolor Error: Undefined color `grey'.
+./Resultados.tex:643: Package xcolor Error: Undefined color `grey'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.621 ...ions defined in figure \ref{fig:mapapral}
+l.643 ...ions defined in figure \ref{fig:mapapral}
                                                    are the same areas select...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-LaTeX Warning: Citation 'Nabat2014' on page 71 undefined on input line 621.
+LaTeX Warning: Citation 'Nabat2014' on page 64 undefined on input line 643.
 
 
-./Resultados.tex:621: Package xcolor Error: Undefined color `grey'.
+./Resultados.tex:643: Package xcolor Error: Undefined color `grey'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.621 ...s represented in figure \ref{fig:figura4}
+l.643 ...s represented in figure \ref{fig:figura4}
                                                   . The improvement of the s...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-./Resultados.tex:623: Undefined control sequence.
-l.623 ...on of the cloud cover in the model \citep
+
+Overfull \vbox (12.0pt too high) has occurred while \output is active []
+
+ [64]
+./Resultados.tex:645: Undefined control sequence.
+l.645 ...on of the cloud cover in the model \citep
                                                   {Nabat2014}. The east side...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -7025,187 +6715,64 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<figs/capitulo6/dif_model_sat_zonas.pdf, id=798, 505.89pt x 289.08pt>
+<figs/capitulo6/dif_model_sat_zonas.pdf, id=766, 505.89pt x 289.08pt>
 File: figs/capitulo6/dif_model_sat_zonas.pdf Graphic file (type pdf)
 
 <use figs/capitulo6/dif_model_sat_zonas.pdf>
 Package pdftex.def Info: figs/capitulo6/dif_model_sat_zonas.pdf used on input l
-ine 626.
+ine 648.
 (pdftex.def)             Requested size: 350.5364pt x 200.3079pt.
 
 
-./Resultados.tex:627: Package xcolor Error: Undefined color `grey'.
+./Resultados.tex:649: Package xcolor Error: Undefined color `grey'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.627 ...f{fig:mapapral} in the period 2003-2009.}
+l.649 ...f{fig:mapapral} in the period 2003-2009.}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Resultados.tex:627: Package xcolor Error: Undefined color `grey'.
+./Resultados.tex:649: Package xcolor Error: Undefined color `grey'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.627 ...f{fig:mapapral} in the period 2003-2009.}
+l.649 ...f{fig:mapapral} in the period 2003-2009.}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Resultados.tex:631: Package xcolor Error: Undefined color `grey'.
+./Resultados.tex:653: Package xcolor Error: Undefined color `grey'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.631 ...presented in figure \ref{fig:ciclosFixed}
+l.653 ...presented in figure \ref{fig:ciclosFixed}
                                                   . The productivity is defi...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-<figs/capitulo6/diferencia_mesesFIXED.pdf, id=802, 505.89pt x 361.35pt>
+[65 <./figs/capitulo6/violinplorSeville.pdf> <./figs/capitulo6/violinplotTarrag
+ona.pdf>]
+<figs/capitulo6/diferencia_mesesFIXED.pdf, id=784, 505.89pt x 361.35pt>
 File: figs/capitulo6/diferencia_mesesFIXED.pdf Graphic file (type pdf)
 
 <use figs/capitulo6/diferencia_mesesFIXED.pdf>
 Package pdftex.def Info: figs/capitulo6/diferencia_mesesFIXED.pdf used on input
- line 640.
+ line 662.
 (pdftex.def)             Requested size: 350.5364pt x 250.38489pt.
- [71]
-
-./Resultados.tex:650: Package xcolor Error: Undefined color `grey'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.650 ...resented in figure \ref{fig:diferenciaYm}
-                                                  . The spatial pattern show...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./Resultados.tex:657: LaTeX Error: Environment subfigure undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.657   \centering\begin{subfigure}
-                                   {1\textwidth}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-./Resultados.tex:657: Missing number, treated as zero.
-<to be read again> 
-                   }
-l.657   \centering\begin{subfigure}{1\textwidth}
-                                                
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-./Resultados.tex:657: Illegal unit of measure (pt inserted).
-<to be read again> 
-                   }
-l.657   \centering\begin{subfigure}{1\textwidth}
-                                                
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-
-<figs/capitulo6/dif_aer_no_all_Ym20032009SIGt.pdf, id=812, 505.89pt x 216.81pt>
-File: figs/capitulo6/dif_aer_no_all_Ym20032009SIGt.pdf Graphic file (type pdf)
-<use figs/capitulo6/dif_aer_no_all_Ym20032009SIGt.pdf>
-Package pdftex.def Info: figs/capitulo6/dif_aer_no_all_Ym20032009SIGt.pdf used 
-on input line 658.
-(pdftex.def)             Requested size: 350.5364pt x 150.23093pt.
-
-
-./Resultados.tex:661: LaTeX Error: \begin{figure} on input line 656 ended by \e
-nd{subfigure}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.661   \end{subfigure}
-                       
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-./Resultados.tex:663: LaTeX Error: Environment subfigure undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.663   \centering\begin{subfigure}
-                                   {1\textwidth}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-./Resultados.tex:663: Missing number, treated as zero.
-<to be read again> 
-                   }
-l.663   \centering\begin{subfigure}{1\textwidth}
-                                                
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-./Resultados.tex:663: Illegal unit of measure (pt inserted).
-<to be read again> 
-                   }
-l.663   \centering\begin{subfigure}{1\textwidth}
-                                                
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-<figs/capitulo6/byCountry.jpeg, id=813, 1005.00468pt x 359.09157pt>
-File: figs/capitulo6/byCountry.jpeg Graphic file (type jpg)
-
-<use figs/capitulo6/byCountry.jpeg>
-Package pdftex.def Info: figs/capitulo6/byCountry.jpeg used on input line 664.
-(pdftex.def)             Requested size: 350.5364pt x 125.24557pt.
-
-
-./Resultados.tex:667: LaTeX Error: \begin{figure} on input line 656 ended by \e
-nd{subfigure}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.667   \end{subfigure}
-                       
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
 
 Overfull \vbox (12.0pt too high) has occurred while \output is active []
 
- [72 <./figs/capitulo6/dif_model_sat_zonas.pdf>]
+ [66]
 
 ./Resultados.tex:672: Package xcolor Error: Undefined color `grey'.
 
@@ -7213,42 +6780,70 @@ See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.672 ... shown in figure \ref{fig:diferenciasRel}
+l.672 ...resented in figure \ref{fig:diferenciaYm}
+                                                  . The spatial pattern show...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[67 <./figs/capitulo6/dif_model_sat_zonas.pdf>]
+<figs/capitulo6/dif_aer_no_all_Ym20032009SIGt.pdf, id=806, 505.89pt x 216.81pt>
+File: figs/capitulo6/dif_aer_no_all_Ym20032009SIGt.pdf Graphic file (type pdf)
+<use figs/capitulo6/dif_aer_no_all_Ym20032009SIGt.pdf>
+Package pdftex.def Info: figs/capitulo6/dif_aer_no_all_Ym20032009SIGt.pdf used 
+on input line 680.
+(pdftex.def)             Requested size: 350.5364pt x 150.23093pt.
+
+<figs/capitulo6/byCountry.jpeg, id=807, 1005.00468pt x 359.09157pt>
+File: figs/capitulo6/byCountry.jpeg Graphic file (type jpg)
+
+<use figs/capitulo6/byCountry.jpeg>
+Package pdftex.def Info: figs/capitulo6/byCountry.jpeg used on input line 686.
+(pdftex.def)             Requested size: 350.5364pt x 125.24557pt.
+
+
+./Resultados.tex:694: Package xcolor Error: Undefined color `grey'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.694 ... shown in figure \ref{fig:diferenciasRel}
                                                   . It is shown that the aer...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-<figs/capitulo6/RelDif_aer_no_all20032009SIGt.pdf, id=828, 433.62pt x 433.62pt>
+<figs/capitulo6/RelDif_aer_no_all20032009SIGt.pdf, id=809, 433.62pt x 433.62pt>
 File: figs/capitulo6/RelDif_aer_no_all20032009SIGt.pdf Graphic file (type pdf)
 <use figs/capitulo6/RelDif_aer_no_all20032009SIGt.pdf>
 Package pdftex.def Info: figs/capitulo6/RelDif_aer_no_all20032009SIGt.pdf used 
-on input line 680.
+on input line 702.
 (pdftex.def)             Requested size: 350.5364pt x 350.55539pt.
- [73 <./figs/capitulo6/diferencia_mesesFIXED.pdf>]
+
 Overfull \vbox (12.0pt too high) has occurred while \output is active []
 
- [74 <./figs/capitulo6/dif_aer_no_all_Ym20032009SIGt.pdf> <./figs/capitulo6/byC
-ountry.jpeg>]
+ [68 <./figs/capitulo6/diferencia_mesesFIXED.pdf>] [69 <./figs/capitulo6/dif_ae
+r_no_all_Ym20032009SIGt.pdf> <./figs/capitulo6/byCountry.jpeg>]
 
-./Resultados.tex:691: Package xcolor Error: Undefined color `grey'.
+./Resultados.tex:713: Package xcolor Error: Undefined color `grey'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.691 ...ifferences (figure \ref{fig:diferenciaYm}
+l.713 ...ifferences (figure \ref{fig:diferenciaYm}
                                                   ), due to the high contrib...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-LaTeX Warning: Citation 'Gil2015' on page 75 undefined on input line 691.
+LaTeX Warning: Citation 'Gil2015' on page 70 undefined on input line 713.
 
-./Resultados.tex:696: Undefined control sequence.
-l.696 ...the observed positive trend in SSR \citep
+./Resultados.tex:718: Undefined control sequence.
+l.718 ...the observed positive trend in SSR \citep
                                                   {Nabat2014}.
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -7257,32 +6852,36 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-./Resultados.tex:700: Package xcolor Error: Undefined color `grey'.
+./Resultados.tex:722: Package xcolor Error: Undefined color `grey'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.700 ...95 can be seen in figure \ref{fig:trends}
+l.722 ...95 can be seen in figure \ref{fig:trends}
                                                   .
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-<figs/capitulo6/DifferencesRelativesinPVtciclo15.pdf, id=860, 505.89pt x 433.62
+<figs/capitulo6/DifferencesRelativesinPVtciclo15.pdf, id=837, 505.89pt x 433.62
 pt>
 File: figs/capitulo6/DifferencesRelativesinPVtciclo15.pdf Graphic file (type pd
 f)
  <use figs/capitulo6/DifferencesRelativesinPVtciclo15.pdf>
 Package pdftex.def Info: figs/capitulo6/DifferencesRelativesinPVtciclo15.pdf us
-ed on input line 703.
+ed on input line 725.
 (pdftex.def)             Requested size: 245.3744pt x 210.32529pt.
- [75]
+
 Overfull \vbox (12.0pt too high) has occurred while \output is active []
 
- [76 <./figs/capitulo6/RelDif_aer_no_all20032009SIGt.pdf>]
-./Resultados.tex:721: Undefined control sequence.
-l.721 ...al effects become less significant \citep
+ [70]
+[71 <./figs/capitulo6/RelDif_aer_no_all20032009SIGt.pdf>]
+Overfull \vbox (12.0pt too high) has occurred while \output is active []
+
+ [72 <./figs/capitulo6/DifferencesRelativesinPVtciclo15.pdf>]
+./Resultados.tex:743: Undefined control sequence.
+l.743 ...al effects become less significant \citep
                                                   {Martin1999}.
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -7290,9 +6889,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[77]
-./Resultados.tex:730: Undefined control sequence.
-l.730 ...f future PV production over Europe \citep
+./Resultados.tex:752: Undefined control sequence.
+l.752 ...f future PV production over Europe \citep
                                                   {Jerez2015}. An accurate e...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -7300,116 +6898,34 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-
+[73]
 Overfull \vbox (12.0pt too high) has occurred while \output is active []
 
- [78 <./figs/capitulo6/DifferencesRelativesinPVtciclo15.pdf>] [79] [80
-
-] [81] [82
+ [74]
+[75
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 752--753
+Underfull \hbox (badness 10000) in paragraph at lines 774--775
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 754--755
+Underfull \hbox (badness 10000) in paragraph at lines 776--777
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 756--757
+Underfull \hbox (badness 10000) in paragraph at lines 778--779
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 758--759
+Underfull \hbox (badness 10000) in paragraph at lines 780--781
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 762--763
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 767--768
-
- []
-
-
-Overfull \hbox (8.243pt too wide) in paragraph at lines 769--770
-\T1/futs/m/n/10 is an in-creas-ing con-cern mo-ti-vated by the avail-abil-ity o
-f re-sources un-der cli-mate change
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 769--770
-
- []
-
-[83]
-Underfull \hbox (badness 10000) in paragraph at lines 771--772
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 773--774
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 775--776
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 777--778
-
- []
-
-
-LaTeX Warning: Reference `Climate data' on page 84 undefined on input line 779.
-
-
-
-LaTeX Warning: Reference `Aerosols' on page 84 undefined on input line 779.
-
-
-LaTeX Warning: Reference `Results' on page 84 undefined on input line 779.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 779--780
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 785--786
-
- []
-
-[84]
-
-./Resultados.tex:787: Package xcolor Error: Undefined color `grey'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.787 In table \ref{tb:aero}
-                             there is the information about the aerosols dat...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Overfull \hbox (6.62639pt too wide) in paragraph at lines 787--788
-\T1/futs/m/n/10 RCMs have a dif-fer-ent dataset of aerosols. Whereas AL-ADIN5.3
- se-lect the Szopa dataset,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 787--788
+Underfull \hbox (badness 10000) in paragraph at lines 784--785
 
  []
 
@@ -7419,21 +6935,104 @@ Underfull \hbox (badness 10000) in paragraph at lines 789--790
  []
 
 
-./Resultados.tex:791: Package xcolor Error: Undefined color `grey'.
+Overfull \hbox (8.243pt too wide) in paragraph at lines 791--792
+\T1/futs/m/n/10 is an in-creas-ing con-cern mo-ti-vated by the avail-abil-ity o
+f re-sources un-der cli-mate change
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 791--792
+
+ []
+
+[76
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 793--794
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 795--796
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 797--798
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 799--800
+
+ []
+
+
+LaTeX Warning: Reference `Climate data' on page 77 undefined on input line 801.
+
+
+
+LaTeX Warning: Reference `Aerosols' on page 77 undefined on input line 801.
+
+
+LaTeX Warning: Reference `Results' on page 77 undefined on input line 801.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 801--802
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 807--808
+
+ []
+
+[77]
+
+./Resultados.tex:809: Package xcolor Error: Undefined color `grey'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.791 ...as can be seen in table \ref{tb:families}
+l.809 In table \ref{tb:aero}
+                             there is the information about the aerosols dat...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (6.62639pt too wide) in paragraph at lines 809--810
+\T1/futs/m/n/10 RCMs have a dif-fer-ent dataset of aerosols. Whereas AL-ADIN5.3
+ se-lect the Szopa dataset,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 809--810
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 811--812
+
+ []
+
+
+./Resultados.tex:813: Package xcolor Error: Undefined color `grey'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.813 ...as can be seen in table \ref{tb:families}
                                                   .
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-./Resultados.tex:799: Undefined control sequence.
+./Resultados.tex:821: Undefined control sequence.
 <template> ...enter \@startpbox {3cm}\raggedrigth 
                                                   \ignorespaces 
-l.799 C
+l.821 C
        MIP5 GCM & Institution  & RCM  \tabularnewline
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -7441,10 +7040,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Resultados.tex:801: Undefined control sequence.
+./Resultados.tex:823: Undefined control sequence.
 <template> ...enter \@startpbox {3cm}\raggedrigth 
                                                   \ignorespaces 
-l.801  C
+l.823  C
         NRM-CM5 & CNRM & ALADIN5.3 \tabularnewline
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -7452,10 +7051,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Resultados.tex:802: Undefined control sequence.
+./Resultados.tex:824: Undefined control sequence.
 <template> ...enter \@startpbox {3cm}\raggedrigth 
                                                   \ignorespaces 
-l.802 &
+l.824 &
        CLMcom&CCLM4-8-17\tabularnewline
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -7463,10 +7062,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Resultados.tex:803: Undefined control sequence.
+./Resultados.tex:825: Undefined control sequence.
 <template> ...enter \@startpbox {3cm}\raggedrigth 
                                                   \ignorespaces 
-l.803 &
+l.825 &
        SMHI&RCA4\tabularnewline
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -7474,10 +7073,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Resultados.tex:805: Undefined control sequence.
+./Resultados.tex:827: Undefined control sequence.
 <template> ...enter \@startpbox {3cm}\raggedrigth 
                                                   \ignorespaces 
-l.805 I
+l.827 I
        CHEC-EC-EARTH&KNMI&RACMO\tabularnewline
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -7485,10 +7084,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Resultados.tex:806: Undefined control sequence.
+./Resultados.tex:828: Undefined control sequence.
 <template> ...enter \@startpbox {3cm}\raggedrigth 
                                                   \ignorespaces 
-l.806 &
+l.828 &
        CLMcom&CCLM4-8-17\tabularnewline
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -7496,10 +7095,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Resultados.tex:807: Undefined control sequence.
+./Resultados.tex:829: Undefined control sequence.
 <template> ...enter \@startpbox {3cm}\raggedrigth 
                                                   \ignorespaces 
-l.807 &
+l.829 &
        SMHI&RCA4\tabularnewline
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -7507,23 +7106,22 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Resultados.tex:821: Too many }'s.
-l.821 ...modelos que tienen evolución temporal?}}
+./Resultados.tex:843: Too many }'s.
+l.843 ...modelos que tienen evolución temporal?}}
                                                   
 You've closed more groups than you opened.
 Such booboos are generally harmless, so keep going.
 
 
-Overfull \hbox (4.61638pt too wide) in paragraph at lines 821--822
+Overfull \hbox (4.61638pt too wide) in paragraph at lines 843--844
 \T1/futs/m/n/10 Different datasets are used for the RCMs sim-u-la-tions. Only A
 L-ADIN5.3 and RACMO22E
  []
 
-[85]
-./Resultados.tex:829: Undefined control sequence.
+./Resultados.tex:851: Undefined control sequence.
 <template> ...ter \@startpbox {1.3cm}\raggedrigth 
                                                   \ignorespaces 
-l.829 I
+l.851 I
        nstitution  & RCM & description & classes & scenarios \tabularnewline
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -7531,10 +7129,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Resultados.tex:831: Undefined control sequence.
+./Resultados.tex:853: Undefined control sequence.
 <template> ...ter \@startpbox {1.3cm}\raggedrigth 
                                                   \ignorespaces 
-l.831 C
+l.853 C
        NRM & ALADIN5.3 & Climatology. Szopa 2013 & 5 classes: sea salt, sulf...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -7542,10 +7140,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Resultados.tex:832: Undefined control sequence.
+./Resultados.tex:854: Undefined control sequence.
 <template> ...ter \@startpbox {1.3cm}\raggedrigth 
                                                   \ignorespaces 
-l.832 C
+l.854 C
        LMcom&CCLM4-8-17& Climatology. Tanré 1984 & 4 classes: sea, land, de...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -7553,10 +7151,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Resultados.tex:833: Undefined control sequence.
+./Resultados.tex:855: Undefined control sequence.
 <template> ...ter \@startpbox {1.3cm}\raggedrigth 
                                                   \ignorespaces 
-l.833 S
+l.855 S
        MHI&RCA4& Parametrization in radiation fluxes & Single integrated cla...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -7564,10 +7162,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Resultados.tex:834: Undefined control sequence.
+./Resultados.tex:856: Undefined control sequence.
 <template> ...ter \@startpbox {1.3cm}\raggedrigth 
                                                   \ignorespaces 
-l.834 K
+l.856 K
        NMI&RACMO&CAM inventory, Lamarque 2010 & 6 classes: sulfate, organic ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -7575,154 +7173,155 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 846--847
+[78]
+Underfull \hbox (badness 10000) in paragraph at lines 868--869
 
  []
 
 
-Overfull \hbox (5.57307pt too wide) in paragraph at lines 848--849
+Overfull \hbox (5.57307pt too wide) in paragraph at lines 870--871
 []\T1/futs/m/n/10 The 2021-2050 pe-riod has been se-lected be-cause of two rea-
 sons: in the mid-century
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 848--849
+Underfull \hbox (badness 10000) in paragraph at lines 870--871
 
  []
 
 
-Overfull \hbox (2.25308pt too wide) in paragraph at lines 850--851
+Overfull \hbox (2.25308pt too wide) in paragraph at lines 872--873
 \T1/futs/m/n/10 tween both anoma-lies and how this cor-re-la-tion be-haves for 
 mod-els in-clud-ing aerosols. 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 850--851
+Underfull \hbox (badness 10000) in paragraph at lines 872--873
 
  []
 
-[86]
-Underfull \hbox (badness 10000) in paragraph at lines 858--859
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 860--861
+[79]
+Underfull \hbox (badness 10000) in paragraph at lines 880--881
 
  []
 
 
-./Resultados.tex:862: Package xcolor Error: Undefined color `grey'.
+Underfull \hbox (badness 10000) in paragraph at lines 882--883
+
+ []
+
+
+./Resultados.tex:884: Package xcolor Error: Undefined color `grey'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.862 ...process is described in \ref{cha:methods}
+l.884 ...process is described in \ref{cha:methods}
                                                   . In this case, monthly me...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 862--863
+Underfull \hbox (badness 10000) in paragraph at lines 884--885
 
  []
 
 
-./Resultados.tex:868: Package xcolor Error: Undefined color `grey'.
+./Resultados.tex:890: Package xcolor Error: Undefined color `grey'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.868 ...presented in figures \ref{fig:anomalySSR}
+l.890 ...presented in figures \ref{fig:anomalySSR}
                                                    and \ref{fig:anomalyCLT} ...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Resultados.tex:868: Package xcolor Error: Undefined color `grey'.
+./Resultados.tex:890: Package xcolor Error: Undefined color `grey'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.868 ...{fig:anomalySSR} and \ref{fig:anomalyCLT}
+l.890 ...{fig:anomalySSR} and \ref{fig:anomalyCLT}
                                                    first for shortwave solar...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 868--869
+Underfull \hbox (badness 10000) in paragraph at lines 890--891
 
  []
 
 
-<figs/capitulo7/ANOMALIAS_JJA_SSR_2050-2021_r12.pdf, id=944, 505.89pt x 361.35p
+<figs/capitulo7/ANOMALIAS_JJA_SSR_2050-2021_r12.pdf, id=912, 505.89pt x 361.35p
 t>
 File: figs/capitulo7/ANOMALIAS_JJA_SSR_2050-2021_r12.pdf Graphic file (type pdf
 )
  <use figs/capitulo7/ANOMALIAS_JJA_SSR_2050-2021_r12.pdf>
 Package pdftex.def Info: figs/capitulo7/ANOMALIAS_JJA_SSR_2050-2021_r12.pdf use
-d on input line 871.
+d on input line 893.
 (pdftex.def)             Requested size: 350.5364pt x 250.38489pt.
 
 
-./Resultados.tex:876: Package xcolor Error: Undefined color `grey'.
+./Resultados.tex:898: Package xcolor Error: Undefined color `grey'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.876 ...an be seen in figure \ref{fig:anomalyAOD}
+l.898 ...an be seen in figure \ref{fig:anomalyAOD}
                                                   . For RACMO, the aod anoma...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 876--877
-
- []
-
-[87]
-Underfull \hbox (badness 10000) in paragraph at lines 878--879
+Underfull \hbox (badness 10000) in paragraph at lines 898--899
 
  []
 
 
-LaTeX Warning: Reference `' on page 88 undefined on input line 880.
+Underfull \hbox (badness 10000) in paragraph at lines 900--901
+
+ []
+
+[80]
+
+LaTeX Warning: Reference `' on page 81 undefined on input line 902.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 880--881
+Underfull \hbox (badness 10000) in paragraph at lines 902--903
 
  []
 
 
-<figs/capitulo7/ANOMALIAS_JJA_CLT_2050-2021_r12.pdf, id=955, 505.89pt x 361.35p
+<figs/capitulo7/ANOMALIAS_JJA_CLT_2050-2021_r12.pdf, id=924, 505.89pt x 361.35p
 t>
 File: figs/capitulo7/ANOMALIAS_JJA_CLT_2050-2021_r12.pdf Graphic file (type pdf
 )
  <use figs/capitulo7/ANOMALIAS_JJA_CLT_2050-2021_r12.pdf>
 Package pdftex.def Info: figs/capitulo7/ANOMALIAS_JJA_CLT_2050-2021_r12.pdf use
-d on input line 885.
+d on input line 907.
 (pdftex.def)             Requested size: 350.5364pt x 250.38489pt.
- [88 <./figs/capitulo7/ANOMALIAS_JJA_SSR_2050-2021_r12.pdf>]
-<figs/capitulo7/ANOMALIAS_JJA_AOD_2050-2021_r12.pdf, id=966, 505.89pt x 216.81p
+
+<figs/capitulo7/ANOMALIAS_JJA_AOD_2050-2021_r12.pdf, id=925, 505.89pt x 216.81p
 t>
 File: figs/capitulo7/ANOMALIAS_JJA_AOD_2050-2021_r12.pdf Graphic file (type pdf
 )
  <use figs/capitulo7/ANOMALIAS_JJA_AOD_2050-2021_r12.pdf>
 Package pdftex.def Info: figs/capitulo7/ANOMALIAS_JJA_AOD_2050-2021_r12.pdf use
-d on input line 891.
+d on input line 913.
 (pdftex.def)             Requested size: 350.5364pt x 150.23093pt.
 
-./Resultados.tex:900: Undefined control sequence.
-l.900 \br
+./Resultados.tex:922: Undefined control sequence.
+l.922 \br
          
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -7731,45 +7330,61 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (10.27695pt too wide) in alignment at lines 899--918
+Overfull \hbox (10.27695pt too wide) in alignment at lines 921--940
 [][][][][][][][] 
  []
 
 
-./Resultados.tex:918: LaTeX Error: \begin{tabular*} on input line 899 ended by 
+./Resultados.tex:940: LaTeX Error: \begin{tabular*} on input line 921 ended by 
 \end{tabular}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.918 \end{tabular}
+l.940 \end{tabular}
                    \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-LaTeX Warning: Reference `fig:pvcountry' on page 89 undefined on input line 925
+./Resultados.tex:947: Package xcolor Error: Undefined color `grey'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.947 ...represented in figure \ref{fig:pvcountry}
+                                                  .
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Package caption Warning: \label without proper reference on input line 948.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:pvcountry' on page 81 undefined on input line 947
 .
 
-<figs/capitulo7/bycountrytodos.pdf, id=967, 361.35pt x 216.81pt>
+<figs/capitulo7/bycountrytodos.pdf, id=927, 361.35pt x 216.81pt>
 File: figs/capitulo7/bycountrytodos.pdf Graphic file (type pdf)
 
 <use figs/capitulo7/bycountrytodos.pdf>
 Package pdftex.def Info: figs/capitulo7/bycountrytodos.pdf used on input line 9
-30.
+52.
 (pdftex.def)             Requested size: 350.5364pt x 210.32198pt.
- [89] [90 <./figs/capitulo7/ANOMALIAS_JJA_CLT_2050-2021_r12.pdf> <./figs/capitu
-lo7/ANOMALIAS_JJA_AOD_2050-2021_r12.pdf>] [91 <./figs/capitulo7/bycountrytodos.
-pdf>]) [92]
+ [81 <./figs/capitulo7/ANOMALIAS_JJA_SSR_2050-2021_r12.pdf>] [82 <./figs/capitu
+lo7/ANOMALIAS_JJA_CLT_2050-2021_r12.pdf> <./figs/capitulo7/ANOMALIAS_JJA_AOD_20
+50-2021_r12.pdf>] [83 <./figs/capitulo7/bycountrytodos.pdf>]) [84]
 
 Class memoir Warning: The material used in the headers is too large
 (24.0pt) for the given head height (12.0pt), it is recommended to
 either increase the head height or redesign the header
 (in both cases you will find help in the memoir manual). on input line 70.
 
-[93
+[85
 
 
 
@@ -7783,15 +7398,9 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 70.
 (./Resultados.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 70.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 70.
+Package rerunfilecheck Info: File `tesis.out' has not changed.
+(rerunfilecheck)             Checksum: CE9E8D695A12D3146DBD615E2E4EDCAC;8837.
 
-
-Package rerunfilecheck Warning: File `tesis.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `tesis.out':
-(rerunfilecheck)             Before: 43139DDC1533776CDAA98FEF05F1F10E;8679
-(rerunfilecheck)             After:  AA99E335B99E56A6AF6931633FB19C31;8836.
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 3.35835pt have occurred.
@@ -7813,29 +7422,28 @@ Package logreq Info: Writing requests to 'tesis.run.xml'.
  )
 (\end occurred when \iftrue on line 7 was incomplete) 
 Here is how much of TeX's memory you used:
- 31618 strings out of 493029
- 553591 string characters out of 6136234
- 700600 words of memory out of 5000000
- 34482 multiletter control sequences out of 15000+600000
- 234426 words of font info for 262 fonts, out of 8000000 for 9000
+ 32040 strings out of 493029
+ 561254 string characters out of 6136234
+ 703029 words of memory out of 5000000
+ 34918 multiletter control sequences out of 15000+600000
+ 230070 words of font info for 261 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 49i,21n,61p,10422b,1287s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/en
-c/dvips/cm-super/cm-super-t1.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips
-/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/fourier/fourier-
-mex.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/fourier/fourier-ml.pf
-b></usr/share/texlive/texmf-dist/fonts/type1/public/fourier/fourier-mlit.pfb></
-usr/share/texlive/texmf-dist/fonts/type1/public/fourier/fourier-ms.pfb></usr/sh
-are/texlive/texmf-dist/fonts/type1/adobe/utopia/putb8a.pfb></usr/share/texlive/
-texmf-dist/fonts/type1/adobe/utopia/putbi8a.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/adobe/utopia/putr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-adobe/utopia/putri8a.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1000
-.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/s
-hare/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on tesis.pdf (99 pages, 45136109 bytes).
+ 56i,23n,65p,10422b,1362s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-
+dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/pub
+lic/fourier/fourier-mex.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/f
+ourier/fourier-ml.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/fourier
+/fourier-mlit.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/fourier/fou
+rier-ms.pfb></usr/share/texlive/texmf-dist/fonts/type1/adobe/utopia/putb8a.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/adobe/utopia/putbi8a.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/adobe/utopia/putri8a.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw
+/palatino/uplri8a.pfb>
+Output written on tesis.pdf (91 pages, 45096859 bytes).
 PDF statistics:
- 1103 PDF objects out of 1200 (max. 8388607)
- 927 compressed objects within 10 object streams
- 244 named destinations out of 1000 (max. 500000)
- 488 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1062 PDF objects out of 1200 (max. 8388607)
+ 896 compressed objects within 9 object streams
+ 229 named destinations out of 1000 (max. 500000)
+ 496 words of extra memory for PDF output out of 10000 (max. 10000000)
 
