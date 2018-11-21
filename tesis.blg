@@ -20,95 +20,78 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated field_info (elt_size=4) to 16259 items from 5000.
 Database file #1: tesis-blx.bib
 Database file #2: Data.bib
-Repeated entry---line 100 of file Data.bib
+Repeated entry---line 115 of file Data.bib
  : @article{Bergin2017
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 455 of file Data.bib
- : @article{Jerez2015
- :                   ,
-I'm skipping whatever remains of this entry
 Reallocated str_pool (elt_size=1) to 130000 items from 65000.
-Repeated entry---line 664 of file Data.bib
+Repeated entry---line 778 of file Data.bib
  : @article{Nabat2014
  :                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 763 of file Data.bib
+Repeated entry---line 877 of file Data.bib
  : @article{Lamigueiro2012
  :                        ,
 I'm skipping whatever remains of this entry
 Warning--I'm ignoring Sanchez-Lorenzo2013's extra "keywords" field
---line 880 of file Data.bib
+--line 1018 of file Data.bib
 Warning--I'm ignoring Sanchez-Lorenzo2013's extra "keywords" field
---line 881 of file Data.bib
+--line 1019 of file Data.bib
 Warning--I'm ignoring Sanchez-Lorenzo2013's extra "keywords" field
---line 882 of file Data.bib
+--line 1020 of file Data.bib
 Warning--I'm ignoring Sanchez-Lorenzo2013's extra "keywords" field
---line 883 of file Data.bib
+--line 1021 of file Data.bib
 Warning--I didn't find a database entry for "garcia2005caracterizacion"
 Warning--I didn't find a database entry for "jantsch1992results"
 Warning--I didn't find a database entry for "5694060"
 Warning--I didn't find a database entry for "davies1979cluster"
-Warning--I didn't find a database entry for "Jerez2015climix"
-Warning--I didn't find a database entry for "Bartok2017"
-Warning--I didn't find a database entry for "Mallet2016"
-Warning--I didn't find a database entry for "Sevault2014"
-Warning--I didn't find a database entry for "Ruti2016"
-Warning--I didn't find a database entry for "Flaounas2016"
-Warning--I didn't find a database entry for "Gaertner2016"
-Warning--I didn't find a database entry for "DellAquila2016"
-Warning--I didn't find a database entry for "Harzallah2016"
-Warning--I didn't find a database entry for "Cavicchia2016"
-Warning--I didn't find a database entry for "Tegen1997"
-Warning--I didn't find a database entry for "tanre1984first"
-Warning--I didn't find a database entry for "Page1961"
+Warning--I didn't find a database entry for "Gil2015"
 Warning--I didn't find a database entry for "deMiguel2001"
 Warning--I didn't find a database entry for "Gopinathan1995"
-Warning--I didn't find a database entry for "Muller2015"
-Warning--I didn't find a database entry for "Gil2015"
 Warning--I didn't find a database entry for "Martin1999"
 Biblatex version: 3.3
+Reallocated str_pool (elt_size=1) to 195000 items from 130000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
-You've used 59 entries,
+You've used 73 entries,
             6047 wiz_defined-function locations,
-            1758 strings with 102510 characters,
-and the built_in function-call counts, 227128 in all, are:
-= -- 7519
-> -- 7670
-< -- 2011
-+ -- 2570
-- -- 3484
-* -- 22906
-:= -- 13880
+            1850 strings with 131191 characters,
+and the built_in function-call counts, 310414 in all, are:
+= -- 10180
+> -- 10721
+< -- 2532
++ -- 3966
+- -- 5076
+* -- 33471
+:= -- 19465
 add.period$ -- 0
-call.type$ -- 59
-change.case$ -- 939
-chr.to.int$ -- 50
-cite$ -- 116
-duplicate$ -- 26699
-empty$ -- 23665
-format.name$ -- 6165
-if$ -- 49239
+call.type$ -- 73
+change.case$ -- 1183
+chr.to.int$ -- 57
+cite$ -- 144
+duplicate$ -- 37072
+empty$ -- 31361
+format.name$ -- 9550
+if$ -- 65729
 int.to.chr$ -- 0
-int.to.str$ -- 133
+int.to.str$ -- 168
 missing$ -- 0
-newline$ -- 2963
-num.names$ -- 2814
-pop$ -- 19197
+newline$ -- 4445
+num.names$ -- 3526
+pop$ -- 24550
 preamble$ -- 1
-purify$ -- 1147
+purify$ -- 1598
 quote$ -- 0
-skip$ -- 11594
+skip$ -- 15381
 stack$ -- 0
-substring$ -- 3644
-swap$ -- 10179
-text.length$ -- 1989
-text.prefix$ -- 101
+substring$ -- 4624
+swap$ -- 13997
+text.length$ -- 2685
+text.prefix$ -- 181
 top$ -- 1
-type$ -- 2230
+type$ -- 2762
 warning$ -- 0
-while$ -- 1260
+while$ -- 1544
 width$ -- 0
-write$ -- 2903
-(There were 4 error messages)
+write$ -- 4371
+(There were 3 error messages)

@@ -256,6 +256,94 @@
   \field{year}{2015}
 \endentry
 
+\entry{Bartok2017}{article}{}
+  \name{author}{9}{}{%
+    {{}%
+     {Bart{\'{o}}k}{B.}%
+     {Blanka}{B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Wild}{W.}%
+     {Martin}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Folini}{F.}%
+     {Doris}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {L{\"{u}}thi}{L.}%
+     {Daniel}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kotlarski}{K.}%
+     {Sven}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sch{\"{a}}r}{S.}%
+     {Christoph}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Vautard}{V.}%
+     {Robert}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Jerez}{J.}%
+     {Sonia}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Imecs}{I.}%
+     {Zolt{\'{a}}n}{Z.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{Atmospheric absorption,CMIP5 global climate
+  model,Cloudiness,EURO-CORDEX regional climate model,Surface solar radiation}
+  \strng{namehash}{BB+1}
+  \strng{fullhash}{BBWMFDLDKSSCVRJSIZ1}
+  \field{labelalpha}{Bar+17}
+  \field{sortinit}{B}
+  \field{abstract}{%
+  The objective of the present work is to compare the projections of surface
+  solar radiation (SSR) simulated by four regional climate models (CCLM, RCA4,
+  WRF, ALADIN) with the respective fields of their ten driving CMIP5 global
+  climate models. First the annual and seasonal SSR changes are examined in the
+  regional and in the global climate models based on the RCP8.5 emission
+  scenarios. The results show significant discrepancies between the projected
+  SSR, the multi-model mean of RCMs indicates a decrease in SSR of
+  −0.60 W/m2 per decade over Europe, while the multi-model mean of the
+  associated GCMs used to drive the RCMs gives an increase in SSR of
+  +0.39 W/m2 per decade for the period of 2006--2100 over Europe. At seasonal
+  scale the largest differences appear in spring and summer. The different
+  signs of SSR projected changes can be interpreted as the consequence of the
+  different behavior of cloud cover in global and regional climate models.
+  Cloudiness shows a significant decline in GCMs with −0.24{\%} per decade
+  which explains the extra income in SSR, while in case of the regional models
+  no significant changes in cloudiness can be detected. The reduction of SSR in
+  RCMs can be attributed to increasing atmospheric absorption in line with the
+  increase of water vapor content. Both global and regional models overestimate
+  SSR in absolute terms as compared to surface observations, in line with an
+  underestimation of cloud cover. Regional models further have difficulties to
+  adequately reproduce the observed trends in SSR over the past decades.%
+  }
+  \verb{doi}
+  \verb 10.1007/s00382-016-3471-2
+  \endverb
+  \field{isbn}{0123456789}
+  \field{issn}{14320894}
+  \field{title}{{Projected changes in surface solar radiation in CMIP5 global
+  climate models and in EURO-CORDEX regional climate models for Europe}}
+  \field{journaltitle}{Climate Dynamics}
+  \field{year}{2017}
+\endentry
+
 \entry{Benedetti2009}{article}{}
   \name{author}{15}{}{%
     {{}%
@@ -444,6 +532,125 @@
   \endverb
   \field{journaltitle}{Environmental Science and Technology Letters}
   \field{year}{2017}
+\endentry
+
+\entry{Cavicchia2016}{article}{}
+  \name{author}{16}{}{%
+    {{}%
+     {Cavicchia}{C.}%
+     {Leone}{L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Scoccimarro}{S.}%
+     {Enrico}{E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Gualdi}{G.}%
+     {Silvio}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Marson}{M.}%
+     {Paola}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ahrens}{A.}%
+     {Bodo}{B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Berthou}{B.}%
+     {S{\'{e}}gol{\`{e}}ne}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Conte}{C.}%
+     {Dario}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Dell'Aquila}{D.}%
+     {Alessandro}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Drobinski}{D.}%
+     {Philippe}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Djurdjevic}{D.}%
+     {Vladimir}{V.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Dubois}{D.}%
+     {Clotilde}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Gallardo}{G.}%
+     {Clemente}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Li}{L.}%
+     {Laurent}{L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Oddo}{O.}%
+     {Paolo}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sanna}{S.}%
+     {Antonella}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Torma}{T.}%
+     {Csaba}{C.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{CL+1}
+  \strng{fullhash}{CLSEGSMPABBSCDDADPDVDCGCLLOPSATC1}
+  \field{labelalpha}{Cav+16}
+  \field{sortinit}{C}
+  \field{abstract}{%
+  Exploiting the added value of the ensemble of high-resolution model
+  simulations provided by the Med-CORDEX coordinated initiative, an updated
+  assessment of Mediterranean extreme precipitation events as represented in
+  different observational, reanalysis and modelling datasets is presented. A
+  spatiotemporal characterisation of the long-term statistics of extreme
+  precipitation is performed, using a number of different diagnostic indices.
+  Employing a novel approach based on the timing of extreme precipitation
+  events a number of physically consistent subregions are defined. The
+  comparison of different diagnostics over the Mediterranean domain and
+  physically homogeneous sub-domains is presented and discussed, focussing on
+  the relative impact of several model configuration features (resolution,
+  coupling, physical parameterisations) on the performance in reproducing
+  extreme precipitation events. It is found that the agreement between the
+  observed and modelled long-term statistics of extreme precipitation is more
+  sensitive to the model physics, in particular convective parameterisation,
+  than to other model configurations such as resolution and coupling.%
+  }
+  \verb{doi}
+  \verb 10.1007/s00382-016-3245-x
+  \endverb
+  \field{issn}{1432-0894}
+  \field{title}{{Mediterranean extreme precipitation: a multi-model
+  assessment}}
+  \verb{url}
+  \verb https://doi.org/10.1007/s00382-016-3245-x
+  \endverb
+  \field{journaltitle}{Climate Dynamics}
+  \field{year}{2016}
+  \warn{\item Invalid format of field 'month'}
 \endentry
 
 \entry{CalinskiH}{article}{}
@@ -805,6 +1012,107 @@
   \field{year}{1998}
 \endentry
 
+\entry{DellAquila2016}{article}{}
+  \name{author}{10}{}{%
+    {{}%
+     {Dell'Aquila}{D.}%
+     {Alessandro}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Mariotti}{M.}%
+     {Annarita}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bastin}{B.}%
+     {Sophie}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Calmanti}{C.}%
+     {Sandro}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Cavicchia}{C.}%
+     {Leone}{L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Deque}{D.}%
+     {Michel}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Djurdjevic}{D.}%
+     {Vladimir}{V.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Dominguez}{D.}%
+     {Marta}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Gaertner}{G.}%
+     {Miguel}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Gualdi}{G.}%
+     {Silvio}{S.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{DA+1}
+  \strng{fullhash}{DAMABSCSCLDMDVDMGMGS1}
+  \field{labelalpha}{Del+16}
+  \field{sortinit}{D}
+  \field{abstract}{%
+  Med-CORDEX simulations over the period 1979--2011 are evaluated with regard
+  to their capability to represent observed decadal variations over the
+  Euro-Mediterranean region and improve upon previous generation simulations
+  from the ENSEMBLES project in their various experimental set-ups. Such an
+  evaluation is needed to inform the use of these simulations and also future
+  model development. For temperature, both Med-CORDEX and ENSEMBLES simulations
+  tend to provide comparable results: they generally capture the sign and
+  timing of the anomalies but not the amplitude. In general, no clear
+  stratification appears when considering different types of Med-CORDEX
+  regional modeling systems. Rather, it is remarkable that certain periods are
+  poorly represented by all systems with a general underestimation of the
+  observed long-term temperature trend, mostly in the summer season, even with
+  respect to the corresponding global drivers. For precipitation, the
+  Med-CORDEX simulations are closer to observations than the other datasets,
+  with some improvement with respect to ENSEMBLES dataset. In general, all the
+  systems experience difficulties in representing anomalies during specific
+  periods or for specific regions. These appear in part due to limitations in
+  the reanalysis boundary forcing data. For instance, in the second part of
+  1980s, the spatial patterns of surface air temperature during DJF/MAM are
+  generally poorly represented, as well as the regionally averaged MAM/JJA
+  surface air temperature decadal anomalies. Overall, the evaluation suggests
+  limited improvement in Med-CORDEX simulations compared to ENSEMBLES, and a
+  lack of sensitivity to resolution or coupling configuration, with persisting
+  problems in part likely related to the representation of surface processes
+  that could also affect the viability of future projections (e.g. the
+  estimation of temperature trends). A set of decadal variability evaluation
+  metrics, as applied in this study, could be useful in the context of a
+  broader evaluation framework.%
+  }
+  \verb{doi}
+  \verb 10.1007/s00382-016-3143-2
+  \endverb
+  \field{issn}{1432-0894}
+  \field{title}{{Evaluation of simulated decadal variations over the
+  Euro-Mediterranean region from ENSEMBLES to Med-CORDEX}}
+  \verb{url}
+  \verb https://doi.org/10.1007/s00382-016-3143-2
+  \endverb
+  \field{journaltitle}{Climate Dynamics}
+  \field{year}{2016}
+  \warn{\item Invalid format of field 'month'}
+\endentry
+
 \entry{Ding2004}{article}{}
   \name{author}{2}{}{%
     {{}%
@@ -922,6 +1230,114 @@
   \warn{\item Invalid format of field 'month'}
 \endentry
 
+\entry{Flaounas2016}{article}{}
+  \name{author}{13}{}{%
+    {{}%
+     {Flaounas}{F.}%
+     {Emmanouil}{E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kelemen}{K.}%
+     {Fanni~Dora}{F.~D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Wernli}{W.}%
+     {Heini}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Gaertner}{G.}%
+     {Miguel~Angel}{M.~A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Reale}{R.}%
+     {Marco}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sanchez-Gomez}{S.-G.}%
+     {Emilia}{E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lionello}{L.}%
+     {Piero}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Calmanti}{C.}%
+     {Sandro}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Podrascanin}{P.}%
+     {Zorica}{Z.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Somot}{S.}%
+     {Samuel}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Akhtar}{A.}%
+     {Naveed}{N.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Romera}{R.}%
+     {Raquel}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Conte}{C.}%
+     {Dario}{D.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{FE+1}
+  \strng{fullhash}{FEKFDWHGMARMSGELPCSPZSSANRRCD1}
+  \field{labelalpha}{Fla+16}
+  \field{sortinit}{F}
+  \field{abstract}{%
+  This study aims to assess the skill of regional climate models (RCMs) at
+  reproducing the climatology of Mediterranean cyclones. Seven RCMs are
+  considered, five of which were also coupled with an oceanic model. All
+  simulations were forced at the lateral boundaries by the ERA-Interim
+  reanalysis for a common 20-year period (1989--2008). Six different cyclone
+  tracking methods have been applied to all twelve RCM simulations and to the
+  ERA-Interim reanalysis in order to assess the RCMs from the perspective of
+  different cyclone definitions. All RCMs reproduce the main areas of high
+  cyclone occurrence in the region south of the Alps, in the Adriatic, Ionian
+  and Aegean Seas, as well as in the areas close to Cyprus and to Atlas
+  mountains. The RCMs tend to underestimate intense cyclone occurrences over
+  the Mediterranean Sea and reproduce 24--40 {\{}{\%}{\}} of these systems, as
+  identified in the reanalysis. The use of grid nudging in one of the RCMs is
+  shown to be beneficial, reproducing about 60 {\{}{\%}{\}} of the intense
+  cyclones and keeping a better track of the seasonal cycle of intense
+  cyclogenesis. Finally, the most intense cyclones tend to be similarly
+  reproduced in coupled and uncoupled model simulations, suggesting that
+  modeling atmosphere--ocean coupled processes has only a weak impact on the
+  climatology and intensity of Mediterranean cyclones.%
+  }
+  \verb{doi}
+  \verb 10.1007/s00382-016-3398-7
+  \endverb
+  \field{issn}{1432-0894}
+  \field{title}{{Assessment of an ensemble of ocean--atmosphere coupled and
+  uncoupled regional climate models to reproduce the climatology of
+  Mediterranean cyclones}}
+  \verb{url}
+  \verb https://doi.org/10.1007/s00382-016-3398-7
+  \endverb
+  \field{journaltitle}{Climate Dynamics}
+  \field{year}{2016}
+  \warn{\item Invalid format of field 'month'}
+\endentry
+
 \entry{Gaetani2014}{article}{}
   \name{author}{6}{}{%
     {{}%
@@ -1030,6 +1446,165 @@
   \endverb
   \field{journaltitle}{JRC Science and Policy Report}
   \field{year}{2015}
+\endentry
+
+\entry{Gaertner2016}{article}{}
+  \name{author}{19}{}{%
+    {{}%
+     {Gaertner}{G.}%
+     {Miguel~{\'{A}}ngel}{M.~{\'{A}}.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Gonz{\'{a}}lez-Alem{\'{a}}n}{G.-A.}%
+     {Juan~Jes{\'{u}}s}{J.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Romera}{R.}%
+     {Raquel}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Dom{\'{i}}nguez}{D.}%
+     {Marta}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Gil}{G.}%
+     {Victoria}{V.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {S{\'{a}}nchez}{S.}%
+     {Enrique}{E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Gallardo}{G.}%
+     {Clemente}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Miglietta}{M.}%
+     {Mario~Marcello}{M.~M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Walsh}{W.}%
+     {Kevin J~E}{K.~J.~E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sein}{S.}%
+     {Dmitry~V}{D.~V.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Somot}{S.}%
+     {Samuel}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Dell'Aquila}{D.}%
+     {Alessandro}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Teichmann}{T.}%
+     {Claas}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ahrens}{A.}%
+     {Bodo}{B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Buonomo}{B.}%
+     {Erasmo}{E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Colette}{C.}%
+     {Augustin}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bastin}{B.}%
+     {Sophie}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Meijgaard}{M.}%
+     {Erik}{E.}%
+     {van}{v.}%
+     {}{}}%
+    {{}%
+     {Nikulin}{N.}%
+     {Grigory}{G.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{GMA+1}
+  \strng{fullhash}{GMAGAJJRRDMGVSEGCMMMWKJESDVSSDATCABBECABSMEvNG1}
+  \field{labelalpha}{Gae+16}
+  \field{sortinit}{G}
+  \field{abstract}{%
+  Medicanes are cyclones over the Mediterranean Sea having a tropical-like
+  structure but a rather small size, that can produce significant damage due to
+  the combination of intense winds and heavy precipitation. Future climate
+  projections, performed generally with individual atmospheric climate models,
+  indicate that the intensity of the medicanes could increase under climate
+  change conditions. The availability of large ensembles of high resolution and
+  ocean--atmosphere coupled regional climate model (RCM) simulations, performed
+  in MedCORDEX and EURO-CORDEX projects, represents an opportunity to improve
+  the assessment of the impact of climate change on medicanes. As a first step
+  towards such an improved assessment, we analyze the ability of the RCMs used
+  in these projects to reproduce the observed characteristics of medicanes, and
+  the impact of increased resolution and air-sea coupling on their simulation.
+  In these storms, air-sea interaction plays a fundamental role in their
+  formation and intensification, a different mechanism from that of
+  extra-tropical cyclones, where the baroclinic instability mechanism prevails.
+  An observational database, based on satellite images combined with high
+  resolution simulations (Miglietta et al. in Geophys Res Lett 40:2400--2405,
+  2013), is used as a reference for evaluating the simulations. In general, the
+  simulated medicanes do not coincide on a case-by-case basis with the observed
+  medicanes. However, observed medicanes with a high intensity and relatively
+  long duration of tropical characteristics are better replicated in
+  simulations. The observed spatial distribution of medicanes is generally well
+  simulated, while the monthly distribution reveals the difficulty of
+  simulating the medicanes that first appear in September after the summer
+  minimum in occurrence. Increasing the horizontal resolution has a systematic
+  and generally positive impact on the frequency of simulated medicanes, while
+  the general underestimation of their intensity is not corrected in most
+  cases. The capacity of a few models to better simulate the medicane intensity
+  suggests that the model formulation is more important than reducing the grid
+  spacing alone. A negative intensity feedback is frequently the result of
+  air-sea interaction for tropical cyclones in other basins. The introduction
+  of air-sea coupling in the present simulations has an overall limited impact
+  on medicane frequency and intensity, but it produces an interesting seasonal
+  shift of the simulated medicanes from autumn to winter. This fact, together
+  with the analysis of two contrasting particular cases, indicates that the
+  negative feedback could be limited or even absent in certain situations. We
+  suggest that the effects of air-sea interaction on medicanes may depend on
+  the oceanic mixed layer depth, thus increasing the applicability of
+  ocean--atmosphere coupled RCMs for climate change analysis of this kind of
+  cyclones.%
+  }
+  \verb{doi}
+  \verb 10.1007/s00382-016-3456-1
+  \endverb
+  \field{issn}{1432-0894}
+  \field{title}{{Simulation of medicanes over the Mediterranean Sea in a
+  regional climate model ensemble: impact of ocean--atmosphere coupling and
+  increased resolution}}
+  \verb{url}
+  \verb https://doi.org/10.1007/s00382-016-3456-1
+  \endverb
+  \field{journaltitle}{Climate Dynamics}
+  \field{year}{2016}
+  \warn{\item Invalid format of field 'month'}
 \endentry
 
 \entry{Gutierrez2017}{article}{}
@@ -1366,6 +1941,106 @@
   \field{year}{2016}
 \endentry
 
+\entry{Harzallah2016}{article}{}
+  \name{author}{10}{}{%
+    {{}%
+     {Harzallah}{H.}%
+     {Ali}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Jord{\`{a}}}{J.}%
+     {Gabriel}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Dubois}{D.}%
+     {Clotilde}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sannino}{S.}%
+     {Gianmaria}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Carillo}{C.}%
+     {Adriana}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Li}{L.}%
+     {Laurent}{L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Arsouze}{A.}%
+     {Thomas}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Cavicchia}{C.}%
+     {Leone}{L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Beuvier}{B.}%
+     {Jonathan}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Akhtar}{A.}%
+     {Naveed}{N.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{HA+1}
+  \strng{fullhash}{HAJGDCSGCALLATCLBJAN1}
+  \field{labelalpha}{Har+16}
+  \field{sortinit}{H}
+  \field{abstract}{%
+  This study evaluates the Mediterranean Sea heat budget components from a set
+  of forced and coupled simulations performed in the frame of the Med-CORDEX
+  project. The simulations use regional climate system models (RCSMs) dedicated
+  to the Mediterranean area and driven by the ERA40/ERA-Interim reanalyses. The
+  study focuses on the period 1980--2010. Interannual variations of the average
+  net heat flux at the sea surface are consistent among models but the spread
+  in the mean values is large (from −4.8 to +2.2 Wm−2) with the coupled
+  models showing the lowest heat loss from the sea. For the heat flux at the
+  Strait of Gibraltar both interannual variations and mean values show a large
+  intermodel spread. The basin average temperature shows positive trends with
+  highest values in the coupled models; it also shows interannual variations
+  that are in good agreement with observations. The heat content rate is
+  calculated based on the derivative of the average temperature and is found to
+  be significantly correlated for most models with the net heat flux at the sea
+  surface (average correlation {\{}$\backslash$textasciitilde{\}}0.5) but not
+  with the net heat flux through the Strait of Gibraltar (average correlation
+  {\{}$\backslash$textasciitilde{\}}0.2), suggesting that in the considered
+  RCSMs the interannual variability of the heat content rate is mainly driven
+  by the surface heat fluxes. The resemblance between the simulated and
+  observed heat content rates is stronger in the forced models than in the
+  coupled ones. This is explained by the stronger constraint applied to the
+  forced models by the use of the surface temperature relaxation to
+  observations. The temperature of the outflowing water through the Strait of
+  Gibraltar shows positive and significant trends, also higher in the coupled
+  models. It is suggested that the Mediterranean Sea warming found in most
+  models and in particular in the coupled ones, induces a change of the
+  hydrographic conditions that affects the Strait of Gibraltar.%
+  }
+  \verb{doi}
+  \verb 10.1007/s00382-016-3363-5
+  \endverb
+  \field{issn}{1432-0894}
+  \field{title}{{Long term evolution of heat budget in the Mediterranean Sea
+  from Med-CORDEX forced and coupled simulations}}
+  \verb{url}
+  \verb https://doi.org/10.1007/s00382-016-3363-5
+  \endverb
+  \field{journaltitle}{Climate Dynamics}
+  \field{year}{2016}
+  \warn{\item Invalid format of field 'month'}
+\endentry
+
 \entry{Haylock2008}{article}{}
   \name{author}{6}{}{%
     {{}%
@@ -1596,7 +2271,7 @@
   \field{year}{2013}
 \endentry
 
-\entry{Jerez2015}{misc}{}
+\entry{Jerez2015climix}{article}{}
   \name{author}{7}{}{%
     {{}%
      {Jerez}{J.}%
@@ -1639,6 +2314,7 @@
   \strng{namehash}{JS+1}
   \strng{fullhash}{JSTFTIWMCAYPVR1}
   \field{labelalpha}{Jer+15}
+  \field{extraalpha}{1}
   \field{sortinit}{J}
   \field{abstract}{%
   Renewable energies arise as part of both economic development plans and
@@ -1677,6 +2353,128 @@
   \field{title}{{The CLIMIX model: A tool to create and evaluate
   spatially-resolved scenarios of photovoltaic and wind power development}}
   \field{year}{2015}
+\endentry
+
+\entry{Jerez2015}{article}{}
+  \name{author}{15}{}{%
+    {{}%
+     {Jerez}{J.}%
+     {Sonia}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Tobin}{T.}%
+     {Isabelle}{I.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Vautard}{V.}%
+     {Robert}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Mont{\'{a}}vez}{M.}%
+     {Juan~Pedro}{J.~P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {L{\'{o}}pez-Romero}{L.-R.}%
+     {Jose~Mar{\'{i}}a}{J.~M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Thais}{T.}%
+     {Fran{\c{c}}oise}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bartok}{B.}%
+     {Blanka}{B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Christensen}{C.}%
+     {Ole~B{\o}ssing}{O.~B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Colette}{C.}%
+     {Augustin}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {D{\'{e}}qu{\'{e}}}{D.}%
+     {Michel}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Nikulin}{N.}%
+     {Grigory}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kotlarski}{K.}%
+     {Sven}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Meijgaard}{M.}%
+     {Erik}{E.}%
+     {van}{v.}%
+     {}{}}%
+    {{}%
+     {Teichmann}{T.}%
+     {Claas}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Wild}{W.}%
+     {Martin}{M.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{language}{1}{%
+    {en}%
+  }
+  \list{publisher}{1}{%
+    {Nature Publishing Group}%
+  }
+  \strng{namehash}{JS+2}
+  \strng{fullhash}{JSTIVRMJPLRJMTFBBCOBCADMNGKSMEvTCWM1}
+  \field{labelalpha}{Jer+15}
+  \field{extraalpha}{2}
+  \field{sortinit}{J}
+  \field{abstract}{%
+  Ambitious climate change mitigation plans call for a significant increase in
+  the use of renewables, which could, however, make the supply system more
+  vulnerable to climate variability and changes. Here we evaluate climate
+  change impacts on solar photovoltaic (PV) power in Europe using the recent
+  EURO-CORDEX ensemble of high-resolution climate projections together with a
+  PV power production model and assuming a well-developed European PV power
+  fleet. Results indicate that the alteration of solar PV supply by the end of
+  this century compared with the estimations made under current climate
+  conditions should be in the range (-14{\%};+2{\%}), with the largest
+  decreases in Northern countries. Temporal stability of power generation does
+  not appear as strongly affected in future climate scenarios either, even
+  showing a slight positive trend in Southern countries. Therefore, despite
+  small decreases in production expected in some parts of Europe, climate
+  change is unlikely to threaten the European PV sector.%
+  }
+  \verb{doi}
+  \verb 10.1038/ncomms10014
+  \endverb
+  \field{issn}{2041-1723}
+  \field{pages}{10014}
+  \field{title}{{The impact of climate change on photovoltaic power generation
+  in Europe.}}
+  \verb{url}
+  \verb http://www.nature.com/ncomms/2015/151211/ncomms10014/abs/ncomms10014.ht
+  \verb ml
+  \endverb
+  \field{volume}{6}
+  \field{journaltitle}{Nature communications}
+  \field{year}{2015}
+  \warn{\item Invalid format of field 'month'}
 \endentry
 
 \entry{Jimenez-Guerrero2011}{article}{}
@@ -2033,6 +2831,431 @@
   \field{year}{1960}
 \endentry
 
+\entry{Mallet2016}{article}{}
+  \name{author}{63}{}{%
+    {{}%
+     {Mallet}{M.}%
+     {M.}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Dulac}{D.}%
+     {F.}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Formenti}{F.}%
+     {P.}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Nabat}{N.}%
+     {P.}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sciare}{S.}%
+     {J.}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Roberts}{R.}%
+     {G.}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Pelon}{P.}%
+     {J.}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ancellet}{A.}%
+     {G.}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Tanr{\'{e}}}{T.}%
+     {D.}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Parol}{P.}%
+     {F.}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Denjean}{D.}%
+     {C.}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Brogniez}{B.}%
+     {G.}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {di Sarra}{d.}%
+     {A.}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Alados-Arboledas}{A.-A.}%
+     {L.}{L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Arndt}{A.}%
+     {J.}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Auriol}{A.}%
+     {F.}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Blarel}{B.}%
+     {L.}{L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bourrianne}{B.}%
+     {T.}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Chazette}{C.}%
+     {P.}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Chevaillier}{C.}%
+     {S.}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Claeys}{C.}%
+     {M.}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {D{\&}apos;Anna}{D.}%
+     {B.}{B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Derimian}{D.}%
+     {Y.}{Y.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Desboeufs}{D.}%
+     {K.}{K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Di Iorio}}{D.}%
+     {T.}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Doussin}{D.}%
+     {J.-F.}{J.-F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Durand}{D.}%
+     {P.}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {F{\'{e}}ron}{F.}%
+     {A.}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Freney}{F.}%
+     {E.}{E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Gaimoz}{G.}%
+     {C.}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Goloub}{G.}%
+     {P.}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {G{\'{o}}mez-Amo}{G.-A.}%
+     {J.~L.}{J.~L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Granados-Mu{\~{n}}oz}{G.-M.}%
+     {M.~J.}{M.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Grand}{G.}%
+     {N.}{N.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hamonou}{H.}%
+     {E.}{E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Jankowiak}{J.}%
+     {I.}{I.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Jeannot}{J.}%
+     {M.}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {L{\'{e}}on}{L.}%
+     {J.-F.}{J.-F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Maill{\'{e}}}{M.}%
+     {M.}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Mailler}{M.}%
+     {S.}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Meloni}{M.}%
+     {D.}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Menut}{M.}%
+     {L.}{L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Momboisse}{M.}%
+     {G.}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Nicolas}{N.}%
+     {J.}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Podvin}{P.}%
+     {T.}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Pont}{P.}%
+     {V.}{V.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Rea}{R.}%
+     {G.}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Renard}{R.}%
+     {J.-B.}{J.-B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Roblou}{R.}%
+     {L.}{L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Schepanski}{S.}%
+     {K.}{K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Schwarzenboeck}{S.}%
+     {A.}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sellegri}{S.}%
+     {K.}{K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sicard}{S.}%
+     {M.}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Solmon}{S.}%
+     {F.}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Somot}{S.}%
+     {S.}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Torres}{T.}%
+     {B}{B}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Totems}{T.}%
+     {J.}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Triquet}{T.}%
+     {S.}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Verdier}{V.}%
+     {N.}{N.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Verwaerde}{V.}%
+     {C.}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Waquet}{W.}%
+     {F.}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Wenger}{W.}%
+     {J.}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Zapf}{Z.}%
+     {P.}{P.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{MM+1}
+  \strng{fullhash}{MMDFFPNPSJRGPJAGTDPFDCBGdAAALAJAFBLBTCPCSCMDBDYDKDTDJFDPFAFEGCGPGAJLGMMJGNHEJIJMLJFMMMSMDMLMGNJPTPVRGRJBRLSKSASKSMSFSSTBTJTSVNVCWFWJZP1}
+  \field{labelalpha}{Mal+16}
+  \field{sortinit}{M}
+  \field{abstract}{%
+  {\textless}p{\textgreater}The Chemistry-Aerosol Mediterranean Experiment
+  (ChArMEx; {\textless}a href="http://charmex.lsce.ipsl.fr"
+  target="{\_}blank"{\textgreater}http://charmex.lsce.ipsl.fr{\textless}/a{\textgreater})
+  is a collaborative research program federating international activities to
+  investigate Mediterranean regional chemistry-climate interactions. A special
+  observing period (SOP-1a) including intensive airborne measurements was
+  performed in the framework of the Aerosol Direct Radiative Impact on the
+  regional climate in the MEDiterranean region (ADRIMED) project during the
+  Mediterranean dry season over the western and central Mediterranean basins,
+  with a focus on aerosol-radiation measurements and their modeling. The SOP-1a
+  took place from 11 June to 5 July 2013. Airborne measurements were made by
+  both the ATR-42 and F-20 French research aircraft operated from Sardinia
+  (Italy) and instrumented for in situ and remote-sensing measurements,
+  respectively, and by sounding and drifting balloons, launched in Minorca. The
+  experimental setup also involved several ground-based measurement sites on
+  islands including two ground-based reference stations in Corsica and
+  Lampedusa and secondary monitoring sites in Minorca and Sicily. Additional
+  measurements including lidar profiling were also performed on alert during
+  aircraft operations at EARLINET/ACTRIS stations at Granada and Barcelona in
+  Spain, and in southern Italy. Remote-sensing aerosol products from satellites
+  (MSG/SEVIRI, MODIS) and from the AERONET/PHOTONS network were also used.
+  Dedicated meso-scale and regional modeling experiments were performed in
+  relation to this observational effort. We provide here an overview of the
+  different surface and aircraft observations deployed during the
+  ChArMEx/ADRIMED period and of associated modeling studies together with an
+  analysis of the synoptic conditions that determined the aerosol emission and
+  transport. Meteorological conditions observed during this campaign (moderate
+  temperatures and southern flows) were not favorable to producing high levels
+  of atmospheric pollutants or intense biomass burning events in the region.
+  However, numerous mineral dust plumes were observed during the campaign, with
+  the main sources located in Morocco, Algeria and Tunisia, leading to aerosol
+  optical depth (AOD) values ranging between 0.2 and 0.6 (at 440 nm) over the
+  western and central Mediterranean basins. One important point of this
+  experiment concerns the direct observations of aerosol extinction onboard the
+  ATR-42, using the CAPS system, showing local maxima reaching up to 150 M
+  m{\textless}sup{\textgreater}−1{\textless}/sup{\textgreater} within the
+  dust plume. Non-negligible aerosol extinction (about 50 M
+  m{\textless}sup{\textgreater}−1{\textless}/sup{\textgreater}) has also been
+  observed within the marine boundary layer (MBL). By combining the ATR-42
+  extinction coefficient observations with absorption and scattering
+  measurements, we performed a complete optical closure revealing excellent
+  agreement with estimated optical properties. This additional information on
+  extinction properties has allowed calculation of the dust single scattering
+  albedo (SSA) with a high level of confidence over the western Mediterranean.
+  Our results show a moderate variability from 0.90 to 1.00 (at 530 nm) for
+  all flights studied compared to that reported in the literature on this
+  optical parameter. Our results underline also a relatively low difference in
+  SSA with values derived near dust sources. In parallel, active remote-sensing
+  observations from the surface and onboard the F-20 aircraft suggest a complex
+  vertical structure of particles and distinct aerosol layers with sea spray
+  and pollution located within the MBL, and mineral dust and/or aged North
+  American smoke particles located above (up to 6–7 km in altitude).
+  Aircraft and balloon-borne observations allow one to investigate the vertical
+  structure of the aerosol size distribution showing particles characterized by
+  a large size ({\&}gt; 10 µm in diameter) within dust plumes. In most of
+  cases, a coarse mode characterized by an effective diameter ranging between 5
+  and 10 µm, has been detected above the MBL. In terms of shortwave (SW)
+  direct forcing, in situ surface and aircraft observations have been merged
+  and used as inputs in 1-D radiative transfer codes for calculating the
+  aerosol direct radiative forcing (DRF). Results show significant surface SW
+  instantaneous forcing (up to −90 W
+  m{\textless}sup{\textgreater}−2{\textless}/sup{\textgreater} at noon).
+  Aircraft observations provide also original estimates of the vertical
+  structure of SW and LW radiative heating revealing significant instantaneous
+  values of about 5° K per day in the solar spectrum (for a solar angle of
+  30°) within the dust layer. Associated 3-D modeling studies from regional
+  climate (RCM) and chemistry transport (CTM) models indicate a relatively good
+  agreement for simulated AOD compared with observations from the
+  AERONET/PHOTONS network and satellite data, especially for long-range dust
+  transport. Calculations of the 3-D SW (clear-sky) surface DRF indicate an
+  average of about −10 to −20 W
+  m{\textless}sup{\textgreater}−2{\textless}/sup{\textgreater} (for the whole
+  period) over the Mediterranean Sea together with maxima (−50 W
+  m{\textless}sup{\textgreater}−2{\textless}/sup{\textgreater}) over northern
+  Africa. The top of the atmosphere (TOA) DRF is shown to be highly variable
+  within the domain, due to moderate absorbing properties of dust and changes
+  in the surface albedo. Indeed, 3-D simulations indicate negative forcing over
+  the Mediterranean Sea and Europe and positive forcing over northern Africa.
+  Finally, a multi-year simulation, performed for the 2003 to 2009 period and
+  including an ocean–atmosphere (O–A) coupling, underlines the impact of
+  the aerosol direct radiative forcing on the sea surface temperature, O–A
+  fluxes and the hydrological cycle over the
+  Mediterranean.{\textless}/p{\textgreater}%
+  }
+  \verb{doi}
+  \verb 10.5194/acp-16-455-2016
+  \endverb
+  \field{issn}{1680-7324}
+  \field{number}{2}
+  \field{pages}{455\bibrangedash 504}
+  \field{title}{{Overview of the Chemistry-Aerosol Mediterranean
+  Experiment/Aerosol Direct Radiative Forcing on the Mediterranean Climate
+  (ChArMEx/ADRIMED) summer 2013 campaign}}
+  \verb{url}
+  \verb https://www.atmos-chem-phys.net/16/455/2016/
+  \endverb
+  \field{volume}{16}
+  \field{journaltitle}{Atmospheric Chemistry and Physics}
+  \field{year}{2016}
+  \warn{\item Invalid format of field 'month'}
+\endentry
+
 \entry{Marcos2012}{article}{}
   \name{author}{4}{}{%
     {{}%
@@ -2244,6 +3467,69 @@
   \field{journaltitle}{Journal of Geophysical Research}
   \field{year}{2009}
   \warn{\item Invalid format of field 'month'}
+\endentry
+
+\entry{Muller2015}{article}{}
+  \name{author}{6}{}{%
+    {{}%
+     {M{\"{u}}ller}{M.}%
+     {Richard}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Pfeifroth}{P.}%
+     {Uwe}{U.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Tr{\"{a}}ger-Chatterjee}{T.-C.}%
+     {Christine}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Cremer}{C.}%
+     {Roswitha}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Trentmann}{T.}%
+     {J{\"{o}}rg}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hollmann}{H.}%
+     {Rainer}{R.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{MR+1}
+  \strng{fullhash}{MRPUTCCCRTJHR1}
+  \field{labelalpha}{M{\"{u}}l+15}
+  \field{sortinit}{M}
+  \field{abstract}{%
+  The Surface Solar Radiation Data Set - Heliosat (SARAH) is a satellite-based
+  climatology of the solar surface irradiance, the surface direct normalized
+  irradiance and the effective cloud albedo derived from satellite observations
+  of the visible channels of the MVIRI and SEVIRI instruments onboard the
+  geostationary Meteosat satellites. The data are available from 1983 to 2013
+  and cover the region ±65° longitude and ±65° latitude. The products are
+  available as monthly, daily, and hourly averages on a regular
+  latitude/longitude grid with a spatial resolution of 0.05° x 0.05°. The
+  data set is complemented with a comprehensive documentation of the applied
+  algorithms as well as validation studies and user guidance.%
+  }
+  \verb{doi}
+  \verb 10.5676/EUM_SAF_CM/SARAH/V001
+  \endverb
+  \field{number}{1}
+  \field{title}{{Surface Solar Radiation Data Set - Heliosat (SARAH) - Edition
+  1}}
+  \verb{url}
+  \verb http://dx.doi.org/10.5676/EUM{\_}SAF{\_}CM/SARAH/V001
+  \endverb
+  \field{journaltitle}{EUMETSAT Satellite Application Facility on Climate
+  Monitoring (CM SAF)}
+  \field{year}{2015}
 \endentry
 
 \entry{Nabat2013}{article}{}
@@ -2641,6 +3927,31 @@
   Radiometry for Climate Research}}
   \field{journaltitle}{Bulletin of the American Meteorological Society}
   \field{year}{1998}
+\endentry
+
+\entry{Page1961}{inproceedings}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Page}{P.}%
+     {J.}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{PJ1}
+  \strng{fullhash}{PJ1}
+  \field{labelalpha}{Pag61}
+  \field{sortinit}{P}
+  \field{abstract}{%
+  Page, J. (1961), ‘The estimation of monthly mean values of daily total
+  short-wave radiation on vertical and inclined surfaces from sunshine records
+  for latitudes 40°N–40°S', UN Conference on New Energy Sources, paper no.
+  S98, 4, pp. 378–390.%
+  }
+  \field{booktitle}{UN Conference on New ENergy Sources, paper No. s98}
+  \field{title}{{The estimation of monthly mean values of daily total
+  short­wave radiation on vertical and inclined sufaces from sunshine records
+  for latitudes 40°N-40°S}}
+  \field{year}{1961}
 \endentry
 
 \entry{pryor2006inter}{article}{}
@@ -3200,6 +4511,315 @@
   \field{year}{2017}
 \endentry
 
+\entry{Ruti2016}{article}{}
+  \name{author}{53}{}{%
+    {{}%
+     {Ruti}{R.}%
+     {P~M}{P.~M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Somot}{S.}%
+     {S}{S}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Giorgi}{G.}%
+     {F}{F}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Dubois}{D.}%
+     {C}{C}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Flaounas}{F.}%
+     {E}{E}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Obermann}{O.}%
+     {A}{A}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Dell'Aquila}{D.}%
+     {A}{A}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Pisacane}{P.}%
+     {G}{G}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Harzallah}{H.}%
+     {A}{A}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lombardi}{L.}%
+     {E}{E}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ahrens}{A.}%
+     {B}{B}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Akhtar}{A.}%
+     {N}{N}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Alias}{A.}%
+     {A}{A}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Arsouze}{A.}%
+     {T}{T}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Aznar}{A.}%
+     {R}{R}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bastin}{B.}%
+     {S}{S}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bartholy}{B.}%
+     {J}{J}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {B{\'{e}}ranger}{B.}%
+     {K}{K}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Beuvier}{B.}%
+     {J}{J}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bouffies-Cloch{\'{e}}}{B.-C.}%
+     {S}{S}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Brauch}{B.}%
+     {J}{J}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Cabos}{C.}%
+     {W}{W}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Calmanti}{C.}%
+     {S}{S}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Calvet}{C.}%
+     {J.-C.}{J.-C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Carillo}{C.}%
+     {A}{A}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Conte}{C.}%
+     {D}{D}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Coppola}{C.}%
+     {E}{E}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Djurdjevic}{D.}%
+     {V}{V}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Drobinski}{D.}%
+     {P}{P}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Elizalde-Arellano}{E.-A.}%
+     {A}{A}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Gaertner}{G.}%
+     {M}{M}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Gal{\`{a}}n}{G.}%
+     {P}{P}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Gallardo}{G.}%
+     {C}{C}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Gualdi}{G.}%
+     {S}{S}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Goncalves}{G.}%
+     {M}{M}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Jorba}{J.}%
+     {O}{O}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Jord{\`{a}}}{J.}%
+     {G}{G}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {L'Heveder}{L.}%
+     {B}{B}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lebeaupin-Brossier}{L.-B.}%
+     {C}{C}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Li}{L.}%
+     {L}{L}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Liguori}{L.}%
+     {G}{G}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lionello}{L.}%
+     {P}{P}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Maci{\`{a}}s}{M.}%
+     {D}{D}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Nabat}{N.}%
+     {P}{P}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{\"{O}}nol}{{\"{O}}.}%
+     {B}{B}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Raikovic}{R.}%
+     {B}{B}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ramage}{R.}%
+     {K}{K}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sevault}{S.}%
+     {F}{F}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sannino}{S.}%
+     {G}{G}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Struglia}{S.}%
+     {M~V}{M.~V.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sanna}{S.}%
+     {A}{A}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Torma}{T.}%
+     {C}{C}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Vervatis}{V.}%
+     {V}{V}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{RPM+1}
+  \strng{fullhash}{RPMSSGFDCFEOADAPGHALEABANAAATARBSBJBKBJBCSBJCWCSCJCCACDCEDVDPEAAGMGPGCGSGMJOJGLBLBCLLLGLPMDNPOBRBRKSFSGSMVSATCVV1}
+  \field{labelalpha}{Rut+16}
+  \field{sortinit}{R}
+  \field{abstract}{%
+  AbstractThe Mediterranean is expected to be one of the most prominent and
+  vulnerable climate change “hotspots” of the twenty-first century, and the
+  physical mechanisms underlying this finding are still not clear. Furthermore,
+  complex interactions and feedbacks involving
+  ocean–atmosphere–land–biogeochemical processes play a prominent role in
+  modulating the climate and environment of the Mediterranean region on a range
+  of spatial and temporal scales. Therefore, it is critical to provide robust
+  climate change information for use in vulnerability–impact–adaptation
+  assessment studies considering the Mediterranean as a fully coupled
+  environmental system. The Mediterranean Coordinated Regional Downscaling
+  Experiment (Med-CORDEX) initiative aims at coordinating the Mediterranean
+  climate modeling community toward the development of fully coupled regional
+  climate simulations, improving all relevant components of the system from
+  atmosphere and ocean dynamics to land surface, hydrology, and biogeochemical
+  processes. The primary goals of Med-CORDEX are to improve understanding of
+  past climate variability and trends and to provide more accurate and reliable
+  future projections, assessing in a quantitative and robust way the added
+  value of using high-resolution and coupled regional climate models. The
+  coordination activities and the scientific outcomes of Med-CORDEX can produce
+  an important framework to foster the development of regional Earth system
+  models in several key regions worldwide.%
+  }
+  \verb{doi}
+  \verb 10.1175/BAMS-D-14-00176.1
+  \endverb
+  \field{number}{7}
+  \field{pages}{1187\bibrangedash 1208}
+  \field{title}{{Med-CORDEX Initiative for Mediterranean Climate Studies}}
+  \verb{url}
+  \verb https://doi.org/10.1175/BAMS-D-14-00176.1
+  \endverb
+  \field{volume}{97}
+  \field{journaltitle}{Bulletin of the American Meteorological Society}
+  \field{year}{2016}
+\endentry
+
 \entry{Salvador2004}{inproceedings}{}
   \name{author}{2}{}{%
     {{}%
@@ -3251,6 +4871,76 @@
   \verb =rep1{\&}type=pdf
   \endverb
   \field{year}{2004}
+\endentry
+
+\entry{Sevault2014}{article}{}
+  \name{author}{9}{}{%
+    {{}%
+     {Sevault}{S.}%
+     {Florence}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Somot}{S.}%
+     {Samuel}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Alias}{A.}%
+     {Antoinette}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Dubois}{D.}%
+     {Clotilde}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lebeaupin-Brossier}{L.-B.}%
+     {Cindy}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Nabat}{N.}%
+     {Pierre}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Adloff}{A.}%
+     {Fanny}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {D{\'{e}}qu{\'{e}}}{D.}%
+     {Michel}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Decharme}{D.}%
+     {Bertrand}{B.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Taylor {\&} Francis}%
+  }
+  \strng{namehash}{SF+1}
+  \strng{fullhash}{SFSSAADCLBCNPAFDMDB1}
+  \field{labelalpha}{Sev+14}
+  \field{sortinit}{S}
+  \verb{doi}
+  \verb 10.3402/tellusa.v66.23967
+  \endverb
+  \field{number}{1}
+  \field{pages}{23967}
+  \field{title}{{A fully coupled Mediterranean regional climate system model:
+  design and evaluation of the ocean component for the 1980–2012 period}}
+  \verb{url}
+  \verb https://doi.org/10.3402/tellusa.v66.23967
+  \endverb
+  \field{volume}{66}
+  \field{journaltitle}{Tellus A: Dynamic Meteorology and Oceanography}
+  \field{year}{2014}
 \endentry
 
 \entry{Sanchez-Lorenzo2013}{article}{}
@@ -3317,6 +5007,98 @@
   \field{volume}{100}
   \field{journaltitle}{Global and Planetary Change}
   \field{year}{2013}
+\endentry
+
+\entry{Tegen1997}{article}{}
+  \name{author}{6}{}{%
+    {{}%
+     {Tegen}{T.}%
+     {Ina}{I.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hollrig}{H.}%
+     {Peter}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Chin}{C.}%
+     {Mian}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Fung}{F.}%
+     {Inez}{I.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Jacob}{J.}%
+     {Daniel}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Penner}{P.}%
+     {Joyce}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{TI+1}
+  \strng{fullhash}{TIHPCMFIJDPJ1}
+  \field{labelalpha}{Teg+97}
+  \field{sortinit}{T}
+  \field{abstract}{%
+  We combine global distributions of aerosol loading resulting from transport
+  models for soil dust:, sulfate, sea salt, and carbonaceous aerosol. From the
+  aerosol distributions we estimate optical thicknesses and compare them with
+  Sun photometer measurements and satellite retrievals: thereby revealing
+  problems with both model results and comparisons with such measurements.
+  Globally, sulfate, dust, and carbonaceous particles appear to contribute
+  equally to the total aerosol optical thickness. Owing to the different
+  optical properties of different aerosol types, aerosol composition should be
+  taken into consideration for estimating the aerosol climate effect as well as
+  for aerosol retrievals from satellite measurements.%
+  }
+  \verb{doi}
+  \verb 10.1029/97JD01864
+  \endverb
+  \field{isbn}{2169-897X}
+  \field{issn}{01480227}
+  \field{title}{{Contribution of different aerosol species to the global
+  aerosol extinction optical thickness: Estimates from model results}}
+  \field{journaltitle}{Journal of Geophysical Research: Atmospheres}
+  \field{year}{1997}
+\endentry
+
+\entry{tanre1984}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Tanr{\'e}}{T.}%
+     {D}{D}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Geleyn}{G.}%
+     {JF}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Slingo}{S.}%
+     {J}{J}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {A. Deepak Publ., Hampton, Va}%
+  }
+  \strng{namehash}{TDGJSJ1}
+  \strng{fullhash}{TDGJSJ1}
+  \field{labelalpha}{TGS84}
+  \field{sortinit}{T}
+  \field{pages}{133\bibrangedash 177}
+  \field{title}{First results of the introduction of an advanced
+  aerosol-radiation interaction in the ECMWF low resolution global model}
+  \field{journaltitle}{Aerosols and their climatic effects}
+  \field{year}{1984}
 \endentry
 
 \entry{trewartha1980koppen}{article}{}
@@ -3406,7 +5188,7 @@
      {}{}}%
   }
   \keyw{Europe,climate change impacts,regional climate modelling,wind energy}
-  \strng{namehash}{TI+1}
+  \strng{namehash}{TI+2}
   \strng{fullhash}{TIJSVRTFVEPADMKSMCFNGNTTC1}
   \field{labelalpha}{Tob+16}
   \field{sortinit}{T}
