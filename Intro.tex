@@ -102,10 +102,48 @@ En 2018 se ha reportado que las renovables suponen un 55\% de la energía final 
 % The evolution of new technologies based on renewable energies has been made in a context with two main drivers. In first place, a society concerned about environmental issues has to deal with 
 
 % as well as interested in finding alternatives to traditional energy sources, Alternative energy generation sources have been evolving and have adquired an important role, mostly in the electricity sector, in the generation proccess
-\subsection{Context of renewable energies}
-\subsection{History and evolution}
-\subsection{Scenarios and future evolution of renewable energies}
+%\subsection{Context of renewable energies}
+%\subsection{History and evolution}
+%\subsection{Scenarios and future evolution of renewable energies}
 \section{Photovoltaic Energy}
+
+La energía fotovoltaica tiene como fundamento la conversión de energía solar inidente del sol en energía eléctrica. Este proceso se realiza mediante sistemas denominado fotovoltaicos cuya unidad básica encargada de transformar la radiación solar en electricidad es la célula solar.
+
+\subsection{Solar Cell}
+
+La célula solar es un dispositivo que consiste en la unión de dos semiconductores uno de tipo P y otro de tipo N de tipo extrínseco o dopados. En un semiconductor intínseco (no dopado) cuando los electrones de la banda de valencia adquieren la energía suficiente para pasar a la banda de conducción, estos dejan una vacante o hueco libre. Mediante la acción de un campo externo, los electrones que se encuentran en la banda de conducción pueden desplazarse junto con los electrones que han quedado en la banda de valencia, que pueden moverse debido a los huecos generados por los electrones más energéticos. El movimiento de los electrones en la capa de valencia origina a su vez un desplazamiento de las vacantes, lo que puede verse como un desplazamiento de carga positiva en sentido opuesto. A los electrones de la banda de conducción y huecos de la banda de valencia los denominamos portadores. Cuando un semiconductor intrínseco se encuentra en equilibrio térmico la concentración de portadores 'p' y 'n' es igual.
+
+Por otro lado, los semiconductores dopados de tipo P son semiconductores a los que se les añaden impurezas positivas en la red del cristal, consiguiendo a partir de este proceso crear una concentración de huecos (de portadores de carga positiva) mayor que de electrones. Los semiconductores tipo N, por el contrario tienen una concentración de portadores negativos mayor.
+
+La unión P-N pone en contacto los dos semiconductores provocando un desequilibrio debido a la diferencia en la concentración de portadores de los dos semiconductores. Esta diferencia en la densidad de portadores origina un proceso de difusión de un lado a otro de la unión, consistente en un movimiento de huecos hacia el lado 'n' por la banda de valencia y de portadores tipo 'p' hacia el el lado opuesto por la banda de conducción. Si los portadores no estuvieran cargados eléctricamente, este proceso de difusión continuaría hasta el equilibrio. Debido a su carga eléctrica, el movimiento de difusión de los portadores hace que al recombinarse en el lado opuesto,  los iones anclados en la red originen un campo eléctrico desde el semiconductor tipo N al P. Este campo tiene  genera lo que se conoce como corriente de arrastre, que se opone a la corriente de dufusión de portadores. Ahora, el equilibrio se alcanzará cuando los procesos de arrastre y difusión se igualen.
+
+Cuando se ha alcanzado el equilibrio, en la zona más cercana a la unión, que se conoce como zona de carga del espacio, los portadores minoritarios se han recombinado y en ella sólo están los iones cargados ligados a la red. El campo eléctrico originado por los iones crea una diferencia de potencial denominado, potencial termodinámico, que impide a los portadores mayoritarios pasar de un cristal a otro.
+
+Para poder hacer circular corriente a través de la unión P-N es necesario romper el equilibrio y para ello será necesario reducir el potencial termodinámico. La manera de hacerlo consiste en aplicar una diferencia de potencial entre los extremos del cristal. Si el lado P tiene una tensión positiva con respecto al lado N, la unión está polarizada en directa y en inversa en el caso contrario. Con la polarización directa, disminuye la barrera de potencialn y con ello la corriente de arrastre que ya no puede compensar la difusión. Ahora, los portadores de cada lado pueden atravesar la zona de carga del espacio y llegar al otro lado, donde son los portadores minoritarios. Ahora, el proceso de difusión provoca dos corrientes con sentidos opuestos pero de cargas diferentes, por lo que no se anulan y crean una corriente aprovechable.
+
+Cuando la unión P-N está polarizada en inversa, es decir que el lado P tiene una tensión negativa, el potencial termodinámico aumenta y no circulará ninguna corriente aprovechable.
+
+Los procesos de generación de corriente en la unión P-N pueden resumirse en la ecuación de Shockley \ref{eq:shockley} que define la corriente generada por un diodo. El diodo es el dispositivo electrónico que se basa en el funcionamiento teórico de la unión P-N. En \ref{eq:shockley} $I_0$ es la corriente de saturación del diodo en oscuridad, $V$ la tensión aplicada y $m$ un factor para ajustar al funcionamiento real y $V_T$ el potencial térmico.
+
+\begin{equation}
+  I_{D}=I_0\cdot [e^{{V}\over {m\cdot {V_{T}}}}-1]
+\label{eq:shockley}
+\end{equation}
+
+Cuando la unión P-N es iluminada, la energía de la luz incidente puede ser absorbida por los electrones del semiconductor que pasan entonces  a la banda de conducción, por el fotoeléctrico. En este proceso, se producen portadores de carga, pares electrón-hueco que son conducidos por el campo eléctrico de la unión generando una corriente. Esta corriente puede denominarse ``fotocorriente'',$I_L$, y será de sentido opuesto a la corriente del diodo.
+
+La ecuación \ref{eq:Isolar} determina la corriente genearada por una célula solar iluminada:
+
+\begin{equation}
+  I=I_L - I_0\cdot [e^{{V}\over {m\cdot {V_{T}}}}-1]
+\label{eq:Isolar}
+\end{equation}
+
+La fotocorriente generada dependerá en primer lugar de la energía de la luz incidente. Si su frecuencia tiene es demasiado baja, la luz no tendrá la energía suficiente para romper enlaces y atravesará el material sin ser absorbido. Por ello, no toda la luz incidente será aprovechable para generar corriente, sino que existirán pérdidas por transmisión, así como otras pérdidas por reflexión o recombinación de algunos de los portadores.
+
+\subsection{Photovoltaic system}
+Un sistema fotovoltaico transforma radiación en energía eléctrica.
+\subsection{history,  evolution and future perspectives} 
 \section{Links between climate and renewable energy}
 
 El sector energético en general y las tecnologías renovables en particular son altamente dependientes del estado de la atmósfera. La cantidad de recurso disponible en cada momento determinará, no sólo la energía final que podemos generar con las distintas tecnologías (eólica, fotovoltaica etc.), sino en muchos casos, afectará a la demanda eléctrica en situaciones meorológicas de (por ejemplo) olas de frío o extremo calor. Por ello el mercado energético y los diferentes agentes del sector, así como la necesidad de que la generación y la demanda eléctrica estén balanceadas en todo momento, necesitan de información meteorológica de alta calidad y resolución. Con ello será posible establecer y predecir la cantidad de energía que se puede generar con cada tecnología renovable. 
@@ -139,6 +177,7 @@ Con la creciente demanda de información por parte del sector energético de pre
 %\section{Resource assessment}
 \section{Climate change and the Mediterranean area}
 
+It is 
 \section{General scientific question: spatiotemporal behaviour of solar resource and photovoltaic production}
 \section{Organization of the manuscript}
 % \section{General scientific question: spatiotemporal variability of solar resource and photovoltaic production}
