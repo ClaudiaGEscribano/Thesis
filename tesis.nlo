@@ -1,30 +1,30 @@
-\nomenclatureentry{G$G(0)$@[{$G(0)$}]\begingroup Global irradiance on the horizontal plane.\nomeqref {4.4}|nompageref}{26}
-\nomenclatureentry{Gd$G_{d}(0)$@[{$G_{d}(0)$}]\begingroup Daily global irradiation on the horizontal plane.\nomeqref {4.4}|nompageref}{26}
-\nomenclatureentry{D$D(0)$@[{$D(0)$}]\begingroup Diffuse irradiance on the horizontal plane.\nomeqref {4.4}|nompageref}{26}
-\nomenclatureentry{Dd$D_{d}(0)$@[{$D_{d}(0)$}]\begingroup Daily diffuse irradiation on the horizontal plane.\nomeqref {4.4}|nompageref}{26}
-\nomenclatureentry{B$B(0)$@[{$B(0)$}]\begingroup Direct (beam) irradiance on the horizontal plane.\nomeqref {4.4}|nompageref}{26}
-\nomenclatureentry{Bd$B_{d}(0)$@[{$B_{d}(0)$}]\begingroup Daily direct (beam) irradiation on the horizontal plane.\nomeqref {4.4}|nompageref}{26}
-\nomenclatureentry{Ktd$K_{Td}$@[{$K_{Td}$}]\begingroup Clearness index.\nomeqref {4.8}|nompageref}{26}
-\nomenclatureentry{Fd$F_{D,d}$@[{$F_{D,d}$}]\begingroup Diffuse fraction.\nomeqref {4.8}|nompageref}{26}
-\nomenclatureentry{B0$B_0(0)$@[{$B_0(0)$}]\begingroup Direct (beam) extra-terrestrial irradiation.\nomeqref {4.8}|nompageref}{26}
-\nomenclatureentry{B0d$B_{0d}(0)$@[{$B_{0d}(0)$}]\begingroup Daily direct (beam) irradiation.\nomeqref {4.8}|nompageref}{26}
-\nomenclatureentry{P_out$P_{out}$@[{$P_{out}$}]\begingroup Power output from the photovoltaic module\nomeqref {4.9}|nompageref}{27}
-\nomenclatureentry{Im$I_m$@[{$I_m$}]\begingroup Intensity from the photovoltaic module\nomeqref {4.9}|nompageref}{27}
-\nomenclatureentry{Vm$V_m$@[{$V_m$}]\begingroup Voltage of a photovoltaic module\nomeqref {4.9}|nompageref}{27}
-\nomenclatureentry{T_c$T_c$@[{$T_c$}]\begingroup Cell temperature\nomeqref {4.10}|nompageref}{27}
-\nomenclatureentry{T_a$T_a$@[{$T_a$}]\begingroup Ambient temperature\nomeqref {4.10}|nompageref}{27}
-\nomenclatureentry{G_ef$G_{ef}$@[{$G_{ef}$}]\begingroup Global effective irradiation\nomeqref {4.10}|nompageref}{27}
-\nomenclatureentry{Pinv$P_{inv}$@[{$P_{inv}$}]\begingroup Nominal   power of the inverter\nomeqref {4.11}|nompageref}{27}
-\nomenclatureentry{po$p_{o}$@[{$p_{o}$}]\begingroup Normalized output power of a inverter\nomeqref {4.11}|nompageref}{27}
-\nomenclatureentry{kinv$k_{i}^{o}$@[{$k_{i}^{o}$}]\begingroup Coefficients of the   efficiency curve of a inverter\nomeqref {4.11}|nompageref}{27}
-\nomenclatureentry{J$J$@[{$J$}]\begingroup Objective function of the Kmeans clustering method: summation over euclidean distances\nomeqref {5.1}|nompageref}{40}
-\nomenclatureentry{x_i$x_i$@[{$x_i$}]\begingroup Each point in the cluster, where the point is a vector with elements comprising the daily irradiation time series values at a pixel obtained from satellite images \nomeqref {5.1}|nompageref}{40}
-\nomenclatureentry{c_j$c_j$@[{$c_j$}]\begingroup Centroid of the cluster j\nomeqref {5.1}|nompageref}{40}
-\nomenclatureentry{PV$PV$@[{$PV$}]\begingroup Photovoltaic\nomeqref {5.1}|nompageref}{40}
-\nomenclatureentry{IP$IP$@[{$IP$}]\begingroup Iberian Peninsula\nomeqref {5.1}|nompageref}{40}
-\nomenclatureentry{k$k$@[{$k$}]\begingroup number of clusters.\nomeqref {5.2}|nompageref}{40}
-\nomenclatureentry{c$c$@[{$c$}]\begingroup number of clusters where the 2 fit-lines split.\nomeqref {5.2}|nompageref}{40}
-\nomenclatureentry{CH$CH$@[{$CH$}]\begingroup Calinski-Harabasz validity index.\nomeqref {5.2}|nompageref}{40}
-\nomenclatureentry{RMSET$RMSE_T$@[{$RMSE_T$}]\begingroup Total root mean square error\nomeqref {5.2}|nompageref}{40}
-\nomenclatureentry{RMSEleft$RMSE_{left}$@[{$RMSE_{left}$}]\begingroup Root mean squared error of the left-side linear regression.\nomeqref {5.2}|nompageref}{40}
-\nomenclatureentry{RMSErigth$RMSE_{right}$@[{$RMSE_{right}$}]\begingroup Root mean squared error of the right-side linear regression.\nomeqref {5.2}|nompageref}{40}
+\nomenclatureentry{G$G(0)$@[{$G(0)$}]\begingroup Global irradiance on the horizontal plane.\nomeqref {4.4}|nompageref}{28}
+\nomenclatureentry{Gd$G_{d}(0)$@[{$G_{d}(0)$}]\begingroup Daily global irradiation on the horizontal plane.\nomeqref {4.4}|nompageref}{28}
+\nomenclatureentry{D$D(0)$@[{$D(0)$}]\begingroup Diffuse irradiance on the horizontal plane.\nomeqref {4.4}|nompageref}{28}
+\nomenclatureentry{Dd$D_{d}(0)$@[{$D_{d}(0)$}]\begingroup Daily diffuse irradiation on the horizontal plane.\nomeqref {4.4}|nompageref}{28}
+\nomenclatureentry{B$B(0)$@[{$B(0)$}]\begingroup Direct (beam) irradiance on the horizontal plane.\nomeqref {4.4}|nompageref}{28}
+\nomenclatureentry{Bd$B_{d}(0)$@[{$B_{d}(0)$}]\begingroup Daily direct (beam) irradiation on the horizontal plane.\nomeqref {4.4}|nompageref}{28}
+\nomenclatureentry{Ktd$K_{Td}$@[{$K_{Td}$}]\begingroup Clearness index.\nomeqref {4.8}|nompageref}{28}
+\nomenclatureentry{Fd$F_{D,d}$@[{$F_{D,d}$}]\begingroup Diffuse fraction.\nomeqref {4.8}|nompageref}{28}
+\nomenclatureentry{B0$B_0(0)$@[{$B_0(0)$}]\begingroup Direct (beam) extra-terrestrial irradiation.\nomeqref {4.8}|nompageref}{28}
+\nomenclatureentry{B0d$B_{0d}(0)$@[{$B_{0d}(0)$}]\begingroup Daily direct (beam) irradiation.\nomeqref {4.8}|nompageref}{28}
+\nomenclatureentry{P_out$P_{out}$@[{$P_{out}$}]\begingroup Power output from the photovoltaic module\nomeqref {4.9}|nompageref}{29}
+\nomenclatureentry{Im$I_m$@[{$I_m$}]\begingroup Intensity from the photovoltaic module\nomeqref {4.9}|nompageref}{29}
+\nomenclatureentry{Vm$V_m$@[{$V_m$}]\begingroup Voltage of a photovoltaic module\nomeqref {4.9}|nompageref}{29}
+\nomenclatureentry{T_c$T_c$@[{$T_c$}]\begingroup Cell temperature\nomeqref {4.10}|nompageref}{29}
+\nomenclatureentry{T_a$T_a$@[{$T_a$}]\begingroup Ambient temperature\nomeqref {4.10}|nompageref}{29}
+\nomenclatureentry{G_ef$G_{ef}$@[{$G_{ef}$}]\begingroup Global effective irradiation\nomeqref {4.10}|nompageref}{29}
+\nomenclatureentry{Pinv$P_{inv}$@[{$P_{inv}$}]\begingroup Nominal   power of the inverter\nomeqref {4.11}|nompageref}{29}
+\nomenclatureentry{po$p_{o}$@[{$p_{o}$}]\begingroup Normalized output power of a inverter\nomeqref {4.11}|nompageref}{29}
+\nomenclatureentry{kinv$k_{i}^{o}$@[{$k_{i}^{o}$}]\begingroup Coefficients of the   efficiency curve of a inverter\nomeqref {4.11}|nompageref}{29}
+\nomenclatureentry{J$J$@[{$J$}]\begingroup Objective function of the Kmeans clustering method: summation over euclidean distances\nomeqref {5.1}|nompageref}{42}
+\nomenclatureentry{x_i$x_i$@[{$x_i$}]\begingroup Each point in the cluster, where the point is a vector with elements comprising the daily irradiation time series values at a pixel obtained from satellite images \nomeqref {5.1}|nompageref}{42}
+\nomenclatureentry{c_j$c_j$@[{$c_j$}]\begingroup Centroid of the cluster j\nomeqref {5.1}|nompageref}{42}
+\nomenclatureentry{PV$PV$@[{$PV$}]\begingroup Photovoltaic\nomeqref {5.1}|nompageref}{42}
+\nomenclatureentry{IP$IP$@[{$IP$}]\begingroup Iberian Peninsula\nomeqref {5.1}|nompageref}{42}
+\nomenclatureentry{k$k$@[{$k$}]\begingroup number of clusters.\nomeqref {5.2}|nompageref}{42}
+\nomenclatureentry{c$c$@[{$c$}]\begingroup number of clusters where the 2 fit-lines split.\nomeqref {5.2}|nompageref}{42}
+\nomenclatureentry{CH$CH$@[{$CH$}]\begingroup Calinski-Harabasz validity index.\nomeqref {5.2}|nompageref}{42}
+\nomenclatureentry{RMSET$RMSE_T$@[{$RMSE_T$}]\begingroup Total root mean square error\nomeqref {5.2}|nompageref}{42}
+\nomenclatureentry{RMSEleft$RMSE_{left}$@[{$RMSE_{left}$}]\begingroup Root mean squared error of the left-side linear regression.\nomeqref {5.2}|nompageref}{42}
+\nomenclatureentry{RMSErigth$RMSE_{right}$@[{$RMSE_{right}$}]\begingroup Root mean squared error of the right-side linear regression.\nomeqref {5.2}|nompageref}{42}
