@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.11.2)  29 NOV 2018 10:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.11.2)  29 NOV 2018 17:42
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -4165,54 +4165,60 @@ n-tras, otros pasar·n de-sapercibidos
 
 [3
 
-] [4] [5]
+]
+Overfull \hbox (18.85199pt too wide) in paragraph at lines 68--69
+\T1/futs/m/n/10 au-mento de la de-manda en-ergÈtica y cri-sis medioam-bi-en-tal
+, es nece-sario un cam-bio de paradigma.
+ []
 
-./Intro.tex:184: Package xcolor Error: Undefined color `grey'.
+[4] [5]
+
+./Intro.tex:187: Package xcolor Error: Undefined color `grey'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.184 ...a ecuaci√≥n de Shockley \ref{eq:shockley}
+l.187 ...a ecuaci√≥n de Shockley \ref{eq:shockley}
                                                    que define la corriente g...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Intro.tex:184: Package xcolor Error: Undefined color `grey'.
+./Intro.tex:187: Package xcolor Error: Undefined color `grey'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.184 ...co de la uni√≥n P-N. En \ref{eq:shockley}
+l.187 ...co de la uni√≥n P-N. En \ref{eq:shockley}
                                                    $I_0$ es la corriente de ...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Intro.tex:186: Package xcolor Error: Undefined color `grey'.
+./Intro.tex:189: Package xcolor Error: Undefined color `grey'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.186 ...n the Shockley equation \ref{eq:shockley}
+l.189 ...n the Shockley equation \ref{eq:shockley}
                                                    that defines the current ...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Intro.tex:186: Package xcolor Error: Undefined color `grey'.
+./Intro.tex:189: Package xcolor Error: Undefined color `grey'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.186 ...the P-N functioning. In \ref{eq:shockley}
+l.189 ...the P-N functioning. In \ref{eq:shockley}
                                                    $I_0$  is the saturation ...
 
 Try typing  <return>  to proceed.
@@ -4221,17 +4227,17 @@ If that doesn't work, type  X <return>  to quit.
 
 Package amsmath Warning: Foreign command \over;
 (amsmath)                \frac or \genfrac should be used instead
-(amsmath)                 on input line 190.
+(amsmath)                 on input line 193.
 
 [6]
 
-./Intro.tex:202: Package xcolor Error: Undefined color `grey'.
+./Intro.tex:205: Package xcolor Error: Undefined color `grey'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.202 The equation \ref{eq:Isolar}
+l.205 The equation \ref{eq:Isolar}
                                    determine the generated current by an ilu...
 
 Try typing  <return>  to proceed.
@@ -4240,25 +4246,25 @@ If that doesn't work, type  X <return>  to quit.
 <figs/esquema.pdf, id=329, 730.64969pt x 435.7881pt>
 File: figs/esquema.pdf Graphic file (type pdf)
  <use figs/esquema.pdf>
-Package pdftex.def Info: figs/esquema.pdf used on input line 230.
+Package pdftex.def Info: figs/esquema.pdf used on input line 240.
 (pdftex.def)             Requested size: 232.17685pt x 138.47754pt.
 
-[7] [8 <./figs/esquema.pdf>]
+[7]
 
-./Intro.tex:249: Package xcolor Error: Undefined color `grey'.
+./Intro.tex:268: Package xcolor Error: Undefined color `grey'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.249 ...bservarse en la figure \ref{fig:feedback}
+l.268 ...bservarse en la figure \ref{fig:feedback}
                                                   , los procesos de interacc...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[9]
-Overfull \hbox (0.63188pt too wide) in paragraph at lines 288--289
+[8 <./figs/esquema.pdf>] [9]
+Overfull \hbox (0.63188pt too wide) in paragraph at lines 310--311
 []\T1/futs/m/n/10 En el primer capÌ-tulo de re-sul-ta-dos se analizar· una es-t
 rate-gia para re-gion-alizar una unidad
  []
@@ -8823,9 +8829,15 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 72.
 (./Resultados.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 72.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 72.
-Package rerunfilecheck Info: File `tesis.out' has not changed.
-(rerunfilecheck)             Checksum: F59DD7D68A594A827AC96A7C76E3DD47;9494.
 
+
+Package rerunfilecheck Warning: File `tesis.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `tesis.out':
+(rerunfilecheck)             Before: F59DD7D68A594A827AC96A7C76E3DD47;9494
+(rerunfilecheck)             After:  2D98571E6F1492F893D8BCA62CEF5948;9494.
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 3.35835pt have occurred.
@@ -8866,7 +8878,7 @@ fonts/type1/adobe/utopia/putr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/
 adobe/utopia/putri8a.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1000
 .pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/s
 hare/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on tesis.pdf (106 pages, 52566208 bytes).
+Output written on tesis.pdf (106 pages, 52565812 bytes).
 PDF statistics:
  1909 PDF objects out of 2073 (max. 8388607)
  1627 compressed objects within 17 object streams
