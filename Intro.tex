@@ -209,11 +209,32 @@ The equation \ref{eq:Isolar} determine the generated current by an iluminated so
 
 %La fotocorriente generada dependerá en primer lugar de la energía de la luz incidente. Si su frecuencia tiene es demasiado baja, la luz no tendrá la energía suficiente para romper enlaces y atravesará el material sin ser absorbido. Por ello, no toda la luz incidente será aprovechable para generar corriente, sino que existirán pérdidas por transmisión, así como otras pérdidas por reflexión o recombinación de algunos de los portadores.
 
-The generated phtotocurrent will depend in the first place on the energy of the incident ligth. If its frequency is not high enpugh, the ligth will not be able to break bonds and it will go trough the cristal without being absorbed. Due to that not all the ligth can be usable to generate current and it will exist some loses of transmission, eflection and recombination of some of the carriers.
+The generated phtotocurrent will depend in the first place on the energy of the incident ligth. If its frequency is not high enough, the ligth will not be able to break bonds and it will go trough the cristal without being absorbed. Due to that not all the ligth can be usable to generate current and it will exist some loses of transmission, reflection and recombination of some of the carriers.
 
-\subsection{Photovoltaic system}
+The equivalent equation of solar cell that makes possible to model its behaviour is based on a current generator and a diode. It can be described by the next equation:
 
-Un sistema fotovoltaico transforma radiación en energía eléctrica.
+\begin{equation}
+  I=I_{sc}[1-exp({\frac{V-V_{oc}+I\cdot R_s}{m\cdot V_T}})
+\label{eq:Ieq}
+\end{equation}
+
+Where $I_{sc}$ is the \textit{short-circuit} current, obtain when the voltage applied to the junction is 0:
+
+\begin{equation}
+  I_{sc}=I(V=0)=I_L
+\label{eq:Isc}
+\end{equation}
+
+In addition, if we apply the condition of \textit{open circuit} to the solar cell equation (I=0):
+
+\begin{equation}
+  V_{oc}=V(I=0)=m\cdot {\frac{k\cdot T_c}{e}}\cdot ln({\frac{I_L}{I_0}}+1)
+\label{eq:Voc}
+\end{equation}
+
+Finally $R_s$ in \ref{eq:Ieq} represents the resistance due to semiconductor material and the metallic contacs.
+
+% \subsection{Photovoltaic system}
 
 \section{Links between climate and renewable energy}
 
@@ -289,7 +310,7 @@ It is relevant to say that coventional power plants can get profit of the climat
 
 %El sistema climático ha variado continuamente y de manera significativa a lo largo de la historia de la Tierra. Las variaciones del clima puede explicarse debido a factores o forzamientos externos y la respuesta del sistema climático a los mismos o, por otro lado, puede ser la causa de inestabilidades internas y relaciones no lineales entre los distintos componentes del sistema.
 
-Climate system has varied constantly and significantly along the Earth history. Climate variability can be explained due to external factors and the response of climate system to them  or on the other hand, it can be due to the internal inestabilities and non-linear relationship betwen different components of the system.
+Climate system has varied constantly and significantly along the Earth history. Climate variability can be explained due to external factors and the response of climate system to them or on the other hand, it can be due to the internal inestabilities and non-linear relationship betwen different components of the system, the last ones occur independently of the external forcings.
 
 %Los distintos forzamientos de origen externo pueden ser factores astronómicos, como los cambios en la intensidad de la radiación solar o en los parámetros orbitales, o bien, factores terrestres como la composición de la atmósfera debido a la actividad humana, cambios en la superficie terrestre debido al uso de la misma etc.
 
@@ -297,31 +318,31 @@ Different external forcings can be astronomic factors, like changes on the inten
 
 %Algunas variaciones del sistema climático ocurren de manera independiente de los forzamientos externos. Estas variaciones tienen su origen en las distintas interacciones no lineales entre los componentes del sistema climático y dan como resultado la variabilidad natural del sistema climático. 
 
-Some variations of the climate system happens independently of the external forcings. These variations have their origin on different no-linear interactions between different components od climate system and the result is the natural variability of the climate system.
+%Some variations of the climate system happen independently of the external forcings. These variations have their origin on different no-linear interactions between different components of climate system and the result is the natural variability of the climate system.
 
 %Desde la revolución industrial la Tierra ha experimentado un aumento de la temperatura global que no es posible explicar mediante los forzamientos externos 'naturales'  del clima como cambios en la actividad solar o en las emisiones volcánicas (Bindoff et al, 2013), ni forma parte de la variabilidad natural del sistema. El IPCC en su último informe, asegura que la actividad humana y en concreto las emisiones de efecto invernadero generadas desde la Revolución Industrial (1850) son responsables del cambio climático que ha generado el ascenso de temperatura global y que ha hecho que probablemente los 30 años entre 1983-2012 hayan sido los más cálidos en los últimos 1400 años en el hemisferio norte (IPCC). A pesar de la marcada variabilidad interanual (Stocker et al. 2013), el aumento de temperatura con caracter global en las últimas décadas es evidente. [ref de observaciones globales]
 
-Since the Industrial Revolution the Earth has experimented an increase in the global temperature that cannot be explained due to natural external forcings like changes on solar activity or volcanic emissions (Bindoff et al, 2013), either it is not part of natural variability of the system. The IPCC in its last report, assure that human activity and more precisely, GHG emissions generated since 1850 are responsible of the climate change that caus ethe increase in global temperature and has made that probably the last 30 years between 1983-2012 have been the warmer in the last 1400 years in the northern hemisphere (IPCC). In spite of the large interannual variability (Stocker et al 2013), the global character of the temperature increase in last decades is clear.[ref de observaciones globales].
+Since the Industrial Revolution the Earth has experimented an increase in the global temperature that cannot be explained due to natural external forcings like changes on solar activity or volcanic emissions (Bindoff et al, 2013), either it cannot be explained as part of the internal variability of the system. The IPCC in its last report, assure that human activity and more precisely, GHG emissions generated since 1850 are responsible of the climate change that causes the increase in global temperature and has made that probably the last 30 years between 1983-2012 have been the warmer in the last 1400 years in the northern hemisphere (IPCC). In spite of the large interannual variability (Stocker et al 2013), the global character of the temperature increase in last decades is clear.[ref de observaciones globales].
 
 %Las consecuencias del aumento de temperatura desde un punto de vista físico dependen de la sensibilidad del sistema a los cambios en la concentración de gases de efecto invernadero. Son numerosos los estudios [ref] que se han realizado para intentar cuantificar el impacto que este aumento de temperatura puede tener en los distintos subsistemas a través de los diferentes mecanísmos de retroalimentación que pueden generarse.
 
-A pesar de la característica global del cambio climático, sus consecuencias e impactos son percibidos a escala local y regional. Estos impactos afectan a comunidades y poblaciones de manera desigual dependiendo de su capacidad de adaptación y resilencia. Por ello, la respuesta desde un punto de vista socio-económico para mitigar estos efectos, tiene que venir dada en esta escala, aunque exista consenso sobre la urgencia de actuación y se adopten compromisos comunes.
+%A pesar de la característica global del cambio climático, sus consecuencias e impactos son percibidos a escala local y regional. Estos impactos afectan a comunidades y poblaciones de manera desigual dependiendo de su capacidad de adaptación y resilencia. Por ello, la respuesta desde un punto de vista socio-económico para mitigar estos efectos, tiene que venir dada en esta escala, aunque exista consenso sobre la urgencia de actuación y se adopten compromisos comunes.
 
-Despite of the fact that climate change is global concept, its consequencies and impacts are percibed in a local and regional scale. These impacts afect comunities and population
+Despite of the fact that climate change is global concept, its consequencies and impacts are percibed in a local and regional scale. These impacts afect comunities and population unequally depending on its adaptation capabilities and resilence. Due to that, the socio-economic response to mitigate climate change impacts has to be applied in that scale although it should be a consensus on the urgency and some common compromises hava to be addopted.
 
-Uno de los primeros trabajos que intentaba cuantificar el impacto del cambio climático a escala local fue el de Giorgi et. al 2006. En este trabajo, se utilizaba por primera vez un índice (RCCI) para medir de forma cuantitativa y compara geográficamente las zonas más afectadas por el CC. En este aspecto, el trabajo estaba enfocado desde un punto de vista climático, es decir, el índice mide la sensibilidad del clima en esa zona. En este sentido, el Mediterráneo aparecía como una de las zonas más afectadas y desde entonces ha sido denominado como un hot-spot de CC.
+%Uno de los primeros trabajos que intentaba cuantificar el impacto del cambio climático a escala local fue el de Giorgi et. al 2006. En este trabajo, se utilizaba por primera vez un índice (RCCI) para medir de forma cuantitativa y compara geográficamente las zonas más afectadas por el CC. En este aspecto, el trabajo estaba enfocado desde un punto de vista climático, es decir, el índice mide la sensibilidad del clima en esa zona. En este sentido, el Mediterráneo aparecía como una de las zonas más afectadas y desde entonces ha sido denominado como un hot-spot de CC.
 
-Los ensembles de modelos climáticos proyectan escenarios en los que las principales consecuencias del calentamiento global en el área Mediterránea son un descenso generalizado de las precipitaciones, debido a un aumento de la circulación anticiclónica asociada a un desplazamiento hacia el norte de ``Atlantic storm track''. Las temperaturas proyectadas son inusualmente altas con un ascenso especialmente alto en los meses de verano.
+One of the first works on quantification of climate change impacts in a regional scale was the one published by Giorgi et. al in 2006. They used for the first time an index, RCCI, that measured and compare geographically the climate sensitivity of different areas to climate change. The conclusion of the research showed that the Mediterranean area was the most affected area in terms of climate response to climate change, and since then it has been refered to as a climate change hot-spot.
 
+%Los ensembles de modelos climáticos proyectan escenarios en los que las principales consecuencias del calentamiento global en el área Mediterránea son un descenso generalizado de las precipitaciones, debido a un aumento de la circulación anticiclónica asociada a un desplazamiento hacia el norte de ``Atlantic storm track''. Las temperaturas proyectadas son inusualmente altas con un ascenso especialmente alto en los meses de verano.
+
+The climate models ensemble projects scenarios in which the main consequencies of global warming in the Mediterranean area are a generalized decrease of precipitations (with the exception of some areas like the Alps), due to an increase in the anticiclonic circulation, that is associated with a northward shift of the Atlantic storm track [ref]. Also it is projected an increase in interanual variability of temperature and precipitation, mostly in the warm season [ref]. In terms of extreme events, it is also projected less frequent but more intense precipitation events and with respect of temperature, some authors have evaluated the probability of an increase in heatwaves over the Mediterranean area [ref].   
 
 \section{Objectives and scientific questions}%General scientific question: spatiotemporal behaviour of solar resource and photovoltaic production}
 
-Tras esta introducción se puede definir el principal objetivo de esta tesis que se enmarca en un contexto de cambio y transición energética en el que el uso de la tecnología fotovoltaica no ha parado de crecer y los distintos escenarios indican que continuará creciento en un futuro. La varibilidad de los recursos energéticos renovables es una de las principales dificultades en su integración masiva en los sistemas actuales de generación eléctrica, y el impacto de esta varibilidad en escalas climáticas no ha sido estudiado en detalle.
+The main objective of this work, after being introduced the framework, is to analyse the long-term characteristics of solar resource and photovoltaic production in a relevant area, the Mediterranean region. On one hand, most of the Mediterranean region has high potential of solar resource, which makes the area suitable for its deployment. On the other hand, from the elctrical point of view, Europe is well interconnected, which is important for the development of distributed energy. In addition, due to the specially high sensitivity to climate change of the Mediterranean area and the increase in renewable energy generation it becomes an important matter.
 
-Main objective of this thesis relate resource climate scales
-
-
-El objetivo será determinar las características espacio-temporales del recurso solar en el área Mediterránea y del potencial o productividad fotovoltaico en escalas climáticas además de determinar el papel de los aerosoles en estas características. Se distinguen 3 capítulos que tratan desde distintas perspectivas este tema.
+We approach the problem in three different chapters. Each one analyses a key aspect of the long-term features of solar resource and photovoltaic production and it is made using different approaches.
 
 En el primer capítulo de resultados se analizará una estrategia para regionalizar una unidad geográfica con coherencia desde el punto de vista eléctrico en fucnión de sus características climáticas. En concreto se estudia la Península Ibérica por ser un sistema ``casi aislado'' de manera natural por las dificultades de interconexión con el resto del continente Europeo. 
 
@@ -353,6 +374,10 @@ Finally the fourth part contains a chapter with the main conclusions of the thes
 
 
 \chapter{State of knowdlege\label{cha:state}}
+
+\epigraphfontsize{\small\itshape}
+\epigraph{''Empecemos con los sistemas más simples y de más fácil discernimiento para ascender después gradualmente a la comprensión de los más complejos.''}{--- \textup{René Descartes}, Le Discours de la Méthode}
+
 \section{Intermittency of PV}
 \section{Variability sources in PV}
 \section{From short to long term issues}
