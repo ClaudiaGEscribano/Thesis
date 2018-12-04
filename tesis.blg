@@ -17,30 +17,31 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated field_info (elt_size=4) to 16259 items from 5000.
+Reallocated field_info (elt_size=4) to 16537 items from 5000.
 Database file #1: tesis-blx.bib
 Database file #2: Data.bib
-Repeated entry---line 115 of file Data.bib
+Repeated entry---line 116 of file Data.bib
  : @article{Bergin2017
  :                    ,
 I'm skipping whatever remains of this entry
 Reallocated str_pool (elt_size=1) to 130000 items from 65000.
-Repeated entry---line 778 of file Data.bib
+Repeated entry---line 807 of file Data.bib
  : @article{Nabat2014
  :                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 877 of file Data.bib
+Repeated entry---line 906 of file Data.bib
  : @article{Lamigueiro2012
  :                        ,
 I'm skipping whatever remains of this entry
 Warning--I'm ignoring Sanchez-Lorenzo2013's extra "keywords" field
---line 1018 of file Data.bib
+--line 1047 of file Data.bib
 Warning--I'm ignoring Sanchez-Lorenzo2013's extra "keywords" field
---line 1019 of file Data.bib
+--line 1048 of file Data.bib
 Warning--I'm ignoring Sanchez-Lorenzo2013's extra "keywords" field
---line 1020 of file Data.bib
+--line 1049 of file Data.bib
 Warning--I'm ignoring Sanchez-Lorenzo2013's extra "keywords" field
---line 1021 of file Data.bib
+--line 1050 of file Data.bib
+Reallocated str_pool (elt_size=1) to 195000 items from 130000.
 Warning--I didn't find a database entry for "garcia2005caracterizacion"
 Warning--I didn't find a database entry for "jantsch1992results"
 Warning--I didn't find a database entry for "5694060"
@@ -50,48 +51,47 @@ Warning--I didn't find a database entry for "deMiguel2001"
 Warning--I didn't find a database entry for "Gopinathan1995"
 Warning--I didn't find a database entry for "Martin1999"
 Biblatex version: 3.3
-Reallocated str_pool (elt_size=1) to 195000 items from 130000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
-You've used 73 entries,
+You've used 75 entries,
             6047 wiz_defined-function locations,
-            1850 strings with 131191 characters,
-and the built_in function-call counts, 310414 in all, are:
-= -- 10180
-> -- 10721
-< -- 2532
-+ -- 3966
-- -- 5076
-* -- 33471
-:= -- 19465
+            1867 strings with 133644 characters,
+and the built_in function-call counts, 316767 in all, are:
+= -- 10384
+> -- 10912
+< -- 2595
++ -- 4011
+- -- 5149
+* -- 34037
+:= -- 19819
 add.period$ -- 0
-call.type$ -- 73
-change.case$ -- 1183
-chr.to.int$ -- 57
-cite$ -- 144
-duplicate$ -- 37072
-empty$ -- 31361
-format.name$ -- 9550
-if$ -- 65729
+call.type$ -- 75
+change.case$ -- 1209
+chr.to.int$ -- 58
+cite$ -- 148
+duplicate$ -- 37841
+empty$ -- 32081
+format.name$ -- 9690
+if$ -- 67142
 int.to.chr$ -- 0
-int.to.str$ -- 168
+int.to.str$ -- 172
 missing$ -- 0
-newline$ -- 4445
-num.names$ -- 3526
-pop$ -- 24550
+newline$ -- 4517
+num.names$ -- 3616
+pop$ -- 25192
 preamble$ -- 1
-purify$ -- 1598
+purify$ -- 1625
 quote$ -- 0
-skip$ -- 15381
+skip$ -- 15712
 stack$ -- 0
-substring$ -- 4624
-swap$ -- 13997
-text.length$ -- 2685
-text.prefix$ -- 181
+substring$ -- 4697
+swap$ -- 14289
+text.length$ -- 2746
+text.prefix$ -- 185
 top$ -- 1
-type$ -- 2762
+type$ -- 2838
 warning$ -- 0
-while$ -- 1544
+while$ -- 1584
 width$ -- 0
-write$ -- 4371
+write$ -- 4441
 (There were 3 error messages)

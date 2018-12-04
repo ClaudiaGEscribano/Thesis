@@ -17,10 +17,11 @@
 \contentsline {section}{\numberline {1.6}Objectives and scientific questions}{10}{section.1.6}
 \contentsline {section}{\numberline {1.7}Organization of the manuscript}{10}{section.1.7}
 \contentsline {chapter}{\chapternumberline {2}State of knowdlege}{11}{chapter.2}
-\contentsline {section}{\numberline {2.1}Intermittency of PV}{11}{section.2.1}
-\contentsline {section}{\numberline {2.2}Variability sources in PV}{11}{section.2.2}
-\contentsline {section}{\numberline {2.3}From short to long term issues}{11}{section.2.3}
-\contentsline {section}{\numberline {2.4}Climate Change perspectives for solar resource and photovoltaic potential}{11}{section.2.4}
+\contentsline {section}{\numberline {2.1}Variable renewable energies: VRE}{11}{section.2.1}
+\contentsline {section}{\numberline {2.2}Photovolatic power forecasting}{12}{section.2.2}
+\contentsline {section}{\numberline {2.3}Variability sources in PV}{12}{section.2.3}
+\contentsline {section}{\numberline {2.4}From short to long term issues}{12}{section.2.4}
+\contentsline {section}{\numberline {2.5}Climate Change perspectives for solar resource and photovoltaic potential}{12}{section.2.5}
 \contentsline {part}{\partnumberline {II}Data \& Methods}{13}{part.2}
 \contentsline {chapter}{\chapternumberline {3}Data}{15}{chapter.3}
 \contentsline {section}{\numberline {3.1}Solar radiation measurements: \textit {Baseline Surface Radiation Network, BSRN}}{15}{section.3.1}

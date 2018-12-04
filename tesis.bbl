@@ -2762,6 +2762,44 @@
   \warn{\item Invalid format of field 'month'}
 \endentry
 
+\entry{KROPOSKI2017}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {KROPOSKI}{K.}%
+     {Benjamin}{B.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{KB1}
+  \strng{fullhash}{KB1}
+  \field{labelalpha}{KRO17}
+  \field{sortinit}{K}
+  \field{abstract}{%
+  As more variable renewable energy (VRE) such as wind and solar are integrated
+  into electric power systems, technical challenges arise from the need to
+  maintain the balance between load and generation at all timescales. This
+  paper examines the challenges with integrating ultra-high levels of VRE into
+  electric power system, reviews a range of solutions to these challenges, and
+  provides a description of several examples of ultra-high VRE systems that are
+  in operation today.%
+  }
+  \verb{doi}
+  \verb 10.1007/s40565-017-0339-3
+  \endverb
+  \field{issn}{2196-5420}
+  \field{number}{6}
+  \field{pages}{831\bibrangedash 837}
+  \field{title}{{Integrating high levels of variable renewable energy into
+  electric power systems}}
+  \verb{url}
+  \verb https://doi.org/10.1007/s40565-017-0339-3
+  \endverb
+  \field{volume}{5}
+  \field{journaltitle}{Journal of Modern Power Systems and Clean Energy}
+  \field{year}{2017}
+  \warn{\item Invalid format of field 'month'}
+\endentry
+
 \entry{Lelieveld}{article}{}
   \name{author}{1}{}{%
     {{}%
@@ -2829,6 +2867,68 @@
   \field{volume}{4}
   \field{journaltitle}{Solar Energy}
   \field{year}{1960}
+\endentry
+
+\entry{Lund2015}{misc}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Lund}{L.}%
+     {Peter~D.}{P.~D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lindgren}{L.}%
+     {Juuso}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Mikkola}{M.}%
+     {Jani}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Salpakari}{S.}%
+     {Jyri}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{Ancillary service,DSM,Electricity market,Energy storage,Energy system
+  flexibility,Smart grid}
+  \strng{namehash}{LPD+1}
+  \strng{fullhash}{LPDLJMJSJ1}
+  \field{labelalpha}{Lun+15}
+  \field{sortinit}{L}
+  \field{abstract}{%
+  The paper reviews different approaches, technologies, and strategies to
+  manage large-scale schemes of variable renewable electricity such as solar
+  and wind power. We consider both supply and demand side measures. In addition
+  to presenting energy system flexibility measures, their importance to
+  renewable electricity is discussed. The flexibility measures available range
+  from traditional ones such as grid extension or pumped hydro storage to more
+  advanced strategies such as demand side management and demand side linked
+  approaches, e.g. the use of electric vehicles for storing excess electricity,
+  but also providing grid support services. Advanced batteries may offer new
+  solutions in the future, though the high costs associated with batteries may
+  restrict their use to smaller scale applications. Different "P2Y"-type of
+  strategies, where P stands for surplus renewable power and Y for the energy
+  form or energy service to which this excess in converted to, e.g. thermal
+  energy, hydrogen, gas or mobility are receiving much attention as potential
+  flexibility solutions, making use of the energy system as a whole. To
+  "functionalize" or to assess the value of the various energy system
+  flexibility measures, these need often be put into an electricity/energy
+  market or utility service context. Summarizing, the outlook for managing
+  large amounts of RE power in terms of options available seems to be
+  promising.%
+  }
+  \field{booktitle}{Renewable and Sustainable Energy Reviews}
+  \verb{doi}
+  \verb 10.1016/j.rser.2015.01.057
+  \endverb
+  \field{isbn}{13640321}
+  \field{issn}{13640321}
+  \field{title}{{Review of energy system flexibility measures to enable high
+  levels of variable renewable electricity}}
+  \field{year}{2015}
 \endentry
 
 \entry{Mallet2016}{article}{}
