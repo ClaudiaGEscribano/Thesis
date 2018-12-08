@@ -534,6 +534,109 @@
   \field{year}{2017}
 \endentry
 
+\entry{Beluco2012}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Beluco}{B.}%
+     {Alexandre}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Kroeff de Souza}}{K.}%
+     {Paulo}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Krenzinger}{K.}%
+     {Arno}{A.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{Computational simulations,Energetic complementarity,Hybrid energy
+  plants,Hybrid hydro PV plants,Performance analysis,Software Matlab}
+  \strng{namehash}{BAKPKA1}
+  \strng{fullhash}{BAKPKA1}
+  \field{labelalpha}{BKK12}
+  \field{sortinit}{B}
+  \field{abstract}{%
+  The combination of hydroelectric and photovoltaic sources of energy in a
+  generation system may seem unfeasible due to the still quite high costs of
+  the photovoltaic plants. However in the next few decades, significant
+  reductions in those costs are to be expected. Moreover, this combination may
+  reduce the cost of plants implemented in low hydroelectric potential sites
+  for which main system interconnection costs prove prohibitive. The study of
+  hybrid hydro-PV generating plants allows the evaluation of the use of water
+  reservoirs and battery banks as alternatives for energy storage within a
+  system. It also allows the evaluation of the advantages of generation from
+  complementary energy sources. The objectives of this paper is to propose the
+  concept of a theoretical performance limit for the plants and propose a
+  method for the determination of this performance limit using computer
+  simulations with idealized energy availability functions. Using this method,
+  the effect of different degrees of complementarity in time of the energy
+  resources on the performance of hydro PV plants is studied. It has been
+  observed that, as expected, the smallest failure indexes measuring the energy
+  supply to the consumers are associated to the best complementarity in time
+  indexes. The results of the simulations led to the synthesis of failure index
+  curves, as functions of the different degrees of complementarity in time,
+  with data obtained solely with the utilization of idealized functions
+  describing the energy availabilities, as proposed in this work. The results
+  so obtained are a preliminary set treating the influence of the
+  complementarity characteristics on the performance of hybrid plants based on
+  hydro and solar energies and show how the complementarity characteristics may
+  be used to design hybrid power generation systems showing improved
+  efficiency. The subsequent research work shall proceed to at least two
+  different phases. In the first one, the method exposed in the present work
+  shall be applied to real data and compared to the operation of existing hydro
+  PV plants. In the second phase the obtained relations of the performance of
+  the system to the different degrees of complementarity shall be confronted
+  with design parameters of hydroelectric-photovoltaic plants based on
+  complementary resources. {\textcopyright} 2012 Elsevier Ltd.%
+  }
+  \verb{doi}
+  \verb 10.1016/j.renene.2012.01.096
+  \endverb
+  \field{isbn}{0960-1481}
+  \field{issn}{09601481}
+  \field{title}{{A method to evaluate the effect of complementarity in time
+  between hydro and solar energy on the performance of hybrid hydro PV
+  generating plants}}
+  \field{journaltitle}{Renewable Energy}
+  \field{year}{2012}
+\endentry
+
+\entry{bacher2009}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Bacher}{B.}%
+     {Peder}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Madsen}{M.}%
+     {Henrik}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Nielsen}{N.}%
+     {Henrik~Aalborg}{H.~A.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Elsevier}%
+  }
+  \strng{namehash}{BPMHNHA1}
+  \strng{fullhash}{BPMHNHA1}
+  \field{labelalpha}{BMN09}
+  \field{sortinit}{B}
+  \field{number}{10}
+  \field{pages}{1772\bibrangedash 1783}
+  \field{title}{Online short-term solar power forecasting}
+  \field{volume}{83}
+  \field{journaltitle}{Solar Energy}
+  \field{year}{2009}
+\endentry
+
 \entry{Cavicchia2016}{article}{}
   \name{author}{16}{}{%
     {{}%
@@ -1012,6 +1115,59 @@
   \field{year}{1998}
 \endentry
 
+\entry{Denault2009}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Denault}{D.}%
+     {Michel}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Dupuis}{D.}%
+     {Debbie}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Couture-Cardinal}{C.-C.}%
+     {S{\'{e}}bastien}{S.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{Energy security,Hydropower,Wind power}
+  \strng{namehash}{DMDDCCS1}
+  \strng{fullhash}{DMDDCCS1}
+  \field{labelalpha}{DDCC09}
+  \field{sortinit}{D}
+  \field{abstract}{%
+  The complementarity of two renewable energy sources, namely hydro and wind,
+  is investigated. We consider the diversification effect of wind power to
+  reduce the risk of water inflow shortages, an important energy security
+  concern for hydropower-based economic zones (e.g. Qu{\'{e}}bec and Norway).
+  Our risk measure is based on the probability of a production deficit, in a
+  manner akin to the value-at-risk, simulation analysis of financial
+  portfolios. We examine whether the risk level of a mixed hydro-and-wind
+  portfolio of generating assets improves on the risk of an all-hydro
+  portfolio, by relaxing the dependence on water inflows and attenuating the
+  impact of droughts. Copulas are used to model the dependence between the two
+  sources of energy. The data considered, over the period 1958-2003, are for
+  the province of Qu{\'{e}}bec, which possesses large hydro and wind resources.
+  Our results indicate that for all scenarios considered, any proportion of
+  wind up to 30{\%} improves the production deficit risk profile of an
+  all-hydro system. We can also estimate the value, in TW h, of any additional
+  one percent of wind in the portfolio. {\textcopyright} 2009 Elsevier Ltd. All
+  rights reserved.%
+  }
+  \verb{doi}
+  \verb 10.1016/j.enpol.2009.07.064
+  \endverb
+  \field{isbn}{0301-4215}
+  \field{issn}{03014215}
+  \field{title}{{Complementarity of hydro and wind power: Improving the risk
+  profile of energy inflows}}
+  \field{journaltitle}{Energy Policy}
+  \field{year}{2009}
+\endentry
+
 \entry{DellAquila2016}{article}{}
   \name{author}{10}{}{%
     {{}%
@@ -1171,6 +1327,72 @@
   learning - ICML '04}
   \field{eprinttype}{arXiv}
   \field{year}{2004}
+\endentry
+
+\entry{Diagne2013}{article}{}
+  \name{author}{5}{}{%
+    {{}%
+     {Diagne}{D.}%
+     {Maimouna}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {David}{D.}%
+     {Mathieu}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lauret}{L.}%
+     {Philippe}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Boland}{B.}%
+     {John}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Schmutz}{S.}%
+     {Nicolas}{N.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Pergamon}%
+  }
+  \strng{namehash}{DM+1}
+  \strng{fullhash}{DMDMLPBJSN1}
+  \field{labelalpha}{Dia+13}
+  \field{sortinit}{D}
+  \field{abstract}{%
+  Integration of solar energy into the electricity network is becoming
+  essential because of its continually increasing growth in usage. An efficient
+  use of the fluctuating energy output of photovoltaic (PV) systems requires
+  reliable forecast information. In fact, this integration can offer a better
+  quality of service if the solar irradiance variation can be predicted with
+  great accuracy. This paper presents an in-depth review of the current methods
+  used to forecast solar irradiance in order to facilitate selection of the
+  appropriate forecast method according to needs. The study starts with a
+  presentation of statistical approaches and techniques based on cloud images.
+  Next numerical weather prediction or NWP models are detailed before
+  discussing hybrid models. Finally, we give indications for future solar
+  irradiance forecasting approaches dedicated to the management of small-scale
+  insular grids.%
+  }
+  \verb{doi}
+  \verb 10.1016/J.RSER.2013.06.042
+  \endverb
+  \field{issn}{1364-0321}
+  \field{pages}{65\bibrangedash 76}
+  \field{title}{{Review of solar irradiance forecasting methods and a
+  proposition for small-scale insular grids}}
+  \verb{url}
+  \verb https://www.sciencedirect.com/science/article/pii/S1364032113004334
+  \endverb
+  \field{volume}{27}
+  \field{journaltitle}{Renewable and Sustainable Energy Reviews}
+  \field{year}{2013}
+  \warn{\item Invalid format of field 'month'}
 \endentry
 
 \entry{Davy2012}{article}{}
@@ -1336,6 +1558,76 @@
   \field{journaltitle}{Climate Dynamics}
   \field{year}{2016}
   \warn{\item Invalid format of field 'month'}
+\endentry
+
+\entry{Francois2016}{article}{}
+  \name{author}{6}{}{%
+    {{}%
+     {Fran{\c{c}}ois}{F.}%
+     {B.}{B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Borga}{B.}%
+     {M.}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Creutin}{C.}%
+     {J.~D.}{J.~D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hingray}{H.}%
+     {B.}{B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Raynaud}{R.}%
+     {D.}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sauterleute}{S.}%
+     {J.~F.}{J.~F.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{Balancing costs,Co-fluctuations,Small hydro,Solar power,Storage
+  requirement}
+  \strng{namehash}{FB+1}
+  \strng{fullhash}{FBBMCJDHBRDSJF1}
+  \field{labelalpha}{Fra+16}
+  \field{sortinit}{F}
+  \field{abstract}{%
+  Climate related energy sources such as wind, solar and runoff sources are
+  variable in time and space, following their driving weather variables. High
+  penetration of such energy sources might be facilitated by using their
+  complementarity in order to increase the balance between energy load and
+  generation. This study presents the analysis of the effect of a 100{\%}
+  renewable energy mix composed by solar and run-of-the-river energy in
+  Northern Italy where these two energy sources are the main alternative energy
+  sources. Along a climate gradient from the Alpine crest (snow melt dominated
+  area) to the Veneto plain (rainfall dominated area), solar power is generated
+  in the flat plain, and run-of-the-river hydropower at two mountainous
+  locations. Covering all possible mixes of these two sources, we analyze their
+  complementarity across different temporal scales using two indicators: the
+  standard deviation of the energy balance and the theoretical storage required
+  for balancing generation and load. Results show that at small temporal scale
+  (hourly), a high share of run-of-the-river power allows minimizing the energy
+  balance variability. The opposite is obtained at larger temporal scales
+  (daily and monthly) essentially because of lower variability of solar power
+  generation, which also implies a lower storage requirement.%
+  }
+  \verb{doi}
+  \verb 10.1016/j.renene.2015.08.044
+  \endverb
+  \field{isbn}{0960-1481}
+  \field{issn}{18790682}
+  \field{title}{{Complementarity between solar and hydro power: Sensitivity
+  study to climate characteristics in Northern-Italy}}
+  \field{journaltitle}{Renewable Energy}
+  \field{year}{2016}
 \endentry
 
 \entry{Gaetani2014}{article}{}
@@ -2153,6 +2445,74 @@
   \field{year}{1985}
 \endentry
 
+\entry{Hoicka2011}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Hoicka}{H.}%
+     {Christina~E.}{C.~E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Rowlands}{R.}%
+     {Ian~H.}{I.~H.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Pergamon}%
+  }
+  \strng{namehash}{HCERIH1}
+  \strng{fullhash}{HCERIH1}
+  \field{labelalpha}{HR11}
+  \field{sortinit}{H}
+  \field{abstract}{%
+  In Ontario (Canada), the integration of renewable power is a priority policy
+  goal. Since 2004, the circumstances under which the integration of renewable
+  power is evaluated have changed due to successive changes in price as well as
+  concerns that its over-production may add to grid congestion. This research
+  investigates the value of increasing complementarity (both proximate and
+  geographically dispersed) of wind and solar resources as a means by which
+  electricity planners and researchers might advance electricity sustainability
+  in Ontario. More specifically, this paper asks the following questions: 1)
+  Does the combination of solar and wind resources in selected locations in
+  Ontario serve to ‘smooth out' power production, i.e., decrease instances of
+  both high and low values, as compared to either resource producing
+  individually? 2) Can this ‘smoothness' be further improved by dispersing
+  these resources geographically amongst locations? and 3) Does increasing the
+  number of locations with solar and wind resources further ‘smooth out'
+  power production? Three years (2003–2005) of synchronous, hourly
+  measurements of solar irradiance and wind speeds from Environment Canada's
+  Canadian Weather Energy and Engineering Data Sets (CWEEDS) are used to derive
+  dimensionless indices for four locations in Ontario (Toronto, Wiarton, Sault
+  Ste. Marie and Ottawa). These indices are used to develop three transparent
+  and accessible methods of analysis: (1) graphical representation; (2)
+  percentile ranking; and (3) using a theoretical maximum as a proxy for
+  capacity. The article concludes that the combination of solar and wind within
+  locations and amongst two locations improves ‘smoothness' in power
+  production, as compared to when each resource is produced on its own;
+  moreover, it is further improved once more than two resources and two
+  locations are combined. However, there is neither further benefit, nor
+  drawback, associated with the geographic dispersion of complementarity
+  between solar in one location and wind in another, when compared to both
+  resources in one location.%
+  }
+  \verb{doi}
+  \verb 10.1016/J.RENENE.2010.06.004
+  \endverb
+  \field{issn}{0960-1481}
+  \field{number}{1}
+  \field{pages}{97\bibrangedash 107}
+  \field{title}{{Solar and wind resource complementarity: Advancing options for
+  renewable electricity integration in Ontario, Canada}}
+  \verb{url}
+  \verb https://www.sciencedirect.com/science/article/pii/S0960148110002600
+  \endverb
+  \field{volume}{36}
+  \field{journaltitle}{Renewable Energy}
+  \field{year}{2011}
+  \warn{\item Invalid format of field 'month'}
+\endentry
+
 \entry{Ineichen2014}{inproceedings}{}
   \name{author}{1}{}{%
     {{}%
@@ -2184,6 +2544,66 @@
   \field{title}{{Long term satellite global, beam and diffuse irradiance
   validation}}
   \field{year}{2014}
+\endentry
+
+\entry{Inman2013}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Inman}{I.}%
+     {Rich~H.}{R.~H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Pedro}{P.}%
+     {Hugo~T.C.}{H.~T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Coimbra}{C.}%
+     {Carlos~F.M.}{C.~F.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Pergamon}%
+  }
+  \strng{namehash}{IRHPHTCCF1}
+  \strng{fullhash}{IRHPHTCCF1}
+  \field{labelalpha}{IPC13}
+  \field{sortinit}{I}
+  \field{abstract}{%
+  The higher penetration of renewable resources in the energy portfolios of
+  several communities accentuates the need for accurate forecasting of variable
+  resources (solar, wind, tidal) at several different temporal scales in order
+  to achieve power grid balance. Solar generation technologies have experienced
+  strong energy market growth in the past few years, with corresponding
+  increase in local grid penetration rates. As is the case with wind, the solar
+  resource at the ground level is highly variable mostly due to cloud cover
+  variability, atmospheric aerosol levels, and indirectly and to a lesser
+  extent, participating gases in the atmosphere. The inherent variability of
+  solar generation at higher grid penetration levels poses problems associated
+  with the cost of reserves, dispatchable and ancillary generation, and grid
+  reliability in general. As a result, high accuracy forecast systems are
+  required for multiple time horizons that are associated with regulation,
+  dispatching, scheduling and unit commitment. Here we review the theory behind
+  these forecasting methodologies, and a number of successful applications of
+  solar forecasting methods for both the solar resource and the power output of
+  solar plants at the utility scale level.%
+  }
+  \verb{doi}
+  \verb 10.1016/J.PECS.2013.06.002
+  \endverb
+  \field{issn}{0360-1285}
+  \field{number}{6}
+  \field{pages}{535\bibrangedash 576}
+  \field{title}{{Solar forecasting methods for renewable energy integration}}
+  \verb{url}
+  \verb https://www.sciencedirect.com/science/article/pii/S0360128513000294
+  \endverb
+  \field{volume}{39}
+  \field{journaltitle}{Progress in Energy and Combustion Science}
+  \field{year}{2013}
+  \warn{\item Invalid format of field 'month'}
 \endentry
 
 \entry{Jerez2013}{article}{}
@@ -2760,6 +3180,95 @@
   \field{journaltitle}{Meteorologische Zeitschrift}
   \field{year}{2006}
   \warn{\item Invalid format of field 'month'}
+\endentry
+
+\entry{Kougias2016}{article}{}
+  \name{author}{5}{}{%
+    {{}%
+     {Kougias}{K.}%
+     {Ioannis}{I.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Szab{\'{o}}}{S.}%
+     {S{\'{a}}ndor}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Monforti-Ferrario}{M.-F.}%
+     {Fabio}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Huld}{H.}%
+     {Thomas}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {B{\'{o}}dis}{B.}%
+     {Katalin}{K.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{Complementary RES,Hybrid,Optimization,Renewable energy sources
+  (RES),Small hydropower}
+  \strng{namehash}{KI+1}
+  \strng{fullhash}{KISSMFFHTBK1}
+  \field{labelalpha}{Kou+16}
+  \field{sortinit}{K}
+  \field{abstract}{%
+  Key global energy, environmental and sustainability targets are closely
+  related to the development of Renewable Energy Sources (RES). This includes
+  reduction of Greenhouse Gas emissions and safe energy provision in a
+  sustainable manner. The integration of RES in the energy mix needs to
+  overcome the technical challenges that are related to grid's operation.
+  Therefore, there is an increasing need to explore approaches where different
+  RES will operate under a synergetic approach. A straightforward way to
+  achieve that is by optimizing the complementarity among RES systems both over
+  time and spatially. The present article developed a methodology that examines
+  the degree of time complementarity between small hydropower stations (SHPS)
+  and adjacent solar PV systems (SPVS). The methodology builds on an
+  optimization algorithm that associates hydrological with solar irradiation
+  information. In particularly, the algorithm examines possible alterations on
+  the PV system installation (azimuth, tilt) that increase the complementarity,
+  with minor compromises in the total solar energy output. The methodology has
+  been tested in a case study and the outcome indicated that a compromise of
+  10{\%} in the solar energy output (90{\%} threshold) may result in a
+  significant increase of the complementarity (66.4{\%}).%
+  }
+  \verb{doi}
+  \verb 10.1016/j.renene.2015.09.073
+  \endverb
+  \field{issn}{18790682}
+  \field{title}{{A methodology for optimization of the complementarity between
+  small-hydropower plants and solar PV systems}}
+  \field{journaltitle}{Renewable Energy}
+  \field{year}{2016}
+\endentry
+
+\entry{kostylev2011solar}{inproceedings}{}
+  \true{moreauthor}
+  \name{author}{2}{}{%
+    {{}%
+     {Kostylev}{K.}%
+     {V}{V}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Pavlovski}{P.}%
+     {A}{A}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{KVPA+1}
+  \strng{fullhash}{KVPA+1}
+  \field{labelalpha}{KP+11}
+  \field{sortinit}{K}
+  \field{booktitle}{1st international workshop on the integration of solar
+  power into power systems, Aarhus, Denmark}
+  \field{title}{Solar power forecasting performance--towards industry
+  standards}
+  \field{year}{2011}
 \endentry
 
 \entry{KROPOSKI2017}{article}{}
@@ -3457,6 +3966,142 @@
   \field{journaltitle}{Solar Energy Materials and Solar Cells}
   \field{year}{2001}
   \warn{\item Invalid format of field 'month'}
+\endentry
+
+\entry{Mellit2008}{misc}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Mellit}{M.}%
+     {Adel}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kalogirou}{K.}%
+     {Soteris~A.}{S.~A.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{Artificial intelligence,DSP,Expert system,FPGA,Forecasting,Fuzzy
+  logic,Genetic algorithm,Hybrid system,Meteorological data,Modeling,Neural
+  network,Optimization,Photovoltaic systems,VHDL}
+  \strng{namehash}{MAKSA1}
+  \strng{fullhash}{MAKSA1}
+  \field{labelalpha}{MK08}
+  \field{sortinit}{M}
+  \field{abstract}{%
+  Artificial intelligence (AI) techniques are becoming useful as alternate
+  approaches to conventional techniques or as components of integrated systems.
+  They have been used to solve complicated practical problems in various areas
+  and are becoming more popular nowadays. They can learn from examples, are
+  fault tolerant in the sense that they are able to handle noisy and incomplete
+  data, are able to deal with nonlinear problems and once trained can perform
+  prediction and generalization at high speed. AI-based systems are being
+  developed and deployed worldwide in a wide variety of applications, mainly
+  because of their symbolic reasoning, flexibility and explanation
+  capabilities. AI has been used in different sectors, such as engineering,
+  economics, medicine, military, marine, etc. They have also been applied for
+  modeling, identification, optimization, prediction, forecasting and control
+  of complex systems. The paper outlines an understanding of how AI systems
+  operate by way of presenting a number of problems in photovoltaic systems
+  application. Problems presented include three areas: forecasting and modeling
+  of meteorological data, sizing of photovoltaic systems and modeling,
+  simulation and control of photovoltaic systems. Published literature
+  presented in this paper show the potential of AI as design tool in
+  photovoltaic systems. {\textcopyright} 2008 Elsevier Ltd. All rights
+  reserved.%
+  }
+  \field{booktitle}{Progress in Energy and Combustion Science}
+  \verb{doi}
+  \verb 10.1016/j.pecs.2008.01.001
+  \endverb
+  \verb{eprint}
+  \verb Yahara, Koji, 2014, A Reference
+  \endverb
+  \field{isbn}{0360-1285}
+  \field{issn}{03601285}
+  \field{title}{{Artificial intelligence techniques for photovoltaic
+  applications: A review}}
+  \field{eprinttype}{arXiv}
+  \field{year}{2008}
+\endentry
+
+\entry{Monforti2014}{article}{}
+  \name{author}{6}{}{%
+    {{}%
+     {Monforti}{M.}%
+     {F.}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Huld}{H.}%
+     {T.}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {B{\'{o}}dis}{B.}%
+     {K.}{K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Vitali}{V.}%
+     {L.}{L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {D'Isidoro}{D.}%
+     {M.}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lacal-Ar{\'{a}}ntegui}{L.-A.}%
+     {R.}{R.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{National Renewable Energy Action Plans,Renewable energies,Solar
+  energy,Wind energy}
+  \strng{namehash}{MF+1}
+  \strng{fullhash}{MFHTBKVLDMLAR1}
+  \field{labelalpha}{Mon+14}
+  \field{sortinit}{M}
+  \field{abstract}{%
+  Wind and solar energy are expected to play a major role in the current decade
+  to help Europe reaching the renewable energy penetration targets fixed by
+  Directive 2009/28/EC. However, it is difficult to predict the actual
+  production profiles of wind and solar energy as they depend heavily on
+  variable meteorological features of solar radiation and wind speed. In an
+  ideal system, wind and solar electricity are both injected in a fast reacting
+  grid instantaneously matching supply and demand. In such a system wind and
+  solar electricity production profiles should complement each other as much as
+  possible in order to minimise the need of storage and additional capacity. In
+  the present paper the complementarity of wind and solar resources is assessed
+  for a test year in Italy.To achieve this goal we employ data at high spatial
+  and temporal resolution data for both solar radiation and wind speed in Italy
+  obtained from running two state of the art models (PVGIS and MINNI). Hourly
+  profiles for solar and wind energy produced are compared in each 4×4km2 grid
+  cell in Italy for 2005, and hourly, daily and monthly correlation
+  coefficients are computed in order to assess the local complementarity of the
+  two resources. A Monte Carlo approach is also developed to estimate how
+  large-scale wind and solar energy productions could be potentially involved
+  to complement each other in a scenario with up to 100 production sites across
+  Italy. The results show how local complementarity can be very interesting
+  with monthly correlation coefficients reaching values lower than-0.8 in
+  several areas. Large-scale complementarity is also relevant with nation-wide
+  monthly correlation coefficients showing values between-0.65 and-0.6. These
+  model results indicate that in this sample year of 2005, wind and solar
+  energy potential production have shown complementary time behaviour
+  complementary, favourably supporting their integration in the energy system.
+  {\textcopyright} 2013 Elsevier Ltd.%
+  }
+  \verb{doi}
+  \verb 10.1016/j.renene.2013.10.028
+  \endverb
+  \field{isbn}{0960-1481}
+  \field{issn}{09601481}
+  \field{title}{{Assessing complementarity of wind and solar resources for
+  energy production in Italy. A Monte Carlo approach}}
+  \field{journaltitle}{Renewable Energy}
+  \field{year}{2014}
 \endentry
 
 \entry{Morcrette2009}{article}{}
@@ -4518,6 +5163,29 @@
   \field{year}{2004}
 \endentry
 
+\entry{Reikard2009}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Reikard}{R.}%
+     {Gordon}{G.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{RG1}
+  \strng{fullhash}{RG1}
+  \field{labelalpha}{Rei09}
+  \field{sortinit}{R}
+  \verb{doi}
+  \verb 10.1016/j.solener.2008.08.007
+  \endverb
+  \field{pages}{342\bibrangedash 349}
+  \field{title}{{Predicting solar radiation at high resolutions: A comparison
+  of time series forecasts}}
+  \field{volume}{83}
+  \field{journaltitle}{Solar Energy}
+  \field{year}{2009}
+\endentry
+
 \entry{Rieger2017}{article}{}
   \name{author}{8}{}{%
     {{}%
@@ -5043,6 +5711,66 @@
   \field{year}{2014}
 \endentry
 
+\entry{Silva2016}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Silva}{S.}%
+     {Allan~Rodrigues}{A.~R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Pimenta}{P.}%
+     {Felipe~Mendon{\c{c}}a}{F.~M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Assireu}{A.}%
+     {Arcilan~Trevenzoli}{A.~T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Spyrides}{S.}%
+     {Maria Helena~Constantino}{M.~H.~C.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{Hydropower,Offshore wind power,Renewable energy}
+  \strng{namehash}{SAR+1}
+  \strng{fullhash}{SARPFMAATSMHC1}
+  \field{labelalpha}{Sil+16}
+  \field{sortinit}{S}
+  \field{abstract}{%
+  The operation of hydroelectric plants in Brazil depends on the hydrological
+  regime, which is subject to significant seasonal fluctuations and faces
+  critical levels of storage in certain periods. Hydropower accounts for 66{\%}
+  of the countrys generation and poses a challenge for the stabilization of the
+  grid in the mid and long terms. Usually, such fluctuations are complemented
+  by conventional sources (thermo power). Studies have shown, however, that
+  wind power can assist hydroelectric power generation. The water saved can be
+  stored for energy generation and other purposes. This work addresses the
+  possibility of complementing the hydro system with offshore wind power. To do
+  so, monthly precipitation data from the Climatic Research Unit (CRU-TS 3.1)
+  [1] is compared with satellite winds from NOAA [2,3], to assess their
+  variability on seasonal and interannual time scales. Results show high wind
+  magnitudes in the North, Northeast, Southeast and Southern regions of Brazil.
+  There is strong seasonal complementarity between the wind regimes of the
+  Northeast and Northern regions. North and especially Northeast offshore winds
+  were shown to be highly complementary with the hydrological regimes of
+  S{\~{a}}o Francisco, Eastern Atlantic, Southeast Atlantic, Paran{\'{a}},
+  Paraguai, Uruguai and South Atlantic basins. In addition, the southern
+  hydrographic basin variability was found uncorrelated with other hydrological
+  basins and wind regions.%
+  }
+  \verb{doi}
+  \verb 10.1016/j.rser.2015.11.045
+  \endverb
+  \field{isbn}{1364-0321}
+  \field{issn}{18790690}
+  \field{title}{{Complementarity of Brazils hydro and offshore wind power}}
+  \field{journaltitle}{Renewable and Sustainable Energy Reviews}
+  \field{year}{2016}
+\endentry
+
 \entry{Sanchez-Lorenzo2013}{article}{}
   \name{author}{3}{}{%
     {{}%
@@ -5107,6 +5835,41 @@
   \field{volume}{100}
   \field{journaltitle}{Global and Planetary Change}
   \field{year}{2013}
+\endentry
+
+\entry{Sorensen1991}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {S{\o}rensen}{S.}%
+     {Bent}{B.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{History,Renewable energy,Technical and economic evaluation}
+  \strng{namehash}{SB1}
+  \strng{fullhash}{SB1}
+  \field{labelalpha}{S{\o}r91}
+  \field{sortinit}{S}
+  \field{abstract}{%
+  During most of human history renewable energy has been the only energy option
+  available. Only during the last few centuries has fossil and lately nuclear
+  energy sources been used in a non-renewable way. They took over because they
+  seemed much cheaper than the renewable sources. However, environmental
+  problems of a local as well as a global magnitude are becoming evident, and
+  questions are now being raised: are the fossil and nuclear choices indeed the
+  cheapest; could a full account of indirect costs be attempted? In any case,
+  the renewable options have only been developed in some areas of the world,
+  and the reasons for their successes and failures has to be discussed.
+  {\textcopyright} 1991.%
+  }
+  \verb{doi}
+  \verb 10.1016/0301-4215(91)90072-V
+  \endverb
+  \field{isbn}{ISSN{\~{}}{\~{}}0301-4215}
+  \field{issn}{03014215}
+  \field{title}{{A history of renewable energy technology}}
+  \field{journaltitle}{Energy Policy}
+  \field{year}{1991}
 \endentry
 
 \entry{Tegen1997}{article}{}
@@ -5316,6 +6079,46 @@
   \field{title}{{Climate change impacts on the power generation potential of a
   European mid-century wind farms scenario}}
   \field{year}{2016}
+\endentry
+
+\entry{Tovar-Pescador2008}{inbook}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Tovar-Pescador}{T.-P.}%
+     {Joaquin}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \name{editor}{1}{}{%
+    {{}%
+     {Badescu}{B.}%
+     {Viorel}{V.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Springer Berlin Heidelberg}%
+  }
+  \strng{namehash}{TPJ1}
+  \strng{fullhash}{TPJ1}
+  \field{labelalpha}{TP08}
+  \field{sortinit}{T}
+  \field{booktitle}{Modeling Solar Radiation at the Earth's Surface: Recent
+  Advances}
+  \verb{doi}
+  \verb 10.1007/978-3-540-77455-6_3
+  \endverb
+  \field{isbn}{978-3-540-77455-6}
+  \field{pages}{55\bibrangedash 91}
+  \field{title}{{Modelling the Statistical Properties of Solar Radiation and
+  Proposal of a Technique Based on Boltzmann Statistics}}
+  \verb{url}
+  \verb https://doi.org/10.1007/978-3-540-77455-6{\_}3
+  \endverb
+  \list{location}{1}{%
+    {Berlin, Heidelberg}%
+  }
+  \field{year}{2008}
 \endentry
 
 \entry{vazquez2012interannual}{article}{}

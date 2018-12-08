@@ -2,7 +2,6 @@ This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: tesis.aux
 The style file: biblatex.bst
-A level-1 auxiliary file: preface.aux
 A level-1 auxiliary file: Intro.aux
 A level-1 auxiliary file: DataMethods.aux
 A level-1 auxiliary file: Resultados.aux
@@ -17,31 +16,32 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated field_info (elt_size=4) to 16537 items from 5000.
+Reallocated field_info (elt_size=4) to 18761 items from 5000.
 Database file #1: tesis-blx.bib
 Database file #2: Data.bib
-Repeated entry---line 116 of file Data.bib
+Repeated entry---line 141 of file Data.bib
  : @article{Bergin2017
  :                    ,
 I'm skipping whatever remains of this entry
 Reallocated str_pool (elt_size=1) to 130000 items from 65000.
-Repeated entry---line 807 of file Data.bib
+Repeated entry---line 960 of file Data.bib
  : @article{Nabat2014
  :                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 906 of file Data.bib
+Repeated entry---line 1059 of file Data.bib
  : @article{Lamigueiro2012
  :                        ,
 I'm skipping whatever remains of this entry
-Warning--I'm ignoring Sanchez-Lorenzo2013's extra "keywords" field
---line 1047 of file Data.bib
-Warning--I'm ignoring Sanchez-Lorenzo2013's extra "keywords" field
---line 1048 of file Data.bib
-Warning--I'm ignoring Sanchez-Lorenzo2013's extra "keywords" field
---line 1049 of file Data.bib
-Warning--I'm ignoring Sanchez-Lorenzo2013's extra "keywords" field
---line 1050 of file Data.bib
 Reallocated str_pool (elt_size=1) to 195000 items from 130000.
+Warning--I'm ignoring Sanchez-Lorenzo2013's extra "keywords" field
+--line 1212 of file Data.bib
+Warning--I'm ignoring Sanchez-Lorenzo2013's extra "keywords" field
+--line 1213 of file Data.bib
+Warning--I'm ignoring Sanchez-Lorenzo2013's extra "keywords" field
+--line 1214 of file Data.bib
+Warning--I'm ignoring Sanchez-Lorenzo2013's extra "keywords" field
+--line 1215 of file Data.bib
+Warning--I didn't find a database entry for "Diagnen2013"
 Warning--I didn't find a database entry for "garcia2005caracterizacion"
 Warning--I didn't find a database entry for "jantsch1992results"
 Warning--I didn't find a database entry for "5694060"
@@ -53,45 +53,45 @@ Warning--I didn't find a database entry for "Martin1999"
 Biblatex version: 3.3
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
-You've used 75 entries,
+You've used 90 entries,
             6047 wiz_defined-function locations,
-            1867 strings with 133644 characters,
-and the built_in function-call counts, 316767 in all, are:
-= -- 10384
-> -- 10912
-< -- 2595
-+ -- 4011
-- -- 5149
-* -- 34037
-:= -- 19819
+            1992 strings with 154043 characters,
+and the built_in function-call counts, 370743 in all, are:
+= -- 12263
+> -- 12769
+< -- 3188
++ -- 4589
+- -- 5925
+* -- 38953
+:= -- 22954
 add.period$ -- 0
-call.type$ -- 75
-change.case$ -- 1209
-chr.to.int$ -- 58
-cite$ -- 148
-duplicate$ -- 37841
-empty$ -- 32081
-format.name$ -- 9690
-if$ -- 67142
+call.type$ -- 90
+change.case$ -- 1480
+chr.to.int$ -- 61
+cite$ -- 178
+duplicate$ -- 44115
+empty$ -- 37708
+format.name$ -- 10971
+if$ -- 79202
 int.to.chr$ -- 0
-int.to.str$ -- 172
+int.to.str$ -- 209
 missing$ -- 0
-newline$ -- 4517
-num.names$ -- 3616
-pop$ -- 25192
+newline$ -- 5090
+num.names$ -- 4386
+pop$ -- 30081
 preamble$ -- 1
-purify$ -- 1625
+purify$ -- 1924
 quote$ -- 0
-skip$ -- 15712
+skip$ -- 18648
 stack$ -- 0
-substring$ -- 4697
-swap$ -- 14289
-text.length$ -- 2746
-text.prefix$ -- 185
+substring$ -- 5586
+swap$ -- 16603
+text.length$ -- 3266
+text.prefix$ -- 209
 top$ -- 1
-type$ -- 2838
+type$ -- 3408
 warning$ -- 0
-while$ -- 1584
+while$ -- 1886
 width$ -- 0
-write$ -- 4441
+write$ -- 4999
 (There were 3 error messages)
