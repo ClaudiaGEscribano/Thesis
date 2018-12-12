@@ -19,88 +19,91 @@
 \contentsline {chapter}{\chapternumberline {2}State of knowdlege}{11}{chapter.2}
 \contentsline {section}{\numberline {2.1}Variable renewable energies: VRE}{11}{section.2.1}
 \contentsline {section}{\numberline {2.2}Variability sources in PV}{12}{section.2.2}
-\contentsline {section}{\numberline {2.3}Photovolatic power forecasting}{12}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}Solar irradiation forecasting}{12}{subsection.2.3.1}
+\contentsline {subsubsection}{Astronomical factors}{12}{section.2.2}
+\contentsline {subsubsection}{Clouds}{12}{section.2.2}
+\contentsline {subsubsection}{Aerosols}{13}{section.2.2}
+\contentsline {section}{\numberline {2.3}Photovolatic power forecasting}{13}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Solar irradiation forecasting}{13}{subsection.2.3.1}
 \contentsline {subsubsection}{Physical Methods}{13}{subsection.2.3.1}
-\contentsline {subsubsection}{Statistical methods}{13}{subsection.2.3.1}
-\contentsline {subsubsection}{Hybrid methods}{13}{subsection.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}Clear-sky models}{13}{subsection.2.3.2}
-\contentsline {subsection}{\numberline {2.3.3}Satellite-based models}{14}{subsection.2.3.3}
-\contentsline {section}{\numberline {2.4}From short to long term issues}{14}{section.2.4}
-\contentsline {section}{\numberline {2.5}Climate Change perspectives for solar resource and photovoltaic potential}{14}{section.2.5}
-\contentsline {part}{\partnumberline {II}Data \& Methods}{15}{part.2}
-\contentsline {chapter}{\chapternumberline {3}Data}{17}{chapter.3}
-\contentsline {section}{\numberline {3.1}Solar radiation measurements: \textit {Baseline Surface Radiation Network, BSRN}}{17}{section.3.1}
-\contentsline {section}{\numberline {3.2}Modelling of solar radiation}{18}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}CORDEX initiative}{19}{subsection.3.2.1}
-\contentsline {section}{\numberline {3.3}Satellite data: \textit {Climate Monitoring Satellite Application Facility, CM-SAF}}{19}{section.3.3}
-\contentsline {section}{\numberline {3.4}Photovoltaic prodution data}{21}{section.3.4}
-\contentsline {section}{\numberline {3.5}Temperature data}{21}{section.3.5}
-\contentsline {chapter}{\chapternumberline {4}Methods}{23}{chapter.4}
-\contentsline {section}{\numberline {4.1}Clustering algorithm applied to climate data}{23}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Clustering algorithms}{24}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}Clustering climate data}{24}{subsection.4.1.2}
-\contentsline {subsection}{\numberline {4.1.3}Applied clustering method}{25}{subsection.4.1.3}
-\contentsline {subsubsection}{K-Means algorithm}{25}{subsection.4.1.3}
-\contentsline {subsubsection}{Principal Component Analysis}{25}{equation.4.1.1}
-\contentsline {subsubsection}{Validity Index}{26}{equation.4.1.1}
-\contentsline {section}{\numberline {4.2}Simulating a photovoltaic system}{26}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Global effective irradiation}{27}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}Photovoltaic energy yield}{28}{subsection.4.2.2}
-\contentsline {section}{\numberline {4.3}Using Regional Climate Models}{30}{section.4.3}
-\contentsline {section}{\numberline {4.4}Future projections and scenarios}{31}{section.4.4}
-\contentsline {part}{\partnumberline {III}Results}{33}{part.3}
-\contentsline {chapter}{\chapternumberline {5}Long-term characteristics of solar resource over the Iberian Peninsula}{35}{chapter.5}
-\contentsline {section}{\numberline {5.1}Introduction}{37}{section.5.1}
-\contentsline {section}{\numberline {5.2}Methods}{38}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}Regionalization by clustering}{38}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {5.2.2}Photovoltaic energy yield}{41}{subsection.5.2.2}
-\contentsline {subsection}{\numberline {5.2.3}Variability and complementarity}{41}{subsection.5.2.3}
-\contentsline {section}{\numberline {5.3}Results}{42}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.1}Variability and complementarity results}{43}{subsection.5.3.1}
-\contentsline {section}{\numberline {5.4}Conclusion}{46}{section.5.4}
-\contentsline {section}{\numberline {5.A}Yearly mean values and variability}{49}{section.5.1}
-\contentsline {section}{\numberline {5.B}Monthly series variability}{51}{section.5.2}
-\contentsline {section}{\numberline {5.C}Complementarity}{54}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.1}Summary}{57}{subsection.5.3.1}
-\contentsline {chapter}{\chapternumberline {6}Impact of aerosols in photovoltaic energy production over the Euro-Mediterranean area}{59}{chapter.6}
-\contentsline {section}{\numberline {6.1}Introduction}{61}{section.6.1}
-\contentsline {section}{\numberline {6.2}Data and Methods}{62}{section.6.2}
-\contentsline {subsection}{\numberline {6.2.1}Climate Data}{62}{subsection.6.2.1}
-\contentsline {subsection}{\numberline {6.2.2}PV model description}{63}{subsection.6.2.2}
-\contentsline {subsection}{\numberline {6.2.3}Datasets for evaluation}{65}{subsection.6.2.3}
-\contentsline {subsubsection}{Satellite product: CM-SAF.}{65}{subsection.6.2.3}
-\contentsline {subsubsection}{BSRN stations}{65}{subsection.6.2.3}
-\contentsline {subsubsection}{Temperature data: ECAD}{65}{subsection.6.2.3}
-\contentsline {subsubsection}{PV production data}{65}{subsection.6.2.3}
-\contentsline {section}{\numberline {6.3}Results}{66}{section.6.3}
-\contentsline {subsection}{\numberline {6.3.1}Local scale}{66}{subsection.6.3.1}
-\contentsline {subsection}{\numberline {6.3.2}Regional scale}{68}{subsection.6.3.2}
-\contentsline {subsection}{\numberline {6.3.3}Impact of aerosols by tracking type}{70}{subsection.6.3.3}
-\contentsline {subsubsection}{Mean behavior. Period 2003-2009}{70}{subsection.6.3.3}
-\contentsline {subsubsection}{Seasonal cycle}{71}{figure.caption.35}
-\contentsline {subsection}{\numberline {6.3.4}Long-term trends. Period 1980-2012}{73}{subsection.6.3.4}
-\contentsline {section}{\numberline {6.4}Discussion}{75}{section.6.4}
-\contentsline {subsection}{\numberline {6.4.1}Limitations}{75}{subsection.6.4.1}
-\contentsline {subsection}{\numberline {6.4.2}Implications for the climate services dedicated to the energy sector }{76}{subsection.6.4.2}
-\contentsline {subsection}{\numberline {6.4.3}PV production data issue}{76}{subsection.6.4.3}
-\contentsline {section}{\numberline {6.5}Conclusions}{76}{section.6.5}
-\contentsline {chapter}{\chapternumberline {7}Future projections of solar resource for photovoltaic applications}{79}{chapter.7}
-\contentsline {section}{\numberline {7.1}Introduction}{81}{section.7.1}
-\contentsline {section}{\numberline {7.2}Climate data}{81}{section.7.2}
-\contentsline {subsection}{\numberline {7.2.1}EURO-CORDEX}{81}{subsection.7.2.1}
-\contentsline {subsection}{\numberline {7.2.2}Aerosols datasets}{82}{subsection.7.2.2}
-\contentsline {section}{\numberline {7.3}Methods}{82}{section.7.3}
-\contentsline {subsection}{\numberline {7.3.1}Spatial analysis}{82}{subsection.7.3.1}
-\contentsline {subsubsection}{Linear regression}{82}{subsection.7.3.1}
-\contentsline {subsection}{\numberline {7.3.2}PV potential}{83}{subsection.7.3.2}
-\contentsline {section}{\numberline {7.4}Results}{83}{section.7.4}
-\contentsline {subsection}{\numberline {7.4.1}Anomalies of SSR and CLT}{83}{subsection.7.4.1}
-\contentsline {subsection}{\numberline {7.4.2}Projected changes in PV production}{86}{subsection.7.4.2}
-\contentsline {section}{\numberline {7.5}Discussion}{87}{section.7.5}
-\contentsline {section}{\numberline {7.6}Conclusion}{87}{section.7.6}
-\contentsline {section}{\numberline {.1}MED-CORDEX analysis}{88}{section.Alph0.1}
-\contentsline {subsection}{\numberline {.1.1}Climate models}{88}{subsection.Alph0.1.1}
-\contentsline {subsection}{\numberline {.1.2}Scenario RCP4.5 of relevant variables}{88}{subsection.Alph0.1.2}
-\contentsline {section}{\numberline {.2}comments}{89}{section.Alph0.2}
-\contentsline {chapter}{Bibliography}{91}{section*.50}
+\contentsline {subsubsection}{Statistical methods}{14}{subsection.2.3.1}
+\contentsline {subsubsection}{Hybrid methods}{14}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Clear-sky models}{14}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.3}Satellite-based models}{15}{subsection.2.3.3}
+\contentsline {section}{\numberline {2.4}From short to long term issues}{16}{section.2.4}
+\contentsline {section}{\numberline {2.5}Climate Change perspectives for solar resource and photovoltaic potential}{16}{section.2.5}
+\contentsline {part}{\partnumberline {II}Data \& Methods}{17}{part.2}
+\contentsline {chapter}{\chapternumberline {3}Data}{19}{chapter.3}
+\contentsline {section}{\numberline {3.1}Solar radiation measurements: \textit {Baseline Surface Radiation Network, BSRN}}{19}{section.3.1}
+\contentsline {section}{\numberline {3.2}Modelling of solar radiation}{20}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}CORDEX initiative}{21}{subsection.3.2.1}
+\contentsline {section}{\numberline {3.3}Satellite data: \textit {Climate Monitoring Satellite Application Facility, CM-SAF}}{21}{section.3.3}
+\contentsline {section}{\numberline {3.4}Photovoltaic prodution data}{23}{section.3.4}
+\contentsline {section}{\numberline {3.5}Temperature data}{23}{section.3.5}
+\contentsline {chapter}{\chapternumberline {4}Methods}{25}{chapter.4}
+\contentsline {section}{\numberline {4.1}Clustering algorithm applied to climate data}{25}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Clustering algorithms}{26}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Clustering climate data}{26}{subsection.4.1.2}
+\contentsline {subsection}{\numberline {4.1.3}Applied clustering method}{27}{subsection.4.1.3}
+\contentsline {subsubsection}{K-Means algorithm}{27}{subsection.4.1.3}
+\contentsline {subsubsection}{Principal Component Analysis}{27}{equation.4.1.1}
+\contentsline {subsubsection}{Validity Index}{28}{equation.4.1.1}
+\contentsline {section}{\numberline {4.2}Simulating a photovoltaic system}{28}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Global effective irradiation}{29}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Photovoltaic energy yield}{30}{subsection.4.2.2}
+\contentsline {section}{\numberline {4.3}Using Regional Climate Models}{32}{section.4.3}
+\contentsline {section}{\numberline {4.4}Future projections and scenarios}{33}{section.4.4}
+\contentsline {part}{\partnumberline {III}Results}{35}{part.3}
+\contentsline {chapter}{\chapternumberline {5}Long-term characteristics of solar resource over the Iberian Peninsula}{37}{chapter.5}
+\contentsline {section}{\numberline {5.1}Introduction}{39}{section.5.1}
+\contentsline {section}{\numberline {5.2}Methods}{40}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Regionalization by clustering}{40}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Photovoltaic energy yield}{43}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {5.2.3}Variability and complementarity}{43}{subsection.5.2.3}
+\contentsline {section}{\numberline {5.3}Results}{44}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Variability and complementarity results}{45}{subsection.5.3.1}
+\contentsline {section}{\numberline {5.4}Conclusion}{48}{section.5.4}
+\contentsline {section}{\numberline {5.A}Yearly mean values and variability}{51}{section.5.1}
+\contentsline {section}{\numberline {5.B}Monthly series variability}{53}{section.5.2}
+\contentsline {section}{\numberline {5.C}Complementarity}{56}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Summary}{59}{subsection.5.3.1}
+\contentsline {chapter}{\chapternumberline {6}Impact of aerosols in photovoltaic energy production over the Euro-Mediterranean area}{61}{chapter.6}
+\contentsline {section}{\numberline {6.1}Introduction}{63}{section.6.1}
+\contentsline {section}{\numberline {6.2}Data and Methods}{64}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Climate Data}{64}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}PV model description}{65}{subsection.6.2.2}
+\contentsline {subsection}{\numberline {6.2.3}Datasets for evaluation}{67}{subsection.6.2.3}
+\contentsline {subsubsection}{Satellite product: CM-SAF.}{67}{subsection.6.2.3}
+\contentsline {subsubsection}{BSRN stations}{67}{subsection.6.2.3}
+\contentsline {subsubsection}{Temperature data: ECAD}{67}{subsection.6.2.3}
+\contentsline {subsubsection}{PV production data}{67}{subsection.6.2.3}
+\contentsline {section}{\numberline {6.3}Results}{68}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}Local scale}{68}{subsection.6.3.1}
+\contentsline {subsection}{\numberline {6.3.2}Regional scale}{70}{subsection.6.3.2}
+\contentsline {subsection}{\numberline {6.3.3}Impact of aerosols by tracking type}{72}{subsection.6.3.3}
+\contentsline {subsubsection}{Mean behavior. Period 2003-2009}{72}{subsection.6.3.3}
+\contentsline {subsubsection}{Seasonal cycle}{73}{figure.caption.36}
+\contentsline {subsection}{\numberline {6.3.4}Long-term trends. Period 1980-2012}{75}{subsection.6.3.4}
+\contentsline {section}{\numberline {6.4}Discussion}{77}{section.6.4}
+\contentsline {subsection}{\numberline {6.4.1}Limitations}{77}{subsection.6.4.1}
+\contentsline {subsection}{\numberline {6.4.2}Implications for the climate services dedicated to the energy sector }{78}{subsection.6.4.2}
+\contentsline {subsection}{\numberline {6.4.3}PV production data issue}{78}{subsection.6.4.3}
+\contentsline {section}{\numberline {6.5}Conclusions}{78}{section.6.5}
+\contentsline {chapter}{\chapternumberline {7}Future projections of solar resource for photovoltaic applications}{81}{chapter.7}
+\contentsline {section}{\numberline {7.1}Introduction}{83}{section.7.1}
+\contentsline {section}{\numberline {7.2}Climate data}{83}{section.7.2}
+\contentsline {subsection}{\numberline {7.2.1}EURO-CORDEX}{83}{subsection.7.2.1}
+\contentsline {subsection}{\numberline {7.2.2}Aerosols datasets}{84}{subsection.7.2.2}
+\contentsline {section}{\numberline {7.3}Methods}{84}{section.7.3}
+\contentsline {subsection}{\numberline {7.3.1}Spatial analysis}{84}{subsection.7.3.1}
+\contentsline {subsubsection}{Linear regression}{84}{subsection.7.3.1}
+\contentsline {subsection}{\numberline {7.3.2}PV potential}{85}{subsection.7.3.2}
+\contentsline {section}{\numberline {7.4}Results}{85}{section.7.4}
+\contentsline {subsection}{\numberline {7.4.1}Anomalies of SSR and CLT}{85}{subsection.7.4.1}
+\contentsline {subsection}{\numberline {7.4.2}Projected changes in PV production}{88}{subsection.7.4.2}
+\contentsline {section}{\numberline {7.5}Discussion}{89}{section.7.5}
+\contentsline {section}{\numberline {7.6}Conclusion}{89}{section.7.6}
+\contentsline {section}{\numberline {.1}MED-CORDEX analysis}{90}{section.Alph0.1}
+\contentsline {subsection}{\numberline {.1.1}Climate models}{90}{subsection.Alph0.1.1}
+\contentsline {subsection}{\numberline {.1.2}Scenario RCP4.5 of relevant variables}{90}{subsection.Alph0.1.2}
+\contentsline {section}{\numberline {.2}comments}{91}{section.Alph0.2}
+\contentsline {chapter}{Bibliography}{93}{section*.51}
