@@ -392,7 +392,7 @@ The variable nature of renewable energy resources, in space and time, is a key a
 
 The research in storage for VRE is rising but different approaches are also being addopted to integrate high share of this alternative technologies. The term ``flexibility'' is one of the most used refered to the new strategies followed from the demand and supply side in order to adapt to the new system []. From the demand side, flexibility refers to means related to load shape and demand patterns, like peak saving, load shifting, valley filling etc \cite*{Lund2015}.
 
-On the other hand, flexibility of the supply side depends on the power plants, whose output can be controled to obtain power balance. It is important in terms of flexibility to consider the response time of different power plants as well as the different nature of each one. As the availability of solar and wind resources are not related to demand geographic distribution, highly interconected grid is one of the main needs for high VRE penetration. Once this is considered, geographycally spread portfolio of VRE plants are able to smooth variability of power output \cite*{KROPOSKI2017, Marcos2012}{añadir más referencias}.
+On the other hand, flexibility of the supply side depends on the power plants, whose output can be controled to obtain power balance. It is important in terms of flexibility to consider the response time of different power plants as well as the different nature of each one. As the availability of solar and wind resources are not related to demand geographic distribution, highly interconected grid is one of the main needs for high VRE penetration. Once this is considered, geographycally spread portfolio of VRE plants are able to smooth variability of power output \cite*{KROPOSKI2017, Marcos2012}(Hoff and Perez 2012, 2013){añadir más referencias}.
 
 %* Explicar más el concepto de smoothing?? agregar aquí todas las citas de smoothing
 
@@ -409,7 +409,7 @@ As much as we were able to predict/forecast the variability of solar/wind resour
 % and power ramping rates
 \section{Variability sources in PV}
 
-It is important to notice that every power system has associated an inherent uncertainty and variability and it is not only a renewable energy systems characteristic. In the case of PV systems, the variability of PV outputs depends on the variability linked to the solar irradiation reaching the generator, resource variability, and also depends on the behaviour of the electrical components. We will be focused on the former along this work. 
+It is important to notice that every power system has associated an inherent uncertainty and variability and it is not only a renewable energy systems characteristic. In the case of PV systems, the variability of PV outputs depends on the variability linked to the solar irradiation reaching the generator (resource variability), and also depends on the behaviour of the electrical components.  
 
 % ``Before focusing on the variability and uncertainty of PV plants, it is important to understand that
 % variability and uncertainty are inherent characteristics of power systems. Loads, power lines,
@@ -417,10 +417,10 @@ It is important to notice that every power system has associated an inherent unc
 % It is clear that uncertainty in photovoltaic power it is a combination of the uncertainty of estimation of solar resource and the uncertainty in the behaviour of the electrical componentes of the photovoltaic system.''
 
 \subsubsection{Astronomical factors}
-The amount of solar energy that reach the photovoltaic generator depends on the first place on the sun position, which is a deterministic factor that only depends on the time of the year and the day time. It means that the first factor causing PV intermittency is the fact that no energy can be produced during nigth-time. However, although this daily-scale intermittency is the one that most affect the PV power production there is no uncertainty associated to this fact, which is a very important concept in order to manage VRE.
+The amount of solar energy that reach the photovoltaic generator depends on the first place on the sun position, which is a deterministic factor that only depends on the time of the year and the day time. It means that the first factor causing PV intermittency is the fact that no energy can be produced during nigth-time. However, although this daily-scale intermittency is the one that most affects the PV power production there is no uncertainty associated to this fact, which is a very important concept in order to manage VRE.
 
 \subsubsection{Clouds}
-There are other factors that affect the solar energy reaching the surface and it depends on the composition of the atmosphere at each time. When solar radiation goes through the atmosphere it can be reflected, absorbed or scattered. The presence of clouds is the most affecting factor in the transmission of solar radiation to the surface. The condensed particles that forms clouds makes solar radiation being scattered and reflected and part of the radiation can also being absorbed. Different types of clouds affects differently to solar radiation. High clouds are normally less dense than low clouds, becoming more transparent to solar radiation. Also, some clouds are less spatially aggregated than others. When the sky is overcasted, the amount of energy reaching the surface decrease but the frequency of the intermittency generated in the PV output is not as high as if some individual clouds pass through.
+There are other factors that affect the solar energy reaching the surface and it depends on the composition of the atmosphere at each time. When solar radiation goes through the atmosphere it can be reflected, absorbed or scattered. The presence of clouds is the most affecting factor in the transmission of solar radiation to the surface. The condensed particles that forms clouds makes solar radiation being scattered and reflected and part of the radiation can also be absorbed. Different types of clouds affects differently to solar radiation. High thin clouds are less dense than low clouds, becoming more transparent to solar radiation. Also, some clouds are less spatially aggregated than others. When the sky is overcasted, the amount of energy reaching the surface decrease but the frequency of the intermittency generated in the PV output is not as high as if some individual clouds pass through.
 
 The time scales affected because of clouds varies from seconds to minutes. The intermittency due to clouds is very high as well as its uncertainty, because the exact position of clouds is sometime very difficult to forecast.
 
@@ -428,10 +428,20 @@ The time scales affected because of clouds varies from seconds to minutes. The i
 
 In the absence of clouds, aerosols \footnote{Aerosols is the term used to refered to the solid particles suspended on gas. In this wotk we are referin g to the atmospheric aerosols, which are the solid particles suspended on the atmosphere but the hydrometheors like ice crystals} are the main source of variability for solar resource. 
 
-Aerosols impact solar radiation in two ways: directly, scattering, absorbing or reflecting solar radiation or indirectly, acting as ondensation nuclei favouring the formation of clouds [ref].
+Aerosols impact solar radiation in two ways: directly, scattering, absorbing or reflecting solar radiation or indirectly, acting as condensation nuclei favouring the formation of clouds [ref].
 
 Time scales involved varies from daily to seasonally, because in some places the presence of aerosols have a very strong seasonality. Also, due to the highly related influence of aerosols and human activities (depending on the aerosols type), it has been detected that in longer time scales solar resource is also affected by changes in aerosol content.
 
+%Gueymard, C.A. Temporal variability in direct and global irradiance at various time scales as affected by
+%aerosols. Solar Energy 2012, 86, 3544 – 3553.
+
+\subsubsection{Other factors}
+
+As it has been noted at the beginning of the section, there are othter factors that affects the performance of the PV system, causing variations in the PV output. These factors are related to the electrical components of the system and they can be divided into internal and external facors.
+
+The most important external factor affecting the performance of the system is temperature. It affects cells performance and if temperature is much higher than the optimun cell temperature the efficiency will drop. Also some external factors like dust deposition can affect the electrical performance. On the first place because energy will not reach the cell but also because for a good performance, the whole solar cell has to be uniformly iluminated, avoiding shadows to prevent ``shadow effect''.
+
+Internal factors affecting the PV output that can cause variability are related to the transmission lines, wires and interconnections or the inversor.
 
 \section{Photovolatic power forecasting}
 
@@ -565,9 +575,71 @@ The uncertainty in the satellite radiation estimation comes from different sourc
 % dependence of solar conversion efficiency on PV panel
 % temperature.''
 
-
-
 \section{From short to long term issues}
+
+Longer time scales has been evaluated for other stages of PV projects like resource assessment. This phase consist on the evaluation of solar resource in order to estimate the potential energy that can be obtain with a project in an area. Also, this estmiation is been useful for communticating potential of different renewable energy resources across different countries to plan and define strategies by policymakers.
+
+Solar resource assessment needs long time series of solar irradiation data in order to capture the climatic characteristics. In that sense, it would be necessary a wide-spread network of stations recording solar radiation. Up to now, the scarcity of this measurements makes difficult to obtain accurate and long time series for very place where the solar resource wants to be measured. Satellite data has become the best option to get long time series record of high spatial and temporal resolution data. These data allows to characterize variability which is useful to determine the suitability of a short-term data set to produce valid long-term statistics [NREL]. For instance, it is common to use a typical meteorological year to assess the potential energy in a place. However, some studies has shown that this practice it is not accurate, at least for certain places, if direct normal irradiation (DNI) want to be characterize [Gueymard]. Years with higher loads of aerosols, which affects directly on DNI, are excluded if only TMY is used for the financial assessment of a CSP proyect. Global solar irradiation is less variable than direct normal irradiation, but quantifying inter-annual variability becomes important in all solar projects favouring management.
+
+%* seasonal ?? Interannual Variability and Seasonal Predictability of
+%Wind and Solar Resources
+
+Variability of solar resources in monthly to seasonal time scales has been evaluated related to large-scales circulation modes [Interannual Variability and Seasonal Predictability of Wind and Solar Resources, S.Jerez]. Certain grade of correlation between solar (and wind) anomalies and these modes has been found [ref]. To the extent that those modes are predictable they could be directly linked with anomalies in solar (and wind) resource, which would help in the seasonal forecasting for solar power, although these correlations greater for some locations rather than a global behaviour. Some results has been seen in these sense for wind seasonal forecasting and its relationship with the NAO [Clark, R.T.; Bett, P.E.; Thornton, H.E.; Scaife, A.A. Skilful seasonal predictions for the European energy industry. Environmental Research Letters 2017, 12, 024002]
+
+
+% Some of this variability
+% correlates with values of climate modes, and persistence and predictability of these modes provides
+% the potential for skill in seasonal prediction of these wind and solar fluctuations
+
+% Both wind and solar monthly anomalies were found to show some correlation with the climate
+% modes tested. To the extent that these climate modes are persistent or dynamically predictable,
+% long-range forecasts of these anomalies are possible. Statistical and dynamical methods can be used
+% to predict sea surface temperatures [30,57,58], which are strongly associated with many of the climate
+% modes, and there are also other sources of seasonal predictability, for example related to snow cover
+% and soil moisture [59,60]. Thus, improvements in NAO forecasting have led to better winter wind
+% power forecasts over Europe [61].
+% Many of the teleconnection correlations, particularly those for AO and NAO in winter (Figures
+% 5 and 6), are of opposite sign between northern and southern Europe, implying that spreading and
+% interconnecting wind and solar generation across the continent can mitigate the impact of interannual
+% variability on power supply. Similarly, positive correlations between wind and solar variability, such
+% as that seen in the southwestern US, can suggest the need for additional provision for reserve power
+% or grid interconnections.
+% Predictability based on these climate modes is seen to be much greater for some locations and
+% seasons than is the case in the global mean. The climate modes used here, taken from NOAA, are
+% ones that are known to influence weather in the United States. For other locations, for example in
+% the Southern Hemisphere, other climate modes, such as the Antarctic Oscillation [62], could have
+% stronger associations with wind and solar fluctuations.
+
+
+In longer perspectives, trends have been also evaluated because of multi-year variability and the presence of periods known as “dimming” and “brightening” (Müller et al. 2014, Wild 2015). Several studies have shown that those periods had occured in different areas in last decades. The dimming period over Europe over the 80's and its following ``brigthening'' period has been extensively evaluated [ref] and it has been proved that anthropogenic aerosols over the area are responsible of the former and its decrease of the latter.[ref]
+ 
+%``Long-term trends in GHI and DNI are also of importance because of the succession of periods known as “dimming” and “brightening,” which affect both climate change and the extrapolation of the historical solar resource into the future (Müller et al. 2014, Wild 2015)''
+
+%* papers de resource assessment
+%* typical meteorological year y sus problemas con los aerosoles y CSP? 
+
+%However, solar radiation is the most relevant variable in the energy balance of the Earth, wich means that its study is itself important for the complete understanding of the climatic system. There are many studies focused on solar radiation variabilitity at the surface that try to understand low frequency changes, observed trends and interanual variability of solar resource over Europe.
+
+%* Interanual variability
+%* decadal/multidecadal changes
+
+
+{\color{red}Continue this section}
+
 \section{Climate Change perspectives for solar resource and photovoltaic potential}
+
+%* Explicar aquí que se hace un cambio de perspectiva utilizando modleos climáticos¿?
+
+``Long-term trends in GHI and DNI are also of importance because of the succession of periods known as “dimming” and “brightening,” which affect both climate change and the extrapolation of the historical solar resource into the future (Müller et al. 2014, Wild 2015)''
+
+In a context of climate change, the climate system will evolve and renewable energy resources can be affected. Some studies had started to evaluate this resources under different climate change scenarios. The first technology that can be impacted is hydropower, due to the fact that many studies had showed that for mid-lartitudes precipitation will decresase and with respect to extreme events, drougth could become more frequent [].
+
+Some studies for Europe shows an sligth decrease of wind potential for southern Europe, with an increase in the nothern areas.
+
+Solar radiation potential under climate change scenarios has been investigated in several works: Crook, Wild, Jerez, Tobin and Bartok. Some of theme are focused on solar radiation (Bartok) rather than in photovoltaic potential beause they have a climate perspective. Global projections has been evaluated in [][] showing an increase in some areas like Europe, East-Asia and . An slightly decrease is also shown by [] over .
+
+Other works shows regional results, focused on a region. Main results in solar resource shows a discrepancy between Global Models, GCMs, and Regional Climate Models, RCMs\footnote{Climate models are explained in section x of chapter 4}, over Europe.
+
+The discrepancy showed by GCMs ans RCMs is the main issue followed to analyse in chapter 7 which are the reasons for it.
 
 %\end{document} 
