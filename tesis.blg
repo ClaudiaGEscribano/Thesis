@@ -5,6 +5,7 @@ The style file: biblatex.bst
 A level-1 auxiliary file: Intro.aux
 A level-1 auxiliary file: DataMethods.aux
 A level-1 auxiliary file: Resultados.aux
+A level-1 auxiliary file: Discusion.aux
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
@@ -16,7 +17,7 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated field_info (elt_size=4) to 19873 items from 5000.
+Reallocated field_info (elt_size=4) to 20290 items from 5000.
 Database file #1: tesis-blx.bib
 Database file #2: Data.bib
 Repeated entry---line 157 of file Data.bib
@@ -24,23 +25,23 @@ Repeated entry---line 157 of file Data.bib
  :                    ,
 I'm skipping whatever remains of this entry
 Reallocated str_pool (elt_size=1) to 130000 items from 65000.
-Repeated entry---line 1031 of file Data.bib
+Repeated entry---line 1062 of file Data.bib
  : @article{Nabat2014
  :                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1130 of file Data.bib
+Repeated entry---line 1161 of file Data.bib
  : @article{Lamigueiro2012
  :                        ,
 I'm skipping whatever remains of this entry
 Reallocated str_pool (elt_size=1) to 195000 items from 130000.
 Warning--I'm ignoring Sanchez-Lorenzo2013's extra "keywords" field
---line 1296 of file Data.bib
+--line 1327 of file Data.bib
 Warning--I'm ignoring Sanchez-Lorenzo2013's extra "keywords" field
---line 1297 of file Data.bib
+--line 1328 of file Data.bib
 Warning--I'm ignoring Sanchez-Lorenzo2013's extra "keywords" field
---line 1298 of file Data.bib
+--line 1329 of file Data.bib
 Warning--I'm ignoring Sanchez-Lorenzo2013's extra "keywords" field
---line 1299 of file Data.bib
+--line 1330 of file Data.bib
 Warning--I didn't find a database entry for "Gueymard2013a"
 Warning--I didn't find a database entry for "b"
 Warning--I didn't find a database entry for "garcia2005caracterizacion"
@@ -54,45 +55,45 @@ Warning--I didn't find a database entry for "Martin1999"
 Biblatex version: 3.3
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
-You've used 97 entries,
+You've used 100 entries,
             6047 wiz_defined-function locations,
-            2046 strings with 160376 characters,
-and the built_in function-call counts, 398365 in all, are:
-= -- 13339
-> -- 13734
-< -- 3506
-+ -- 4919
-- -- 6317
-* -- 41400
-:= -- 24550
+            2074 strings with 163331 characters,
+and the built_in function-call counts, 411285 in all, are:
+= -- 13903
+> -- 14185
+< -- 3675
++ -- 5087
+- -- 6497
+* -- 42478
+:= -- 25270
 add.period$ -- 0
-call.type$ -- 97
-change.case$ -- 1655
-chr.to.int$ -- 65
-cite$ -- 192
-duplicate$ -- 47231
-empty$ -- 40496
-format.name$ -- 11596
-if$ -- 85422
+call.type$ -- 100
+change.case$ -- 1758
+chr.to.int$ -- 67
+cite$ -- 198
+duplicate$ -- 48644
+empty$ -- 41764
+format.name$ -- 11850
+if$ -- 88365
 int.to.chr$ -- 0
-int.to.str$ -- 230
+int.to.str$ -- 241
 missing$ -- 0
-newline$ -- 5372
-num.names$ -- 4796
-pop$ -- 32350
+newline$ -- 5502
+num.names$ -- 5004
+pop$ -- 33295
 preamble$ -- 1
-purify$ -- 2114
+purify$ -- 2222
 quote$ -- 0
-skip$ -- 20195
+skip$ -- 20960
 stack$ -- 0
-substring$ -- 6298
-swap$ -- 17763
-text.length$ -- 3512
-text.prefix$ -- 224
+substring$ -- 6751
+swap$ -- 18316
+text.length$ -- 3619
+text.prefix$ -- 227
 top$ -- 1
-type$ -- 3674
+type$ -- 3788
 warning$ -- 0
-while$ -- 2042
+while$ -- 2116
 width$ -- 0
-write$ -- 5274
+write$ -- 5401
 (There were 3 error messages)

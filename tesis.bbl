@@ -582,6 +582,71 @@
   \field{year}{2017}
 \endentry
 
+\entry{Blanco2018}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Blanco}{B.}%
+     {Herib}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Faaij}{F.}%
+     {Andr{\'{e}}}{A.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Pergamon}%
+  }
+  \strng{namehash}{BHFA1}
+  \strng{fullhash}{BHFA1}
+  \field{labelalpha}{BF18}
+  \field{sortinit}{B}
+  \field{abstract}{%
+  A review of more than 60 studies (plus m4ore than 65 studies on P2G) on power
+  and energy models based on simulation and optimization was done. Based on
+  these, for power systems with up to 95{\%} renewables, the electricity
+  storage size is found to be below 1.5{\%} of the annual demand (in energy
+  terms). While for 100{\%} renewables energy systems (power, heat, mobility),
+  it can remain below 6{\%} of the annual energy demand. Combination of sectors
+  and diverting the electricity to another sector can play a large role in
+  reducing the storage size. From the potential alternatives to satisfy this
+  demand, pumped hydro storage (PHS) global potential is not enough and new
+  technologies with a higher energy density are needed. Hydrogen, with more
+  than 250 times the energy density of PHS is a potential option to satisfy the
+  storage need. However, changes needed in infrastructure to deal with high
+  hydrogen content and the suitability of salt caverns for its storage can pose
+  limitations for this technology. Power to Gas (P2G) arises as possible
+  alternative overcoming both the facilities and the energy density issues. The
+  global storage requirement would represent only 2{\%} of the global annual
+  natural gas production or 10{\%} of the gas storage facilities (in energy
+  equivalent). The more options considered to deal with intermittent sources,
+  the lower the storage requirement will be. Therefore, future studies aiming
+  to quantify storage needs should focus on the entire energy system including
+  technology vectors (e.g. Power to Heat, Liquid, Gas, Chemicals) to avoid
+  overestimating the amount of storage needed.%
+  }
+  \verb{doi}
+  \verb 10.1016/J.RSER.2017.07.062
+  \endverb
+  \field{issn}{1364-0321}
+  \field{pages}{1049\bibrangedash 1086}
+  \field{title}{{A review at the role of storage in energy systems with a focus
+  on Power to Gas and long-term storage}}
+  \verb{url}
+  \verb https://www.sciencedirect.com/science/article/pii/S1364032117311310
+  \endverb
+  \field{volume}{81}
+  \verb{file}
+  \verb :home/claudia/.local/share/data/Mendeley Ltd./Mendeley Desktop/Download
+  \verb ed/Blanco, Faaij - 2018 - A review at the role of storage in energy sys
+  \verb tems with a focus on Power to Gas and long-term storage.pdf:pdf
+  \endverb
+  \field{journaltitle}{Renewable and Sustainable Energy Reviews}
+  \field{year}{2018}
+  \warn{\item Invalid format of field 'month'}
+\endentry
+
 \entry{Beluco2012}{article}{}
   \name{author}{3}{}{%
     {{}%
@@ -2107,6 +2172,51 @@
   \field{journaltitle}{Climate Dynamics}
   \field{year}{2016}
   \warn{\item Invalid format of field 'month'}
+\endentry
+
+\entry{Gueymard2008}{inbook}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Gueymard}{G.}%
+     {Christian~A}{C.~A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Myers}{M.}%
+     {Daryl~R}{D.~R.}%
+     {}{}%
+     {}{}}%
+  }
+  \name{editor}{1}{}{%
+    {{}%
+     {Badescu}{B.}%
+     {Viorel}{V.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Springer Berlin Heidelberg}%
+  }
+  \strng{namehash}{GCAMDR1}
+  \strng{fullhash}{GCAMDR1}
+  \field{labelalpha}{GM08}
+  \field{sortinit}{G}
+  \field{booktitle}{Modeling Solar Radiation at the Earth's Surface: Recent
+  Advances}
+  \verb{doi}
+  \verb 10.1007/978-3-540-77455-6_1
+  \endverb
+  \field{isbn}{978-3-540-77455-6}
+  \field{pages}{1\bibrangedash 27}
+  \field{title}{{Solar Radiation Measurement: Progress in Radiometry for
+  Improved Modeling}}
+  \verb{url}
+  \verb https://doi.org/10.1007/978-3-540-77455-6{\_}1
+  \endverb
+  \list{location}{1}{%
+    {Berlin, Heidelberg}%
+  }
+  \field{year}{2008}
 \endentry
 
 \entry{Gutierrez2017}{article}{}
@@ -6149,6 +6259,55 @@
   \field{volume}{100}
   \field{journaltitle}{Global and Planetary Change}
   \field{year}{2013}
+\endentry
+
+\entry{Schaber2004}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Schaber}{S.}%
+     {Christopher}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Mazza}{M.}%
+     {Patrick}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hammerschlag}{H.}%
+     {Roel}{R.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Elsevier}%
+  }
+  \strng{namehash}{SCMPHR1}
+  \strng{fullhash}{SCMPHR1}
+  \field{labelalpha}{SMH04}
+  \field{sortinit}{S}
+  \field{abstract}{%
+  For widespread renewable energy to become reality, it must be coupled with
+  energy storage to match the intermittent renewable supply with customer
+  demand. Hydrogen has been proposed as the energy storage medium of the
+  future, but the utility industry might be better advised to consider such
+  other methods as secondary batteries, flow batteries, compressed air, and
+  pumped hydro.%
+  }
+  \verb{doi}
+  \verb 10.1016/J.TEJ.2004.05.005
+  \endverb
+  \field{issn}{1040-6190}
+  \field{number}{6}
+  \field{pages}{21\bibrangedash 29}
+  \field{title}{{Utility-Scale Storage of Renewable Energy}}
+  \verb{url}
+  \verb https://www.sciencedirect.com/science/article/pii/S1040619004000594
+  \endverb
+  \field{volume}{17}
+  \field{journaltitle}{The Electricity Journal}
+  \field{year}{2004}
+  \warn{\item Invalid format of field 'month'}
 \endentry
 
 \entry{Sorensen1991}{article}{}

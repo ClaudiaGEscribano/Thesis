@@ -8,9 +8,38 @@
 
   There are many applications from meteorology to agriculture or even health sciences, that would benefit from an accuarate station network that provide high quality radiation measurements at the surface. However, it is well-known that the lack of  well spread solar radiation measurements has been a constrain not only for the development of solar forecasting or resource assessment techniques, but also for the study of the whole atmospheric/climatic processes in which solar radiation takes places. The progress and improvement in the satellite-based products has helped to overcome some of these issues providing gridded data at a high spatial and temporal resolution.
 
-  \section{Solar radiation measurements: \textit{Baseline Surface Radiation Network, BSRN}}
+\section{Solar Radiation data}
 
-  Solar radiation data from ground stations are not common at the publicly available metheorological stations. One of the main sources of high quality data are from the 'Baseline Surface Radiation Network', BSRN \cite*{Konig-Langlo2013}. %[König-Langlo, G. , Sieger, R. , Schmithüsen, H. , Bücker, A. , Richter, F. and Dutton E.G. 2013. The Baseline Surface Radiation Network and its World Radiation Monitoring Centre at the Alfred Wegener Institute.
+\subsection{Solar radiation measurements}% \textit{Baseline Surface Radiation Network, BSRN}}
+
+The measurement of solar radiation is based on radiometers that measure the solar energy reaching the earth's surface. These radiometers are able to measure electromagnetic solar radiation at different wavelengths. For energy purpose, the interest of solar radiation measurements is on the shortwave range of the spectrum. These kind of intruments are normally of three different types: thermopile, blackbody cavity, and solid state \cite*{Gueymard2008}. The detector has a known spectral response to incident radiation and it is protected with an optical window that can be used to limit the spectral range of the radiation measured. 
+
+Solar radiation can be decomposed in three components, as it is explain in section []. Different instrumentation can be used to measure each of the components. For global solar irradiation pyranometers can be used whereas for direct solar irradiation, the instruments are called pyrheliometers.
+% Solar radiation data from ground stations are not common at the publicly available metheorological stations. Solar global radiation is measured with instruments called pyranometers 
+
+Iqbal 1983
+% The science behind the measurement of electromagnetic radiation is called ra-
+% diometry. Historically, simple instrumentation has been long used to evaluate the
+% duration of bright sunshine in relation to day length. Radiometers of various de-
+% signs have then been perfected to measure the energy in specific “components” of
+% terrestrial solar radiation, as will be defined in Sect. 3. The interested reader should
+% consult other textbooks (e.g., Coulson 1975; Iqbal 1983) for historical and technical
+% details about common instruments used in solar radiometry.
+% Radiometers are constituted of different parts, mainly a casing or body, a radiation
+% detector, and some electronics, including electrical circuits. For the instruments un-
+% der scrutiny here, whose main purpose is to measure shortwave radiation (as op-
+% posed to UV or thermal radiation), detectors can be of three main types: thermopile,
+% blackbody cavity, and solid state (semiconductor). The detector has a known spec-
+% tral response to incident radiation. It is generally protected from the environment
+% with some type of optical window, which can be transparent (e.g., glass or quartz),
+% colored (e.g., interference filter), or translucent (e.g., white diffuser). The win-
+% dow optical transmission further limits the spectral range of the radiation actually
+% measured
+
+
+First intruments that measures solar radiation were based on intruments to measure the duration of daytime.
+
+One of the main sources of high quality data are from the 'Baseline Surface Radiation Network', BSRN \cite*{Konig-Langlo2013}. %[König-Langlo, G. , Sieger, R. , Schmithüsen, H. , Bücker, A. , Richter, F. and Dutton E.G. 2013. The Baseline Surface Radiation Network and its World Radiation Monitoring Centre at the Alfred Wegener Institute.
 %GCOS - 174, WCRP Report 24/2013, 30 pp..] \\
 
   The aim of the BSRN project is to detect changes in the Earth's radiation field that could be a consequence of climatic changes [ref web]. The monitoring network provides high-quality and high-frequence data of short and long-wave radiation fluxes from different stations around the globe, which correspond to different climatic zones. In figure \ref{fig:bsrnstations} all the available stations from BSRN are displayed.
@@ -24,7 +53,7 @@ The World Climate Research Programme (WCRP) Radiative Fluxes Working Group initi
  \label{fig:bsrnstations}
 \end{figure}
 
-\section{Modelling of solar radiation}
+\subsection{Modelling of solar radiation}
 
 In order to understand the processes that take places when solar radiation goes through the atmosphere and reaches the Earth's surface it is necessary a modelling approach. This modelling process can be made by a physical approach or using statistical methods (Festa and Ratto, 1993).
 
@@ -36,7 +65,7 @@ Secondly, the solar radiation at the surface can be estimated using statistical 
 
 In chapters 6 and 7 different climate models are used as main source of solar radiation data. The output of each model will be the result of the radiative scheme inside their codes and it can be used as the input variable for a photovoltaic production model to analyse photovoltaic potential under different climate conditions.
 
-\subsection{CORDEX initiative}
+\subsubsection{CORDEX initiative}
 
 Under the acronim of CORDEX (Coordinated Regional Downscalling Experiment) there have been developed a wide range of regional climate models\footnote{The chapter \ref{cha:Methods} explain the origin of regional climate modelling and the simulations used in the thesis} that provide climate downscalled simulations for different areas around the globe\footnote{Cordex website:http://www.cordex.org/. This international framework is under the umbrella of the world climate research program, WRCP} . Their importance arise with the advance in knowdlege of climate change provided by global models. Whereas those models give an overview of the evolution of global conditions, their coarse resolution is not enough to understand climate change impacts at a local scale. The higher resolution of the regional climate models are needed for supporting adaptation and mitigation plans.
 
@@ -51,12 +80,14 @@ Two different domains from CORDEX are used in this study both focus on the Medit
     \label{fig:cordexdomain}
 \end{figure}
 
-{\color{red}¿Incluir una tabla con los diferentes modelos regionales que participan en MED cordex y EURO cordex? Los que se usan en la tesis están explicados después, pero este es un punto general de dónde se han obtenido los datos.}
-\section{Satellite data: \textit{Climate Monitoring Satellite Application Facility, CM-SAF}}
+{\color{red}¿Incluir una tabla con los diferentes modelos regionales que participan en MED cordex y EURO cordex? Los que se usan en la tesis están explicados después, pero este es un punto general de dónde se han obtenido los datos.} 
+\subsection{Satellite data}
  
 It has been previously commented that the scarcity of available ground-based solar radiation measurements is a well-known problem. Satellite datasets have become one of the main sources of solar radition data because of their high spatial and temporal resolution as well as their increasing accuracy.
 
 There are different methods to retrieve solar radiation from satellite images that goes from physical models to empirical ones. In the first case, the models try to explain the radiance observed by the satellite instrumentation with a radiation transfer model (RTM). In order to do that, it is necessary to know the composition of the atmosphere. On the other hand, empirical models are based in simple regression models between the visible-channel's recorded intensity and grounded measurements. There are also some approaches that are in between theses two sides: the semi-empirical models. They use a simpler radiative-transfer scheme and some statistical regressions between data from satellite sensors and observed data (Schmetz (1989), Noia et al. (1993), Pinker et al. (1995), Zelenka (2001), and Hammer et al (2003)).\footnote{Jan Kleiss, Solar Energy Forecasting and Resource assessment, pp.22.23}
+
+\subsubsection{Climate Monitoring Satellite Application Facility, CM-SAF}
 
 In this work some satellite-data-based products from CM-SAF (The Satellite Application Facility on Climate Monitoring) have been used. The aim of CM-SAF consortium from EUMETSAT [ref] is to develop satellite-data-based-products for climate monitoring since in 2000 it was recognised the importance of using satellite for this purpose.
 
