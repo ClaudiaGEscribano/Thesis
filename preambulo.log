@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.11.2)  17 DEC 2018 15:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.11.2)  21 DEC 2018 18:28
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -36,14 +36,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.3 \usepackage[b5paper]{
-                         geometry}%[a4paper]{geometry}
+l.3 \usepackage[a4paper]{
+                         geometry}%[b5paper]{geometry}%[a4paper]{geometry}
 \usepackage may only appear in the document preamble, i.e.,
 between \documentclass and \begin{document}.
 
 ./preambulo.tex:4: Undefined control sequence.
 l.4 \geometry
-             {verbose,tmargin=2.5cm,bmargin=2.5cm,lmargin=2cm,rmargin=2cm}
+             {verbose,tmargin=2.5cm,bmargin=2.5cm,lmargin=2.5cm,rmargin=2.5cm}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -58,7 +58,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.4 \geometry{v
-               erbose,tmargin=2.5cm,bmargin=2.5cm,lmargin=2cm,rmargin=2cm}
+               erbose,tmargin=2.5cm,bmargin=2.5cm,lmargin=2.5cm,rmargin=2.5cm}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -107,6 +107,8 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no 2 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
 Missing character: There is no c in font nullfont!
 Missing character: There is no m in font nullfont!
 Missing character: There is no , in font nullfont!
@@ -119,6 +121,8 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no 2 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
 Missing character: There is no c in font nullfont!
 Missing character: There is no m in font nullfont!
 ./preambulo.tex:12: Undefined control sequence.
@@ -292,6 +296,15 @@ between \documentclass and \begin{document}.
 Overfull \hbox (20.0pt too wide) in paragraph at lines 4--30
 []
  []
+
+./preambulo.tex:41: Undefined control sequence.
+l.41 \OnehalfSpacing
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
 ./preambulo.tex:46: Undefined control sequence.
 l.46 \makenomenclature
@@ -1921,8 +1934,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.335 \usepackage[scaled=.92]{
-                              helvet}%. Sans serif - Helvetica
+l.335 \usepackage[scaled=0.92]{
+                               helvet}%. Sans serif - Helvetica
 \usepackage may only appear in the document preamble, i.e.,
 between \documentclass and \begin{document}.
 

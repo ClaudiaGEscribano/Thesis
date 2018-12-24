@@ -17,7 +17,7 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated field_info (elt_size=4) to 20290 items from 5000.
+Reallocated field_info (elt_size=4) to 20429 items from 5000.
 Database file #1: tesis-blx.bib
 Database file #2: Data.bib
 Repeated entry---line 157 of file Data.bib
@@ -25,25 +25,26 @@ Repeated entry---line 157 of file Data.bib
  :                    ,
 I'm skipping whatever remains of this entry
 Reallocated str_pool (elt_size=1) to 130000 items from 65000.
-Repeated entry---line 1062 of file Data.bib
+Repeated entry---line 1077 of file Data.bib
  : @article{Nabat2014
  :                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1161 of file Data.bib
+Repeated entry---line 1176 of file Data.bib
  : @article{Lamigueiro2012
  :                        ,
 I'm skipping whatever remains of this entry
 Reallocated str_pool (elt_size=1) to 195000 items from 130000.
 Warning--I'm ignoring Sanchez-Lorenzo2013's extra "keywords" field
---line 1327 of file Data.bib
+--line 1342 of file Data.bib
 Warning--I'm ignoring Sanchez-Lorenzo2013's extra "keywords" field
---line 1328 of file Data.bib
+--line 1343 of file Data.bib
 Warning--I'm ignoring Sanchez-Lorenzo2013's extra "keywords" field
---line 1329 of file Data.bib
+--line 1344 of file Data.bib
 Warning--I'm ignoring Sanchez-Lorenzo2013's extra "keywords" field
---line 1330 of file Data.bib
+--line 1345 of file Data.bib
 Warning--I didn't find a database entry for "Gueymard2013a"
 Warning--I didn't find a database entry for "b"
+Warning--I didn't find a database entry for "Holben1198"
 Warning--I didn't find a database entry for "garcia2005caracterizacion"
 Warning--I didn't find a database entry for "jantsch1992results"
 Warning--I didn't find a database entry for "5694060"
@@ -57,7 +58,7 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 You've used 100 entries,
             6047 wiz_defined-function locations,
-            2074 strings with 163331 characters,
+            2076 strings with 163351 characters,
 and the built_in function-call counts, 411285 in all, are:
 = -- 13903
 > -- 14185
