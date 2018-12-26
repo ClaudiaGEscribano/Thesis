@@ -2765,6 +2765,125 @@
   \field{year}{1985}
 \endentry
 
+\entry{Holben1998}{article}{}
+  \name{author}{13}{}{%
+    {{}%
+     {Holben}{H.}%
+     {B.N.}{B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Eck}{E.}%
+     {T.F.}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Slutsker}{S.}%
+     {I.}{I.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Tanr{\'{e}}}{T.}%
+     {D.}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Buis}{B.}%
+     {J.P.}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Setzer}{S.}%
+     {A.}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Vermote}{V.}%
+     {E.}{E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Reagan}{R.}%
+     {J.A.}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kaufman}{K.}%
+     {Y.J.}{Y.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Nakajima}{N.}%
+     {T.}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lavenu}{L.}%
+     {F.}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Jankowiak}{J.}%
+     {I.}{I.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Smirnov}{S.}%
+     {A.}{A.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Elsevier}%
+  }
+  \strng{namehash}{HB+1}
+  \strng{fullhash}{HBETSITDBJSAVERJKYNTLFJISA1}
+  \field{labelalpha}{Hol+98}
+  \field{sortinit}{H}
+  \field{abstract}{%
+  The concept and description of a remote sensing aerosol monitoring network
+  initiated by NASA, developed to support NASA, CNES, and NASDA's Earth
+  satellite systems under the name AERONET and expanded by national and
+  international collaboration, is described. Recent development of
+  weather-resistant automatic sun and sky scanning spectral radiometers enable
+  frequent measurements of atmospheric aerosol optical properties and
+  precipitable water at remote sites. Transmission of automatic measurements
+  via the geostationary satellites GOES and METEOSATS' Data Collection Systems
+  allows reception and processing in near real-time from approximately 75{\%}
+  of the Earth's surface and with the expected addition of GMS, the coverage
+  will increase to 90{\%} in 1998. NASA developed a UNIX-based near real-time
+  processing, display and analysis system providing internet access to the
+  emerging global database. Information on the system is available on the
+  project homepage, http://spamer.gsfc.nasa.gov. The philosophy of an open
+  access database, centralized processing and a user-friendly graphical
+  interface has contributed to the growth of international cooperation for
+  ground-based aerosol monitoring and imposes a standardization for these
+  measurements. The system's automatic data acquisition, transmission, and
+  processing facilitates aerosol characterization on local, regional, and
+  global scales with applications to transport and radiation budget studies,
+  radiative transfer-modeling and validation of satellite aerosol retrievals.
+  This article discusses the operation and philosophy of the monitoring system,
+  the precision and accuracy of the measuring radiometers, a brief description
+  of the processing system, and access to the database.%
+  }
+  \verb{doi}
+  \verb 10.1016/S0034-4257(98)00031-5
+  \endverb
+  \field{issn}{0034-4257}
+  \field{number}{1}
+  \field{pages}{1\bibrangedash 16}
+  \field{title}{{AERONET—A Federated Instrument Network and Data Archive for
+  Aerosol Characterization}}
+  \verb{url}
+  \verb https://www.sciencedirect.com/science/article/abs/pii/S0034425798000315
+  \verb ?via{\%}3Dihub
+  \endverb
+  \field{volume}{66}
+  \field{journaltitle}{Remote Sensing of Environment}
+  \field{year}{1998}
+  \warn{\item Invalid format of field 'month'}
+\endentry
+
 \entry{Hoicka2011}{article}{}
   \name{author}{2}{}{%
     {{}%
