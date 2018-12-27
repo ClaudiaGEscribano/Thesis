@@ -15,7 +15,7 @@
 \contentsline {subsection}{\numberline {1.4.1}Climate services}{10}{subsection.1.4.1}
 \contentsline {section}{\numberline {1.5}Climate change and the Mediterranean area}{10}{section.1.5}
 \contentsline {section}{\numberline {1.6}Objectives and scientific questions}{11}{section.1.6}
-\contentsline {section}{\numberline {1.7}Organization of the manuscript}{11}{section.1.7}
+\contentsline {section}{\numberline {1.7}Organization of the manuscript}{12}{section.1.7}
 \contentsline {chapter}{\chapternumberline {2}State of knowdlege}{13}{chapter.2}
 \contentsline {section}{\numberline {2.1}Variable renewable energies: VRE}{13}{section.2.1}
 \contentsline {section}{\numberline {2.2}Variability sources in PV}{14}{section.2.2}
@@ -39,14 +39,16 @@
 \contentsline {chapter}{\chapternumberline {3}Data}{25}{chapter.3}
 \contentsline {section}{\numberline {3.1}Solar Radiation data}{25}{section.3.1}
 \contentsline {subsection}{\numberline {3.1.1}Solar radiation measurements}{25}{subsection.3.1.1}
-\contentsline {subsection}{\numberline {3.1.2}Modelling of solar radiation}{26}{subsection.3.1.2}
-\contentsline {subsubsection}{CORDEX initiative}{27}{subsection.3.1.2}
+\contentsline {subsubsection}{BSRN}{26}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Modelling of solar radiation}{27}{subsection.3.1.2}
+\contentsline {subsubsection}{CORDEX initiative}{28}{subsection.3.1.2}
 \contentsline {subsection}{\numberline {3.1.3}Satellite data}{28}{subsection.3.1.3}
-\contentsline {subsubsection}{Climate Monitoring Satellite Application Facility, CM-SAF}{28}{subsection.3.1.3}
+\contentsline {subsubsection}{Climate Monitoring Satellite Application Facility, CM-SAF}{29}{subsection.3.1.3}
 \contentsline {section}{\numberline {3.2}Photovoltaic prodution data}{29}{section.3.2}
 \contentsline {section}{\numberline {3.3}Temperature data}{30}{section.3.3}
-\contentsline {section}{\numberline {3.4}Aerosols datasets}{30}{section.3.4}
-\contentsline {subsection}{\numberline {3.4.1}Aerosols in RCMs}{31}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.3.1}E-OBS dataset}{30}{subsection.3.3.1}
+\contentsline {section}{\numberline {3.4}Aerosols datasets}{31}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Aerosols in RCMs}{32}{subsection.3.4.1}
 \contentsline {chapter}{\chapternumberline {4}Methods}{33}{chapter.4}
 \contentsline {section}{\numberline {4.1}Clustering algorithm applied to climate data}{34}{section.4.1}
 \contentsline {subsection}{\numberline {4.1.1}Clustering algorithms}{34}{subsection.4.1.1}
@@ -89,7 +91,7 @@
 \contentsline {subsection}{\numberline {6.3.2}Regional scale}{84}{subsection.6.3.2}
 \contentsline {subsection}{\numberline {6.3.3}Impact of aerosols by tracking type}{86}{subsection.6.3.3}
 \contentsline {subsubsection}{Mean behavior. Period 2003-2009}{86}{subsection.6.3.3}
-\contentsline {subsubsection}{Seasonal cycle}{87}{figure.caption.36}
+\contentsline {subsubsection}{Seasonal cycle}{87}{figure.caption.37}
 \contentsline {subsection}{\numberline {6.3.4}Long-term trends. Period 1980-2012}{90}{subsection.6.3.4}
 \contentsline {section}{\numberline {6.4}Discussion}{91}{section.6.4}
 \contentsline {subsection}{\numberline {6.4.1}Limitations}{91}{subsection.6.4.1}
@@ -123,4 +125,4 @@
 \contentsline {subsubsection}{Regionalization over the IP}{113}{chapter.9}
 \contentsline {subsubsection}{Impact of aerosols over the Mediterranean area}{114}{chapter.9}
 \contentsline {subsubsection}{Future projections of PV potential under climate change scenarios}{115}{chapter.9}
-\contentsline {chapter}{Bibliography}{117}{section*.52}
+\contentsline {chapter}{Bibliography}{117}{section*.53}

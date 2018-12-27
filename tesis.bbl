@@ -6713,6 +6713,71 @@
   \field{year}{2008}
 \endentry
 
+\entry{Vernay2014}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Vernay}{V.}%
+     {Christophe}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Pitaval}{P.}%
+     {S{\'{e}}bastien}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Blanc}{B.}%
+     {Philippe}{P.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Elsevier}%
+  }
+  \strng{namehash}{VCPSBP1}
+  \strng{fullhash}{VCPSBP1}
+  \field{labelalpha}{VPB14}
+  \field{sortinit}{V}
+  \field{abstract}{%
+  This paper explores the possibilities provided by satellite-based surface
+  solar irradiation databases, for the attention of the photovoltaic actors,
+  from the engineering and the financing to the operating of photovoltaic
+  systems. First, the problematic of using meteorological ground stations for
+  the determining of solar dataset or time-series is addressed with the example
+  of the French national meteorological network and the focus made on the
+  South-West part of France: the heterogeneity in terms of spatial and temporal
+  representativeness along with the relevance of the delivered measurement are
+  questioned. Then, an innovative synthesis of 16 satellite-based ISS databases
+  available so far is presented through the distribution of their corresponding
+  features within three categories: spatial and temporal representativeness,
+  data type in terms of component and format, and finally operating mode for
+  the retrieving of the data in terms of price and accessibility. The results
+  of this review shall help photovoltaic actors making the correlation between
+  the available satellite-based databases and their specific needs.%
+  }
+  \verb{doi}
+  \verb 10.1016/J.EGYPRO.2014.10.129
+  \endverb
+  \field{issn}{1876-6102}
+  \field{pages}{1383\bibrangedash 1391}
+  \field{title}{{Review of Satellite-based Surface Solar Irradiation Databases
+  for the Engineering, the Financing and the Operating of Photovoltaic
+  Systems}}
+  \verb{url}
+  \verb https://www.sciencedirect.com/science/article/pii/S1876610214014969
+  \endverb
+  \field{volume}{57}
+  \verb{file}
+  \verb :home/claudia/.local/share/data/Mendeley Ltd./Mendeley Desktop/Download
+  \verb ed/Vernay, Pitaval, Blanc - 2014 - Review of Satellite-based Surface So
+  \verb lar Irradiation Databases for the Engineering, the Financing and the.pd
+  \verb f:pdf
+  \endverb
+  \field{journaltitle}{Energy Procedia}
+  \field{year}{2014}
+  \warn{\item Invalid format of field 'month'}
+\endentry
+
 \entry{vazquez2012interannual}{article}{}
   \name{author}{6}{}{%
     {{}%

@@ -8,13 +8,14 @@
 
   There are many applications from meteorology to agriculture or even health sciences, that would benefit from an accuarate station network that provide high quality radiation measurements at the surface. However, it is well-known that the lack of  well spread solar radiation measurements has been a constrain not only for the development of solar forecasting or resource assessment techniques, but also for the study of the whole atmospheric/climatic processes in which solar radiation takes places. The progress and improvement in the satellite-based products has helped to overcome some of these issues providing gridded data at a high spatial and temporal resolution.
 
+% Modelización: para qué sirve? estudios concretos de los procesos en los que interviene la radiación.  
 \section{Solar Radiation data}
 
 \subsection{Solar radiation measurements}% \textit{Baseline Surface Radiation Network, BSRN}}
 
-The measurement of solar radiation is based on radiometers that measure the solar energy reaching the earth's surface. These radiometers are able to measure electromagnetic solar radiation at different wavelengths. For energy purpose, the interest of solar radiation measurements is on the shortwave range of the spectrum. These kind of intruments are normally of three different types: thermopile, blackbody cavity, and solid state \cite*{Gueymard2008}. The detector has a known spectral response to incident radiation and it is protected with an optical window that can be used to limit the spectral range of the radiation measured. 
+The measurement of solar radiation is based on radiometers that measure the solar energy reaching the earth's surface. These radiometers are able to measure electromagnetic solar radiation at different wavelengths. For energy purpose, the interest of solar radiation measurements is on the shortwave range of the spectrum.
 
-Solar radiation can be decomposed in three components, as it is explain in section []. Different instrumentation can be used to measure each of the components. For global solar irradiation pyranometers can be used whereas for direct solar irradiation, the instruments are called pyrheliometers.
+Solar radiation can be decomposed in three components: direct normal irradiation, diffuse irradiation and reflected radiation, as it is explain in section []. These three components added form the global solar irradiation G(0) that reach the surface. Different instrumentation can be used to measure each of the components. For global solar irradiation pyranometers can be used whereas for direct solar irradiation, the instruments are called pyrheliometers.
 % Solar radiation data from ground stations are not common at the publicly available metheorological stations. Solar global radiation is measured with instruments called pyranometers 
 
 Iqbal 1983
@@ -37,7 +38,32 @@ Iqbal 1983
 % measured
 
 
-First intruments that measures solar radiation were based on intruments to measure the duration of daytime.
+Historically, first intruments that measures solar radiation, during the 19th and 20th centuries, were based on intruments to calculate the duration of bright sunshine, following the needs of agriculture to understand evaporation [nrel report]. For that time, the Campbell-Stokes sunshine recorder (Iqbal 1983; Vignola, Michalsky, and Stoffel 2012) was the most used. It focused the direct beam of solar irradiation to create burn marks in a paper when the DNI exceded certain value. Trhough the comparison of the burned length to the day length it was possible to characterize solar radiation at each place.
+
+By the early 20th century, it has been developed the pyranometers (from the Greek for fire, above, and measure) to measure GHI for understanding the Earth’s energy budget (Vignola, Michalsky, and Stoffel 2012).
+
+Actual radiometers are of three different types: thermopile, blackbody cavity, and solid state \cite*{Gueymard2008}. The detector of the instrumentation has a known spectral response to incident radiation and it is protected with an optical window that can be used to limit the spectral range of the radiation measured, which is important for energy purposes.[badescu] 
+
+% Instruments designed to measure any for  m of radiation are called radiometers. The earliest developments of instrumentation for measuring solar radiation were designed to meet the needs of agriculture for bright sunshine duration to understnd evaporation and by physicists for determining the solar constant. During the 19th and 20th centuries, the most widely deployed instrument for measuring solar radiation was the Campbell-Stokes sunshine recorder (Iqbal 1983; Vignola, Michalsky, and Stoffel 2012). This analog device focuses the direct beam by a simple spherical lens (glass ball) to create burn marks during clear periods (when DNI exceeds 120 Wm-2) on a sensitized paper strip placed daily in the focus curve. By comparing the total burn length to the corresponding day length, records of percent possible sunshine from stations around the world became the basis for characterizing the global distribution of solar radiation (Löf et al. 1966). The earliest pyrheliometers (from the Greek for fire, sun, and measure) were based on calorimetry and used by scientists to measure brief periods of DNI from various locations, generally at high elevations to minimize the effects of a thick atmosphere on the transmission of solar radiation. By the early 20th century, scientists had developed pyranometers (from the Greek for fire, above, and measure) to measure GHI for understanding the Earth’s energy budget (Vignola, Michalsky, and Stoffel 2012). [https://www.nrel.gov/docs/fy18osti/68886.pdf]
+
+Different research programs are in charge of assure quality of some important solar radiation measurements databases. These significant research works are the Baseline surface radiation network, BSRN [ref], the International daylight measurement program [ref], the Global energy balance archive, GEBA [ref] or the World radiation data center, WRDC [ref]. All of them are only applicable for research purpose and no-comercial activities. To these databases can be added different country-level databases that have a dense network but the availability of global solar irradiation measurements and, to a further extent, different components is not always assured.
+
+% Solar radiation has been measured by national networks for several decades. Part of the collected data has been
+% processed, in the scope of research programs, in order to setup – alas – few reliable networks with heterogeneous
+% spatial coverage [8]: from about 50 ground stations for Baseline surface radiation network (BSRN [9]) and
+% International daylight measurement program (IDMP, http://idmp.entpe.fr/) up to more than 1,000 for Global energy
+% balance archive (GEBA [10]) and World radiation data center (WRDC, http://wrdc.mgo.rssi.ru/). As part of scientific
+% research programs, the added-value for such databases mainly consists in the high-quality of the available data,
+% considering that stringent requirements have been defined:
+% x The quality of the sensors;
+% x The periodic on-site maintenance along with sensor calibration;
+% x The quality-check procedure to ensure the reliability of the measurement [11].
+% Despite such a quality check, data aggregation (yearly, monthly, daily and even hourly) always needs to be viewed
+% with a critical eye because of the missing data and the shading problematic that may differ from one ground station to
+% another.
+% Major obst
+
+\subsubsection{BSRN}
 
 One of the main sources of high quality data are from the 'Baseline Surface Radiation Network', BSRN \cite*{Konig-Langlo2013}. %[König-Langlo, G. , Sieger, R. , Schmithüsen, H. , Bücker, A. , Richter, F. and Dutton E.G. 2013. The Baseline Surface Radiation Network and its World Radiation Monitoring Centre at the Alfred Wegener Institute.
 %GCOS - 174, WCRP Report 24/2013, 30 pp..] \\
@@ -80,12 +106,22 @@ Two different domains from CORDEX are used in this study both focus on the Medit
     \label{fig:cordexdomain}
 \end{figure}
 
-{\color{red}¿Incluir una tabla con los diferentes modelos regionales que participan en MED cordex y EURO cordex? Los que se usan en la tesis están explicados después, pero este es un punto general de dónde se han obtenido los datos.} 
+{\color{red} Incluir como mucho la diferencia entre MED y EURO cordex así como FPS}
+
 \subsection{Satellite data}
  
 It has been previously commented that the scarcity of available ground-based solar radiation measurements is a well-known problem. Satellite datasets have become one of the main sources of solar radition data because of their high spatial and temporal resolution as well as their increasing accuracy.
 
-There are different methods to retrieve solar radiation from satellite images that goes from physical models to empirical ones. In the first case, the models try to explain the radiance observed by the satellite instrumentation with a radiation transfer model (RTM). In order to do that, it is necessary to know the composition of the atmosphere. On the other hand, empirical models are based in simple regression models between the visible-channel's recorded intensity and grounded measurements. There are also some approaches that are in between theses two sides: the semi-empirical models. They use a simpler radiative-transfer scheme and some statistical regressions between data from satellite sensors and observed data (Schmetz (1989), Noia et al. (1993), Pinker et al. (1995), Zelenka (2001), and Hammer et al (2003)).\footnote{Jan Kleiss, Solar Energy Forecasting and Resource assessment, pp.22.23}
+Differente methods to retrieve solar irradiation from satellites has been previously commented in chapter 2. There are may solar irradiation datasets available nowadays: Meteonorm, SolarGIS, CM-SAF, Helio-Clim etc. Their differences are based on different parameters that goes from the data source, one or several satellites, the spatial coverage and resolution, the time resolution or its accesibility related to its private/comercial purposes. An in detailed review of 16 of the most common satellite derived datasets is made in \cite*{Vernay2014}.
+
+
+% [Vernay 2014]
+% * bases de datos de radiación a partir de datos de satélite
+% * Distinta cobertura espacial
+% * Distintos métodos
+% * Privados o organismos de investigación
+ 
+% There are different methods to retrieve solar radiation from satellite images that goes from physical models to empirical ones. In the first case, the models try to explain the radiance observed by the satellite instrumentation with a radiation transfer model (RTM). In order to do that, it is necessary to know the composition of the atmosphere. On the other hand, empirical models are based in simple regression models between the visible-channel's recorded intensity and grounded measurements. There are also some approaches that are in between theses two sides: the semi-empirical models. They use a simpler radiative-transfer scheme and some statistical regressions between data from satellite sensors and observed data (Schmetz (1989), Noia et al. (1993), Pinker et al. (1995), Zelenka (2001), and Hammer et al (2003)).\footnote{Jan Kleiss, Solar Energy Forecasting and Resource assessment, pp.22.23}
 
 \subsubsection{Climate Monitoring Satellite Application Facility, CM-SAF}
 
@@ -96,7 +132,7 @@ The CM SAF products are derived from several instruments on-board operational sa
 
 The SARAH dataset from CM-SAF has been used in chapters 6 and 7 of this manuscript for the analysis of shortwave solar radiation at the surface. The data is based on the records from Meteosat images, first and second generation, using the on-board MVIRI and SEVIRI instruments respectively. As the purpose of the CDR is to provide long time series convering more than 20 years, it is necessary a retrieval algorithm that can be applied to SEVIRI intruments as well as to the older MVIRI. This algorithm has been called MAGICSOL and has to parts: first, the modified Heliosat method is used to obtain the cloud effective albedo (CAL) and second, the MAGIC appoach is used to obtain all sky surface radiation based on CAL. (ref PUM)
 
-{\color{red} No sé si merece la pena poner algo más acerca del método. Puede ser de ayuda también para ver como se incluyen los aerosoles. Incluyo una imagen del esquema que hice del proceso de obtención de la radiación con los datos del satélite y podría estar bien incluir.}
+{\color{red} Poner algo más acerca del método. Puede ser de ayuda también para ver como se incluyen los aerosoles. Incluyo una imagen del esquema que hice del proceso de obtención de la radiación con los datos del satélite y podría estar bien incluir.}
 
 
 \begin{figure}
@@ -110,12 +146,14 @@ The SARAH dataset from CM-SAF has been used in chapters 6 and 7 of this manuscri
 
 In order to evaulate the performance of a PV model it is necessary to use the data from real PV plants. However, these data is not easy to obtain, due to the fact that it belongs to private companies and it could compromise some of their strategies. This makes necessary to get agreements and confidential contracts between these companies and researchers that are not always easy to obtain if an inmediate benefit does not arise from those relationships.
 
-Some alternatives are the databases of aggregated data that are available for the European countries throught the ETNSO-e data portal website. However, these data will be only useful for certain modeling exercices.
+Some alternatives are the databases of aggregated data that are available for the European countries throught the ETNSO-e data portal website. However, these data will be only useful for certain modeling exercices but have limitations due to the fact that there is a lack of information related to the power plant locations in each country.
 
-\begin{itemize}
-\item {\color{red} ¿Tiene sentido que comente aquí los datos de ETNSO?}
-\item {\color{red}No tengo claro si describir aquí las dos plantas que tenemos y que se utilizan en el segundo artículo}
-\end{itemize}
+In this work two power plants data have been used in order to compare simulations with the real data. The limitations of these two plants is that they are both located in the Iberian Peninsula, and the length of the time series is limited. However, due to the difficulties to obtain these kind of data, it is useuful to compare the modelling chain approach used in chapter 6 with the real data.
+
+% \begin{itemize}
+% \item {\color{red} ¿Tiene sentido que comente aquí los datos de ETNSO?}
+% \item {\color{red}No tengo claro si describir aquí las dos plantas que tenemos y que se utilizan en el segundo artículo}
+% \end{itemize}
 
 \section{Temperature data}
 
@@ -123,9 +161,19 @@ Some alternatives are the databases of aggregated data that are available for th
  
   Temperature data is easier to obtain than solar radiation data. Numerous weather stations provides temperature data at 2m over the surface at a local scale. For an overview of a large area gridded products are useful and easier to combine with the satellite products.
 
+\subsection{E-OBS dataset}
+  
   E-OBS is a gridded dataset derived through interpolation from the ECA\&D data based on stations that provides daily temperatura data over Europe and the Mediterranean area \footnote{https://www.ecad.eu//download/ensembles/download.php#maps}. This product has been validated in several research papers (Begert et al. 2008, Hofstra et al. 2009a,b) finding that some inaccuaracies related to an over-smooth exists in areas where there are few stations, which affects mostly to the extreme analyses.
 
-{\color{red} ¿Quizás incluir aquí un mapa con las estaciones a partir de las que se hace la interpolación}  
+The horizontal resolution of the gridded products is 0.25º or 0.44º whereas the time resolution is daily, with time series going from January 1950 until June 2018.  
+%  {\color{red} Incluir aquí un mapa con las estaciones a partir de las que se hace la interpolación y la resolucion espacial y temporal}  
+
+\begin{figure}
+\centering
+\includegraphics[width=0.5\textwidth]{figs/all_stations_plot.png}
+\caption{Map of the stations from ECA\&D to provide daily temperature gridded products. Source: ECA\&D website.}
+\label{fig:ecad}
+\end{figure}
 
 \section{Aerosols datasets}
 
