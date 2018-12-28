@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.11.2)  28 DEC 2018 17:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.11.2)  28 DEC 2018 18:15
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -3620,13 +3620,49 @@ Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
+./tesis.toc:11: Package xcolor Error: Undefined color `grey'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.11 ...mate and renewable energy}{6}{section.1.4}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./tesis.toc:13: Package xcolor Error: Undefined color `grey'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.13 ...nd the Mediterranean area}{8}{section.1.5}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
 ./tesis.toc:14: Package xcolor Error: Undefined color `grey'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.14 ...mate and renewable energy}{8}{section.1.4}
+l.14 ... and scientific questions}{9}{section.1.6}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./tesis.toc:15: Package xcolor Error: Undefined color `grey'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.15 ...zation of the manuscript}{10}{section.1.7}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -3638,7 +3674,7 @@ See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.16 ...d the Mediterranean area}{10}{section.1.5}
+l.16 ...line {2}State of knowdlege}{11}{chapter.2}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -3650,7 +3686,7 @@ See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.17 ...and scientific questions}{11}{section.1.6}
+l.17 ... renewable energies: VRE}{11}{section.2.1}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -3662,115 +3698,103 @@ See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.18 ...zation of the manuscript}{12}{section.1.7}
+l.18 ...ariability sources in PV}{12}{section.2.2}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./tesis.toc:19: Package xcolor Error: Undefined color `grey'.
+./tesis.toc:23: Package xcolor Error: Undefined color `grey'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.19 ...line {2}State of knowdlege}{13}{chapter.2}
+l.23 ...olatic power forecasting}{13}{section.2.3}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./tesis.toc:20: Package xcolor Error: Undefined color `grey'.
+./tesis.toc:30: Package xcolor Error: Undefined color `grey'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.20 ... renewable energies: VRE}{13}{section.2.1}
+l.30 ...hort to long term issues}{17}{section.2.4}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./tesis.toc:21: Package xcolor Error: Undefined color `grey'.
+./tesis.toc:35: Package xcolor Error: Undefined color `grey'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.21 ...ariability sources in PV}{14}{section.2.2}
+l.35 ...umberline {II}Data \& Methods}{21}{part.2}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./tesis.toc:26: Package xcolor Error: Undefined color `grey'.
+./tesis.toc:36: Package xcolor Error: Undefined color `grey'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.26 ...olatic power forecasting}{15}{section.2.3}
+l.36 ...\chapternumberline {3}Data}{23}{chapter.3}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./tesis.toc:33: Package xcolor Error: Undefined color `grey'.
+./tesis.toc:37: Package xcolor Error: Undefined color `grey'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.33 ...hort to long term issues}{19}{section.2.4}
+l.37 ...3.1}Solar Radiation data}{23}{section.3.1}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./tesis.toc:38: Package xcolor Error: Undefined color `grey'.
+./tesis.toc:44: Package xcolor Error: Undefined color `grey'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.38 ...umberline {II}Data \& Methods}{23}{part.2}
+l.44 ...tovoltaic prodution data}{28}{section.3.2}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./tesis.toc:39: Package xcolor Error: Undefined color `grey'.
+./tesis.toc:45: Package xcolor Error: Undefined color `grey'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.39 ...\chapternumberline {3}Data}{25}{chapter.3}
+l.45 ...ne {3.3}Temperature data}{29}{section.3.3}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./tesis.toc:40: Package xcolor Error: Undefined color `grey'.
+./tesis.toc:47: Package xcolor Error: Undefined color `grey'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.40 ...3.1}Solar Radiation data}{25}{section.3.1}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./tesis.toc:48: Package xcolor Error: Undefined color `grey'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.48 ...tovoltaic prodution data}{30}{section.3.2}
+l.47 ...e {3.4}Aerosols datasets}{29}{section.3.4}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -3782,31 +3806,7 @@ See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.49 ...ne {3.3}Temperature data}{31}{section.3.3}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./tesis.toc:51: Package xcolor Error: Undefined color `grey'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.51 ...e {3.4}Aerosols datasets}{31}{section.3.4}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./tesis.toc:53: Package xcolor Error: Undefined color `grey'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.53 ...apternumberline {4}Methods}{35}{chapter.4}
+l.49 ...apternumberline {4}Methods}{33}{chapter.4}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -3816,13 +3816,37 @@ If that doesn't work, type  X <return>  to quit.
 
 ]
 
-./tesis.toc:54: Package xcolor Error: Undefined color `grey'.
+./tesis.toc:50: Package xcolor Error: Undefined color `grey'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.54 ... applied to climate data}{36}{section.4.1}
+l.50 ... applied to climate data}{34}{section.4.1}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./tesis.toc:57: Package xcolor Error: Undefined color `grey'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.57 ...ng a photovoltaic system}{37}{section.4.2}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./tesis.toc:60: Package xcolor Error: Undefined color `grey'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.60 ... Regional Climate Models}{40}{section.4.3}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -3834,7 +3858,31 @@ See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.61 ...ng a photovoltaic system}{39}{section.4.2}
+l.61 ...rojections and scenarios}{42}{section.4.4}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./tesis.toc:62: Package xcolor Error: Undefined color `grey'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.62 ...{\partnumberline {III}Results}{45}{part.3}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./tesis.toc:63: Package xcolor Error: Undefined color `grey'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.63 ...over the Iberian Peninsula}{47}{chapter.5}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -3846,7 +3894,7 @@ See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.64 ... Regional Climate Models}{42}{section.4.3}
+l.64 ...erline {5.1}Introduction}{49}{section.5.1}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -3858,43 +3906,7 @@ See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.65 ...rojections and scenarios}{44}{section.4.4}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./tesis.toc:66: Package xcolor Error: Undefined color `grey'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.66 ...{\partnumberline {III}Results}{47}{part.3}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./tesis.toc:67: Package xcolor Error: Undefined color `grey'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.67 ...over the Iberian Peninsula}{49}{chapter.5}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./tesis.toc:68: Package xcolor Error: Undefined color `grey'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.68 ...erline {5.1}Introduction}{51}{section.5.1}
+l.65 ...\numberline {5.2}Methods}{50}{section.5.2}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -3906,7 +3918,31 @@ See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.69 ...\numberline {5.2}Methods}{52}{section.5.2}
+l.69 ...\numberline {5.3}Results}{55}{section.5.3}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./tesis.toc:71: Package xcolor Error: Undefined color `grey'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 ...mberline {5.4}Conclusion}{61}{section.5.4}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./tesis.toc:72: Package xcolor Error: Undefined color `grey'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.72 ...n values and variability}{63}{section.5.1}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -3918,19 +3954,19 @@ See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.73 ...\numberline {5.3}Results}{57}{section.5.3}
+l.73 ...nthly series variability}{65}{section.5.2}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./tesis.toc:75: Package xcolor Error: Undefined color `grey'.
+./tesis.toc:74: Package xcolor Error: Undefined color `grey'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.75 ...mberline {5.4}Conclusion}{63}{section.5.4}
+l.74 ...ine {5.C}Complementarity}{68}{section.5.3}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -3942,10 +3978,16 @@ See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.76 ...n values and variability}{65}{section.5.1}
+l.76 ...he Euro-Mediterranean area}{73}{chapter.6}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (9.22446pt too wide) in paragraph at lines 76--76
+ [][] [][][]\T1/futs/b/n/12 Impact of aerosols in pho-to-voltaic en-ergy pro-du
+c-tion over the Euro-Mediterranean 
+ []
 
 
 ./tesis.toc:77: Package xcolor Error: Undefined color `grey'.
@@ -3954,7 +3996,7 @@ See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.77 ...nthly series variability}{67}{section.5.2}
+l.77 ...erline {6.1}Introduction}{75}{section.6.1}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -3966,61 +4008,31 @@ See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.78 ...ine {5.C}Complementarity}{70}{section.5.3}
+l.78 ...ne {6.2}Data and Methods}{76}{section.6.2}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./tesis.toc:80: Package xcolor Error: Undefined color `grey'.
+./tesis.toc:86: Package xcolor Error: Undefined color `grey'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.80 ...he Euro-Mediterranean area}{75}{chapter.6}
+l.86 ...\numberline {6.3}Results}{81}{section.6.3}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (9.22446pt too wide) in paragraph at lines 80--80
- [][] [][][]\T1/futs/b/n/12 Impact of aerosols in pho-to-voltaic en-ergy pro-du
-c-tion over the Euro-Mediterranean 
- []
-
-
-./tesis.toc:81: Package xcolor Error: Undefined color `grey'.
+./tesis.toc:93: Package xcolor Error: Undefined color `grey'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.81 ...erline {6.1}Introduction}{77}{section.6.1}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./tesis.toc:82: Package xcolor Error: Undefined color `grey'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.82 ...ne {6.2}Data and Methods}{78}{section.6.2}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./tesis.toc:90: Package xcolor Error: Undefined color `grey'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.90 ...\numberline {6.3}Results}{83}{section.6.3}
+l.93 ...mberline {6.4}Discussion}{91}{section.6.4}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -4032,31 +4044,43 @@ See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.97 ...mberline {6.4}Discussion}{93}{section.6.4}
+l.97 ...berline {6.5}Conclusions}{92}{section.6.5}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./tesis.toc:101: Package xcolor Error: Undefined color `grey'.
+./tesis.toc:98: Package xcolor Error: Undefined color `grey'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.101 ...erline {6.5}Conclusions}{94}{section.6.5}
+l.98 ... photovoltaic applications}{95}{chapter.7}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./tesis.toc:102: Package xcolor Error: Undefined color `grey'.
+./tesis.toc:99: Package xcolor Error: Undefined color `grey'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.102 ...photovoltaic applications}{97}{chapter.7}
+l.99 ...erline {7.1}Introduction}{97}{section.7.1}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./tesis.toc:100: Package xcolor Error: Undefined color `grey'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.100 ...rline {7.2}Climate data}{97}{section.7.2}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -4068,19 +4092,7 @@ See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.103 ...rline {7.1}Introduction}{99}{section.7.1}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./tesis.toc:104: Package xcolor Error: Undefined color `grey'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.104 ...rline {7.2}Climate data}{99}{section.7.2}
+l.103 ...numberline {7.3}Methods}{98}{section.7.3}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -4092,7 +4104,7 @@ See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.107 ...umberline {7.3}Methods}{100}{section.7.3}
+l.107 ...umberline {7.4}Results}{100}{section.7.4}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -4103,37 +4115,54 @@ Overfull \hbox (1.19994pt too wide) detected at line 107
  []
 
 
+./tesis.toc:110: Package xcolor Error: Undefined color `grey'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.110 ...erline {7.5}Discussion}{104}{section.7.5}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (1.19994pt too wide) detected at line 110
+ \T1/futs/m/n/12 104
+ []
+
+
 ./tesis.toc:111: Package xcolor Error: Undefined color `grey'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.111 ...umberline {7.4}Results}{102}{section.7.4}
+l.111 ...erline {7.6}Conclusion}{104}{section.7.6}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
 Overfull \hbox (1.19994pt too wide) detected at line 111
- \T1/futs/m/n/12 102
+ \T1/futs/m/n/12 104
  []
 
 
-./tesis.toc:114: Package xcolor Error: Undefined color `grey'.
+./tesis.toc:112: Package xcolor Error: Undefined color `grey'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.114 ...erline {7.5}Discussion}{106}{section.7.5}
+l.112 ....A}MED-CORDEX analysis}{105}{section.7.1}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (1.19994pt too wide) detected at line 114
- \T1/futs/m/n/12 106
+Overfull \hbox (1.19994pt too wide) detected at line 112
+ \T1/futs/m/n/12 105
  []
 
 
@@ -4143,14 +4172,14 @@ See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.115 ...erline {7.6}Conclusion}{106}{section.7.6}
+l.115 ...mberline {7.B}comments}{107}{section.7.2}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
 Overfull \hbox (1.19994pt too wide) detected at line 115
- \T1/futs/m/n/12 106
+ \T1/futs/m/n/12 107
  []
 
 
@@ -4160,44 +4189,27 @@ See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.116 ....A}MED-CORDEX analysis}{107}{section.7.1}
+l.116 ...IV}Discussion \& Conclusion}{109}{part.4}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (1.19994pt too wide) detected at line 116
- \T1/futs/m/n/12 107
- []
-
-
-./tesis.toc:119: Package xcolor Error: Undefined color `grey'.
+./tesis.toc:117: Package xcolor Error: Undefined color `grey'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.119 ...mberline {7.B}comments}{109}{section.7.2}
+l.117 ...numberline {8}Discussion}{111}{chapter.8}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (1.19994pt too wide) detected at line 119
- \T1/futs/m/n/12 109
+Overfull \hbox (2.17195pt too wide) detected at line 117
+ \T1/futs/b/n/12 111
  []
-
-
-./tesis.toc:120: Package xcolor Error: Undefined color `grey'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.120 ...IV}Discussion \& Conclusion}{111}{part.4}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
 
 
 ./tesis.toc:121: Package xcolor Error: Undefined color `grey'.
@@ -4206,7 +4218,7 @@ See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.121 ...numberline {8}Discussion}{113}{chapter.8}
+l.121 ...numberline {9}Conclusion}{113}{chapter.9}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -4223,31 +4235,14 @@ See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.125 ...numberline {9}Conclusion}{115}{chapter.9}
+l.125 ...{chapter}{Bibliography}{117}{section*.52}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
 Overfull \hbox (2.17195pt too wide) detected at line 125
- \T1/futs/b/n/12 115
- []
-
-
-./tesis.toc:129: Package xcolor Error: Undefined color `grey'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.129 ...{chapter}{Bibliography}{119}{section*.53}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Overfull \hbox (2.17195pt too wide) detected at line 129
- \T1/futs/b/n/12 119
+ \T1/futs/b/n/12 117
  []
 
 ) [2] [3] [4
@@ -4299,676 +4294,565 @@ LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <17.28> not available
 
 ] [4]
 
-./Intro.tex:126: Package xcolor Error: Undefined color `brigthmaroon filecolor=
+./Intro.tex:117: Package xcolor Error: Undefined color `brigthmaroon filecolor=
 black'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.126 ...st petroleum crisis \cite*{Sorensen1991}.
+l.117 ...st petroleum crisis \cite*{Sorensen1991}.
                                                    The embargo on the petrol...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[5]
-
-./Intro.tex:169: Package xcolor Error: Undefined color `grey'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.169 ...ntact the two semiconductors \ref{fig:pn}
-                                                  , which oringinates an imb...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-<figs/unionpn.pdf, id=326, 514.3043pt x 146.18669pt>
-File: figs/unionpn.pdf Graphic file (type pdf)
- <use figs/unionpn.pdf>
-Package pdftex.def Info: figs/unionpn.pdf used on input line 172.
-(pdftex.def)             Requested size: 273.14923pt x 77.64363pt.
-
-[6 <./figs/unionpn.pdf>]
-
-./Intro.tex:191: Package xcolor Error: Undefined color `grey'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.191 ...a ecuaciÃ³n de Shockley \ref{eq:shockley}
-                                                   que define la corriente g...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./Intro.tex:191: Package xcolor Error: Undefined color `grey'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.191 ...co de la uniÃ³n P-N. En \ref{eq:shockley}
-                                                   $I_0$ es la corriente de ...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Overfull \hbox (1.6157pt too wide) in paragraph at lines 191--192
-[]\T1/futs/m/n/12 Los pro-ce-sos de gen-eración de cor-ri-ente en la unión P-N 
-pueden re-sumirse en la ecuación
- []
-
-
-./Intro.tex:193: Package xcolor Error: Undefined color `grey'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.193 ...n the Shockley equation \ref{eq:shockley}
-                                                   that defines the current ...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./Intro.tex:193: Package xcolor Error: Undefined color `grey'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.193 ...the P-N functioning. In \ref{eq:shockley}
-                                                   $I_0$  is the saturation ...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Package amsmath Warning: Foreign command \over;
-(amsmath)                \frac or \genfrac should be used instead
-(amsmath)                 on input line 197.
-
-
-./Intro.tex:209: Package xcolor Error: Undefined color `grey'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.209 The equation \ref{eq:Isolar}
-                                   determine the generated current by an ilu...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[7]
-
-./Intro.tex:241: Package xcolor Error: Undefined color `grey'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.241 Finally $R_s$ in \ref{eq:Ieq}
-                                    represents the resistance due to semicon...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-<figs/esquema.pdf, id=891, 730.64969pt x 435.7881pt>
+[5] <figs/esquema.pdf, id=323, 730.64969pt x 435.7881pt>
 File: figs/esquema.pdf Graphic file (type pdf)
- <use figs/esquema.pdf>
-Package pdftex.def Info: figs/esquema.pdf used on input line 265.
+
+<use figs/esquema.pdf>
+Package pdftex.def Info: figs/esquema.pdf used on input line 232.
 (pdftex.def)             Requested size: 273.14923pt x 162.9214pt.
+ [6 <./figs/esquema.pdf>]
 
-[8] [9 <./figs/esquema.pdf>]
-
-./Intro.tex:297: Package xcolor Error: Undefined color `grey'.
+./Intro.tex:264: Package xcolor Error: Undefined color `grey'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.297 As can be seen in figure \ref{fig:feedback}
+l.264 As can be seen in figure \ref{fig:feedback}
                                                  , interaction processes bet...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[10]
-LaTeX Font Info:    Try loading font information for TS1+futs on input line 356
+[7] [8]
+LaTeX Font Info:    Try loading font information for TS1+futs on input line 323
 .
  (/usr/share/texlive/texmf-dist/tex/latex/fourier/ts1futs.fd
 File: ts1futs.fd 2004/03/26 Fontinst v1.926 font definitions for TS1/futs.
-) [11]
-Overfull \hbox (22.078pt too wide) in paragraph at lines 360--361
+)
+Overfull \hbox (22.078pt too wide) in paragraph at lines 327--328
 []\T1/futs/m/n/12 Finally, the fu-ture of so-lar re-source and pho-to-voltaic p
 o-ten-tial over the Euro-Mediterranean
  []
 
-[12]
+[9] [10]
 
-./Intro.tex:400: Package xcolor Error: Undefined color `brigthmaroon filecolor=
+./Intro.tex:367: Package xcolor Error: Undefined color `brigthmaroon filecolor=
 black'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.400 ...cite*{Lund2015, Blanco2018, Schaber2004}.
+l.367 ...cite*{Lund2015, Blanco2018, Schaber2004}.
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Intro.tex:400: Package xcolor Error: Undefined color `brigthmaroon filecolor=
+./Intro.tex:367: Package xcolor Error: Undefined color `brigthmaroon filecolor=
 black'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.400 ...cite*{Lund2015, Blanco2018, Schaber2004}.
+l.367 ...cite*{Lund2015, Blanco2018, Schaber2004}.
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Intro.tex:400: Package xcolor Error: Undefined color `brigthmaroon filecolor=
+./Intro.tex:367: Package xcolor Error: Undefined color `brigthmaroon filecolor=
 black'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.400 ...cite*{Lund2015, Blanco2018, Schaber2004}.
+l.367 ...cite*{Lund2015, Blanco2018, Schaber2004}.
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Intro.tex:402: Package xcolor Error: Undefined color `brigthmaroon filecolor=
+./Intro.tex:369: Package xcolor Error: Undefined color `brigthmaroon filecolor=
 black'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.402 ...t to the new system \cite*{KROPOSKI2017}.
+l.369 ...t to the new system \cite*{KROPOSKI2017}.
                                                    From the demand side, fle...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Intro.tex:402: Package xcolor Error: Undefined color `brigthmaroon filecolor=
+./Intro.tex:369: Package xcolor Error: Undefined color `brigthmaroon filecolor=
 black'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.402 ...ing, valley filling etc \cite*{Lund2015}.
+l.369 ...ing, valley filling etc \cite*{Lund2015}.
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Intro.tex:404: Package xcolor Error: Undefined color `brigthmaroon filecolor=
+./Intro.tex:371: Package xcolor Error: Undefined color `brigthmaroon filecolor=
 black'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.404 ... output \cite*{KROPOSKI2017, Marcos2012}(
+l.371 ... output \cite*{KROPOSKI2017, Marcos2012}(
                                                   Hoff and Perez 2012, 2013,...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Intro.tex:404: Package xcolor Error: Undefined color `brigthmaroon filecolor=
+./Intro.tex:371: Package xcolor Error: Undefined color `brigthmaroon filecolor=
 black'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.404 ... output \cite*{KROPOSKI2017, Marcos2012}(
+l.371 ... output \cite*{KROPOSKI2017, Marcos2012}(
                                                   Hoff and Perez 2012, 2013,...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[13
+[11
 
 ]
 
-./Intro.tex:408: Package xcolor Error: Undefined color `brigthmaroon filecolor=
+./Intro.tex:375: Package xcolor Error: Undefined color `brigthmaroon filecolor=
 black'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.408 ...ind power \cite*{Denault2009, Silva2016} 
+l.375 ...ind power \cite*{Denault2009, Silva2016} 
                                                   or hydropower and solar ph...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Intro.tex:408: Package xcolor Error: Undefined color `brigthmaroon filecolor=
+./Intro.tex:375: Package xcolor Error: Undefined color `brigthmaroon filecolor=
 black'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.408 ...ind power \cite*{Denault2009, Silva2016} 
+l.375 ...ind power \cite*{Denault2009, Silva2016} 
                                                   or hydropower and solar ph...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Intro.tex:408: Package xcolor Error: Undefined color `brigthmaroon filecolor=
+./Intro.tex:375: Package xcolor Error: Undefined color `brigthmaroon filecolor=
 black'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.408 ...*{Francois2016, Beluco2012, Kougias2016}.
+l.375 ...*{Francois2016, Beluco2012, Kougias2016}.
                                                    In \cite*{Hoicka2011} com...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Intro.tex:408: Package xcolor Error: Undefined color `brigthmaroon filecolor=
+./Intro.tex:375: Package xcolor Error: Undefined color `brigthmaroon filecolor=
 black'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.408 ...*{Francois2016, Beluco2012, Kougias2016}.
+l.375 ...*{Francois2016, Beluco2012, Kougias2016}.
                                                    In \cite*{Hoicka2011} com...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Intro.tex:408: Package xcolor Error: Undefined color `brigthmaroon filecolor=
+./Intro.tex:375: Package xcolor Error: Undefined color `brigthmaroon filecolor=
 black'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.408 ...*{Francois2016, Beluco2012, Kougias2016}.
+l.375 ...*{Francois2016, Beluco2012, Kougias2016}.
                                                    In \cite*{Hoicka2011} com...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Intro.tex:408: Package xcolor Error: Undefined color `brigthmaroon filecolor=
+./Intro.tex:375: Package xcolor Error: Undefined color `brigthmaroon filecolor=
 black'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.408 ...012, Kougias2016}. In \cite*{Hoicka2011} 
+l.375 ...012, Kougias2016}. In \cite*{Hoicka2011} 
                                                   complementarity of wind an...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Intro.tex:408: Package xcolor Error: Undefined color `brigthmaroon filecolor=
+./Intro.tex:375: Package xcolor Error: Undefined color `brigthmaroon filecolor=
 black'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.408 ...on in Canada and in \cite*{Monforti2014} 
+l.375 ...on in Canada and in \cite*{Monforti2014} 
                                                   local complementarity is i...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[14]
+[12]
 
-./Intro.tex:440: Package xcolor Error: Undefined color `grey'.
+./Intro.tex:407: Package xcolor Error: Undefined color `grey'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.440 ...he absence of clouds, aerosols \footnote{
+l.407 ...he absence of clouds, aerosols \footnote{
                                                   Aerosols is the term used ...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 6.99199pt on input line 440.
+(Font)              scaled to size 6.99199pt on input line 407.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 7.91925pt on input line 440.
+(Font)              scaled to size 7.91925pt on input line 407.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 7.91925pt on input line 440.
+(Font)              scaled to size 7.91925pt on input line 407.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 6.99199pt on input line 440.
-[15]
+(Font)              scaled to size 6.99199pt on input line 407.
+[13]
 
-./Intro.tex:461: Package xcolor Error: Undefined color `brigthmaroon filecolor=
+./Intro.tex:428: Package xcolor Error: Undefined color `brigthmaroon filecolor=
 black'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.461 ...h \cite*{Diagne2013, Tovar-Pescador2008}.
+l.428 ...h \cite*{Diagne2013, Tovar-Pescador2008}.
                                                    They mainly rely on two p...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Intro.tex:461: Package xcolor Error: Undefined color `brigthmaroon filecolor=
+./Intro.tex:428: Package xcolor Error: Undefined color `brigthmaroon filecolor=
 black'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.461 ...h \cite*{Diagne2013, Tovar-Pescador2008}.
+l.428 ...h \cite*{Diagne2013, Tovar-Pescador2008}.
                                                    They mainly rely on two p...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (1.34727pt too wide) in paragraph at lines 461--462
+Overfull \hbox (1.34727pt too wide) in paragraph at lines 428--429
 \T1/futs/m/n/12 on his-tor-i-cal fata. Some ap-proaches are also \T1/futs/b/n/1
 2 hy-brid \T1/futs/m/n/12 ap-proaches that com-bined both [[][]Dia+13[][];
  []
 
 
-./Intro.tex:466: Package xcolor Error: Undefined color `brigthmaroon filecolor=
+./Intro.tex:433: Package xcolor Error: Undefined color `brigthmaroon filecolor=
 black'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.466 ...v and Palovsky \cite*{kostylev2011solar}:
+l.433 ...v and Palovsky \cite*{kostylev2011solar}:
                                                    intra-hour, intra-day, da...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Intro.tex:474: Package xcolor Error: Undefined color `brigthmaroon filecolor=
+./Intro.tex:441: Package xcolor Error: Undefined color `brigthmaroon filecolor=
 black'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.474 ...rors or local effects \cite*{Diagne2013}.
+l.441 ...rors or local effects \cite*{Diagne2013}.
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[16]
+[14]
 
-./Intro.tex:480: Package xcolor Error: Undefined color `brigthmaroon filecolor=
+./Intro.tex:447: Package xcolor Error: Undefined color `brigthmaroon filecolor=
 black'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.480 ...ite*{Reikard2009, bacher2009, Inman2013}.
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./Intro.tex:480: Package xcolor Error: Undefined color `brigthmaroon filecolor=
-black'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.480 ...ite*{Reikard2009, bacher2009, Inman2013}.
+l.447 ...ite*{Reikard2009, bacher2009, Inman2013}.
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Intro.tex:480: Package xcolor Error: Undefined color `brigthmaroon filecolor=
+./Intro.tex:447: Package xcolor Error: Undefined color `brigthmaroon filecolor=
 black'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.480 ...ite*{Reikard2009, bacher2009, Inman2013}.
+l.447 ...ite*{Reikard2009, bacher2009, Inman2013}.
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Intro.tex:482: Package xcolor Error: Undefined color `brigthmaroon filecolor=
+./Intro.tex:447: Package xcolor Error: Undefined color `brigthmaroon filecolor=
 black'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.482 ... an algorithm learning \cite{Mellit2008}.
+l.447 ...ite*{Reikard2009, bacher2009, Inman2013}.
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Intro.tex:495: Package xcolor Error: Undefined color `brigthmaroon filecolor=
+./Intro.tex:449: Package xcolor Error: Undefined color `brigthmaroon filecolor=
 black'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.495 ...er approach \cite*{Diagne2017, Yang2014}.
+l.449 ... an algorithm learning \cite{Mellit2008}.
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./Intro.tex:462: Package xcolor Error: Undefined color `brigthmaroon filecolor=
+black'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.462 ...er approach \cite*{Diagne2017, Yang2014}.
                                                    For instance, some studie...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Intro.tex:495: Package xcolor Error: Undefined color `brigthmaroon filecolor=
+./Intro.tex:462: Package xcolor Error: Undefined color `brigthmaroon filecolor=
 black'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.495 ...er approach \cite*{Diagne2017, Yang2014}.
+l.462 ...er approach \cite*{Diagne2017, Yang2014}.
                                                    For instance, some studie...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Intro.tex:495: Package xcolor Error: Undefined color `brigthmaroon filecolor=
+./Intro.tex:462: Package xcolor Error: Undefined color `brigthmaroon filecolor=
 black'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.495 ...ention of NWP output \cite*{Cornaro2015} 
+l.462 ...ention of NWP output \cite*{Cornaro2015} 
                                                   or after obtain a satellit...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Intro.tex:495: Package xcolor Error: Undefined color `brigthmaroon filecolor=
+./Intro.tex:462: Package xcolor Error: Undefined color `brigthmaroon filecolor=
 black'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.495 ...-based model output \cite*{Marquez2013}\\
+l.462 ...-based model output \cite*{Marquez2013}\\
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 495--496
+Underfull \hbox (badness 10000) in paragraph at lines 462--463
 
  []
 
-<figs/forecast.png, id=987, 816.04875pt x 589.20125pt>
+<figs/forecast.png, id=416, 816.04875pt x 589.20125pt>
 File: figs/forecast.png Graphic file (type png)
  <use figs/forecast.png>
-Package pdftex.def Info: figs/forecast.png used on input line 498.
+Package pdftex.def Info: figs/forecast.png used on input line 465.
 (pdftex.def)             Requested size: 273.14923pt x 197.21506pt.
 
-[17 <./figs/forecast.png>]
+[15 <./figs/forecast.png>]
 
-./Intro.tex:521: Package xcolor Error: Undefined color `brigthmaroon filecolor=
+./Intro.tex:488: Package xcolor Error: Undefined color `brigthmaroon filecolor=
 black'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.521 ...ibration \cite*{Badescu1997, Davies1989}.
+l.488 ...ibration \cite*{Badescu1997, Davies1989}.
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Intro.tex:521: Package xcolor Error: Undefined color `brigthmaroon filecolor=
+./Intro.tex:488: Package xcolor Error: Undefined color `brigthmaroon filecolor=
 black'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.521 ...ibration \cite*{Badescu1997, Davies1989}.
+l.488 ...ibration \cite*{Badescu1997, Davies1989}.
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-LaTeX Warning: Citation 'Gueymard2013a' on page 18 undefined on input line 525.
+LaTeX Warning: Citation 'Gueymard2013a' on page 16 undefined on input line 492.
 
 
 
-LaTeX Warning: Citation 'b' on page 18 undefined on input line 525.
+LaTeX Warning: Citation 'b' on page 16 undefined on input line 492.
 
 
-Overfull \hbox (9.5722pt too wide) in paragraph at lines 525--526
+Overfull \hbox (9.5722pt too wide) in paragraph at lines 492--493
 []\T1/futs/m/n/12 The most so-phis-ti-cated clear-sky mod-els in-cludes more pa
 -ram-e-ters like the ozone, aerosols
  []
 
-[18]
+[16]
 
-./Intro.tex:537: Package xcolor Error: Undefined color `brigthmaroon filecolor=
+./Intro.tex:504: Package xcolor Error: Undefined color `brigthmaroon filecolor=
 black'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.537 ...mospheric transmittance \cite*{Polo2008} 
+l.504 ...mospheric transmittance \cite*{Polo2008} 
                                                   [Polo libro, (Cano et al. ...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Intro.tex:542: Package xcolor Error: Undefined color `brigthmaroon filecolor=
+./Intro.tex:509: Package xcolor Error: Undefined color `brigthmaroon filecolor=
 black'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.542 ...he most common approach \cite*{Polo2008}.
+l.509 ...he most common approach \cite*{Polo2008}.
                                                    They use a simple radiati...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./Intro.tex:542: Package xcolor Error: Undefined color `grey'.
+./Intro.tex:509: Package xcolor Error: Undefined color `grey'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.542 ...001), and Hammer et al (2003)).\footnote{
+l.509 ...001), and Hammer et al (2003)).\footnote{
                                                   Jan Kleiss, Solar Energy F...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (10.51529pt too wide) in paragraph at lines 542--543
+Overfull \hbox (10.51529pt too wide) in paragraph at lines 509--510
 \T1/futs/m/n/12 mod-els, which have be-come the most com-mon ap-proach [[][]PZR
 08[][]]. They use a sim-ple radiative-
  []
 
-[19] [20]
+[17] [18]
 
-./Intro.tex:642: Package xcolor Error: Undefined color `grey'.
+./Intro.tex:609: Package xcolor Error: Undefined color `grey'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.642 ...d Regional Climate Models, RCMs\footnote{
+l.609 ...d Regional Climate Models, RCMs\footnote{
                                                   Climate models are explain...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-) [21]
+) [19]
 \openout2 = `DataMethods.aux'.
 
- (./DataMethods.tex [22
+ (./DataMethods.tex [20
 
 
 
-] [23] [24]
+] [21] [22]
 Overfull \hbox (7.91132pt too wide) in paragraph at lines 9--10
 \T1/futs/m/n/12 pro-cesses in which so-lar ra-di-a-tion takes places. The progr
 ess and im-prove-ment in the satellite-
  []
 
-[25
+[23
 
 ]
 
@@ -5108,13 +4992,13 @@ l.73 ...ic zones. In figure \ref{fig:bsrnstations}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-<DataMethodsFIGS/bsrn.pdf, id=1060, 807.41652pt x 548.24826pt>
+<DataMethodsFIGS/bsrn.pdf, id=489, 807.41652pt x 548.24826pt>
 File: DataMethodsFIGS/bsrn.pdf Graphic file (type pdf)
 
 <use DataMethodsFIGS/bsrn.pdf>
 Package pdftex.def Info: DataMethodsFIGS/bsrn.pdf used on input line 79.
 (pdftex.def)             Requested size: 364.19667pt x 247.29503pt.
- [26] [27 <./DataMethodsFIGS/bsrn.pdf>]
+ [24] [25 <./DataMethodsFIGS/bsrn.pdf>]
 
 ./DataMethods.tex:98: Package xcolor Error: Undefined color `grey'.
 
@@ -5131,7 +5015,7 @@ If that doesn't work, type  X <return>  to quit.
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <10> not available
 (Font)              Font shape `T1/futs/b/n' tried instead on input line 98.
 
-LaTeX Warning: Reference `cha:Methods' on page 28 undefined on input line 98.
+LaTeX Warning: Reference `cha:Methods' on page 26 undefined on input line 98.
 
 
 ./DataMethods.tex:98: Package xcolor Error: Undefined color `grey'.
@@ -5173,7 +5057,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<DataMethodsFIGS/medcordex2.png, id=1090, 515.9275pt x 509.905pt>
+<DataMethodsFIGS/medcordex2.png, id=520, 515.9275pt x 509.905pt>
 File: DataMethodsFIGS/medcordex2.png Graphic file (type png)
 
 <use DataMethodsFIGS/medcordex2.png>
@@ -5195,7 +5079,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<DataMethodsFIGS/eurocordex2.png, id=1091, 489.83pt x 492.84125pt>
+<DataMethodsFIGS/eurocordex2.png, id=521, 489.83pt x 492.84125pt>
 File: DataMethodsFIGS/eurocordex2.png Graphic file (type png)
 
 <use DataMethodsFIGS/eurocordex2.png>
@@ -5222,7 +5106,7 @@ Overfull \hbox (3.01079pt too wide) in paragraph at lines 111--112
  in-ludes only at-mo-sphere
  []
 
-[28 <./DataMethodsFIGS/medcordex2.png> <./DataMethodsFIGS/eurocordex2.png>]
+[26 <./DataMethodsFIGS/medcordex2.png> <./DataMethodsFIGS/eurocordex2.png>]
 
 ./DataMethods.tex:119: Package xcolor Error: Undefined color `brigthmaroon file
 color=black'.
@@ -5251,12 +5135,12 @@ Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-LaTeX Warning: Citation 'posselts2012' on page 29 undefined on input line 137.
+LaTeX Warning: Citation 'posselts2012' on page 27 undefined on input line 137.
 
 
-LaTeX Warning: Citation 'posselts2012' on page 29 undefined on input line 137.
+LaTeX Warning: Citation 'posselts2012' on page 27 undefined on input line 137.
 
-[29]
+[27]
 
 ./DataMethods.tex:145: Package xcolor Error: Undefined color `grey'.
 
@@ -5274,167 +5158,162 @@ Underfull \hbox (badness 10000) in paragraph at lines 145--146
 
  []
 
-<figs/esquema.png, id=1112, 4016.00375pt x 2677.00125pt>
+<figs/esquema.png, id=542, 4016.00375pt x 2677.00125pt>
 File: figs/esquema.png Graphic file (type png)
-
-<use figs/esquema.png>
+ <use figs/esquema.png>
 Package pdftex.def Info: figs/esquema.png used on input line 149.
 (pdftex.def)             Requested size: 273.14923pt x 182.05818pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 154--155
+[28 <./figs/esquema.png (PNG copy)>]
 
- []
-
-[30 <./figs/esquema.png (PNG copy)>]
-
-./DataMethods.tex:181: Package xcolor Error: Undefined color `grey'.
+./DataMethods.tex:179: Package xcolor Error: Undefined color `grey'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.181 ...ope and the Mediterranean area \footnote{
+l.179 ...ope and the Mediterranean area \footnote{
                                                   https://www.ecad.eu//downl...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-./DataMethods.tex:181: You can't use `macro parameter character #' in horizonta
+./DataMethods.tex:179: You can't use `macro parameter character #' in horizonta
 l mode.
 <argument> ...u//download/ensembles/download.php##
                                                   maps
-l.181 ...eu//download/ensembles/download.php#maps}
+l.179 ...eu//download/ensembles/download.php#maps}
                                                   . This product has been va...
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
 If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
-<figs/all_stations_plot.png, id=1121, 683.55376pt x 488.82625pt>
+<figs/all_stations_plot.png, id=551, 683.55376pt x 488.82625pt>
 File: figs/all_stations_plot.png Graphic file (type png)
 
 <use figs/all_stations_plot.png>
-Package pdftex.def Info: figs/all_stations_plot.png used on input line 188.
+Package pdftex.def Info: figs/all_stations_plot.png used on input line 186.
 (pdftex.def)             Requested size: 227.62206pt x 162.77509pt.
 
 
-./DataMethods.tex:197: Package xcolor Error: Undefined color `brigthmaroon file
+./DataMethods.tex:195: Package xcolor Error: Undefined color `brigthmaroon file
 color=black'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.197 ...xtbf{AERONET} network \cite*{Holben1998} 
+l.195 ...xtbf{AERONET} network \cite*{Holben1998} 
                                                   was initiated by NASA in t...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[31]
-Overfull \hbox (5.01524pt too wide) in paragraph at lines 205--206
+[29]
+Overfull \hbox (5.01524pt too wide) in paragraph at lines 203--204
 \T1/futs/m/n/12 long sim-u-la-tions (197-2016) over the Euro-Mediterranean area
  with the same RCMs (ALADIN-
  []
 
-[32 <./figs/all_stations_plot.png>] [33] [34
+[30 <./figs/all_stations_plot.png>] [31] [32
 
-] [35] [36]
+] [33] [34]
 
-./DataMethods.tex:279: Package xcolor Error: Undefined color `grey'.
+./DataMethods.tex:277: Package xcolor Error: Undefined color `grey'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.279 ...he euclidean distance, \ref{eq:euclidean}
+l.277 ...he euclidean distance, \ref{eq:euclidean}
                                                   . The algorithm initiates ...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[37]
+[35]
 
-./DataMethods.tex:303: Package xcolor Error: Undefined color `grey'.
+./DataMethods.tex:301: Package xcolor Error: Undefined color `grey'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.303 ... the \textbf{Calinski-Harabasz}\footnote{
+l.301 ... the \textbf{Calinski-Harabasz}\footnote{
                                                   In the equation \ref{eq:ca...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./DataMethods.tex:303: Package xcolor Error: Undefined color `grey'.
+./DataMethods.tex:301: Package xcolor Error: Undefined color `grey'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.303 ... centroid. 'k' is the number of clusters}
+l.301 ... centroid. 'k' is the number of clusters}
                                                    index (Eq.:\ref{eq:calins...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./DataMethods.tex:303: Package xcolor Error: Undefined color `grey'.
+./DataMethods.tex:301: Package xcolor Error: Undefined color `grey'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.303 ...of clusters} index (Eq.:\ref{eq:calinski}
+l.301 ...of clusters} index (Eq.:\ref{eq:calinski}
                                                   ), the \textbf{Davies-Boul...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./DataMethods.tex:303: Package xcolor Error: Undefined color `grey'.
+./DataMethods.tex:301: Package xcolor Error: Undefined color `grey'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.303 ...), the \textbf{Davies-Bouldien}\footnote{
+l.301 ...), the \textbf{Davies-Bouldien}\footnote{
                                                   In the equation \ref{eq:da...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./DataMethods.tex:303: Package xcolor Error: Undefined color `grey'.
+./DataMethods.tex:301: Package xcolor Error: Undefined color `grey'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.303 ... centers. 'k' is the number of clusters.}
+l.301 ... centers. 'k' is the number of clusters.}
                                                     index (Eq.:\ref{eq:davie...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./DataMethods.tex:303: Package xcolor Error: Undefined color `grey'.
+./DataMethods.tex:301: Package xcolor Error: Undefined color `grey'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.303 ...of clusters.}  index (Eq.:\ref{eq:davies}
+l.301 ...of clusters.}  index (Eq.:\ref{eq:davies}
                                                   ), and the L-method propos...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[38] [39]
-./DataMethods.tex:336: Undefined control sequence.
-l.336 ...n of these methods can be found in \citep
+[36] [37]
+./DataMethods.tex:334: Undefined control sequence.
+l.334 ...n of these methods can be found in \citep
                                                   {Perpinan.Marcos.ea2013}. ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -5443,129 +5322,148 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 336--337
+Underfull \hbox (badness 10000) in paragraph at lines 334--335
 
  []
 
 
-./DataMethods.tex:338: Package xcolor Error: Undefined color `grey'.
+./DataMethods.tex:336: Package xcolor Error: Undefined color `grey'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.338 ...} irradiation, Eq.\ref{GlobalIrradiation}
+l.336 ...} irradiation, Eq.\ref{GlobalIrradiation}
                                                   . The third component of g...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./DataMethods.tex:338: Package xcolor Error: Undefined color `brigthmaroon file
+./DataMethods.tex:336: Package xcolor Error: Undefined color `brigthmaroon file
 color=black'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.338 ...der equations proposed by \cite{Liu1960} 
+l.336 ...der equations proposed by \cite{Liu1960} 
                                                   to characterize solar irra...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./DataMethods.tex:338: Package xcolor Error: Undefined color `grey'.
+./DataMethods.tex:336: Package xcolor Error: Undefined color `grey'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.338 ...rness index}, Eq.\ref{K.indicedeclaridad}
+l.336 ...rness index}, Eq.\ref{K.indicedeclaridad}
                                                   , is the ratio between glo...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./DataMethods.tex:338: Package xcolor Error: Undefined color `grey'.
+./DataMethods.tex:336: Package xcolor Error: Undefined color `grey'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.338 ...irradiation in Eq.\ref{F.diffusefraction}
+l.336 ...irradiation in Eq.\ref{F.diffusefraction}
                                                   . This relation varies dep...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./DataMethods.tex:338: Package xcolor Error: Undefined color `brigthmaroon file
+./DataMethods.tex:336: Package xcolor Error: Undefined color `brigthmaroon file
 color=black'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.338 ...ion using equations in \cite{Aguiar1992}.
+l.336 ...ion using equations in \cite{Aguiar1992}.
                                                    After that, the diffuse c...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./DataMethods.tex:338: Package xcolor Error: Undefined color `grey'.
+./DataMethods.tex:336: Package xcolor Error: Undefined color `grey'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.338 ...use fraction}, Eq.\ref{F.diffusefraction}
+l.336 ...use fraction}, Eq.\ref{F.diffusefraction}
                                                   .
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./DataMethods.tex:360: Package xcolor Error: Undefined color `brigthmaroon file
+./DataMethods.tex:358: Package xcolor Error: Undefined color `brigthmaroon file
 color=black'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.360 ... equations proposed by \cite{Aguiar1992},
+l.358 ... equations proposed by \cite{Aguiar1992},
                                                    the ratio of the diffuse ...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./DataMethods.tex:360: Package xcolor Error: Undefined color `grey'.
+./DataMethods.tex:358: Package xcolor Error: Undefined color `grey'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.360 ...aterrestrial irradiation Eq.\ref{ratioB0}
+l.358 ...aterrestrial irradiation Eq.\ref{ratioB0}
                                                   , and the ratio of global ...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./DataMethods.tex:360: Package xcolor Error: Undefined color `grey'.
+./DataMethods.tex:358: Package xcolor Error: Undefined color `grey'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.360 ... from the same reference Eq.\ref{ratioG0}
+l.358 ... from the same reference Eq.\ref{ratioG0}
                                                   .
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[40]
+[38]
+
+./DataMethods.tex:374: Package xcolor Error: Undefined color `brigthmaroon file
+color=black'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.374 ...del proposed in \cite{hay1985estimating}.
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (3.98735pt too wide) in paragraph at lines 374--375
+\T1/futs/m/n/12 di-ance com-po-nents at the in-clined plane. Dif-fuse ir-ra-di-
+ance is cal-cu-lated with the anisotropic
+ []
+
 
 ./DataMethods.tex:376: Package xcolor Error: Undefined color `brigthmaroon file
 color=black'.
@@ -5574,57 +5472,38 @@ See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.376 ...del proposed in \cite{hay1985estimating}.
+l.376 ... the model proposed in \cite{Martin2001}.
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (3.98735pt too wide) in paragraph at lines 376--377
-\T1/futs/m/n/12 di-ance com-po-nents at the in-clined plane. Dif-fuse ir-ra-di-
-ance is cal-cu-lated with the anisotropic
- []
-
-
-./DataMethods.tex:378: Package xcolor Error: Undefined color `brigthmaroon file
-color=black'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.378 ... the model proposed in \cite{Martin2001}.
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Overfull \hbox (9.07138pt too wide) in paragraph at lines 378--379
+Overfull \hbox (9.07138pt too wide) in paragraph at lines 376--377
 \T1/futs/m/n/12 and an-gle of in-ci-dence losses from the in-ci-dent ir-ra-di-a
 nce with the model pro-posed in [[][]Mar01[][]]. 
  []
 
 
-./DataMethods.tex:380: Package xcolor Error: Undefined color `grey'.
+./DataMethods.tex:378: Package xcolor Error: Undefined color `grey'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.380 In figure \ref{fig:algorithm_outline}
+l.378 In figure \ref{fig:algorithm_outline}
                                             the steps to assess effective ir...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./DataMethods.tex:384: LaTeX Error: File `figs/algorithm_outline' not found.
+./DataMethods.tex:382: LaTeX Error: File `figs/algorithm_outline' not found.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.384 ...th=0.6\textwidth]{figs/algorithm_outline}
+l.382 ...th=0.6\textwidth]{figs/algorithm_outline}
                                                   
 I could not locate the file with any of these extensions:
 .png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps
@@ -5632,105 +5511,110 @@ Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./DataMethods.tex:403: Package xcolor Error: Undefined color `grey'.
+./DataMethods.tex:401: Package xcolor Error: Undefined color `grey'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.403 ...l effective irradiation, Eq.\ref{Tcelula}
+l.401 ...l effective irradiation, Eq.\ref{Tcelula}
                                                   . NOCT in equation \ref{Tc...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./DataMethods.tex:403: Package xcolor Error: Undefined color `grey'.
+./DataMethods.tex:401: Package xcolor Error: Undefined color `grey'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.403 ...{Tcelula}. NOCT in equation \ref{Tcelula}
+l.401 ...{Tcelula}. NOCT in equation \ref{Tcelula}
                                                    is considered constant be...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-LaTeX Warning: Command \textordmasculine invalid in math mode on input line 403
+Package amsmath Warning: Foreign command \over;
+(amsmath)                \frac or \genfrac should be used instead
+(amsmath)                 on input line 401.
+
+
+LaTeX Warning: Command \textordmasculine invalid in math mode on input line 401
 .
 
 
-LaTeX Warning: Command \textordmasculine invalid in math mode on input line 403
+LaTeX Warning: Command \textordmasculine invalid in math mode on input line 401
 .
 
 
-./DataMethods.tex:413: Package xcolor Error: Undefined color `brigthmaroon file
+./DataMethods.tex:411: Package xcolor Error: Undefined color `brigthmaroon file
 color=black'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.413 ...ment, solaR, is in \cite{Lamigueiro2012}.
+l.411 ...ment, solaR, is in \cite{Lamigueiro2012}.
                                                    The process for the photo...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./DataMethods.tex:413: Package xcolor Error: Undefined color `grey'.
+./DataMethods.tex:411: Package xcolor Error: Undefined color `grey'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.413 ...utput is summarized in table \ref{tabla1}
+l.411 ...utput is summarized in table \ref{tabla1}
                                                    including all the steps a...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./DataMethods.tex:413: Package xcolor Error: Undefined color `brigthmaroon file
+./DataMethods.tex:411: Package xcolor Error: Undefined color `brigthmaroon file
 color=black'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.413 ...lved as explained in \cite{Perpinan2009}.
+l.411 ...lved as explained in \cite{Perpinan2009}.
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-LaTeX Warning: Citation 'garcia2005caracterizacion' on page 41 undefined on inp
-ut line 422.
+LaTeX Warning: Citation 'garcia2005caracterizacion' on page 39 undefined on inp
+ut line 420.
 
 
-LaTeX Warning: Citation 'jantsch1992results' on page 41 undefined on input line
- 425.
+LaTeX Warning: Citation 'jantsch1992results' on page 39 undefined on input line
+ 423.
 
-[41] [42] [43] [44]
+[39] [40] [41] [42]
 
-./DataMethods.tex:503: Package xcolor Error: Undefined color `grey'.
+./DataMethods.tex:501: Package xcolor Error: Undefined color `grey'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.503 In table \ref{climatemodels}
+l.501 In table \ref{climatemodels}
                                    there is a summary of the climate models ...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-./DataMethods.tex:508: Undefined control sequence.
+./DataMethods.tex:506: Undefined control sequence.
 <template> ...ter \@startpbox {1.2cm}\raggedrigth 
                                                   \ignorespaces 
-l.508     Study & \centering
+l.506     Study & \centering
                             {Climate Model}  & &  \tabularnewline
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -5739,14 +5623,14 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (5.13272pt too wide) in paragraph at lines 508--508
+Overfull \hbox (5.13272pt too wide) in paragraph at lines 506--506
  []|\T1/futs/m/n/12 Climate 
  []
 
-./DataMethods.tex:510: Undefined control sequence.
+./DataMethods.tex:508: Undefined control sequence.
 <template> ...ter \@startpbox {1.2cm}\raggedrigth 
                                                   \ignorespaces 
-l.510     & \centering
+l.508     & \centering
                       {GCM} & \centering{RCM} & \centering{Domain} & \center...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -5755,19 +5639,19 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (11.05681pt too wide) in paragraph at lines 510--510
+Overfull \hbox (11.05681pt too wide) in paragraph at lines 508--508
  []|\T1/futs/m/n/12 Resolution 
  []
 
 
-Overfull \hbox (12.2448pt too wide) in paragraph at lines 510--511
+Overfull \hbox (12.2448pt too wide) in paragraph at lines 508--509
  []|\T1/futs/m/n/12 Simulation| 
  []
 
-./DataMethods.tex:512: Undefined control sequence.
+./DataMethods.tex:510: Undefined control sequence.
 <template> ...ter \@startpbox {1.2cm}\raggedrigth 
                                                   \ignorespaces 
-l.512      Aerosols' impact & \centering
+l.510      Aerosols' impact & \centering
                                         {CNRM-CM5} & \centering{CNRM-ALADIN5...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -5776,61 +5660,61 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (3.87276pt too wide) in paragraph at lines 512--512
+Overfull \hbox (3.87276pt too wide) in paragraph at lines 510--510
  []|\T1/futs/m/n/12 CNRM- 
  []
 
 
-Overfull \hbox (10.5288pt too wide) in paragraph at lines 512--512
+Overfull \hbox (10.5288pt too wide) in paragraph at lines 510--510
  \T1/futs/m/n/12 ALADIN53| 
  []
 
-./DataMethods.tex:512: Misplaced \noalign.
+./DataMethods.tex:510: Misplaced \noalign.
 \midrule ->\noalign 
                     {\ifnum 0=`}\fi \@aboverulesep =\aboverulesep \global \@...
-l.512 ...ntering{0.44Âº} & \centering{AER}\midrule
+l.510 ...ntering{0.44Âº} & \centering{AER}\midrule
                                                   \\
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
 
 
-./DataMethods.tex:512: LaTeX Error: There's no line here to end.
+./DataMethods.tex:510: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.512 ...ering{0.44Âº} & \centering{AER}\midrule\\
+l.510 ...ering{0.44Âº} & \centering{AER}\midrule\\
                                                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-./DataMethods.tex:513: Misplaced \noalign.
+./DataMethods.tex:511: Misplaced \noalign.
 \midrule ->\noalign 
                     {\ifnum 0=`}\fi \@aboverulesep =\aboverulesep \global \@...
-l.513     \centering{NO-AER}\midrule
+l.511     \centering{NO-AER}\midrule
                                     \\
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
 
 
-./DataMethods.tex:513: LaTeX Error: There's no line here to end.
+./DataMethods.tex:511: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.513     \centering{NO-AER}\midrule\\
+l.511     \centering{NO-AER}\midrule\\
                                       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-./DataMethods.tex:517: Undefined control sequence.
+./DataMethods.tex:515: Undefined control sequence.
 <template> ...ter \@startpbox {1.2cm}\raggedrigth 
                                                   \ignorespaces 
-l.517     Future projections & \centering
+l.515     Future projections & \centering
                                          {CNRM-CM5} & \centering{ALADIN53}\m...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -5839,84 +5723,84 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (3.87276pt too wide) in paragraph at lines 517--517
+Overfull \hbox (3.87276pt too wide) in paragraph at lines 515--515
  []|\T1/futs/m/n/12 CNRM- 
  []
 
-./DataMethods.tex:517: Misplaced \noalign.
+./DataMethods.tex:515: Misplaced \noalign.
 \midrule ->\noalign 
                     {\ifnum 0=`}\fi \@aboverulesep =\aboverulesep \global \@...
-l.517 ...{CNRM-CM5} & \centering{ALADIN53}\midrule
+l.515 ...{CNRM-CM5} & \centering{ALADIN53}\midrule
                                                   \\
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
 
 
-Overfull \hbox (10.5288pt too wide) in paragraph at lines 517--517
+Overfull \hbox (10.5288pt too wide) in paragraph at lines 515--515
  []|\T1/futs/m/n/12 ALADIN53 
  []
 
 
-./DataMethods.tex:517: LaTeX Error: There's no line here to end.
+./DataMethods.tex:515: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.517 ...NRM-CM5} & \centering{ALADIN53}\midrule\\
+l.515 ...NRM-CM5} & \centering{ALADIN53}\midrule\\
                                                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-./DataMethods.tex:518: Misplaced \noalign.
+./DataMethods.tex:516: Misplaced \noalign.
 \midrule ->\noalign 
                     {\ifnum 0=`}\fi \@aboverulesep =\aboverulesep \global \@...
-l.518     \centering{RCA4}\midrule
+l.516     \centering{RCA4}\midrule
                                   \\
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
 
 
-./DataMethods.tex:518: LaTeX Error: There's no line here to end.
+./DataMethods.tex:516: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.518     \centering{RCA4}\midrule\\
+l.516     \centering{RCA4}\midrule\\
                                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-./DataMethods.tex:519: Misplaced \noalign.
+./DataMethods.tex:517: Misplaced \noalign.
 \midrule ->\noalign 
                     {\ifnum 0=`}\fi \@aboverulesep =\aboverulesep \global \@...
-l.519     \centering{CCLM4}\midrule
+l.517     \centering{CCLM4}\midrule
                                     & \centering{EURO-CORDEX} & \centering{0...
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
 
 
-Overfull \hbox (20.6088pt too wide) in paragraph at lines 519--519
+Overfull \hbox (20.6088pt too wide) in paragraph at lines 517--517
  []|\T1/futs/m/n/12 HIST/RCP85 
  []
 
 
-Overfull \hbox (20.6088pt too wide) in paragraph at lines 520--520
+Overfull \hbox (20.6088pt too wide) in paragraph at lines 518--518
  []|\T1/futs/m/n/12 HIST/RCP85 
  []
 
 
-Overfull \hbox (20.6088pt too wide) in paragraph at lines 521--523
+Overfull \hbox (20.6088pt too wide) in paragraph at lines 519--521
  []|\T1/futs/m/n/12 HIST/RCP85| 
  []
 
-./DataMethods.tex:523: Undefined control sequence.
+./DataMethods.tex:521: Undefined control sequence.
 <template> ...ter \@startpbox {1.2cm}\raggedrigth 
                                                   \ignorespaces 
-l.523           & \centering
+l.521           & \centering
                             {ICHEC-EC-EARTH} & \centering{RACMO}\midrule\\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -5925,88 +5809,88 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (4.64073pt too wide) in paragraph at lines 523--523
+Overfull \hbox (4.64073pt too wide) in paragraph at lines 521--521
  []|\T1/futs/m/n/12 ICHEC- 
  []
 
 
-Overfull \hbox (1.97673pt too wide) in paragraph at lines 523--523
+Overfull \hbox (1.97673pt too wide) in paragraph at lines 521--521
  \T1/futs/m/n/12 EARTH| 
  []
 
-./DataMethods.tex:523: Misplaced \noalign.
+./DataMethods.tex:521: Misplaced \noalign.
 \midrule ->\noalign 
                     {\ifnum 0=`}\fi \@aboverulesep =\aboverulesep \global \@...
-l.523 ...HEC-EC-EARTH} & \centering{RACMO}\midrule
+l.521 ...HEC-EC-EARTH} & \centering{RACMO}\midrule
                                                   \\
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
 
 
-./DataMethods.tex:523: LaTeX Error: There's no line here to end.
+./DataMethods.tex:521: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.523 ...C-EC-EARTH} & \centering{RACMO}\midrule\\
+l.521 ...C-EC-EARTH} & \centering{RACMO}\midrule\\
                                                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-./DataMethods.tex:524: Misplaced \noalign.
+./DataMethods.tex:522: Misplaced \noalign.
 \midrule ->\noalign 
                     {\ifnum 0=`}\fi \@aboverulesep =\aboverulesep \global \@...
-l.524     \centering{RCA4}\midrule
+l.522     \centering{RCA4}\midrule
                                   \\
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
 
 
-./DataMethods.tex:524: LaTeX Error: There's no line here to end.
+./DataMethods.tex:522: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.524     \centering{RCA4}\midrule\\
+l.522     \centering{RCA4}\midrule\\
                                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-./DataMethods.tex:525: Misplaced \noalign.
+./DataMethods.tex:523: Misplaced \noalign.
 \midrule ->\noalign 
                     {\ifnum 0=`}\fi \@aboverulesep =\aboverulesep \global \@...
-l.525     \centering{CCLM4}\midrule
+l.523     \centering{CCLM4}\midrule
                                     & \centering{EURO-CORDEX} & \centering{0...
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
 
 
-Overfull \hbox (20.6088pt too wide) in paragraph at lines 525--525
+Overfull \hbox (20.6088pt too wide) in paragraph at lines 523--523
  []|\T1/futs/m/n/12 HIST/RCP85 
  []
 
 
-Overfull \hbox (20.6088pt too wide) in paragraph at lines 526--526
+Overfull \hbox (20.6088pt too wide) in paragraph at lines 524--524
  []|\T1/futs/m/n/12 HIST/RCP85 
  []
 
 
-Overfull \hbox (20.6088pt too wide) in paragraph at lines 527--529
+Overfull \hbox (20.6088pt too wide) in paragraph at lines 525--527
  []|\T1/futs/m/n/12 HIST/RCP85| 
  []
 
-) [45]
+) [43]
 \openout2 = `Resultados.aux'.
 
- (./Resultados.tex [46
+ (./Resultados.tex [44
 
 
 
-] [47] [48]
+] [45] [46]
 
 ./Resultados.tex:9: Package xcolor Error: Undefined color `grey'.
 
@@ -6019,7 +5903,7 @@ l.9 https://doi.org/10.1016/j.solener.2017.09.037}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[49
+[47
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 36--37
@@ -6134,7 +6018,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 76--77
 
  []
 
-[50
+[48
 
 ]
 
@@ -6355,13 +6239,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 84--85
 
  []
 
-[51]
+[49]
 Underfull \hbox (badness 10000) in paragraph at lines 86--87
 
  []
 
 
-LaTeX Warning: Reference `Methods' on page 52 undefined on input line 90.
+LaTeX Warning: Reference `Methods' on page 50 undefined on input line 90.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 90--91
@@ -6373,7 +6257,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 96--97
 
  []
 
-<figs/capitulo5/multi_step.pdf, id=1316, 728.07408pt x 387.79079pt>
+<figs/capitulo5/multi_step.pdf, id=747, 728.07408pt x 387.79079pt>
 File: figs/capitulo5/multi_step.pdf Graphic file (type pdf)
 
 <use figs/capitulo5/multi_step.pdf>
@@ -6529,7 +6413,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 117--118
 
  []
 
-[52]
+[50]
 Underfull \hbox (badness 10000) in paragraph at lines 119--120
 
  []
@@ -6567,7 +6451,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 121--122
 
  []
 
-[53 <./figs/capitulo5/multi_step.pdf>]
+[51 <./figs/capitulo5/multi_step.pdf>]
 
 ./Resultados.tex:126: Package xcolor Error: Undefined color `grey'.
 
@@ -6582,7 +6466,7 @@ Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-LaTeX Warning: Citation '5694060' on page 54 undefined on input line 138.
+LaTeX Warning: Citation '5694060' on page 52 undefined on input line 138.
 
 
 ./Resultados.tex:138: Package xcolor Error: Undefined color `brigthmaroon filec
@@ -6651,13 +6535,13 @@ l.139 ... calculated as in Eq.:\ref{eq:total_RMSE}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-<figs/capitulo5/CHindex.pdf, id=1362, 505.89pt x 505.89pt>
+<figs/capitulo5/CHindex.pdf, id=793, 505.89pt x 505.89pt>
 File: figs/capitulo5/CHindex.pdf Graphic file (type pdf)
 
 <use figs/capitulo5/CHindex.pdf>
 Package pdftex.def Info: figs/capitulo5/CHindex.pdf used on input line 142.
 (pdftex.def)             Requested size: 227.62206pt x 227.62523pt.
- [54]
+ [52]
 
 ./Resultados.tex:159: Package xcolor Error: Undefined color `brigthmaroon filec
 olor=black'.
@@ -6677,7 +6561,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 165--166
 
  []
 
-[55 <./figs/capitulo5/CHindex.pdf>]
+[53 <./figs/capitulo5/CHindex.pdf>]
 
 ./Resultados.tex:187: Package xcolor Error: Undefined color `grey'.
 
@@ -6712,7 +6596,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 201--202
 
  []
 
-[56]
+[54]
 Underfull \hbox (badness 10000) in paragraph at lines 203--204
 
  []
@@ -6741,10 +6625,10 @@ Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-LaTeX Warning: Citation 'davies1979cluster' on page 57 undefined on input line 
+LaTeX Warning: Citation 'davies1979cluster' on page 55 undefined on input line 
 213.
 
-<figs/capitulo5/clusters2.pdf, id=1397, 505.89pt x 505.89pt>
+<figs/capitulo5/clusters2.pdf, id=826, 505.89pt x 505.89pt>
 File: figs/capitulo5/clusters2.pdf Graphic file (type pdf)
 
 <use figs/capitulo5/clusters2.pdf>
@@ -6755,7 +6639,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 223--224
 
  []
 
-[57]
+[55]
 Overfull \hbox (8.02353pt too wide) in paragraph at lines 225--226
 []\T1/futs/m/n/12 Regarding in-ter-an-nual vari-abil-ity, we have cal-cu-lated 
 the CV of two time-aggregated means
@@ -6807,8 +6691,8 @@ l.238 ...obtained in \cite{Antonanzas-Torres2013}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[58 <./figs/capitulo5/clusters2.pdf>]
-<figs/capitulo5/productividadTemp_byCluster.pdf, id=1418, 505.89pt x 505.89pt>
+[56 <./figs/capitulo5/clusters2.pdf>]
+<figs/capitulo5/productividadTemp_byCluster.pdf, id=848, 505.89pt x 505.89pt>
 File: figs/capitulo5/productividadTemp_byCluster.pdf Graphic file (type pdf)
 
 <use figs/capitulo5/productividadTemp_byCluster.pdf>
@@ -6843,8 +6727,8 @@ l.250 ...n is represented in figure \ref{ratiosCV}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[59 <./figs/capitulo5/productividadTemp_byCluster.pdf>]
-<figs/capitulo5/dotplot_ratio_zone.pdf, id=1434, 505.89pt x 505.89pt>
+[57 <./figs/capitulo5/productividadTemp_byCluster.pdf>]
+<figs/capitulo5/dotplot_ratio_zone.pdf, id=865, 505.89pt x 505.89pt>
 File: figs/capitulo5/dotplot_ratio_zone.pdf Graphic file (type pdf)
 
 <use figs/capitulo5/dotplot_ratio_zone.pdf>
@@ -6865,7 +6749,7 @@ l.260 ...at horizontal plane, \cite{Perpinan2009}.
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[60 <./figs/capitulo5/dotplot_ratio_zone.pdf>]
+[58 <./figs/capitulo5/dotplot_ratio_zone.pdf>]
 
 ./Resultados.tex:270: Package xcolor Error: Undefined color `grey'.
 
@@ -6879,7 +6763,7 @@ l.270 ...epresented in figure\ref{horizonplot_rad}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-<figs/capitulo5/horizonplot_series_rad2.pdf, id=1448, 505.89pt x 505.89pt>
+<figs/capitulo5/horizonplot_series_rad2.pdf, id=879, 505.89pt x 505.89pt>
 File: figs/capitulo5/horizonplot_series_rad2.pdf Graphic file (type pdf)
 
 <use figs/capitulo5/horizonplot_series_rad2.pdf>
@@ -6900,7 +6784,7 @@ l.278 ...n be seen in figure \ref{horizonplot_rad}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[61]
+[59]
 
 ./Resultados.tex:284: Package xcolor Error: Undefined color `grey'.
 
@@ -6914,7 +6798,7 @@ l.284 ...ion,  figure \ref{horizonplot_months_rad}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-<figs/capitulo5/horizonplot_months_rad2.pdf, id=1457, 505.89pt x 505.89pt>
+<figs/capitulo5/horizonplot_months_rad2.pdf, id=887, 505.89pt x 505.89pt>
 File: figs/capitulo5/horizonplot_months_rad2.pdf Graphic file (type pdf)
 
 <use figs/capitulo5/horizonplot_months_rad2.pdf>
@@ -6970,13 +6854,13 @@ l.288 ...mbers in the x-axis indicate the months.}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[62 <./figs/capitulo5/horizonplot_series_rad2.pdf>]
+[60 <./figs/capitulo5/horizonplot_series_rad2.pdf>]
 Overfull \hbox (15.49002pt too wide) in paragraph at lines 296--297
 []\T1/futs/m/n/12 Regionalization by an ob-jec-tive clus-ter-ing pro-ce-dure, t
 hat fa-cil-i-tates the inter-comparison
  []
 
-[63] [64 <./figs/capitulo5/horizonplot_months_rad2.pdf>]pdfTeX warning (ext4): 
+[61] [62 <./figs/capitulo5/horizonplot_months_rad2.pdf>]pdfTeX warning (ext4): 
 destination with the same identifier (name{section.5.1}) has been already used,
  duplicate ignored
 <to be read again> 
@@ -7001,9 +6885,9 @@ Overfull \hbox (77.14815pt too wide) in paragraph at lines 324--347
  [][] 
  []
 
-[65]
+[63]
 
-LaTeX Warning: Citation 'Gil2015' on page 66 undefined on input line 354.
+LaTeX Warning: Citation 'Gil2015' on page 64 undefined on input line 354.
 
 
 ./Resultados.tex:356: Package xcolor Error: Undefined color `grey'.
@@ -7032,7 +6916,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<figs/capitulo5/Solariradiationmap_yearly2.pdf, id=1496, 505.89pt x 505.89pt>
+<figs/capitulo5/Solariradiationmap_yearly2.pdf, id=927, 505.89pt x 505.89pt>
 File: figs/capitulo5/Solariradiationmap_yearly2.pdf Graphic file (type pdf)
 
 <use figs/capitulo5/Solariradiationmap_yearly2.pdf>
@@ -7055,10 +6939,9 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-<figs/capitulo5/SolarirradiationCVmap_yearly2.pdf, id=1497, 505.89pt x 505.89pt
->
+<figs/capitulo5/SolarirradiationCVmap_yearly2.pdf, id=928, 505.89pt x 505.89pt>
 File: figs/capitulo5/SolarirradiationCVmap_yearly2.pdf Graphic file (type pdf)
- <use figs/capitulo5/SolarirradiationCVmap_yearly2.pdf>
+<use figs/capitulo5/SolarirradiationCVmap_yearly2.pdf>
 Package pdftex.def Info: figs/capitulo5/SolarirradiationCVmap_yearly2.pdf used 
 on input line 362.
 (pdftex.def)             Requested size: 204.85846pt x 204.86116pt.
@@ -7076,7 +6959,7 @@ l.368 Figure \ref{mapas}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[66 <./figs/capitulo5/Solariradiationmap_yearly2.pdf> <./figs/capitulo5/Solarir
+[64 <./figs/capitulo5/Solariradiationmap_yearly2.pdf> <./figs/capitulo5/Solarir
 radiationCVmap_yearly2.pdf>]
 
 ./Resultados.tex:372: LaTeX Error: No counter 'subfigure@save' defined.
@@ -7092,10 +6975,9 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-<figs/capitulo5/ProductivityFixed_yearlymean2.pdf, id=1520, 505.89pt x 505.89pt
->
+<figs/capitulo5/ProductivityFixed_yearlymean2.pdf, id=950, 505.89pt x 505.89pt>
 File: figs/capitulo5/ProductivityFixed_yearlymean2.pdf Graphic file (type pdf)
- <use figs/capitulo5/ProductivityFixed_yearlymean2.pdf>
+<use figs/capitulo5/ProductivityFixed_yearlymean2.pdf>
 Package pdftex.def Info: figs/capitulo5/ProductivityFixed_yearlymean2.pdf used 
 on input line 374.
 (pdftex.def)             Requested size: 195.75163pt x 195.75244pt.
@@ -7114,8 +6996,8 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-<figs/capitulo5/ProductivityCVfixed_yearlymean2.pdf, id=1521, 505.89pt x 505.89
-pt>
+<figs/capitulo5/ProductivityCVfixed_yearlymean2.pdf, id=951, 505.89pt x 505.89p
+t>
 File: figs/capitulo5/ProductivityCVfixed_yearlymean2.pdf Graphic file (type pdf
 )
  <use figs/capitulo5/ProductivityCVfixed_yearlymean2.pdf>
@@ -7137,10 +7019,9 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-<figs/capitulo5/ProductivityHoriz_yearlymean2.pdf, id=1522, 505.89pt x 505.89pt
->
+<figs/capitulo5/ProductivityHoriz_yearlymean2.pdf, id=952, 505.89pt x 505.89pt>
 File: figs/capitulo5/ProductivityHoriz_yearlymean2.pdf Graphic file (type pdf)
- <use figs/capitulo5/ProductivityHoriz_yearlymean2.pdf>
+<use figs/capitulo5/ProductivityHoriz_yearlymean2.pdf>
 Package pdftex.def Info: figs/capitulo5/ProductivityHoriz_yearlymean2.pdf used 
 on input line 381.
 (pdftex.def)             Requested size: 195.75163pt x 195.75244pt.
@@ -7159,8 +7040,8 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-<figs/capitulo5/ProductivityCVHoriz_yearlymean2.pdf, id=1523, 505.89pt x 505.89
-pt>
+<figs/capitulo5/ProductivityCVHoriz_yearlymean2.pdf, id=953, 505.89pt x 505.89p
+t>
 File: figs/capitulo5/ProductivityCVHoriz_yearlymean2.pdf Graphic file (type pdf
 )
  <use figs/capitulo5/ProductivityCVHoriz_yearlymean2.pdf>
@@ -7181,8 +7062,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-
-<figs/capitulo5/ProductivityTwo_yearlymean2.pdf, id=1524, 505.89pt x 505.89pt>
+<figs/capitulo5/ProductivityTwo_yearlymean2.pdf, id=954, 505.89pt x 505.89pt>
 File: figs/capitulo5/ProductivityTwo_yearlymean2.pdf Graphic file (type pdf)
 
 <use figs/capitulo5/ProductivityTwo_yearlymean2.pdf>
@@ -7204,10 +7084,9 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-<figs/capitulo5/ProductivityCVTwo_yearlymean2.pdf, id=1525, 505.89pt x 505.89pt
->
+<figs/capitulo5/ProductivityCVTwo_yearlymean2.pdf, id=955, 505.89pt x 505.89pt>
 File: figs/capitulo5/ProductivityCVTwo_yearlymean2.pdf Graphic file (type pdf)
- <use figs/capitulo5/ProductivityCVTwo_yearlymean2.pdf>
+<use figs/capitulo5/ProductivityCVTwo_yearlymean2.pdf>
 Package pdftex.def Info: figs/capitulo5/ProductivityCVTwo_yearlymean2.pdf used 
 on input line 391.
 (pdftex.def)             Requested size: 195.75163pt x 195.75244pt.
@@ -7228,7 +7107,7 @@ l.396 Figure \ref{yearly_productivity_and_CV}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-<figs/capitulo5/Yearlycv_productivity3.pdf, id=1527, 505.89pt x 505.89pt>
+<figs/capitulo5/Yearlycv_productivity3.pdf, id=957, 505.89pt x 505.89pt>
 File: figs/capitulo5/Yearlycv_productivity3.pdf Graphic file (type pdf)
 
 <use figs/capitulo5/Yearlycv_productivity3.pdf>
@@ -7254,7 +7133,7 @@ l.409 ... is represented in \ref{cicloAnualCV_all}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-<figs/capitulo5/ciclo_anual_byCluster_all.pdf, id=1529, 505.89pt x 505.89pt>
+<figs/capitulo5/ciclo_anual_byCluster_all.pdf, id=959, 505.89pt x 505.89pt>
 File: figs/capitulo5/ciclo_anual_byCluster_all.pdf Graphic file (type pdf)
 
 <use figs/capitulo5/ciclo_anual_byCluster_all.pdf>
@@ -7280,33 +7159,33 @@ l.426 Figure \ref{correlaciones_30}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[67] [68 <./figs/capitulo5/ProductivityFixed_yearlymean2.pdf> <./figs/capitulo5
+[65] [66 <./figs/capitulo5/ProductivityFixed_yearlymean2.pdf> <./figs/capitulo5
 /ProductivityCVfixed_yearlymean2.pdf> <./figs/capitulo5/ProductivityHoriz_yearl
 ymean2.pdf> <./figs/capitulo5/ProductivityCVHoriz_yearlymean2.pdf> <./figs/capi
 tulo5/ProductivityTwo_yearlymean2.pdf> <./figs/capitulo5/ProductivityCVTwo_year
-lymean2.pdf>] [69 <./figs/capitulo5/Yearlycv_productivity3.pdf>]
+lymean2.pdf>] [67 <./figs/capitulo5/Yearlycv_productivity3.pdf>]
 Overfull \hbox (1.39215pt too wide) in paragraph at lines 428--429
 []\T1/futs/m/n/12 However, the high pos-i-tive cor-re-la-tion is not gen-eral. 
 North-ern clus-ters 4 and 5 are slightly
  []
 
-[70 <./figs/capitulo5/ciclo_anual_byCluster_all.pdf>]
-<figs/capitulo5/correlaciones_30.pdf, id=1610, 722.7pt x 542.025pt>
+[68 <./figs/capitulo5/ciclo_anual_byCluster_all.pdf>]
+<figs/capitulo5/correlaciones_30.pdf, id=1041, 722.7pt x 542.025pt>
 File: figs/capitulo5/correlaciones_30.pdf Graphic file (type pdf)
 
 <use figs/capitulo5/correlaciones_30.pdf>
 Package pdftex.def Info: figs/capitulo5/correlaciones_30.pdf used on input line
  432.
 (pdftex.def)             Requested size: 361.3491pt x 271.01183pt.
- [71] [72 <./figs/capitulo5/correlaciones_30.pdf>]pdfTeX warning (ext4): destin
+ [69] [70 <./figs/capitulo5/correlaciones_30.pdf>]pdfTeX warning (ext4): destin
 ation with the same identifier (name{subsection.5.3.1}) has been already used, 
 duplicate ignored
 <to be read again> 
                    \relax 
 l.441 \subsection{Summary}
-                           [73
+                           [71
 
-] [74
+] [72
 
 ]
 
@@ -7321,7 +7200,7 @@ l.449 ...://doi.org/10.1016/j.solener.2018.09.085}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[75]
+[73]
 
 ./Resultados.tex:480: Package xcolor Error: Undefined color `brigthmaroon filec
 olor=black'.
@@ -7485,7 +7364,7 @@ either increase the head height or redesign the header
 Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
 
-[76
+[74
 
 ]
 
@@ -7628,7 +7507,7 @@ l.486 ...for the ``brightening'' \cite*{Wild2005}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[77]
+[75]
 
 ./Resultados.tex:492: Package xcolor Error: Undefined color `brigthmaroon filec
 olor=black'.
@@ -7897,7 +7776,7 @@ If that doesn't work, type  X <return>  to quit.
 Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
 
-[78]
+[76]
 
 ./Resultados.tex:502: Package xcolor Error: Undefined color `brigthmaroon filec
 olor=black'.
@@ -7955,7 +7834,7 @@ l.512 ...lations is reported in table \ref{tabSIM}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-<figs/capitulo6/zonasPuntosLabel.pdf, id=1961, 361.35pt x 216.81pt>
+<figs/capitulo6/zonasPuntosLabel.pdf, id=1391, 361.35pt x 216.81pt>
 File: figs/capitulo6/zonasPuntosLabel.pdf Graphic file (type pdf)
 
 <use figs/capitulo6/zonasPuntosLabel.pdf>
@@ -7990,7 +7869,7 @@ l.544 ...logy was applied in \cite{Gutierrez2017}.
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[79]
+[77]
 
 ./Resultados.tex:548: Package xcolor Error: Undefined color `brigthmaroon filec
 olor=black'.
@@ -8006,10 +7885,10 @@ Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-LaTeX Warning: Citation 'deMiguel2001' on page 80 undefined on input line 550.
+LaTeX Warning: Citation 'deMiguel2001' on page 78 undefined on input line 550.
 
 
-LaTeX Warning: Citation 'Gopinathan1995' on page 80 undefined on input line 550
+LaTeX Warning: Citation 'Gopinathan1995' on page 78 undefined on input line 550
 .
 
 
@@ -8048,7 +7927,7 @@ o-to-voltaic gen-er-a-tor and the equa-
 Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
 
-[80 <./figs/capitulo6/zonasPuntosLabel.pdf>]
+[78 <./figs/capitulo6/zonasPuntosLabel.pdf>]
 
 ./Resultados.tex:559: Package xcolor Error: Undefined color `brigthmaroon filec
 olor=black'.
@@ -8106,7 +7985,7 @@ Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-LaTeX Warning: Reference `table1' on page 81 undefined on input line 563.
+LaTeX Warning: Reference `table1' on page 79 undefined on input line 563.
 
 
 ./Resultados.tex:563: Package xcolor Error: Undefined color `brigthmaroon filec
@@ -8149,7 +8028,7 @@ l.606 The SARAH \cite*{Muller2015}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[81]
+[79]
 
 ./Resultados.tex:608: Package xcolor Error: Undefined color `brigthmaroon filec
 olor=black'.
@@ -8259,7 +8138,7 @@ If that doesn't work, type  X <return>  to quit.
 Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
 
-[82]
+[80]
 
 ./Resultados.tex:656: Package xcolor Error: Undefined color `brigthmaroon filec
 olor=black'.
@@ -8380,7 +8259,7 @@ l.686 In figure \ref{fig:station}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-<figs/capitulo6/CarpentrasMesesDif.pdf, id=2029, 505.89pt x 361.35pt>
+<figs/capitulo6/CarpentrasMesesDif.pdf, id=1460, 505.89pt x 361.35pt>
 File: figs/capitulo6/CarpentrasMesesDif.pdf Graphic file (type pdf)
 
 <use figs/capitulo6/CarpentrasMesesDif.pdf>
@@ -8388,7 +8267,7 @@ Package pdftex.def Info: figs/capitulo6/CarpentrasMesesDif.pdf used on input li
 ne 690.
 (pdftex.def)             Requested size: 227.62206pt x 162.58945pt.
 
-<figs/capitulo6/PayerneMesesDif.pdf, id=2030, 505.89pt x 361.35pt>
+<figs/capitulo6/PayerneMesesDif.pdf, id=1461, 505.89pt x 361.35pt>
 File: figs/capitulo6/PayerneMesesDif.pdf Graphic file (type pdf)
 
 <use figs/capitulo6/PayerneMesesDif.pdf>
@@ -8396,14 +8275,14 @@ Package pdftex.def Info: figs/capitulo6/PayerneMesesDif.pdf used on input line
 696.
 (pdftex.def)             Requested size: 227.62206pt x 162.58945pt.
 
-<figs/capitulo6/SedebokerMesesDif.pdf, id=2031, 505.89pt x 361.35pt>
+<figs/capitulo6/SedebokerMesesDif.pdf, id=1462, 505.89pt x 361.35pt>
 File: figs/capitulo6/SedebokerMesesDif.pdf Graphic file (type pdf)
 
 <use figs/capitulo6/SedebokerMesesDif.pdf>
 Package pdftex.def Info: figs/capitulo6/SedebokerMesesDif.pdf used on input lin
 e 702.
 (pdftex.def)             Requested size: 227.62206pt x 162.58945pt.
- [83]
+ [81]
 
 ./Resultados.tex:710: Package xcolor Error: Undefined color `grey'.
 
@@ -8455,7 +8334,7 @@ l.715 ...wing lower errors \ref{fig:figuraSEVILLA}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-<figs/capitulo6/violinplorSeville.pdf, id=2043, 505.89pt x 505.89pt>
+<figs/capitulo6/violinplorSeville.pdf, id=1474, 505.89pt x 505.89pt>
 File: figs/capitulo6/violinplorSeville.pdf Graphic file (type pdf)
 
 <use figs/capitulo6/violinplorSeville.pdf>
@@ -8463,7 +8342,7 @@ Package pdftex.def Info: figs/capitulo6/violinplorSeville.pdf used on input lin
 e 723.
 (pdftex.def)             Requested size: 204.85846pt x 204.86116pt.
 
-<figs/capitulo6/violinplotTarragona.pdf, id=2044, 505.89pt x 505.89pt>
+<figs/capitulo6/violinplotTarragona.pdf, id=1475, 505.89pt x 505.89pt>
 File: figs/capitulo6/violinplotTarragona.pdf Graphic file (type pdf)
 
 <use figs/capitulo6/violinplotTarragona.pdf>
@@ -8547,7 +8426,7 @@ If that doesn't work, type  X <return>  to quit.
 Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
 
-[84] [85 <./figs/capitulo6/CarpentrasMesesDif.pdf> <./figs/capitulo6/PayerneMes
+[82] [83 <./figs/capitulo6/CarpentrasMesesDif.pdf> <./figs/capitulo6/PayerneMes
 esDif.pdf> <./figs/capitulo6/SedebokerMesesDif.pdf>]
 
 ./Resultados.tex:793: Package xcolor Error: Undefined color `brigthmaroon filec
@@ -8563,7 +8442,7 @@ l.793 ...oud cover in the model \cite*{Nabat2014}.
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-<figs/capitulo6/dif_model_sat_zonas.pdf, id=2081, 505.89pt x 289.08pt>
+<figs/capitulo6/dif_model_sat_zonas.pdf, id=1510, 505.89pt x 289.08pt>
 File: figs/capitulo6/dif_model_sat_zonas.pdf Graphic file (type pdf)
 
 <use figs/capitulo6/dif_model_sat_zonas.pdf>
@@ -8612,9 +8491,9 @@ If that doesn't work, type  X <return>  to quit.
 Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
 
-[86 <./figs/capitulo6/violinplorSeville.pdf> <./figs/capitulo6/violinplotTarrag
-ona.pdf>] [87 <./figs/capitulo6/dif_model_sat_zonas.pdf>]
-<figs/capitulo6/diferencia_mesesFIXED.pdf, id=2112, 505.89pt x 361.35pt>
+[84 <./figs/capitulo6/violinplorSeville.pdf> <./figs/capitulo6/violinplotTarrag
+ona.pdf>] [85 <./figs/capitulo6/dif_model_sat_zonas.pdf>]
+<figs/capitulo6/diferencia_mesesFIXED.pdf, id=1543, 505.89pt x 361.35pt>
 File: figs/capitulo6/diferencia_mesesFIXED.pdf Graphic file (type pdf)
 
 <use figs/capitulo6/diferencia_mesesFIXED.pdf>
@@ -8636,7 +8515,7 @@ Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-<figs/capitulo6/dif_aer_no_all_Ym20032009SIGt.pdf, id=2114, 505.89pt x 216.81pt
+<figs/capitulo6/dif_aer_no_all_Ym20032009SIGt.pdf, id=1545, 505.89pt x 216.81pt
 >
 File: figs/capitulo6/dif_aer_no_all_Ym20032009SIGt.pdf Graphic file (type pdf)
  <use figs/capitulo6/dif_aer_no_all_Ym20032009SIGt.pdf>
@@ -8644,7 +8523,7 @@ Package pdftex.def Info: figs/capitulo6/dif_aer_no_all_Ym20032009SIGt.pdf used
 on input line 828.
 (pdftex.def)             Requested size: 455.24411pt x 195.10733pt.
 
-<figs/capitulo6/byCountry.jpeg, id=2115, 1005.00468pt x 359.09157pt>
+<figs/capitulo6/byCountry.jpeg, id=1546, 1005.00468pt x 359.09157pt>
 File: figs/capitulo6/byCountry.jpeg Graphic file (type jpg)
 
 <use figs/capitulo6/byCountry.jpeg>
@@ -8668,15 +8547,15 @@ If that doesn't work, type  X <return>  to quit.
 Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
 
-[88]
-<figs/capitulo6/RelDif_aer_no_all20032009SIGt.pdf, id=2124, 433.62pt x 433.62pt
+[86]
+<figs/capitulo6/RelDif_aer_no_all20032009SIGt.pdf, id=1555, 433.62pt x 433.62pt
 >
 File: figs/capitulo6/RelDif_aer_no_all20032009SIGt.pdf Graphic file (type pdf)
  <use figs/capitulo6/RelDif_aer_no_all20032009SIGt.pdf>
 Package pdftex.def Info: figs/capitulo6/RelDif_aer_no_all20032009SIGt.pdf used 
 on input line 850.
 (pdftex.def)             Requested size: 455.24411pt x 455.26813pt.
- [89 <./figs/capitulo6/diferencia_mesesFIXED.pdf>]
+ [87 <./figs/capitulo6/diferencia_mesesFIXED.pdf>]
 
 ./Resultados.tex:861: Package xcolor Error: Undefined color `grey'.
 
@@ -8691,14 +8570,14 @@ Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-LaTeX Warning: Citation 'Gil2015' on page 90 undefined on input line 861.
+LaTeX Warning: Citation 'Gil2015' on page 88 undefined on input line 861.
 
 
 Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
 
-[90 <./figs/capitulo6/dif_aer_no_all_Ym20032009SIGt.pdf> <./figs/capitulo6/byCo
-untry.jpeg>] [91 <./figs/capitulo6/RelDif_aer_no_all20032009SIGt.pdf>]
+[88 <./figs/capitulo6/dif_aer_no_all_Ym20032009SIGt.pdf> <./figs/capitulo6/byCo
+untry.jpeg>] [89 <./figs/capitulo6/RelDif_aer_no_all20032009SIGt.pdf>]
 
 ./Resultados.tex:866: Package xcolor Error: Undefined color `brigthmaroon filec
 olor=black'.
@@ -8725,7 +8604,7 @@ Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-<figs/capitulo6/DifferencesRelativesinPVtciclo15.pdf, id=2168, 505.89pt x 433.6
+<figs/capitulo6/DifferencesRelativesinPVtciclo15.pdf, id=1598, 505.89pt x 433.6
 2pt>
 File: figs/capitulo6/DifferencesRelativesinPVtciclo15.pdf Graphic file (type pd
 f)
@@ -8737,9 +8616,9 @@ ed on input line 873.
 Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
 
-[92 <./figs/capitulo6/DifferencesRelativesinPVtciclo15.pdf>]
+[90 <./figs/capitulo6/DifferencesRelativesinPVtciclo15.pdf>]
 
-LaTeX Warning: Citation 'Martin1999' on page 93 undefined on input line 891.
+LaTeX Warning: Citation 'Martin1999' on page 91 undefined on input line 891.
 
 
 ./Resultados.tex:900: Package xcolor Error: Undefined color `brigthmaroon filec
@@ -8755,13 +8634,13 @@ l.900 ...production over Europe \cite*{Jerez2015}.
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[93]
+[91]
 Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
 
-[94] [95] [96
+[92] [93] [94
 
-] [97]
+] [95]
 Underfull \hbox (badness 10000) in paragraph at lines 932--933
 
  []
@@ -8772,20 +8651,20 @@ Overfull \hbox (4.96738pt too wide) in paragraph at lines 941--942
 t-u-ral and an-thro-pogenic aerosols
  []
 
-[98
+[96
 
 ]
 
-LaTeX Warning: Reference `Climate data' on page 99 undefined on input line 949.
+LaTeX Warning: Reference `Climate data' on page 97 undefined on input line 949.
 
 
 
-LaTeX Warning: Reference `Aerosols' on page 99 undefined on input line 949.
+LaTeX Warning: Reference `Aerosols' on page 97 undefined on input line 949.
 
 
-LaTeX Warning: Reference `Results' on page 99 undefined on input line 949.
+LaTeX Warning: Reference `Results' on page 97 undefined on input line 949.
 
-[99]
+[97]
 
 ./Resultados.tex:957: Package xcolor Error: Undefined color `grey'.
 
@@ -8974,7 +8853,7 @@ Overfull \hbox (9.1339pt too wide) in paragraph at lines 1004--1004
 \T1/futs/m/n/10 salt,stratospheric 
  []
 
-[100]
+[98]
 
 ./Resultados.tex:1028: Package xcolor Error: Undefined color `grey'.
 
@@ -8987,7 +8866,7 @@ l.1028 ...s explained in chapter \ref{cha:methods}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[101]
+[99]
 
 ./Resultados.tex:1032: Package xcolor Error: Undefined color `grey'.
 
@@ -9028,7 +8907,7 @@ Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-<figs/capitulo7/ANOMALIAS_JJA_SSR_2050-2021_r12.pdf, id=2235, 505.89pt x 361.35
+<figs/capitulo7/ANOMALIAS_JJA_SSR_2050-2021_r12.pdf, id=1666, 505.89pt x 361.35
 pt>
 File: figs/capitulo7/ANOMALIAS_JJA_SSR_2050-2021_r12.pdf Graphic file (type pdf
 )
@@ -9051,7 +8930,7 @@ Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-<figs/capitulo7/ANOMALIAS_JJA_CLT_2050-2021_r12.pdf, id=2237, 505.89pt x 361.35
+<figs/capitulo7/ANOMALIAS_JJA_CLT_2050-2021_r12.pdf, id=1668, 505.89pt x 361.35
 pt>
 File: figs/capitulo7/ANOMALIAS_JJA_CLT_2050-2021_r12.pdf Graphic file (type pdf
 )
@@ -9074,7 +8953,7 @@ Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-<figs/capitulo7/ANOMALIAS_JJA_AOD_2050-2021_r12.pdf, id=2239, 505.89pt x 216.81
+<figs/capitulo7/ANOMALIAS_JJA_AOD_2050-2021_r12.pdf, id=1670, 505.89pt x 216.81
 pt>
 File: figs/capitulo7/ANOMALIAS_JJA_AOD_2050-2021_r12.pdf Graphic file (type pdf
 )
@@ -9128,17 +9007,17 @@ Package caption Warning: \label without proper reference on input line 1102.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:pvcountry' on page 102 undefined on input line 10
+LaTeX Warning: Reference `fig:pvcountry' on page 100 undefined on input line 10
 96.
 
-<figs/capitulo7/bycountrytodos.pdf, id=2241, 361.35pt x 216.81pt>
+<figs/capitulo7/bycountrytodos.pdf, id=1672, 361.35pt x 216.81pt>
 File: figs/capitulo7/bycountrytodos.pdf Graphic file (type pdf)
 
 <use figs/capitulo7/bycountrytodos.pdf>
 Package pdftex.def Info: figs/capitulo7/bycountrytodos.pdf used on input line 1
 101.
 (pdftex.def)             Requested size: 455.24411pt x 273.14896pt.
- [102] [103 <./figs/capitulo7/ANOMALIAS_JJA_SSR_2050-2021_r12.pdf>] [104 <./fig
+ [100] [101 <./figs/capitulo7/ANOMALIAS_JJA_SSR_2050-2021_r12.pdf>] [102 <./fig
 s/capitulo7/ANOMALIAS_JJA_CLT_2050-2021_r12.pdf> <./figs/capitulo7/ANOMALIAS_JJ
 A_AOD_2050-2021_r12.pdf>]
 
@@ -9159,17 +9038,17 @@ Package caption Warning: \label without proper reference on input line 1115.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:pvcountryjja' on page 105 undefined on input line
+LaTeX Warning: Reference `fig:pvcountryjja' on page 103 undefined on input line
  1111.
 
-<figs/capitulo7/bycountryJJArelativePuOr.pdf, id=2281, 505.89pt x 289.08pt>
+<figs/capitulo7/bycountryJJArelativePuOr.pdf, id=1711, 505.89pt x 289.08pt>
 File: figs/capitulo7/bycountryJJArelativePuOr.pdf Graphic file (type pdf)
 
 <use figs/capitulo7/bycountryJJArelativePuOr.pdf>
 Package pdftex.def Info: figs/capitulo7/bycountryJJArelativePuOr.pdf used on in
 put line 1114.
 (pdftex.def)             Requested size: 455.24411pt x 260.14311pt.
- [105 <./figs/capitulo7/bycountrytodos.pdf>] [106 <./figs/capitulo7/bycountryJJ
+ [103 <./figs/capitulo7/bycountrytodos.pdf>] [104 <./figs/capitulo7/bycountryJJ
 ArelativePuOr.pdf>]pdfTeX warning (ext4): destination with the same identifier 
 (name{section.7.1}) has been already used, duplicate ignored
 <to be read again> 
@@ -9191,7 +9070,7 @@ Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-<figs/capitulo7/diferences_ssr_newperiods_9abr.pdf, id=2305, 505.89pt x 216.81p
+<figs/capitulo7/diferences_ssr_newperiods_9abr.pdf, id=1735, 505.89pt x 216.81p
 t>
 File: figs/capitulo7/diferences_ssr_newperiods_9abr.pdf Graphic file (type pdf)
 
@@ -9200,7 +9079,7 @@ Package pdftex.def Info: figs/capitulo7/diferences_ssr_newperiods_9abr.pdf used
  on input line 1156.
 (pdftex.def)             Requested size: 364.19667pt x 156.08653pt.
 
-<figs/capitulo7/diferences_clt_newperiods_9abr.pdf, id=2306, 505.89pt x 216.81p
+<figs/capitulo7/diferences_clt_newperiods_9abr.pdf, id=1736, 505.89pt x 216.81p
 t>
 File: figs/capitulo7/diferences_clt_newperiods_9abr.pdf Graphic file (type pdf)
 
@@ -9227,10 +9106,10 @@ Package caption Warning: \label without proper reference on input line 1165.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:medcordexclt' on page 107 undefined on input line
+LaTeX Warning: Reference `fig:medcordexclt' on page 105 undefined on input line
  1169.
 
-[107]
+[105]
 
 ./Resultados.tex:1171: Package xcolor Error: Undefined color `grey'.
 
@@ -9276,16 +9155,16 @@ pdfTeX warning (ext4): destination with the same identifier (name{section.7.2})
 <to be read again> 
                    \relax 
 l.1191 \section{comments}
-                          [108 <./figs/capitulo7/diferences_ssr_newperiods_9abr
-.pdf> <./figs/capitulo7/diferences_clt_newperiods_9abr.pdf>]) [109]
+                          [106 <./figs/capitulo7/diferences_ssr_newperiods_9abr
+.pdf> <./figs/capitulo7/diferences_clt_newperiods_9abr.pdf>]) [107]
 \openout2 = `Discusion.aux'.
 
 
-(./Discusion.tex [110
+(./Discusion.tex [108
 
 
 
-] [111] [112]
+] [109] [110]
 Overfull \hbox (21.92593pt too wide) in paragraph at lines 17--18
 []\T1/futs/m/n/12 ¾puede uti-lizarse la misma dis-tribu-ción para es-calas más 
 pe-queñas? ¾habría que mostrarlo? 
@@ -9297,29 +9176,29 @@ Overfull \hbox (1.07811pt too wide) in paragraph at lines 23--24
 siderando su bias en ra-diación
  []
 
-[113
+[111
 
-] [114
+] [112
 
 ]
 
-LaTeX Warning: Reference `cha:multi' on page 115 undefined on input line 53.
+LaTeX Warning: Reference `cha:multi' on page 113 undefined on input line 53.
 
 
-LaTeX Warning: Reference `cha:multi' on page 115 undefined on input line 65.
+LaTeX Warning: Reference `cha:multi' on page 113 undefined on input line 65.
 
-[115]
+[113]
 Overfull \hbox (6.51154pt too wide) in paragraph at lines 73--74
 []\T1/futs/m/n/12 * Fu-ture: Over the IP some modes of vari-abil-ity has been d
 e-tected (ar-turo sanchez-lorenzo)
  []
 
-[116] [117]) [118]
+[114] [115]) [116]
 LaTeX Font Info:    Try loading font information for T1+cmtt on input line 72.
  (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-[119
+[117
 
 
 
@@ -9342,7 +9221,7 @@ Overfull \hbox (0.68765pt too wide) in paragraph at lines 73--73
 /m/sc/12 doi\T1/futs/m/n/12 : [][]$\T1/cmtt/m/n/12 10 . 1016 / 0038 -[]
  []
 
-[120]
+[118]
 Overfull \hbox (5.30037pt too wide) in paragraph at lines 73--73
 []\T1/futs/m/n/12 Michel De-nault, Deb-bie Dupuis, and Sébastien Couture-Cardin
 al. ``Com-ple-men-
@@ -9354,7 +9233,7 @@ Overfull \hbox (1.80118pt too wide) in paragraph at lines 73--73
 -gion from EN-SEM-
  []
 
-[121]
+[119]
 Overfull \hbox (7.6126pt too wide) in paragraph at lines 73--73
 \T1/futs/m/n/12 er-a-tion in Aus-tralia''. In: \T1/futs/m/it/12 So-lar En-ergy 
 \T1/futs/m/n/12 86.12 (2012), pp. 3554^^U3560. \T1/futs/m/sc/12 issn\T1/futs/m/
@@ -9379,13 +9258,13 @@ Overfull \hbox (17.9573pt too wide) in paragraph at lines 73--73
 orel Bade-scu. Berlin, Hei-del-berg: Springer
  []
 
-[122]
+[120]
 Overfull \hbox (17.4774pt too wide) in paragraph at lines 73--73
 []\T1/futs/m/n/12 M R Hay-lock, N. Hof-s-tra, A.M.G. Klein Tank, et al. ``A Eu-
 ro-pean daily high-resolution
  []
 
-[123]
+[121]
 Overfull \hbox (44.62616pt too wide) in paragraph at lines 73--73
 \T1/cmtt/m/n/12 1748 -[] 9326 / 8 / i = 4 / a = 044035 ? key = crossref . bd78f
 653acd03b2f65bd9245c21f41f2$[][]\T1/futs/m/n/12 . 
@@ -9397,7 +9276,7 @@ Overfull \hbox (10.27965pt too wide) in paragraph at lines 73--73
 12 Me-te-o-rol-o-gis-che Zeitschrift \T1/futs/m/n/12 15.3 (2006),
  []
 
-[124]
+[122]
 Overfull \hbox (17.49242pt too wide) in paragraph at lines 73--73
 []\T1/futs/m/n/12 Ioannis Kougias, Sán-dor Sz-abó, Fabio Monforti-Ferrario, Tho
 mas Huld, and Katalin
@@ -9443,7 +9322,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[125]
+[123]
 Overfull \hbox (0.88919pt too wide) in paragraph at lines 73--73
 \T1/futs/m/n/12 Eu-ro-pean Cen-tre for Medium-Range Weather Fore-casts In-te-gr
 ated Fore-cast Sys-
@@ -9500,7 +9379,7 @@ e-o-ro-log-i-cal So-ci-ety \T1/futs/m/n/12 (1998). \T1/futs/m/sc/12 issn\T1/fut
 s/m/n/12 : 00030007.
  []
 
-[126]
+[124]
 Overfull \hbox (11.80066pt too wide) in paragraph at lines 73--73
 \T1/futs/m/n/12 dis-tance and time scale''. In: \T1/futs/m/it/12 So-lar En-ergy
  \T1/futs/m/n/12 88.0 (2013), pp. 227^^U241. \T1/futs/m/sc/12 issn\T1/futs/m/n/
@@ -9514,7 +9393,7 @@ Overfull \hbox (16.88742pt too wide) in paragraph at lines 73--73
 /m/n/12 : 00948276.
  []
 
-[127]
+[125]
 Overfull \hbox (0.80518pt too wide) in paragraph at lines 73--73
 \T1/futs/m/n/12 2014 Sa-ha-ran dust out-break on the pho-to-voltaic power gen-e
 r-a-tion in Ger-many''.
@@ -9546,7 +9425,7 @@ Overfull \hbox (3.01984pt too wide) in paragraph at lines 73--73
 d Sus-tain-able En-ergy Re-views \T1/futs/m/n/12 (2016).
  []
 
-[128]
+[126]
 Overfull \hbox (1.91878pt too wide) in paragraph at lines 73--73
 \T1/futs/m/n/12 in Spain: Build-ing a ho-mo-ge-neous dataset and as-sess-ing th
 eir trends''. In: \T1/futs/m/it/12 Global
@@ -9577,7 +9456,7 @@ Overfull \hbox (18.80269pt too wide) in paragraph at lines 73--73
 /m/it/12 En-ergy Pro-ce-dia \T1/futs/m/n/12 57 (2014), pp. 1383^^U
  []
 
-[129]
+[127]
 Overfull \hbox (36.2034pt too wide) in paragraph at lines 73--73
 \T1/cmtt/m/n/12 026$[][]\T1/futs/m/n/12 . \T1/futs/m/sc/12 url\T1/futs/m/n/12 :
  [][]$\T1/cmtt/m/n/12 http : / / linkinghub . elsevier . com / retrieve / pii /
@@ -9590,7 +9469,7 @@ Class memoir Warning: The material used in the headers is too large
 either increase the head height or redesign the header
 (in both cases you will find help in the memoir manual). on input line 75.
 
-[130]
+[128]
 \tf@toc=\write7
 \openout7 = `tesis.toc'.
 
@@ -9601,7 +9480,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 75.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 75.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 75.
 Package rerunfilecheck Info: File `tesis.out' has not changed.
-(rerunfilecheck)             Checksum: A8EC3C1A010EFC32A75504FFAAB536A1;8920.
+(rerunfilecheck)             Checksum: 773E84C70E3E40634BD8CAD43812F102;8920.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -9624,11 +9503,11 @@ Package logreq Info: Writing requests to 'tesis.run.xml'.
  )
 (\end occurred when \iftrue on line 7 was incomplete) 
 Here is how much of TeX's memory you used:
- 32657 strings out of 493029
- 576416 string characters out of 6136234
- 902488 words of memory out of 5000000
- 35314 multiletter control sequences out of 15000+600000
- 206250 words of font info for 251 fonts, out of 8000000 for 9000
+ 32631 strings out of 493029
+ 576062 string characters out of 6136234
+ 902178 words of memory out of 5000000
+ 35304 multiletter control sequences out of 15000+600000
+ 205833 words of font info for 249 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,23n,65p,10422b,1631s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/en
@@ -9642,10 +9521,10 @@ texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb></usr/share/texlive/texmf-dist/f
 onts/type1/adobe/utopia/putri8a.pfb></usr/share/texmf/fonts/type1/public/cm-sup
 er/sftt1200.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.
 pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on tesis.pdf (136 pages, 52900130 bytes).
+Output written on tesis.pdf (134 pages, 52796087 bytes).
 PDF statistics:
- 2766 PDF objects out of 2984 (max. 8388607)
- 2216 compressed objects within 23 object streams
- 432 named destinations out of 1000 (max. 500000)
- 658 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2194 PDF objects out of 2487 (max. 8388607)
+ 1880 compressed objects within 19 object streams
+ 419 named destinations out of 1000 (max. 500000)
+ 653 words of extra memory for PDF output out of 10000 (max. 10000000)
 
