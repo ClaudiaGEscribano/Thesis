@@ -1607,6 +1607,33 @@
   \field{year}{2017}
 \endentry
 
+\entry{dumortier1999status}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Dumortier}{D.}%
+     {D}{D}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Koga}{K.}%
+     {Y}{Y}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{DDKY1}
+  \strng{fullhash}{DDKY1}
+  \field{labelalpha}{DK99}
+  \field{sortinit}{D}
+  \field{number}{1}
+  \field{pages}{282\bibrangedash 286}
+  \field{title}{Status of the International Daylight Measurement Programme
+  (IDMP) and its web server}
+  \field{volume}{133}
+  \field{journaltitle}{PUBLICATIONS-COMMISSION INTERNATIONALE DE L ECLAIRAGE
+  CIE}
+  \field{year}{1999}
+\endentry
+
 \entry{Davies1989}{article}{}
   \name{author}{2}{}{%
     {{}%
@@ -2431,6 +2458,55 @@
   \field{year}{2011}
 \endentry
 
+\entry{Gilgen1998}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Gilgen}{G.}%
+     {H.}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Wild}{W.}%
+     {M.}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ohmura}{O.}%
+     {A.}{A.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{Surface flux,Ultraviolet radiation}
+  \strng{namehash}{GHWMOA1}
+  \strng{fullhash}{GHWMOA1}
+  \field{labelalpha}{GWO98}
+  \field{sortinit}{G}
+  \field{abstract}{%
+  Abstract Means and trends of shortwave irradiance at the earth's surface are
+  calculated from pyranometer measurements stored in the Global Energy Balance
+  Archive (GEBA) database. The GEBA database contains the most comprehensive
+  set of shortwave irradiance monthly means. The relative random error of
+  measurement is approximately 5{\%} of a monthly mean in general and
+  approximately 2{\%} of a yearly mean. The shortwave irradiance yearly means
+  are analyzed in a 2.5° × 2.5° grid. In average example grid cells in
+  Europe (no large altitude differences, no coasts), the difference of
+  shortwave irradiance yearly means measured at different stations (station
+  effect) is less than 5{\%} of the cell mean, and the interannual variability
+  is approximately 4{\%} of the cell mean. On most continents, shortwave
+  irradiance decreases significantly in large regions, and significant positive
+  trends are observed only in four small regions.%
+  }
+  \verb{doi}
+  \verb 10.1175/1520-0442-11.8.2042
+  \endverb
+  \field{isbn}{08948755}
+  \field{issn}{08948755}
+  \field{title}{{Means and trends of shortwave irradiance at the surface
+  estimated from global energy balance archive data}}
+  \field{journaltitle}{Journal of Climate}
+  \field{year}{1998}
+\endentry
+
 \entry{gomez2015characterization}{article}{}
   \name{author}{13}{}{%
     {{}%
@@ -3043,6 +3119,25 @@
   \field{journaltitle}{Progress in Energy and Combustion Science}
   \field{year}{2013}
   \warn{\item Invalid format of field 'month'}
+\endentry
+
+\entry{Iqbal2012Introduction}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Iqbal}{I.}%
+     {Muhammad}{M.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Elsevier}%
+  }
+  \strng{namehash}{IM1}
+  \strng{fullhash}{IM1}
+  \field{labelalpha}{Iqb12}
+  \field{sortinit}{I}
+  \field{title}{An introduction to solar radiation}
+  \field{year}{2012}
 \endentry
 
 \entry{Jerez2013}{article}{}
@@ -6182,6 +6277,47 @@
   \verb =rep1{\&}type=pdf
   \endverb
   \field{year}{2004}
+\endentry
+
+\entry{sengupta2017best}{report}{}
+  \name{author}{5}{}{%
+    {{}%
+     {Sengupta}{S.}%
+     {Manajit}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Habte}{H.}%
+     {Aron}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Gueymard}{G.}%
+     {Christian}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Wilbert}{W.}%
+     {Stefan}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Renne}{R.}%
+     {Dave}{D.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{SM+1}
+  \strng{fullhash}{SMHAGCWSRD1}
+  \field{labelalpha}{Sen+17}
+  \field{sortinit}{S}
+  \field{title}{Best practices handbook for the collection and use of solar
+  resource data for solar energy applications}
+  \list{institution}{1}{%
+    {National Renewable Energy Lab.(NREL), Golden, CO (United States)}%
+  }
+  \field{type}{techreport}
+  \field{year}{2017}
 \endentry
 
 \entry{Sevault2014}{article}{}

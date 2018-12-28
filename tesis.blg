@@ -17,7 +17,7 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated field_info (elt_size=4) to 20568 items from 5000.
+Reallocated field_info (elt_size=4) to 21124 items from 5000.
 Database file #1: tesis-blx.bib
 Database file #2: Data.bib
 Repeated entry---line 157 of file Data.bib
@@ -25,23 +25,23 @@ Repeated entry---line 157 of file Data.bib
  :                    ,
 I'm skipping whatever remains of this entry
 Reallocated str_pool (elt_size=1) to 130000 items from 65000.
-Repeated entry---line 1077 of file Data.bib
+Repeated entry---line 1108 of file Data.bib
  : @article{Nabat2014
  :                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1176 of file Data.bib
+Reallocated str_pool (elt_size=1) to 195000 items from 130000.
+Repeated entry---line 1207 of file Data.bib
  : @article{Lamigueiro2012
  :                        ,
 I'm skipping whatever remains of this entry
-Reallocated str_pool (elt_size=1) to 195000 items from 130000.
 Warning--I'm ignoring Sanchez-Lorenzo2013's extra "keywords" field
---line 1342 of file Data.bib
+--line 1373 of file Data.bib
 Warning--I'm ignoring Sanchez-Lorenzo2013's extra "keywords" field
---line 1343 of file Data.bib
+--line 1374 of file Data.bib
 Warning--I'm ignoring Sanchez-Lorenzo2013's extra "keywords" field
---line 1344 of file Data.bib
+--line 1375 of file Data.bib
 Warning--I'm ignoring Sanchez-Lorenzo2013's extra "keywords" field
---line 1345 of file Data.bib
+--line 1376 of file Data.bib
 Warning--I didn't find a database entry for "Gueymard2013a"
 Warning--I didn't find a database entry for "b"
 Warning--I didn't find a database entry for "garcia2005caracterizacion"
@@ -55,45 +55,45 @@ Warning--I didn't find a database entry for "Martin1999"
 Biblatex version: 3.3
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
-You've used 102 entries,
+You've used 106 entries,
             6047 wiz_defined-function locations,
-            2092 strings with 167187 characters,
-and the built_in function-call counts, 420990 in all, are:
-= -- 14238
-> -- 14535
-< -- 3757
-+ -- 5224
-- -- 6668
-* -- 43545
-:= -- 25876
+            2114 strings with 168912 characters,
+and the built_in function-call counts, 436187 in all, are:
+= -- 14905
+> -- 15062
+< -- 3955
++ -- 5416
+- -- 6858
+* -- 44695
+:= -- 26718
 add.period$ -- 0
-call.type$ -- 102
-change.case$ -- 1804
+call.type$ -- 106
+change.case$ -- 1921
 chr.to.int$ -- 69
-cite$ -- 202
-duplicate$ -- 49767
-empty$ -- 42711
-format.name$ -- 12143
-if$ -- 90425
+cite$ -- 210
+duplicate$ -- 51486
+empty$ -- 44224
+format.name$ -- 12465
+if$ -- 93934
 int.to.chr$ -- 0
-int.to.str$ -- 247
+int.to.str$ -- 257
 missing$ -- 0
-newline$ -- 5646
-num.names$ -- 5116
-pop$ -- 33971
+newline$ -- 5766
+num.names$ -- 5367
+pop$ -- 35288
 preamble$ -- 1
-purify$ -- 2282
+purify$ -- 2405
 quote$ -- 0
-skip$ -- 21449
+skip$ -- 22368
 stack$ -- 0
-substring$ -- 6956
-swap$ -- 18761
-text.length$ -- 3693
-text.prefix$ -- 230
+substring$ -- 7397
+swap$ -- 19335
+text.length$ -- 3827
+text.prefix$ -- 238
 top$ -- 1
-type$ -- 3864
+type$ -- 4015
 warning$ -- 0
-while$ -- 2164
+while$ -- 2239
 width$ -- 0
-write$ -- 5543
+write$ -- 5659
 (There were 3 error messages)
