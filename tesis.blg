@@ -17,7 +17,7 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated field_info (elt_size=4) to 21124 items from 5000.
+Reallocated field_info (elt_size=4) to 21263 items from 5000.
 Database file #1: tesis-blx.bib
 Database file #2: Data.bib
 Repeated entry---line 157 of file Data.bib
@@ -25,27 +25,26 @@ Repeated entry---line 157 of file Data.bib
  :                    ,
 I'm skipping whatever remains of this entry
 Reallocated str_pool (elt_size=1) to 130000 items from 65000.
-Repeated entry---line 1108 of file Data.bib
+Repeated entry---line 1125 of file Data.bib
  : @article{Nabat2014
  :                   ,
 I'm skipping whatever remains of this entry
 Reallocated str_pool (elt_size=1) to 195000 items from 130000.
-Repeated entry---line 1207 of file Data.bib
+Repeated entry---line 1225 of file Data.bib
  : @article{Lamigueiro2012
  :                        ,
 I'm skipping whatever remains of this entry
 Warning--I'm ignoring Sanchez-Lorenzo2013's extra "keywords" field
---line 1373 of file Data.bib
+--line 1391 of file Data.bib
 Warning--I'm ignoring Sanchez-Lorenzo2013's extra "keywords" field
---line 1374 of file Data.bib
+--line 1392 of file Data.bib
 Warning--I'm ignoring Sanchez-Lorenzo2013's extra "keywords" field
---line 1375 of file Data.bib
+--line 1393 of file Data.bib
 Warning--I'm ignoring Sanchez-Lorenzo2013's extra "keywords" field
---line 1376 of file Data.bib
+--line 1394 of file Data.bib
 Warning--I didn't find a database entry for "Gueymard2013a"
 Warning--I didn't find a database entry for "b"
-Warning--I didn't find a database entry for "garcia2005caracterizacion"
-Warning--I didn't find a database entry for "jantsch1992results"
+Warning--I didn't find a database entry for "posselts2012"
 Warning--I didn't find a database entry for "5694060"
 Warning--I didn't find a database entry for "davies1979cluster"
 Warning--I didn't find a database entry for "Gil2015"
@@ -55,45 +54,45 @@ Warning--I didn't find a database entry for "Martin1999"
 Biblatex version: 3.3
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
-You've used 106 entries,
+You've used 108 entries,
             6047 wiz_defined-function locations,
-            2114 strings with 168912 characters,
-and the built_in function-call counts, 436187 in all, are:
-= -- 14905
-> -- 15062
-< -- 3955
-+ -- 5416
-- -- 6858
-* -- 44695
-:= -- 26718
+            2123 strings with 169247 characters,
+and the built_in function-call counts, 442688 in all, are:
+= -- 15129
+> -- 15299
+< -- 4024
++ -- 5484
+- -- 6951
+* -- 45224
+:= -- 27106
 add.period$ -- 0
-call.type$ -- 106
-change.case$ -- 1921
+call.type$ -- 108
+change.case$ -- 1954
 chr.to.int$ -- 69
-cite$ -- 210
-duplicate$ -- 51486
-empty$ -- 44224
-format.name$ -- 12465
-if$ -- 93934
+cite$ -- 214
+duplicate$ -- 52222
+empty$ -- 44909
+format.name$ -- 12612
+if$ -- 95432
 int.to.chr$ -- 0
-int.to.str$ -- 257
+int.to.str$ -- 262
 missing$ -- 0
-newline$ -- 5766
-num.names$ -- 5367
-pop$ -- 35288
+newline$ -- 5815
+num.names$ -- 5466
+pop$ -- 35944
 preamble$ -- 1
-purify$ -- 2405
+purify$ -- 2440
 quote$ -- 0
-skip$ -- 22368
+skip$ -- 22748
 stack$ -- 0
-substring$ -- 7397
-swap$ -- 19335
-text.length$ -- 3827
-text.prefix$ -- 238
+substring$ -- 7499
+swap$ -- 19572
+text.length$ -- 3889
+text.prefix$ -- 240
 top$ -- 1
-type$ -- 4015
+type$ -- 4091
 warning$ -- 0
-while$ -- 2239
+while$ -- 2277
 width$ -- 0
-write$ -- 5659
+write$ -- 5706
 (There were 3 error messages)

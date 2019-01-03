@@ -8,7 +8,9 @@
 
   There are many applications from meteorology to agriculture or even health sciences, that would benefit from an accuarate station network that provide high quality radiation measurements at the surface. However, it is well-known that the lack of  well spread solar radiation measurements has been a constrain not only for the development of solar forecasting or resource assessment techniques, but also for the study of the whole atmospheric/climatic processes in which solar radiation takes places. The progress and improvement in the satellite-based products has helped to overcome some of these issues providing gridded data at a high spatial and temporal resolution.
 
-  Part of this work has been developed through what could be called a modelling chain approach, which is explained in next chapters. This modelling chain is formed by a model that provides solar radiation data and a model that estimates PV production from these input. Due to that, the input of the PV model is also included in this section, which is solar radiation from models.
+  Part of this work has been developed through what could be called a modelling chain approach, which is explained in next chapters. This modelling chain is formed by a model that provides solar radiation data and a model that estimates PV production from these input. Due to that, the data input of the PV model is also included in this section, which is solar radiation from climate models.
+
+As this work is focused on long time scales and in wide areas, time and horizontal resolution of girdded data used are not considered a constrain to our analysis in most cases. Due to that, as it would be explained below, finner temporal resolution used in this work is daily and the horizontal resolution of the gridded datasets goes from 0.05º for a satellite-based product and 0.44º for data from regional climate models.    
 % Modelización: para qué sirve? estudios concretos de los procesos en los que interviene la radiación.  
 \section{Solar Radiation data}
 
@@ -97,7 +99,7 @@ In chapters 6 and 7 different climate models are used as main source of solar ra
 
 Under the acronim of CORDEX (Coordinated Regional Downscalling Experiment) have been developed a wide range of regional climate models\footnote{The chapter \ref{cha:Methods} explain the origin of regional climate modelling and the simulations used in the thesis} that provide climate downscalled simulations for different areas around the globe\footnote{Cordex website:http://www.cordex.org/. This international framework is under the umbrella of the world climate research program, WRCP} . Their importance arise with the advance in knowdlege of climate change provided by global models. Whereas those models give an overview of the evolution of global conditions, their coarse resolution is not enough to understand climate change impacts at a local scale. The higher resolution of the regional climate models are needed for supporting adaptation and mitigation plans.
 
-Two different domains from CORDEX are used in this study both focus on the Mediterranean area: EURO-CORDEX and MED-CORDEX (in figure \ref{fig:cordexdomain}). The horizontal resolution of the simulations included in EURO/MED-CORDEX goes from 44º to 11º (from ~50km to ~12km).
+Two different domains from CORDEX are used in this study both focus on the Mediterranean area: EURO-CORDEX and MED-CORDEX (in figure \ref{fig:cordexdomain}). The horizontal resolution of the simulations included in EURO/MED-CORDEX goes from 0.44º to 0.11º (from ~50km to ~12km).
 
 \begin{figure}[!tbp]
   \centering
@@ -212,14 +214,14 @@ Information about aerosols datasets and description (prescribed, interactive sch
 
 In order to fullfill the objectives of the present work it is necessary to apply different methodologies in each of the results chapters, all of them has been explained in detail at the corresponding section. %In general, they goes through the statistic analysis of different variables related to solar resource and photovoltaic production, where the latter comes from an estimation using a PV model. %The analysis is also developed in different time scales, which leads to the necessity of adapt the same methodology to each case.\\
 
-However, in the present chapter the different tools needed for the development of each study are described in a general manner. The three results chapters are based in a \textbf{modeling chain} that includes a photovoltaic model that is composed of two basic steps. First, the transposition to the plane-of-the-array, POA, of the components of the solar radiation, which implies also to assume some simple models of the atmosphere sphere seen from the generator plane and a model for the electrical performance of the system. Besides, the input of this PV model can be solar radiation measurments, satellite radition estimations o, as we saw in the previous chapter, the output of atmospheric/climate models. 
+However, in the present chapter the different tools needed for the development of each study are described in a general manner. The three results chapters are based in a \textbf{modeling chain} that includes a photovoltaic model that is composed of two basic steps. First, the transposition to the plane-of-the-array, POA, of the components of the solar radiation, which implies also to assume some simple models of the atmosphere sphere seen from the generator plane and a model for the electrical performance of the system. Besides, the input of this PV model can be solar radiation measurments, satellite radition estimations or, as we saw in the previous chapter, the output of atmospheric/climate models. 
 
 %En general, el método consite en la creación de una cadena de modelado que incluye un modelo de producción fotovoltaica, compuesto por el paso al plano del generador fotovoltaico de las componentes de la radiación solar y un modelo de funcionamiento eléctrico del sistema. Además, se el input de este modelo fotovoltaico podrán ser observaciones de radiación solar medidas en superficie, estimaciones de satélite o, como vimos en el capítulo anterior, radiación solar obtenida a partir de la salida de modelos.
 %  En el primer capítulo, se analizará de manera espacial la variabilidad interanual y la complementariedad del recurso solar en la Península Ibérica, para lo que se aplicarán técnicas de \textbf{clustering}. La evaluación de la productividad fotovoltaica lleva asociada la necesidad de la \textbf{modelización de un sistema fotovoltaico}.\\
 
   In chapter 5 it is analysed the interannual variability and complementarity of solar resource over the Iberian Peninsula and for that purpose we apply \textbf{clustering techniques}. The regionalization allow us to simplify the spatio-temporal analysis of solar resource. The evaluation of the productivity, defined as the amount of energy produced by a PV system normalized by the power capacity of the system, means the \textbf{modelization of the photovoltaic system}.
   
-  The chapter 6 analyses the impact of \textbf{aerosols} in photovoltaic productivity over the Euro-Mediterranean area.  Some climate simulations are used as the input of the photovoltaic model. The modelling chain allows to make a sensitivity test to quantify the role of aerosols in the area.
+  The chapter 6 analyses the impact of \textbf{aerosols} in photovoltaic productivity over the Euro-Mediterranean area for present climate and past conditions.  Some climate simulations forced by the ERA-INTERIM reanalysis are used as the input of the photovoltaic model. The modelling chain allows to make a sensitivity test to quantify the role of aerosols in the area.
 
 %  En el segundo capítulo se estudia el impacto de los aerosoles en la producitvidad fotovoltaica, esta vez en el área Euro-Mediterránea. En este caso, las \textbf{simulaciones climáticas} serán utilizadas como input del modelo fotovoltaico, creando una cadena de modelado que permita realizar un ejercicio comparativo de sensibilidad para cuantificar el papel de los aerosoles.\\
   
@@ -237,11 +239,12 @@ However, in the present chapter the different tools needed for the development o
 %En un mundo cada vez más movido por los datos, el reconocimiento de patrones se ha utilizado en  muchas disciplinas, desde la biología a las finanzas o las ciencias socialses, para extraer información relevante de los diferentes conjuntos de datos. Éstas técnicas, ayudan a conocer relaciones difíciles de extraer a simple vista, bien por el volumen de los datos, o por la complejidad de las mismas y la cantidad de variables involucradas. 
 
 In a data-driven world, \textbf{pattern recognition} is being applied to many disciplines from biology to finanze through social science, in order to obtain relevant information from different datasets.
-However, if the similarity measurements can not be define first, due to unknown previous labeled data, another approach will be implemented. In that case, the task will consist in identifying the similarities afterwards, from a dataset of features, applying clustering algorithms for that purpose.
+However, if the similarity measurements of the data cannot be define first, due to unknown previous labeled data, another approach will be implemented: the task will consist in identifying the similarities afterwards, from a dataset of features, applying clustering algorithms for that purpose.
 
+%quizás explicar lo que son features en la frase anterior.
 \subsection{Clustering algorithms}
 
-It is not under the scope of this work to analayse in detail all the clustering methods available, due to the vast number of them and its increasing complexity [ref:data clusterng a review]. However, it is worth it to give an overview of its classification and application in order to better understand the choice made in the study of our problem.
+It is not under the scope of this work to analayse in detail all the clustering methods available, due to the vast number of them and its increasing complexity [ref:data clustering a review]. However, it is worth it to give an overview of its classification and application in order to better understand the choice made in the study of our problem.
 
 There are different types of clustering algorithms based on its application and the criteria applied to construct the clusters. The two main categories are divided in \textbf{hierarchical} and \textbf{non-hierarchical algorithms}, but there are other taxonomies based on the algorithm construction that can be used to classified different methods [ref].
 
@@ -298,7 +301,11 @@ Clustering validation through the validation or validity index measures the good
 
 External validation techniques use information outside the dataset involved, whereas the internal validation techniques only need the information that is present in the data. The external methods knows the number of optimal clusters in advance, so they are applied to select the best clustering algorithm. On the other hand, the internal validation methods will give us the optimum number of clusters after the application of the selected algorithm and only use the information that rely on the data.
 
-Two different index are used in this study, the \textbf{Calinski-Harabasz}\footnote{In the equation \ref{eq:calinski}: The 'BCSM' is the Between-Cluster-Scatter-Matrix, and its trace is the sum of squares distances between each cluster center $c_{i}$ and the global centroid vector of all the objects of the dataset. The term 'WCSM' is the Within-Cluster-Scatter-Matrix and the trace of this matrix is the sum of squares of the distances between the objects inside each cluster and the centroid. 'k' is the number of clusters} index (Eq.:\ref{eq:calinski}), the \textbf{Davies-Bouldien}\footnote{In the equation \ref{eq:davies}: $d_{i}$ is the averaged distance between the data clasiffied to class i and the clauster center $c_{i}$ and $d(c_i,c_j)$ is the distance between the different cluster centers. 'k' is the number of clusters.}  index (Eq.:\ref{eq:davies}), and the L-method proposed by Salvador and Chan, 2005 [ref]. Similar results are obtained with them. In order to analyse the optimum partiton, is important to consider the nature of the variables that we are analysing. Most of the atmospheric variables, are continious variables that could be closely related to other variables such as latitude. For that reason, the regionalization procedure can not be applied like for other discrete or non-continuous data. That characteristics should be considerd when the results have to be evaluated.
+Two different index are used in this study, the \textbf{Calinski-Harabasz} index (Eq.:\ref{eq:calinski}), the \textbf{Davies-Bouldien} index (Eq.:\ref{eq:davies}), and the L-method proposed by Salvador and Chan, 2005 [ref].
+
+In the equation \ref{eq:calinski}: The 'BCSM' is the Between-Cluster-Scatter-Matrix, and its trace is the sum of squares distances between each cluster center $c_{i}$ and the global centroid vector of all the objects of the dataset. The term 'WCSM' is the Within-Cluster-Scatter-Matrix and the trace of this matrix is the sum of squares of the distances between the objects inside each cluster and the centroid. 'k' is the number of clusters. In the equation \ref{eq:davies}: $d_{i}$ is the averaged distance between the data clasiffied to class i and the clauster center $c_{i}$ and $d(c_i,c_j)$ is the distance between the different cluster centers. 'k' is the number of clusters. 
+
+Similar results are obtained with the CH and DB indexes. In order to analyse the optimum partiton, is important to consider the nature of the variables that we are analysing. Most of the atmospheric variables, are continious variables that could be closely related to other variables such as latitude. For that reason, the regionalization procedure can not be applied like for other discrete or non-continuous data. That characteristics should be considerd when the results have to be evaluated.
 
 \begin{equation}\label{eq:calinski}
     CH =\frac{trace_{BCSM}}{trace_{WCSM}}\times\frac{n-k}{k-1}
@@ -311,9 +318,16 @@ Two different index are used in this study, the \textbf{Calinski-Harabasz}\footn
 %\subsubsection{Initialize K-Means}
 \section{Simulating a photovoltaic system}
 
-The process of simulating a photovoltaic system has two main steps. First, it is necessary to estimate the amount of energy that reaches solar cells to be transformed into electricity. This energy will be defined as \textbf{global effective irradiation}, $G_{eff}(\alpha, \beta)$. Secondly, the amount of energy that the system is able to give depends on the electrical performance of its components, which is the second part of the modeling process.
+Photovoltaic energy is based in the conversion of incident solar energy into electricity. This process is made by the photovoltaic systems whose basic unit that transform solar radiation intro electricity is the \textbf{solar cell.}\\
 
-Both stages involve some modeling assumptions and each one would be explained in detail in the following sections. In general, due to the fact that it is very unlikely to obtain solar radiation measurements in the plane-of-array ($G(\alpha, \beta)$), global horizontal irradiation ($G(0)$) (the most common variable measured or modeled that can be obtain from different sources), will be the starting point. In order to estimate the amount of energy that reaches the generator surface, $G(\alpha, \beta)$, it is necessary to do a transposition of the different radiation components from the horizontal plane $G(0)$ to the plane of the array (POA).
+The process of simulating a photovoltaic system has two main steps:
+
+\begin{enumerate}
+\item First, it is necessary to estimate the amount of energy that reaches solar cells. This energy will be defined as \textbf{global effective irradiation}: $G_{eff}(\alpha, \beta)$. It is the energy available to be transformed into electricity after being transposed to the tilted plane of the generator and to be account for the optical losses.
+  \item Secondly, the amount of energy that the system is able to give depends on the electrical performance of its components. The effect of temperature in cell's efficiency is considered as well as the inverter behaviour.
+  \end{enumerate}
+  
+Both stages involve some modeling assumptions and each one would be explained in detail in the following sections. In general, due to the fact that it is very unlikely to obtain solar radiation measurements in the plane-of-array, $G(\alpha, \beta)$; global horizontal irradiation, $G(0)$ (the most common variable measured or modeled that can be obtain from different sources), will be the starting point of the simulation. In order to estimate the amount of energy that reaches the generator surface, $G(\alpha, \beta)$, it is necessary to do a transposition of the different radiation components from the horizontal plane $G(0)$ to the plane of the array (POA).
 
 Once the solar irradiation components at the generator surface are calculated, it will be assessed how much of that energy can be transformed into electricity. The relative position between the generator and the sun gives the optical losses according to the difference with the optimum incident angle. After considering the optical losses the plane of array irradiation becomes the global effective irradiation $G_{eff}(\alpha, \beta)$.
 % In order to estimate the amount of energy produced by a photovoltaic system it is necessary first to assess the amount of energy that reach the generator surface (plane of array irradiation, $G(\alpha, \beta)$) and after this estimation, which it is not straightforward unless it is measured, the different components of the generator has to be modeled.\\
@@ -331,7 +345,7 @@ All the processes involved in the stage of simulating a photovoltaic system in t
 
 \subsection{Global effective irradiation}
 
-Assessing the amount of energy reaching cells of the photovoltaic generator requires to compute trackers movements, as well as the relative position between sun and panels throughout the year, a detailed description of these methods can be found in \citep{Perpinan.Marcos.ea2013}.  Once these equations are computed, the procedure is described below:\\
+Assessing the amount of energy reaching cells of the photovoltaic generator requires to compute trackers movements, as well as the relative position between sun and panels throughout the year. These equations are computed making use of the solaR [] package. After that, the procedure is described below:\\
 
 First, global irradiation on the horizontal plane is decomposed in two components, \textbf{direct} and \textbf{diffuse} irradiation, Eq.\ref{GlobalIrradiation}. The third component of global irradiaiton, the albedo, it is  not consider because its contribution is very low. To estimate these quantities we will consider equations proposed by \cite{Liu1960} to characterize solar irradiation. Definition of \textit{clearness index}, Eq.\ref{K.indicedeclaridad}, is the ratio between global irradiation and extra-terrestrial irradiation at the horizontal plane. They also proposed to relate that index with the \textit{diffuse fraction}: the ratio of diffuse to global irradiation in Eq.\ref{F.diffusefraction}. This relation varies depending on the time scale. For daily values, we estimate correlation between the clearness index and the diffuse fraction using equations in \cite{Aguiar1992}. After that, the diffuse component is obtained with the definition of the \textit{diffuse fraction}, Eq.\ref{F.diffusefraction}.
 
@@ -355,7 +369,7 @@ F_{D,d}=\frac{D_{d}(0)}{G_{d}(0)}
 K_{Td}=\frac{G_d(0)}{B_{0d}(0)}
 \end{equation}
 
-Secondly, daily irradiance has to be estimated from irradiation values. Considering low variability of solar irradiance, it is assumed that average irradiance in a short interval coincides with irradiation in that interval. Regarding equations proposed by \cite{Aguiar1992}, the ratio of the diffuse irradiance to diffuse irradiation is assumed to be equivalent to the ratio of extraterrestrial irradiance to extraterrestrial irradiation Eq.\ref{ratioB0}, and the ratio of global irradiance to daily global irradiation is followed from the same reference Eq.\ref{ratioG0}. 
+Secondly, daily irradiance $[\si{\watt\per\metro\squared}]$ has to be estimated from irradiation values $[\si{\watt\hour\per\metro\squared}]$. Considering low variability of solar irradiance, it is assumed that average irradiance in a short interval coincides with irradiation in that interval. Regarding equations proposed by \cite{Aguiar1992}, the ratio of the diffuse irradiance to diffuse irradiation is assumed to be equivalent to the ratio of extraterrestrial irradiance to extraterrestrial irradiation Eq.\ref{ratioB0}, and the ratio of global irradiance to daily global irradiation is followed from the same reference Eq.\ref{ratioG0}. 
 
 \begin{equation}\label{ratioB0}
 r_{D}=\frac{D(0)}{D_d(0)}=\frac{B_0(0)}{B_{0d}(0)}
@@ -379,16 +393,19 @@ In figure \ref{fig:algorithm_outline} the steps to assess effective irradiation 
 
 \begin{figure}
   \centering
-  \includegraphics[width=0.6\textwidth]{figs/algorithm_outline}
+  \includegraphics[width=0.6\textwidth]{DataMethodsFIGS/algorithm_outline}
   \caption{Algorithm scheme: steps on the calculation of incident irradiation at the inclined plane. Orange color means input of the calculation and blue color output or results. If a result in a previous step is used in the next one, arrows linking steps are orange. Right side of the scheme represents the method and equations needed.}
  \label{fig:algorithm_outline}
 \end{figure}
 
 \subsection{Photovoltaic energy yield}
 
-Once the effective irradiation that reaches solar cells is being assessed, the transformation into power output depends on some factors regarding the photovoltaic system. In order to estimate  potential for photovoltaic production, the term ``yield'' is defined as the energy produced by the power installed $[\si{\kilo\watthour\per\kilo\wattpeak}]$. That energy, comes from the integration in each time step of the power output of the photovoltaic system.
+% En el modelo de FV, dentro del generador FV, hay que explicar un poco mejor el efecto de la temperatura: 
+% Por una parte, hay que indicar que los valores nominales son en unas condiciones (las denominadas STC) adecuadas para el laboratorio, pero que no se producen en el funcionamiento real. Por tanto, hay que modificar estos valores STC al funcionamiento real. También hay que distinguir entre tensión de circuito abierto y MPP, y corriente de cortocircuito y MPP. La potencia es el producto de Vmpp e Impp. A continuación, se indica que la Isc depende de la irradiancia, y la Voc de la temperatura. Estos dos efectos corrigen los valores nominales (condiciones STC), pero para obtener los valores Vmpp e Impp hay que trasladar los valores Isc y Voc a la curva del módulo/generador (hay varios procedimientos, pero no es necesario entrar en detalle aquí).
 
-Considering that a photovoltaic generator is composed of modules, the generator nominal power output is calculated by multiplying the power output of a single module by the number of them, assuming the same electric performance of all modules. 
+Once the effective irradiation that reaches solar cells is being assessed, the transformation into power output depends on some factors regarding the photovoltaic system. The term ``yield'', commonly used, is defined as the energy produced by the power nominal power of the system $[\si{\watthour\per\wattpeak}]$. That energy, comes from the integration in each time step of the power output of the photovoltaic system.
+
+Considering that a photovoltaic generator is composed by modules, the generator nominal power output is calculated by multiplying the power output of a single module by the number of them, assuming the same electric performance of all modules. 
 
 \begin{equation}\label{Pout}
 P_{out}=I_{m} \cdot V_{m}
@@ -398,17 +415,50 @@ P_{out}=I_{m} \cdot V_{m}
 \nomenclature[Im]{$I_m$}{Intensity from the photovoltaic module}
 \nomenclature[Vm]{$V_m$}{Voltage of a photovoltaic module}
 
-Ambient temperature influence cells performance. The assumption used to this assessment consider a linear relationship between cell temperature and global effective irradiation, Eq.\ref{Tcelula}. NOCT in equation \ref{Tcelula} is considered constant being the temperature of a cell when it works in determined conditions: irradiance of 800 $[\si{\watt\over\metro^2}]$ and ambient temperature of $20ºC$.
+The nominal values of the photovoltaic generator are defined by the manufacturer regarding the performance of the modules under certain conditions. However under operating conditions its performance varies and the power obtain depends on how the real conditions affect the cells.
+
+The characterization of the solar cells that composed the modules is made by its I-V curve. The maximum power given by a solar cell can be obtained deriving that curve.
 
 \begin{equation}\label{Tcelula}
-T_c=T_a + G_{ef} \cdot \frac{NOCT-20}{800}
+\frac{dP}{dV}=0
+\end{equation}
+
+This point is called the MPP point and the current and voltage corresponding to this point are the Impp and Vmpp. The nominal power output of a module comes from the product of $I_{mpp}$ and $V_{mpp}$. The standard conditions applied to characterize the solar cells, thus the modules are:
+
+\begin{itemize}
+  \item $T_c$=25ºC
+  \item G=800 $[\si{\watt\per\metro\squared}]$
+  \item AM=1,5
+\end{itemize}
+
+The characteristic equation of a solar cell and a module depends on two parameters called: the short-circuit current, $I_{sc}$ (eq. \ref{eq:Isc}) and the open circuit voltage, $V_{oc}$ (eq. \ref{eq:Voc}). This two parameters are respectively affected by the incident irradiation and the cell temperature. When the module is exposure to real conditions, the Impp and Vmpp are different from those under STC conditions. The Impp and Vmpp can be obtain from the $I_{sc}$ and the $V_{oc}$ and the standard $I_{mpp }$ and $V_{mpp}$, from now on: $I_{mpp}^*$ and $V_{oc}^*$:
+
+\begin{equation}\label{Tcelula}
+  I_{sc}=G_{eff}(\alpha, \beta)\cdot\frac{I_{sc}^*}{G_{STC}}
+  \label{eq:Isc}
+\end{equation}
+
+\begin{equation}\label{Tcelula}
+V_{oc}(T)=V_{oc}^*+(T_c-T_c^*)\frac{dV_{oc}}{T_{c}}
+\label{eq:Voc}
+\end{equation}
+
+%* Explicar aquí lo que es el nominal power output. Este valor se obtiene a partir de las ecuaciones del generador en condiciones STC de laboratorio. En condiciones normales, no se reproducen las condiciones STC, por lo que hay que corregirlos. De ahí la ecuacion de la temperatura.
+
+The open circuit voltage decrease linearly with cell temperature. Due to that, cells performance depends on cells temperature that is related to ambient temperature as it is showed in eq. \ref{eq:Tc}
+
+The assumption used to this assessment consider a linear relationship between cell temperature and global effective irradiation, Eq.\ref{Tcelula}. NOCT in equation \ref{Tcelula} is considered constant being the temperature of a cell when it works under conditions of incident irradiance of 800 $[\si{\watt\over\metro^2}]$ and ambient temperature of 20ºC.
+
+\begin{equation}\label{Tcelula}
+T_c=T_a + G_{eff}(\alpha, \beta) \cdot \frac{NOCT-20}{800}
+\label{eq:Tc}
 \end{equation}
 
 \nomenclature[T_c]{$T_c$}{Cell temperature}
 \nomenclature[T_a]{$T_a$}{Ambient temperature}
 \nomenclature[G_ef]{$G_{ef}$}{Global effective irradiation}
 
-After considering all these factors, the power output of the whole system is assessed by the consideration of a common inverter for transforming DC current into AC, also arrangement losses of the generator are included. Other systems factors that influence the performance of the photovoltaic system are shadows over the generator due to the positions of the PV modules over the land. This factor is not consider in our calculations assuming that we look for an estimation of the potential yield of an area, not the product of a real PV plant. Detailed description of the software employed to the assessment, solaR, is in \cite{Lamigueiro2012}. The process for the photovoltaic output is summarized in table \ref{tabla1} including all the steps and elements involved as explained in \cite{Perpinan2009}.
+Once the power of the generator is calculated, the power output of the whole system is assessed by the consideration of a common inverter for transforming DC current into AC, also arrangement losses of the generator are included. Other systems factors that influence the performance of the photovoltaic system are shadows over the generator due to the positions of the PV modules over the land. This factor is not consider in our calculations assuming that we look for an estimation of the potential yield of an area, not the product of a real PV plant. Detailed description of the software employed to the assessment, solaR, is in \cite{Lamigueiro2012}. The process for the photovoltaic output is summarized in table \ref{tabla1} including all the steps and elements involved as explained in \cite{Perpinan2009}.
 
 \begin{table} 
   \begin{tabular}{>{\raggedright}m{6cm}>{\raggedright}m{6cm}}
@@ -417,10 +467,10 @@ After considering all these factors, the power output of the whole system is ass
     \midrule
     PV generator & Identical modules with
     $dV_{oc}/dT_{c}=0,475\frac{\%}{\celsius}$ and $NOCT=47\celsius$. 
-    The MPP point calculated as in \cite{garcia2005caracterizacion}). \tabularnewline
+    The MPP point calculated as in \cite*{garcia2005caracterizacion}). \tabularnewline
     \midrule
     Inverter & Efficiency equation proposed in
-    \cite{jantsch1992results}:  
+    \cite*{jantsch1992results}:  
     \begin{equation}
       \eta_{inv}=\frac{p_{o}}{p_{o}+k_{0}^{o}+k_{1}^{o}p_{o}+k_{2}^{o}p_{o}^{2}}
     \end{equation}
@@ -453,30 +503,32 @@ After considering all these factors, the power output of the whole system is ass
 \section{Using Regional Climate Models}
 
 %La cadena de modelado necesaria para obtener una estimación de la producción fotovoltaica puede incrementarse introduciendo como input una estimación o una salida de otro modelo (meteorológico, climático...) en lugar de observaciones. Este paso aumentará la incertiumbre de la potencia entregada por el sistema, pero merece la pena tomarla en consideración teniendo en cuenta la escasez de estaciones de medida que proporcionan datos de radiación.\\
-The modeling chain to obtain an estimation of the photovoltaic production of a system starts with the input of the PV model. We can consider the output of an atmospheric or climate model as the input of the PV system instead of solar radiation measurements. The uncertainity of the PV power output will increase but it is worth it to consider this option because of the lack of reliable and well spread station measurements.
+The modeling chain to obtain an estimation of the photovoltaic production of a system starts with the input of the PV model. We can consider the output of an atmospheric or climate model as the input of the PV system instead of solar radiation measurements. The uncertainity of the PV power output will be increased but it is worth it to consider this option because it is possible to make sensitivity studies and also to analyse future projections.
  
 %En nuestro contexto, en el cual la longitud de las series temporales es clave\footnote{el estudio climático es la evaluación del comportamiento medio de las distintas variables a lo largo del tiempo, su variabilidad y tendencias. Para poder definir una climatología se considera en consenso que son necesarios 30 años da datos.}, los modelos climáticos son una herramienta que permite evaluar el recurso presente, su evolución futura así como server de input en la cadena de modelado para estimar la potencia entregada por un sistema fotovotaico.\\  
 
-In our context, with the purpose of analysing solar radiation and the potential PV production form a climatological point of view, climate models are a good tool that allow us to evaluate the resource in present conditions as well as its future evolution.
+In our context, with the purpose of analysing solar radiation and the potential PV production form a climatological point of view, climate models are a good tool that allow us to evaluate the resource in present conditions as well as its future evolution and to understand the role of aerosols in solar resource variability.
 
-The history of climate modeling has been linked to the computational development since its beginning. The mathematical representation of the climate system was a consequence of the advance in numerical weather prediction models that took place for the first time in Princeton in 1952 and that had a fast grow. [ref and {\color{red}develop a bit more?}].
+The history of climate modeling has been linked to the computational development since its beginning. The mathematical representation of the climate system was a consequence of the advance in numerical weather prediction models that took place for the first time in Princeton in 1952 and that had a fast grow. [ref]% and {\color{red}develop a bit more?}].
 
 Climate modeling is based on a 3-D representation of the whole climatic system, where the Earth is divided  in a 3-D spatial grid whose size or resolution has evolved in time with computational power. Equations of motion, momentum and conservation laws are solved for each gridbox. As some of the atmospheric processes occurs in a finer spatial scale than the resolution of the model, parametrizations are needed for some processes such as convection. These models were first named as General Circulation Models, GCM, as their aimed was to represent main circulation flows in the atmosphere, but the development of more complex models that would start to include ocean and land, would name later these models as \textbf{Global Climate Models, GCMs}. 
 
 Since its origins, there has been a diversification and more research groups has developed its own climate models. Also, many international framework initiatives has unify efforts to understand better the future evolution of climate with the intensification and promotion of research collaboration programs that include all the models (WCRP, IPCC, CLIVAR...)   
 %``L. F. RichardsonZ was the first to promote the idea that future weather could be predicted by numerically integrating the equations of fluid motion using the present weather as the initial condition.  The first successful numerical forecasts used a  set of equations that are greatly simplified compared to Richardson’s and for which the solution is less sensitive to the initial conditions.''
 
-Global climate models provides reliable information about the possible evolution of climate in large scales. Their horizontal resolution, however, covers areas with very different regional characteristics, which potentially miss some information that affect in a particular manner to smaller and vulnerable areas.
+Global climate models provides useful information about the possible evolution of climate in large scales. Their horizontal resolution, however, covers areas with very different regional characteristics, which potentially miss some information that affect in a particular manner to smaller and vulnerable areas.
 
 It was in the early 90s (Dickinson 1989 and Giorgi 1990) when it was proposed to use global models as the necessary boundary conditions to force a 'limited area model LAM'. Those LAMs had been used for numerical weather prediction forecast, but they were applied to predict the weather just few days in advance. The idea of run these simultaions for longer periods will result in the evolution of \textbf{Regional Climate Modeling}, what would provide regional climate information of processes that occurs in a spatial scale not resolved by a global models.
 
 In a similar way than the GCMs, RCMs community has expanded in last decades and the number of research groups has increased. Also, some international initiatives try to engage different groups and modellers to develop better models and simulations (PRUDENCE, ENSEMBLES,CORDEX, EURO-CORDEX, MED-CORDEX).
 
-In the present work we make use of RCMs focused on the Mediterranean area, considering the models and simulations included in the EURO-CORDEX and MED-CORDEX projects.
+In the present work we make use of RCMs focused on the Mediterranean area with finner resolution than GCMs, considering the models and simulations included in the EURO-CORDEX and MED-CORDEX projects.
 
 These RCMs can provide the necessary atmospheric variables for the analysis of renewable energy resources. Due to its complexity and the need of parametrizations for some atmospheric processes, they can have sistematic bias that make difficult to use them for resource assessment. However, due to the low frequency variability observed in some variables and to the importance of considering the future projections, they are a valuable tool for analysing renewable energy resources and its evolution. Besides, the use of climate models allows to study specific climatic events and to understand its mechanisms, linking the implications of those situations with renewable generation.
 
-For chapter 6, ``Impact of aerosols in photovoltaic energy production'', only one RCMs is used. Three different simulations are used in this chapter in order to quantify the sensitivity of PV energy production to changes in atmospheric aerosols content. The simulations are centered in the Mediterranean area, with the domain described by the MED-CORDEX initiative. The simulations length and characteristics of the aerosols dataset included are explained in detailed in the corresponding chapter.
+Climate simulations from RCMs can be forced by a Global Model, GCM, or by a reanalysis. Reanalysis are model-based climate products for present and past conditions that asimilate observational data [ref]. These climate data is usually used to force historical simulation runs of regional climate models, in order to evaluate the RCMs performance in present climate conditions and analyse its bias compared with other RCMs. This historical runs are sometimes called evaluation runs. For future conditions, RCMs are then forced by a GCMs that provide the contour conditions for the future.  
+
+For chapter 6, ``Impact of aerosols in photovoltaic energy production'', only one RCMs is used. Three different simulations are used in this chapter in order to quantify the sensitivity of PV energy production to changes in atmospheric aerosols content in present and past climatic conditions. The simulations are nested in the ERA-Interim reanalysis and centered in the Mediterranean area, with the domain described by the MED-CORDEX initiative. The simulations length and characteristics of the aerosols dataset included are explained in detailed in the corresponding chapter.
 
 
 % \begin{figure}
@@ -501,7 +553,7 @@ For chapter 7, ``Future projections for PV technology'', several RCMs and its co
 In table \ref{climatemodels} there is a summary of the climate models and the simulations that are used in chapter 6 and 7.
 
 \begin{table}[h!]
-  \begin{tabular}{c|>{\raggedrigth}m{1.2cm}>{\raggedright}m{1.5cm}>{\raggedright}m{2cm}>{\raggedright}m{1.5cm}>{\raggedright}m{1.5cm}>{\raggedright}m{2cm}}
+  \begin{tabular}{c|>{\raggedrigth}m{1cm}>{\raggedright}m{2cm}>{\raggedright}m{2cm}>{\raggedright}m{2cm}>{\raggedright}m{1.5cm}>{\raggedright}m{3cm}}
     \toprule 
     Study & \centering{Climate Model}  & &  \tabularnewline
     \midrule                                                         
@@ -522,6 +574,10 @@ In table \ref{climatemodels} there is a summary of the climate models and the si
     \centering{RCA4}\midrule\\
     \centering{CCLM4}\midrule & \centering{EURO-CORDEX} & \centering{0.11º} & \centering{HIST/RCP85}\\
     \centering{HIST/RCP85}\\
+    \centering{HIST/RCP85}
+    \tabularnewline
+          & \centering{CNRM-CM5} & \centering{ALADIN-RCSM4}\midrule\\
+    \centering{RCA4}\midrule & \centering{MED-CORDEX} & \centering{0.44º} & \centering{HIST/RCP45}\\
     \centering{HIST/RCP85}
     \tabularnewline
  \bottomrule

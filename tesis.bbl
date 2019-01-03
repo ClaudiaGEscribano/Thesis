@@ -62,6 +62,27 @@
   \field{year}{1992}
 \endentry
 
+\entry{garcia2005caracterizacion}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Alonso~Garc{\'\i}a}{A.~G.}%
+     {Mar{\'\i}a del~Carmen}{M.~d.~C.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {{CIEMAT}}%
+  }
+  \strng{namehash}{AGMdC1}
+  \strng{fullhash}{AGMdC1}
+  \field{labelalpha}{AG05}
+  \field{sortinit}{A}
+  \field{isbn}{84-7834-495-0}
+  \field{title}{Caracterizaci{\'o}n y modelado de asociaciones de dispositivos
+  fotovoltaicos}
+  \field{year}{2005}
+\endentry
+
 \entry{Argueso2011}{article}{}
   \name{author}{6}{}{%
     {{}%
@@ -3510,6 +3531,36 @@
   (1991-2100)}}
   \field{journaltitle}{Atmospheric Environment}
   \field{year}{2011}
+\endentry
+
+\entry{jantsch1992results}{inproceedings}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Jantsch}{J.}%
+     {Martin}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Schmidt}{S.}%
+     {Heribert}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Schmid}{S.}%
+     {J{\"u}rgen}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{JMSHSJ1}
+  \strng{fullhash}{JMSHSJ1}
+  \field{labelalpha}{JSS92}
+  \field{sortinit}{J}
+  \field{booktitle}{11th European photovoltaic solar energy conference}
+  \field{pages}{1589\bibrangedash 1592}
+  \field{title}{Results of the concerted action on power conditioning and
+  control}
+  \field{volume}{1992}
+  \field{year}{1992}
 \endentry
 
 \entry{Jerez2013a}{article}{}
