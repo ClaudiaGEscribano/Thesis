@@ -83,6 +83,63 @@
   \field{year}{2005}
 \endentry
 
+\entry{Almeida2015}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Almeida}{A.}%
+     {Marcelo~Pinho}{M.~P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Perpi{\~{n}}{\'{a}}n}{P.}%
+     {Oscar}{O.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Narvarte}{N.}%
+     {Luis}{L.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Pergamon}%
+  }
+  \keyw{Numerical Weather Prediction,PV plant,PV power forecast,Quantile
+  Regression,Random Forest,Weather Research and Forecasting}
+  \strng{namehash}{AMPPONL1}
+  \strng{fullhash}{AMPPONL1}
+  \field{labelalpha}{APN15}
+  \field{sortinit}{A}
+  \field{abstract}{%
+  Forecasting the AC power output of a PV plant accurately is important both
+  for plant owners and electric system operators. Two main categories of PV
+  modeling are available: the parametric and the nonparametric. In this paper,
+  a methodology using a nonparametric PV model is proposed, using as inputs
+  several forecasts of meteorological variables from a Numerical Weather
+  Forecast model, and actual AC power measurements of PV plants. The
+  methodology was built upon the R environment and uses Quantile Regression
+  Forests as machine learning tool to forecast AC power with a confidence
+  interval. Real data from five PV plants was used to validate the methodology,
+  and results show that daily production is predicted with an absolute cvMBE
+  lower than 1.3{\%}.%
+  }
+  \verb{doi}
+  \verb 10.1016/j.solener.2015.03.006
+  \endverb
+  \field{isbn}{1072-0502 (Print)$\backslash$n1072-0502 (Linking)}
+  \field{issn}{0038092X}
+  \field{pages}{354\bibrangedash 368}
+  \field{title}{{PV power forecast using a nonparametric PV model}}
+  \verb{url}
+  \verb https://www.sciencedirect.com/science/article/pii/S0038092X15001218?via
+  \verb {\%}3Dihub
+  \endverb
+  \field{volume}{115}
+  \field{journaltitle}{Solar Energy}
+  \field{year}{2015}
+  \warn{\item Invalid format of field 'month'}
+\endentry
+
 \entry{Argueso2011}{article}{}
   \name{author}{6}{}{%
     {{}%
@@ -275,54 +332,6 @@
   \verb riations and ramp rates of solar radiation and PV.pdf:pdf
   \endverb
   \field{year}{2015}
-\endentry
-
-\entry{Badescu1997}{article}{}
-  \name{author}{1}{}{%
-    {{}%
-     {Badescu}{B.}%
-     {Viorel}{V.}%
-     {}{}%
-     {}{}}%
-  }
-  \list{publisher}{1}{%
-    {Pergamon}%
-  }
-  \strng{namehash}{BV1}
-  \strng{fullhash}{BV1}
-  \field{labelalpha}{Bad97}
-  \field{sortinit}{B}
-  \field{abstract}{%
-  Several very simple clear sky and cloudy sky global irradiance models were
-  tested under the climate and latitudes of Romania (Eastern Europe). The very
-  simple clear sky models do not require meteorological data while the very
-  simple cloudy sky models need only data on the total cloud amount. Three
-  slightly more complex cloudy sky models which use additional meteorological
-  inputs were also tested. The mean absolute error of the very simple clear sky
-  models varies between 7 and 14{\%} in July and between 12 and 19{\%} in
-  January. The best model originates from Western Europe. The performance of
-  the very simple cloudy sky models is comparable to that of the more
-  complicated ones. This is the main conclusion of the paper. Generally, their
-  root mean square error varies between 35 and 45{\%} in close agreement with
-  results from the literature. Twelve classes of daily average cloudiness were
-  defined. The model accuracy is better for the first six classes (with smaller
-  cloud amount) and worse for the other six classes.%
-  }
-  \verb{doi}
-  \verb 10.1016/S0038-092X(97)00057-1
-  \endverb
-  \field{issn}{0038-092X}
-  \field{number}{4}
-  \field{pages}{251\bibrangedash 264}
-  \field{title}{{Verification of some very simple clear and cloudy sky models
-  to evaluate global solar irradiance}}
-  \verb{url}
-  \verb https://www.sciencedirect.com/science/article/pii/S0038092X97000571
-  \endverb
-  \field{volume}{61}
-  \field{journaltitle}{Solar Energy}
-  \field{year}{1997}
-  \warn{\item Invalid format of field 'month'}
 \endentry
 
 \entry{Bartok2017}{article}{}
@@ -756,19 +765,136 @@
      {}{}%
      {}{}}%
   }
-  \list{publisher}{1}{%
-    {Elsevier}%
-  }
+  \keyw{Clear sky model,Forecasting,Numerical weather
+  predictions,Photovoltaic,Prediction,Quantile regression,Recursive least
+  squares,Solar power,Time series}
   \strng{namehash}{BPMHNHA1}
   \strng{fullhash}{BPMHNHA1}
   \field{labelalpha}{BMN09}
   \field{sortinit}{B}
-  \field{number}{10}
-  \field{pages}{1772\bibrangedash 1783}
-  \field{title}{Online short-term solar power forecasting}
-  \field{volume}{83}
+  \field{abstract}{%
+  This paper describes a new approach to online forecasting of power production
+  from PV systems. The method is suited to online forecasting in many
+  applications and in this paper it is used to predict hourly values of solar
+  power for horizons of up to 36 h. The data used is 15-min observations of
+  solar power from 21 PV systems located on rooftops in a small village in
+  Denmark. The suggested method is a two-stage method where first a statistical
+  normalization of the solar power is obtained using a clear sky model. The
+  clear sky model is found using statistical smoothing techniques. Then
+  forecasts of the normalized solar power are calculated using adaptive linear
+  time series models. Both autoregressive (AR) and AR with exogenous input
+  (ARX) models are evaluated, where the latter takes numerical weather
+  predictions (NWPs) as input. The results indicate that for forecasts up to 2
+  h ahead the most important input is the available observations of solar
+  power, while for longer horizons NWPs are the most important input. A root
+  mean square error improvement of around 35{\%} is achieved by the ARX model
+  compared to a proposed reference model. {\textcopyright} 2009 Elsevier Ltd.
+  All rights reserved.%
+  }
+  \verb{doi}
+  \verb 10.1016/j.solener.2009.05.016
+  \endverb
+  \field{isbn}{0038-092X}
+  \field{issn}{0038092X}
+  \field{title}{{Online short-term solar power forecasting}}
   \field{journaltitle}{Solar Energy}
   \field{year}{2009}
+\endentry
+
+\entry{Bofinger2006}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Bofinger}{B.}%
+     {Stefan}{S.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{forecasting,grid-connected,utilities}
+  \strng{namehash}{BS1}
+  \strng{fullhash}{BS1}
+  \field{labelalpha}{Bof06}
+  \field{sortinit}{B}
+  \field{abstract}{%
+  Due to the rapidly growing photovoltaic (PV) market in Germany, solar
+  electricity fed in the grid amounts already to a share of approx. 2{\%} of
+  the total grid load during midday summertime. This is already a significant
+  figure for grid operators. For several years a wind power prediction for wind
+  energy is already available. But until now, there has been no operational
+  solar electricity forecast. Therefore, the paper is aimed at providing an
+  approach for a solar electricity forecast system based on the forecasts of
+  the European center of midrange weather forecast ECMWF locally refined by
+  model output statistics MOS with local weather stations. To evaluate the
+  results, they have been compared with measured values of several thousand PV
+  plants in Germany. The results show for daily values an RMSE of 24.5 {\%} for
+  the months July and August 2006, which is of course a satisfying result.
+  Keywords: Forecasting, Utilities, Grid-connected%
+  }
+  \field{title}{{Solar electricity forecast–approaches and first results}}
+  \field{journaltitle}{21st European Photovoltaic Solar Energy Conference,
+  Dresden}
+  \field{year}{2006}
+\endentry
+
+\entry{Bett2016}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Bett}{B.}%
+     {Philip~E.}{P.~E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Thornton}{T.}%
+     {Hazel~E.}{H.~E.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Pergamon}%
+  }
+  \strng{namehash}{BPETHE1}
+  \strng{fullhash}{BPETHE1}
+  \field{labelalpha}{BT16}
+  \field{sortinit}{B}
+  \field{abstract}{%
+  We use reanalysis data to investigate the daily co-variability of wind and
+  solar irradiance in Britain, and its implications for renewable energy supply
+  balancing. The joint distribution of daily-mean wind speeds and irradiances
+  shows that irradiance has a much stronger seasonal cycle than wind, due to
+  the rotational tilt of the Earth. Irradiance is weakly anticorrelated with
+  wind speed throughout the year (−0.4≲$\rho$≲−0.2): there is a weak
+  tendency for windy days to be cloudier. This is particularly true in
+  Atlantic-facing regions (western Scotland, south-west England). The east
+  coast of Britain has the weakest anticorrelation, particularly in winter,
+  primarily associated with a relative increase in the frequency of
+  clear-but-windy days. We also consider the variability in total power output
+  from onshore wind turbines and solar photovoltaic panels. In all months,
+  daily variability in total power is always reduced by incorporating solar
+  capacity. The scenario with the least seasonal variability is approximately
+  70{\%}-solar to 30{\%}-wind. This work emphasises the importance of
+  considering the full distribution of daily behaviour rather than relying on
+  long-term average relationships or correlations. In particular, the
+  anticorrelation between wind and solar power in Britain cannot solely be
+  relied upon to produce a well-balanced energy supply.%
+  }
+  \verb{doi}
+  \verb 10.1016/J.RENENE.2015.10.006
+  \endverb
+  \field{issn}{0960-1481}
+  \field{pages}{96\bibrangedash 110}
+  \field{title}{{The climatological relationships between wind and solar energy
+  supply in Britain}}
+  \verb{url}
+  \verb https://www.sciencedirect.com/science/article/pii/S0960148115303591
+  \endverb
+  \field{volume}{87}
+  \verb{file}
+  \verb :home/claudia/.local/share/data/Mendeley Ltd./Mendeley Desktop/Download
+  \verb ed/Bett, Thornton - 2016 - The climatological relationships between win
+  \verb d and solar energy supply in Britain.pdf:pdf
+  \endverb
+  \field{journaltitle}{Renewable Energy}
+  \field{year}{2016}
+  \warn{\item Invalid format of field 'month'}
 \endentry
 
 \entry{Cavicchia2016}{article}{}
@@ -1653,69 +1779,6 @@
   \field{journaltitle}{PUBLICATIONS-COMMISSION INTERNATIONALE DE L ECLAIRAGE
   CIE}
   \field{year}{1999}
-\endentry
-
-\entry{Davies1989}{article}{}
-  \name{author}{2}{}{%
-    {{}%
-     {Davies}{D.}%
-     {J.A.}{J.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {McKay}{M.}%
-     {D.C.}{D.}%
-     {}{}%
-     {}{}}%
-  }
-  \list{publisher}{1}{%
-    {Pergamon}%
-  }
-  \strng{namehash}{DJMD1}
-  \strng{fullhash}{DJMD1}
-  \field{labelalpha}{DM89}
-  \field{sortinit}{D}
-  \field{abstract}{%
-  Within Task IX of the International Energy's Solar Heating and Cooling
-  Programme, 12 models which simulate solar irradiance on horizontal surfaces
-  were evaluated with data from seven countries. This paper presents the
-  results of this study. Simple, widely applicable models were considered which
-  use standard meteorological observations. Two models use cloud layer amount
-  and type, three use total cloud amount, four use fractional sunshine, while
-  the remaining four models partition measured global irradiation into direct
-  beam and diffuse components. Data from 15 stations were used; four
-  Australian, four European, three Canadian, and four American. In most cases
-  three years of data were used for each station. Cloudiness regimes from
-  relatively cloud free (Australia and Albuquerque) to relatively cloudy
-  (European stations) were represented. Model performance was assessed from the
-  mean bias error (MBE), the mean absolute error (MAB) and the root mean square
-  error (RMSE). Quantitative ranking of models from these measures showed that
-  cloud layer models provided the best global irradiation estimates (MBE
-  {\textless} |0.2|; RMSE {\textless} 2.1 MJ/m2/day) and the partitioning
-  models the best direct beam and diffuse irradiation estimates (MBE
-  {\textless} |0.6|; RMSE {\textless} 1.6 MJ/m2day). However, RMSE results for
-  30-day means showed that layer models performed as well as the partitioning
-  models for direct beam and diffuse irradiation. The performance of the better
-  models showed little variation with either season or cloud cover: thus, they
-  seem to be generally applicable. The performance of the better global
-  irradiation models is probably limited more by inadequate meteorological
-  measurements and observations than by defects in the models themselves.%
-  }
-  \verb{doi}
-  \verb 10.1016/0038-092X(89)90027-3
-  \endverb
-  \field{issn}{0038-092X}
-  \field{number}{3}
-  \field{pages}{153\bibrangedash 168}
-  \field{title}{{Evaluation of selected models for estimating solar radiation
-  on horizontal surfaces}}
-  \verb{url}
-  \verb https://www.sciencedirect.com/science/article/pii/0038092X89900273
-  \endverb
-  \field{volume}{43}
-  \field{journaltitle}{Solar Energy}
-  \field{year}{1989}
-  \warn{\item Invalid format of field 'month'}
 \endentry
 
 \entry{Davy2012}{article}{}
@@ -3961,6 +4024,149 @@
   \field{volume}{4}
   \field{journaltitle}{Solar Energy}
   \field{year}{1960}
+\endentry
+
+\entry{Lorenz2008}{article}{}
+  \name{author}{6}{}{%
+    {{}%
+     {Lorenz}{L.}%
+     {Elke}{E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hurka}{H.}%
+     {Johannes}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Karampela}{K.}%
+     {Giota}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Heinemann}{H.}%
+     {Detlev}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Beyer}{B.}%
+     {H}{H}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Schneider}{S.}%
+     {Martin}{M.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{forecasting,grid-connected,pv system,solar radiation}
+  \strng{namehash}{LE+1}
+  \strng{fullhash}{LEHJKGHDBHSM1}
+  \field{labelalpha}{Lor+08}
+  \field{sortinit}{L}
+  \field{abstract}{%
+  The contribution of power production by Photovoltaic (PV) systems to the
+  electricity supply is constantly increasing. An efficient use of the
+  fluctuating solar power production will highly benefit from forecast
+  information on the expected power production. This forecast information is
+  necessary for the management of the electricity grids and for energy trading.
+  This paper presents an approach to predict regional PV power output based on
+  irradiance forecasts provided by the European Centre for Medium-Range Weather
+  Forecasts (ECMWF). In the first part of the paper we introduce and evaluated
+  different approaches to refine the irradiance forecasts. The second part of
+  the paper addresses the power prediction for ensembles of PV systems. Here,
+  in view of the data handling problems associated with the high number of
+  individual systems contributing to the total PV generation within a region,
+  the identification of representative subsets and representative system
+  characterizations reflecting the power characteristics of the total ensemble
+  is discussed.%
+  }
+  \verb{doi}
+  \verb 10.4229/23rdEUPVSEC2008-5AO.8.6
+  \endverb
+  \verb{eprint}
+  \verb arXiv:1011.1669v3
+  \endverb
+  \field{isbn}{3-936338-24-8}
+  \field{issn}{1098-6596}
+  \field{title}{{Qualified Forecast of ensemble power production by spatially
+  dispersed grid-connected PV systems}}
+  \field{journaltitle}{23rd European Photovoltaic Solar Energy Conferenc}
+  \field{eprinttype}{arXiv}
+  \field{year}{2008}
+\endentry
+
+\entry{Lorenz2011}{article}{}
+  \name{author}{5}{}{%
+    {{}%
+     {Lorenz}{L.}%
+     {Elke}{E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Scheidsteger}{S.}%
+     {Thomas}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hurka}{H.}%
+     {Johannes}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Heinemann}{H.}%
+     {Detlev}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kurz}{K.}%
+     {Christian}{C.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{PV power prediction,PV simulation,grid integration,irradiance
+  prediction}
+  \strng{namehash}{LE+1}
+  \strng{fullhash}{LESTHJHDKC1}
+  \field{labelalpha}{Lor+11}
+  \field{sortinit}{L}
+  \field{abstract}{%
+  The contribution of power production from PV systems to the electricity
+  supply is constantly increasing. An efficient use of the fluctuating solar
+  power production will highly benefit from forecast information on the
+  expected power production, as a basis for management of the electricity grids
+  and trading on the energy market. We present and evaluate the regional PV
+  power prediction system of University of Oldenburg and Meteocontrol GmbH
+  providing forecasts of up to 2 days ahead with hourly resolution. The
+  proposed approach is based on forecasts of the global model of the European
+  Centre for Medium-Range Forecasts (ECMWF). It includes a post-processing
+  procedure to derive optimised, site-specific irradiance forecasts and
+  explicit physical modelling steps to convert the predicted irradiances to PV
+  power. Finally, regional power forecasts are derived by up-scaling from a
+  representative set of PV systems. The investigation of proper up-scaling is a
+  special focus of this paper. We introduce a modified up-scaling approach,
+  modelling the spatial distribution of the nominal power with a resolution of
+  18?18. The operational PV power prediction system is evaluated in comparison
+  to the modified up-scaling approach for the control areas of the two German
+  transmission system operators ‘transpower' and ‘50 Hertz' for the period
+  2.7.2009–30.4.2010. rmse values of the operational forecasts are in the
+  range of 4–5{\%} with respect to the nominal power for intra-day and
+  day-ahead forecast horizons. Further improvement is achieved with the
+  modified up- scaling approach. Copyright {\#} 2010 John Wiley {\&} Sons,
+  Ltd.%
+  }
+  \verb{doi}
+  \verb 10.1002/pip.1033
+  \endverb
+  \verb{eprint}
+  \verb 1303.4604
+  \endverb
+  \field{isbn}{1099-159X}
+  \field{issn}{10627995}
+  \field{title}{{Regional PV power prediction for improved grid integration}}
+  \field{journaltitle}{Progress in Photovoltaics: Research and Applications}
+  \field{eprinttype}{arXiv}
+  \field{year}{2011}
 \endentry
 
 \entry{Lund2015}{misc}{}
@@ -6277,6 +6483,77 @@
   \field{year}{2016}
 \endentry
 
+\entry{Santos-Alamillos2012}{article}{}
+  \name{author}{5}{}{%
+    {{}%
+     {Santos-Alamillos}{S.-A.}%
+     {F.~J.}{F.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Pozo-V{\'{a}}zquez}{P.-V.}%
+     {D.}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ruiz-Arias}{R.-A.}%
+     {J.~A.}{J.~A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lara-Fanego}{L.-F.}%
+     {V.}{V.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Tovar-Pescador}{T.-P.}%
+     {J.}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{Mesoscale models,Numerical weather prediction/forecasting,Principal
+  components analysis,Renewable energy}
+  \strng{namehash}{SAFJ+1}
+  \strng{fullhash}{SAFJPVDRAJALFVTPJ1}
+  \field{labelalpha}{SA+12}
+  \field{sortinit}{S}
+  \field{abstract}{%
+  Electricity from wind and, to a lesser extent, solar energy is intermittent
+  and not controllable. Unlike conventional power generation, therefore, this
+  electricity is not suitable to supply base-load electric power. In the
+  future, with greater penetration of these renewable sources, intermittency
+  and control problems will become critical. Here, the authors explore the use
+  of canonical correlation analysis (CCA) for analyzing spatiotemporal
+  balancing between regional solar and wind energy resources. The CCA allows
+  optimal distribution of wind farms and solar energy plants across a territory
+  to minimize the variability of total energy input into the power supply
+  system. The method was tested in the southern half of the Iberian Peninsula,
+  a region covering about 350 000 km(2). The authors used daily-integrated wind
+  and solar energy estimates in 2007 from the Weather Research and Forecasting
+  (WRF) mesoscale model, at a spatial resolution of 9 km. Results showed
+  valuable balancing patterns in the study region, but with a marked
+  seasonality in strength, sign, and spatial coverage. The autumn season showed
+  the most noteworthy results, with a balancing pattern extending almost over
+  the entire study region. With location of reference wind farms and
+  photovoltaic (PV) plants according to the balancing patterns, their combined
+  power production shows substantially lower variability than production of the
+  wind farms and PV plants separately and combined production obtained with any
+  other locations. Atmospheric circulations associated with the balancing
+  patterns were found to be significantly different between seasons. In this
+  regard, synoptic-scale variability played an important role, but so did
+  topographic conditions, especially near the Strait of Gibraltar.%
+  }
+  \verb{doi}
+  \verb 10.1175/JAMC-D-11-0189.1
+  \endverb
+  \field{isbn}{1558-8424}
+  \field{issn}{15588424}
+  \field{title}{{Analysis of spatiotemporal balancing between wind and solar
+  energy resources in the southern Iberian Peninsula}}
+  \field{journaltitle}{Journal of Applied Meteorology and Climatology}
+  \field{year}{2012}
+\endentry
+
 \entry{Salvador2004}{inproceedings}{}
   \name{author}{2}{}{%
     {{}%
@@ -6858,46 +7135,6 @@
   \field{title}{{Climate change impacts on the power generation potential of a
   European mid-century wind farms scenario}}
   \field{year}{2016}
-\endentry
-
-\entry{Tovar-Pescador2008}{inbook}{}
-  \name{author}{1}{}{%
-    {{}%
-     {Tovar-Pescador}{T.-P.}%
-     {Joaquin}{J.}%
-     {}{}%
-     {}{}}%
-  }
-  \name{editor}{1}{}{%
-    {{}%
-     {Badescu}{B.}%
-     {Viorel}{V.}%
-     {}{}%
-     {}{}}%
-  }
-  \list{publisher}{1}{%
-    {Springer Berlin Heidelberg}%
-  }
-  \strng{namehash}{TPJ1}
-  \strng{fullhash}{TPJ1}
-  \field{labelalpha}{TP08}
-  \field{sortinit}{T}
-  \field{booktitle}{Modeling Solar Radiation at the Earth's Surface: Recent
-  Advances}
-  \verb{doi}
-  \verb 10.1007/978-3-540-77455-6_3
-  \endverb
-  \field{isbn}{978-3-540-77455-6}
-  \field{pages}{55\bibrangedash 91}
-  \field{title}{{Modelling the Statistical Properties of Solar Radiation and
-  Proposal of a Technique Based on Boltzmann Statistics}}
-  \verb{url}
-  \verb https://doi.org/10.1007/978-3-540-77455-6{\_}3
-  \endverb
-  \list{location}{1}{%
-    {Berlin, Heidelberg}%
-  }
-  \field{year}{2008}
 \endentry
 
 \entry{Vernay2014}{article}{}
