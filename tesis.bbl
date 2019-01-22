@@ -1369,68 +1369,61 @@
   \warn{\item Invalid format of field 'month'}
 \endentry
 
-\entry{Sanchez-Lorenzo2009}{article}{}
+\entry{Chiacchio2010}{article}{}
   \name{author}{2}{}{%
     {{}%
-     {Chen}{C.}%
-     {Xi}{X.}%
+     {Chiacchio}{C.}%
+     {Marc}{M.}%
      {}{}%
      {}{}}%
     {{}%
-     {Zhou}{Z.}%
-     {Xun~Yu}{X.~Y.}%
+     {Wild}{W.}%
+     {Martin}{M.}%
      {}{}%
      {}{}}%
   }
-  \strng{namehash}{CXZXY1}
-  \strng{fullhash}{CXZXY1}
-  \field{labelalpha}{CZ98}
+  \list{publisher}{1}{%
+    {Blackwell Publishing Ltd}%
+  }
+  \strng{namehash}{CMWM1}
+  \strng{fullhash}{CMWM1}
+  \field{labelalpha}{CW10}
   \field{sortinit}{C}
   \field{abstract}{%
-  This study analyzes the spatial and temporal changes in sunshine duration
-  (SunDu) and total cloud cover (TCC) over the Iberian Peninsula (IP) and four
-  subregions during 1961-2004 using high-quality, homogenized data sets. The
-  analyses confirm that over most of the IP and in most seasons, SunDu and TCC
-  variations are strongly negatively correlated, with absolute values
-  ∼0.8-0.9. Somewhat weaker correlations (0.5-0.6) are found in the southern
-  portion of the IP in summer. A large discrepancy between the SunDu and TCC
-  records occurs from the 1960s until the early 1980s when the SunDu series
-  shows a decrease that it is not associated with an increase in TCC. This
-  negative trend or "dimming" is even more pronounced after removing the
-  effects of TCC via linear regression. Since the early 1980s, the SunDu and
-  TCC residual SunDu series exhibit an upward trend or "brightening." In
-  addition to the long-term dimming and brightening, the volcanic eruptions of
-  El Chichon and Mount Pinatubo are clearly evident in the TCC residual SunDu
-  record. The TCC and SunDu records over the IP are well correlated with sea
-  level pressure (SLP), with above normal TCC and below normal SunDu
-  corresponding to below normal SLP locally in all seasons. The TCC and SunDu
-  related SLP changes over the IP in winter and spring are part of a
-  larger-scale north-south dipole pattern that extends over the entire
-  Euro-Atlantic sector. Other more regional atmospheric circulation, patterns,
-  identified from rotated principal component analysis, are also linked to TCC
-  and SunDu variations over the IP. Finally and perhaps surprisingly, the TCC
-  residual SunDu series exhibits a statistically significant relationship with
-  a regional atmospheric circulation pattern during spring, summer, and autumn.
-  Copyright 2009 by the American Geophysical Union.%
+  This study is an analysis of the seasonal all-sky surface solar radiation
+  variability in Europe during 19702000 using surface observations from the
+  Global Energy Balance Archive (GEBA). On the basis of the annual means period
+  19701985, there is a statistically significant decline of 3.0{\%} decade1
+  (3.8 Wm2 decade1) followed by a nonsignificant rise of 0.3{\%} decade1 (0.4
+  Wm2 decade1) during 19852000. The behavior of the solar radiation for spring
+  is similar to the annual series and has the strongest increase of 1.6{\%}
+  decade1 (2.5 Wm2 decade1) during 19852000. In summer a similar evolution to
+  the annual and spring time series is shown but has a stronger decline of
+  3.2{\%} decade1 (6.8 Wm2 decade1) during 19701985. A small positive
+  nonsignificant trend is reported for the winter means time series while a
+  statistically significant negative trend of 2.5{\%} decade1 (2.1 Wm2 decade1)
+  was found in autumn during 19702000. By comparing variations in all-sky solar
+  radiation with changes in cloud cover and NAO, we attribute the winter and
+  autumn trends mainly to the NAO through the modification of mid-to-low cloud
+  cover in southern Europe and the spring and summer trends to mid-to-low cloud
+  cover in northern Europe. However, because the cloud cover and solar
+  radiation relationship weakens in the low-frequency variability, it suggests
+  that other effects such as aerosols may also play a role. In addition,
+  aerosols could be interfering with the relationship between solar radiation
+  and NAO, contributing to a strengthening of their correlation in the
+  low-frequency variability during winter and autumn.%
   }
   \verb{doi}
-  \verb 10.1029/2008JD011394
+  \verb 10.1029/2009JD012182
   \endverb
   \field{isbn}{0148-0227}
-  \field{issn}{14928760}
-  \field{number}{4}
-  \field{pages}{513\bibrangedash 526}
-  \field{title}{{Deterministic near-optimal controls with state constraints}}
-  \field{volume}{4}
-  \verb{file}
-  \verb :home/claudia/.local/share/data/Mendeley Ltd./Mendeley Desktop/Download
-  \verb ed/Sanchez-Lorenzo et al. - 2009 - Dimmingbrightening over the Iberian
-  \verb Peninsula Trends in sunshine duration and cloud cover and their rela.pd
-  \verb f:pdf
-  \endverb
-  \field{journaltitle}{Dynamics of Continuous, Discrete and Impulsive Systems
-  Series B: Application and Algorithm}
-  \field{year}{1998}
+  \field{issn}{01480227}
+  \field{number}{10}
+  \field{title}{{Influence of NAO and clouds on long-term seasonal variations
+  of surface solar radiation in Europe}}
+  \field{volume}{115}
+  \field{journaltitle}{Journal of Geophysical Research Atmospheres}
+  \field{year}{2010}
 \endentry
 
 \entry{Denault2009}{article}{}
@@ -1781,6 +1774,66 @@
   \field{year}{1999}
 \endentry
 
+\entry{Dubey2013}{inproceedings}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Dubey}{D.}%
+     {Swapnil}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sarvaiya}{S.}%
+     {Jatin~Narotam}{J.~N.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Seshadri}{S.}%
+     {Bharath}{B.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{Efficiency,Photovoltaic,Solar energy,Temperature coefficient}
+  \strng{namehash}{DSSJNSB1}
+  \strng{fullhash}{DSSJNSB1}
+  \field{labelalpha}{DSS13}
+  \field{sortinit}{D}
+  \field{abstract}{%
+  Solar cell performance decreases with increasing temperature, fundamentally
+  owing to increased internal carrier recombination rates, caused by increased
+  carrier concentrations. The operating temperature plays a key role in the
+  photovoltaic conversion process. Both the electrical efficiency and the power
+  output of a photovoltaic (PV) module depend linearly on the operating
+  temperature. The various correlations proposed in the literature represent
+  simplified working equations which can be apply to PV modules or PV arrays
+  mounted on free-standing frames, PV-Thermal collectors, and building
+  integrated photovoltaic arrays, respectively. The electrical performance is
+  primarily influenced by the material of PV used. Numerous correlations for
+  cell temperature which have appeared in the literature involve basic
+  environmental variables and numerical parameters which are material or system
+  dependent. In this paper, a brief discussion is presented regarding the
+  operating temperature of one-sun commercial grade silicon-based solar
+  cells/modules and its effect upon the electrical performance of photovoltaic
+  installations. Generally, the performance ratio decreases with latitude
+  because of temperature. However, regions with high altitude have higher
+  performance ratios due to low temperature, like, southern Andes, Himalaya
+  region, and Antarctica. PV modules with less sensitivity to temperature are
+  preferable for the high temperature regions and more responsive to
+  temperature will be more effective in the low temperature regions. The
+  geographical distribution of photovoltaic energy potential considering the
+  effect of irradiation and ambient temperature on PV system performance is
+  considered. {\textcopyright} 2011 The Authors.%
+  }
+  \field{booktitle}{Energy Procedia}
+  \verb{doi}
+  \verb 10.1016/j.egypro.2013.05.072
+  \endverb
+  \field{isbn}{1876-6102}
+  \field{issn}{18766102}
+  \field{title}{{Temperature dependent photovoltaic (PV) efficiency and its
+  effect on PV production in the world - A review}}
+  \field{year}{2013}
+\endentry
+
 \entry{Davy2012}{article}{}
   \name{author}{2}{}{%
     {{}%
@@ -1835,6 +1888,45 @@
   \field{volume}{86}
   \field{journaltitle}{Solar Energy}
   \field{year}{2012}
+  \warn{\item Invalid format of field 'month'}
+\endentry
+
+\entry{Fan1986}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Fan}{F.}%
+     {John~C.C.}{J.~C.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {North-Holland}%
+  }
+  \strng{namehash}{FJC1}
+  \strng{fullhash}{FJC1}
+  \field{labelalpha}{Fan86}
+  \field{sortinit}{F}
+  \field{abstract}{%
+  A simple formulation has been derived for the temperature dependence of cell
+  parameters for any solar cell material. Detailed calculations have been
+  performed for high-quality monocrystalline GaAs, Si and Ge cells. Preliminary
+  experimental data for GaAs and Si cells are close to the calculated values.
+  In general, the higher the energy gap of a material, the smaller is the
+  temperature dependence of its solar cell parameters.%
+  }
+  \verb{doi}
+  \verb 10.1016/0379-6787(86)90020-7
+  \endverb
+  \field{issn}{0379-6787}
+  \field{number}{2-3}
+  \field{pages}{309\bibrangedash 315}
+  \field{title}{{Theoretical temperature dependence of solar cell parameters}}
+  \verb{url}
+  \verb https://www.sciencedirect.com/science/article/pii/0379678786900207
+  \endverb
+  \field{volume}{17}
+  \field{journaltitle}{Solar Cells}
+  \field{year}{1986}
   \warn{\item Invalid format of field 'month'}
 \endentry
 
@@ -2014,6 +2106,98 @@
   study to climate characteristics in Northern-Italy}}
   \field{journaltitle}{Renewable Energy}
   \field{year}{2016}
+\endentry
+
+\entry{Gomez-Amo2019}{article}{}
+  \name{author}{6}{}{%
+    {{}%
+     {G{\'{o}}mez-Amo}{G.-A.}%
+     {J.L.}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Freile-Aranda}{F.-A.}%
+     {M.D.}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Camarasa}{C.}%
+     {J.}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Estell{\'{e}}s}{E.}%
+     {V.}{V.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Utrillas}{U.}%
+     {M.P.}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Mart{\'{i}}nez-Lozano}{M.-L.}%
+     {J.A.}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Elsevier}%
+  }
+  \strng{namehash}{GAJ+1}
+  \strng{fullhash}{GAJFAMCJEVUMMLJ1}
+  \field{labelalpha}{GA+19}
+  \field{sortinit}{G}
+  \field{abstract}{%
+  We have estimated the radiative impact produced by an unusually extreme dust
+  and wildfire episode on the performance of a photovoltaic (PV) plant. The
+  dust and wildfire events were mostly active on 26–28 and 29–30 June 2012,
+  respectively. We took advantage of the consecutiveness of both events to
+  separate and derive empirically the radiative effect of dust and smoke
+  aerosols. With this purpose, we employed measurements of aerosol load,
+  radiation and PV power output from a collocated atmospheric station and PV
+  plant located at Burjassot (Valencia, Spain). The empirical estimates were
+  obtained by direct comparison with a summer background day, happened right
+  before the two consecutive case studies. The whole episode is characterized
+  by high aerosol optical depth (AOD) at 500 nm, reaching values up to 1 and
+  6 for dust and smoke, respectively. Our analysis shows an average daily
+  energy loss of −132 kWh, that represents a fraction of 20{\%} of the
+  energy generated by the PV plant on the reference summer background day. A
+  significant fraction of the energy lost was due to smoke, with a daily
+  maximum of 43{\%} and a daily average of 34{\%}. In case of dust, the energy
+  reduction was moderated, with a daily average of 6{\%}. In terms of
+  instantaneous power reduction, we have obtained peaks of 8 and 51{\%} for
+  dust and smoke, respectively. The energy reduction due to aerosols is
+  strongly dependent on AOD. Further, we have found that the power loss per
+  unit of AOD at 870 nm is useful to separate the radiative impact of
+  different aerosol types. Essentially, the efficiency of smoke to reduce the
+  energy generated by the PV plant is much greater than that of dust. This
+  effect is mainly due to the different optical properties in the near infrared
+  that result in a daily Power Aerosol Forcing Efficiency at 870 nm of −5.7
+  and −19.1 kW, for dust and smoke, respectively. Our results indicate that
+  both the AOD and aerosol type drive the radiative impact of aerosols on the
+  PV output, confirming that extreme aerosol events may drastically reduce the
+  power generated by operative PV plants. This reduction may be as large as
+  that reported for particle soiling. Therefore, considering both amount and
+  type of aerosols in the PV power analyses is mandatory in order to obtain
+  accurate forecast scenarios and improve the grid integration, especially
+  during extreme episodes.%
+  }
+  \verb{doi}
+  \verb 10.1016/J.APENERGY.2018.11.052
+  \endverb
+  \field{issn}{0306-2619}
+  \field{pages}{1226\bibrangedash 1234}
+  \field{title}{{Empirical estimates of the radiative impact of an unusually
+  extreme dust and wildfire episode on the performance of a photovoltaic plant
+  in Western Mediterranean}}
+  \verb{url}
+  \verb https://www.sciencedirect.com/science/article/pii/S0306261918317586
+  \endverb
+  \field{volume}{235}
+  \field{journaltitle}{Applied Energy}
+  \field{year}{2019}
+  \warn{\item Invalid format of field 'month'}
 \endentry
 
 \entry{Gaetani2014}{article}{}
@@ -3044,6 +3228,62 @@
   \warn{\item Invalid format of field 'month'}
 \endentry
 
+\entry{Hoff2012}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Hoff}{H.}%
+     {Thomas~E.}{T.~E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Perez}{P.}%
+     {Richard}{R.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Pergamon}%
+  }
+  \strng{namehash}{HTEPR1}
+  \strng{fullhash}{HTEPR1}
+  \field{labelalpha}{HP12}
+  \field{sortinit}{H}
+  \field{abstract}{%
+  This paper introduces a novel approach to estimate the maximum short-term
+  output variability that an arbitrary fleet of PV systems places on any
+  considered power grid. The paper begins with a model that demonstrates that
+  the maximum possible variability for N identical, uncorrelated PV systems
+  equals the total installed capacity divided by 2N. The paper then describes a
+  general methodology that is applicable to arbitrary PV fleets. A key input to
+  this generalized approach is the correlation, or absence thereof, existing
+  between individual installations in the fleet at the considered variability
+  time scale. In this respect, the article includes a presentation of new
+  experimental evidence from hourly satellite-derived irradiances relating
+  distance and fluctuation time scales in three geographic regions in the
+  United States (Southwest, Southern Great Plains, and Hawaii) and from recent
+  high density network measurements that both confirm and extend conclusions
+  from previous studies, namely: (1) correlation coefficients decrease
+  predictably with increasing distance, (2) correlation coefficients decrease
+  at a similar rate when evaluated versus distance divided by the considered
+  variability time scale, and (3) the accuracy of results is improved by
+  including an implied cloud speed term.%
+  }
+  \verb{doi}
+  \verb 10.1016/J.SOLENER.2011.11.005
+  \endverb
+  \field{issn}{0038-092X}
+  \field{number}{8}
+  \field{pages}{2177\bibrangedash 2189}
+  \field{title}{{Modeling PV fleet output variability}}
+  \verb{url}
+  \verb https://www.sciencedirect.com/science/article/pii/S0038092X11004154
+  \endverb
+  \field{volume}{86}
+  \field{journaltitle}{Solar Energy}
+  \field{year}{2012}
+  \warn{\item Invalid format of field 'month'}
+\endentry
+
 \entry{Hoicka2011}{article}{}
   \name{author}{2}{}{%
     {{}%
@@ -3224,6 +3464,69 @@
   \field{year}{2012}
 \endentry
 
+\entry{Jerez2013b}{inproceedings}{}
+  \name{author}{6}{}{%
+    {{}%
+     {Jerez}{J.}%
+     {S.}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Trigo}{T.}%
+     {R.~M.}{R.~M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sarsa}{S.}%
+     {A.}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lorente-Plazas}{L.-P.}%
+     {R.}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Pozo-V{\'{a}}zquez}{P.-V.}%
+     {D.}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Mont{\'{a}}vez}{M.}%
+     {J.~P.}{J.~P.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{Complementarity,Iberian Peninsula,Optimization,Solar power,Wind power}
+  \strng{namehash}{JS+1}
+  \strng{fullhash}{JSTRMSALPRPVDMJP1}
+  \field{labelalpha}{Jer+13}
+  \field{extraalpha}{1}
+  \field{sortinit}{J}
+  \field{abstract}{%
+  This study addresses the task of identifying optimum locations for solar and
+  wind power plants so that the wind-plussolar power generation meets certain
+  conditions of efficiency and stability, thus allowing to overcome the
+  downside that the natural variability of these renewable resources
+  represents. The method was based on a simulated annealing algorithm and
+  applied over the Iberian Peninsula, a region whose commitment to renewable
+  energy is growing relatively fast. Obtained results are encouraging since a
+  number of different sensitivity experiments support the spatio-temporal
+  complementarity between solar and wind power, at least at the monthly
+  time-scale, in this region. {\textcopyright} 2013 The Authors. Published by
+  Elsevier Ltd.%
+  }
+  \field{booktitle}{Energy Procedia}
+  \verb{doi}
+  \verb 10.1016/j.egypro.2013.08.007
+  \endverb
+  \field{isbn}{1876-6102}
+  \field{issn}{18766102}
+  \field{title}{{Spatio-temporal complementarity between solar and wind power
+  in the Iberian Peninsula}}
+  \field{year}{2013}
+\endentry
+
 \entry{Jerez2013}{article}{}
   \name{author}{8}{}{%
     {{}%
@@ -3270,6 +3573,7 @@
   \strng{namehash}{JS+1}
   \strng{fullhash}{JSTRMVSSMPVDLPRLLJSAFMJP1}
   \field{labelalpha}{Jer+13}
+  \field{extraalpha}{2}
   \field{sortinit}{J}
   \field{abstract}{%
   Europe is investing considerably in renewable energies for a sustainable
@@ -3691,6 +3995,63 @@
   \field{volume}{8}
   \field{journaltitle}{Environmental Research Letters}
   \field{year}{2013}
+\endentry
+
+\entry{Kasten1980}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Kasten}{K.}%
+     {Fritz}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Czeplak}{C.}%
+     {Gerhard}{G.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Pergamon}%
+  }
+  \strng{namehash}{KFCG1}
+  \strng{fullhash}{KFCG1}
+  \field{labelalpha}{KC80}
+  \field{sortinit}{K}
+  \field{abstract}{%
+  Ten-year (1964–1973) continuous records at Hamburg of hourly sums of solar
+  and terrestrial, downward and upward radiation flux densities have been
+  evaluated with regard to simultaneous hourly cloud observations. The
+  irradiance at given solar elevation is plotted vs total cloud amount for each
+  season and for the whole year; in the same way, the ratio of the irradiance
+  under clouded to that under cloudless sky is presented. Additional diagrams
+  show the irradiance under cloudless and under overcast sky as function of
+  solar elevation. The ratio of global radiation at total cloud amount N okta,
+  G(N), to global radiation at cloudless sky, G(0), at the same solar elevation
+  $\gamma$ turned out to be indepenent of $\gamma$ and can be parameterized by
+  G(N)G(0) = 1 − 0.75(N8)3.4. The influence of cloud type is demonstrated by
+  diagrams showing the irradiance under skies overcast by a specific cloud type
+  as function of solar elevation for each season and for the year; also, the
+  corresponding ratios “overcast” to “cloudless” are presented. In the
+  case of global radiation, the ratios G(8)G(0) which may be interpreted as the
+  transmittances of the specific cloud types for global radiation, turned out
+  to be independent of solar elevation and have the following mean values: Ci,
+  Cc, Cs 0.61; Ac, As 0.27; Sc, Cu 0.25; St 0.18; Ns 0.16.%
+  }
+  \verb{doi}
+  \verb 10.1016/0038-092X(80)90391-6
+  \endverb
+  \field{issn}{0038-092X}
+  \field{number}{2}
+  \field{pages}{177\bibrangedash 189}
+  \field{title}{{Solar and terrestrial radiation dependent on the amount and
+  type of cloud}}
+  \verb{url}
+  \verb https://www.sciencedirect.com/science/article/pii/0038092X80903916
+  \endverb
+  \field{volume}{24}
+  \field{journaltitle}{Solar Energy}
+  \field{year}{1980}
+  \warn{\item Invalid format of field 'month'}
 \endentry
 
 \entry{Konig-Langlo2013}{misc}{}
@@ -5060,6 +5421,62 @@
   \warn{\item Invalid format of field 'month'}
 \endentry
 
+\entry{Mekhilef2012}{misc}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Mekhilef}{M.}%
+     {S.}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Saidur}{S.}%
+     {R.}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kamalisarvestani}{K.}%
+     {M.}{M.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{Air velocity,Dust,Humidity,PV efficiency,Photovoltaic,Solar cells}
+  \strng{namehash}{MSSRKM1}
+  \strng{fullhash}{MSSRKM1}
+  \field{labelalpha}{MSK12}
+  \field{sortinit}{M}
+  \field{abstract}{%
+  The environmental and economical merits of converting solar energy into
+  electricity via photovoltaic cells have caused an ever increasing interest
+  among developed and developing countries to allocate more budget on
+  photovoltaic systems in order to boost up their efficiency in recent years.
+  Besides the material and design parameters, there are several omnipresent
+  factors such as dust, humidity and air velocity that can influence the PV
+  cell's performance. There have been a handful of studies conducted on the
+  effect of various influential parameters on the efficiency and performance of
+  photovoltaic cells; however none has taken all these three parameters into
+  account simultaneously. In this study the impact of dust accumulation,
+  humidity level and the air velocity will be elaborated separately and finally
+  the impact of each on the other will be clarified. It is shown that each of
+  these three factors affect the other two and it is concluded that in order to
+  have a profound insight of solar cell design, the effect of these factors
+  should be taken into consideration in parallel. {\textcopyright} 2012
+  Elsevier Ltd. All rights reserved.%
+  }
+  \field{booktitle}{Renewable and Sustainable Energy Reviews}
+  \verb{doi}
+  \verb 10.1016/j.rser.2012.02.012
+  \endverb
+  \verb{eprint}
+  \verb 12345
+  \endverb
+  \field{isbn}{1364-0321}
+  \field{issn}{13640321}
+  \field{title}{{Effect of dust, humidity and air velocity on efficiency of
+  photovoltaic cells}}
+  \field{eprinttype}{arXiv}
+  \field{year}{2012}
+\endentry
+
 \entry{Muller2015}{article}{}
   \name{author}{6}{}{%
     {{}%
@@ -5400,6 +5817,75 @@
   \warn{\item Invalid format of field 'month'}
 \endentry
 
+\entry{Neher2017}{inproceedings}{}
+  \name{author}{8}{}{%
+    {{}%
+     {Neher}{N.}%
+     {Ina}{I.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Buchmann}{B.}%
+     {Tina}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Crewell}{C.}%
+     {Susanne}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Evers-Dietze}{E.-D.}%
+     {Bernd}{B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Pfeilsticker}{P.}%
+     {Klaus}{K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Pospichal}{P.}%
+     {Bernhard}{B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Schirrmeister}{S.}%
+     {Christopher}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Meilinger}{M.}%
+     {Stefanie}{S.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{Sahel zone,aerosol,energy meteorology,irradiance,photovoltaic}
+  \strng{namehash}{NI+1}
+  \strng{fullhash}{NIBTCSEDBPKPBSCMS1}
+  \field{labelalpha}{Neh+17}
+  \field{sortinit}{N}
+  \field{abstract}{%
+  Photovoltaic (PV) energy is one option to serve the rising global energy need
+  with low environmental impact. PV is of particular interest for local energy
+  solutions in developing countries prone to high solar insolation. In order to
+  assess the PV potential of prospective sites, combining knowledge of the
+  atmospheric state modulating solar radiation and the PV performance is
+  necessary. The present study discusses the PV power as function of
+  atmospheric aerosols in the Sahel zone for clear-sky-days. Daily yields for a
+  polycrystalline silicon PV module are reduced by up to 48 {\%} depending on
+  the climatologically-relevant aerosol abundances.%
+  }
+  \field{booktitle}{Energy Procedia}
+  \verb{doi}
+  \verb 10.1016/j.egypro.2017.08.168
+  \endverb
+  \field{issn}{18766102}
+  \field{title}{{Impact of atmospheric aerosols on photovoltaic energy
+  production Scenario for the Sahel zone}}
+  \field{year}{2017}
+\endentry
+
 \entry{Ohmura1998}{article}{}
   \name{author}{15}{}{%
     {{}%
@@ -5518,6 +6004,106 @@
   Radiometry for Climate Research}}
   \field{journaltitle}{Bulletin of the American Meteorological Society}
   \field{year}{1998}
+\endentry
+
+\entry{Otani1997}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Otani}{O.}%
+     {Kenji}{K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Minowa}{M.}%
+     {Jyunya}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kurokawa}{K.}%
+     {Kosuke}{K.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {North-Holland}%
+  }
+  \strng{namehash}{OKMJKK1}
+  \strng{fullhash}{OKMJKK1}
+  \field{labelalpha}{OMK97}
+  \field{sortinit}{O}
+  \field{abstract}{%
+  This paper describes the methodology for quantification of solar irradiance
+  fluctuation in order to analyze the areally totalized PV systems, which
+  consist of a large number of PV systems connected to each other in the
+  optimum size of a certain community area. Two factors quantifying the
+  fluctuation, fluctuation factor and power spectral density, and some examples
+  are presented. Also cross-correlation analysis between nine stations'
+  measurements were operated to estimate the extent of the power fluctuation in
+  a certain area size and to determine optimum size of the area of areally
+  localized PV systems.%
+  }
+  \verb{doi}
+  \verb 10.1016/S0927-0248(97)00050-0
+  \endverb
+  \field{issn}{0927-0248}
+  \field{number}{1-4}
+  \field{pages}{281\bibrangedash 288}
+  \field{title}{{Study on areal solar irradiance for analyzing
+  areally-totalized PV systems}}
+  \verb{url}
+  \verb https://www.sciencedirect.com/science/article/pii/S0927024897000500
+  \endverb
+  \field{volume}{47}
+  \field{journaltitle}{Solar Energy Materials and Solar Cells}
+  \field{year}{1997}
+  \warn{\item Invalid format of field 'month'}
+\endentry
+
+\entry{Page2012}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Page}{P.}%
+     {John}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Academic Press}%
+  }
+  \strng{namehash}{PJ2}
+  \strng{fullhash}{PJ2}
+  \field{labelalpha}{Pag12}
+  \field{sortinit}{P}
+  \field{abstract}{%
+  Ideally, one needs long-term time series of solar-radiation data and
+  temperature data for each specific site at the hourly level. Such data are
+  relatively rare, so in recent years statistical approaches have been
+  developed to help fill the gap. Long series of daily data are needed for
+  sizing and modeling of stand-alone systems. Effective statistical approaches
+  have to recognize the links between solar-radiation data and temperature
+  data. Solar-radiation data are often presented in a dimensionless form called
+  the clearness index. The experience gained in the production of European
+  Solar Radiation Atlas 2000 has indicated the great importance of having daily
+  time series of global radiation for making sensibly reliable design
+  decisions. Otherwise, the day-to-day variability patterns in solar radiation
+  due to weather change will be lost. The daily global radiation can be
+  profiled to match the clear-day profile to estimate hourly irradiation values
+  with an acceptable loss in accuracy. The monthly mean values cannot be used
+  with accuracy to simulate daily profiles.%
+  }
+  \verb{doi}
+  \verb 10.1016/B978-0-12-385934-1.00017-9
+  \endverb
+  \field{isbn}{9780123859341}
+  \field{pages}{573\bibrangedash 643}
+  \field{title}{{The Role of Solar-Radiation Climatology in the Design of
+  Photovoltaic Systems}}
+  \verb{url}
+  \verb https://www.sciencedirect.com/science/article/pii/B9780123859341000179
+  \endverb
+  \field{journaltitle}{Practical Handbook of Photovoltaics}
+  \field{year}{2012}
+  \warn{\item Invalid format of field 'month'}
 \endentry
 
 \entry{Page1961}{inproceedings}{}
@@ -5673,6 +6259,62 @@
   \field{year}{2012}
 \endentry
 
+\entry{Perpinan2011}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Perpi{\~{n}}{\'{a}}n}{P.}%
+     {O.}{O.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lorenzo}{L.}%
+     {E.}{E.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Pergamon}%
+  }
+  \strng{namehash}{POLE1}
+  \strng{fullhash}{POLE1}
+  \field{labelalpha}{PL11}
+  \field{sortinit}{P}
+  \field{abstract}{%
+  The irradiance fluctuations and the subsequent variability of the power
+  output of a PV system are analysed with some mathematical tools based on the
+  wavelet transform. It can be shown that the irradiance and power time series
+  are nonstationary process whose behaviour resembles that of a long memory
+  process. Besides, the long memory spectral exponent $\alpha$ is a useful
+  indicator of the fluctuation level of a irradiance time series. On the other
+  side, a time series of global irradiance on the horizontal plane can be
+  simulated by means of the wavestrapping technique on the clearness index and
+  the fluctuation behaviour of this simulated time series correctly resembles
+  the original series. Moreover, a time series of global irradiance on the
+  inclined plane can be simulated with the wavestrapping procedure applied over
+  a signal previously detrended by a partial reconstruction with a wavelet
+  multiresolution analysis, and, once again, the fluctuation behaviour of this
+  simulated time series is correct. This procedure is a suitable tool for the
+  simulation of irradiance incident over a group of distant PV plants. Finally,
+  a wavelet variance analysis and the long memory spectral exponent show that a
+  PV plant behaves as a low-pass filter.%
+  }
+  \verb{doi}
+  \verb 10.1016/J.SOLENER.2010.08.013
+  \endverb
+  \field{issn}{0038-092X}
+  \field{number}{1}
+  \field{pages}{188\bibrangedash 197}
+  \field{title}{{Analysis and synthesis of the variability of irradiance and PV
+  power time series with the wavelet transform}}
+  \verb{url}
+  \verb https://www.sciencedirect.com/science/article/pii/S0038092X10002811
+  \endverb
+  \field{volume}{85}
+  \field{journaltitle}{Solar Energy}
+  \field{year}{2011}
+  \warn{\item Invalid format of field 'month'}
+\endentry
+
 \entry{Perpinan2007}{article}{}
   \name{author}{3}{}{%
     {{}%
@@ -5728,6 +6370,69 @@
   \field{year}{2007}
 \endentry
 
+\entry{Perpinan2013}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Perpi{\~{n}}{\'{a}}n}{P.}%
+     {O.}{O.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Marcos}{M.}%
+     {J.}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lorenzo}{L.}%
+     {E.}{E.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Pergamon}%
+  }
+  \strng{namehash}{POMJLE1}
+  \strng{fullhash}{POMJLE1}
+  \field{labelalpha}{PML13}
+  \field{extraalpha}{1}
+  \field{sortinit}{P}
+  \field{abstract}{%
+  This paper analyzes the correlation between the fluctuations of the
+  electrical power generated by the ensemble of 70DC/AC inverters from a 45.6MW
+  PV plant. The use of real electrical power time series from a large
+  collection of photovoltaic inverters of a same plant is an important
+  contribution in the context of models built upon simplified assumptions to
+  overcome the absence of such data. This data set is divided into three
+  different fluctuation categories with a clustering procedure which performs
+  correctly with the clearness index and the wavelet variances. Afterwards, the
+  time dependent correlation between the electrical power time series of the
+  inverters is estimated with the wavelet transform. The wavelet correlation
+  depends on the distance between the inverters, the wavelet time scales and
+  the daily fluctuation level. Correlation values for time scales below one
+  minute are low without dependence on the daily fluctuation level. For time
+  scales above 20min, positive high correlation values are obtained, and the
+  decay rate with the distance depends on the daily fluctuation level. At
+  intermediate time scales the correlation depends strongly on the daily
+  fluctuation level. The proposed methods have been implemented using free
+  software. Source code is available as supplementary material.%
+  }
+  \verb{doi}
+  \verb 10.1016/J.SOLENER.2012.12.004
+  \endverb
+  \field{issn}{0038-092X}
+  \field{pages}{227\bibrangedash 241}
+  \field{title}{{Electrical power fluctuations in a network of DC/AC inverters
+  in a large PV plant: Relationship between correlation, distance and time
+  scale}}
+  \verb{url}
+  \verb https://www.sciencedirect.com/science/article/pii/S0038092X12004197
+  \endverb
+  \field{volume}{88}
+  \field{journaltitle}{Solar Energy}
+  \field{year}{2013}
+  \warn{\item Invalid format of field 'month'}
+\endentry
+
 \entry{Perpinan.Marcos.ea2013}{article}{}
   \name{author}{3}{}{%
     {{}%
@@ -5751,6 +6456,7 @@
   \strng{namehash}{POMJLE1}
   \strng{fullhash}{POMJLE1}
   \field{labelalpha}{PML13}
+  \field{extraalpha}{2}
   \field{sortinit}{P}
   \field{abstract}{%
   This paper analyzes the correlation between the fluctuations of the
@@ -6778,6 +7484,76 @@
   \field{year}{2016}
 \endentry
 
+\entry{Sanchez-Lorenzo2009}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Sanchez-Lorenzo}{S.-L.}%
+     {Arturo}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Calb{\'{o}}}{C.}%
+     {Josep}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Brunetti}{B.}%
+     {Michele}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Deser}{D.}%
+     {Clara}{C.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{atmospheric circulation, dimming/brightening,Iberian Peninsula}
+  \strng{namehash}{SLA+1}
+  \strng{fullhash}{SLACJBMDC1}
+  \field{labelalpha}{SL+09}
+  \field{sortinit}{S}
+  \field{abstract}{%
+  This study analyzes the spatial and temporal changes in sunshine duration
+  (SunDu) and total cloud cover (TCC) over the Iberian Peninsula (IP) and four
+  subregions during 1961–2004 using high-quality, homogenized data sets. The
+  analyses confirm that over most of the IP and in most seasons, SunDu and TCC
+  variations are strongly negatively correlated, with absolute values
+  ∼0.8–0.9. Somewhat weaker correlations (0.5–0.6) are found in the
+  southern portion of the IP in summer. A large discrepancy between the SunDu
+  and TCC records occurs from the 1960s until the early 1980s when the SunDu
+  series shows a decrease that it is not associated with an increase in TCC.
+  This negative trend or “dimming” is even more pronounced after removing
+  the effects of TCC via linear regression. Since the early 1980s, the SunDu
+  and TCC residual SunDu series exhibit an upward trend or “brightening.”
+  In addition to the long-term dimming and brightening, the volcanic eruptions
+  of El Chichon and Mount Pinatubo are clearly evident in the TCC residual
+  SunDu record. The TCC and SunDu records over the IP are well correlated with
+  sea level pressure (SLP), with above normal TCC and below normal SunDu
+  corresponding to below normal SLP locally in all seasons. The TCC and SunDu
+  related SLP changes over the IP in winter and spring are part of a
+  larger-scale north-south dipole pattern that extends over the entire
+  Euro-Atlantic sector. Other more regional atmospheric circulation patterns,
+  identified from rotated principal component analysis, are also linked to TCC
+  and SunDu variations over the IP. Finally and perhaps surprisingly, the TCC
+  residual SunDu series exhibits a statistically significant relationship with
+  a regional atmospheric circulation pattern during spring, summer, and
+  autumn.%
+  }
+  \verb{doi}
+  \verb 10.1029/2008JD011394
+  \endverb
+  \field{number}{D10}
+  \field{title}{{Dimming/brightening over the Iberian Peninsula: Trends in
+  sunshine duration and cloud cover and their relations with atmospheric
+  circulation}}
+  \verb{url}
+  \verb https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2008JD011394
+  \endverb
+  \field{volume}{114}
+  \field{journaltitle}{Journal of Geophysical Research: Atmospheres}
+  \field{year}{2009}
+\endentry
+
 \entry{Sanchez-Lorenzo2013}{article}{}
   \name{author}{3}{}{%
     {{}%
@@ -7043,6 +7819,95 @@
   \field{year}{1980}
 \endentry
 
+\entry{Tobin2015}{article}{}
+  \name{author}{9}{}{%
+    {{}%
+     {Tobin}{T.}%
+     {Isabelle}{I.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Vautard}{V.}%
+     {Robert}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Balog}{B.}%
+     {Irena}{I.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Br{\'{e}}on}{B.}%
+     {Fran{\c{c}}ois~Marie}{F.~M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Jerez}{J.}%
+     {Sonia}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ruti}{R.}%
+     {Paolo~Michele}{P.~M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Thais}{T.}%
+     {Fran{\c{c}}oise}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Vrac}{V.}%
+     {Mathieu}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Yiou}{Y.}%
+     {Pascal}{P.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{TI+3}
+  \strng{fullhash}{TIVRBIBFMJSRPMTFVMYP1}
+  \field{labelalpha}{Tob+15}
+  \field{sortinit}{T}
+  \field{abstract}{%
+  Climate change may alter the geographical pattern and intensity of
+  near-surface winds which are the "fuel" for wind turbines. In a context of
+  fast current and planned development of wind power worldwide, investigating
+  the impacts of climate change on wind power generation is necessary. This
+  study aims at assessing future changes in the potential for wind power
+  generation over the whole Europe and in the effective wind power production
+  from national wind farms operating at the end of 2012 and planned by 2020.
+  For this purpose, a simplified wind power generation model is applied to an
+  ensemble of 15 regional climate projections achieved from 10 Regional Climate
+  Models downscaling six Global Climate Models under the SRES A1B emission
+  scenario from the ENSEMBLES project. The use of a relatively large
+  multi-model ensemble allows the identification of robust changes and the
+  estimation of a range of uncertainties associated with projected changes. We
+  show with a high level of confidence that, under the A1B scenario, over most
+  of Europe, changes in wind power potential will remain within ±15 and ±20
+  {\%} by mid and late century respectively. Overall, we find a tendency toward
+  a decrease of the wind power potential over Mediterranean areas and an
+  increase over Northern Europe. Changes in multi-year power production will
+  not exceed 5 and 15 {\%} in magnitude at the European and national scale
+  respectively for both wind farms in operation at the end of 2012 and planned
+  by 2020. Therefore, climate change should neither undermine nor favor wind
+  energy development in Europe. However, accounting for climate change effects
+  in particular regions may help optimize the wind power development and energy
+  mix plans.[PUBLICATION ABSTRACT]%
+  }
+  \verb{doi}
+  \verb 10.1007/s10584-014-1291-0
+  \endverb
+  \field{isbn}{0165-0009}
+  \field{issn}{15731480}
+  \field{title}{{Assessing climate change impacts on European wind energy from
+  ENSEMBLES high-resolution climate projections}}
+  \field{journaltitle}{Climatic Change}
+  \field{year}{2015}
+\endentry
+
 \entry{Tobin2016}{misc}{}
   \name{author}{12}{}{%
     {{}%
@@ -7107,12 +7972,12 @@
      {}{}}%
   }
   \keyw{Europe,climate change impacts,regional climate modelling,wind energy}
-  \strng{namehash}{TI+2}
+  \strng{namehash}{TI+3}
   \strng{fullhash}{TIJSVRTFVEPADMKSMCFNGNTTC1}
   \field{labelalpha}{Tob+16}
   \field{sortinit}{T}
   \field{abstract}{%
-  Windenergy resource is subject to changes in climate.Toinvestigate the
+  Wind energy resource is subject to changes in climate.Toinvestigate the
   impacts of climate change on future European wind power generation potential,
   weanalyze a multi-model ensemble of the most recent EURO-CORDEXregional
   climate simulations at the 12 km grid resolution.Wedeveloped a mid-century
@@ -7135,6 +8000,81 @@
   \field{title}{{Climate change impacts on the power generation potential of a
   European mid-century wind farms scenario}}
   \field{year}{2016}
+\endentry
+
+\entry{Tobin2018}{article}{}
+  \name{author}{7}{}{%
+    {{}%
+     {Tobin}{T.}%
+     {I}{I}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Greuell}{G.}%
+     {W}{W}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Jerez}{J.}%
+     {S}{S}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ludwig}{L.}%
+     {F}{F}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Vautard}{V.}%
+     {R}{R}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Vliet}{V.}%
+     {M~T~H}{M.~T.~H.}%
+     {van}{v.}%
+     {}{}}%
+    {{}%
+     {Br{\'{e}}on}{B.}%
+     {F-M}{F.-M.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{TI+2}
+  \strng{fullhash}{TIGWJSLFVRVMTHvBFM1}
+  \field{labelalpha}{Tob+18}
+  \field{sortinit}{T}
+  \field{abstract}{%
+  The electricity sector is currently considered mainly on the emission side of
+  the climate change equation. In order to limit climate warming to below
+  2 °C, or even 1.5 °C, it must undergo a rapid transition towards carbon
+  neutral production by the mid-century. Simultaneously, electricity generating
+  technologies will be vulnerable to climate change. Here, we assess the
+  impacts of climate change on wind, solar photovoltaic, hydro and
+  thermoelectric power generation in Europe using a consistent modelling
+  approach across the different technologies. We compare the impacts for
+  different global warming scenarios: +1.5 °C, +2 °C and +3 °C.
+  Results show that climate change has negative impacts on electricity
+  production in most countries and for most technologies. Such impacts remain
+  limited for a 1.5 °C warming, and roughly double for a 3 °C warming.
+  Impacts are relatively limited for solar photovoltaic and wind power
+  potential which may reduce up to 10{\%}, while hydropower and thermoelectric
+  generation may decrease by up to 20{\%}. Generally, impacts are more severe
+  in southern Europe than in northern Europe, inducing inequity between EU
+  countries. We show that a higher share of renewables could reduce the
+  vulnerability of power generation to climate change, although the variability
+  of wind and solar PV production remains a significant challenge.%
+  }
+  \field{number}{4}
+  \field{pages}{44024}
+  \field{title}{{Vulnerabilities and resilience of European power generation to
+  1.5 °C, 2 °C and 3 °C warming}}
+  \verb{url}
+  \verb http://stacks.iop.org/1748-9326/13/i=4/a=044024
+  \endverb
+  \field{volume}{13}
+  \field{journaltitle}{Environmental Research Letters}
+  \field{year}{2018}
 \endentry
 
 \entry{Vernay2014}{article}{}
@@ -7343,6 +8283,68 @@
   \endverb
   \field{journaltitle}{Renewable and Sustainable Energy Reviews}
   \field{year}{2015}
+  \warn{\item Invalid format of field 'month'}
+\endentry
+
+\entry{Wiemken2001}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Wiemken}{W.}%
+     {E.}{E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Beyer}{B.}%
+     {H.G.}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Heydenreich}{H.}%
+     {W.}{W.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kiefer}{K.}%
+     {K.}{K.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Pergamon}%
+  }
+  \strng{namehash}{WE+1}
+  \strng{fullhash}{WEBHHWKK1}
+  \field{labelalpha}{Wie+01}
+  \field{sortinit}{W}
+  \field{abstract}{%
+  Monitored data from 100 PV systems were used to study effects of combined
+  power generation of these systems, compared to the characteristics of an
+  individual system. The standard deviation curve of an average daily power
+  generation profile of 1 month is significantly decreased for the ensemble and
+  corresponds to predictions based on cross-correlation characteristics of the
+  radiation field. Power fluctuations between the monitored time intervals of
+  more than 5{\%} of the installed power have disappeared. The analysed energy
+  spectrum of the combined power generation reveals that the produced energy is
+  generated in a range below 65{\%} of the overall installed power. The
+  ensemble of PV systems supplies a calculable fraction of PV power within a
+  certain time window around noon in the summer period, underlining the
+  capability of reliable power production of a PV ensemble.%
+  }
+  \verb{doi}
+  \verb 10.1016/S0038-092X(00)00146-8
+  \endverb
+  \field{issn}{0038-092X}
+  \field{number}{6}
+  \field{pages}{513\bibrangedash 518}
+  \field{title}{{Power characteristics of PV ensembles: experiences from the
+  combined power production of 100 grid connected PV systems distributed over
+  the area of Germany}}
+  \verb{url}
+  \verb https://www.sciencedirect.com/science/article/pii/S0038092X00001468
+  \endverb
+  \field{volume}{70}
+  \field{journaltitle}{Solar Energy}
+  \field{year}{2001}
   \warn{\item Invalid format of field 'month'}
 \endentry
 

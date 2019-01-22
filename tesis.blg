@@ -4,7 +4,7 @@ The top-level auxiliary file: tesis.aux
 The style file: biblatex.bst
 A level-1 auxiliary file: Intro.aux
 Case mismatch error between cite keys Bacher2009 and bacher2009
----line 59 of file tesis.aux
+---line 72 of file tesis.aux
  : \citation{Bacher2009
  :                     }
 I'm skipping whatever remains of this command
@@ -22,7 +22,7 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated field_info (elt_size=4) to 21402 items from 5000.
+Reallocated field_info (elt_size=4) to 23626 items from 5000.
 Database file #1: tesis-blx.bib
 Database file #2: Data.bib
 Repeated entry---line 121 of file Data.bib
@@ -34,23 +34,24 @@ Repeated entry---line 188 of file Data.bib
  :                    ,
 I'm skipping whatever remains of this entry
 Reallocated str_pool (elt_size=1) to 130000 items from 65000.
-Repeated entry---line 1197 of file Data.bib
+Reallocated str_pool (elt_size=1) to 195000 items from 130000.
+Repeated entry---line 1311 of file Data.bib
  : @article{Nabat2014
  :                   ,
 I'm skipping whatever remains of this entry
-Reallocated str_pool (elt_size=1) to 195000 items from 130000.
-Repeated entry---line 1297 of file Data.bib
+Repeated entry---line 1423 of file Data.bib
  : @article{Lamigueiro2012
  :                        ,
 I'm skipping whatever remains of this entry
 Warning--I'm ignoring Sanchez-Lorenzo2013's extra "keywords" field
---line 1495 of file Data.bib
+--line 1682 of file Data.bib
 Warning--I'm ignoring Sanchez-Lorenzo2013's extra "keywords" field
---line 1496 of file Data.bib
+--line 1683 of file Data.bib
 Warning--I'm ignoring Sanchez-Lorenzo2013's extra "keywords" field
---line 1497 of file Data.bib
+--line 1684 of file Data.bib
 Warning--I'm ignoring Sanchez-Lorenzo2013's extra "keywords" field
---line 1498 of file Data.bib
+--line 1685 of file Data.bib
+Reallocated str_pool (elt_size=1) to 260000 items from 195000.
 Warning--I didn't find a database entry for "posselts2012"
 Warning--I didn't find a database entry for "5694060"
 Warning--I didn't find a database entry for "davies1979cluster"
@@ -61,45 +62,45 @@ Warning--I didn't find a database entry for "Martin1999"
 Biblatex version: 3.3
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
-You've used 111 entries,
+You've used 127 entries,
             6047 wiz_defined-function locations,
-            2150 strings with 176735 characters,
-and the built_in function-call counts, 452192 in all, are:
-= -- 15243
-> -- 15665
-< -- 4078
-+ -- 5574
-- -- 7152
-* -- 46420
-:= -- 27735
+            2284 strings with 200766 characters,
+and the built_in function-call counts, 514731 in all, are:
+= -- 17500
+> -- 17836
+< -- 4718
++ -- 6299
+- -- 8042
+* -- 52315
+:= -- 31408
 add.period$ -- 0
-call.type$ -- 111
-change.case$ -- 1934
-chr.to.int$ -- 69
-cite$ -- 220
-duplicate$ -- 53423
-empty$ -- 45953
-format.name$ -- 12958
-if$ -- 97395
+call.type$ -- 127
+change.case$ -- 2268
+chr.to.int$ -- 78
+cite$ -- 252
+duplicate$ -- 60654
+empty$ -- 52376
+format.name$ -- 14502
+if$ -- 111245
 int.to.chr$ -- 0
-int.to.str$ -- 265
+int.to.str$ -- 316
 missing$ -- 0
-newline$ -- 5968
-num.names$ -- 5542
-pop$ -- 36977
+newline$ -- 6697
+num.names$ -- 6425
+pop$ -- 42186
 preamble$ -- 1
-purify$ -- 2434
+purify$ -- 2811
 quote$ -- 0
-skip$ -- 23144
+skip$ -- 26511
 stack$ -- 0
-substring$ -- 7271
-swap$ -- 20022
-text.length$ -- 4003
-text.prefix$ -- 246
+substring$ -- 8499
+swap$ -- 22786
+text.length$ -- 4543
+text.prefix$ -- 274
 top$ -- 1
-type$ -- 4205
+type$ -- 4813
 warning$ -- 0
-while$ -- 2327
+while$ -- 2679
 width$ -- 0
-write$ -- 5856
+write$ -- 6569
 (There were 5 error messages)
