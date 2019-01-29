@@ -28,3 +28,4 @@
 \nomenclatureentry{RMSET$RMSE_T$@[{$RMSE_T$}]\begingroup Total root mean square error\nomeqref {5.2}|nompageref}{62}
 \nomenclatureentry{RMSEleft$RMSE_{left}$@[{$RMSE_{left}$}]\begingroup Root mean squared error of the left-side linear regression.\nomeqref {5.2}|nompageref}{62}
 \nomenclatureentry{RMSErigth$RMSE_{right}$@[{$RMSE_{right}$}]\begingroup Root mean squared error of the right-side linear regression.\nomeqref {5.2}|nompageref}{62}
+\nomenclatureentry{CV$CV$@[{$CV$}]\begingroup Coefficient of variation.\nomeqref {5.4}|nompageref}{69}

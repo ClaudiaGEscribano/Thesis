@@ -1,0 +1,199 @@
+\documentclass[tikz]{standalone}
+\usepackage{amsmath}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+
+
+\usetikzlibrary{arrows,%
+                shapes,%
+                matrix,%
+                decorations.pathmorphing,%
+                backgrounds,%
+                positioning,%
+                fit,%
+                petri}
+
+%\usetikzlibrary{external}
+%\tikzexternalize[prefix=tikz/]
+\usepackage{mathpazo}
+
+\begin{document}
+
+\begin{tikzpicture}[auto,
+operation/.style={rectangle, rounded corners, draw=black, thick, fill=gray!30,
+minimum height=3em, align=flush center, inner sep=1pt},
+%
+simple/.style={draw=black, circle, fill=gray!30},
+%
+source/.style ={draw=orange, thick, ellipse, fill=orange!10,
+minimum height=2em},
+%
+result/.style ={draw=cyan, thick, ellipse, fill=cyan!10,
+  minimum height=2em},
+%
+method/.style={draw=yellow, thick, ellipse, fill=yellow!10,
+minimum height=2em}]
+
+\tikzset{every path/.style={line width=.6pt}}
+
+\begin{scope}[xshift=+9cm]
+  \matrix[matrix of nodes, fill=white, draw=white, column sep=5mm, row sep=7mm, minimum width=7mm] (Solar Data){
+        \node  {}; &
+        \node  {}; &
+        \node  {}; \\
+        %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+        \node {}; &
+        \node [source] (GHI) {Solar Irradiation}; &
+        \node {}; \\
+};
+\end{scope}
+
+\begin{scope}[yshift=-5cm]
+  \matrix[matrix of nodes, fill=gray!10, draw=black!50, column sep=5mm, row sep=7mm, minimum width=7mm] (Clustering){
+        \node  {}; &
+        \node  [operation] (Regionalization) {Regionalization}; &
+        \node  {}; \\
+        %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+        \node {}; &
+        \node {}; &
+        \node {}; \\
+};
+\end{scope}
+
+\begin{scope}[yshift=-5cm, xshift=5cm]
+  \matrix[matrix of nodes, fill=gray!10, draw=black!50, column sep=5mm, row sep=7mm, minimum width=7mm] (Productivity){
+        \node  {}; &
+        \node  [operation] (Productividad) {Energy Yield}; &
+        \node  {}; \\
+        %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+        \node {}; &
+        \node {}; &
+        \node {}; \\
+};
+\end{scope}
+
+\begin{scope}[yshift=-5cm, xshift=10cm]
+  \matrix[matrix of nodes, fill=white, draw=white, column sep=5mm, row sep=6mm, minimum width=7mm] (Prod results){
+        \node  {}; &
+        \node  [result] (Fixed) {Fixed}; &
+        \node  {}; \\
+        %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+        \node {}; &
+        \node [result] (Horiz) {1axis}; &
+        \node {}; \\
+        %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+        \node {}; &
+        \node [result] (Two) {2axes}; &
+        \node {}; \\
+};
+\end{scope}
+
+\begin{scope}[yshift=-5cm, xshift=15cm]
+  \matrix[matrix of nodes, fill=gray!10, draw=black!50, column sep=5mm, row sep=7mm, minimum width=7mm] (Variabilidad){
+        \node  {}; &
+        \node  [operation] (Variability) {Variability}; &
+        \node  {}; \\
+        %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+        \node {}; &
+        \node {}; &
+        \node {}; \\
+};
+\end{scope}
+
+\begin{scope}[yshift=-5cm, xshift=20cm]
+  \matrix[matrix of nodes, fill=white, draw=white, column sep=5mm, row sep=5mm, minimum width=7mm] (Variability results){
+        \node  {}; &
+        \node  [result] (CVirradiation) {$CV_{GHI}$}; &
+        \node  {}; \\
+        %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+        \node {}; &
+        \node [result] (CVfixed) {$CV_{fixed}$}; &
+        \node {}; \\
+        %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+        \node {}; &
+        \node [result] (CVHoriz) {$CV_{1axis}$}; &
+        \node {}; \\
+        %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+        \node {}; &
+        \node [result] (CVTwo) {$CV_{2axes}$}; &
+        \node {};\\
+};
+\end{scope}
+
+
+\begin{scope}[yshift=-8cm]
+  \matrix[matrix of nodes, fill=white, draw=white, column sep=5mm, row sep=7mm, minimum width=7mm] (Clusters){
+        \node  {}; &
+        \node  [result] (mask of clusters) {Mask of clusters}; &
+        \node  {}; \\
+};
+\end{scope}
+
+\begin{scope}[yshift=-8cm, xshift=10cm]
+  \matrix[matrix of nodes, fill=gray!10, draw=black!50, column sep=5mm, row sep=7mm, minimum width=7mm] (by cluster){
+        \node  {}; &
+        \node  [operation] (mask apply) {aggregating by cluster}; &
+        \node  {}; \\
+};
+\end{scope}
+
+\begin{scope}[yshift=-10cm, xshift=10cm]
+  \matrix[matrix of nodes, fill=white, draw=white, column sep=5mm, row sep=7mm, minimum width=7mm] (after mask){
+        \node  {}; &
+        \node  [result] (after mask result) {Results by cluster}; &
+        \node  {}; \\
+};
+\end{scope}
+
+\begin{scope}[yshift=-12cm, xshift=10cm]
+  \matrix[matrix of nodes, fill=gray!10, draw=black!50, column sep=5mm, row sep=7mm, minimum width=7mm] (Complementarity){
+        \node  {}; &
+        \node  [operation] (complementariedad) {Complementarity}; &
+        \node  {}; \\
+};
+\end{scope}
+
+\begin{scope}[yshift=-12cm, xshift=17cm]
+  \matrix[matrix of nodes, fill=white, draw=white, column sep=5mm, row sep=7mm, minimum width=7mm] (Complemtarity results){
+        \node  {}; &
+        \node  [result] (complementarity results) {Complementarity results}; &
+        \node  {}; \\
+};
+\end{scope}
+
+
+\begin{scope}
+  \draw[->, orange](GHI.south) -- (Clustering.north);
+  \draw[->, orange](GHI.south) -- (Productivity);
+  \draw[->, orange](GHI.south) -- (Variabilidad.north);
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  \draw[->, cyan](Productivity.east) -- (Fixed);
+  \draw[->, cyan](Productivity.east) -- (Horiz);
+  \draw[->, cyan](Productivity.east) -- (Two);
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  \draw[->, orange](Fixed) -- (Variabilidad.west);
+  \draw[->, orange](Horiz) -- (Variabilidad.west);
+  \draw[->, orange](Two) -- (Variabilidad.west);
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  \draw[->, cyan](Variabilidad.east) -- (CVirradiation);
+  \draw[->, cyan](Variabilidad.east) -- (CVfixed);
+  \draw[->, cyan](Variabilidad.east) -- (CVHoriz);
+  \draw[->, cyan](Variabilidad.east) --(CVTwo);
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  \draw[->, cyan](Clustering.south) -- (mask of clusters);
+  \draw[->, orange] (mask of clusters.east) -- (by cluster);
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  \draw[->, cyan](by cluster) -- (after mask result);
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  \draw[->, orange](Prod results.south) -- (by cluster);
+  \draw[->, orange](Variability results.south) to [bend left=20] (by cluster.east);
+  \draw[->, orange](GHI.south) to [bend right=20] (by cluster);
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  \draw[->, orange](after mask result) -- (Complementarity);
+  \draw[->, cyan](Complementarity) -- (complementarity results);
+\end{scope}
+
+
+\end{tikzpicture}
+
+\end{document}

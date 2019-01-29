@@ -2,9 +2,10 @@ This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: tesis.aux
 The style file: biblatex.bst
+A level-1 auxiliary file: preface.aux
 A level-1 auxiliary file: Intro.aux
 Case mismatch error between cite keys Bacher2009 and bacher2009
----line 72 of file tesis.aux
+---line 73 of file tesis.aux
  : \citation{Bacher2009
  :                     }
 I'm skipping whatever remains of this command
@@ -64,7 +65,7 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 You've used 127 entries,
             6047 wiz_defined-function locations,
-            2284 strings with 200766 characters,
+            2285 strings with 200777 characters,
 and the built_in function-call counts, 514731 in all, are:
 = -- 17500
 > -- 17836
