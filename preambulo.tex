@@ -214,13 +214,13 @@
 \renewenvironment{figure}[1][]{%
      	\@float{figure}%
 		%\begin{framed}    
-		\precaption{\rule{\linewidth}{0.4pt}\par}%En las figuras el caption va debajo
-		%\hrule\vspace{\onelineskip}
+		%\precaption{\rule{\linewidth}{0.4pt}\par}%En las figuras el caption va debajo
+		%\hrule\vspace{0.5\onelineskip}
 		\centering
 		  }{%
 		%\end{framed}
 		%\postcaption{\rule{\linewidth}{0.4pt}}
-		%\vspace{\onelineskip}\hrule
+		\vspace{\onelineskip}\hrule
     	\end@float	
 }
 \makeatother
@@ -238,7 +238,7 @@
 \makeatother
 
 
-\renewcommand{\textfloatsep}{10pt}%Espacio entre el flotante y el texto
+\renewcommand{\textfloatsep}{8pt}%Espacio entre el flotante y el texto
 
 %backgroung image
 \usepackage{eso-pic} 

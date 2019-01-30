@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.11.2)  29 JAN 2019 18:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.11.2)  30 JAN 2019 18:00
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -4114,10 +4114,15 @@ See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.106 ...erline {6.5}Conclusions}{99}{section.6.5}
+l.106 ...rline {6.5}Conclusions}{100}{section.6.5}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (1.19994pt too wide) detected at line 106
+ \T1/futs/m/n/12 100
+ []
 
 
 ./tesis.toc:107: Package xcolor Error: Undefined color `grey'.
@@ -4188,20 +4193,37 @@ Overfull \hbox (1.19994pt too wide) detected at line 115
  []
 
 
-./tesis.toc:119: Package xcolor Error: Undefined color `grey'.
+./tesis.toc:118: Package xcolor Error: Undefined color `grey'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.119 ...umberline {7.4}Results}{107}{section.7.4}
+l.118 ...umberline {7.4}Results}{107}{section.7.4}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (1.19994pt too wide) detected at line 119
+Overfull \hbox (1.19994pt too wide) detected at line 118
  \T1/futs/m/n/12 107
+ []
+
+
+./tesis.toc:121: Package xcolor Error: Undefined color `grey'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.121 ...erline {7.5}Discussion}{111}{section.7.5}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (1.19994pt too wide) detected at line 121
+ \T1/futs/m/n/12 111
  []
 
 
@@ -4211,14 +4233,14 @@ See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.122 ...erline {7.5}Discussion}{111}{section.7.5}
+l.122 ...erline {7.6}Conclusion}{112}{section.7.6}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
 Overfull \hbox (1.19994pt too wide) detected at line 122
- \T1/futs/m/n/12 111
+ \T1/futs/m/n/12 112
  []
 
 
@@ -4228,61 +4250,15 @@ See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.123 ...erline {7.6}Conclusion}{112}{section.7.6}
+l.123 ...umberline {7.A}Apendix}{113}{section.7.1}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
 Overfull \hbox (1.19994pt too wide) detected at line 123
- \T1/futs/m/n/12 112
- []
-
-
-./tesis.toc:124: Package xcolor Error: Undefined color `grey'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.124 ....A}MED-CORDEX analysis}{113}{section.7.1}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Overfull \hbox (1.19994pt too wide) detected at line 124
  \T1/futs/m/n/12 113
  []
-
-
-./tesis.toc:127: Package xcolor Error: Undefined color `grey'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.127 ...mberline {7.B}comments}{114}{section.7.2}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Overfull \hbox (1.19994pt too wide) detected at line 127
- \T1/futs/m/n/12 114
- []
-
-
-./tesis.toc:128: Package xcolor Error: Undefined color `grey'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.128 ...IV}Discussion \& Conclusion}{117}{part.4}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
 
 
 ./tesis.toc:129: Package xcolor Error: Undefined color `grey'.
@@ -4291,31 +4267,26 @@ See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.129 ...iscussion and Conclusion}{119}{chapter.8}
+l.129 ...IV}Discussion \& Conclusion}{117}{part.4}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (2.17195pt too wide) detected at line 129
- \T1/futs/b/n/12 119
- []
-
-
-./tesis.toc:133: Package xcolor Error: Undefined color `grey'.
+./tesis.toc:130: Package xcolor Error: Undefined color `grey'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.133 ...mberline {9}Perspectives}{123}{chapter.9}
+l.130 ...iscussion and Conclusion}{119}{chapter.8}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (2.17195pt too wide) detected at line 133
- \T1/futs/b/n/12 123
+Overfull \hbox (2.17195pt too wide) detected at line 130
+ \T1/futs/b/n/12 119
  []
 
 
@@ -4325,13 +4296,30 @@ See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.134 ...{chapter}{Bibliography}{125}{section*.53}
+l.134 ...mberline {9}Perspectives}{123}{chapter.9}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
 Overfull \hbox (2.17195pt too wide) detected at line 134
+ \T1/futs/b/n/12 123
+ []
+
+
+./tesis.toc:135: Package xcolor Error: Undefined color `grey'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.135 ...{chapter}{Bibliography}{125}{section*.55}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (2.17195pt too wide) detected at line 135
  \T1/futs/b/n/12 125
  []
 
@@ -4373,7 +4361,7 @@ l.117 ...st petroleum crisis \cite*{Sorensen1991}.
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[5] <figs/esquema.pdf, id=331, 730.64969pt x 435.7881pt>
+[5] <figs/esquema.pdf, id=327, 730.64969pt x 435.7881pt>
 File: figs/esquema.pdf Graphic file (type pdf)
 
 <use figs/esquema.pdf>
@@ -4949,7 +4937,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 522--523
 
  []
 
-<figs/forecast.png, id=453, 816.04875pt x 589.20125pt>
+<figs/forecast.png, id=449, 816.04875pt x 589.20125pt>
 File: figs/forecast.png Graphic file (type png)
  <use figs/forecast.png>
 Package pdftex.def Info: figs/forecast.png used on input line 525.
@@ -5416,7 +5404,7 @@ l.75 ...ic zones. In figure \ref{fig:bsrnstations}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[32] <DataMethodsFIGS/bsrn.pdf, id=592, 807.41652pt x 548.24826pt>
+[32] <DataMethodsFIGS/bsrn.pdf, id=588, 807.41652pt x 548.24826pt>
 File: DataMethodsFIGS/bsrn.pdf Graphic file (type pdf)
 
 <use DataMethodsFIGS/bsrn.pdf>
@@ -5521,7 +5509,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 140--141
 
  []
 
-<figs/esquemasat.pdf, id=623, 532.51848pt x 228.80481pt>
+<figs/esquemasat.pdf, id=619, 532.51848pt x 228.80481pt>
 File: figs/esquemasat.pdf Graphic file (type pdf)
 
 <use figs/esquemasat.pdf>
@@ -5586,7 +5574,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<DataMethodsFIGS/medcordex2.png, id=647, 515.9275pt x 509.905pt>
+<DataMethodsFIGS/medcordex2.png, id=643, 515.9275pt x 509.905pt>
 File: DataMethodsFIGS/medcordex2.png Graphic file (type png)
 
 <use DataMethodsFIGS/medcordex2.png>
@@ -5608,7 +5596,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<DataMethodsFIGS/eurocordex2.png, id=648, 489.83pt x 492.84125pt>
+<DataMethodsFIGS/eurocordex2.png, id=644, 489.83pt x 492.84125pt>
 File: DataMethodsFIGS/eurocordex2.png Graphic file (type png)
 
 <use DataMethodsFIGS/eurocordex2.png>
@@ -5635,7 +5623,8 @@ Overfull \hbox (3.01079pt too wide) in paragraph at lines 185--186
  in-ludes only at-mo-sphere
  []
 
-[36]
+[36] [37 <./DataMethodsFIGS/medcordex2.png> <./DataMethodsFIGS/eurocordex2.png>
+]
 
 ./DataMethods.tex:210: Package xcolor Error: Undefined color `grey'.
 
@@ -5660,8 +5649,7 @@ I'll just pretend that you didn't ask for it.
 If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
-[37 <./DataMethodsFIGS/medcordex2.png> <./DataMethodsFIGS/eurocordex2.png>]
-<figs/all_stations_plot.png, id=665, 683.55376pt x 488.82625pt>
+<figs/all_stations_plot.png, id=661, 683.55376pt x 488.82625pt>
 File: figs/all_stations_plot.png Graphic file (type png)
 
 <use figs/all_stations_plot.png>
@@ -5943,7 +5931,7 @@ l.421 In figure \ref{fig:algorithm_outline}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-<DataMethodsFIGS/algorithm_outline.pdf, id=746, 443.96465pt x 425.63718pt>
+<DataMethodsFIGS/algorithm_outline.pdf, id=742, 443.96465pt x 425.63718pt>
 File: DataMethodsFIGS/algorithm_outline.pdf Graphic file (type pdf)
 
 <use DataMethodsFIGS/algorithm_outline.pdf>
@@ -6017,6 +6005,7 @@ l.477 ...rature as it is showed in eq. \ref{eq:Tc}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
+[48]
 
 ./DataMethods.tex:479: Package xcolor Error: Undefined color `grey'.
 
@@ -6048,7 +6037,6 @@ Package amsmath Warning: Foreign command \over;
 (amsmath)                \frac or \genfrac should be used instead
 (amsmath)                 on input line 479.
 
-[48]
 
 ./DataMethods.tex:483: Package amsmath Error: Multiple \label's: label 'Tcelula
 ' will be lost.
@@ -6766,14 +6754,24 @@ If that doesn't work, type  X <return>  to quit.
 
 [59]
 
-LaTeX Warning: Reference `Methods' on page 60 undefined on input line 90.
+./Resultados.tex:90: Package xcolor Error: Undefined color `grey'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.90 ...eme is summarized in section \ref{Methods}
+                                                   and explained in more det...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 90--91
 
  []
 
-<figs/capitulo5/multi_step.pdf, id=889, 728.07408pt x 387.79079pt>
+<figs/capitulo5/multi_step.pdf, id=886, 728.07408pt x 387.79079pt>
 File: figs/capitulo5/multi_step.pdf Graphic file (type pdf)
 
 <use figs/capitulo5/multi_step.pdf>
@@ -7035,7 +7033,7 @@ l.140 ... calculated as in Eq.:\ref{eq:total_RMSE}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-<figs/capitulo5/CHindex.pdf, id=932, 505.89pt x 505.89pt>
+<figs/capitulo5/CHindex.pdf, id=929, 505.89pt x 505.89pt>
 File: figs/capitulo5/CHindex.pdf Graphic file (type pdf)
 
 <use figs/capitulo5/CHindex.pdf>
@@ -7108,7 +7106,7 @@ If that doesn't work, type  X <return>  to quit.
 LaTeX Warning: Citation 'davies1979cluster' on page 65 undefined on input line 
 218.
 
-<figs/capitulo5/clusters2.pdf, id=965, 505.89pt x 505.89pt>
+<figs/capitulo5/clusters2.pdf, id=962, 505.89pt x 505.89pt>
 File: figs/capitulo5/clusters2.pdf Graphic file (type pdf)
 
 <use figs/capitulo5/clusters2.pdf>
@@ -7128,17 +7126,16 @@ l.227 ... 19, as can be seen in table \ref{tabla2}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[65 <./figs/capitulo5/clusters2.pdf>]
+[65]
+Overfull \vbox (14.49998pt too high) has occurred while \output is active []
+
+
+[66 <./figs/capitulo5/clusters2.pdf>]
 Overfull \hbox (8.02353pt too wide) in paragraph at lines 263--264
 []\T1/futs/m/n/12 Regarding in-ter-an-nual vari-abil-ity, we have cal-cu-lated 
 the CV of two time-aggregated means
  []
 
-
-Overfull \vbox (14.49998pt too high) has occurred while \output is active []
-
-
-[66]
 
 ./Resultados.tex:278: Package xcolor Error: Undefined color `grey'.
 
@@ -7198,7 +7195,7 @@ Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 [67]
-<figs/capitulo5/productividadTemp_byCluster.pdf, id=994, 505.89pt x 505.89pt>
+<figs/capitulo5/productividadTemp_byCluster.pdf, id=991, 505.89pt x 505.89pt>
 File: figs/capitulo5/productividadTemp_byCluster.pdf Graphic file (type pdf)
 
 <use figs/capitulo5/productividadTemp_byCluster.pdf>
@@ -7215,7 +7212,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<figs/capitulo5/ciclo_anual_byCluster_all.pdf, id=995, 505.89pt x 505.89pt>
+<figs/capitulo5/ciclo_anual_byCluster_all.pdf, id=992, 505.89pt x 505.89pt>
 File: figs/capitulo5/ciclo_anual_byCluster_all.pdf Graphic file (type pdf)
 
 <use figs/capitulo5/ciclo_anual_byCluster_all.pdf>
@@ -7248,7 +7245,7 @@ l.308 ...n is represented in figure \ref{ratiosCV}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-<figs/capitulo5/dotplot_ratio_zone.pdf, id=998, 505.89pt x 505.89pt>
+<figs/capitulo5/dotplot_ratio_zone.pdf, id=995, 505.89pt x 505.89pt>
 File: figs/capitulo5/dotplot_ratio_zone.pdf Graphic file (type pdf)
 
 <use figs/capitulo5/dotplot_ratio_zone.pdf>
@@ -7274,6 +7271,10 @@ Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 [69 <./figs/capitulo5/productividadTemp_byCluster.pdf>]
+Overfull \vbox (14.49998pt too high) has occurred while \output is active []
+
+
+[70 <./figs/capitulo5/ciclo_anual_byCluster_all.pdf>]
 
 ./Resultados.tex:353: Package xcolor Error: Undefined color `grey'.
 
@@ -7287,18 +7288,13 @@ l.353 ...sented in figure \ref{series_correlacion}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-
-Overfull \vbox (14.49998pt too high) has occurred while \output is active []
-
-
-[70 <./figs/capitulo5/ciclo_anual_byCluster_all.pdf>]
-<figs/capitulo5/figure8.pdf, id=1031, 505.89pt x 505.89pt>
+<figs/capitulo5/figure8.pdf, id=1027, 505.89pt x 505.89pt>
 File: figs/capitulo5/figure8.pdf Graphic file (type pdf)
 
 <use figs/capitulo5/figure8.pdf>
 Package pdftex.def Info: figs/capitulo5/figure8.pdf used on input line 358.
 (pdftex.def)             Requested size: 303.53633pt x 303.53633pt.
-
+ [71 <./figs/capitulo5/dotplot_ratio_zone.pdf>]
 
 ./Resultados.tex:365: Package xcolor Error: Undefined color `grey'.
 
@@ -7312,7 +7308,7 @@ l.365 ...on, figure \ref{series_correlacion_meses}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-<figs/capitulo5/figure9.pdf, id=1033, 505.89pt x 505.89pt>
+<figs/capitulo5/figure9.pdf, id=1041, 505.89pt x 505.89pt>
 File: figs/capitulo5/figure9.pdf Graphic file (type pdf)
 
 <use figs/capitulo5/figure9.pdf>
@@ -7343,19 +7339,18 @@ l.369 ...calculated over all 15-year sub-periods.}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[71 <./figs/capitulo5/dotplot_ratio_zone.pdf>]
+
+Overfull \vbox (14.49998pt too high) has occurred while \output is active []
+
+
+[72 <./figs/capitulo5/figure8.pdf>]
 Overfull \hbox (15.49002pt too wide) in paragraph at lines 405--406
 []\T1/futs/m/n/12 Regionalization by an ob-jec-tive clus-ter-ing pro-ce-dure, t
 hat fa-cil-i-tates the inter-comparison
  []
 
-
-Overfull \vbox (14.49998pt too high) has occurred while \output is active []
-
-
-[72 <./figs/capitulo5/figure8.pdf>] [73 <./figs/capitulo5/figure9.pdf>]pdfTeX w
-arning (ext4): destination with the same identifier (name{section.5.1}) has bee
-n already used, duplicate ignored
+[73 <./figs/capitulo5/figure9.pdf>]pdfTeX warning (ext4): destination with the 
+same identifier (name{section.5.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.443 \section{Yearly mean values and variability}
@@ -7363,6 +7358,11 @@ l.443 \section{Yearly mean values and variability}
 
 LaTeX Warning: Citation 'Gil2015' on page 74 undefined on input line 444.
 
+
+Overfull \vbox (14.49998pt too high) has occurred while \output is active []
+
+
+[74]
 
 ./Resultados.tex:446: Package xcolor Error: Undefined color `grey'.
 
@@ -7377,11 +7377,6 @@ Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \vbox (14.49998pt too high) has occurred while \output is active []
-
-
-[74]
-
 ./Resultados.tex:450: LaTeX Error: No counter 'subfigure@save' defined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
@@ -7395,7 +7390,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<figs/capitulo5/Solariradiationmap_yearly2.pdf, id=1078, 505.89pt x 505.89pt>
+<figs/capitulo5/Solariradiationmap_yearly2.pdf, id=1074, 505.89pt x 505.89pt>
 File: figs/capitulo5/Solariradiationmap_yearly2.pdf Graphic file (type pdf)
 
 <use figs/capitulo5/Solariradiationmap_yearly2.pdf>
@@ -7418,7 +7413,7 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-<figs/capitulo5/SolarirradiationCVmap_yearly2.pdf, id=1079, 505.89pt x 505.89pt
+<figs/capitulo5/SolarirradiationCVmap_yearly2.pdf, id=1075, 505.89pt x 505.89pt
 >
 File: figs/capitulo5/SolarirradiationCVmap_yearly2.pdf Graphic file (type pdf)
  <use figs/capitulo5/SolarirradiationCVmap_yearly2.pdf>
@@ -7453,7 +7448,7 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-<figs/capitulo5/ProductivityFixed_yearlymean2.pdf, id=1081, 505.89pt x 505.89pt
+<figs/capitulo5/ProductivityFixed_yearlymean2.pdf, id=1077, 505.89pt x 505.89pt
 >
 File: figs/capitulo5/ProductivityFixed_yearlymean2.pdf Graphic file (type pdf)
  <use figs/capitulo5/ProductivityFixed_yearlymean2.pdf>
@@ -7475,7 +7470,7 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-<figs/capitulo5/ProductivityCVfixed_yearlymean2.pdf, id=1082, 505.89pt x 505.89
+<figs/capitulo5/ProductivityCVfixed_yearlymean2.pdf, id=1078, 505.89pt x 505.89
 pt>
 File: figs/capitulo5/ProductivityCVfixed_yearlymean2.pdf Graphic file (type pdf
 )
@@ -7498,7 +7493,7 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-<figs/capitulo5/ProductivityHoriz_yearlymean2.pdf, id=1083, 505.89pt x 505.89pt
+<figs/capitulo5/ProductivityHoriz_yearlymean2.pdf, id=1079, 505.89pt x 505.89pt
 >
 File: figs/capitulo5/ProductivityHoriz_yearlymean2.pdf Graphic file (type pdf)
  <use figs/capitulo5/ProductivityHoriz_yearlymean2.pdf>
@@ -7520,7 +7515,7 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-<figs/capitulo5/ProductivityCVHoriz_yearlymean2.pdf, id=1084, 505.89pt x 505.89
+<figs/capitulo5/ProductivityCVHoriz_yearlymean2.pdf, id=1080, 505.89pt x 505.89
 pt>
 File: figs/capitulo5/ProductivityCVHoriz_yearlymean2.pdf Graphic file (type pdf
 )
@@ -7543,7 +7538,7 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-<figs/capitulo5/ProductivityTwo_yearlymean2.pdf, id=1085, 505.89pt x 505.89pt>
+<figs/capitulo5/ProductivityTwo_yearlymean2.pdf, id=1081, 505.89pt x 505.89pt>
 File: figs/capitulo5/ProductivityTwo_yearlymean2.pdf Graphic file (type pdf)
 
 <use figs/capitulo5/ProductivityTwo_yearlymean2.pdf>
@@ -7565,7 +7560,7 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-<figs/capitulo5/ProductivityCVTwo_yearlymean2.pdf, id=1086, 505.89pt x 505.89pt
+<figs/capitulo5/ProductivityCVTwo_yearlymean2.pdf, id=1082, 505.89pt x 505.89pt
 >
 File: figs/capitulo5/ProductivityCVTwo_yearlymean2.pdf Graphic file (type pdf)
  <use figs/capitulo5/ProductivityCVTwo_yearlymean2.pdf>
@@ -7574,7 +7569,7 @@ on input line 480.
 (pdftex.def)             Requested size: 195.75163pt x 195.75244pt.
 
 
-LaTeX Warning: Float too large for page by 11.22786pt on input line 483.
+LaTeX Warning: Float too large for page by 26.12785pt on input line 483.
 
 
 ./Resultados.tex:485: Package xcolor Error: Undefined color `grey'.
@@ -7589,15 +7584,8 @@ l.485 Figure \ref{yearly_productivity_and_CV}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-<figs/capitulo5/Yearlycv_productivity3.pdf, id=1088, 505.89pt x 505.89pt>
-File: figs/capitulo5/Yearlycv_productivity3.pdf Graphic file (type pdf)
-
-<use figs/capitulo5/Yearlycv_productivity3.pdf>
-Package pdftex.def Info: figs/capitulo5/Yearlycv_productivity3.pdf used on inpu
-t line 490.
-(pdftex.def)             Requested size: 455.24411pt x 455.25046pt.
- [75 <./figs/capitulo5/Solariradiationmap_yearly2.pdf> <./figs/capitulo5/Solari
-rradiationCVmap_yearly2.pdf>]
+[75 <./figs/capitulo5/Solariradiationmap_yearly2.pdf> <./figs/capitulo5/Solarir
+radiationCVmap_yearly2.pdf>]
 Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
 
@@ -7606,6 +7594,14 @@ uctivityCVfixed_yearlymean2.pdf> <./figs/capitulo5/ProductivityHoriz_yearlymean
 2.pdf> <./figs/capitulo5/ProductivityCVHoriz_yearlymean2.pdf> <./figs/capitulo5
 /ProductivityTwo_yearlymean2.pdf> <./figs/capitulo5/ProductivityCVTwo_yearlymea
 n2.pdf>]
+<figs/capitulo5/Yearlycv_productivity3.pdf, id=1152, 505.89pt x 505.89pt>
+File: figs/capitulo5/Yearlycv_productivity3.pdf Graphic file (type pdf)
+
+<use figs/capitulo5/Yearlycv_productivity3.pdf>
+Package pdftex.def Info: figs/capitulo5/Yearlycv_productivity3.pdf used on inpu
+t line 490.
+(pdftex.def)             Requested size: 455.24411pt x 455.25046pt.
+
 
 ./Resultados.tex:496: Package xcolor Error: Undefined color `grey'.
 
@@ -7638,7 +7634,7 @@ Overfull \hbox (1.39215pt too wide) in paragraph at lines 587--588
 North-ern clus-ters 4 and 5 are slightly
  []
 
-<figs/capitulo5/correlaciones_30.pdf, id=1159, 722.7pt x 542.025pt>
+<figs/capitulo5/correlaciones_30.pdf, id=1155, 722.7pt x 542.025pt>
 File: figs/capitulo5/correlaciones_30.pdf Graphic file (type pdf)
 
 <use figs/capitulo5/correlaciones_30.pdf>
@@ -7649,12 +7645,13 @@ Package pdftex.def Info: figs/capitulo5/correlaciones_30.pdf used on input line
 Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
 
-[78 <./figs/capitulo5/Yearlycv_productivity3.pdf>] [79 <./figs/capitulo5/correl
-aciones_30.pdf>]
+[78 <./figs/capitulo5/Yearlycv_productivity3.pdf>] [79]
 Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
 
-[80
+[80 <./figs/capitulo5/correlaciones_30.pdf>] [81
+
+] [82
 
 ]
 
@@ -7669,9 +7666,7 @@ l.639 ...://doi.org/10.1016/j.solener.2018.09.085}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[81
-
-]
+[83]
 
 ./Resultados.tex:670: Package xcolor Error: Undefined color `brigthmaroon filec
 olor=black'.
@@ -7829,7 +7824,7 @@ If that doesn't work, type  X <return>  to quit.
 Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
 
-[82
+[84
 
 ]
 
@@ -7972,7 +7967,7 @@ l.676 ...for the ``brightening'' \cite*{Wild2005}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[83]
+[85]
 
 ./Resultados.tex:682: Package xcolor Error: Undefined color `brigthmaroon filec
 olor=black'.
@@ -8241,7 +8236,7 @@ If that doesn't work, type  X <return>  to quit.
 Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
 
-[84]
+[86]
 
 ./Resultados.tex:692: Package xcolor Error: Undefined color `brigthmaroon filec
 olor=black'.
@@ -8299,7 +8294,7 @@ l.702 ...lations is reported in table \ref{tabSIM}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-<figs/capitulo6/zonasPuntosLabel.pdf, id=1520, 361.35pt x 216.81pt>
+<figs/capitulo6/zonasPuntosLabel.pdf, id=1525, 361.35pt x 216.81pt>
 File: figs/capitulo6/zonasPuntosLabel.pdf Graphic file (type pdf)
 
 <use figs/capitulo6/zonasPuntosLabel.pdf>
@@ -8334,7 +8329,7 @@ l.734 ...logy was applied in \cite{Gutierrez2017}.
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[85]
+[87]
 
 ./Resultados.tex:738: Package xcolor Error: Undefined color `brigthmaroon filec
 olor=black'.
@@ -8350,10 +8345,10 @@ Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-LaTeX Warning: Citation 'deMiguel2001' on page 86 undefined on input line 740.
+LaTeX Warning: Citation 'deMiguel2001' on page 88 undefined on input line 740.
 
 
-LaTeX Warning: Citation 'Gopinathan1995' on page 86 undefined on input line 740
+LaTeX Warning: Citation 'Gopinathan1995' on page 88 undefined on input line 740
 .
 
 
@@ -8392,7 +8387,7 @@ o-to-voltaic gen-er-a-tor and the equa-
 Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
 
-[86 <./figs/capitulo6/zonasPuntosLabel.pdf>]
+[88 <./figs/capitulo6/zonasPuntosLabel.pdf>]
 
 ./Resultados.tex:749: Package xcolor Error: Undefined color `brigthmaroon filec
 olor=black'.
@@ -8450,7 +8445,7 @@ Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-LaTeX Warning: Reference `table1' on page 87 undefined on input line 753.
+LaTeX Warning: Reference `table1' on page 89 undefined on input line 753.
 
 
 ./Resultados.tex:753: Package xcolor Error: Undefined color `brigthmaroon filec
@@ -8493,7 +8488,7 @@ l.796 The SARAH \cite*{Muller2015}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[87]
+[89]
 
 ./Resultados.tex:798: Package xcolor Error: Undefined color `brigthmaroon filec
 olor=black'.
@@ -8603,7 +8598,7 @@ If that doesn't work, type  X <return>  to quit.
 Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
 
-[88]
+[90]
 
 ./Resultados.tex:846: Package xcolor Error: Undefined color `brigthmaroon filec
 olor=black'.
@@ -8724,7 +8719,7 @@ l.876 In figure \ref{fig:station}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-<figs/capitulo6/CarpentrasMesesDif.pdf, id=1588, 505.89pt x 361.35pt>
+<figs/capitulo6/CarpentrasMesesDif.pdf, id=1594, 505.89pt x 361.35pt>
 File: figs/capitulo6/CarpentrasMesesDif.pdf Graphic file (type pdf)
 
 <use figs/capitulo6/CarpentrasMesesDif.pdf>
@@ -8736,7 +8731,7 @@ Overfull \hbox (51.21461pt too wide) in paragraph at lines 880--881
 [][] 
  []
 
-<figs/capitulo6/PayerneMesesDif.pdf, id=1589, 505.89pt x 361.35pt>
+<figs/capitulo6/PayerneMesesDif.pdf, id=1595, 505.89pt x 361.35pt>
 File: figs/capitulo6/PayerneMesesDif.pdf Graphic file (type pdf)
 
 <use figs/capitulo6/PayerneMesesDif.pdf>
@@ -8748,7 +8743,7 @@ Overfull \hbox (51.21461pt too wide) in paragraph at lines 886--887
 [][] 
  []
 
-<figs/capitulo6/SedebokerMesesDif.pdf, id=1590, 505.89pt x 361.35pt>
+<figs/capitulo6/SedebokerMesesDif.pdf, id=1596, 505.89pt x 361.35pt>
 File: figs/capitulo6/SedebokerMesesDif.pdf Graphic file (type pdf)
 
 <use figs/capitulo6/SedebokerMesesDif.pdf>
@@ -8760,7 +8755,7 @@ Overfull \hbox (51.21461pt too wide) in paragraph at lines 892--893
 [][] 
  []
 
-[89]
+[91]
 
 ./Resultados.tex:900: Package xcolor Error: Undefined color `grey'.
 
@@ -8812,7 +8807,7 @@ l.905 ...wing lower errors \ref{fig:figuraSEVILLA}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-<figs/capitulo6/violinplorSeville.pdf, id=1603, 505.89pt x 505.89pt>
+<figs/capitulo6/violinplorSeville.pdf, id=1608, 505.89pt x 505.89pt>
 File: figs/capitulo6/violinplorSeville.pdf Graphic file (type pdf)
 
 <use figs/capitulo6/violinplorSeville.pdf>
@@ -8820,7 +8815,7 @@ Package pdftex.def Info: figs/capitulo6/violinplorSeville.pdf used on input lin
 e 913.
 (pdftex.def)             Requested size: 204.85846pt x 204.86116pt.
 
-<figs/capitulo6/violinplotTarragona.pdf, id=1604, 505.89pt x 505.89pt>
+<figs/capitulo6/violinplotTarragona.pdf, id=1609, 505.89pt x 505.89pt>
 File: figs/capitulo6/violinplotTarragona.pdf Graphic file (type pdf)
 
 <use figs/capitulo6/violinplotTarragona.pdf>
@@ -8904,7 +8899,7 @@ If that doesn't work, type  X <return>  to quit.
 Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
 
-[90]
+[92]
 
 ./Resultados.tex:983: Package xcolor Error: Undefined color `brigthmaroon filec
 olor=black'.
@@ -8919,7 +8914,7 @@ l.983 ...oud cover in the model \cite*{Nabat2014}.
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-<figs/capitulo6/dif_model_sat_zonas.pdf, id=1617, 505.89pt x 289.08pt>
+<figs/capitulo6/dif_model_sat_zonas.pdf, id=1622, 505.89pt x 289.08pt>
 File: figs/capitulo6/dif_model_sat_zonas.pdf Graphic file (type pdf)
 
 <use figs/capitulo6/dif_model_sat_zonas.pdf>
@@ -8964,21 +8959,21 @@ l.991 ...presented in figure \ref{fig:ciclosFixed}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[91 <./figs/capitulo6/CarpentrasMesesDif.pdf> <./figs/capitulo6/PayerneMesesDif
+[93 <./figs/capitulo6/CarpentrasMesesDif.pdf> <./figs/capitulo6/PayerneMesesDif
 .pdf> <./figs/capitulo6/SedebokerMesesDif.pdf>]
 Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
 
-[92 <./figs/capitulo6/violinplorSeville.pdf> <./figs/capitulo6/violinplotTarrag
-ona.pdf>]
-<figs/capitulo6/diferencia_mesesFIXED.pdf, id=1659, 505.89pt x 361.35pt>
+[94 <./figs/capitulo6/violinplorSeville.pdf> <./figs/capitulo6/violinplotTarrag
+ona.pdf> <./figs/capitulo6/dif_model_sat_zonas.pdf>]
+<figs/capitulo6/diferencia_mesesFIXED.pdf, id=1672, 505.89pt x 361.35pt>
 File: figs/capitulo6/diferencia_mesesFIXED.pdf Graphic file (type pdf)
 
 <use figs/capitulo6/diferencia_mesesFIXED.pdf>
 Package pdftex.def Info: figs/capitulo6/diferencia_mesesFIXED.pdf used on input
  line 1000.
 (pdftex.def)             Requested size: 455.24411pt x 325.17891pt.
- [93 <./figs/capitulo6/dif_model_sat_zonas.pdf>]
+ [95]
 
 ./Resultados.tex:1010: Package xcolor Error: Undefined color `grey'.
 
@@ -8993,7 +8988,7 @@ Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-<figs/capitulo6/dif_aer_no_all_Ym20032009SIGt.pdf, id=1674, 505.89pt x 216.81pt
+<figs/capitulo6/dif_aer_no_all_Ym20032009SIGt.pdf, id=1680, 505.89pt x 216.81pt
 >
 File: figs/capitulo6/dif_aer_no_all_Ym20032009SIGt.pdf Graphic file (type pdf)
  <use figs/capitulo6/dif_aer_no_all_Ym20032009SIGt.pdf>
@@ -9001,7 +8996,7 @@ Package pdftex.def Info: figs/capitulo6/dif_aer_no_all_Ym20032009SIGt.pdf used
 on input line 1018.
 (pdftex.def)             Requested size: 455.24411pt x 195.10733pt.
 
-<figs/capitulo6/byCountry.jpeg, id=1675, 1005.00468pt x 359.09157pt>
+<figs/capitulo6/byCountry.jpeg, id=1681, 1005.00468pt x 359.09157pt>
 File: figs/capitulo6/byCountry.jpeg Graphic file (type jpg)
 
 <use figs/capitulo6/byCountry.jpeg>
@@ -9026,20 +9021,16 @@ If that doesn't work, type  X <return>  to quit.
 Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
 
-[94 <./figs/capitulo6/diferencia_mesesFIXED.pdf>]
-<figs/capitulo6/RelDif_aer_no_all20032009SIGt.pdf, id=1693, 433.62pt x 433.62pt
+[96 <./figs/capitulo6/diferencia_mesesFIXED.pdf>]
+<figs/capitulo6/RelDif_aer_no_all20032009SIGt.pdf, id=1699, 433.62pt x 433.62pt
 >
 File: figs/capitulo6/RelDif_aer_no_all20032009SIGt.pdf Graphic file (type pdf)
  <use figs/capitulo6/RelDif_aer_no_all20032009SIGt.pdf>
 Package pdftex.def Info: figs/capitulo6/RelDif_aer_no_all20032009SIGt.pdf used 
 on input line 1040.
 (pdftex.def)             Requested size: 455.24411pt x 455.26813pt.
- [95 <./figs/capitulo6/dif_aer_no_all_Ym20032009SIGt.pdf> <./figs/capitulo6/byC
+ [97 <./figs/capitulo6/dif_aer_no_all_Ym20032009SIGt.pdf> <./figs/capitulo6/byC
 ountry.jpeg>]
-Overfull \vbox (14.49998pt too high) has occurred while \output is active []
-
-
-[96 <./figs/capitulo6/RelDif_aer_no_all20032009SIGt.pdf>]
 
 ./Resultados.tex:1051: Package xcolor Error: Undefined color `grey'.
 
@@ -9054,7 +9045,7 @@ Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-LaTeX Warning: Citation 'Gil2015' on page 97 undefined on input line 1051.
+LaTeX Warning: Citation 'Gil2015' on page 98 undefined on input line 1051.
 
 
 ./Resultados.tex:1056: Package xcolor Error: Undefined color `brigthmaroon file
@@ -9082,7 +9073,7 @@ Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-<figs/capitulo6/DifferencesRelativesinPVtciclo15.pdf, id=1723, 505.89pt x 433.6
+<figs/capitulo6/DifferencesRelativesinPVtciclo15.pdf, id=1714, 505.89pt x 433.6
 2pt>
 File: figs/capitulo6/DifferencesRelativesinPVtciclo15.pdf Graphic file (type pd
 f)
@@ -9090,15 +9081,18 @@ f)
 Package pdftex.def Info: figs/capitulo6/DifferencesRelativesinPVtciclo15.pdf us
 ed on input line 1063.
 (pdftex.def)             Requested size: 318.66948pt x 273.14896pt.
- [97]
-
-LaTeX Warning: Citation 'Martin1999' on page 98 undefined on input line 1081.
-
 
 Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
 
-[98 <./figs/capitulo6/DifferencesRelativesinPVtciclo15.pdf>]
+[98] [99 <./figs/capitulo6/RelDif_aer_no_all20032009SIGt.pdf>]
+Overfull \vbox (14.49998pt too high) has occurred while \output is active []
+
+
+[100 <./figs/capitulo6/DifferencesRelativesinPVtciclo15.pdf>]
+
+LaTeX Warning: Citation 'Martin1999' on page 101 undefined on input line 1081.
+
 
 ./Resultados.tex:1090: Package xcolor Error: Undefined color `brigthmaroon file
 color=black'.
@@ -9113,70 +9107,72 @@ l.1090 ...roduction over Europe \cite*{Jerez2015}.
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[99]
+[101]
 Overfull \vbox (14.49998pt too high) has occurred while \output is active []
 
 
-[100] [101
+[102] [103
 
-]
-Underfull \hbox (badness 10000) in paragraph at lines 1122--1123
-
- []
-
-[102
+] [104
 
 ]
 
-LaTeX Warning: Reference `Climate data' on page 103 undefined on input line 117
-0.
-
-
-LaTeX Warning: Reference `Aerosols' on page 103 undefined on input line 1170.
-
-
-LaTeX Warning: Reference `Results' on page 103 undefined on input line 1170.
-
-[103]
-
-./Resultados.tex:1185: Package xcolor Error: Undefined color `grey'.
+./Resultados.tex:1172: Package xcolor Error: Undefined color `grey'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1185 ...s can be seen in table \ref{tb:families}
+l.1172    Section \ref{Climate data}
+                                     describes the models and simulations us...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./Resultados.tex:1172: Package xcolor Error: Undefined color `grey'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1172 ...gy is explained in section \ref{Methods}
+                                                   and the main results are ...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./Resultados.tex:1172: Package xcolor Error: Undefined color `grey'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1172 ...in results are explained in\ref{Results}
+                                                  . A discussion and later c...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[105]
+
+./Resultados.tex:1187: Package xcolor Error: Undefined color `grey'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1187 ...s can be seen in table \ref{tb:families}
                                                   .
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-./Resultados.tex:1192: Undefined control sequence.
-<template> ...enter \@startpbox {3cm}\raggedrigth 
-                                                  \ignorespaces 
-l.1192 C
-        MIP5 GCM & Institution  & RCM  \tabularnewline
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
 ./Resultados.tex:1194: Undefined control sequence.
 <template> ...enter \@startpbox {3cm}\raggedrigth 
                                                   \ignorespaces 
-l.1194  C
-         NRM-CM5 & CNRM & ALADIN5.3 \tabularnewline
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./Resultados.tex:1195: Undefined control sequence.
-<template> ...enter \@startpbox {3cm}\raggedrigth 
-                                                  \ignorespaces 
-l.1195 &
-        CLMcom&CCLM4-8-17\tabularnewline
+l.1194 C
+        MIP5 GCM & Institution  & RCM  \tabularnewline
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -9186,8 +9182,19 @@ and I'll forget about whatever was undefined.
 ./Resultados.tex:1196: Undefined control sequence.
 <template> ...enter \@startpbox {3cm}\raggedrigth 
                                                   \ignorespaces 
-l.1196 &
-        SMHI&RCA4\tabularnewline
+l.1196  C
+         NRM-CM5 & CNRM & ALADIN5.3 \tabularnewline
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Resultados.tex:1197: Undefined control sequence.
+<template> ...enter \@startpbox {3cm}\raggedrigth 
+                                                  \ignorespaces 
+l.1197 &
+        CLMcom&CCLM4-8-17\tabularnewline
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -9197,19 +9204,8 @@ and I'll forget about whatever was undefined.
 ./Resultados.tex:1198: Undefined control sequence.
 <template> ...enter \@startpbox {3cm}\raggedrigth 
                                                   \ignorespaces 
-l.1198 I
-        CHEC-EC-EARTH&KNMI&RACMO\tabularnewline
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./Resultados.tex:1199: Undefined control sequence.
-<template> ...enter \@startpbox {3cm}\raggedrigth 
-                                                  \ignorespaces 
-l.1199 &
-        CLMcom&CCLM4-8-17\tabularnewline
+l.1198 &
+        SMHI&RCA4\tabularnewline
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -9219,7 +9215,29 @@ and I'll forget about whatever was undefined.
 ./Resultados.tex:1200: Undefined control sequence.
 <template> ...enter \@startpbox {3cm}\raggedrigth 
                                                   \ignorespaces 
-l.1200 &
+l.1200 I
+        CHEC-EC-EARTH&KNMI&RACMO\tabularnewline
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Resultados.tex:1201: Undefined control sequence.
+<template> ...enter \@startpbox {3cm}\raggedrigth 
+                                                  \ignorespaces 
+l.1201 &
+        CLMcom&CCLM4-8-17\tabularnewline
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Resultados.tex:1202: Undefined control sequence.
+<template> ...enter \@startpbox {3cm}\raggedrigth 
+                                                  \ignorespaces 
+l.1202 &
         SMHI&RCA4\tabularnewline
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9227,24 +9245,24 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[104]
+[106]
 
-./Resultados.tex:1219: Package xcolor Error: Undefined color `grey'.
+./Resultados.tex:1221: Package xcolor Error: Undefined color `grey'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1219 ...has been included in table \ref{tb:aero}
+l.1221 ...has been included in table \ref{tb:aero}
                                                   . Only two RCMs include ti...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-./Resultados.tex:1228: Undefined control sequence.
+./Resultados.tex:1230: Undefined control sequence.
 <template> ...ter \@startpbox {1.3cm}\raggedrigth 
                                                   \ignorespaces 
-l.1228 I
+l.1230 I
         nstitution  & RCM & description & classes & scenarios \tabularnewline
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9253,14 +9271,14 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (7.17125pt too wide) in paragraph at lines 1228--1228
+Overfull \hbox (7.17125pt too wide) in paragraph at lines 1230--1230
 []|\T1/futs/m/n/10 Institution| 
  []
 
-./Resultados.tex:1230: Undefined control sequence.
+./Resultados.tex:1232: Undefined control sequence.
 <template> ...ter \@startpbox {1.3cm}\raggedrigth 
                                                   \ignorespaces 
-l.1230 C
+l.1232 C
         NRM & ALADIN5.3 & Climatology. Szopa 2013 & 5 classes: sea salt, sul...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9269,14 +9287,14 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (4.10081pt too wide) in paragraph at lines 1230--1230
+Overfull \hbox (4.10081pt too wide) in paragraph at lines 1232--1232
 []|\T1/futs/m/n/10 ALADIN5.3|  
  []
 
-./Resultados.tex:1231: Undefined control sequence.
+./Resultados.tex:1233: Undefined control sequence.
 <template> ...ter \@startpbox {1.3cm}\raggedrigth 
                                                   \ignorespaces 
-l.1231 C
+l.1233 C
         LMcom&CCLM4-8-17& Climatology. Tanr√© 1984 & 4 classes: sea, land, d...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9285,14 +9303,14 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (1.2913pt too wide) in paragraph at lines 1231--1231
+Overfull \hbox (1.2913pt too wide) in paragraph at lines 1233--1233
 []|\T1/futs/m/n/10 CLMcom| 
  []
 
-./Resultados.tex:1232: Undefined control sequence.
+./Resultados.tex:1234: Undefined control sequence.
 <template> ...ter \@startpbox {1.3cm}\raggedrigth 
                                                   \ignorespaces 
-l.1232 S
+l.1234 S
         MHI&RCA4& Parametrization in radiation fluxes & Single integrated cl...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9301,14 +9319,14 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (4.48392pt too wide) in paragraph at lines 1232--1232
+Overfull \hbox (4.48392pt too wide) in paragraph at lines 1234--1234
 []|\T1/futs/m/n/10 Parametrization 
  []
 
-./Resultados.tex:1233: Undefined control sequence.
+./Resultados.tex:1235: Undefined control sequence.
 <template> ...ter \@startpbox {1.3cm}\raggedrigth 
                                                   \ignorespaces 
-l.1233 K
+l.1235 K
         NMI&RACMO&CAM inventory, Lamarque 2010 & 6 classes: sulfate, organic...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9317,180 +9335,73 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (9.1339pt too wide) in paragraph at lines 1233--1233
+Overfull \hbox (9.1339pt too wide) in paragraph at lines 1235--1235
 \T1/futs/m/n/10 salt,stratospheric 
  []
 
 
-./Resultados.tex:1249: Package xcolor Error: Undefined color `grey'.
+./Resultados.tex:1251: Package xcolor Error: Undefined color `grey'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1249 ... are represented in figure \ref{fig:aod}
+l.1251 ... are represented in figure \ref{fig:aod}
                                                    . An overall decrease for...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[105]
-<figs/capitulo7/ANOMALIAS_JJA_AOD_2050-2021_r12.pdf, id=1781, 505.89pt x 216.81
+[107]
+<figs/capitulo7/ANOMALIAS_JJA_AOD_2050-2021_r12.pdf, id=1791, 505.89pt x 216.81
 pt>
 File: figs/capitulo7/ANOMALIAS_JJA_AOD_2050-2021_r12.pdf Graphic file (type pdf
 )
  <use figs/capitulo7/ANOMALIAS_JJA_AOD_2050-2021_r12.pdf>
 Package pdftex.def Info: figs/capitulo7/ANOMALIAS_JJA_AOD_2050-2021_r12.pdf use
-d on input line 1252.
+d on input line 1254.
 (pdftex.def)             Requested size: 455.24411pt x 195.10733pt.
 
 
-./Resultados.tex:1269: Package xcolor Error: Undefined color `grey'.
+./Resultados.tex:1282: Package xcolor Error: Undefined color `grey'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1269 ...odel, following equation \ref{eq:linear}
-                                                  :
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[106 <./figs/capitulo7/ANOMALIAS_JJA_AOD_2050-2021_r12.pdf>]
-
-./Resultados.tex:1280: Package xcolor Error: Undefined color `grey'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1280 ...s explained in chapter \ref{cha:methods}
+l.1282 ...s explained in chapter \ref{cha:methods}
                                                   .
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
+[108 <./figs/capitulo7/ANOMALIAS_JJA_AOD_2050-2021_r12.pdf>]
 
-./Resultados.tex:1294: Package xcolor Error: Undefined color `grey'.
+./Resultados.tex:1296: Package xcolor Error: Undefined color `grey'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1294 ...resented in figures \ref{fig:anomalySSR}
+l.1296 ...resented in figures \ref{fig:anomalySSR}
                                                    and \ref{fig:anomalyCLT} ...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Package caption Warning: \label without proper reference on input line 1359.
+Package caption Warning: \label without proper reference on input line 1368.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:anomalySSR' on page 107 undefined on input line 1
-294.
+LaTeX Warning: Reference `fig:anomalySSR' on page 109 undefined on input line 1
+296.
 
 
-LaTeX Warning: Reference `fig:anomalyCLT' on page 107 undefined on input line 1
-294.
+LaTeX Warning: Reference `fig:anomalyCLT' on page 109 undefined on input line 1
+296.
 
-
-<figs/capitulo7/CNRM-CM5_ANOMALIAS_JJA_SSR_2050-2021.pdf, id=1798, 289.08pt x 2
-16.81pt>
-File: figs/capitulo7/CNRM-CM5_ANOMALIAS_JJA_SSR_2050-2021.pdf Graphic file (typ
-e pdf)
- <use figs/capitulo7/CNRM-CM5_ANOMALIAS_JJA_SSR_2050-2021.pdf>
-Package pdftex.def Info: figs/capitulo7/CNRM-CM5_ANOMALIAS_JJA_SSR_2050-2021.pd
-f used on input line 1298.
-(pdftex.def)             Requested size: 218.51328pt x 163.88408pt.
-
-Overfull \hbox (36.41841pt too wide) in paragraph at lines 1298--1299
-[][] 
- []
-
-
-<figs/capitulo7/EC-EARTH_ANOMALIAS_JJA_SSR_2050-2021.pdf, id=1799, 289.08pt x 2
-16.81pt>
-File: figs/capitulo7/EC-EARTH_ANOMALIAS_JJA_SSR_2050-2021.pdf Graphic file (typ
-e pdf)
- <use figs/capitulo7/EC-EARTH_ANOMALIAS_JJA_SSR_2050-2021.pdf>
-Package pdftex.def Info: figs/capitulo7/EC-EARTH_ANOMALIAS_JJA_SSR_2050-2021.pd
-f used on input line 1303.
-(pdftex.def)             Requested size: 218.51328pt x 163.88408pt.
-
-Overfull \hbox (36.41841pt too wide) in paragraph at lines 1303--1304
-[][] 
- []
-
-
-<figs/capitulo7/ANOMALIAS_JJA_SSR_2050-2021_r12.pdf, id=1800, 505.89pt x 361.35
-pt>
-File: figs/capitulo7/ANOMALIAS_JJA_SSR_2050-2021_r12.pdf Graphic file (type pdf
-)
- <use figs/capitulo7/ANOMALIAS_JJA_SSR_2050-2021_r12.pdf>
-Package pdftex.def Info: figs/capitulo7/ANOMALIAS_JJA_SSR_2050-2021_r12.pdf use
-d on input line 1309.
-(pdftex.def)             Requested size: 455.24411pt x 325.17891pt.
-
-
-LaTeX Warning: Reference `fig:anomalyAOD' on page 107 undefined on input line 1
-337.
-
-[107] [108 <./figs/capitulo7/CNRM-CM5_ANOMALIAS_JJA_SSR_2050-2021.pdf> <./figs/
-capitulo7/EC-EARTH_ANOMALIAS_JJA_SSR_2050-2021.pdf> <./figs/capitulo7/ANOMALIAS
-_JJA_SSR_2050-2021_r12.pdf>]
-<figs/capitulo7/CNRM-CM5_ANOMALIAS_JJA_CLT_2050-2021.pdf, id=1834, 289.08pt x 2
-16.81pt>
-File: figs/capitulo7/CNRM-CM5_ANOMALIAS_JJA_CLT_2050-2021.pdf Graphic file (typ
-e pdf)
- <use figs/capitulo7/CNRM-CM5_ANOMALIAS_JJA_CLT_2050-2021.pdf>
-Package pdftex.def Info: figs/capitulo7/CNRM-CM5_ANOMALIAS_JJA_CLT_2050-2021.pd
-f used on input line 1345.
-(pdftex.def)             Requested size: 218.51328pt x 163.88408pt.
-
-Overfull \hbox (36.41841pt too wide) in paragraph at lines 1345--1346
-[][] 
- []
-
-
-<figs/capitulo7/EC-EARTH_ANOMALIAS_JJA_CLT_2050-2021.pdf, id=1835, 289.08pt x 2
-16.81pt>
-File: figs/capitulo7/EC-EARTH_ANOMALIAS_JJA_CLT_2050-2021.pdf Graphic file (typ
-e pdf)
- <use figs/capitulo7/EC-EARTH_ANOMALIAS_JJA_CLT_2050-2021.pdf>
-Package pdftex.def Info: figs/capitulo7/EC-EARTH_ANOMALIAS_JJA_CLT_2050-2021.pd
-f used on input line 1350.
-(pdftex.def)             Requested size: 218.51328pt x 163.88408pt.
-
-Overfull \hbox (36.41841pt too wide) in paragraph at lines 1350--1351
-[][] 
- []
-
-
-<figs/capitulo7/ANOMALIAS_JJA_CLT_2050-2021_r12.pdf, id=1836, 505.89pt x 361.35
-pt>
-File: figs/capitulo7/ANOMALIAS_JJA_CLT_2050-2021_r12.pdf Graphic file (type pdf
-)
- <use figs/capitulo7/ANOMALIAS_JJA_CLT_2050-2021_r12.pdf>
-Package pdftex.def Info: figs/capitulo7/ANOMALIAS_JJA_CLT_2050-2021_r12.pdf use
-d on input line 1356.
-(pdftex.def)             Requested size: 455.24411pt x 325.17891pt.
-
-
-./Resultados.tex:1362: Package xcolor Error: Undefined color `grey'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1362 ...n in table \ref{tb:spatial correlations}
-                                                  . The spatial pattern of C...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-./Resultados.tex:1377: Undefined control sequence.
-l.1377 \br
+./Resultados.tex:1302: Undefined control sequence.
+l.1302 \br
           
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9499,209 +9410,448 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (6.56027pt too wide) in alignment at lines 1376--1395
-[][][][][][][][][] 
+Underfull \hbox (badness 10000) in alignment at lines 1301--1322
+[][][][][][][] 
  []
 
 
-./Resultados.tex:1395: LaTeX Error: \begin{tabular*} on input line 1376 ended b
+./Resultados.tex:1322: LaTeX Error: \begin{tabular*} on input line 1301 ended b
 y \end{tabular}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1395 \end{tabular}
+l.1322 \end{tabular}
                     \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-./Resultados.tex:1402: Package xcolor Error: Undefined color `grey'.
+<figs/capitulo7/CNRM-CM5_ANOMALIAS_JJA_SSR_2050-2021.pdf, id=1806, 289.08pt x 2
+16.81pt>
+File: figs/capitulo7/CNRM-CM5_ANOMALIAS_JJA_SSR_2050-2021.pdf Graphic file (typ
+e pdf)
+ <use figs/capitulo7/CNRM-CM5_ANOMALIAS_JJA_SSR_2050-2021.pdf>
+Package pdftex.def Info: figs/capitulo7/CNRM-CM5_ANOMALIAS_JJA_SSR_2050-2021.pd
+f used on input line 1329.
+(pdftex.def)             Requested size: 218.51328pt x 163.88408pt.
+
+Overfull \hbox (36.41841pt too wide) in paragraph at lines 1329--1330
+[][] 
+ []
+
+
+<figs/capitulo7/EC-EARTH_ANOMALIAS_JJA_SSR_2050-2021.pdf, id=1807, 289.08pt x 2
+16.81pt>
+File: figs/capitulo7/EC-EARTH_ANOMALIAS_JJA_SSR_2050-2021.pdf Graphic file (typ
+e pdf)
+ <use figs/capitulo7/EC-EARTH_ANOMALIAS_JJA_SSR_2050-2021.pdf>
+Package pdftex.def Info: figs/capitulo7/EC-EARTH_ANOMALIAS_JJA_SSR_2050-2021.pd
+f used on input line 1334.
+(pdftex.def)             Requested size: 218.51328pt x 163.88408pt.
+
+Overfull \hbox (36.41841pt too wide) in paragraph at lines 1334--1335
+[][] 
+ []
+
+
+<figs/capitulo7/ANOMALIAS_JJA_SSR_2050-2021_r12.pdf, id=1808, 505.89pt x 361.35
+pt>
+File: figs/capitulo7/ANOMALIAS_JJA_SSR_2050-2021_r12.pdf Graphic file (type pdf
+)
+ <use figs/capitulo7/ANOMALIAS_JJA_SSR_2050-2021_r12.pdf>
+Package pdftex.def Info: figs/capitulo7/ANOMALIAS_JJA_SSR_2050-2021_r12.pdf use
+d on input line 1340.
+(pdftex.def)             Requested size: 455.24411pt x 325.17891pt.
+
+
+LaTeX Warning: Reference `fig:anomalyAOD' on page 109 undefined on input line 1
+346.
+
+[109] [110 <./figs/capitulo7/CNRM-CM5_ANOMALIAS_JJA_SSR_2050-2021.pdf> <./figs/
+capitulo7/EC-EARTH_ANOMALIAS_JJA_SSR_2050-2021.pdf> <./figs/capitulo7/ANOMALIAS
+_JJA_SSR_2050-2021_r12.pdf>]
+<figs/capitulo7/CNRM-CM5_ANOMALIAS_JJA_CLT_2050-2021.pdf, id=1839, 289.08pt x 2
+16.81pt>
+File: figs/capitulo7/CNRM-CM5_ANOMALIAS_JJA_CLT_2050-2021.pdf Graphic file (typ
+e pdf)
+ <use figs/capitulo7/CNRM-CM5_ANOMALIAS_JJA_CLT_2050-2021.pdf>
+Package pdftex.def Info: figs/capitulo7/CNRM-CM5_ANOMALIAS_JJA_CLT_2050-2021.pd
+f used on input line 1354.
+(pdftex.def)             Requested size: 218.51328pt x 163.88408pt.
+
+Overfull \hbox (36.41841pt too wide) in paragraph at lines 1354--1355
+[][] 
+ []
+
+
+<figs/capitulo7/EC-EARTH_ANOMALIAS_JJA_CLT_2050-2021.pdf, id=1840, 289.08pt x 2
+16.81pt>
+File: figs/capitulo7/EC-EARTH_ANOMALIAS_JJA_CLT_2050-2021.pdf Graphic file (typ
+e pdf)
+ <use figs/capitulo7/EC-EARTH_ANOMALIAS_JJA_CLT_2050-2021.pdf>
+Package pdftex.def Info: figs/capitulo7/EC-EARTH_ANOMALIAS_JJA_CLT_2050-2021.pd
+f used on input line 1359.
+(pdftex.def)             Requested size: 218.51328pt x 163.88408pt.
+
+Overfull \hbox (36.41841pt too wide) in paragraph at lines 1359--1360
+[][] 
+ []
+
+
+<figs/capitulo7/ANOMALIAS_JJA_CLT_2050-2021_r12.pdf, id=1841, 505.89pt x 361.35
+pt>
+File: figs/capitulo7/ANOMALIAS_JJA_CLT_2050-2021_r12.pdf Graphic file (type pdf
+)
+ <use figs/capitulo7/ANOMALIAS_JJA_CLT_2050-2021_r12.pdf>
+Package pdftex.def Info: figs/capitulo7/ANOMALIAS_JJA_CLT_2050-2021_r12.pdf use
+d on input line 1365.
+(pdftex.def)             Requested size: 455.24411pt x 325.17891pt.
+
+
+./Resultados.tex:1371: Package xcolor Error: Undefined color `grey'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1402 ...epresented in figure \ref{fig:pvcountry}
+l.1371 ...n in table \ref{tb:spatial correlations}
+                                                  . The spatial pattern of C...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./Resultados.tex:1385: Package xcolor Error: Undefined color `grey'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1385 ...epresented in figure \ref{fig:pvcountry}
                                                   .
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Package caption Warning: \label without proper reference on input line 1408.
+Package caption Warning: \label without proper reference on input line 1413.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:pvcountry' on page 109 undefined on input line 14
-02.
+LaTeX Warning: Reference `fig:pvcountry' on page 111 undefined on input line 13
+85.
 
-<figs/capitulo7/bycountrytodos.pdf, id=1839, 361.35pt x 216.81pt>
+./Resultados.tex:1391: Undefined control sequence.
+l.1391 \br
+          
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Underfull \hbox (badness 10000) in alignment at lines 1390--1405
+[][][][][][][][] 
+ []
+
+
+./Resultados.tex:1405: LaTeX Error: \begin{tabular*} on input line 1390 ended b
+y \end{tabular}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1405 \end{tabular}
+                    \\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+<figs/capitulo7/bycountrytodos.pdf, id=1844, 361.35pt x 216.81pt>
 File: figs/capitulo7/bycountrytodos.pdf Graphic file (type pdf)
 
 <use figs/capitulo7/bycountrytodos.pdf>
 Package pdftex.def Info: figs/capitulo7/bycountrytodos.pdf used on input line 1
-407.
+412.
 (pdftex.def)             Requested size: 455.24411pt x 273.14896pt.
- [109] [110 <./figs/capitulo7/CNRM-CM5_ANOMALIAS_JJA_CLT_2050-2021.pdf> <./figs
+ [111] [112 <./figs/capitulo7/CNRM-CM5_ANOMALIAS_JJA_CLT_2050-2021.pdf> <./figs
 /capitulo7/EC-EARTH_ANOMALIAS_JJA_CLT_2050-2021.pdf> <./figs/capitulo7/ANOMALIA
 S_JJA_CLT_2050-2021_r12.pdf>]
 
-./Resultados.tex:1417: Package xcolor Error: Undefined color `grey'.
+./Resultados.tex:1422: Package xcolor Error: Undefined color `grey'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1417 ...e shown in figure \ref{fig:pvcountryjja}
+l.1422 ...e shown in figure \ref{fig:pvcountryjja}
                                                   . In this case, the same p...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Package caption Warning: \label without proper reference on input line 1421.
+Package caption Warning: \label without proper reference on input line 1426.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:pvcountryjja' on page 111 undefined on input line
- 1417.
+LaTeX Warning: Reference `fig:pvcountryjja' on page 113 undefined on input line
+ 1422.
 
-<figs/capitulo7/bycountryJJArelativePuOr.pdf, id=1870, 505.89pt x 289.08pt>
+<figs/capitulo7/bycountryJJArelativePuOr.pdf, id=1877, 505.89pt x 289.08pt>
 File: figs/capitulo7/bycountryJJArelativePuOr.pdf Graphic file (type pdf)
 
 <use figs/capitulo7/bycountryJJArelativePuOr.pdf>
 Package pdftex.def Info: figs/capitulo7/bycountryJJArelativePuOr.pdf used on in
-put line 1420.
+put line 1425.
 (pdftex.def)             Requested size: 455.24411pt x 260.14311pt.
- [111 <./figs/capitulo7/bycountrytodos.pdf>] [112 <./figs/capitulo7/bycountryJJ
-ArelativePuOr.pdf>]) [113]
+ [113 <./figs/capitulo7/bycountrytodos.pdf>] [114 <./figs/capitulo7/bycountryJJ
+ArelativePuOr.pdf>]pdfTeX warning (ext4): destination with the same identifier 
+(name{section.7.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1459   \section{Apendix}
+                          
+
+LaTeX Warning: Reference `pvalor' on page 115 undefined on input line 1463.
+
+<figs/capitulo7/pvalor.pdf, id=1899, 505.89pt x 216.81pt>
+File: figs/capitulo7/pvalor.pdf Graphic file (type pdf)
+
+<use figs/capitulo7/pvalor.pdf>
+Package pdftex.def Info: figs/capitulo7/pvalor.pdf used on input line 1466.
+(pdftex.def)             Requested size: 455.24411pt x 195.10733pt.
+
+Overfull \hbox (29.1556pt too wide) in paragraph at lines 1473--1474
+[]\T1/futs/m/n/12 In the sec-ond fam-ily, driven by the EC-EARTH model, sig-nif
+-i-cant dif-fer-ences for the RACMO22E
+ []
+
+[115]
+
+./Resultados.tex:1483: Package xcolor Error: Undefined color `brigthmaroon file
+color=black'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1483 ...ble is ALADIN-RCSM4 \cite*{Sevault2014}.
+                                                   In order to isolate the u...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+<figs/capitulo7/diferences_ssr_newperiods_9abr.pdf, id=1905, 505.89pt x 216.81p
+t>
+File: figs/capitulo7/diferences_ssr_newperiods_9abr.pdf Graphic file (type pdf)
+
+ <use figs/capitulo7/diferences_ssr_newperiods_9abr.pdf>
+Package pdftex.def Info: figs/capitulo7/diferences_ssr_newperiods_9abr.pdf used
+ on input line 1492.
+(pdftex.def)             Requested size: 364.19667pt x 156.08653pt.
+ [116 <./figs/capitulo7/pvalor.pdf>]
+<figs/capitulo7/diferences_clt_newperiods_9abr.pdf, id=1919, 505.89pt x 216.81p
+t>
+File: figs/capitulo7/diferences_clt_newperiods_9abr.pdf Graphic file (type pdf)
+
+ <use figs/capitulo7/diferences_clt_newperiods_9abr.pdf>
+Package pdftex.def Info: figs/capitulo7/diferences_clt_newperiods_9abr.pdf used
+ on input line 1500.
+(pdftex.def)             Requested size: 364.19667pt x 156.08653pt.
+
+
+./Resultados.tex:1505: Package xcolor Error: Undefined color `grey'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1505 In figure \ref{fig:medcordexclt}
+                                        can be seen the CLT anomalies for th...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Package caption Warning: \label without proper reference on input line 1501.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:medcordexclt' on page 117 undefined on input line
+ 1505.
+
+
+./Resultados.tex:1507: Package xcolor Error: Undefined color `grey'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1507 ...esented in table \ref{tb:medcordexspcor}
+                                                  .
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+./Resultados.tex:1515: Undefined control sequence.
+l.1515 \br
+          
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Underfull \hbox (badness 10000) in alignment at lines 1514--1523
+[][][][][][][][]
+ []
+
+
+./Resultados.tex:1523: LaTeX Error: \begin{tabular*} on input line 1514 ended b
+y \end{tabular}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1523 \end{tabular}
+                    \\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[117 <./figs/capitulo7/diferences_ssr_newperiods_9abr.pdf> <./figs/capitulo7/di
+ferences_clt_newperiods_9abr.pdf>]) [118]
 \openout2 = `Discusion.aux'.
 
-
-(./Discusion.tex [114
-
+ (./Discusion.tex [119
 
 
-] [115] [116]
 
-LaTeX Warning: Reference `cha:multi' on page 117 undefined on input line 65.
+] [120]
 
-[117
+LaTeX Warning: Reference `cha:multi' on page 121 undefined on input line 65.
 
-] [118] [119] [120] [121
+[121
 
-]) [122]
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 72.
+] [122] [123] [124] [125
+
+]) [126]
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 71.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-Overfull \hbox (6.99533pt too wide) in paragraph at lines 73--73
+Overfull \hbox (6.99533pt too wide) in paragraph at lines 72--72
 []\T1/futs/m/n/12 Daniel Arg¸eso, JosÈ M. Hidalgo-MuÒoz, So-nia R. G·miz-Fortis
 , et al. ``Eval-
  []
 
 
-Overfull \hbox (8.01283pt too wide) in paragraph at lines 73--73
+Overfull \hbox (8.01283pt too wide) in paragraph at lines 72--72
 \T1/futs/m/it/12 able and Sus-tain-able En-ergy Re-views \T1/futs/m/n/12 21 (20
 13), pp. 248^^U261. \T1/futs/m/sc/12 issn\T1/futs/m/n/12 : 13640321.
  []
 
-[123
+[127
 
 
 
 ]
-Overfull \hbox (6.15599pt too wide) in paragraph at lines 73--73
+Overfull \hbox (6.15599pt too wide) in paragraph at lines 72--72
 \T1/futs/m/n/12 face so-lar ra-di-a-tion in CMIP5 global cli-mate mod-els and i
 n EURO-CORDEX
  []
 
 
-Overfull \hbox (0.68147pt too wide) in paragraph at lines 73--73
+Overfull \hbox (0.68147pt too wide) in paragraph at lines 72--72
 []\T1/futs/m/n/12 Mike H. Bergin, Chin-may Ghoroi, Deepa Dixit, James J. Schaue
 r, and Drew
  []
 
 
-Overfull \hbox (0.89517pt too wide) in paragraph at lines 73--73
+Overfull \hbox (0.89517pt too wide) in paragraph at lines 72--72
 []\T1/futs/m/n/12 Alexandre Beluco, Paulo Kroeff de Souza, and Arno Kren-zinger
 . ``A method
  []
 
 
-Overfull \hbox (1.02722pt too wide) in paragraph at lines 73--73
+Overfull \hbox (1.02722pt too wide) in paragraph at lines 72--72
 []\T1/futs/m/n/12 Peder Bacher, Hen-rik Mad-sen, and Hen-rik Aal-borg Nielsen. 
 ``On-line short-
  []
 
-[124]
-Overfull \hbox (5.95241pt too wide) in paragraph at lines 73--73
+[128]
+Overfull \hbox (5.95241pt too wide) in paragraph at lines 72--72
 \T1/futs/m/n/12 daily and hourly in-so-la-tion val-ues''. In: \T1/futs/m/it/12 
 So-lar En-ergy \T1/futs/m/n/12 (1979). \T1/futs/m/sc/12 issn\T1/futs/m/n/12 : 0
 038092X.
  []
 
 
-Overfull \hbox (2.08977pt too wide) in paragraph at lines 73--73
+Overfull \hbox (2.08977pt too wide) in paragraph at lines 72--72
 []\T1/futs/m/n/12 S. Cros, O. Lian-drat, N. Se-bastien, and N. Schmutz. ``EX-TR
 ACT-ING CLOUD
  []
 
 
-Overfull \hbox (0.42184pt too wide) in paragraph at lines 73--73
+Overfull \hbox (0.42184pt too wide) in paragraph at lines 72--72
 \T1/futs/m/n/12 MO-TION VEC-TORS FROM SATEL-LITE IM-AGES FOR SO-LAR Cros S ., L
 ian-
  []
 
-[125]
-Overfull \hbox (3.7146pt too wide) in paragraph at lines 73--73
+[129]
+Overfull \hbox (3.7146pt too wide) in paragraph at lines 72--72
 \T1/futs/m/n/12 com-po-nent anal-y-sis''. In: \T1/futs/m/it/12 Twenty-first in-
 ter-na-tional con-fer-ence on Ma-chine
  []
 
 
-Overfull \hbox (9.35532pt too wide) in paragraph at lines 73--73
+Overfull \hbox (9.35532pt too wide) in paragraph at lines 72--72
 \T1/futs/m/it/12 learn-ing - ICML '04 \T1/futs/m/n/12 (2004), p. 29. \T1/futs/m
 /sc/12 issn\T1/futs/m/n/12 : 1581138385. \T1/futs/m/sc/12 doi\T1/futs/m/n/12 : 
 [][]$\T1/cmtt/m/n/12 10 . 1145 / 1015330 .
  []
 
 
-Overfull \hbox (35.03452pt too wide) in paragraph at lines 73--73
+Overfull \hbox (35.03452pt too wide) in paragraph at lines 72--72
 \T1/futs/m/n/12 ment Pro-gramme (IDMP) and its web server''. In: \T1/futs/m/it/
 12 PUBLICATIONS-COMMISSION
  []
 
-[126]
-Overfull \hbox (12.9269pt too wide) in paragraph at lines 73--73
+[130]
+Overfull \hbox (12.9269pt too wide) in paragraph at lines 72--72
 \T1/futs/m/n/12 lar and hy-dro power: Sen-si-tiv-ity study to cli-mate char-ac-
 ter-is-tics in Northern-
  []
 
 
-Overfull \hbox (36.58101pt too wide) in paragraph at lines 73--73
+Overfull \hbox (36.58101pt too wide) in paragraph at lines 72--72
 \T1/futs/m/sc/12 doi\T1/futs/m/n/12 : [][]$\T1/cmtt/m/n/12 10 . 1016 / J . APEN
 ERGY . 2018 . 11 . 052$[][]\T1/futs/m/n/12 . \T1/futs/m/sc/12 url\T1/futs/m/n/1
 2 : [][]$\T1/cmtt/m/n/12 https : / / www . sciencedirect .
  []
 
-[127]
-Overfull \hbox (4.4345pt too wide) in paragraph at lines 73--73
+[131]
+Overfull \hbox (4.4345pt too wide) in paragraph at lines 72--72
 \T1/futs/m/n/12 based on cir-cu-la-tion types''. In: \T1/futs/m/it/12 The-o-ret
 -i-cal and Ap-plied Cli-ma-tol-ogy \T1/futs/m/n/12 110.1-
  []
 
 
-Overfull \hbox (1.2935pt too wide) in paragraph at lines 73--73
+Overfull \hbox (1.2935pt too wide) in paragraph at lines 72--72
 \T1/futs/m/n/12 Penin-sula and the Balearic Is-lands''. In: \T1/futs/m/it/12 Wi
 nd En-ergy \T1/futs/m/n/12 19.7 (2016), pp. 1223^^U
  []
 
 
-Overfull \hbox (4.34686pt too wide) in paragraph at lines 73--73
+Overfull \hbox (4.34686pt too wide) in paragraph at lines 72--72
 \T1/futs/m/n/12 1237. \T1/futs/m/sc/12 issn\T1/futs/m/n/12 : 10991824. \T1/futs
 /m/sc/12 doi\T1/futs/m/n/12 : [][]$\T1/cmtt/m/n/12 10 . 1002 / we . 1893$[][]\T
 1/futs/m/n/12 . arXiv: [][]$\T1/cmtt/m/n/12 arXiv : 1006 . 4405v1$[][]\T1/futs/
@@ -9709,312 +9859,312 @@ m/n/12 .
  []
 
 
-Overfull \hbox (5.59244pt too wide) in paragraph at lines 73--73
+Overfull \hbox (5.59244pt too wide) in paragraph at lines 72--72
 \T1/cmtt/m/n/12 com / science / article / abs / pii / S0034425798000315 ? via{\
  % }3Dihub$[][]\T1/futs/m/n/12 . 
  []
 
-[128]
-Overfull \hbox (6.05322pt too wide) in paragraph at lines 73--73
+[132]
+Overfull \hbox (6.05322pt too wide) in paragraph at lines 72--72
 \T1/futs/m/n/12 On-tario, Canada''. In: \T1/futs/m/it/12 Re-new-able En-ergy \T
 1/futs/m/n/12 36.1 (2011), pp. 97^^U107. \T1/futs/m/sc/12 issn\T1/futs/m/n/12 :
  0960-
  []
 
 
-Overfull \hbox (18.16779pt too wide) in paragraph at lines 73--73
+Overfull \hbox (18.16779pt too wide) in paragraph at lines 72--72
 \T1/futs/m/it/12 mu-ni-ca-tions \T1/futs/m/n/12 6 (2015), p. 10014. \T1/futs/m/
 sc/12 issn\T1/futs/m/n/12 : 2041-1723. \T1/futs/m/sc/12 doi\T1/futs/m/n/12 : []
 []$\T1/cmtt/m/n/12 10 . 1038 / ncomms10014$[][]\T1/futs/m/n/12 .
  []
 
-[129]
-Overfull \hbox (3.99286pt too wide) in paragraph at lines 73--73
+[133]
+Overfull \hbox (3.99286pt too wide) in paragraph at lines 72--72
 []\T1/futs/m/n/12 Pedro Jimenez-Guerrero, Juan Jose Gomez-Navarro, So-nia Jerez
 , et al. ``Iso-
  []
 
 
-Overfull \hbox (1.32712pt too wide) in paragraph at lines 73--73
+Overfull \hbox (1.32712pt too wide) in paragraph at lines 72--72
 []\T1/futs/m/n/12 Martin Jantsch, Herib-ert Schmidt, and J¸r-gen Schmid. ``Re-s
 ults of the con-
  []
 
 
-Overfull \hbox (8.12143pt too wide) in paragraph at lines 73--73
+Overfull \hbox (8.12143pt too wide) in paragraph at lines 72--72
 \T1/futs/m/n/12 Iberian Penin-sula''. In: \T1/futs/m/it/12 En-vi-ron-men-tal Re
 -search Let-ters \T1/futs/m/n/12 8.4 (2013), p. 044035.
  []
 
 
-Overfull \hbox (10.7135pt too wide) in paragraph at lines 73--73
+Overfull \hbox (10.7135pt too wide) in paragraph at lines 72--72
 \T1/futs/m/n/12 dent on the amount and type of cloud''. In: \T1/futs/m/it/12 So
 -lar En-ergy \T1/futs/m/n/12 24.2 (1980), pp. 177^^U
  []
 
 
-Overfull \hbox (48.80688pt too wide) in paragraph at lines 73--73
+Overfull \hbox (48.80688pt too wide) in paragraph at lines 72--72
 [][]$\T1/cmtt/m/n/12 https : / / www . sciencedirect . com / science / article 
 / pii / 0038092X80903916$[][]\T1/futs/m/n/12 . 
  []
 
 
-Overfull \hbox (11.05914pt too wide) in paragraph at lines 73--73
+Overfull \hbox (11.05914pt too wide) in paragraph at lines 72--72
 []\T1/futs/m/n/12 V Kostylev, A Pavlovski, et al. ``So-lar power fore-cast-ing 
 performance--towards
  []
 
-[130]
-Overfull \hbox (32.64915pt too wide) in paragraph at lines 73--73
+[134]
+Overfull \hbox (32.64915pt too wide) in paragraph at lines 72--72
 \T1/futs/m/n/12 tion}*''. In: \T1/futs/m/it/12 So-lar En-ergy \T1/futs/m/n/12 4
 .3 (1960), pp. 1^^U19. \T1/futs/m/sc/12 url\T1/futs/m/n/12 : [][]$\T1/cmtt/m/n/
 12 http : / / www . sciencedirect .
  []
 
 
-Overfull \hbox (14.8439pt too wide) in paragraph at lines 73--73
+Overfull \hbox (14.8439pt too wide) in paragraph at lines 72--72
 \T1/futs/m/n/12 Mediter-ranean Ex-per-i-ment/Aerosol Di-rect Ra-dia-tive Forc-i
 ng on the Mediter-
  []
 
 
-Overfull \hbox (18.18881pt too wide) in paragraph at lines 73--73
+Overfull \hbox (18.18881pt too wide) in paragraph at lines 72--72
 []\T1/futs/m/n/12 Javier Mar-cos, Luis Mar-royo, Ed-uardo Lorenzo, and Miguel G
 arc??a. ``Smooth-
  []
 
 
-./tesis.tex:73: Package inputenc Error: Unicode char ÓÄÅ (U+E001)
+./tesis.tex:72: Package inputenc Error: Unicode char ÓÄÅ (U+E001)
 (inputenc)                not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.73 
+l.72 
      
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-./tesis.tex:73: Package inputenc Error: Unicode char ÓÄÅ (U+E001)
+./tesis.tex:72: Package inputenc Error: Unicode char ÓÄÅ (U+E001)
 (inputenc)                not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.73 
+l.72 
      
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (9.83151pt too wide) in paragraph at lines 73--73
+Overfull \hbox (9.83151pt too wide) in paragraph at lines 72--72
 \T1/futs/m/n/12 and so-lar re-sources for en-ergy pro-duc-tion in Italy. A Mont
 e Carlo ap-proach''.
  []
 
-[131]
-Overfull \hbox (30.40752pt too wide) in paragraph at lines 73--73
+[135]
+Overfull \hbox (30.40752pt too wide) in paragraph at lines 72--72
 \T1/futs/m/sc/12 doi\T1/futs/m/n/12 : [][]$\T1/cmtt/m/n/12 10 . 1016 / J . SOLE
 NER . 2013 . 02 . 023$[][]\T1/futs/m/n/12 . \T1/futs/m/sc/12 url\T1/futs/m/n/12
  : [][]$\T1/cmtt/m/n/12 https : / / www . sciencedirect .
  []
 
 
-Overfull \hbox (1.33191pt too wide) in paragraph at lines 73--73
+Overfull \hbox (1.33191pt too wide) in paragraph at lines 72--72
 \T1/futs/m/n/12 monthly tro-po-spheric aerosol op-ti-cal depth dis-tri-bu-tion 
 over the Mediter-
  []
 
 
-Overfull \hbox (5.57997pt too wide) in paragraph at lines 73--73
+Overfull \hbox (5.57997pt too wide) in paragraph at lines 72--72
 \T1/futs/m/n/12 ranean re-gion from a com-par-a-tive eval-u-a-tion and blend-in
 g of re-mote sens-
  []
 
 
-Overfull \hbox (4.07451pt too wide) in paragraph at lines 73--73
+Overfull \hbox (4.07451pt too wide) in paragraph at lines 72--72
 \T1/futs/m/n/12 ing and model prod-ucts''. In: \T1/futs/m/it/12 At-mo-spheric M
 ea-sure-ment Tech-niques \T1/futs/m/n/12 (2013).
  []
 
 
-Overfull \hbox (5.19952pt too wide) in paragraph at lines 73--73
+Overfull \hbox (5.19952pt too wide) in paragraph at lines 72--72
 \T1/futs/m/n/12 Mar-tin Wild. ``Con-tri-bu-tion of an-thro-pogenic sul-fate aer
 osols to the chang-
  []
 
 
-Overfull \hbox (2.0345pt too wide) in paragraph at lines 73--73
+Overfull \hbox (2.0345pt too wide) in paragraph at lines 72--72
 \T1/futs/m/n/12 ing Euro-Mediterranean cli-mate since 1980''. In: \T1/futs/m/it
 /12 Geo-phys-i-cal Re-search Let-
  []
 
 
-Overfull \hbox (5.19952pt too wide) in paragraph at lines 73--73
+Overfull \hbox (5.19952pt too wide) in paragraph at lines 72--72
 \T1/futs/m/n/12 Mar-tin Wild. ``Con-tri-bu-tion of an-thro-pogenic sul-fate aer
 osols to the chang-
  []
 
 
-Overfull \hbox (2.0345pt too wide) in paragraph at lines 73--73
+Overfull \hbox (2.0345pt too wide) in paragraph at lines 72--72
 \T1/futs/m/n/12 ing Euro-Mediterranean cli-mate since 1980''. In: \T1/futs/m/it
 /12 Geo-phys-i-cal Re-search Let-
  []
 
 
-Overfull \hbox (25.19319pt too wide) in paragraph at lines 73--73
+Overfull \hbox (25.19319pt too wide) in paragraph at lines 72--72
 \T1/futs/m/it/12 ters \T1/futs/m/n/12 41.15 (2014), pp. 5605^^U5611. \T1/futs/m
 /sc/12 issn\T1/futs/m/n/12 : 19448007. \T1/futs/m/sc/12 doi\T1/futs/m/n/12 : []
 []$\T1/cmtt/m/n/12 10 . 1002 / 2014GL060798$[][]\T1/futs/m/n/12 .
  []
 
 
-Overfull \hbox (4.4969pt too wide) in paragraph at lines 73--73
+Overfull \hbox (4.4969pt too wide) in paragraph at lines 72--72
 []\T1/futs/m/n/12 Ina Ne-her, Tina Buch-mann, Su-sanne Crewell, et al. ``Im-pac
 t of at-mo-spheric
  []
 
-[132]
-Overfull \hbox (0.87892pt too wide) in paragraph at lines 73--73
+[136]
+Overfull \hbox (0.87892pt too wide) in paragraph at lines 72--72
 \T1/futs/m/n/12 face Ra-di-a-tion Net-work (BSRN/WCRP): New Pre-ci-sion Ra-diom
 -e-try for Cli-
  []
 
 
-Overfull \hbox (8.08867pt too wide) in paragraph at lines 73--73
+Overfull \hbox (8.08867pt too wide) in paragraph at lines 72--72
 [][]$\T1/cmtt/m/n/12 10 . 1016 / S0927 -[] 0248(97 ) 00050 -[] 0$[][]\T1/futs/m
 /n/12 . \T1/futs/m/sc/12 url\T1/futs/m/n/12 : [][]$\T1/cmtt/m/n/12 https : / / 
 www . sciencedirect .
  []
 
 
-Overfull \hbox (4.2334pt too wide) in paragraph at lines 73--73
+Overfull \hbox (4.2334pt too wide) in paragraph at lines 72--72
 \T1/futs/m/n/12 to-voltaic Sys-tems''. In: \T1/futs/m/it/12 Prac-ti-cal Hand-bo
 ok of Pho-to-voltaics \T1/futs/m/n/12 (2012), pp. 573^^U
  []
 
-[133]
-Overfull \hbox (17.93942pt too wide) in paragraph at lines 73--73
+[137]
+Overfull \hbox (17.93942pt too wide) in paragraph at lines 72--72
 \T1/cmtt/m/n/12 / / www . sciencedirect . com / science / article / pii / S0038
 092X12004197$[][]\T1/futs/m/n/12 . 
  []
 
 
-Overfull \hbox (2.66444pt too wide) in paragraph at lines 73--73
+Overfull \hbox (2.66444pt too wide) in paragraph at lines 72--72
 [][]$\T1/cmtt/m/n/12 https : / / github . com / oscarperpinan / wavCorPVhttp : 
 / / linkinghub .
  []
 
 
-Overfull \hbox (42.24203pt too wide) in paragraph at lines 73--73
+Overfull \hbox (42.24203pt too wide) in paragraph at lines 72--72
 \T1/futs/m/sc/12 url\T1/futs/m/n/12 : [][]$\T1/cmtt/m/n/12 http : / / linkinghu
 b . elsevier . com / retrieve / pii / S1364032114009459$[][]\T1/futs/m/n/12 . 
  []
 
 
-Overfull \hbox (1.11052pt too wide) in paragraph at lines 73--73
+Overfull \hbox (1.11052pt too wide) in paragraph at lines 72--72
 \T1/futs/m/n/12 in-ter-na-tional com-par-i-son''. In: \T1/futs/m/it/12 Re-mote 
 Sens-ing of En-vi-ron-ment \T1/futs/m/n/12 118 (2012),
  []
 
 
-Overfull \hbox (1.71042pt too wide) in paragraph at lines 73--73
+Overfull \hbox (1.71042pt too wide) in paragraph at lines 72--72
 \T1/futs/m/n/12 ro-pean North At-lantic re-gion''. In: \T1/futs/m/it/12 Geo-phy
 s-i-cal Re-search Let-ters \T1/futs/m/n/12 31.5 (2004),
  []
 
 
-Overfull \hbox (12.50807pt too wide) in paragraph at lines 73--73
+Overfull \hbox (12.50807pt too wide) in paragraph at lines 72--72
 \T1/futs/m/it/12 Sur-face: Re-cent Ad-vances\T1/futs/m/n/12 . Ed. by Viorel Bad
 e-scu. Berlin, Hei-del-berg: Springer
  []
 
-[134]
-Overfull \hbox (7.34875pt too wide) in paragraph at lines 73--73
+[138]
+Overfull \hbox (7.34875pt too wide) in paragraph at lines 72--72
 \T1/futs/m/n/12 and J. Tovar-Pescador. ``Anal-y-sis of spa-tiotem-po-ral bal-an
 c-ing be-tween wind
  []
 
 
-Overfull \hbox (25.5755pt too wide) in paragraph at lines 73--73
+Overfull \hbox (25.5755pt too wide) in paragraph at lines 72--72
 []\T1/futs/m/n/12 Stan Sal-vador and Philip Chan. ``De-ter-min-ing the num-ber 
 of clus-ters/segments
  []
 
 
-Overfull \hbox (14.62007pt too wide) in paragraph at lines 73--73
+Overfull \hbox (14.62007pt too wide) in paragraph at lines 72--72
 \T1/futs/m/sc/12 url\T1/futs/m/n/12 : [][]$\T1/cmtt/m/n/12 http : / / ieeexplor
 e . ieee . org / xpl / login . jsp ? tp = {\ & }arnumber =
  []
 
 
-Overfull \hbox (21.37332pt too wide) in paragraph at lines 73--73
+Overfull \hbox (21.37332pt too wide) in paragraph at lines 72--72
 \T1/futs/m/it/12 Me-te-o-rol-ogy and Oceanog-ra-phy \T1/futs/m/n/12 66.1 (2014)
 , p. 23967. \T1/futs/m/sc/12 doi\T1/futs/m/n/12 : [][]$\T1/cmtt/m/n/12 10 . 340
 2 / tellusa .
  []
 
 
-Overfull \hbox (9.07733pt too wide) in paragraph at lines 73--73
+Overfull \hbox (9.07733pt too wide) in paragraph at lines 72--72
 \T1/futs/m/n/12 sireu, and Maria He-lena Con-stantino Spyrides. ``Com-ple-men-t
 ar-ity of Brazils
  []
 
-[135]
-Overfull \hbox (9.36293pt too wide) in paragraph at lines 73--73
+[139]
+Overfull \hbox (9.36293pt too wide) in paragraph at lines 72--72
 \T1/futs/m/n/12 a-tion in Spain: Build-ing a ho-mo-ge-neous dataset and as-sess
 -ing their trends''.
  []
 
 
-Overfull \hbox (0.23445pt too wide) in paragraph at lines 73--73
+Overfull \hbox (0.23445pt too wide) in paragraph at lines 72--72
 \T1/futs/m/n/12 Scale Stor-age of Re-new-able En-ergy''. In: \T1/futs/m/it/12 T
 he Elec-tric-ity Jour-nal \T1/futs/m/n/12 17.6 (2004),
  []
 
 
-Overfull \hbox (54.98038pt too wide) in paragraph at lines 73--73
+Overfull \hbox (54.98038pt too wide) in paragraph at lines 72--72
 [][]$\T1/cmtt/m/n/12 https : / / www . sciencedirect . com / science / article 
 / pii / S1040619004000594$[][]\T1/futs/m/n/12 . 
  []
 
 
-Overfull \hbox (4.89294pt too wide) in paragraph at lines 73--73
+Overfull \hbox (4.89294pt too wide) in paragraph at lines 72--72
 []\T1/futs/m/n/12 Ina Tegen, Pe-ter Holl-rig, Mian Chin, et al. ``Con-tri-bu-ti
 on of dif-fer-ent aerosol
  []
 
 
-Overfull \hbox (5.92491pt too wide) in paragraph at lines 73--73
+Overfull \hbox (5.92491pt too wide) in paragraph at lines 72--72
 []\T1/futs/m/n/12 Isabelle To-bin, Robert Vau-tard, Irena Ba-log, et al. ``As-s
 ess-ing cli-mate change
  []
 
 
-Overfull \hbox (19.35107pt too wide) in paragraph at lines 73--73
+Overfull \hbox (19.35107pt too wide) in paragraph at lines 72--72
 []\T1/futs/m/n/12 Christophe Ver-nay, SÈbastien Pitaval, and Philippe Blanc. ``
 Re-view of Satellite-
  []
 
 
-Overfull \hbox (1.70572pt too wide) in paragraph at lines 73--73
+Overfull \hbox (1.70572pt too wide) in paragraph at lines 72--72
 \T1/futs/m/n/12 based Sur-face So-lar Ir-ra-di-a-tion Databases for the En-gi-n
 eer-ing, the Fi-nanc-
  []
 
-[136]
-Overfull \hbox (4.71295pt too wide) in paragraph at lines 73--73
+[140]
+Overfull \hbox (4.71295pt too wide) in paragraph at lines 72--72
 []\T1/futs/m/n/12 Martin Wild, Hans Gilgen, An-dreas Roesch, et al. ``From dim-
 ming to bright-
  []
 
-[137]
-Overfull \hbox (0.15085pt too wide) in paragraph at lines 73--73
+[141]
+Overfull \hbox (0.15085pt too wide) in paragraph at lines 72--72
 \T1/futs/m/n/12 op-er-a-tions''. In: \T1/futs/m/it/12 So-lar En-ergy \T1/futs/m
 /n/12 102 (2014), pp. 173^^U188. \T1/futs/m/sc/12 issn\T1/futs/m/n/12 : 0038092
 X. \T1/futs/m/sc/12 doi\T1/futs/m/n/12 :
@@ -10024,42 +10174,36 @@ X. \T1/futs/m/sc/12 doi\T1/futs/m/n/12 :
 Class memoir Warning: The material used in the headers is too large
 (28.99998pt) for the given head height (14.5pt), it is recommended to
 either increase the head height or redesign the header
-(in both cases you will find help in the memoir manual). on input line 75.
+(in both cases you will find help in the memoir manual). on input line 74.
 
-[138]
+[142]
 \tf@toc=\write7
 \openout7 = `tesis.toc'.
 
 
 
-./tesis.tex:75: LaTeX Error: \begin{itemize} on input line 135 ended by \end{do
+./tesis.tex:74: LaTeX Error: \begin{itemize} on input line 135 ended by \end{do
 cument}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.75 \end{document}
+l.74 \end{document}
                    
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 75.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 75.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 74.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 74.
 (./tesis.aux (./preface.aux) (./Intro.aux) (./DataMethods.aux)
 (./Resultados.aux) (./Discusion.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 75.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 75.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 74.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 74.
+Package rerunfilecheck Info: File `tesis.out' has not changed.
+(rerunfilecheck)             Checksum: 633BB4C77AFA99230F7206374E453E34;8850.
 
-
-Package rerunfilecheck Warning: File `tesis.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `tesis.out':
-(rerunfilecheck)             Before: 9249595638989E3C97B83E31D37A8C6F;9008
-(rerunfilecheck)             After:  1FC1E8636DD5AE7ED2CCA5BE22335195;8760.
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 3.35835pt have occurred.
@@ -10085,33 +10229,31 @@ Package logreq Info: Writing requests to 'tesis.run.xml'.
 ### bottom level
 (\end occurred when \iftrue on line 8 was incomplete) 
 Here is how much of TeX's memory you used:
- 32804 strings out of 493029
- 579814 string characters out of 6136234
- 942598 words of memory out of 5000000
- 35428 multiletter control sequences out of 15000+600000
+ 32828 strings out of 493029
+ 580562 string characters out of 6136234
+ 942968 words of memory out of 5000000
+ 35441 multiletter control sequences out of 15000+600000
  239760 words of font info for 291 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,23n,65p,10422b,1699s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): nam
-e{section*.53} has been referenced but does not exist, replaced by a fixed one
-
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texlive/
-texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
-ic/fourier/fourier-mex.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/fo
-urier/fourier-ml.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/fourier/
-fourier-mlit.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/fourier/four
-ier-ms.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mathpazo/fplmri.pf
-b></usr/share/texlive/texmf-dist/fonts/type1/adobe/utopia/putb8a.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/adobe/utopia/putri8a.pfb></usr/share/texmf/fonts/type1/pub
-lic/cm-super/sftt1200.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palati
-no/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pf
-b></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on tesis.pdf (146 pages, 20958228 bytes).
+{/usr/share/texmf/fonts/en
+c/dvips/cm-super/cm-super-t1.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips
+/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr1
+0.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/fourier/fourier-mex.pfb
+></usr/share/texlive/texmf-dist/fonts/type1/public/fourier/fourier-ml.pfb></usr
+/share/texlive/texmf-dist/fonts/type1/public/fourier/fourier-mlit.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/public/fourier/fourier-ms.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/adobe/utopia/putb8a.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/adobe/utopia/putr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/adobe
+/utopia/putri8a.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1200.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on tesis.pdf (150 pages, 22886050 bytes).
 PDF statistics:
- 2402 PDF objects out of 2487 (max. 8388607)
- 2067 compressed objects within 21 object streams
- 463 named destinations out of 1000 (max. 500000)
- 660 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2445 PDF objects out of 2487 (max. 8388607)
+ 2100 compressed objects within 21 object streams
+ 471 named destinations out of 1000 (max. 500000)
+ 667 words of extra memory for PDF output out of 10000 (max. 10000000)
 
