@@ -998,6 +998,52 @@
   \warn{\item Invalid format of field 'month'}
 \endentry
 
+\entry{Cano1986}{article}{}
+  \name{author}{6}{}{%
+    {{}%
+     {Cano}{C.}%
+     {Daniel}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Monget}{M.}%
+     {Jean-Marie}{J.-M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Albuisson}{A.}%
+     {Michel}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Guillard}{G.}%
+     {Herv{\'e}}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Regas}{R.}%
+     {Nathalie}{N.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Wald}{W.}%
+     {Lucien}{L.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{CD+1}
+  \strng{fullhash}{CDMJMAMGHRNWL1}
+  \field{labelalpha}{Can+86}
+  \field{sortinit}{C}
+  \field{number}{1}
+  \field{pages}{31\bibrangedash 39}
+  \field{title}{A method for the determination of the global solar radiation
+  from meteorological satellites data}
+  \field{volume}{37}
+  \field{journaltitle}{Solar energy}
+  \field{year}{1986}
+\endentry
+
 \entry{Cavicchia2016}{article}{}
   \name{author}{16}{}{%
     {{}%
@@ -1869,6 +1915,45 @@
   \field{sortinit}{D}
   \field{title}{Solar Power Forecasting: A Review}
   \field{year}{2017}
+\endentry
+
+\entry{Diabate1987}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Diabat{\'e}}{D.}%
+     {Lamissa}{L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Demarcq}{D.}%
+     {Herv{\'e}}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Michaud-Regas}{M.-R.}%
+     {Nathalie}{N.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Wald}{W.}%
+     {Lucien}{L.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Taylor \& Francis}%
+  }
+  \strng{namehash}{DL+1}
+  \strng{fullhash}{DLDHMRNWL1}
+  \field{labelalpha}{Dia+87}
+  \field{sortinit}{D}
+  \field{number}{5-6}
+  \field{pages}{261\bibrangedash 278}
+  \field{title}{Estimating incident solar radiation at the surface from images
+  of the Earth transmitted by geostationary satellites: the Heliosat Project}
+  \field{volume}{5}
+  \field{journaltitle}{International Journal of Solar Energy}
+  \field{year}{1987}
 \endentry
 
 \entry{dumortier1999status}{article}{}
@@ -3687,6 +3772,36 @@
   \field{title}{{Long term satellite global, beam and diffuse irradiance
   validation}}
   \field{year}{2014}
+\endentry
+
+\entry{Ineichen1999}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Ineichen}{I.}%
+     {Pierre}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Perez}{P.}%
+     {Richard}{R.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Springer}%
+  }
+  \strng{namehash}{IPPR1}
+  \strng{fullhash}{IPPR1}
+  \field{labelalpha}{IP99}
+  \field{sortinit}{I}
+  \field{number}{1-2}
+  \field{pages}{119\bibrangedash 130}
+  \field{title}{Derivation of cloud index from geostationary satellites and
+  application to the production of solar irradiance and daylight illuminance
+  data}
+  \field{volume}{64}
+  \field{journaltitle}{Theoretical and Applied Climatology}
+  \field{year}{1999}
 \endentry
 
 \entry{Inman2013}{article}{}
@@ -5972,6 +6087,50 @@
   \field{year}{2012}
 \endentry
 
+\entry{mueller2009}{article}{}
+  \name{author}{5}{}{%
+    {{}%
+     {Mueller}{M.}%
+     {RW}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Matsoukas}{M.}%
+     {C}{C}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Gratzki}{G.}%
+     {A}{A}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Behr}{B.}%
+     {HD}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hollmann}{H.}%
+     {R}{R}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Elsevier}%
+  }
+  \strng{namehash}{MR+1}
+  \strng{fullhash}{MRMCGABHHR1}
+  \field{labelalpha}{Mue+09}
+  \field{sortinit}{M}
+  \field{number}{5}
+  \field{pages}{1012\bibrangedash 1024}
+  \field{title}{The CM-SAF operational scheme for the satellite based retrieval
+  of solar surface irradiance—A LUT based eigenvector hybrid approach}
+  \field{volume}{113}
+  \field{journaltitle}{Remote Sensing of Environment}
+  \field{year}{2009}
+\endentry
+
 \entry{muller2014rethinking}{article}{}
   \name{author}{4}{}{%
     {{}%
@@ -6043,7 +6202,7 @@
      {}{}%
      {}{}}%
   }
-  \strng{namehash}{MR+1}
+  \strng{namehash}{MR+2}
   \strng{fullhash}{MRPUTCCCRTJHR1}
   \field{labelalpha}{M{\"{u}}l+15}
   \field{sortinit}{M}
@@ -6071,11 +6230,6 @@
   \field{journaltitle}{EUMETSAT Satellite Application Facility on Climate
   Monitoring (CM SAF)}
   \field{year}{2015}
-\endentry
-
-\entry{Nabat2014a}{article}{}
-  \field{labelalpha}{Nab}
-  \field{sortinit}{N}
 \endentry
 
 \entry{Nabat2013}{article}{}
@@ -6259,7 +6413,6 @@
   \strng{namehash}{NP+2}
   \strng{fullhash}{NPSSMMSLAWM1}
   \field{labelalpha}{Nab+14}
-  \field{extraalpha}{1}
   \field{sortinit}{N}
   \field{abstract}{%
   Since the 1980s anthropogenic aerosols have been considerably reduced in
@@ -6322,8 +6475,7 @@
   }
   \strng{namehash}{NP+2}
   \strng{fullhash}{NPSSMMSFCMWM1}
-  \field{labelalpha}{Nab+14}
-  \field{extraalpha}{2}
+  \field{labelalpha}{Nab+15}
   \field{sortinit}{N}
   \verb{doi}
   \verb 10.1007/s00382-014-2205-6
@@ -6339,7 +6491,7 @@
   \endverb
   \field{volume}{44}
   \field{journaltitle}{Climate Dynamics}
-  \field{year}{2014}
+  \field{year}{2015}
   \warn{\item Invalid format of field 'month'}
 \endentry
 
@@ -7050,6 +7202,40 @@
   \field{volume}{15}
   \field{journaltitle}{Advances in Science and Research}
   \field{year}{2018}
+\endentry
+
+\entry{pinker1995}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Pinker}{P.}%
+     {RT}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Frouin}{F.}%
+     {R}{R}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Li}{L.}%
+     {Z}{Z}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Elsevier}%
+  }
+  \strng{namehash}{PRFRLZ1}
+  \strng{fullhash}{PRFRLZ1}
+  \field{labelalpha}{PFL95}
+  \field{sortinit}{P}
+  \field{number}{1}
+  \field{pages}{108\bibrangedash 124}
+  \field{title}{A review of satellite methods to derive surface shortwave
+  irradiance}
+  \field{volume}{51}
+  \field{journaltitle}{Remote Sensing of Environment}
+  \field{year}{1995}
 \endentry
 
 \entry{Perpinan2011}{article}{}
@@ -8274,6 +8460,30 @@
   \field{year}{2004}
 \endentry
 
+\entry{schmetz1989}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Schmetz}{S.}%
+     {Johannes}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Elsevier}%
+  }
+  \strng{namehash}{SJ1}
+  \strng{fullhash}{SJ1}
+  \field{labelalpha}{Sch89}
+  \field{sortinit}{S}
+  \field{number}{3-4}
+  \field{pages}{287\bibrangedash 321}
+  \field{title}{Towards a surface radiation climatology: Retrieval of downward
+  irradiances from satellites}
+  \field{volume}{23}
+  \field{journaltitle}{Atmospheric Research}
+  \field{year}{1989}
+\endentry
+
 \entry{nrel}{article}{}
   \name{author}{5}{}{%
     {{}%
@@ -8898,7 +9108,7 @@
   \field{year}{1997}
 \endentry
 
-\entry{tanre1984}{article}{}
+\entry{Tanre1984}{article}{}
   \name{author}{3}{}{%
     {{}%
      {Tanr{\'e}}{T.}%
@@ -10090,6 +10300,40 @@
   \endverb
   \field{journaltitle}{Solar Energy}
   \field{year}{2014}
+\endentry
+
+\entry{Zarzalejo2005}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Zarzalejo}{Z.}%
+     {Luis~F}{L.~F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ramirez}{R.}%
+     {Lourdes}{L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Polo}{P.}%
+     {Jesus}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Elsevier}%
+  }
+  \strng{namehash}{ZLFRLPJ1}
+  \strng{fullhash}{ZLFRLPJ1}
+  \field{labelalpha}{ZRP05}
+  \field{sortinit}{Z}
+  \field{number}{9}
+  \field{pages}{1685\bibrangedash 1697}
+  \field{title}{Artificial intelligence techniques applied to hourly global
+  irradiance estimation from satellite-derived cloud index}
+  \field{volume}{30}
+  \field{journaltitle}{Energy}
+  \field{year}{2005}
 \endentry
 
 \lossort

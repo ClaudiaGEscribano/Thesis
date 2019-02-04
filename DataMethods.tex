@@ -90,14 +90,13 @@ Satellite datasets have become one of the main used sources of solar iradition d
 
 There are different methods to retrieve solar radiation from satellite images that goes from physical models to empirical ones. In the first case, the models try to explain the radiance observed by the satellite instrumentation with a radiation transfer model (RTM). In order to do that, it is necessary to know the composition of the atmosphere. On the other hand, empirical models are based on simple regression models between the visible-channel's recorded intensity and grounded measurements. 
 
-It is possible to extract cloudiness information from the satellite radiance information due to the fact that intensity of the measurements change depending on the composition of the atmosphere and the cloud cover. Considering that, a simple equation can describe the relationship between the radiance measured and the amount of clouds, this was called \textbf{cloud index [Cano].}
+It is possible to extract cloudiness information from the satellite radiance information due to the fact that intensity of the measurements change depending on the composition of the atmosphere and the cloud cover. Considering that, a simple equation can describe the relationship between the radiance measured and the amount of clouds, this was called \textbf{cloud index} \cite*{Cano1986}
 
-To retrieve solar radiation form satellites, most empirical methods considers a linear relationship between the cloud index and atmospheric transmittance \cite*{Polo2008} [Polo libro, (Cano et al. 1986; Diabaté et al. 1988; Schmetz. 1989; Diabaté et al. 1989; Noia et al. 1993a; Ineichen and Perez. 1999; Zelenka et al. 1999; Perez 2002; Rigollier et al. 2004; Zarzalejo et al. 2005)].  
-
+To retrieve solar radiation form satellites, most empirical methods considers a linear relationship between the cloud index and atmospheric transmittance \cite*{Cano1986, Diabate1987, Ineichen1999, Zarzalejo2005, Polo2008}.  
 %* cloud index?
 %* clear sky index ?
 
-There are also some approaches that are in between theses two sides: the semi-empirical models, which have become the most common approach \cite*{Polo2008}. They use a simple radiative-transfer scheme and some statistical regressions between data from satellite sensors and observed data (Schmetz (1989), Noia et al. (1993), Pinker et al. (1995), Zelenka (2001), and Hammer et al (2003)).\footnote{Jan Kleiss, Solar Energy Forecasting and Resource assessment, pp.22.23}
+There are also some approaches that are in between theses two sides: the semi-empirical models, which have become the most common approach \cite*{Polo2008}. They use a simple radiative-transfer scheme and some statistical regressions between data from satellite sensors and observed data \cite*{schmetz1989, pinker1995}.\footnote{Jan Kleiss, Solar Energy Forecasting and Resource assessment, pp.22.23}
 
 % The importance of the cloud index concept bases on the fact that satellite
 % information (basically cloud cover information) can be related with the solar irradi-
@@ -136,7 +135,7 @@ The \textbf{clear sky index} can be defined as the ration betwen all-sky irradia
   k=1-CAL
 \end{equation}
 
-Clear sky radiation is obtained through the MAGIC algorithm (Muller2009) that consist on simulations of a radiative transfer model (RTM) and an interpolation method using discrete values of the RTM runs, which reduce the computational time (Muller2009). Inputs of atomspheric state are needed: aerosols, water vapour etc.. After that, with the knowdlege of the clear sky index and the the clear sky surface radiation, it can be derived the all-sky radiation at the surface. An scheme representing the proccess to obtain direct and global solar irradiation is presented in figure \ref{fig:algorithm}\\
+Clear sky radiation is obtained through the MAGIC algorithm \cite*{mueller2009} that consist on simulations of a radiative transfer model (RTM) and an interpolation method using discrete values of the RTM runs, which reduce the computational time \cite*{mueller2009}. Inputs of atomspheric state are needed: aerosols, water vapour etc. After that, with the knowdlege of the clear sky index and the the clear sky surface radiation, it can be derived the all-sky radiation at the surface. An scheme representing the proccess to obtain direct and global solar irradiation is presented in figure \ref{fig:algorithm}\\
 
 \begin{figure}
   \centering
@@ -145,7 +144,7 @@ Clear sky radiation is obtained through the MAGIC algorithm (Muller2009) that co
  \label{fig:algorithm}
 \end{figure}
 
-Information about \textbf{aerosols} to be used in the MAGIC algorithm is obtained from the ECMWF-MACC reanalyses. The MACC (ref) data is a combination of a model for aerosol composition and dynamic \cite*{Morcrette2009} and a data assimilation system (Benedetti et al 2009). Monthly mean aerosol information is included in the algorithm to obtain clear sky irradiation. The MACC data has to be regridded to a higher resolution 0.5x0.5 to the use within CM-SAF.
+Information about \textbf{aerosols} to be used in the MAGIC algorithm is obtained from the ECMWF-MACC reanalyses. The MACC (ref) data is a combination of a model for aerosol composition and dynamic \cite*{Morcrette2009} and a data assimilation system \cite*{Benedetti2009}. Monthly mean aerosol information is included in the algorithm to obtain clear sky irradiation. The MACC data has to be regridded to a higher resolution 0.5x0.5 to the use within CM-SAF.
 
 %{\color{red} Poner algo más acerca del método. Puede ser de ayuda también para ver como se incluyen los aerosoles. Incluyo una imagen del esquema que hice del proceso de obtención de la radiación con los datos del satélite y podría estar bien incluir.}
 
@@ -182,7 +181,7 @@ Two different domains from CORDEX are used in this study both focus on the Medit
     \label{fig:cordexdomain}
 \end{figure}
 
-Main difference between the two initiatives, in addition to the studied domain represented in figure \ref{fig:cordexdomain}, is that simulations from MED-CORDEX are runs from coupled ocean-atmosphere climate models, whereas the EURO-CORDEX ensemble inludes only atmosphere models. %(¿?o indistintamente)
+Main difference between the two initiatives, in addition to the studied domain represented in figure \ref{fig:cordexdomain}, is that simulations from MED-CORDEX \cite*{Ruti2016} are runs from coupled ocean-atmosphere climate models, whereas the EURO-CORDEX \cite*{Jacob2010} ensemble inludes only atmosphere models. %(¿?o indistintamente)
 
 %{\color{red} Incluir como mucho la diferencia entre MED y EURO cordex así como FPS}
 
@@ -225,18 +224,17 @@ Atmospheric aerosols content can be summarized by the AOD, aerosol optical depth
 
 From the measurements side, the \textbf{AERONET} network \cite*{Holben1998} was initiated by NASA in the 90s and it has grown to become a widely spread network of radiometers accross different continents based on international cooperation. This ground-based aerosols monitoring network allows to characterize from local to global profiles directly related with earth's radiation budget studies. It has become also an important database for evaluation of satellite derived and model AOD products.
 
-There are different datasets for the Mediterranean area, very influenced by natural and antrophogenic aerosols derived from satellite observations, like MODIS, MISR, or SEVIRI; or from model simulations like Reg-CM4 or MACC reanalysis. The first intercomparison of aerosols datasets can be found in \cite*{Nabat2013} where an improved 4-D climatoloy of aerosols is developed for the area.
+There are different aerosols datasets for the \textbf{Mediterranean area}, very influenced by natural and antrophogenic aerosols \cite*{Lelieveld}, derived from satellite observations like MODIS, MISR, or SEVIRI; or from model simulations like LMDz-OR-INCAR or MACC reanalysis. The first intercomparison of aerosols datasets can be found in \cite*{Nabat2013} where an improved 4-D climatoloy of aerosols is developed for the area.
 
 \subsection{Aerosols in RCMs}
 
-{\color{red} reescribir con la info del paper de pierre}
-The representation of aerosols in RCMs depends on the model. The AOD is used for calculating aerosols radiating forcing in RCMs simulations. In spite of the fact that some studies have shown the influence of anthropogenic aerosols in Europe climate variability [ref] and its influence in the brightening period over Europe (1980-2012), the representation of aerosols in RCMs is still scarce. Some include a fixed climatology of AOD like Tegen or the old one of Tanré, whereas other do not include any aerosols for their simulations. The most complex include an interactive squeme, that is necessary for daily scales and also for future projections.
+The representation of aerosols in RCMs varies from one model to the other. Depsite of the high influence of aerosols in the Mediterranean climate variability \cite*{Nabat2015} and its role in the brightening period over Europe (1980-2012) that has been also investigated \cite*{Nabat2015, Nabat2015a, Wild2009}, the representation of aerosols in RCMs is still scarce. The AOD is used for calculating aerosols radiating forcing in RCMs simulations. Some of the RCMs simulation include a fixed climatology of AOD, like Tegen or the old one of Tanré \cite*{Tegen1997, Tanre1984}, whereas other do not include any aerosols for their simulations. The most complex include an interactive squeme, that is necessary for daily scales and also for future projections.
 
-Up to now, only in [nabat2014], simulations with ALADIN-RCSM4 are able to reproduce SSR trends over Europe in past decades after applying an interannual aerosols dataset described in [nabat 2013]. A more recent study includes ammoniun and nitrates species for long simulations (197-2016) over the Euro-Mediterranean area with the same RCMs (ALADIN-RCSM) with an interactive aerosol scheme. [drughe, tactic]
+%Up to now, only in [nabat2014], simulations with ALADIN-RCSM4 are able to reproduce SSR trends over Europe in past decades after applying an interannual aerosols dataset described in \cite*{Nabat2013}. A more recent study includes ammoniun and nitrates species for long simulations (197-2016) over the Euro-Mediterranean area with the same RCMs (ALADIN-RCSM) with an interactive aerosol scheme. [drughe, tactic]
 
 In future climate projections over the Euro-Mediterranean area with RCMs (under the MED-CORDEX or EURO-CORDEX frame), few models include aerosols time evolution. Most of them include a fixed climatoloy for present climate conditions that is also applied invariantly for future projections. The models that include time evolving aerosols in their runs apply different inventories: Szopa 2013, Lamarqué 2010 etc.
 
-Information about aerosols datasets and description (prescribed, interactive schemes etc.) is not an information easy to access from the website where climate projections users can download different simulations. Instead, a task of complile information from modellers is needed, which difficults the process. In next table a summary of the known aerosols information of climate simulations from EURO-CORDEX is included.
+Information about aerosols datasets and description (prescribed, interactive schemes etc.) is not an information easy to access from the website where climate projections users can download different simulations. Instead, a task of compliling information from modellers is needed, which difficults the process. %In next table a summary of the known aerosols information of climate simulations from EURO-CORDEX is included.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
