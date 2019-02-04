@@ -248,9 +248,6 @@
   \endverb
   \field{issn}{13640321}
   \field{pages}{248\bibrangedash 261}
-  \field{title}{{Comparative assessment of global irradiation from a satellite
-  estimate model (CM SAF) and on-ground measurements (SIAR): A Spanish case
-  study}}
   \verb{url}
   \verb http://linkinghub.elsevier.com/retrieve/pii/S1364032112007368
   \endverb
@@ -835,6 +832,110 @@
   \field{year}{2006}
 \endentry
 
+\entry{boucher2015}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Boucher}{B.}%
+     {Olivier}{O.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Springer}%
+  }
+  \strng{namehash}{BO1}
+  \strng{fullhash}{BO1}
+  \field{labelalpha}{Bou15}
+  \field{sortinit}{B}
+  \field{title}{Atmospheric aerosols: Properties and climate impacts}
+  \field{year}{2015}
+\endentry
+
+\entry{Bryce2018}{article}{}
+  \name{author}{6}{}{%
+    {{}%
+     {Bryce}{B.}%
+     {Richard}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Losada Carre{\~{n}}o}}{L.}%
+     {Ignacio}{I.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kumler}{K.}%
+     {Andrew}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hodge}{H.}%
+     {Bri-Mathias}{B.-M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Roberts}{R.}%
+     {Billy}{B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Brancucci Martinez-Anido}}{B.}%
+     {Carlo}{C.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Pergamon}%
+  }
+  \strng{namehash}{BR+1}
+  \strng{fullhash}{BRLIKAHBMRBBC1}
+  \field{labelalpha}{Bry+18}
+  \field{sortinit}{B}
+  \field{abstract}{%
+  The interannual variability of the solar irradiance and meteorological
+  conditions are often ignored in favor of single-year data sets for modeling
+  power generation and evaluating the economic value of photovoltaic (PV) power
+  systems. Yet interannual variability significantly impacts the generation
+  from one year to another of renewable power systems such as wind and PV.
+  Consequently, the interannual variability of power generation corresponds to
+  the interannual variability of capital returns on investment. The penetration
+  of PV systems within the Hawaiian Electric Companies' portfolio has rapidly
+  accelerated in recent years and is expected to continue to increase given the
+  state's energy objectives laid out by the Hawaii Clean Energy Initiative. We
+  use the National Solar Radiation Database (1998–2015) to characterize the
+  interannual variability of the solar irradiance and meteorological conditions
+  across the State of Hawaii. These data sets are passed to the National
+  Renewable Energy Laboratory's System Advisory Model (SAM) to calculate an
+  18-year PV power generation data set to characterize the variability of PV
+  power generation. We calculate the interannual coefficient of variability
+  (COV) for annual average global horizontal irradiance (GHI) on the order of
+  2{\%} and COV for annual capacity factor on the order of 3{\%} across the
+  Hawaiian archipelago. Regarding the interannual variability of seasonal
+  trends, we calculate the COV for monthly average GHI values on the order of
+  5{\%} and COV for monthly capacity factor on the order of 10{\%}. We model
+  residential-scale and utility-scale PV systems and calculate the economic
+  returns of each system via the payback period and the net present value. We
+  demonstrate that studies based on single-year data sets for economic
+  evaluations reach conclusions that deviate from the true values realized by
+  accounting for interannual variability.%
+  }
+  \verb{doi}
+  \verb 10.1016/J.SOLENER.2018.03.085
+  \endverb
+  \field{issn}{0038-092X}
+  \field{pages}{61\bibrangedash 75}
+  \field{title}{{Consequences of neglecting the interannual variability of the
+  solar resource: A case study of photovoltaic power among the Hawaiian
+  Islands}}
+  \verb{url}
+  \verb https://www.sciencedirect.com/science/article/pii/S0038092X18303414
+  \endverb
+  \field{volume}{167}
+  \field{journaltitle}{Solar Energy}
+  \field{year}{2018}
+  \warn{\item Invalid format of field 'month'}
+\endentry
+
 \entry{Bett2016}{article}{}
   \name{author}{2}{}{%
     {{}%
@@ -1120,6 +1221,29 @@
   spectral nudging technique}}
   \field{journaltitle}{Tellus Series a-Dynamic Meteorology and Oceanography}
   \field{year}{2010}
+\endentry
+
+\entry{commoner1991}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Commoner}{C.}%
+     {Barry}{B.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {SAGE Publications Sage CA: Los Angeles, CA}%
+  }
+  \strng{namehash}{CB1}
+  \strng{fullhash}{CB1}
+  \field{labelalpha}{Com91}
+  \field{sortinit}{C}
+  \field{number}{2}
+  \field{pages}{199\bibrangedash 227}
+  \field{title}{Rapid population growth and environmental stress}
+  \field{volume}{21}
+  \field{journaltitle}{International Journal of Health Services}
+  \field{year}{1991}
 \endentry
 
 \entry{Cornaro2015}{article}{}
@@ -2469,6 +2593,157 @@
   \warn{\item Invalid format of field 'month'}
 \endentry
 
+\entry{Gil2015}{article}{}
+  \name{author}{7}{}{%
+    {{}%
+     {Gil}{G.}%
+     {Victoria}{V.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Gaertner}{G.}%
+     {Mirijam}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sanchez}{S.}%
+     {Enrique}{E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Gallardo}{G.}%
+     {Clemente}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hagel}{H.}%
+     {Edit}{E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Tejeda}{T.}%
+     {Cesar}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {De~Castro}{D.~C.}%
+     {Manuel}{M.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{GV+1}
+  \strng{fullhash}{GVGMSEGCHETCDCM1}
+  \field{labelalpha}{Gil+15}
+  \field{sortinit}{G}
+  \verb{doi}
+  \verb 10.1016/j.renene.2015.05.001
+  \endverb
+  \field{pages}{689}
+  \field{title}{Analysis of interannual variability of sunshine hours and
+  precipitation over Peninsular Spain}
+  \field{volume}{83}
+  \field{journaltitle}{Renewable Energy}
+  \field{month}{11}
+  \field{year}{2015}
+\endentry
+
+\entry{Giorgi2006}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Giorgi}{G.}%
+     {F.}{F.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{GF1}
+  \strng{fullhash}{GF1}
+  \field{labelalpha}{Gio06}
+  \field{sortinit}{G}
+  \field{abstract}{%
+  A Regional Climate Change Index (RCCI), is developed based on regional mean
+  precipitation change, mean surface air temperature change, and change in
+  precipitation and temperature interannual variability. The RCCI is a
+  comparative index designed to identify the most responsive regions to climate
+  change, or Hot-Spots. The RCCI is calculated for 26 land regions from the
+  latest set of climate change projections by 20 global climate models for the
+  A1B, A2 and B1 IPCC emission scenarios. The Mediterranean and North Eastern
+  European regions emerge as the primary Hot-Spots, followed by high latitude
+  northern hemisphere regions and by Central America, the most prominent
+  tropical Hot-Spot. The main African Hot-Spots are Southern Equatorial Africa
+  and the Sahara. Eastern North America is the prominent Hot-Spot over the
+  continental U.S. Different factors over different regions contribute to the
+  magnitude of the RCCI, which is in fact greater than 0 for all regions.%
+  }
+  \verb{doi}
+  \verb 10.1029/2006GL025734
+  \endverb
+  \field{isbn}{0094-8276}
+  \field{issn}{00948276}
+  \field{title}{{Climate change hot-spots}}
+  \field{journaltitle}{Geophysical Research Letters}
+  \field{year}{2006}
+\endentry
+
+\entry{Giorgi2008}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Giorgi}{G.}%
+     {Filippo}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lionello}{L.}%
+     {Piero}{P.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Elsevier}%
+  }
+  \strng{namehash}{GFLP1}
+  \strng{fullhash}{GFLP1}
+  \field{labelalpha}{GL08}
+  \field{sortinit}{G}
+  \field{abstract}{%
+  We present a review of climate change projections over the Mediterranean
+  region based on the most recent and comprehensive ensembles of global and
+  regional climate change simulations completed as part of international
+  collaborative projects. A robust and consistent picture of climate change
+  over the Mediterranean emerges, consisting of a pronounced decrease in
+  precipitation, especially in the warm season, except for the northern
+  Mediterranean areas (e.g. the Alps) in winter. This drying is due to
+  increased anticyclonic circulation that yields increasingly stable conditions
+  and is associated with a northward shift of the Atlantic storm track. A
+  pronounced warming is also projected, maximum in the summer season.
+  Inter-annual variability is projected to mostly increase especially in
+  summer, which, along with the mean warming, would lead to a greater
+  occurrence of extremely high temperature events. The projections by the
+  global and regional model simulations are generally consistent with each
+  other at the broad scale. However, the precipitation change signal produced
+  by the regional models shows substantial orographically-induced fine scale
+  structure absent in the global models. Overall, these change signals are
+  robust across forcing scenarios and future time periods, with the magnitude
+  of the signal increasing with the intensity of the forcing. The intensity and
+  robustness of the climate change signals produced by a range of global and
+  regional climate models suggest that the Mediterranean might be an especially
+  vulnerable region to global change.%
+  }
+  \verb{doi}
+  \verb 10.1016/J.GLOPLACHA.2007.09.005
+  \endverb
+  \field{issn}{0921-8181}
+  \field{number}{2-3}
+  \field{pages}{90\bibrangedash 104}
+  \field{title}{{Climate change projections for the Mediterranean region}}
+  \verb{url}
+  \verb https://www.sciencedirect.com/science/article/pii/S0921818107001750
+  \endverb
+  \field{volume}{63}
+  \field{journaltitle}{Global and Planetary Change}
+  \field{year}{2008}
+  \warn{\item Invalid format of field 'month'}
+\endentry
+
 \entry{Gueymard2008}{inbook}{}
   \name{author}{2}{}{%
     {{}%
@@ -2512,6 +2787,108 @@
     {Berlin, Heidelberg}%
   }
   \field{year}{2008}
+\endentry
+
+\entry{Gueymard2012}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Gueymard}{G.}%
+     {Christian~A.}{C.~A.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Elsevier Ltd}%
+  }
+  \keyw{Aerosols,Clear sky,Cumulative distribution,Irradiance,Performance,Solar
+  radiation}
+  \strng{namehash}{GCA1}
+  \strng{fullhash}{GCA1}
+  \field{labelalpha}{Gue12}
+  \field{sortinit}{G}
+  \field{abstract}{%
+  The intrinsic performance of 18 broadband radiative models is assessed, using
+  high-quality datasets from five sites in widely different climates. The
+  selected models can predict direct, diffuse and global irradiances under
+  clear skies from atmospheric data, and have all been (or still are) involved
+  in large-scale applications, for instance to prepare solar resource maps and
+  datasets, or to evaluate solar radiation in GIS software. The input data to
+  the models include accurate aerosol and water vapor measurements by
+  collocated sunphotometers, if needed. Cloud occurrences are meticulously
+  scrutinized through the use of various tools to avoid cloud contamination of
+  the test data. The intrinsic performance of the models is evaluated by
+  comparison between their predictions and measurements at high frequency
+  (1-minute time step at four sites, 3-minute at one site). The total expanded
+  uncertainty of these measurements is estimated at 3{\%} for direct
+  irradiance, and 5{\%} for diffuse and global irradiance.Various statistics
+  are calculated to evaluate the systematic and random differences between the
+  data series, as well as the agreement between the cumulative distribution
+  functions. In the latter case, stringent statistics based on the
+  Komolgorov-Smirnov (KS) test are used. Large differences in performance are
+  apparent between models. Those that require more atmospheric inputs perform
+  usually better than simpler models. Whereas many models can predict the
+  global horizontal irradiance within uncertainty limits similar to those of
+  the radiation measurements, the prediction of direct irradiance is less
+  accurate. Moreover, the prediction of diffuse horizontal irradiance is
+  particularly deficient in most models. The cumulative distribution functions
+  also denote areas of concern.A ranking of all models is proposed, based on
+  four statistical indicators: mean bias difference (MBD), root mean square
+  difference (RMSD), total uncertainty with 95{\%} confidence limits (U 95),
+  and the newly introduced Combined Performance Index (CPI), which optimally
+  combines two KS indices with RMSD. For direct irradiance, consistently high
+  rankings are obtained with five models (REST2, Ineichen, Hoyt, Bird, and
+  Iqbal-C, in decreasing order of performance) that require a relatively large
+  number of atmospheric inputs. The inferior performance of models requiring
+  little or no atmospheric inputs suggests that large-scale solar resource
+  products derived from them may be inappropriate for serious solar
+  applications. Additionally, prediction uncertainties under ideal clear-sky
+  conditions can propagate and affect all-sky predictions as well-resulting in
+  potential biases in existing solar resource maps at the continent scale, for
+  instance. {\textcopyright} 2011 Elsevier Ltd.%
+  }
+  \verb{doi}
+  \verb 10.1016/j.solener.2011.11.011
+  \endverb
+  \field{isbn}{0038-092X}
+  \field{issn}{0038092X}
+  \field{number}{8}
+  \field{pages}{2145\bibrangedash 2169}
+  \field{title}{{Clear-sky irradiance predictions for solar resource mapping
+  and large-scale applications: Improved validation methodology and detailed
+  performance analysis of 18 broadband radiative models}}
+  \verb{url}
+  \verb http://dx.doi.org/10.1016/j.solener.2011.11.011
+  \endverb
+  \field{volume}{86}
+  \verb{file}
+  \verb :home/claudia/Escritorio/referencias/gueymard2012.pdf:pdf
+  \endverb
+  \field{journaltitle}{Solar Energy}
+  \field{year}{2012}
+\endentry
+
+\entry{gueymard2014review}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Gueymard}{G.}%
+     {Christian~A}{C.~A.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Elsevier}%
+  }
+  \strng{namehash}{GCA2}
+  \strng{fullhash}{GCA2}
+  \field{labelalpha}{Gue14}
+  \field{sortinit}{G}
+  \field{pages}{1024\bibrangedash 1034}
+  \field{title}{A review of validation methodologies and statistical
+  performance indicators for modeled solar radiation data: Towards a better
+  bankability of solar projects}
+  \field{volume}{39}
+  \field{journaltitle}{Renewable and Sustainable Energy Reviews}
+  \field{year}{2014}
 \endentry
 
 \entry{Gutierrez2017}{article}{}
@@ -2651,79 +3028,6 @@
   \field{volume}{110}
   \field{journaltitle}{Theoretical and Applied Climatology}
   \field{year}{2012}
-\endentry
-
-\entry{GueymardWilcox2011a}{article}{}
-  \name{author}{2}{}{%
-    {{}%
-     {Gueymard}{G.}%
-     {Christian~A.}{C.~A.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Wilcox}{W.}%
-     {Stephen~M.}{S.~M.}%
-     {}{}%
-     {}{}}%
-  }
-  \keyw{DNI,Direct and global irradiance,Interannual,Solar
-  resource,Validation,Variability}
-  \strng{namehash}{GCAWSM1}
-  \strng{fullhash}{GCAWSM1}
-  \field{labelalpha}{GW11}
-  \field{sortinit}{G}
-  \field{abstract}{%
-  The US National Renewable Energy Laboratory (NREL) is responding to a growing
-  demand for high-accuracy solar resource data with uncertainties significantly
-  lower than those of existing solar resource datasets, such as the National
-  Solar Radiation Database (NSRDB). Measurements for long-term solar resource
-  characterizations require years to complete, which is an unacceptable
-  timeline for the rapidly emerging needs of renewable energy applications.
-  This contribution seeks methods of reducing the uncertainty of existing
-  long-term solar resource datasets by incorporating lower-uncertainty
-  site-specific ground measurements of a limited period of record. In
-  particular, various techniques are being explored to make full use of the
-  existing high-resolution radiation data available in the NSRDB and other
-  sources, and extrapolate them over time using locally measured data and other
-  supportive information. The interannual variability in global and direct
-  radiation is studied here using long-term data at various sites. NSRDB's
-  modeled data for the 1998-2005 period are compared to quality-controlled
-  measurements to assess the performance of the model, which is found to vary
-  greatly depending on climatic condition. The reported results are encouraging
-  for applications involving concentrators at very sunny sites. Large seasonal
-  biases are found at some cloudy sites. Various improvements are proposed to
-  enhance the quality of the existing model and modeled data. The measurement
-  of solar radiation to characterize the solar climate for renewable energy and
-  other applications is a time consuming and expensive operation. Full climate
-  characterization may require several decades of measurements-a prospect that
-  is not practical for an industry intent on rapid deployment of solar
-  technologies. This study demonstrates that the consistency of the solar
-  resource in both time and space varies widely across the United States. The
-  mapped results here illustrate regions with high and low variability and
-  provide readers with quick visual information to help them decide where and
-  how long measurements should be taken for a particular application. The
-  underlying data that form these maps are also available from NREL to provide
-  users the opportunity for more detailed analysis. {\textcopyright} 2011.%
-  }
-  \verb{doi}
-  \verb 10.1016/j.solener.2011.02.030
-  \endverb
-  \field{isbn}{0038-092X}
-  \field{issn}{0038092X}
-  \field{number}{5}
-  \field{pages}{1068\bibrangedash 1084}
-  \field{title}{{Assessment of spatial and temporal variability in the US solar
-  resource from radiometric measurements and predictions from models using
-  ground-based or satellite data}}
-  \field{volume}{85}
-  \verb{file}
-  \verb :home/claudia/.local/share/data/Mendeley Ltd./Mendeley Desktop/Download
-  \verb ed/Gueymard, Wilcox - 2011 - Assessment of spatial and temporal variabi
-  \verb lity in the US solar resource from radiometric measurements and pred.pd
-  \verb f:pdf
-  \endverb
-  \field{journaltitle}{Solar Energy}
-  \field{year}{2011}
 \endentry
 
 \entry{Gilgen1998}{article}{}
@@ -4318,6 +4622,56 @@
   \warn{\item Invalid format of field 'month'}
 \endentry
 
+\entry{Kaufman2002}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Kaufman}{K.}%
+     {Yoram~J.}{Y.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Tanr{\'{e}}}{T.}%
+     {Didier}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Boucher}{B.}%
+     {Olivier}{O.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{KYJTDBO1}
+  \strng{fullhash}{KYJTDBO1}
+  \field{labelalpha}{KTB02}
+  \field{sortinit}{K}
+  \field{abstract}{%
+  Anthropogenic aerosols are intricately linked to the climate system and to
+  the hydrologic cycle. The net effect of aerosols is to cool the climate
+  system by reflecting sunlight. Depending on their composition, aerosols can
+  also absorb sunlight in the atmosphere, further cooling the surface but
+  warming the atmosphere in the process. These effects of aerosols on the
+  temperature profile, along with the role of aerosols as cloud condensation
+  nuclei, impact the hydrologic cycle, through changes in cloud cover, cloud
+  properties and precipitation. Unravelling these feedbacks is particularly
+  difficult because aerosols take a multitude of shapes and forms, ranging from
+  desert dust to urban pollution, and because aerosol concentrations vary
+  strongly over time and space. To accurately study aerosol distribution and
+  composition therefore requires continuous observations from satellites,
+  networks of ground-based instruments and dedicated field experiments.
+  Increases in aerosol concentration and changes in their composition, driven
+  by industrialization and an expanding population, may adversely affect the
+  Earth's climate and water supply.%
+  }
+  \verb{doi}
+  \verb 10.1038/nature01091
+  \endverb
+  \field{isbn}{9783642034152}
+  \field{issn}{00280836}
+  \field{title}{{A satellite view of aerosols in the climate system}}
+  \field{journaltitle}{Nature}
+  \field{year}{2002}
+\endentry
+
 \entry{Lelieveld}{article}{}
   \name{author}{1}{}{%
     {{}%
@@ -5120,6 +5474,147 @@
   \warn{\item Invalid format of field 'month'}
 \endentry
 
+\entry{Mateos2014}{article}{}
+  \name{author}{8}{}{%
+    {{}%
+     {Mateos}{M.}%
+     {D.}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sanchez-Lorenzo}{S.-L.}%
+     {A.}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Antón}{A.}%
+     {M.}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Cachorro}{C.}%
+     {V.~E.}{V.~E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Calbó}{C.}%
+     {J.}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Costa}{C.}%
+     {M.~J.}{M.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Torres}{T.}%
+     {B.}{B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Wild}{W.}%
+     {M.}{M.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{downward shortwave radiation trend, brightening period, cloud and
+  aerosol radiative effects, total cloud cover and aerosol load}
+  \strng{namehash}{MD+1}
+  \strng{fullhash}{MDSLAAMCVECJCMJTBWM1}
+  \field{labelalpha}{Mat+}
+  \field{sortinit}{M}
+  \field{abstract}{%
+  Abstract The contribution of clouds and aerosols to the decadal variations of
+  downward surface shortwave radiation (SSR) is a current controversial topic.
+  This study proposes a method, which is based on surface-based SSR
+  measurements, aerosol observations, and radiative transfer simulations (in
+  cloud-free and cloud- and aerosol-free scenarios), to evaluate cloud-aerosol
+  (CARE), cloud (CRE), and aerosol (ARE) radiative effects. This method is
+  applied to quantify the role played by, separately, clouds and aerosols on
+  the intense brightening of the SSR observed in the Iberian Peninsula. Clouds
+  and Earth's Radiation Energy Budget System (CERES) and surface-based data
+  exhibit an increase in SSR between 2003 and 2012, exceeding +10 W m−2
+  over this period for some areas of the peninsula. The calculations are
+  performed for three surface-based sites: Barcelona and Valladolid (Spain),
+  and Évora (Portugal). Ranges in monthly values of CARE, CRE, and ARE are
+  (−80, −20), (−60, −20), and (−30, 0), respectively (in W m−2).
+  The average trends for the analyzed period of CARE, CRE, and ARE are +7, +5,
+  and +2 W m−2 per decade, respectively. Overall, three fourths of the SSR
+  trend is explained by clouds, while the other one fourth is related to
+  aerosol changes. The SSR trends explained by the clouds and aerosol radiative
+  effects are in line with the observed reductions in total cloud cover and
+  aerosol load (both at the surface and in the whole atmospheric column).
+  Furthermore, the CRE values are compared against CERES data showing good
+  agreement between both data series, although some discrepancies are observed
+  in their trends.%
+  }
+  \verb{doi}
+  \verb 10.1002/2014JD022076
+  \endverb
+  \verb{eprint}
+  \verb https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1002/2014JD022076
+  \endverb
+  \field{number}{17}
+  \field{pages}{10,382\bibrangedash 10,393}
+  \field{title}{Quantifying the respective roles of aerosols and clouds in the
+  strong brightening since the early 2000s over the Iberian Peninsula}
+  \verb{url}
+  \verb https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1002/2014JD022076
+  \endverb
+  \field{volume}{119}
+  \field{journaltitle}{Journal of Geophysical Research: Atmospheres}
+\endentry
+
+\entry{MCMAHAN201381}{incollection}{}
+  \name{author}{3}{}{%
+    {{}%
+     {McMahan}{M.}%
+     {Andrew~C.}{A.~C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Grover}{G.}%
+     {Catherine~N.}{C.~N.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Vignola}{V.}%
+     {Frank~E.}{F.~E.}%
+     {}{}%
+     {}{}}%
+  }
+  \name{editor}{1}{}{%
+    {{}%
+     {Kleissl}{K.}%
+     {Jan}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Academic Press}%
+  }
+  \keyw{finance, risk, uncertainty, probability, resource}
+  \strng{namehash}{MACGCNVFE1}
+  \strng{fullhash}{MACGCNVFE1}
+  \field{labelalpha}{MGV13}
+  \field{sortinit}{M}
+  \field{booktitle}{Solar Energy Forecasting and Resource Assessment}
+  \verb{doi}
+  \verb https://doi.org/10.1016/B978-0-12-397177-7.00004-8
+  \endverb
+  \field{isbn}{978-0-12-397177-7}
+  \field{pages}{81 \bibrangedash  95}
+  \field{title}{Chapter 4 - Evaluation of Resource Risk in Solar-Project
+  Financing}
+  \verb{url}
+  \verb http://www.sciencedirect.com/science/article/pii/B9780123971777000048
+  \endverb
+  \list{location}{1}{%
+    {Boston}%
+  }
+  \field{year}{2013}
+\endentry
+
 \entry{Mellit2008}{misc}{}
   \name{author}{2}{}{%
     {{}%
@@ -5477,6 +5972,44 @@
   \field{year}{2012}
 \endentry
 
+\entry{muller2014rethinking}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {M{\"u}ller}{M.}%
+     {Bj{\"o}rn}{B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Wild}{W.}%
+     {Martin}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Driesse}{D.}%
+     {Anton}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Behrens}{B.}%
+     {Klaus}{K.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Elsevier}%
+  }
+  \strng{namehash}{MB+1}
+  \strng{fullhash}{MBWMDABK1}
+  \field{labelalpha}{M{\"u}l+14}
+  \field{sortinit}{M}
+  \field{pages}{272\bibrangedash 282}
+  \field{title}{Rethinking solar resource assessments in the context of global
+  dimming and brightening}
+  \field{volume}{99}
+  \field{journaltitle}{Solar Energy}
+  \field{year}{2014}
+\endentry
+
 \entry{Muller2015}{article}{}
   \name{author}{6}{}{%
     {{}%
@@ -5538,6 +6071,11 @@
   \field{journaltitle}{EUMETSAT Satellite Application Facility on Climate
   Monitoring (CM SAF)}
   \field{year}{2015}
+\endentry
+
+\entry{Nabat2014a}{article}{}
+  \field{labelalpha}{Nab}
+  \field{sortinit}{N}
 \endentry
 
 \entry{Nabat2013}{article}{}
@@ -5689,7 +6227,7 @@
   \field{year}{2013}
 \endentry
 
-\entry{Nabat2014}{article}{}
+\entry{Nabat2015}{article}{}
   \name{author}{5}{}{%
     {{}%
      {Nabat}{N.}%
@@ -5749,8 +6287,8 @@
   \field{year}{2014}
 \endentry
 
-\entry{Nabat2014a}{article}{}
-  \name{author}{5}{}{%
+\entry{Nabat2015a}{article}{}
+  \name{author}{6}{}{%
     {{}%
      {Nabat}{N.}%
      {Pierre}{P.}%
@@ -5767,8 +6305,13 @@
      {}{}%
      {}{}}%
     {{}%
-     {Sanchez-Lorenzo}{S.-L.}%
-     {Arturo}{A.}%
+     {Sevault}{S.}%
+     {Florence}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Chiacchio}{C.}%
+     {Marc}{M.}%
      {}{}%
      {}{}}%
     {{}%
@@ -5777,42 +6320,25 @@
      {}{}%
      {}{}}%
   }
-  \keyw{Europe,Mediterranean,aerosols,brightening,climate change,sulfates}
   \strng{namehash}{NP+2}
-  \strng{fullhash}{NPSSMMSLAWM1}
+  \strng{fullhash}{NPSSMMSFCMWM1}
   \field{labelalpha}{Nab+14}
   \field{extraalpha}{2}
   \field{sortinit}{N}
-  \field{abstract}{%
-  Since the 1980s anthropogenic aerosols have been considerably reduced in
-  Europe and the Mediterranean area. This decrease is often considered as the
-  likely cause of the brightening effect observed over the same period. This
-  phenomenon is however hardly reproduced by global and regional climate
-  models. Here we use an original approach based on reanalysis-driven coupled
-  regional climate system modelling, to show that aerosol changes explain
-  81 ± 16 per cent of the brightening and 23 ± 5 per cent of the
-  surface warming simulated for the period 1980–2012 over Europe. The direct
-  aerosol effect is found to dominate in the magnitude of the simulated
-  brightening. The comparison between regional simulations and homogenized
-  ground-based observations reveals that observed surface solar radiation, as
-  well as land and sea surface temperature spatio-temporal variations over the
-  Euro-Mediterranean region are only reproduced when simulations include the
-  realistic aerosol variations.%
-  }
   \verb{doi}
-  \verb 10.1002/2014GL060798
+  \verb 10.1007/s00382-014-2205-6
   \endverb
-  \field{isbn}{9780398078072}
-  \field{issn}{19448007}
-  \field{number}{15}
-  \field{pages}{5605\bibrangedash 5611}
-  \field{title}{{Contribution of anthropogenic sulfate aerosols to the changing
-  Euro-Mediterranean climate since 1980}}
+  \field{issn}{0930-7575}
+  \field{number}{3-4}
+  \field{pages}{1127\bibrangedash 1155}
+  \field{title}{{Direct and semi-direct aerosol radiative effect on the
+  Mediterranean climate variability using a coupled regional climate system
+  model}}
   \verb{url}
-  \verb http://doi.wiley.com/10.1002/2014GL060798
+  \verb http://link.springer.com/10.1007/s00382-014-2205-6
   \endverb
-  \field{volume}{41}
-  \field{journaltitle}{Geophysical Research Letters}
+  \field{volume}{44}
+  \field{journaltitle}{Climate Dynamics}
   \field{year}{2014}
   \warn{\item Invalid format of field 'month'}
 \endentry
@@ -5884,6 +6410,66 @@
   \field{title}{{Impact of atmospheric aerosols on photovoltaic energy
   production Scenario for the Sahel zone}}
   \field{year}{2017}
+\endentry
+
+\entry{Norris2007}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Norris}{N.}%
+     {J~R}{J.~R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Wild}{W.}%
+     {M}{M}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{NJRWM1}
+  \strng{fullhash}{NJRWM1}
+  \field{labelalpha}{NW07}
+  \field{sortinit}{N}
+  \field{abstract}{%
+  We examine multidecadal changes in surface downward shortwave (SW) radiation
+  flux, total cloud cover, SW cloud effect, and related parameters over Europe
+  during 1965{\&}{\#}8211;2004 using monthly gridded data from the Global
+  Energy Balance Archive (GEBA), synoptic cloud reports, and the International
+  Satellite Cloud Climatology Project (ISCCP). One key issue is distinguishing
+  the effects of natural cloud variability from long-term anthropogenic aerosol
+  influences on surface SW flux. Accordingly, we introduce the concept of cloud
+  cover radiative effect (CCRE), defined as the change in downward SW flux
+  produced by a change in cloud cover. The correlation between pan-European
+  time series of CCRE anomalies and GEBA solar radiation anomalies is 0.88,
+  indicating that cloud cover variability and associated changes in cloud
+  albedo dominate SW radiation variability on monthly to decadal timescales.
+  After these weather-related cloud effects are removed by subtracting CCRE
+  anomalies from GEBA solar radiation anomalies via linear regression, a
+  distinct decreasing trend followed by a distinct increasing trend remain in
+  the residual time series. Depending on the method of trend calculation,
+  pan-European residual flux declined by a statistically significant
+  2.7{\&}{\#}8211;3.5 W m{\&}{\#}8722;2 per decade during 1971{\&}{\#}8211;1986
+  and rose by a statistically significant 2.0{\&}{\#}8211;2.3 W m{\&}{\#}8722;2
+  per decade during 1987{\&}{\#}8211;2002. The fact that independent grid boxes
+  exhibit mostly negative trends in the earlier period and mostly positive
+  trends in the later period demonstrates that these long-term variations in SW
+  flux are real and widespread over Europe. Changes in cloud cover cannot
+  account for the trends in surface SW flux since cloud cover actually slightly
+  decreased during 1971{\&}{\#}8211;1986 and slightly increased during
+  1987{\&}{\#}8211;2002. The most likely explanation is changes in
+  anthropogenic aerosol emissions that led to more scattering and absorption of
+  SW radiation during the earlier period of solar
+  {\&}{\#}8220;dimming{\&}{\#}8221; and less scattering and absorption during
+  the later period of solar {\&}{\#}8220;brightening.{\&}{\#}8221;%
+  }
+  \verb{doi}
+  \verb 10.1029/2006JD007794
+  \endverb
+  \field{isbn}{0148-0227}
+  \field{issn}{0148-0227}
+  \field{title}{{Trends in aerosol radiative effects over Europe inferred from
+  observed cloud cover, solar “dimming,” and solar “brightening”}}
+  \field{journaltitle}{J. Geophys. Res.}
+  \field{year}{2007}
 \endentry
 
 \entry{Ohmura1998}{article}{}
@@ -6164,6 +6750,75 @@
   \field{year}{2006}
 \endentry
 
+\entry{Perez2010}{article}{}
+  \name{author}{6}{}{%
+    {{}%
+     {Perez}{P.}%
+     {Richard}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kivalov}{K.}%
+     {Sergey}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Schlemmer}{S.}%
+     {James}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hemker}{H.}%
+     {Karl}{K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Renn{\'{e}}}{R.}%
+     {David}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hoff}{H.}%
+     {Thomas~E.}{T.~E.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Pergamon}%
+  }
+  \strng{namehash}{PR+1}
+  \strng{fullhash}{PRKSSJHKRDHTE1}
+  \field{labelalpha}{Per+10}
+  \field{sortinit}{P}
+  \field{abstract}{%
+  This paper presents a validation of the short and medium term global
+  irradiance forecasts that are produced as part of the US SolarAnywhere (2010)
+  data set. The short term forecasts that extend up to 6-h ahead are based upon
+  cloud motion derived from consecutive geostationary satellite images. The
+  medium term forecasts extend up to 6-days-ahead and are modeled from gridded
+  cloud cover forecasts from the US National Digital Forecast Database. The
+  forecast algorithms are validated against ground measurements for seven
+  climatically distinct locations in the United States for 1year. An initial
+  analysis of regional performance using satellite-derived irradiances as a
+  benchmark reference is also presented.%
+  }
+  \verb{doi}
+  \verb 10.1016/J.SOLENER.2010.08.014
+  \endverb
+  \field{issn}{0038-092X}
+  \field{number}{12}
+  \field{pages}{2161\bibrangedash 2172}
+  \field{title}{{Validation of short and medium term operational solar
+  radiation forecasts in the US}}
+  \verb{url}
+  \verb https://www.sciencedirect.com/science/article/pii/S0038092X10002823
+  \endverb
+  \field{volume}{84}
+  \field{journaltitle}{Solar Energy}
+  \field{year}{2010}
+  \warn{\item Invalid format of field 'month'}
+\endentry
+
 \entry{Perpinan2009}{article}{}
   \name{author}{1}{}{%
     {{}%
@@ -6259,6 +6914,144 @@
   \field{year}{2012}
 \endentry
 
+\entry{Pfeifroth2018}{article}{}
+  \name{author}{5}{}{%
+    {{}%
+     {Pfeifroth}{P.}%
+     {Uwe}{U.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sanchez-Lorenzo}{S.-L.}%
+     {Arturo}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Manara}{M.}%
+     {Veronica}{V.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Trentmann}{T.}%
+     {Jörg}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hollmann}{H.}%
+     {Rainer}{R.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{surface solar radiation, trend analysis, satellite data, station data,
+  aerosols, clouds}
+  \strng{namehash}{PU+2}
+  \strng{fullhash}{PUSLAMVTJHR1}
+  \field{labelalpha}{Pfe+}
+  \field{sortinit}{P}
+  \field{abstract}{%
+  Abstract The incoming solar radiation is the essential climate variable that
+  determines the Earth's energy cycle and climate. As long-term high-quality
+  surface measurements of solar radiation are rare, satellite data are used to
+  derive more information on its spatial pattern and its temporal variability.
+  Recently, the EUMETSAT Satellite Application on Climate Monitoring (CM SAF)
+  has published two satellite-based climate data records: Surface Solar
+  Radiation Data Set-Heliosat, Edition 2 (SARAH-2), and Clouds and Radiation
+  Data Set based on AVHRR (advanced very high resolution radiometer) Satellite
+  Measurements, Edition 2 (CLARA-A2). Both data records provide estimates of
+  surface solar radiation. In this study, these new climate data records are
+  compared to surface measurements in Europe during the period 1983–2015.
+  SARAH-2 and CLARA-A2 show a high accuracy compared to ground-based
+  observations (mean absolute deviations of 6.9 and 7.3 W/m2, respectively)
+  highlighting a good agreement considering the temporal behavior and the
+  spatial distribution. The results show an overall brightening period since
+  the 1980s onward (comprised between 1.9 and 2.4 W/m2/decade), with
+  substantial decadal and spatial variability. The strongest brightening is
+  found in eastern Europe in spring. An exception is found for northern and
+  southern Europe, where the trends shown by the station data are not
+  completely reproduced by satellite data, especially in summer in southern
+  Europe. We conclude that the major part of the observed trends in surface
+  solar radiation in Europe is caused by changes in clouds and that remaining
+  differences between the satellite- and the station-based data might be
+  connected to changes in the direct aerosol effect and in snow cover.%
+  }
+  \verb{doi}
+  \verb 10.1002/2017JD027418
+  \endverb
+  \verb{eprint}
+  \verb https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1002/2017JD027418
+  \endverb
+  \field{number}{3}
+  \field{pages}{1735\bibrangedash 1754}
+  \field{title}{Trends and Variability of Surface Solar Radiation in Europe
+  Based On Surface- and Satellite-Based Data Records}
+  \verb{url}
+  \verb https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1002/2017JD027418
+  \endverb
+  \field{volume}{123}
+  \field{journaltitle}{Journal of Geophysical Research: Atmospheres}
+\endentry
+
+\entry{Pfeifroth2017}{article}{}
+  \name{author}{8}{}{%
+    {{}%
+     {Pfeifroth}{P.}%
+     {U.}{U.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bojanowski}{B.}%
+     {J.~S.}{J.~S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Clerbaux}{C.}%
+     {N.}{N.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Manara}{M.}%
+     {V.}{V.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sanchez-Lorenzo}{S.-L.}%
+     {A.}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Trentmann}{T.}%
+     {J.}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Walawender}{W.}%
+     {J.~P.}{J.~P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hollmann}{H.}%
+     {R.}{R.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{PU+1}
+  \strng{fullhash}{PUBJSCNMVSLATJWJPHR1}
+  \field{labelalpha}{Pfe+18}
+  \field{sortinit}{P}
+  \verb{doi}
+  \verb 10.5194/asr-15-31-2018
+  \endverb
+  \field{pages}{31\bibrangedash 37}
+  \field{title}{Satellite-based trends of solar radiation and cloud parameters
+  in Europe}
+  \verb{url}
+  \verb https://www.adv-sci-res.net/15/31/2018/
+  \endverb
+  \field{volume}{15}
+  \field{journaltitle}{Advances in Science and Research}
+  \field{year}{2018}
+\endentry
+
 \entry{Perpinan2011}{article}{}
   \name{author}{2}{}{%
     {{}%
@@ -6313,61 +7106,6 @@
   \field{journaltitle}{Solar Energy}
   \field{year}{2011}
   \warn{\item Invalid format of field 'month'}
-\endentry
-
-\entry{Perpinan2007}{article}{}
-  \name{author}{3}{}{%
-    {{}%
-     {Perpi{\~{n}}an}{P.}%
-     {O.}{O.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Lorenzo}{L.}%
-     {E.}{E.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Castro}{C.}%
-     {M.~A.}{M.~A.}%
-     {}{}%
-     {}{}}%
-  }
-  \keyw{Energy production calculation,Grid-connected PV systems,Solar radiation
-  statistics}
-  \strng{namehash}{POLECMA1}
-  \strng{fullhash}{POLECMA1}
-  \field{labelalpha}{PLC07}
-  \field{sortinit}{P}
-  \field{abstract}{%
-  A power conversion efficiency record of 10.1{\%} was achieved for kesterite
-  absorbers, using a Cu2ZnSn(Se,S)4 thin-film solar cell made by
-  hydrazine-based solution processing. Key device characteristics were
-  compiled, including light/dark J–V, quantum efficiency, temperature
-  dependence of Voc and series resistance, photoluminescence, and capacitance
-  spectroscopy, providing important insight into how the devices compare with
-  high-performance Cu(In,Ga)Se2. The record kesterite device was shown to be
-  primarily limited by interface recombination, minority carrier lifetime, and
-  series resistance. The new level of device performance points to the
-  significant promise of the kesterites as an emerging and commercially
-  interesting thin-film technology. Copyright {\textcopyright} 2011 John Wiley
-  {\&} Sons, Ltd.%
-  }
-  \verb{doi}
-  \verb 10.1002/pip.728
-  \endverb
-  \field{isbn}{1099-159X}
-  \field{issn}{10627995}
-  \field{number}{3}
-  \field{pages}{265\bibrangedash 274}
-  \field{title}{{On the calculation of energy produced by a PV grid-connected
-  system}}
-  \field{volume}{15}
-  \verb{file}
-  \verb :home/claudia/Escritorio/Perpinan.Lorenzo.ea2007.pdf:pdf
-  \endverb
-  \field{journaltitle}{Progress in Photovoltaics: Research and Applications}
-  \field{year}{2007}
 \endentry
 
 \entry{Perpinan2013}{article}{}
@@ -6505,6 +7243,81 @@
   \warn{\item Invalid format of field 'month'}
 \endentry
 
+\entry{Polo2014}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Polo}{P.}%
+     {J.}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Antonanzas-Torres}{A.-T.}%
+     {F.}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Vindel}{V.}%
+     {J.M.}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ramirez}{R.}%
+     {L.}{L.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Pergamon}%
+  }
+  \strng{namehash}{PJ+1}
+  \strng{fullhash}{PJATFVJRL1}
+  \field{labelalpha}{Pol+14}
+  \field{sortinit}{P}
+  \field{abstract}{%
+  This paper presents a sensitivity analysis of satellite-based methods for
+  deriving solar irradiance components for analyzing the impact of the external
+  inputs that are normally associated to the satellite model. Different
+  sensitivity calculations have been performed using as reference site the PSA
+  (Solar Platform of Almeria) station placed at the south-east of Spain. Thus,
+  the sensitivity to the aerosol information input has been addressed by
+  comparing the estimations using aerosol input from AERONET data with those
+  using aerosol dataset such as MODIS or MISR (based on satellite) and MACC
+  (based on reanalysis). Sensitivity to the clear sky model choice has been
+  also studied by using three different models, from the simpler ESRA model (in
+  terms of input parameters) to the most sophisticated REST2. Finally, three
+  global to direct conversion models (Louche, DirInt and DirIndex) have been
+  included to explore the sensitivity of the direct normal irradiance
+  estimations. The sensitivity analysis has shown the interrelations between
+  the different cases according to the uncertainty of the input information
+  used. The results have been analyzed for clear and non-clear sky conditions
+  separately and for the DNI irradiance range of 400–900 W m−2 as a case
+  of special interest for the concentrating solar power applications. The work
+  presented here has as novelty the analysis of the propagation of uncertainty
+  of individual models and atmospheric datasets in the framework of a
+  satellite-based model for solar irradiance computation and their relative
+  weights to the final performance of the model. An underestimation of AOD by
+  50{\%} causes an error in the global horizontal irradiance calculated by a
+  clear sky model of 3–5{\%} depending on the model used, and slightly less
+  for an overestimation of AOD. For DNI the error ranges are 12–15{\%} and
+  9–12{\%} for 50{\%} underestimation and overestimation of AOD
+  respectively.%
+  }
+  \verb{doi}
+  \verb 10.1016/J.RENENE.2014.03.022
+  \endverb
+  \field{issn}{0960-1481}
+  \field{pages}{785\bibrangedash 792}
+  \field{title}{{Sensitivity of satellite-based methods for deriving solar
+  radiation to different choice of aerosol input and models}}
+  \verb{url}
+  \verb https://www.sciencedirect.com/science/article/pii/S0960148114001670
+  \endverb
+  \field{volume}{68}
+  \field{journaltitle}{Renewable Energy}
+  \field{year}{2014}
+  \warn{\item Invalid format of field 'month'}
+\endentry
+
 \entry{Polo2015}{article}{}
   \name{author}{4}{}{%
     {{}%
@@ -6599,7 +7412,7 @@
   \keyw{Interactions with atmosphere (clouds aerosols,Radiative transfer
   modeling,Reanalysis,Remote sensing,Satellite based climate monitoring,Solar
   surface irradiance,water vapor) and land/sea surface}
-  \strng{namehash}{PR+1}
+  \strng{namehash}{PR+2}
   \strng{fullhash}{PRMRWSRTJ1}
   \field{labelalpha}{Pos+12}
   \field{sortinit}{P}
@@ -6715,6 +7528,49 @@
   \field{year}{2004}
 \endentry
 
+\entry{pozo-Vazquez2011}{incollection}{}
+  \name{author}{5}{}{%
+    {{}%
+     {Pozo-Vazquez}{P.-V.}%
+     {David}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Santos-Alamillos}{S.-A.}%
+     {Francisco~Javier}{F.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lara-Fanego}{L.-F.}%
+     {Vicente}{V.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ruiz-Arias}{R.-A.}%
+     {Jose~Antonio}{J.~A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Tovar-Pescador}{T.-P.}%
+     {Joaqu{\'\i}n}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Springer}%
+  }
+  \strng{namehash}{PVD+2}
+  \strng{fullhash}{PVDSAFJLFVRAJATPJ1}
+  \field{labelalpha}{PV+11}
+  \field{sortinit}{P}
+  \field{booktitle}{Hydrological, Socioeconomic and Ecological Impacts of the
+  North Atlantic Oscillation in the Mediterranean Region}
+  \field{pages}{213\bibrangedash 231}
+  \field{title}{The impact of the NAO on the solar and wind energy resources in
+  the Mediterranean area}
+  \field{year}{2011}
+\endentry
+
 \entry{Polo2008}{inbook}{}
   \name{author}{3}{}{%
     {{}%
@@ -6762,6 +7618,34 @@
     {Berlin, Heidelberg}%
   }
   \field{year}{2008}
+\endentry
+
+\entry{Rosa2012}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Rosa}{R.}%
+     {Eugene~A}{E.~A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Dietz}{D.}%
+     {Thomas}{T.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Nature Publishing Group}%
+  }
+  \strng{namehash}{READT1}
+  \strng{fullhash}{READT1}
+  \field{labelalpha}{RD12}
+  \field{sortinit}{R}
+  \field{number}{8}
+  \field{pages}{581}
+  \field{title}{Human drivers of national greenhouse-gas emissions}
+  \field{volume}{2}
+  \field{journaltitle}{Nature Climate Change}
+  \field{year}{2012}
 \endentry
 
 \entry{Reikard2009}{article}{}
@@ -6878,6 +7762,83 @@
   \field{volume}{17}
   \field{journaltitle}{Atmospheric Chemistry and Physics Discussions}
   \field{year}{2017}
+\endentry
+
+\entry{Rifkin2012}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Rifkin}{R.}%
+     {Jeremy}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{RJ1}
+  \strng{fullhash}{RJ1}
+  \field{labelalpha}{Rif12}
+  \field{sortinit}{R}
+  \field{number}{March-April}
+  \field{title}{The third industrial revolution: How the internet, green
+  electricity, and 3-d printing are ushering in a sustainable era of
+  distributed capitalism}
+  \field{volume}{1}
+  \field{journaltitle}{World Financial Review}
+  \field{year}{2012}
+\endentry
+
+\entry{delrio}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {R{\'{i}}o}{R.}%
+     {Pablo}{P.}%
+     {del}{d.}%
+     {}{}}%
+    {{}%
+     {Silvosa}{S.}%
+     {Anxo~Calvo}{A.~C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {G{\'{o}}mez}{G.}%
+     {Guillermo~Iglesias}{G.~I.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{Support schemes, Wind energy,Repowering}
+  \strng{namehash}{RPdSACGGI1}
+  \strng{fullhash}{RPdSACGGI1}
+  \field{labelalpha}{RSG11}
+  \field{sortinit}{R}
+  \field{abstract}{%
+  Repowering of a wind farm is the process of replacing existing wind turbines
+  with new turbines that either have a larger nameplate capacity or more
+  efficiency, resulting in a net increase of the power generated. Although
+  repowering brings, both, social and private benefits, there are also several
+  obstacles to repowering which justify public support. The aim of this paper
+  is to provide an overview and a qualitative analysis of instruments and
+  design options to support repowering of on-shore wind farms. The
+  multicriteria analysis carried out in this paper shows that all instruments
+  have their advantages and drawbacks. However, feed-in tariffs and investment
+  subsidies seem to be particularly appropriate instruments in this regard.
+  Furthermore, we provide an assessment of different design options to promote
+  repowering according to key assessment criteria. The relevance of design
+  elements hinges on the fact that these are the ones directly affecting the
+  variables that are relevant in the decision to repower (capacity factors and
+  investment costs).%
+  }
+  \verb{doi}
+  \verb https://doi.org/10.1016/j.enpol.2010.12.035
+  \endverb
+  \field{issn}{0301-4215}
+  \field{number}{4}
+  \field{pages}{1897\bibrangedash 1908}
+  \field{title}{{Policies and design elements for the repowering of wind farms:
+  A qualitative analysis of different options}}
+  \verb{url}
+  \verb http://www.sciencedirect.com/science/article/pii/S0301421510009353
+  \endverb
+  \field{volume}{39}
+  \field{journaltitle}{Energy Policy}
+  \field{year}{2011}
 \endentry
 
 \entry{Ruti2016}{article}{}
@@ -7313,6 +8274,45 @@
   \field{year}{2004}
 \endentry
 
+\entry{nrel}{article}{}
+  \name{author}{5}{}{%
+    {{}%
+     {Sengupta}{S.}%
+     {Manajit}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Habte}{H.}%
+     {Aron}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Gueymard}{G.}%
+     {Christian}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Wilbert}{W.}%
+     {Stefan}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Renne}{R.}%
+     {Dave}{D.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{SM+1}
+  \strng{fullhash}{SMHAGCWSRD1}
+  \field{labelalpha}{Sen+}
+  \field{sortinit}{S}
+  \verb{doi}
+  \verb 10.2172/1411856
+  \endverb
+  \field{title}{Best Practices Handbook for the Collection and Use of Solar
+  Resource Data for Solar Energy Applications: Second Edition}
+\endentry
+
 \entry{sengupta2017best}{report}{}
   \name{author}{5}{}{%
     {{}%
@@ -7554,6 +8554,88 @@
   \field{year}{2009}
 \endentry
 
+\entry{Sanchez-Lorenzo2017}{article}{}
+  \name{author}{8}{}{%
+    {{}%
+     {Sanchez-Lorenzo}{S.-L.}%
+     {Arturo}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Enriquez-Alonso}{E.-A.}%
+     {Aaron}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Wild}{W.}%
+     {Martin}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Trentmann}{T.}%
+     {Jörg}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Vicente-Serrano}{V.-S.}%
+     {Sergio~M.}{S.~M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sanchez-Romero}{S.-R.}%
+     {Alejandro}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Posselt}{P.}%
+     {Rebekka}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hakuba}{H.}%
+     {Maria~Z.}{M.~Z.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{Surface solar radiation, Satellite-derived, All-sky irradiance,
+  Temporal inhomogeneities, Decadal changes, Brightening, Europe}
+  \strng{namehash}{SLA+1}
+  \strng{fullhash}{SLAEAAWMTJVSSMSRAPRHMZ1}
+  \field{labelalpha}{SL+17}
+  \field{sortinit}{S}
+  \field{abstract}{%
+  Trends of all-sky downward surface solar radiation (SSR) from
+  satellite-derived data over Europe (1983–2010) are first presented. The
+  results show a widespread (i.e., non-local dimension) increase in the major
+  part of Europe, especially since the mid-1990s in the central and northern
+  areas and in springtime. There is a mean increase of SSR of at least 2Wm−2
+  per decade from 1983 to 2010 over the whole Europe, which, taking into
+  account that the satellite-derived product lacks of aerosol variations, can
+  be mostly related to a decrease in the cloud radiative effects over Europe.
+  Secondly, residual series have been derived as the result of the difference
+  between ground-based and satellite-derived all-sky SSR data. The residual
+  mean series points to a significant increase during the period 1983–2010,
+  with higher rates of around 2Wm−2 per decade over central and eastern
+  Europe. The spatial variation of these residual time series, which are in
+  line with clear-sky SSR trends over Europe reported in the literature, seem
+  to suggest that these differences in the residual series are not just
+  explained by calibration issues in the satellite-derived product.%
+  }
+  \verb{doi}
+  \verb https://doi.org/10.1016/j.rse.2016.11.018
+  \endverb
+  \field{issn}{0034-4257}
+  \field{pages}{108 \bibrangedash  117}
+  \field{title}{Trends in downward surface solar radiation from satellites and
+  ground observations over Europe during 1983–2010}
+  \verb{url}
+  \verb http://www.sciencedirect.com/science/article/pii/S0034425716304655
+  \endverb
+  \field{volume}{189}
+  \field{journaltitle}{Remote Sensing of Environment}
+  \field{year}{2017}
+\endentry
+
 \entry{Sanchez-Lorenzo2013}{article}{}
   \name{author}{3}{}{%
     {{}%
@@ -7667,6 +8749,58 @@
   \field{journaltitle}{The Electricity Journal}
   \field{year}{2004}
   \warn{\item Invalid format of field 'month'}
+\endentry
+
+\entry{Streets2006}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Streets}{S.}%
+     {David~G.}{D.~G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Wu}{W.}%
+     {Ye}{Y.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Chin}{C.}%
+     {Mian}{M.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{SDGWYCM1}
+  \strng{fullhash}{SDGWYCM1}
+  \field{labelalpha}{SWC}
+  \field{sortinit}{S}
+  \field{abstract}{%
+  Global average trends in solar radiation reaching the Earth's surface show a
+  transition from dimming to brightening that occurred in about 1990. We show
+  that the inter-annual trend in solar radiation between 1980 and 2000 mirrors
+  the trend in primary emissions of SO2 and black carbon, which together
+  contribute about one-third of global average aerosol optical depth. Combined
+  global emissions of these two species peaked in 1988–1989. The two-decadal
+  rate of decline in aerosol loading resulting from these emission changes,
+  0.13\% yr−1, can be compared with the reported increase in solar radiation
+  of 0.10\% yr−1 in 1983–2001. Regional patterns of aerosol and radiation
+  changes are also qualitatively consistent. We conclude that changes in the
+  aerosol burden due to changing patterns of anthropogenic emissions are likely
+  contributing to the trends in surface solar radiation.%
+  }
+  \verb{doi}
+  \verb 10.1029/2006GL026471
+  \endverb
+  \verb{eprint}
+  \verb https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2006GL026471
+  \endverb
+  \field{number}{15}
+  \field{title}{Two-decadal aerosol trends as a likely explanation of the
+  global dimming/brightening transition}
+  \verb{url}
+  \verb https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2006GL026471
+  \endverb
+  \field{volume}{33}
+  \field{journaltitle}{Geophysical Research Letters}
 \endentry
 
 \entry{Sorensen1991}{article}{}
@@ -8077,6 +9211,44 @@
   \field{year}{2018}
 \endentry
 
+\entry{vignola2012b}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Vignola}{V.}%
+     {Frank}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Grover}{G.}%
+     {Cathy}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lemon}{L.}%
+     {Nick}{N.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {McMahan}{M.}%
+     {Andrew}{A.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Elsevier}%
+  }
+  \strng{namehash}{VF+1}
+  \strng{fullhash}{VFGCLNMA1}
+  \field{labelalpha}{Vig+12}
+  \field{sortinit}{V}
+  \field{number}{8}
+  \field{pages}{2218\bibrangedash 2229}
+  \field{title}{Building a bankable solar radiation dataset}
+  \field{volume}{86}
+  \field{journaltitle}{Solar Energy}
+  \field{year}{2012}
+\endentry
+
 \entry{Vernay2014}{article}{}
   \name{author}{3}{}{%
     {{}%
@@ -8183,6 +9355,46 @@
   psa, spain}
   \field{journaltitle}{Report of Solar Consulting Services}
   \field{year}{2012}
+\endentry
+
+\entry{Wilcox2013}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Wilcox}{W.}%
+     {L~J}{L.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Highwood}{H.}%
+     {E~J}{E.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Dunstone}{D.}%
+     {N~J}{N.~J.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{WLJHEJDNJ1}
+  \strng{fullhash}{WLJHEJDNJ1}
+  \field{labelalpha}{WHD13}
+  \field{sortinit}{W}
+  \verb{doi}
+  \verb 10.1088/1748-9326/8/2/024033
+  \endverb
+  \field{issn}{1748-9326}
+  \field{number}{2}
+  \field{pages}{024033}
+  \field{title}{{The influence of anthropogenic aerosol on multi-decadal
+  variations of historical global climate}}
+  \verb{url}
+  \verb http://stacks.iop.org/1748-9326/8/i=2/a=024033?key=crossref.a1c3c3b2158
+  \verb 36ca46672972ba973400c
+  \endverb
+  \field{volume}{8}
+  \field{journaltitle}{Environmental Research Letters}
+  \field{year}{2013}
+  \warn{\item Invalid format of field 'month'}
 \endentry
 
 \entry{Widen2015}{article}{}
@@ -8432,6 +9644,119 @@
   \field{journaltitle}{Science}
   \field{eprinttype}{arXiv}
   \field{year}{2005}
+\endentry
+
+\entry{Wild2009}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Wild}{W.}%
+     {M}{M}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Wiley Online Library}%
+  }
+  \keyw{Long-term trends/shortwave radiation budget/surfac,cycle/sunshine
+  duration/earths surface/atmospheric,radiation/black carbon
+  aerosols/climate-change/hyd,transmission/anthropogenic aerosols}
+  \strng{namehash}{WM1}
+  \strng{fullhash}{WM1}
+  \field{labelalpha}{Wil09}
+  \field{sortinit}{W}
+  \field{abstract}{%
+  There is increasing evidence that the amount of solar radiation incident at
+  the Earth's surface is not stable over the years but undergoes significant
+  decadal variations. Here I review the evidence for these changes, their
+  magnitude, their possible causes, their representation in climate models, and
+  their potential implications for climate change. The various studies
+  analyzing long-term records of surface radiation measurements suggest a
+  widespread decrease in surface solar radiation between the 1950s and 1980s
+  (''global dimming''), with a partial recovery more recently at many locations
+  (''brightening''). There are also some indications for an ''early
+  brightening'' in the first part of the 20th century. These variations are in
+  line with independent long-term observations of sunshine duration, diurnal
+  temperature range, pan evaporation, and, more recently, satellite-derived
+  estimates, which add credibility to the existence of these changes and their
+  larger-scale significance. Current climate models, in general, tend to
+  simulate these decadal variations to a much lesser degree. The origins of
+  these variations are internal to the Earth's atmosphere and not externally
+  forced by the Sun. Variations are not only found under cloudy but also under
+  cloud-free atmospheres, indicative of an anthropogenic contribution through
+  changes in aerosol emissions governed by economic developments and air
+  pollution regulations. The relative importance of aerosols, clouds, and
+  aerosol-cloud interactions may differ depending on region and pollution
+  level. Highlighted are further potential implications of dimming and
+  brightening for climate change, which may affect global warming, the
+  components and intensity of the hydrological cycle, the carbon cycle, and the
+  cryosphere among other climate elements.%
+  }
+  \field{issn}{2156-2202}
+  \field{number}{D10}
+  \field{title}{{Global dimming and brightening: A review - art. no. D00D16}}
+  \field{volume}{114}
+  \verb{file}
+  \verb :home/claudia/.local/share/data/Mendeley Ltd./Mendeley Desktop/Download
+  \verb ed/Wild - 2009 - Global dimming and brightening A review.pdf:pdf
+  \endverb
+  \field{journaltitle}{Journal of Geophysical Research Atmospheres}
+  \field{year}{2009}
+\endentry
+
+\entry{Wild2012}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Wild}{W.}%
+     {Martin}{M.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{WM2}
+  \strng{fullhash}{WM2}
+  \field{labelalpha}{Wil12}
+  \field{sortinit}{W}
+  \verb{doi}
+  \verb 10.1175/BAMS-D-11-00074.1
+  \endverb
+  \field{issn}{0003-0007}
+  \field{number}{1}
+  \field{pages}{27\bibrangedash 37}
+  \field{title}{{Enlightening Global Dimming and Brightening}}
+  \verb{url}
+  \verb http://journals.ametsoc.org/doi/abs/10.1175/BAMS-D-11-00074.1
+  \endverb
+  \field{volume}{93}
+  \field{journaltitle}{Bulletin of the American Meteorological Society}
+  \field{year}{2012}
+  \warn{\item Invalid format of field 'month'}
+\endentry
+
+\entry{Willson2003}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Willson}{W.}%
+     {Richard~C}{R.~C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Mordvinov}{M.}%
+     {Alexander~V}{A.~V.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Wiley Online Library}%
+  }
+  \strng{namehash}{WRCMAV1}
+  \strng{fullhash}{WRCMAV1}
+  \field{labelalpha}{WM03}
+  \field{sortinit}{W}
+  \field{number}{5}
+  \field{title}{Secular total solar irradiance trend during solar cycles
+  21--23}
+  \field{volume}{30}
+  \field{journaltitle}{Geophysical Research Letters}
+  \field{year}{2003}
 \endentry
 
 \entry{Yang2014}{article}{}

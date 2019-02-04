@@ -5,7 +5,7 @@ The style file: biblatex.bst
 A level-1 auxiliary file: preface.aux
 A level-1 auxiliary file: Intro.aux
 Case mismatch error between cite keys Bacher2009 and bacher2009
----line 73 of file tesis.aux
+---line 99 of file tesis.aux
  : \citation{Bacher2009
  :                     }
 I'm skipping whatever remains of this command
@@ -23,85 +23,98 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated field_info (elt_size=4) to 23626 items from 5000.
+Reallocated field_info (elt_size=4) to 27657 items from 5000.
 Database file #1: tesis-blx.bib
 Database file #2: Data.bib
-Repeated entry---line 121 of file Data.bib
- : @article{bacher2009
- :                    ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 188 of file Data.bib
- : @article{Bergin2017
- :                    ,
-I'm skipping whatever remains of this entry
 Reallocated str_pool (elt_size=1) to 130000 items from 65000.
 Reallocated str_pool (elt_size=1) to 195000 items from 130000.
-Repeated entry---line 1311 of file Data.bib
- : @article{Nabat2014
- :                   ,
+You're missing a field name---line 1325 of file Data.bib
+ : abstract = {Abstract The contribution of clouds and aerosols to the decadal variations of downward surface shortwave radiation (SSR) is a current controversial topic. This study proposes a method, which is based on surface-based SSR measurements, aerosol observations, and radiative transfer simulations (in cloud-free and cloud- and aerosol-free scenarios), to evaluate cloud-aerosol (CARE), cloud (CRE), and aerosol (ARE) radiative effects. This method is applied to quantify the role played by, separately, clouds and aerosols on the intense brightening of the SSR observed in the Iberian Peninsula. Clouds and Earth's Radiation Energy Budget System (CERES) and surface-based data exhibit an increase in SSR between 2003 and 2012, exceeding +10 W m−2 over this period for some areas of the peninsula. The calculations are performed for three surface-based sites: Barcelona and Valladolid (Spain), and Évora (Portugal). Ranges in monthly values of CARE, CRE, and ARE are (−80, −20), (−60, −20), and (−30, 0), respectively (in W m−2). The average trends for the analyzed period of CARE, CRE, and ARE are +7, +5, and +2 W m−2 per decade, respectively. Overall, three fourths of the SSR trend is explained by clouds, while the other one fourth is related to aerosol changes. The SSR trends explained by the clouds and aerosol radiative effects are in line with the observed reductions in total cloud cover and aerosol load (both at the surface and in the whole atmospheric column). Furthermore, the CRE values are compared against CERES data showing good agreement between both data series, although some discrepancies are observed in their trends.},
+ :                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1423 of file Data.bib
+I was expecting an "="---line 1436 of file Data.bib
+ : @comment 
+ :          abstract = {Since the 1980s anthropogenic aerosols have been considerably reduced in Europe and the Mediterranean area. This decrease is often considered as the likely cause of the brightening effect observed over the same period. This phenomenon is however hardly reproduced by global and regional climate models. Here we use an original approach based on reanalysis-driven coupled regional climate system modelling, to show that aerosol changes explain 81 ± 16 per cent of the brightening and 23 ± 5 per cent of the surface warming simulated for the period 1980–2012 over Europe. The direct aerosol effect is found to dominate in the magnitude of the simulated brightening. The comparison between regional simulations and homogenized ground-based observations reveals that observed surface solar radiation, as well as land and sea surface temperature spatio-temporal variations over the Euro-Mediterranean region are only reproduced when simulations include the realistic aerosol variations.},
+I'm skipping whatever remains of this entry
+You're missing a field part---line 1504 of file Data.bib
+ : number = 
+ :          ,
+I'm skipping whatever remains of this entry
+You're missing a field name---line 1613 of file Data.bib
+ : abstract = {Abstract The incoming solar radiation is the essential climate variable that determines the Earth's energy cycle and climate. As long-term high-quality surface measurements of solar radiation are rare, satellite data are used to derive more information on its spatial pattern and its temporal variability. Recently, the EUMETSAT Satellite Application on Climate Monitoring (CM SAF) has published two satellite-based climate data records: Surface Solar Radiation Data Set-Heliosat, Edition 2 (SARAH-2), and Clouds and Radiation Data Set based on AVHRR (advanced very high resolution radiometer) Satellite Measurements, Edition 2 (CLARA-A2). Both data records provide estimates of surface solar radiation. In this study, these new climate data records are compared to surface measurements in Europe during the period 1983–2015. SARAH-2 and CLARA-A2 show a high accuracy compared to ground-based observations (mean absolute deviations of 6.9 and 7.3 W/m2, respectively) highlighting a good agreement considering the temporal behavior and the spatial distribution. The results show an overall brightening period since the 1980s onward (comprised between 1.9 and 2.4 W/m2/decade), with substantial decadal and spatial variability. The strongest brightening is found in eastern Europe in spring. An exception is found for northern and southern Europe, where the trends shown by the station data are not completely reproduced by satellite data, especially in summer in southern Europe. We conclude that the major part of the observed trends in surface solar radiation in Europe is caused by changes in clouds and that remaining differences between the satellite- and the station-based data might be connected to changes in the direct aerosol effect and in snow cover.},
+ :                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1634 of file Data.bib
  : @article{Lamigueiro2012
  :                        ,
 I'm skipping whatever remains of this entry
 Warning--I'm ignoring Sanchez-Lorenzo2013's extra "keywords" field
---line 1682 of file Data.bib
+--line 1939 of file Data.bib
 Warning--I'm ignoring Sanchez-Lorenzo2013's extra "keywords" field
---line 1683 of file Data.bib
+--line 1940 of file Data.bib
 Warning--I'm ignoring Sanchez-Lorenzo2013's extra "keywords" field
---line 1684 of file Data.bib
+--line 1941 of file Data.bib
 Warning--I'm ignoring Sanchez-Lorenzo2013's extra "keywords" field
---line 1685 of file Data.bib
+--line 1942 of file Data.bib
+Repeated entry---line 1947 of file Data.bib
+ : @article{Sanchez-Lorenzo2009
+ :                             ,
+I'm skipping whatever remains of this entry
 Reallocated str_pool (elt_size=1) to 260000 items from 195000.
-Warning--I didn't find a database entry for "posselts2012"
+You're missing a field name---line 2043 of file Data.bib
+ : abstract = {Global average trends in solar radiation reaching the Earth's surface show a transition from dimming to brightening that occurred in about 1990. We show that the inter-annual trend in solar radiation between 1980 and 2000 mirrors the trend in primary emissions of SO2 and black carbon, which together contribute about one-third of global average aerosol optical depth. Combined global emissions of these two species peaked in 1988–1989. The two-decadal rate of decline in aerosol loading resulting from these emission changes, 0.13\% yr−1, can be compared with the reported increase in solar radiation of 0.10\% yr−1 in 1983–2001. Regional patterns of aerosol and radiation changes are also qualitatively consistent. We conclude that changes in the aerosol burden due to changing patterns of anthropogenic emissions are likely contributing to the trends in surface solar radiation.},
+ :                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        ,
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "Gueymard.Wilcox2011a"
+Warning--I didn't find a database entry for "Zagouras.Pedro.2014"
 Warning--I didn't find a database entry for "5694060"
 Warning--I didn't find a database entry for "davies1979cluster"
-Warning--I didn't find a database entry for "Gil2015"
+Warning--I didn't find a database entry for "Nabat2014"
 Warning--I didn't find a database entry for "deMiguel2001"
 Warning--I didn't find a database entry for "Gopinathan1995"
 Warning--I didn't find a database entry for "Martin1999"
 Biblatex version: 3.3
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
-You've used 127 entries,
+You've used 155 entries,
             6047 wiz_defined-function locations,
-            2285 strings with 200777 characters,
-and the built_in function-call counts, 514731 in all, are:
-= -- 17500
-> -- 17836
-< -- 4718
-+ -- 6299
-- -- 8042
-* -- 52315
-:= -- 31408
+            2490 strings with 227562 characters,
+and the built_in function-call counts, 617065 in all, are:
+= -- 21384
+> -- 21202
+< -- 5763
++ -- 7402
+- -- 9350
+* -- 61194
+:= -- 37304
 add.period$ -- 0
-call.type$ -- 127
-change.case$ -- 2268
-chr.to.int$ -- 78
-cite$ -- 252
-duplicate$ -- 60654
-empty$ -- 52376
-format.name$ -- 14502
-if$ -- 111245
+call.type$ -- 155
+change.case$ -- 2852
+chr.to.int$ -- 90
+cite$ -- 310
+duplicate$ -- 72583
+empty$ -- 63149
+format.name$ -- 16902
+if$ -- 134224
 int.to.chr$ -- 0
-int.to.str$ -- 316
+int.to.str$ -- 398
 missing$ -- 0
-newline$ -- 6697
-num.names$ -- 6425
-pop$ -- 42186
+newline$ -- 7768
+num.names$ -- 7927
+pop$ -- 51361
 preamble$ -- 1
-purify$ -- 2811
+purify$ -- 3444
 quote$ -- 0
-skip$ -- 26511
+skip$ -- 32154
 stack$ -- 0
-substring$ -- 8499
-swap$ -- 22786
-text.length$ -- 4543
-text.prefix$ -- 274
+substring$ -- 10686
+swap$ -- 27008
+text.length$ -- 5389
+text.prefix$ -- 322
 top$ -- 1
-type$ -- 4813
+type$ -- 5877
 warning$ -- 0
-while$ -- 2679
+while$ -- 3253
 width$ -- 0
-write$ -- 6569
-(There were 5 error messages)
+write$ -- 7612
+(There were 8 error messages)
