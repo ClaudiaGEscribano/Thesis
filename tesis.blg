@@ -3,20 +3,22 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: tesis.aux
 The style file: biblatex.bst
 A level-1 auxiliary file: preface.aux
+A level-1 auxiliary file: resumen.aux
 A level-1 auxiliary file: Intro.aux
 Case mismatch error between cite keys Bacher2009 and bacher2009
----line 99 of file tesis.aux
+---line 102 of file tesis.aux
  : \citation{Bacher2009
  :                     }
 I'm skipping whatever remains of this command
 A level-1 auxiliary file: DataMethods.aux
 A level-1 auxiliary file: Resultados.aux
 Case mismatch error between cite keys tanre1984 and Tanre1984
----line 281 of file tesis.aux
+---line 311 of file tesis.aux
  : \citation{tanre1984
  :                    }
 I'm skipping whatever remains of this command
 A level-1 auxiliary file: Discusion.aux
+A level-1 auxiliary file: conclusiones.aux
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
@@ -28,96 +30,88 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated field_info (elt_size=4) to 28769 items from 5000.
+Reallocated field_info (elt_size=4) to 28630 items from 5000.
 Database file #1: tesis-blx.bib
 Database file #2: Data.bib
 Reallocated str_pool (elt_size=1) to 130000 items from 65000.
 Reallocated str_pool (elt_size=1) to 195000 items from 130000.
-You're missing a field name---line 1374 of file Data.bib
+You're missing a field name---line 1433 of file Data.bib
  : abstract = {Abstract The contribution of clouds and aerosols to the decadal variations of downward surface shortwave radiation (SSR) is a current controversial topic. This study proposes a method, which is based on surface-based SSR measurements, aerosol observations, and radiative transfer simulations (in cloud-free and cloud- and aerosol-free scenarios), to evaluate cloud-aerosol (CARE), cloud (CRE), and aerosol (ARE) radiative effects. This method is applied to quantify the role played by, separately, clouds and aerosols on the intense brightening of the SSR observed in the Iberian Peninsula. Clouds and Earth's Radiation Energy Budget System (CERES) and surface-based data exhibit an increase in SSR between 2003 and 2012, exceeding +10 W m−2 over this period for some areas of the peninsula. The calculations are performed for three surface-based sites: Barcelona and Valladolid (Spain), and Évora (Portugal). Ranges in monthly values of CARE, CRE, and ARE are (−80, −20), (−60, −20), and (−30, 0), respectively (in W m−2). The average trends for the analyzed period of CARE, CRE, and ARE are +7, +5, and +2 W m−2 per decade, respectively. Overall, three fourths of the SSR trend is explained by clouds, while the other one fourth is related to aerosol changes. The SSR trends explained by the clouds and aerosol radiative effects are in line with the observed reductions in total cloud cover and aerosol load (both at the surface and in the whole atmospheric column). Furthermore, the CRE values are compared against CERES data showing good agreement between both data series, although some discrepancies are observed in their trends.},
  :                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ,
 I'm skipping whatever remains of this entry
-You're missing a field part---line 1547 of file Data.bib
+You're missing a field part---line 1607 of file Data.bib
  : number = 
  :          ,
 I'm skipping whatever remains of this entry
-You're missing a field name---line 1656 of file Data.bib
+I was expecting an "="---line 1615 of file Data.bib
+ : @comment 
+ :          abstract = {To support climate research, the World Climate Research Programme (WCRP) initiated a new radiometric network, the Baseline Surface Radiation Network (BSRN). The network aims at providing validation material for satellite radi- ometry and climate models. It further aims at detecting long-term variations in irradiances at the earth's surface, which are believed to play an important role in climate change. The network and its instrumentation are designed 1) to cover major climate zones, 2) to provide the accuracy required to meet the objectives, and 3) to ensure homogenized standards for a long period in the future. The limits of the accuracy are defined to reach these goals. The suitable instruments and instrumentations have been determined and the methods for observations and data management have been agreed on at all stations. Measurements of irradiances are at 1 Hz, and the 1-min statistics (mean, standard deviation, and extreme values) with quality flags are stored at a centralized data archive at the WCRP's World Radiation Monitoring Center (WRMC) in Zurich, Switzerland. The data are quality controlled both at stations and at the WRMC. The original 1-min irradiance statistics will be stored at the WRMC for 10 years, while hourly mean values will be transferred to the World Radiation Data Center in St. Petersburg, Russia. The BSRN, consisting of 15 stations, covers the earth's surface from 80°N to 90°S, and will soon be joined by seven more stations. The data are available to scientific communities in vari- ous ways depending on the communication environment of the users. The present article discusses the scientific base, organizational and technical aspects of the network, and data retrieval methods; shows various application possibilities; and presents the future tasks to be accomplished.},
+I'm skipping whatever remains of this entry
+You're missing a field name---line 1804 of file Data.bib
  : abstract = {Abstract The incoming solar radiation is the essential climate variable that determines the Earth's energy cycle and climate. As long-term high-quality surface measurements of solar radiation are rare, satellite data are used to derive more information on its spatial pattern and its temporal variability. Recently, the EUMETSAT Satellite Application on Climate Monitoring (CM SAF) has published two satellite-based climate data records: Surface Solar Radiation Data Set-Heliosat, Edition 2 (SARAH-2), and Clouds and Radiation Data Set based on AVHRR (advanced very high resolution radiometer) Satellite Measurements, Edition 2 (CLARA-A2). Both data records provide estimates of surface solar radiation. In this study, these new climate data records are compared to surface measurements in Europe during the period 1983–2015. SARAH-2 and CLARA-A2 show a high accuracy compared to ground-based observations (mean absolute deviations of 6.9 and 7.3 W/m2, respectively) highlighting a good agreement considering the temporal behavior and the spatial distribution. The results show an overall brightening period since the 1980s onward (comprised between 1.9 and 2.4 W/m2/decade), with substantial decadal and spatial variability. The strongest brightening is found in eastern Europe in spring. An exception is found for northern and southern Europe, where the trends shown by the station data are not completely reproduced by satellite data, especially in summer in southern Europe. We conclude that the major part of the observed trends in surface solar radiation in Europe is caused by changes in clouds and that remaining differences between the satellite- and the station-based data might be connected to changes in the direct aerosol effect and in snow cover.},
  :                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1677 of file Data.bib
- : @article{Lamigueiro2012
- :                        ,
-I'm skipping whatever remains of this entry
+Reallocated str_pool (elt_size=1) to 260000 items from 195000.
 Warning--I'm ignoring Sanchez-Lorenzo2013's extra "keywords" field
---line 1995 of file Data.bib
+--line 2026 of file Data.bib
 Warning--I'm ignoring Sanchez-Lorenzo2013's extra "keywords" field
---line 1996 of file Data.bib
+--line 2027 of file Data.bib
 Warning--I'm ignoring Sanchez-Lorenzo2013's extra "keywords" field
---line 1997 of file Data.bib
+--line 2028 of file Data.bib
 Warning--I'm ignoring Sanchez-Lorenzo2013's extra "keywords" field
---line 1998 of file Data.bib
-Repeated entry---line 2003 of file Data.bib
+--line 2029 of file Data.bib
+Repeated entry---line 2034 of file Data.bib
  : @article{Sanchez-Lorenzo2009
  :                             ,
 I'm skipping whatever remains of this entry
-Reallocated str_pool (elt_size=1) to 260000 items from 195000.
-You're missing a field name---line 2110 of file Data.bib
+You're missing a field name---line 2141 of file Data.bib
  : abstract = {Global average trends in solar radiation reaching the Earth's surface show a transition from dimming to brightening that occurred in about 1990. We show that the inter-annual trend in solar radiation between 1980 and 2000 mirrors the trend in primary emissions of SO2 and black carbon, which together contribute about one-third of global average aerosol optical depth. Combined global emissions of these two species peaked in 1988–1989. The two-decadal rate of decline in aerosol loading resulting from these emission changes, 0.13\% yr−1, can be compared with the reported increase in solar radiation of 0.10\% yr−1 in 1983–2001. Regional patterns of aerosol and radiation changes are also qualitatively consistent. We conclude that changes in the aerosol burden due to changing patterns of anthropogenic emissions are likely contributing to the trends in surface solar radiation.},
  :                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        ,
 I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "Jacob2010"
-Warning--I didn't find a database entry for "Nabat2014a"
-Warning--I didn't find a database entry for "Gueymard.Wilcox2011a"
-Warning--I didn't find a database entry for "Zagouras.Pedro.2014"
-Warning--I didn't find a database entry for "5694060"
-Warning--I didn't find a database entry for "davies1979cluster"
-Warning--I didn't find a database entry for "Nabat2014"
-Warning--I didn't find a database entry for "deMiguel2001"
-Warning--I didn't find a database entry for "Gopinathan1995"
 Warning--I didn't find a database entry for "Martin1999"
 Biblatex version: 3.3
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
-You've used 161 entries,
+You've used 168 entries,
             6047 wiz_defined-function locations,
-            2537 strings with 229042 characters,
-and the built_in function-call counts, 641644 in all, are:
-= -- 22356
-> -- 22104
-< -- 6004
-+ -- 7700
-- -- 9699
-* -- 63412
-:= -- 38819
+            2585 strings with 235234 characters,
+and the built_in function-call counts, 663964 in all, are:
+= -- 23081
+> -- 22835
+< -- 6243
++ -- 7901
+- -- 10028
+* -- 65380
+:= -- 40067
 add.period$ -- 0
-call.type$ -- 161
-change.case$ -- 3005
-chr.to.int$ -- 90
-cite$ -- 320
-duplicate$ -- 75346
-empty$ -- 65580
-format.name$ -- 17526
-if$ -- 139759
+call.type$ -- 168
+change.case$ -- 3107
+chr.to.int$ -- 91
+cite$ -- 336
+duplicate$ -- 77836
+empty$ -- 68054
+format.name$ -- 17948
+if$ -- 144867
 int.to.chr$ -- 0
-int.to.str$ -- 417
+int.to.str$ -- 431
 missing$ -- 0
-newline$ -- 8004
-num.names$ -- 8318
-pop$ -- 53310
+newline$ -- 8214
+num.names$ -- 8603
+pop$ -- 55515
 preamble$ -- 1
-purify$ -- 3617
+purify$ -- 3719
 quote$ -- 0
-skip$ -- 33548
+skip$ -- 34752
 stack$ -- 0
-substring$ -- 11304
-swap$ -- 27982
-text.length$ -- 5586
-text.prefix$ -- 337
+substring$ -- 11744
+swap$ -- 28951
+text.length$ -- 5800
+text.prefix$ -- 345
 top$ -- 1
-type$ -- 6105
+type$ -- 6370
 warning$ -- 0
-while$ -- 3391
+while$ -- 3531
 width$ -- 0
-write$ -- 7842
+write$ -- 8045
 (There were 8 error messages)

@@ -22,10 +22,10 @@
 \nomenclatureentry{c_j$c_j$@[{$c_j$}]\begingroup Centroid of the cluster j\nomeqref {5.1}|nompageref}{62}
 \nomenclatureentry{PV$PV$@[{$PV$}]\begingroup Photovoltaic\nomeqref {5.1}|nompageref}{62}
 \nomenclatureentry{IP$IP$@[{$IP$}]\begingroup Iberian Peninsula\nomeqref {5.1}|nompageref}{62}
-\nomenclatureentry{k$k$@[{$k$}]\begingroup number of clusters.\nomeqref {5.2}|nompageref}{62}
-\nomenclatureentry{c$c$@[{$c$}]\begingroup number of clusters where the 2 fit-lines split.\nomeqref {5.2}|nompageref}{62}
-\nomenclatureentry{CH$CH$@[{$CH$}]\begingroup Calinski-Harabasz validity index.\nomeqref {5.2}|nompageref}{62}
-\nomenclatureentry{RMSET$RMSE_T$@[{$RMSE_T$}]\begingroup Total root mean square error\nomeqref {5.2}|nompageref}{62}
-\nomenclatureentry{RMSEleft$RMSE_{left}$@[{$RMSE_{left}$}]\begingroup Root mean squared error of the left-side linear regression.\nomeqref {5.2}|nompageref}{62}
-\nomenclatureentry{RMSErigth$RMSE_{right}$@[{$RMSE_{right}$}]\begingroup Root mean squared error of the right-side linear regression.\nomeqref {5.2}|nompageref}{62}
-\nomenclatureentry{CV$CV$@[{$CV$}]\begingroup Coefficient of variation.\nomeqref {5.4}|nompageref}{69}
+\nomenclatureentry{k$k$@[{$k$}]\begingroup number of clusters.\nomeqref {5.2}|nompageref}{63}
+\nomenclatureentry{c$c$@[{$c$}]\begingroup number of clusters where the 2 fit-lines split.\nomeqref {5.2}|nompageref}{63}
+\nomenclatureentry{CH$CH$@[{$CH$}]\begingroup Calinski-Harabasz validity index.\nomeqref {5.2}|nompageref}{63}
+\nomenclatureentry{RMSET$RMSE_T$@[{$RMSE_T$}]\begingroup Total root mean square error\nomeqref {5.2}|nompageref}{63}
+\nomenclatureentry{RMSEleft$RMSE_{left}$@[{$RMSE_{left}$}]\begingroup Root mean squared error of the left-side linear regression.\nomeqref {5.2}|nompageref}{63}
+\nomenclatureentry{RMSErigth$RMSE_{right}$@[{$RMSE_{right}$}]\begingroup Root mean squared error of the right-side linear regression.\nomeqref {5.2}|nompageref}{63}
+\nomenclatureentry{CV$CV$@[{$CV$}]\begingroup Coefficient of variation.\nomeqref {5.4}|nompageref}{70}

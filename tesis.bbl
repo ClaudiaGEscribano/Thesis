@@ -201,7 +201,7 @@
   improvement over ERA-40 in the climate description in terms of frequency,
   spatial distribution, and intensity of extreme events. It also captures more
   accurately the annual cycle and reduces the biases and the RMSE for monthly
-  precipitation, whereas only a minor enhancement of these features was
+  precipitation, whereas only a minor enh2ancement of these features was
   obtained for monthly-mean maximum and minimum temperatures. The results
   indicate that WRF is able to correctly reproduce Andalusian climate and
   produces useful added-value information for climate studies.%
@@ -1594,6 +1594,34 @@
   \field{volume}{115}
   \field{journaltitle}{Journal of Geophysical Research Atmospheres}
   \field{year}{2010}
+\endentry
+
+\entry{davies1979cluster}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Davies}{D.}%
+     {David~L}{D.~L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bouldin}{B.}%
+     {Donald~W}{D.~W.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {IEEE}%
+  }
+  \strng{namehash}{DDLBDW1}
+  \strng{fullhash}{DDLBDW1}
+  \field{labelalpha}{DB79}
+  \field{sortinit}{D}
+  \field{number}{2}
+  \field{pages}{224\bibrangedash 227}
+  \field{title}{A cluster separation measure}
+  \field{journaltitle}{IEEE transactions on pattern analysis and machine
+  intelligence}
+  \field{year}{1979}
 \endentry
 
 \entry{Denault2009}{article}{}
@@ -3066,6 +3094,83 @@
   \field{year}{2017}
 \endentry
 
+\entry{Gutierrez2018}{article}{}
+  \name{author}{6}{}{%
+    {{}%
+     {Gutiérrez}{G.}%
+     {Claudia}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Somot}{S.}%
+     {Samuel}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Nabat}{N.}%
+     {Pierre}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Mallet}{M.}%
+     {Marc}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Gaertner}{G.}%
+     {Miguel}{M.}%
+     {Ángel}{�.}%
+     {}{}}%
+    {{}%
+     {Perpiñán}{P.}%
+     {Oscar}{O.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{Photovoltaic production variability, Aerosols, Regional climate
+  modeling}
+  \strng{namehash}{GC+2}
+  \strng{fullhash}{GCSSNPMMGM�PO1}
+  \field{labelalpha}{Gut+18}
+  \field{sortinit}{G}
+  \field{abstract}{%
+  The increase in the photovoltaic energy installed capacity over the world
+  leads to the need of a better understanding of solar resource and its
+  variability. The aim of this work is to assess the influence of aerosols on
+  photovoltaic energy production from seasonal to multi-decadal time scales.
+  For this purpose we use various coupled aerosol-climate simulations that take
+  into account the complex spatial and temporal patterns of natural and
+  anthropogenic aerosols over the Euro-Mediterranean domain. The results show
+  that aerosols strongly influence the spatial pattern, seasonal cycle and
+  long-term trend of PV production. The most affected area is Central Europe
+  where sensitivity of PV production to aerosols is higher. The annual
+  production loss due to aerosols ranges from no impact to -16% in The
+  Netherlands, with variation depending on the area and on the typology of the
+  tracking system. The summer production loss can even reach -20% over regions
+  of Africa and Syria-Iraq. We conclude that aerosols cannot be neglected in
+  the assessment of PV production at large time scales over the
+  Euro-Mediterranean area. Besides, the potential increase in energy due to
+  reduction in the anthropogenic aerosols is shown in the simulation of the
+  brightening period over Europe, with an increase of 2000 kWhkWp in a PV
+  lifetime for the most affected areas. It illustrates the evolution that PV
+  potential could follow in highly polluted areas through the effective
+  implementation of pollution control measures.%
+  }
+  \verb{doi}
+  \verb https://doi.org/10.1016/j.solener.2018.09.085
+  \endverb
+  \field{issn}{0038-092X}
+  \field{pages}{1142 \bibrangedash  1152}
+  \field{title}{Impact of aerosols on the spatiotemporal variability of
+  photovoltaic energy production in the Euro-Mediterranean area}
+  \verb{url}
+  \verb http://www.sciencedirect.com/science/article/pii/S0038092X18309794
+  \endverb
+  \field{volume}{174}
+  \field{journaltitle}{Solar Energy}
+  \field{year}{2018}
+\endentry
+
 \entry{garcia2012seasonal}{article}{}
   \name{author}{6}{}{%
     {{}%
@@ -3113,6 +3218,79 @@
   \field{volume}{110}
   \field{journaltitle}{Theoretical and Applied Climatology}
   \field{year}{2012}
+\endentry
+
+\entry{GueymardWilcox2011a}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Gueymard}{G.}%
+     {Christian~A.}{C.~A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Wilcox}{W.}%
+     {Stephen~M.}{S.~M.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{DNI,Direct and global irradiance,Interannual,Solar
+  resource,Validation,Variability}
+  \strng{namehash}{GCAWSM1}
+  \strng{fullhash}{GCAWSM1}
+  \field{labelalpha}{GW11}
+  \field{sortinit}{G}
+  \field{abstract}{%
+  The US National Renewable Energy Laboratory (NREL) is responding to a growing
+  demand for high-accuracy solar resource data with uncertainties significantly
+  lower than those of existing solar resource datasets, such as the National
+  Solar Radiation Database (NSRDB). Measurements for long-term solar resource
+  characterizations require years to complete, which is an unacceptable
+  timeline for the rapidly emerging needs of renewable energy applications.
+  This contribution seeks methods of reducing the uncertainty of existing
+  long-term solar resource datasets by incorporating lower-uncertainty
+  site-specific ground measurements of a limited period of record. In
+  particular, various techniques are being explored to make full use of the
+  existing high-resolution radiation data available in the NSRDB and other
+  sources, and extrapolate them over time using locally measured data and other
+  supportive information. The interannual variability in global and direct
+  radiation is studied here using long-term data at various sites. NSRDB's
+  modeled data for the 1998-2005 period are compared to quality-controlled
+  measurements to assess the performance of the model, which is found to vary
+  greatly depending on climatic condition. The reported results are encouraging
+  for applications involving concentrators at very sunny sites. Large seasonal
+  biases are found at some cloudy sites. Various improvements are proposed to
+  enhance the quality of the existing model and modeled data. The measurement
+  of solar radiation to characterize the solar climate for renewable energy and
+  other applications is a time consuming and expensive operation. Full climate
+  characterization may require several decades of measurements-a prospect that
+  is not practical for an industry intent on rapid deployment of solar
+  technologies. This study demonstrates that the consistency of the solar
+  resource in both time and space varies widely across the United States. The
+  mapped results here illustrate regions with high and low variability and
+  provide readers with quick visual information to help them decide where and
+  how long measurements should be taken for a particular application. The
+  underlying data that form these maps are also available from NREL to provide
+  users the opportunity for more detailed analysis. {\textcopyright} 2011.%
+  }
+  \verb{doi}
+  \verb 10.1016/j.solener.2011.02.030
+  \endverb
+  \field{isbn}{0038-092X}
+  \field{issn}{0038092X}
+  \field{number}{5}
+  \field{pages}{1068\bibrangedash 1084}
+  \field{title}{{Assessment of spatial and temporal variability in the US solar
+  resource from radiometric measurements and predictions from models using
+  ground-based or satellite data}}
+  \field{volume}{85}
+  \verb{file}
+  \verb :home/claudia/.local/share/data/Mendeley Ltd./Mendeley Desktop/Download
+  \verb ed/Gueymard, Wilcox - 2011 - Assessment of spatial and temporal variabi
+  \verb lity in the US solar resource from radiometric measurements and pred.pd
+  \verb f:pdf
+  \endverb
+  \field{journaltitle}{Solar Energy}
+  \field{year}{2011}
 \endentry
 
 \entry{Gilgen1998}{article}{}
@@ -4319,6 +4497,89 @@
   \field{year}{2011}
 \endentry
 
+\entry{Jain1999}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Jain}{J.}%
+     {A.~K.}{A.~K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Murty}{M.}%
+     {M.~N.}{M.~N.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Flynn}{F.}%
+     {P.~J.}{P.~J.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{JAKMMNFPJ1}
+  \strng{fullhash}{JAKMMNFPJ1}
+  \field{labelalpha}{JMF99}
+  \field{sortinit}{J}
+  \field{abstract}{%
+  Clustering is the unsupervised classification of patterns (observations, data
+  items, or feature vectors) into groups (clusters). The clustering problem has
+  been addressed in many contexts and by researchers in many disciplines; this
+  reflects its broad appeal and usefulness as one of the steps in exploratory
+  data analysis. However, clustering is a difficult problem combinatorially,
+  and differences in assumptions and contexts in different communities has made
+  the transfer of useful generic concepts and methodologies slow to occur. This
+  paper presents an overview of pattern clustering methods from a statistical
+  pattern recognition perspective, with a goal of providing useful advice and
+  references to fundamental concepts accessible to the broad community of
+  clustering practitioners. We present a taxonomy of clustering techniques, and
+  identify cross-cutting themes and recent advances. We also describe some
+  important applications of clustering algorithms such as image segmentation,
+  object recognition, and information retrieval.%
+  }
+  \verb{doi}
+  \verb 10.1136/emermed-2012-202314
+  \endverb
+  \verb{eprint}
+  \verb arXiv:1101.1881v2
+  \endverb
+  \field{isbn}{0360-0300}
+  \field{issn}{14720205}
+  \field{number}{3}
+  \field{pages}{264\bibrangedash 323}
+  \field{title}{{Data clustering: a review}}
+  \verb{url}
+  \verb http://portal.acm.org/citation.cfm?doid=331499.331504
+  \endverb
+  \field{volume}{31}
+  \verb{file}
+  \verb :home/claudia/.local/share/data/Mendeley Ltd./Mendeley Desktop/Download
+  \verb ed/Jain, Murty, Flynn - 1999 - Data clustering a review.pdf:pdf
+  \endverb
+  \field{journaltitle}{ACM Computing Surveys}
+  \field{eprinttype}{arXiv}
+  \field{year}{1999}
+\endentry
+
+\entry{jolliffe2011}{incollection}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Jolliffe}{J.}%
+     {Ian}{I.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Springer}%
+  }
+  \strng{namehash}{JI1}
+  \strng{fullhash}{JI1}
+  \field{labelalpha}{Jol11}
+  \field{sortinit}{J}
+  \field{booktitle}{International encyclopedia of statistical science}
+  \field{pages}{1094\bibrangedash 1096}
+  \field{title}{Principal component analysis}
+  \field{year}{2011}
+\endentry
+
 \entry{jantsch1992results}{inproceedings}{}
   \name{author}{3}{}{%
     {{}%
@@ -4805,6 +5066,51 @@
   \verb ed/Lelieveld - Unknown - Global air pollution crossroads over the Medit
   \verb erranean.pdf:pdf
   \endverb
+\endentry
+
+\entry{Liu2010}{inproceedings}{}
+  \name{author}{5}{}{%
+    {{}%
+     {Liu}{L.}%
+     {Y.}{Y.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Li}{L.}%
+     {Z.}{Z.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Xiong}{X.}%
+     {H.}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Gao}{G.}%
+     {X.}{X.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Wu}{W.}%
+     {J.}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{data mining;pattern clustering;unsupervised learning;S_Dbw;clustering
+  application;crisp clustering;internal clustering validation}
+  \strng{namehash}{LY+1}
+  \strng{fullhash}{LYLZXHGXWJ1}
+  \field{labelalpha}{Liu+10}
+  \field{sortinit}{L}
+  \field{booktitle}{2010 IEEE International Conference on Data Mining}
+  \verb{doi}
+  \verb 10.1109/ICDM.2010.35
+  \endverb
+  \field{issn}{1550-4786}
+  \field{pages}{911\bibrangedash 916}
+  \field{title}{Understanding of Internal Clustering Validation Measures}
+  \field{year}{2010}
+  \warn{\item Invalid format of field 'month'}
 \endentry
 
 \entry{Liu1960}{article}{}
@@ -6169,7 +6475,7 @@
   \field{year}{2014}
 \endentry
 
-\entry{Muller2015}{article}{}
+\entry{Muller2015}{report}{}
   \name{author}{6}{}{%
     {{}%
      {M{\"{u}}ller}{M.}%
@@ -6227,6 +6533,7 @@
   \verb{url}
   \verb http://dx.doi.org/10.5676/EUM{\_}SAF{\_}CM/SARAH/V001
   \endverb
+  \field{type}{techreport}
   \field{journaltitle}{EUMETSAT Satellite Application Facility on Climate
   Monitoring (CM SAF)}
   \field{year}{2015}
@@ -6624,124 +6931,9 @@
   \field{year}{2007}
 \endentry
 
-\entry{Ohmura1998}{article}{}
-  \name{author}{15}{}{%
-    {{}%
-     {Ohmura}{O.}%
-     {Atsumu}{A.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Dutton}{D.}%
-     {Ellsworth~G.}{E.~G.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Forgan}{F.}%
-     {Bruce}{B.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Fr{\"{o}}hlich}{F.}%
-     {Claus}{C.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Gilgen}{G.}%
-     {Hans}{H.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Hegner}{H.}%
-     {Herman}{H.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Heimo}{H.}%
-     {Alain}{A.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {K{\"{o}}nig-Langlo}{K.-L.}%
-     {Gert}{G.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {McArthur}{M.}%
-     {Bruce}{B.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {M{\"{u}}ller}{M.}%
-     {Guido}{G.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Philipona}{P.}%
-     {Rolf}{R.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Pinker}{P.}%
-     {Rachel}{R.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Whitlock}{W.}%
-     {Charlie~H.}{C.~H.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Dehne}{D.}%
-     {Klaus}{K.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Wild}{W.}%
-     {Martin}{M.}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{OA+1}
-  \strng{fullhash}{OADEGFBFCGHHHHAKLGMBMGPRPRWCHDKWM1}
-  \field{labelalpha}{Ohm+98}
+\entry{ohmura1998}{article}{}
+  \field{labelalpha}{Ohm}
   \field{sortinit}{O}
-  \field{abstract}{%
-  To support climate research, the World Climate Research Programme (WCRP)
-  initiated a new radiometric network, the Baseline Surface Radiation Network
-  (BSRN). The network aims at providing validation material for satellite radi-
-  ometry and climate models. It further aims at detecting long-term variations
-  in irradiances at the earth's surface, which are believed to play an
-  important role in climate change. The network and its instrumentation are
-  designed 1) to cover major climate zones, 2) to provide the accuracy required
-  to meet the objectives, and 3) to ensure homogenized standards for a long
-  period in the future. The limits of the accuracy are defined to reach these
-  goals. The suitable instruments and instrumentations have been determined and
-  the methods for observations and data management have been agreed on at all
-  stations. Measurements of irradiances are at 1 Hz, and the 1-min statistics
-  (mean, standard deviation, and extreme values) with quality flags are stored
-  at a centralized data archive at the WCRP's World Radiation Monitoring Center
-  (WRMC) in Zurich, Switzerland. The data are quality controlled both at
-  stations and at the WRMC. The original 1-min irradiance statistics will be
-  stored at the WRMC for 10 years, while hourly mean values will be transferred
-  to the World Radiation Data Center in St. Petersburg, Russia. The BSRN,
-  consisting of 15 stations, covers the earth's surface from 80°N to 90°S,
-  and will soon be joined by seven more stations. The data are available to
-  scientific communities in vari- ous ways depending on the communication
-  environment of the users. The present article discusses the scientific base,
-  organizational and technical aspects of the network, and data retrieval
-  methods; shows various application possibilities; and presents the future
-  tasks to be accomplished.%
-  }
-  \verb{doi}
-  \verb 10.1175/1520-0477(1998)079<2115:BSRNBW>2.0.CO;2
-  \endverb
-  \field{isbn}{0003-0007}
-  \field{issn}{00030007}
-  \field{title}{{Baseline Surface Radiation Network (BSRN/WCRP): New Precision
-  Radiometry for Climate Research}}
-  \field{journaltitle}{Bulletin of the American Meteorological Society}
-  \field{year}{1998}
 \endentry
 
 \entry{Otani1997}{article}{}
@@ -6808,8 +7000,8 @@
   \list{publisher}{1}{%
     {Academic Press}%
   }
-  \strng{namehash}{PJ2}
-  \strng{fullhash}{PJ2}
+  \strng{namehash}{PJ1}
+  \strng{fullhash}{PJ1}
   \field{labelalpha}{Pag12}
   \field{sortinit}{P}
   \field{abstract}{%
@@ -6842,31 +7034,6 @@
   \field{journaltitle}{Practical Handbook of Photovoltaics}
   \field{year}{2012}
   \warn{\item Invalid format of field 'month'}
-\endentry
-
-\entry{Page1961}{inproceedings}{}
-  \name{author}{1}{}{%
-    {{}%
-     {Page}{P.}%
-     {J.}{J.}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{PJ1}
-  \strng{fullhash}{PJ1}
-  \field{labelalpha}{Pag61}
-  \field{sortinit}{P}
-  \field{abstract}{%
-  Page, J. (1961), ‘The estimation of monthly mean values of daily total
-  short-wave radiation on vertical and inclined surfaces from sunshine records
-  for latitudes 40°N–40°S', UN Conference on New Energy Sources, paper no.
-  S98, 4, pp. 378–390.%
-  }
-  \field{booktitle}{UN Conference on New ENergy Sources, paper No. s98}
-  \field{title}{{The estimation of monthly mean values of daily total
-  short­wave radiation on vertical and inclined sufaces from sunshine records
-  for latitudes 40°N-40°S}}
-  \field{year}{1961}
 \endentry
 
 \entry{pryor2006inter}{article}{}
@@ -7018,7 +7185,7 @@
   \field{year}{2009}
 \endentry
 
-\entry{Lamigueiro2012}{article}{}
+\entry{Perpinan2012}{article}{}
   \name{author}{1}{}{%
     {{}%
      {Perpi{\~{n}}{\'{a}}n}{P.}%
@@ -7292,6 +7459,61 @@
   \field{journaltitle}{Solar Energy}
   \field{year}{2011}
   \warn{\item Invalid format of field 'month'}
+\endentry
+
+\entry{Perpinan2007}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Perpi{\~{n}}an}{P.}%
+     {O.}{O.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lorenzo}{L.}%
+     {E.}{E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Castro}{C.}%
+     {M.~A.}{M.~A.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{Energy production calculation,Grid-connected PV systems,Solar radiation
+  statistics}
+  \strng{namehash}{POLECMA1}
+  \strng{fullhash}{POLECMA1}
+  \field{labelalpha}{PLC07}
+  \field{sortinit}{P}
+  \field{abstract}{%
+  A power conversion efficiency record of 10.1{\%} was achieved for kesterite
+  absorbers, using a Cu2ZnSn(Se,S)4 thin-film solar cell made by
+  hydrazine-based solution processing. Key device characteristics were
+  compiled, including light/dark J–V, quantum efficiency, temperature
+  dependence of Voc and series resistance, photoluminescence, and capacitance
+  spectroscopy, providing important insight into how the devices compare with
+  high-performance Cu(In,Ga)Se2. The record kesterite device was shown to be
+  primarily limited by interface recombination, minority carrier lifetime, and
+  series resistance. The new level of device performance points to the
+  significant promise of the kesterites as an emerging and commercially
+  interesting thin-film technology. Copyright {\textcopyright} 2011 John Wiley
+  {\&} Sons, Ltd.%
+  }
+  \verb{doi}
+  \verb 10.1002/pip.728
+  \endverb
+  \field{isbn}{1099-159X}
+  \field{issn}{10627995}
+  \field{number}{3}
+  \field{pages}{265\bibrangedash 274}
+  \field{title}{{On the calculation of energy produced by a PV grid-connected
+  system}}
+  \field{volume}{15}
+  \verb{file}
+  \verb :home/claudia/Escritorio/Perpinan.Lorenzo.ea2007.pdf:pdf
+  \endverb
+  \field{journaltitle}{Progress in Photovoltaics: Research and Applications}
+  \field{year}{2007}
 \endentry
 
 \entry{Perpinan2013}{article}{}
@@ -10229,6 +10451,68 @@
   \endverb
   \field{journaltitle}{Solar Energy}
   \field{year}{2014}
+\endentry
+
+\entry{ZSCHEISCHLER2012897}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Zscheischler}{Z.}%
+     {Jakob}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Mahecha}{M.}%
+     {Miguel~D.}{M.~D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Harmeling}{H.}%
+     {Stefan}{S.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{clustering, -means, multivariate statistics, K̈oppen-Geiger climate
+  classiﬁcation, PCA}
+  \strng{namehash}{ZJMMDHS1}
+  \strng{fullhash}{ZJMMDHS1}
+  \field{labelalpha}{ZMH12}
+  \field{sortinit}{Z}
+  \field{abstract}{%
+  Classifying the land surface according to different climate zones is often a
+  prerequisite for global diagnostic or predictive modelling studies. Classical
+  classiﬁcations such as the prominent K̈oppen–Geiger (KG) approach rely
+  on heuristic decision rules. Although these heuristics may transport some
+  process understanding, such a discretization may appear “arbitrary” from
+  a data oriented perspective. In this contribution we compare the precision of
+  a KG classiﬁcation to an unsupervised classiﬁcation (k-means clustering).
+  Generally speaking, we revisit the problem of “climate classiﬁcation”
+  by investigating the inherent patterns in multiple data streams in a purely
+  data driven way. One question is whether we can reproduce the KG boundaries
+  by exploring different combinations of climate and remotely sensed vegetation
+  variables. In this context we also investigate whether climate and vegetation
+  variables build similar clusters. In terms of statistical performances,
+  k-means clearly outperforms classical climate classiﬁcations. However, a
+  subsequent stability analysis only reveals a meaningful number of clusters if
+  both climate and vegetation data are considered in the analysis. This is a
+  setback for the hope to explain vegetation by means of climate alone.
+  Clearly, classiﬁcation schemes like K̈oppen-Geiger will play an important
+  role in the future. However, future developments in this area need to be
+  assessed based on data driven approaches.%
+  }
+  \verb{doi}
+  \verb https://doi.org/10.1016/j.procs.2012.04.096
+  \endverb
+  \field{issn}{1877-0509}
+  \field{note}{Proceedings of the International Conference on Computational
+  Science, ICCS 2012}
+  \field{pages}{897 \bibrangedash  906}
+  \field{title}{Climate Classifications: the Value of Unsupervised Clustering}
+  \verb{url}
+  \verb http://www.sciencedirect.com/science/article/pii/S1877050912002177
+  \endverb
+  \field{volume}{9}
+  \field{journaltitle}{Procedia Computer Science}
+  \field{year}{2012}
 \endentry
 
 \entry{Zagouras2014b}{article}{}

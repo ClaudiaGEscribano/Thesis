@@ -1,4 +1,4 @@
-\documentclass[oldfontcommands, a4paper,12pt]{memoir}%\stockbv\pageaiv
+\documentclass[oldfontcommands, a4paper, 12pt]{memoir}%\stockbv\pageaiv
 
 \input{preambulo.tex}  
 % \renewcommand{\prebibhook}{Nota: todos los enlaces URL han sido
@@ -30,9 +30,14 @@
 
 %\include{Licencia} 
 
+
 \include{preface}
 \clearpage
-%\include{Creditos}
+
+\include{resumen}
+\clearpage
+
+% \include{Creditos}
 \tableofcontents
 % \clearpage
 %\listoffigures*
@@ -43,12 +48,25 @@
 
 %\cleardoublepage{}
 
-%\begin{abstract}
-%Resumen de la tesis
+\begin{abstract}[RESUMEN]
 
-%\end{abstract}
+%\abstractname{Resumen}
 
-%\abstractname
+La presente tesis doctoral supone un acercamiento al estudio de los recursos renovables en escalas temporales climáticas. La transición energética en marcha, y el crecimiento de la participación de las tecnologías renovables en el sistema energético y especialmente en el mix de generación eléctrico, han aumentado el interés por conocer las características espacio-temporales de los recursos. Esta demanda de conocimiento por parte de los sectores involucrados en la energía, ha crecido no sólo en las escalas temporales más cortas, sino en su escalas temporales denominadas climáticas, que afectan a distintas etapas del desarrollo de las plantas de generación.
+
+Especialmente relevante es el interés sobre la disponibilidad de los recursos bajo condiciones de cambio climático, los posibles cambios en su cantidad o variabilidad pueden afectar a la planificación futura y a la operación de plantas que sean proyectadas en el momento en el que nos encontramos.
+
+El presente manuscrito aborda el problema de variabilidad en escalas climáticas desde tres perspectivas distintas que a su vez dan respuesta a preguntas concretas en cada uno de los capítulos destinados a los resultados. Estos tres puntos pueden resumirse de la siguiente manera:
+
+Estudio de la variabilidad de la producción fotovoltaica en una zona eléctricamente aislada mediante metodologías de clustering
+Análisis del impacto de los aerosoles en la variabilidad espacio-temporal de la producción fotovoltaica en el area Euro-Mediterránea
+Proyecciones futuras de potencial fotovoltaico bajo condiciones de cambio climático en Europa.
+
+
+
+\end{abstract}
+
+
 
 \mainmatter
 
@@ -60,6 +78,8 @@
 \include{Resultados}
 
 \include{Discusion}
+
+\include{conclusiones}
 
 \appendix
 
