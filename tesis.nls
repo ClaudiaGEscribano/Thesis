@@ -1,0 +1,142 @@
+\begin{thenomenclature} 
+
+ \nomgroup{A}
+
+  \item [{$AC$}]\begingroup Alternate current.\nomeqref {2.0}
+		\nompageref{15}
+  \item [{$ANN$}]\begingroup Artificial Neural Networks.\nomeqref {2.0}
+		\nompageref{16}
+
+ \nomgroup{B}
+
+  \item [{$B(0)$}]\begingroup Direct (beam) irradiance on the horizontal plane.\nomeqref {4.4}
+		\nompageref{47}
+  \item [{$B_0(0)$}]\begingroup Direct (beam) extra-terrestrial irradiation.\nomeqref {4.8}
+		\nompageref{47}
+  \item [{$B_{0d}(0)$}]\begingroup Daily direct (beam) irradiation.\nomeqref {4.8}
+		\nompageref{47}
+  \item [{$B_{d}(0)$}]\begingroup Daily direct (beam) irradiation on the horizontal plane.\nomeqref {4.4}
+		\nompageref{47}
+  \item [{$BSRN$}]\begingroup Baselina Surface Radiation Network\nomeqref {3.0}
+		\nompageref{32}
+
+ \nomgroup{C}
+
+  \item [{$c$}]\begingroup number of clusters where the 2 fit-lines split.\nomeqref {5.2}
+		\nompageref{63}
+  \item [{$c_j$}]\begingroup Centroid of the cluster j\nomeqref {5.1}
+		\nompageref{62}
+  \item [{$CH$}]\begingroup Calinski-Harabasz validity index.\nomeqref {5.2}
+		\nompageref{63}
+  \item [{$CV$}]\begingroup Coefficient of variability\nomeqref {2.0}
+		\nompageref{21}
+  \item [{$CV$}]\begingroup Coefficient of variation.\nomeqref {5.4}
+		\nompageref{69}
+
+ \nomgroup{D}
+
+  \item [{$D(0)$}]\begingroup Diffuse irradiance on the horizontal plane.\nomeqref {4.4}
+		\nompageref{47}
+  \item [{$D_{d}(0)$}]\begingroup Daily diffuse irradiation on the horizontal plane.\nomeqref {4.4}
+		\nompageref{47}
+
+ \nomgroup{F}
+
+  \item [{$F_{D,d}$}]\begingroup Diffuse fraction.\nomeqref {4.8}
+		\nompageref{47}
+
+ \nomgroup{G}
+
+  \item [{$G(0)$}]\begingroup Global irradiance on the horizontal plane.\nomeqref {4.4}
+		\nompageref{47}
+  \item [{$G(\alpha, \beta)$}]\begingroup Global irradiation at the plane of the array. Alpha and beta correspond to the inclination and ** angles of the panel.\nomeqref {4.3}
+		\nompageref{46}
+  \item [{$G_{ef}$}]\begingroup Global effective irradiation\nomeqref {4.13}
+		\nompageref{49}
+  \item [{$G_{d}(0)$}]\begingroup Daily global irradiation on the horizontal plane.\nomeqref {4.4}
+		\nompageref{47}
+  \item [{$GHG}]\begingroup $\nomeqref {1.0}\nompageref{3}
+
+ \nomgroup{I}
+
+  \item [{$I_m$}]\begingroup Intensity from the photovoltaic module\nomeqref {4.9}
+		\nompageref{48}
+  \item [{$IP$}]\begingroup Iberian Peninsula\nomeqref {5.1}
+		\nompageref{62}
+  \item [{$IPCC$}]\begingroup The Intergovernmental Panel on Climate Change.\nomeqref {1.0}
+		\nompageref{9}
+
+ \nomgroup{J}
+
+  \item [{$J$}]\begingroup Objective function of the Kmeans clustering method: summation over euclidean distances\nomeqref {5.1}
+		\nompageref{62}
+
+ \nomgroup{K}
+
+  \item [{$k$}]\begingroup number of clusters.\nomeqref {5.2}
+		\nompageref{63}
+  \item [{$k_{i}^{o}$}]\begingroup Coefficients of the   efficiency curve of a inverter\nomeqref {4.14}
+		\nompageref{49}
+  \item [{$K_{Td}$}]\begingroup Clearness index.\nomeqref {4.8}
+		\nompageref{47}
+
+ \nomgroup{N}
+
+  \item [{$NAO$}]\begingroup North Atlantic Oscillation\nomeqref {2.0}
+		\nompageref{20}
+  \item [{$NWP$}]\begingroup Numerical Weather Prediction.\nomeqref {2.0}
+		\nompageref{16}
+
+ \nomgroup{P}
+
+  \item [{$P_{out}$}]\begingroup Power output from the photovoltaic module\nomeqref {4.9}
+		\nompageref{48}
+  \item [{$P_{inv}$}]\begingroup Nominal   power of the inverter\nomeqref {4.14}
+		\nompageref{49}
+  \item [{$p_{o}$}]\begingroup Normalized output power of a inverter\nomeqref {4.14}
+		\nompageref{49}
+  \item [{$PV$}]\begingroup Photovoltaic.\nomeqref {1.0}\nompageref{6}
+  \item [{$PV$}]\begingroup Photovoltaic\nomeqref {5.1}\nompageref{62}
+
+ \nomgroup{R}
+
+  \item [{$RMSE_{left}$}]\begingroup Root mean squared error of the left-side linear regression.\nomeqref {5.2}
+		\nompageref{63}
+  \item [{$RMSE_{right}$}]\begingroup Root mean squared error of the right-side linear regression.\nomeqref {5.2}
+		\nompageref{63}
+  \item [{$RMSE_T$}]\begingroup Total root mean square error\nomeqref {5.2}
+		\nompageref{63}
+  \item [{$IPCC$}]\begingroup Radiative Transfer Model.\nomeqref {2.0}
+		\nompageref{16}
+
+ \nomgroup{S}
+
+  \item [{$SSR$}]\begingroup Surface solar radiation\nomeqref {2.0}
+		\nompageref{27}
+
+ \nomgroup{T}
+
+  \item [{$T_a$}]\begingroup Ambient temperature\nomeqref {4.13}
+		\nompageref{49}
+  \item [{$T_c$}]\begingroup Cell temperature\nomeqref {4.13}
+		\nompageref{49}
+  \item [{$TMY$}]\begingroup Typical Meteorological Year\nomeqref {2.0}
+		\nompageref{23}
+  \item [{$TOA$}]\begingroup Top Of the Atmosphere.\nomeqref {2.0}
+		\nompageref{16}
+  \item [{$TSO$}]\begingroup Transmission system operator\nomeqref {1.0}
+		\nompageref{7}
+
+ \nomgroup{V}
+
+  \item [{$V_m$}]\begingroup Voltage of a photovoltaic module\nomeqref {4.9}
+		\nompageref{48}
+  \item [{$VRE$}]\begingroup Variable Renewable Energies\nomeqref {2.0}
+		\nompageref{11}
+
+ \nomgroup{X}
+
+  \item [{$x_i$}]\begingroup Each point in the cluster, where the point is a vector with elements comprising the daily irradiation time series values at a pixel obtained from satellite images \nomeqref {5.1}
+		\nompageref{62}
+
+\end{thenomenclature}

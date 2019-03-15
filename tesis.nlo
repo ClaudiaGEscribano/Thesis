@@ -1,3 +1,19 @@
+\nomenclatureentry{GHG$GHG$@[{$GHG$}]\begingroup Green House Gasses.\nomeqref {1.0}|nompageref}{3}
+\nomenclatureentry{PV$PV$@[{$PV$}]\begingroup Photovoltaic.\nomeqref {1.0}|nompageref}{6}
+\nomenclatureentry{TSO$TSO$@[{$TSO$}]\begingroup Transmission system operator\nomeqref {1.0}|nompageref}{7}
+\nomenclatureentry{IPCC$IPCC$@[{$IPCC$}]\begingroup The Intergovernmental Panel on Climate Change.\nomeqref {1.0}|nompageref}{9}
+\nomenclatureentry{VRE$VRE$@[{$VRE$}]\begingroup Variable Renewable Energies\nomeqref {2.0}|nompageref}{11}
+\nomenclatureentry{AC$AC$@[{$AC$}]\begingroup Alternate current.\nomeqref {2.0}|nompageref}{15}
+\nomenclatureentry{TOA$TOA$@[{$TOA$}]\begingroup Top Of the Atmosphere.\nomeqref {2.0}|nompageref}{16}
+\nomenclatureentry{RTM$IPCC$@[{$IPCC$}]\begingroup Radiative Transfer Model.\nomeqref {2.0}|nompageref}{16}
+\nomenclatureentry{NWP$NWP$@[{$NWP$}]\begingroup Numerical Weather Prediction.\nomeqref {2.0}|nompageref}{16}
+\nomenclatureentry{ANN$ANN$@[{$ANN$}]\begingroup Artificial Neural Networks.\nomeqref {2.0}|nompageref}{16}
+\nomenclatureentry{NAO$NAO$@[{$NAO$}]\begingroup North Atlantic Oscillation\nomeqref {2.0}|nompageref}{20}
+\nomenclatureentry{CV$CV$@[{$CV$}]\begingroup Coefficient of variability\nomeqref {2.0}|nompageref}{20}
+\nomenclatureentry{TMY$TMY$@[{$TMY$}]\begingroup Typical Meteorological Year\nomeqref {2.0}|nompageref}{23}
+\nomenclatureentry{SSR$SSR$@[{$SSR$}]\begingroup Surface solar radiation\nomeqref {2.0}|nompageref}{26}
+\nomenclatureentry{BSRN$BSRN$@[{$BSRN$}]\begingroup Baselina Surface Radiation Network\nomeqref {3.0}|nompageref}{32}
+\nomenclatureentry{G(alfa,beta)$G(\alpha, \beta)$@[{$G(\alpha, \beta)$}]\begingroup Global irradiation at the plane of the array. Alpha and beta correspond to the inclination and ** angles of the panel.\nomeqref {4.3}|nompageref}{46}
 \nomenclatureentry{G$G(0)$@[{$G(0)$}]\begingroup Global irradiance on the horizontal plane.\nomeqref {4.4}|nompageref}{46}
 \nomenclatureentry{Gd$G_{d}(0)$@[{$G_{d}(0)$}]\begingroup Daily global irradiation on the horizontal plane.\nomeqref {4.4}|nompageref}{46}
 \nomenclatureentry{D$D(0)$@[{$D(0)$}]\begingroup Diffuse irradiance on the horizontal plane.\nomeqref {4.4}|nompageref}{46}
@@ -8,24 +24,22 @@
 \nomenclatureentry{Fd$F_{D,d}$@[{$F_{D,d}$}]\begingroup Diffuse fraction.\nomeqref {4.8}|nompageref}{47}
 \nomenclatureentry{B0$B_0(0)$@[{$B_0(0)$}]\begingroup Direct (beam) extra-terrestrial irradiation.\nomeqref {4.8}|nompageref}{47}
 \nomenclatureentry{B0d$B_{0d}(0)$@[{$B_{0d}(0)$}]\begingroup Daily direct (beam) irradiation.\nomeqref {4.8}|nompageref}{47}
-\nomenclatureentry{P_out$P_{out}$@[{$P_{out}$}]\begingroup Power output from the photovoltaic module\nomeqref {4.9}|nompageref}{48}
-\nomenclatureentry{Im$I_m$@[{$I_m$}]\begingroup Intensity from the photovoltaic module\nomeqref {4.9}|nompageref}{48}
-\nomenclatureentry{Vm$V_m$@[{$V_m$}]\begingroup Voltage of a photovoltaic module\nomeqref {4.9}|nompageref}{48}
-\nomenclatureentry{T_c$T_c$@[{$T_c$}]\begingroup Cell temperature\nomeqref {4.13}|nompageref}{49}
-\nomenclatureentry{T_a$T_a$@[{$T_a$}]\begingroup Ambient temperature\nomeqref {4.13}|nompageref}{49}
-\nomenclatureentry{G_ef$G_{ef}$@[{$G_{ef}$}]\begingroup Global effective irradiation\nomeqref {4.13}|nompageref}{49}
-\nomenclatureentry{Pinv$P_{inv}$@[{$P_{inv}$}]\begingroup Nominal   power of the inverter\nomeqref {4.14}|nompageref}{49}
-\nomenclatureentry{po$p_{o}$@[{$p_{o}$}]\begingroup Normalized output power of a inverter\nomeqref {4.14}|nompageref}{49}
-\nomenclatureentry{kinv$k_{i}^{o}$@[{$k_{i}^{o}$}]\begingroup Coefficients of the   efficiency curve of a inverter\nomeqref {4.14}|nompageref}{49}
+\nomenclatureentry{P_out$P_{out}$@[{$P_{out}$}]\begingroup Power output from the photovoltaic module\nomeqref {4.9}|nompageref}{49}
+\nomenclatureentry{Im$I_m$@[{$I_m$}]\begingroup Intensity from the photovoltaic module\nomeqref {4.9}|nompageref}{49}
+\nomenclatureentry{Vm$V_m$@[{$V_m$}]\begingroup Voltage of a photovoltaic module\nomeqref {4.9}|nompageref}{49}
+\nomenclatureentry{T_c$T_c$@[{$T_c$}]\begingroup Cell temperature\nomeqref {4.13}|nompageref}{50}
+\nomenclatureentry{T_a$T_a$@[{$T_a$}]\begingroup Ambient temperature\nomeqref {4.13}|nompageref}{50}
+\nomenclatureentry{G_ef$G_{ef}$@[{$G_{ef}$}]\begingroup Global effective irradiation\nomeqref {4.13}|nompageref}{50}
+\nomenclatureentry{Pinv$P_{inv}$@[{$P_{inv}$}]\begingroup Nominal   power of the inverter\nomeqref {4.14}|nompageref}{50}
+\nomenclatureentry{po$p_{o}$@[{$p_{o}$}]\begingroup Normalized output power of a inverter\nomeqref {4.14}|nompageref}{50}
+\nomenclatureentry{kinv$k_{i}^{o}$@[{$k_{i}^{o}$}]\begingroup Coefficients of the   efficiency curve of a inverter\nomeqref {4.14}|nompageref}{50}
 \nomenclatureentry{J$J$@[{$J$}]\begingroup Objective function of the Kmeans clustering method: summation over euclidean distances\nomeqref {5.1}|nompageref}{62}
 \nomenclatureentry{x_i$x_i$@[{$x_i$}]\begingroup Each point in the cluster, where the point is a vector with elements comprising the daily irradiation time series values at a pixel obtained from satellite images \nomeqref {5.1}|nompageref}{62}
 \nomenclatureentry{c_j$c_j$@[{$c_j$}]\begingroup Centroid of the cluster j\nomeqref {5.1}|nompageref}{62}
-\nomenclatureentry{PV$PV$@[{$PV$}]\begingroup Photovoltaic\nomeqref {5.1}|nompageref}{62}
 \nomenclatureentry{IP$IP$@[{$IP$}]\begingroup Iberian Peninsula\nomeqref {5.1}|nompageref}{62}
 \nomenclatureentry{k$k$@[{$k$}]\begingroup number of clusters.\nomeqref {5.2}|nompageref}{63}
 \nomenclatureentry{c$c$@[{$c$}]\begingroup number of clusters where the 2 fit-lines split.\nomeqref {5.2}|nompageref}{63}
 \nomenclatureentry{CH$CH$@[{$CH$}]\begingroup Calinski-Harabasz validity index.\nomeqref {5.2}|nompageref}{63}
-\nomenclatureentry{RMSET$RMSE_T$@[{$RMSE_T$}]\begingroup Total root mean square error\nomeqref {5.2}|nompageref}{63}
+\nomenclatureentry{RMSET$RMSE_T$@[{$RMSE_T$}]\begingroup Total root mean square error.\nomeqref {5.2}|nompageref}{63}
 \nomenclatureentry{RMSEleft$RMSE_{left}$@[{$RMSE_{left}$}]\begingroup Root mean squared error of the left-side linear regression.\nomeqref {5.2}|nompageref}{63}
 \nomenclatureentry{RMSErigth$RMSE_{right}$@[{$RMSE_{right}$}]\begingroup Root mean squared error of the right-side linear regression.\nomeqref {5.2}|nompageref}{63}
-\nomenclatureentry{CV$CV$@[{$CV$}]\begingroup Coefficient of variation.\nomeqref {5.4}|nompageref}{70}

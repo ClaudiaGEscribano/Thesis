@@ -1,4 +1,4 @@
-\usepackage[T1]{fontenc}
+x\usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
 \usepackage[a4paper]{geometry}%[b5paper]{geometry}%[a4paper]{geometry}
 \geometry{verbose,tmargin=2.5cm,bmargin=2.5cm,lmargin=2.5cm,rmargin=2.5cm}
@@ -36,13 +36,18 @@
   \endgroup
 }
 
+\newcommand{\starbreak}{%
+    \fancybreak{* * *}%
+}
+
 %\includeonly{Discusion}
 
 \OnehalfSpacing
-
+ 
 % the following is useful when we have the old nomencl.sty package
-% \providecommand{\printnomenclature}{\printglossary}
-% \providecommand{\makenomenclature}{\makeglossary}
+%\providecommand{\printnomenclature}{\printglossary}
+%\providecommand{\makenomenclature}{\makeglossary}
+
 \makenomenclature
 
 \usepackage[caption=false]{subfig}
@@ -99,7 +104,7 @@
 
 
 % \addbibresource{../biblio.bib}
-\addbibresource{Data.bib}
+\addbibresource{Data2.bib}
 
 \let\cite\parencite
 
@@ -160,7 +165,7 @@
 \def\tablename{Tabla}%
 \def\listtablename{\'Indice de tablas}}
 
-\renewcommand\nomname{Nomenclatura}
+\renewcommand\nomname{Nomenclature}
 \def\nompreamble{\addcontentsline{toc}{chapter}{\nomname}\markboth{\nomname}{\nomname}}
 
 
@@ -339,12 +344,15 @@
 % \makeatother
 % \chapterstyle{VZ43}
 
+%% aqui
+
 \usepackage{fourier} % or what ever
 \usepackage[scaled=0.92]{helvet}%. Sans serif - Helvetica
 \usepackage{color,calc}
 \newsavebox{\ChpNumBox}
-\definecolor{ChapBlue}{rgb}{0.00,0.65,0.65}
-%\definecolor{ChapBlue}{rgb}{1,0,0.3}
+%\definecolor{ChapBlue}{rgb}{0.00,0.65,0.65} %%ORIGINAL
+\definecolor{ChapBlue}{rgb}{.7,.05,.25} %%RED
+%\definecolor{ChapBlue}{rgb}{1,0,0.3} %%ROSA
 \makeatletter
 \newcommand*{\thickhrulefill}{%
 \leavevmode\leaders\hrule height 1\p@ \hfill \kern \z@}
