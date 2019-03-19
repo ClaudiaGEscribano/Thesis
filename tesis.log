@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.11.2)  19 MAR 2019 15:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.11.2)  19 MAR 2019 18:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1898,25 +1898,8 @@ LaTeX Warning: Label `fig:ecad' multiply defined.
 
 LaTeX Warning: Label `eq:euclidean' multiply defined.
 
-./Resultados.aux:172: Missing \endcsname inserted.
-<to be read again> 
-                   \@@par 
-l.172 ...r Med-CORDEX models}{table.caption.58}{}}
-                                                  
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
 
-
-LaTeX Warning: Label `\@@par \parindent \caption@parindent \hangindent \caption
-@hangindent ' multiply defined.
-
-./Resultados.aux:172: Missing \endcsname inserted.
-<to be read again> 
-                   \@@par 
-l.172 ...r Med-CORDEX models}{table.caption.58}{}}
-                                                  
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
+LaTeX Warning: Label `tb:medcordexspcor' multiply defined.
 
 ) (./Discusion.aux) (./conclusiones.aux))
 \openout1 = `tesis.aux'.
@@ -10782,7 +10765,7 @@ Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 [72 <./figs/capitulo5/dotplot_ratio_zone2.pdf>]
-<figs/capitulo5/figure8.pdf, id=1519, 505.89pt x 505.89pt>
+<figs/capitulo5/figure8.pdf, id=1518, 505.89pt x 505.89pt>
 File: figs/capitulo5/figure8.pdf Graphic file (type pdf)
 
 <use figs/capitulo5/figure8.pdf>
@@ -10802,7 +10785,7 @@ l.316 ...on, figure \ref{series_correlacion_meses}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-<figs/capitulo5/figure9.pdf, id=1521, 505.89pt x 505.89pt>
+<figs/capitulo5/figure9.pdf, id=1520, 505.89pt x 505.89pt>
 File: figs/capitulo5/figure9.pdf Graphic file (type pdf)
 
 <use figs/capitulo5/figure9.pdf>
@@ -11066,7 +11049,7 @@ on input line 434.
 (pdftex.def)             Requested size: 195.75163pt x 195.75244pt.
 
 
-LaTeX Warning: Float too large for page by 33.37785pt on input line 437.
+LaTeX Warning: Float too large for page by 36.64438pt on input line 437.
 
 
 ./Resultados.tex:439: Package xcolor Error: Undefined color `grey'.
@@ -13246,6 +13229,12 @@ Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
+Overfull \hbox (0.31204pt too wide) in paragraph at lines 1245--1246
+[]\T1/futs/m/n/12 A monthly av-er-age daily pro-file of the ir-ra-di-ance $[]$ 
+is ob-tained for each month [[][]CPR79[][]]
+ []
+
+
 ./Resultados.tex:1247: Package xcolor Error: Undefined color `brigthmaroon file
 color=black'.
 
@@ -13660,8 +13649,21 @@ l.1529 ...ble is ALADIN-RCSM4 \cite*{Sevault2014}.
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
+
+./Resultados.tex:1529: Package xcolor Error: Undefined color `brigthmaroon file
+color=black'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1529 ...ons, the PROTHEUS RCM \cite*{Artale2010}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
 [120 <./figs/capitulo7/pvalor_prueba.pdf>]
-<figs/capitulo7/diferences_ssr_medcordex.pdf, id=2442, 505.89pt x 216.81pt>
+<figs/capitulo7/diferences_ssr_medcordex.pdf, id=2444, 505.89pt x 216.81pt>
 File: figs/capitulo7/diferences_ssr_medcordex.pdf Graphic file (type pdf)
 
 <use figs/capitulo7/diferences_ssr_medcordex.pdf>
@@ -13669,7 +13671,7 @@ Package pdftex.def Info: figs/capitulo7/diferences_ssr_medcordex.pdf used on in
 put line 1538.
 (pdftex.def)             Requested size: 364.19667pt x 156.08653pt.
 
-<figs/capitulo7/diferences_clt_medcordex.pdf, id=2443, 505.89pt x 216.81pt>
+<figs/capitulo7/diferences_clt_medcordex.pdf, id=2445, 505.89pt x 216.81pt>
 File: figs/capitulo7/diferences_clt_medcordex.pdf Graphic file (type pdf)
 
 <use figs/capitulo7/diferences_clt_medcordex.pdf>
@@ -13702,50 +13704,6 @@ l.1553 ...esented in table \ref{tb:medcordexspcor}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-./Resultados.tex:1558: Argument of \@gobbletwo has an extra }.
-<inserted text> 
-                \par 
-l.1558 ...correlation for Med-CORDEX models]\label
-                                                  {tb:medcordexspcor}SSR, CL...
-I've run across a `}' that doesn't seem to match anything.
-For example, `\def\a#1{...}' and `\a}' would produce
-this error. If you simply proceed now, the `\par' that
-I've just inserted will cause me to report a runaway
-argument that might be the root of the problem. But if
-your `}' was spurious, just type `2' and it will go away.
-
-Runaway argument?
-./Resultados.tex:1558: Paragraph ended before \@gobbletwo was complete.
-<to be read again> 
-                   \par 
-l.1558 ...correlation for Med-CORDEX models]\label
-                                                  {tb:medcordexspcor}SSR, CL...
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-./Resultados.tex:1558: Argument of \caption@ifstrut has an extra }.
-<inserted text> 
-                \par 
-l.1558 ...correlation for Med-CORDEX models]\label
-                                                  {tb:medcordexspcor}SSR, CL...
-I've run across a `}' that doesn't seem to match anything.
-For example, `\def\a#1{...}' and `\a}' would produce
-this error. If you simply proceed now, the `\par' that
-I've just inserted will cause me to report a runaway
-argument that might be the root of the problem. But if
-your `}' was spurious, just type `2' and it will go away.
-
-Runaway argument?
-./Resultados.tex:1558: Paragraph ended before \caption@ifstrut was complete.
-<to be read again> 
-                   \par 
-l.1558 ...correlation for Med-CORDEX models]\label
-                                                  {tb:medcordexspcor}SSR, CL...
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
 ./Resultados.tex:1561: Undefined control sequence.
 l.1561 \br
           
@@ -13773,17 +13731,6 @@ l.1569 \end{tabular}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
-
-./Resultados.tex:1571: Extra }, or forgotten \endgroup.
-\@endfloatbox ...pagefalse \outer@nobreak \egroup 
-                                                  \color@endbox 
-l.1571 \end{table}
-                  
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
 
 [121 <./figs/capitulo7/diferences_ssr_medcordex.pdf>]) [122 <./figs/capitulo7/d
 iferences_clt_medcordex.pdf>]
@@ -13900,20 +13847,20 @@ m/sc/12 issn\T1/futs/m/n/12 : 0148-0227. \T1/futs/m/sc/12 doi\T1/futs/m/n/12 :
 [][]$\T1/cmtt/m/n/12 10 . 1029 / 2008JD011115$[][]\T1/futs/m/n/12 .
  []
 
-
+[138]
 Overfull \hbox (16.60547pt too wide) in paragraph at lines 92--92
 \T1/futs/m/n/12 Pol-lu-tion''. In: \T1/futs/m/it/12 En-vi-ron-men-tal Sci-ence 
 & Tech-nol-ogy Let-ters \T1/futs/m/n/12 4.8 (2017), pp. 339^^U
  []
 
-[138] [139]
+[139] [140]
 Overfull \hbox (12.51308pt too wide) in paragraph at lines 92--92
 \T1/futs/m/n/12 0020-7314. \T1/futs/m/sc/12 doi\T1/futs/m/n/12 : [][]$\T1/cmtt/
 m/n/12 10 . 2190 / B8RU -[] HA91 -[] JJKW -[] PKUR$[][]\T1/futs/m/n/12 . \T1/fu
 ts/m/sc/12 url\T1/futs/m/n/12 : [][]$\T1/cmtt/m/n/12 http : / / journals .
  []
 
-[140]
+
 Overfull \hbox (9.76186pt too wide) in paragraph at lines 92--92
 []\T1/futs/m/n/12 M. Collares-Pereira and A. Rabl. ``The av-er-age dis-tri-bu-t
 ion of so-lar radiation-
@@ -13938,13 +13885,13 @@ T1/futs/m/n/12 : [][]$\T1/cmtt/m/n/12 http : / / doi . wiley . com / 10 . 1029
 / 2009JD012182$[][]\T1/futs/m/n/12 . 
  []
 
-
+[141]
 Overfull \hbox (4.64389pt too wide) in paragraph at lines 92--92
 \T1/futs/m/it/12 Trans-ac-tions on Pat-tern Anal-y-sis and Ma-chine In-tel-li-g
 ence \T1/futs/m/n/12 PAMI-1.2 (1979),
  []
 
-[141]
+
 Overfull \hbox (1.47646pt too wide) in paragraph at lines 92--92
 []\T1/futs/m/n/12 A. Dell'Aquila, A. Mar-i-otti, S. Bastin, et al. ``Eval-u-a-t
 ion of sim-u-lated decadal
@@ -13969,7 +13916,7 @@ Overfull \hbox (4.28442pt too wide) in paragraph at lines 92--92
 13004334$[][]\T1/futs/m/n/12 . 
  []
 
-
+[142]
 Overfull \hbox (21.01364pt too wide) in paragraph at lines 92--92
 \T1/futs/m/n/12 terns: What do we know?'' In: \T1/futs/m/it/12 En-vi-ron-ment I
 n-ter-na-tional \T1/futs/m/n/12 31.8 (2005), pp. 1167^^U
@@ -13981,14 +13928,14 @@ Overfull \hbox (53.67236pt too wide) in paragraph at lines 92--92
 / pii / S0160412005000553$[][]\T1/futs/m/n/12 . 
  []
 
-[142]
+[143]
 Overfull \hbox (11.95415pt too wide) in paragraph at lines 92--92
 [][]$\T1/cmtt/m/n/12 10 . 1016 / j . renene . 2015 . 08 . 044$[][]\T1/futs/m/n/
 12 . \T1/futs/m/sc/12 url\T1/futs/m/n/12 : [][]$\T1/cmtt/m/n/12 https : / / lin
 kinghub . elsevier .
  []
 
-[143]
+
 Overfull \hbox (35.273pt too wide) in paragraph at lines 92--92
 \T1/futs/m/sc/12 doi\T1/futs/m/n/12 : [][]$\T1/cmtt/m/n/12 10 . 1016 / j . apen
 ergy . 2018 . 11 . 052$[][]\T1/futs/m/n/12 . \T1/futs/m/sc/12 url\T1/futs/m/n/1
@@ -14001,7 +13948,7 @@ Overfull \hbox (16.63141pt too wide) in paragraph at lines 92--92
 032114004936$[][]\T1/futs/m/n/12 . 
  []
 
-
+[144]
 Overfull \hbox (7.18129pt too wide) in paragraph at lines 92--92
 []\T1/futs/m/n/12 V. Gil, M. Á. Gaert-ner, C. Gutier-rez, and T. Losada. ``Im-p
 act of cli-mate change
@@ -14027,7 +13974,7 @@ m/n/12 : [][]$\T1/cmtt/m/n/12 10 . 1029 / 2001JD001066$[][]\T1/futs/m/n/12 . \T
  .
  []
 
-[144]
+
 Overfull \hbox (0.23923pt too wide) in paragraph at lines 92--92
 []\T1/futs/m/n/12 F. Giorgi. ``Cli-mate change hot-spots''. In: \T1/futs/m/it/1
 2 Geo-phys-i-cal Re-search Let-ters \T1/futs/m/n/12 33.8
@@ -14086,14 +14033,14 @@ m/n/12 : [][]$\T1/cmtt/m/n/12 10 . 1029 / 2009JD011799$[][]\T1/futs/m/n/12 . \T
  .
  []
 
-
+[147]
 Overfull \hbox (22.92601pt too wide) in paragraph at lines 92--92
 \T1/futs/m/sc/12 doi\T1/futs/m/n/12 : [][]$\T1/cmtt/m/n/12 10 . 1016 / j . rene
 ne . 2010 . 06 . 004$[][]\T1/futs/m/n/12 . \T1/futs/m/sc/12 url\T1/futs/m/n/12 
 : [][]$\T1/cmtt/m/n/12 https : / / www . sciencedirect .
  []
 
-[147]
+
 Overfull \hbox (34.74419pt too wide) in paragraph at lines 92--92
 []\T1/futs/m/n/12 M. Iqbal. \T1/futs/m/it/12 An In-tro-duc-tion to So-lar Ra-di
 -a-tion\T1/futs/m/n/12 . El-se-vier, 1983. \T1/futs/m/sc/12 isbn\T1/futs/m/n/12
@@ -14225,7 +14172,7 @@ Overfull \hbox (4.27196pt too wide) in paragraph at lines 92--92
 g of re-mote sens-
  []
 
-
+[153]
 Overfull \hbox (18.9479pt too wide) in paragraph at lines 92--92
 \T1/futs/m/n/12 bu-tion of an-thro-pogenic sul-fate aerosols to the chang-ing E
 uro-Mediterranean
@@ -14237,7 +14184,7 @@ Overfull \hbox (4.66539pt too wide) in paragraph at lines 92--92
 earch Let-ters \T1/futs/m/n/12 41.15 (2014), pp. 5605^^U
  []
 
-[153]
+
 Overfull \hbox (10.82146pt too wide) in paragraph at lines 92--92
 \T1/futs/m/n/12 gional cli-mate sys-tem model''. In: \T1/futs/m/it/12 Cli-mate 
 Dy-nam-ics \T1/futs/m/n/12 44.3-4 (2015), pp. 1127^^U
@@ -14263,7 +14210,7 @@ Overfull \hbox (2.68248pt too wide) in paragraph at lines 92--92
  In: \T1/futs/m/it/12 So-lar En-ergy \T1/futs/m/n/12 84.12
  []
 
-
+[155]
 Overfull \hbox (5.74774pt too wide) in paragraph at lines 92--92
 \T1/futs/m/n/12 (1995), pp. 108^^U124. \T1/futs/m/sc/12 issn\T1/futs/m/n/12 : 0
 0344257. \T1/futs/m/sc/12 doi\T1/futs/m/n/12 : [][]$\T1/cmtt/m/n/12 10 . 1016 /
@@ -14277,7 +14224,7 @@ Overfull \hbox (45.7496pt too wide) in paragraph at lines 92--92
 03442579400069Y$[][]\T1/futs/m/n/12 . 
  []
 
-[155]
+
 Overfull \hbox (4.28442pt too wide) in paragraph at lines 92--92
 \T1/cmtt/m/n/12 www . sciencedirect . com / science / article / pii / S0038092X
 12004197$[][]\T1/futs/m/n/12 . 
@@ -14301,13 +14248,13 @@ Overfull \hbox (22.8049pt too wide) in paragraph at lines 92--92
  S0034425711004111$[][]\T1/futs/m/n/12 . 
  []
 
-
+[156]
 Overfull \hbox (6.24529pt too wide) in paragraph at lines 92--92
 []\T1/futs/m/n/12 D. Pozo-Vázquez, J. Tovar-Pescador, S. R. Gámiz-Fortis, M. J.
  Esteban-Parra,
  []
 
-[156]
+
 Overfull \hbox (0.30223pt too wide) in paragraph at lines 92--92
 []\T1/futs/m/n/12 J. Polo, L. F. Zarza-lejo, and L. Ramírez. ``So-lar Ra-di-a-t
 ion De-rived from Satel-
@@ -14703,6 +14650,12 @@ Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
+Overfull \hbox (4.0069pt too wide) in paragraph at lines 24--24
+ [][] [][][]\T1/futs/m/n/12 Yearly mean yield and vari-abil-ity by track-ing ty
+pe and clus-ter over the Iberian 
+ []
+
+
 ./tesis.lof:25: Package xcolor Error: Undefined color `grey'.
 
 See the xcolor package documentation for explanation.
@@ -14871,7 +14824,7 @@ See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.39 ...uared }$]\relax }}{116}{figure.caption.51}
+l.39 ...t climate models}}{116}{figure.caption.51}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -15097,7 +15050,7 @@ See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.18 ...nges maps.\relax }}{113}{table.caption.49}
+l.18 ...tial correlations}}{113}{table.caption.49}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -15114,7 +15067,7 @@ See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.19 ...y country.\relax }}{115}{table.caption.52}
+l.19 ...ntry [\%].\relax }}{115}{table.caption.52}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -15171,16 +15124,8 @@ or  <return>  to continue without it.
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 98.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 98.
 (./tesis.aux (./agradecimientos.aux) (./preface.aux) (./resumen.aux)
-(./abstract.aux) (./Intro.aux) (./DataMethods.aux) (./Resultados.aux
-./Resultados.aux:172: Missing \endcsname inserted.
-<to be read again> 
-                   \@@par 
-l.172 ...r Med-CORDEX models}{table.caption.58}{}}
-                                                  
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-) (./Discusion.aux) (./conclusiones.aux))
+(./abstract.aux) (./Intro.aux) (./DataMethods.aux) (./Resultados.aux)
+(./Discusion.aux) (./conclusiones.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 98.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 98.
 Package rerunfilecheck Info: File `tesis.out' has not changed.
@@ -15211,13 +15156,13 @@ Package logreq Info: Writing requests to 'tesis.run.xml'.
 ### bottom level
 (\end occurred when \iftrue on line 7 was incomplete) 
 Here is how much of TeX's memory you used:
- 33161 strings out of 493029
- 586480 string characters out of 6136234
- 1061130 words of memory out of 5000000
- 35601 multiletter control sequences out of 15000+600000
- 246805 words of font info for 294 fonts, out of 8000000 for 9000
+ 33166 strings out of 493029
+ 586606 string characters out of 6136234
+ 1063494 words of memory out of 5000000
+ 35604 multiletter control sequences out of 15000+600000
+ 247269 words of font info for 296 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,26n,68p,10422b,1727s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 56i,24n,68p,10422b,1728s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/en
 c/dvips/cm-super/cm-super-t1.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips
 /base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr1
@@ -15232,10 +15177,10 @@ f-dist/fonts/type1/adobe/utopia/putb8a.pfb></usr/share/texlive/texmf-dist/fonts
 </usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/
 texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on tesis.pdf (192 pages, 25664730 bytes).
+Output written on tesis.pdf (192 pages, 25665956 bytes).
 PDF statistics:
- 3509 PDF objects out of 3580 (max. 8388607)
- 3077 compressed objects within 31 object streams
- 604 named destinations out of 1000 (max. 500000)
+ 3521 PDF objects out of 3580 (max. 8388607)
+ 3089 compressed objects within 31 object streams
+ 605 named destinations out of 1000 (max. 500000)
  709 words of extra memory for PDF output out of 10000 (max. 10000000)
 

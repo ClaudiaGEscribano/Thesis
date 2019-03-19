@@ -257,6 +257,108 @@
   \warn{\item Invalid format of field 'month'}
 \endentry
 
+\entry{Artale2010}{article}{}
+  \name{author}{13}{}{%
+    {{}%
+     {Artale}{A.}%
+     {V.}{V.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Calmanti}{C.}%
+     {S.}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Carillo}{C.}%
+     {A.}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Dell'Aquila}{D.}%
+     {A.}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Herrmann}{H.}%
+     {M.}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Pisacane}{P.}%
+     {G.}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ruti}{R.}%
+     {P.~M.}{P.~M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sannino}{S.}%
+     {G.}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Struglia}{S.}%
+     {M.~V.}{M.~V.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Giorgi}{G.}%
+     {F.}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bi}{B.}%
+     {Xunqiang}{X.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Pal}{P.}%
+     {J.~S.}{J.~S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Rauscher}{R.}%
+     {S.}{S.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{Air-sea interaction,Mediterranean,Regional climate model}
+  \strng{namehash}{AV+1}
+  \strng{fullhash}{AVCSCADAHMPGRPMSGSMVGFBXPJSRS1}
+  \field{labelalpha}{Art+10}
+  \field{sortinit}{A}
+  \field{abstract}{%
+  We present an atmosphere–ocean regional climate model for the Mediterranean
+  basin, called the PROTHEUS system, composed by the regional climate model
+  RegCM3 as the atmospheric component and by a regional configuration of the
+  MITgcm model as the oceanic component. The model is applied to an area
+  encompassing the Mediterranean Sea and compared to a stand-alone version of
+  its atmospheric component. An assessment of the model performances is done by
+  using available observational datasets. Despite a persistent bias, the
+  PROTHEUS system is able to capture the inter-annual variability of seasonal
+  sea surface temperature (SST) and also the fine scale spatio-temporal
+  evolution of observed SST anomalies, with spatial correlation as high as 0.7
+  during summer. The close inspection of a 10-day strong wind event during the
+  summer of 2000 proves the capability of the PROTHEUS system to correctly
+  describe the daily evolution of SST under strong air–sea interaction
+  conditions. As a consequence of the model's skill in reproducing observed SST
+  and wind fields, we expect a reliable estimation of air–sea fluxes. The
+  model skill in reproducing climatological land surface fields is in line with
+  that of state of the art regional climate models.%
+  }
+  \verb{doi}
+  \verb 10.1007/s00382-009-0691-8
+  \endverb
+  \field{issn}{09307575}
+  \field{title}{{An atmosphere-ocean regional climate model for the
+  Mediterranean area: Assessment of a present climate simulation}}
+  \field{journaltitle}{Climate Dynamics}
+  \field{year}{2010}
+\endentry
+
 \entry{Antonanzas-Torres2013}{article}{}
   \name{author}{3}{}{%
     {{}%

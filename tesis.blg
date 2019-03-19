@@ -22,18 +22,18 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated field_info (elt_size=4) to 34607 items from 5000.
+Reallocated field_info (elt_size=4) to 34746 items from 5000.
 Database file #1: tesis-blx.bib
 Database file #2: Data5.bib
 Reallocated str_pool (elt_size=1) to 130000 items from 65000.
 Warning--entry type for "dumortier1999status" isn't style-file defined
---line 778 of file Data5.bib
-Repeated entry---line 896 of file Data5.bib
+--line 789 of file Data5.bib
+Repeated entry---line 907 of file Data5.bib
  : @article{Gaetani2014
  :                     ,
 I'm skipping whatever remains of this entry
 Reallocated str_pool (elt_size=1) to 195000 items from 130000.
-Repeated entry---line 1513 of file Data5.bib
+Repeated entry---line 1524 of file Data5.bib
  : @article{Jerez2013
  :                   ,
 I'm skipping whatever remains of this entry
@@ -49,45 +49,45 @@ Warning--I didn't find a database entry for "ohmura1998"
 Biblatex version: 3.3
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
-You've used 206 entries,
+You've used 207 entries,
             6047 wiz_defined-function locations,
-            3085 strings with 281891 characters,
-and the built_in function-call counts, 856119 in all, are:
-= -- 31145
-> -- 28989
-< -- 7992
-+ -- 10310
-- -- 12558
-* -- 84540
-:= -- 51132
+            3093 strings with 283574 characters,
+and the built_in function-call counts, 861100 in all, are:
+= -- 31295
+> -- 29167
+< -- 8023
++ -- 10385
+- -- 12646
+* -- 85154
+:= -- 51461
 add.period$ -- 0
-call.type$ -- 206
-change.case$ -- 4449
+call.type$ -- 207
+change.case$ -- 4461
 chr.to.int$ -- 188
-cite$ -- 410
-duplicate$ -- 99779
-empty$ -- 87459
-format.name$ -- 22634
-if$ -- 186509
+cite$ -- 412
+duplicate$ -- 100405
+empty$ -- 87940
+format.name$ -- 22830
+if$ -- 187511
 int.to.chr$ -- 0
-int.to.str$ -- 556
+int.to.str$ -- 558
 missing$ -- 0
-newline$ -- 10979
-num.names$ -- 11198
-pop$ -- 67623
+newline$ -- 11064
+num.names$ -- 11243
+pop$ -- 67995
 preamble$ -- 1
-purify$ -- 5244
+purify$ -- 5267
 quote$ -- 0
-skip$ -- 44710
+skip$ -- 44939
 stack$ -- 0
-substring$ -- 18564
-swap$ -- 38413
-text.length$ -- 6883
-text.prefix$ -- 413
+substring$ -- 18597
+swap$ -- 38637
+text.length$ -- 6924
+text.prefix$ -- 415
 top$ -- 1
-type$ -- 7814
+type$ -- 7852
 warning$ -- 0
-while$ -- 4648
+while$ -- 4666
 width$ -- 0
-write$ -- 10772
+write$ -- 10856
 (There were 2 error messages)
