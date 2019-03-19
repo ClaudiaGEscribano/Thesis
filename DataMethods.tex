@@ -6,11 +6,11 @@
 
   In the present chapter, the data used in the document are described. Different types of data are used in each of the studies due to the fact that different problems are addressed. A more specific description is included in later chapters.
 
-  There are many applications from meteorology to agriculture or even health sciences, that would benefit from an accurate station network that provides high quality radiation measurements on the surface. However, it is well-known that the lack of  well spread solar radiation measurements has been a constraint not only for the development of solar forecasting or resource assessment techniques, but also for the study of the whole atmospheric/climatic processes in which solar radiation takes place. The progress and improvement in the satellite-based products has helped to overcome some of these issues providing gridded data at a high spatial and temporal resolution.
+  There are many applications from meteorology to agriculture or even health sciences, that would benefit from an accurate station network that provides high quality radiation measurements at the surface. However, it is well-known that the lack of  well spread solar radiation measurements has been a constraint, not only for the development of solar forecasting or resource assessment techniques, but also for the study of the whole atmospheric/climatic processes in which solar radiation takes place. The progress and improvement in the satellite-based products has helped to overcome some of these issues providing gridded data at a high spatial and temporal resolution.
 
   Part of this work has been developed through what could be called a modeling chain approach, which is explained in the following chapters. This modeling chain is formed by a model that provides solar radiation data and a model that computes PV production from this input. Due to that, the data input of the PV model is also included in this section, which is solar radiation from observations and climate models.
 
-As this work is focused on long time scales and wide areas, time and horizontal resolution of gridded data used are not considered a constraint to our analysis in most cases. Due to that, as explained below, finest temporal resolution used in this work is daily and the horizontal resolution of the gridded datasets goes from 0.05º for a satellite-based product to 0.44º for data from regional climate models.    
+  As this work is focused on long time scales and wide areas, time and horizontal resolution of gridded data used are not considered a constraint to our analysis in most cases. Due to that, as explained below, finest temporal resolution used in this work is daily and the horizontal resolution of the gridded datasets goes from 0.05º for a satellite-based product to 0.44º for data from regional climate models.     
 % Modelización: para qué sirve? estudios concretos de los procesos en los que interviene la radiación.  
 \section{Solar Radiation data}
 
@@ -18,8 +18,10 @@ As this work is focused on long time scales and wide areas, time and horizontal 
 
 The measurement of solar radiation is based on radiometers that measure the solar energy reaching the Earth's surface. These radiometers are able to measure electromagnetic solar radiation at different wavelengths. For energy purposes, the interest of solar radiation measurements is on the shortwave range of the spectrum.
 
-Solar radiation can be decomposed in three components: direct beam normal irradiation B(0), the diffuse component (D(0)) and the albedo component (R). The three components form the global solar irradiation G(0) and different instrumentation can be used to measure each of the components.
+Solar radiation can be decomposed in three components: direct beam normal irradiation B(0), the diffuse component,D(0), and the albedo component, R. The three components form the global solar irradiation G(0) and different instrumentation can be used to measure each of the components.
 
+
+\nomenclature[R]{$R(0)$}{Albedo component}
 % Solar radiation data from ground stations are not common at the publicly available metheorological stations. Solar global radiation is measured with instruments called pyranometers 
 
 %Iqbal 1983
@@ -50,7 +52,7 @@ Actual radiometers are of three different types: thermopile, blackbody cavity, a
 
 % Instruments designed to measure any for  m of radiation are called radiometers. The earliest developments of instrumentation for measuring solar radiation were designed to meet the needs of agriculture for bright sunshine duration to understnd evaporation and by physicists for determining the solar constant. During the 19th and 20th centuries, the most widely deployed instrument for measuring solar radiation was the Campbell-Stokes sunshine recorder (Iqbal 1983; Vignola, Michalsky, and Stoffel 2012). This analog device focuses the direct beam by a simple spherical lens (glass ball) to create burn marks during clear periods (when DNI exceeds 120 Wm-2) on a sensitized paper strip placed daily in the focus curve. By comparing the total burn length to the corresponding day length, records of percent possible sunshine from stations around the world became the basis for characterizing the global distribution of solar radiation (Löf et al. 1966). The earliest pyrheliometers (from the Greek for fire, sun, and measure) were based on calorimetry and used by scientists to measure brief periods of DNI from various locations, generally at high elevations to minimize the effects of a thick atmosphere on the transmission of solar radiation. By the early 20th century, scientists had developed pyranometers (from the Greek for fire, above, and measure) to measure GHI for understanding the Earth’s energy budget (Vignola, Michalsky, and Stoffel 2012). [https://www.nrel.gov/docs/fy18osti/68886.pdf]
 
-Different research programs are in charge of assuring the quality of some important solar radiation measurements databases. These significant research initiatives are the Baseline surface radiation network, BSRN \cite*{Konig-Langlo2013}, the International Daylight Measurement Program \cite*{dumortier1999status}, the Global Energy Balance Archive, GEBA \cite*{Gilgen1998} or the World Radiation Data Center, WRDC (http://wrdc.mgo.rssi.ru/). All of them are only applicable for research purposes and no-commercial activities. To these databases different country-level databases that manage dense station networks can be added, but the availability of global solar irradiation measurements and, to a further extent, different components is not always assured.
+Different research programs are in charge of assuring the quality of some important solar radiation measurements databases. These significant research initiatives are the Baseline surface radiation network, BSRN \cite*{Konig-Langlo2013}, the International Daylight Measurement Program \cite*{dumortier1999status}, the Global Energy Balance Archive, GEBA \cite*{Gilgen1998} or the World Radiation Data Center, WRDC (http://wrdc.mgo.rssi.ru/). All of them are only applicable for research purposes and no-commercial activities. To these databases, different country-level databases that manage dense station networks can be added, but the availability of global solar irradiation measurements and, to a further extent, different components is not always assured.
 
 % Solar radiation has been measured by national networks for several decades. Part of the collected data has been
 % processed, in the scope of research programs, in order to setup – alas – few reliable networks with heterogeneous
@@ -72,9 +74,9 @@ Different research programs are in charge of assuring the quality of some import
 One of the main sources of high quality data, as it has been previously commented, is the \textit{Baseline Surface Radiation Network}, BSRN \cite*{Konig-Langlo2013}. %[König-Langlo, G. , Sieger, R. , Schmithüsen, H. , Bücker, A. , Richter, F. and Dutton E.G. 2013. The Baseline Surface Radiation Network and its World Radiation Monitoring Centre at the Alfred Wegener Institute.
 %GCOS - 174, WCRP Report 24/2013, 30 pp..] \\
 
-\nomenclature[BSRN]{$BSRN$}{Baselina Surface Radiation Network}
+\nomenclature[BSRN]{$BSRN$}{Baseline Surface Radiation Network}
 
-The aim of the BSRN project is to detect changes in the Earth's radiation field that could be a consequence of climatic changes. The monitoring network provides high-quality and high-frequency data of short and long-wave radiation fluxes from different stations around the globe, which correspond to different climatic zones. In figure \ref{fig:bsrnstations} all the available stations from BSRN are displayed.
+The BSRN project was born with the aim of detecting changes in the Earth's radiation field that could be a consequence of climatic changes. The monitoring network provides high-quality and high-frequency data of short and long-wave radiation fluxes from different stations around the globe, which correspond to different climatic zones. In figure \ref{fig:bsrnstations} all the available stations from BSRN are displayed.
 
 The World Climate Research Program (WCRP) Radiative Fluxes Working Group initiated the Baseline Surface Radiation Network (BSRN) to support the research projects of the WCRP and other scientific programs related to solar radiation. By the time this document is written, 52 BSRN stations are in operation. There are some stations with ``candidate'' status and some that will be closed in 2019. Among these stations there are different levels of data provided, from the basic measurements that include the components of solar radiation, air temperature and pressure to other variables and synoptic observations.
 
@@ -109,9 +111,9 @@ There are also some approaches that are in between theses two sides: the semi-em
 % et al. 1993a; Ineichen and Perez. 1999; Zelenka et al. 1999; Perez 2002; Rigollier
 % et al. 2004; Zarzalejo et al. 2005).
 
-There are two types of satellites orbiting the Earth: The polar orbiting, closer to the Earth's surface,  with high spatial resolution but limitations in the temporal coverage, and the geostationary satellites (~36000km from the Earth's surface) with high spatial and temporal resolution. This last kind of satellites are the commonly used to derived solar radiation at the surface.
+There are two types of satellites orbiting the Earth: the polar orbiting, closer to the Earth's surface,  with high spatial resolution but limitations in the temporal coverage, and the geostationary satellites (~36000km from the Earth's surface) with high spatial and temporal resolution. This last kind of satellites are the commonly used to derived solar radiation at the surface.
 
-The uncertainty in the satellite radiation estimation comes from different sources. First, Sun elevation affects the determination of cloud position due to the increase of reflections, increasing  the uncertainty for low Sun elevation. Other factors are related to geographical factors. The high albedo of some surfaces like deserts or ice areas makes the determination of clouds difficult, increasing uncertainty \cite*{Cebecauer2011}.
+The uncertainty in the satellite radiation estimation comes from different sources. First, Sun elevation affects the determination of cloud position due to the increase of reflections, increasing  the uncertainty for low Sun elevation. Other sources are related to geographical factors. The high albedo of some surfaces like deserts or ice areas makes the determination of clouds difficult, increasing uncertainty \cite*{Cebecauer2011}.
 
 There are many solar irradiation datasets derived from satellite products available nowadays: Meteonorm, SolarGIS, CM-SAF, Helio-Clim etc. Their differences are based on different parameters that go from the data source, one or several satellites, the spatial coverage and resolution, the time resolution or its accessibility related to its private/comercial purposes. An in detail review of 16 of the most common satellite derived datasets is made in \cite*{Vernay2014}.
 
@@ -131,15 +133,17 @@ The aim of CM-SAF consortium from EUMETSAT is to develop satellite-data-based-pr
 
 The CM SAF products are derived from several instruments on-board operational satellites in geostationary and polar orbits. There are two main types of products that can be obtained from the CM-SAF: operational products and climate data records (CDR). The main purpose of the CDR is to provide a high-quality database to monitor climate variability and changes \cite*{Muller2015}, as well as to detect trends. Operational products, on the other hand, are not accurate enough for this purpose because some errors like inter-satellite biases or sensors degradation are not corrected.
 
-The SARAH dataset from CM-SAF has been used in chapters 6 and 7 of this document for the analysis of shortwave solar radiation on the surface. The data is based on the records from Meteosat images, first and second generation, using the on-board MVIRI and SEVIRI instruments respectively \cite*{Posselt2012}. As the purpose of the CDR is to provide long time series covering more than 20 years, a retrieval algorithm that can be applied to SEVIRI instruments as well as to the older MVIRI is necessary. This algorithm has been called MAGICSOL and has two parts: first, the modified \textbf{Heliosat} method is used to obtain the cloud effective albedo (CAL), also called \textit{cloud index};  and second, the \textbf{MAGIC} approach is used to obtain all sky surface radiation based on CAL \cite*{Posselt2012}. %(ref PUM)
+\nomenclature[CM-SAF]{$CM-SAF$}{The Satellite Application Facility on Climate Monitoring}
 
-The \textbf{clear sky index} can be defined as the ratio between all-sky irradiation and the clear sky irradiation. For most of the conditions it can be generalized a relationship between the clear sky index and the effective cloud albedo, CAL:
+The SARAH dataset from CM-SAF has been used in chapters 6 and 7 of this document for the analysis of solar radiation at the surface. The data is based on the records from Meteosat images, first and second generation, using the on-board MVIRI and SEVIRI instruments respectively \cite*{Posselt2012}. As the purpose of the CDR is to provide long time series covering more than 20 years, a retrieval algorithm that can be applied to SEVIRI instruments as well as to the older MVIRI is necessary. This algorithm has been called MAGICSOL and has two parts: first, the modified \textbf{Heliosat} method is used to obtain the cloud effective albedo (CAL), also called \textit{cloud index};  and second, the \textbf{MAGIC} approach is used to obtain all sky surface radiation based on CAL \cite*{Posselt2012}. %(ref PUM)
+
+The \textbf{clear sky index}, \textit{k}, can be defined as the ratio between all-sky irradiation and the clear sky irradiation. For most of the conditions it can be generalized a relationship between the clear sky index and the effective cloud albedo, CAL:
 
 \begin{equation}
   k=1-CAL
 \end{equation}
 
-Clear sky radiation is obtained through the MAGIC algorithm \cite*{mueller2009} that consists of simulations of a radiative transfer model (RTM) and an interpolation method using discrete values of the RTM runs, which reduce the computational time \cite*{mueller2009}. Inputs of atmospheric state are needed: aerosols, water vapor etc. After that, with the knowledge of the clear sky index and the the clear sky surface radiation, the all-sky radiation on the surface can be derived. A scheme representing the process to obtain direct and global solar irradiation is presented in figure \ref{fig:algorithm}\\
+Clear sky radiation is obtained through the MAGIC algorithm \cite*{mueller2009} that consists of simulations of a radiative transfer model (RTM) and an interpolation method using discrete values of the RTM runs, which reduce the computational time \cite*{mueller2009}. Inputs of atmospheric state are needed: aerosols, water vapor etc. After that, with the knowledge of the clear sky index and the the clear sky surface radiation, the all-sky radiation on the surface can be derived. A scheme representing the process to obtain direct and global solar irradiation is presented in Figure \ref{fig:algorithm}\\
 
 \begin{figure}
   \centering
@@ -150,6 +154,8 @@ Clear sky radiation is obtained through the MAGIC algorithm \cite*{mueller2009} 
 
 Information about \textbf{aerosols} to be used in the MAGIC algorithm is obtained from the ECMWF-MACC reanalyses. The MACC \cite*{MACC} data are a combination of a model for aerosol composition and dynamic \cite*{Morcrette2009} and a data assimilation system \cite*{Benedetti2009}. Monthly mean aerosol information is included in the algorithm to obtain clear sky irradiation. The MACC data has to be regridded to a higher resolution (0.5ºx0.5º) to the use within CM-SAF.
 
+\nomenclature[RTM]{$RTM$}{Radiative Transfer Model}
+
 %{\color{red} Poner algo más acerca del método. Puede ser de ayuda también para ver como se incluyen los aerosoles. Incluyo una imagen del esquema que hice del proceso de obtención de la radiación con los datos del satélite y podría estar bien incluir.}
 
 \subsection{Solar radiation from climate models}%Modeling of solar radiation}
@@ -158,7 +164,7 @@ Information about \textbf{aerosols} to be used in the MAGIC algorithm is obtaine
 
 Solar irradiation at the Earth's surface can be measured using the above mentioned instrumentation or can be obtained through modelization, with physical or statistical methods, as it was explained in chapter 2.
 
-Climate models are a representation of the whole climatic system. In order to solve the Earth's radiation budget equation, they use a radiative transfer scheme. By solving the radiative transfer equation, they are able to give solar radiation on the surface. Due to the complexity of the climate system, and the low spatial resolution of climate models, some processes have to be simplified and others need to be parametrized. Due to that, different RTMs can be implemented depending on the climate model.
+Climate models are a representation of the whole climatic system. In order to solve the Earth's radiation budget equation, they use a radiative transfer scheme. By solving the radiative transfer equation, they are able to give solar radiation at the surface. Due to the complexity of the climate system, and the corse spatial resolution of climate models, some processes have to be simplified and others need to be parametrized. Climate models parameterize convection processes, aerosol processes, cloud microphysics etc. Thus, different RTMs can be implemented depending on the climate model.
 
 %{\color{red} Añadir algo más acerca de como se obtiene la radiación en climate models?}
 
@@ -174,7 +180,7 @@ In chapters 6 and 7 different climate models are used as main source of solar ra
 
 Under the acronym of CORDEX (Coordinated Regional Downscaling Experiment) a wide range of regional climate models has been applied in a coordinated way to provide downscaled climate simulations\footnote{The chapter \ref{cha:methods} explain the origin of regional climate modeling and the simulations used in the thesis} for different areas around the globe\footnote{Cordex website:http://www.cordex.org/. This international framework is under the umbrella of the world climate research program, WRCP} . Whereas GCMs give an overview of the evolution of global conditions, their coarse resolution is not enough to understand some small scale processes of climate and to project climate change impacts at a local scale. The higher resolution of the regional climate models is needed not only for purely physical knowledge, but for supporting adaptation and mitigation plans.
  
-Two different domains from CORDEX are used in this study both focus on the Mediterranean area: EURO-CORDEX and MED-CORDEX (in figure \ref{fig:cordexdomain}). The horizontal resolution of the simulations included in EURO/MED-CORDEX goes from 0.44º to 0.11º (from ~50km to ~12km).
+Two different domains from CORDEX are used in this study both focus on the Mediterranean area: Euro-CORDEX and Med-CORDEX (in figure \ref{fig:cordexdomain}). The horizontal resolution of the simulations included in Euro/Med-CORDEX goes from 0.44º to 0.11º (from ~50km to ~12km).
 
 \begin{figure}[!tbp]
   \centering
@@ -185,7 +191,7 @@ Two different domains from CORDEX are used in this study both focus on the Medit
     \label{fig:cordexdomain}
 \end{figure}
 
-The main difference between the two initiatives, in addition to the studied domain represented in figure \ref{fig:cordexdomain}, is that simulations from MED-CORDEX \cite*{Ruti2016} are runs from coupled ocean-atmosphere climate models, whereas the EURO-CORDEX \cite*{Jacob2014} ensemble includes atmosphere models only. %(¿?o indistintamente)
+The main difference between the two initiatives, in addition to the studied domain represented in figure \ref{fig:cordexdomain}, is that simulations from Med-CORDEX \cite*{Ruti2016} are runs from coupled ocean-atmosphere climate models, whereas the Euro-CORDEX \cite*{Jacob2014} ensemble includes atmosphere models only. %(¿?o indistintamente)
 
 %{\color{red} Incluir como mucho la diferencia entre MED y EURO cordex así como FPS}
 
@@ -203,7 +209,7 @@ The representation of aerosols in RCMs varies from one model to another. Despite
 
 %Up to now, only in [nabat2014], simulations with ALADIN-RCSM4 are able to reproduce SSR trends over Europe in past decades after applying an interannual aerosols dataset described in \cite*{Nabat2013}. A more recent study includes ammoniun and nitrates species for long simulations (197-2016) over the Euro-Mediterranean area with the same RCMs (ALADIN-RCSM) with an interactive aerosol scheme. [drughe, tactic]
 
-In future climate projections over the Euro-Mediterranean area with RCMs (under the MED-CORDEX or EURO-CORDEX frame), few models include aerosols time evolution. Most of them include a fixed climatology for present climate conditions that is also applied invariantly for future projections. The models that include time evolving aerosols in their runs apply different inventories like \cite*{Szopa2013} or \cite*{Lamarque2010}.
+In future climate projections over the Euro-Mediterranean area with RCMs (under the Med-CORDEX or Euro-CORDEX frame), few models include aerosols time evolution. Most of them include a fixed climatology for present climate conditions that is also applied invariantly for future projections. The models that include time evolving aerosols in their runs apply different inventories like \cite*{Szopa2013} or \cite*{Lamarque2010}.
 
 %Information about aerosols datasets and description (prescribed, interactive schemes etc.) is not an information easy to access from the website where climate projections users can download different simulations. Instead, a task of compiling information from modelers is needed, which difficults the process. %In next table a summary of the known aerosols information of climate simulations from EURO-CORDEX is included.
 
@@ -211,7 +217,7 @@ In future climate projections over the Euro-Mediterranean area with RCMs (under 
 
 In order to evaluate the performance of a PV model it is necessary to use the data from real PV plants. However, these data are not easy to obtain, due to the fact that they belongs to private companies and it could compromise some of their strategies. This makes it necessary to get agreements and confidential contracts between these companies and researchers that are not always easy to obtain if an immediate benefit does not arise from those relationships.
 
-Some alternatives are the databases of aggregated data that are available for the European countries through the ENTSO-e data portal website. However, these data will be only useful for certain modeling exercises but have limitations due to the fact that there is a lack of information related to the power plant locations in each country.
+Some alternatives are the databases of aggregated data that are available for the European countries through the ENTSO-e data portal website \cite*{Hirth2018}. However, these data will be only useful for certain modeling exercises but have limitations due to the fact that there is a lack of information related to the power plant locations in each country.
 
 In this work two power plants data have been used in order to compare simulations with the real data. The limitations of these two plants is that they are both located in the Iberian Peninsula, and the length of the time series is limited. However, due to the difficulties to obtain these kind of data, it is useful to compare the modeling chain approach used in chapter 6 with the real data.
 
@@ -223,7 +229,7 @@ In this work two power plants data have been used in order to compare simulation
 
 \section{Other data}%Temperature data}
 
-  In addition to the direct relationship between solar irradiation and photovoltaic energy conversion, there are other atmospheric variables that influence the performance of solar cells, like temperature or wind speed. The model used in this work considers only temperature as a second order factor that reduces cell efficiency as it is explained in chapter 4.
+  In addition to the direct relationship between solar irradiation and photovoltaic energy conversion, there are other atmospheric variables that influence the performance of solar cells, like temperature or wind speed. The model used in this work considers only temperature as a second order factor that reduces cell efficiency, as it is explained in chapter 4.
  
   Temperature data are easier to obtain than solar radiation data. Numerous weather stations provides temperature data at 2m over the surface at a local scale. For studies over a large area gridded products are useful and easier to combine with the satellite products than station data.
 
@@ -241,7 +247,7 @@ In this work two power plants data have been used in order to compare simulation
   
   E-OBS is a gridded dataset derived from interpolation from the ECA\&D data based on stations that provides daily temperature data over Europe and the Mediterranean area \footnote{https://www.ecad.eu//download/ensembles/download.php#maps}. This product has been validated in several research papers \cite*{Begert2008, Hofstra2009} finding some inaccuracies related to an over-smoothing in areas where there are few stations, which affects extreme analyses mostly.
 
-The horizontal resolution of the gridded products is 0.25º or 0.44º whereas the time resolution is daily, with time series going from January 1950 until June 2018.  
+The horizontal resolution of the gridded products is $0.25º$ or $0.44º$ whereas the time resolution is daily, with time series going from January 1950 until June 2018.  
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -252,6 +258,7 @@ In order to fulfill the objectives of the present work it is necessary to apply 
 
 However, in the present chapter the different tools needed for the development of each study are described in a general manner. The three results chapters are based on a \textbf{modeling chain} that includes a photovoltaic model that is composed of two steps. First, the transposition to the plane-of-the-array, POA, of the components of the solar radiation, which implies also to assume some models of the sky sphere seen from the generator plane and a model for the electrical performance of the system. Besides, the input of this PV model can be solar radiation measurements, satellite radiation estimations or, as we saw in the previous chapter, the output of atmospheric/climate models. 
 
+\nomenclature[POA]{$POA$}{Plane of the Array}
 %En general, el método consite en la creación de una cadena de modelado que incluye un modelo de producción fotovoltaica, compuesto por el paso al plano del generador fotovoltaico de las componentes de la radiación solar y un modelo de funcionamiento eléctrico del sistema. Además, se el input de este modelo fotovoltaico podrán ser observaciones de radiación solar medidas en superficie, estimaciones de satélite o, como vimos en el capítulo anterior, radiación solar obtenida a partir de la salida de modelos.
 %  En el primer capítulo, se analizará de manera espacial la variabilidad interanual y la complementariedad del recurso solar en la Península Ibérica, para lo que se aplicarán técnicas de \textbf{clustering}. La evaluación de la productividad fotovoltaica lleva asociada la necesidad de la \textbf{modelización de un sistema fotovoltaico}.\\
 
@@ -263,6 +270,8 @@ However, in the present chapter the different tools needed for the development o
   
   Finally, the photovoltaic energy potential is analyzed in the future, using \textbf{climate projections} from different climate models. Trends and anomalies with respect to a reference period are evaluated. In this case, a \textbf{multi-model analysis} with different RCMs simulations allow us to evaluate the solar resource under climate change scenarios. The representation of aerosols in the climate projections is considered as a fundamental variable for the shortwave downward radiation projections, SSR, and PV productivity.
 
+\nomenclature[ssr]{$SSR$}{Surface Solar Radiation}
+  
 %  Por último, se realiza el análisis del potencial fotovoltaico futuro, evaluando las tendencias y anomalías con respecto a un periodo de referencia. En este caso, se hace un \textbf{estudio multimodelo} a través de distintas simulaciones de diferentes RCMs que permita evaluar el recurso solar y se utilizan las mismas para el cálculo de la producción fotovoltaica. En este último punto vuelve a considerarse la representación del campo de AOD dentro de las simulaciones climáticas como variable determinante en las proyecciones de SSR y productividad PV.\\
   
 \section{Clustering algorithm applied to climate data}
@@ -309,19 +318,21 @@ As these classical divisions are not adapted to the necessities of different fie
 
 In this work a clustering method is applied to classify solar irradiation due to the fact that classical climate divisions are only based on temperature an precipitation. The spatial pattern that could be extract from the Koppen-Terawatha classification, can not be used for our purpose.
 
-A commonly used partitional clustering method has been selected to classify solar irradiation of the area. The \textbf{'k-means'} algorithm is easy to implement and has been largely used over the literature. Moreover, the combination of a \textbf{principal component analysis} of the dataset previous to the k-means algorithm application has been proved to be an useful tool to reduce the data-dimensionality and apply the algorithm in a more efficient manner \cite*{Ding2004}.
+A commonly used partitional clustering method has been selected to classify solar irradiation of the area. The ``\textbf{k-means}'' algorithm is easy to implement and has been largely used over the literature. Moreover, the combination of a \textbf{principal component analysis} of the dataset previous to the k-means algorithm application has been proved to be an useful tool to reduce the data-dimensionality and apply the algorithm in a more efficient manner \cite*{Ding2004}.
 
 \subsubsection{K-Means algorithm}
 
-The k-means algorithm is a partitional clustering method that provides a set of partitions from the application of an optimization function, usually the euclidean distance, \ref{eq:euclidean}. The algorithm initiates from a pre-defined number of clusters, 'k', and randomly selects a group of centroids equal to the number of clusters. The optimization function is applied to assign each object to one of the clusters, depending on the similarity (distance) to each of the centroids. This process is applied until the algorithm converges.
+The k-means algorithm is a partitional clustering method that provides a set of partitions from the application of an optimization function, usually the euclidean distance, \ref{eq:euclidean}. The algorithm initiates from a pre-defined number of clusters, ``k'', and randomly selects a group of centroids equal to the number of clusters. The optimization function is applied to assign each object to one of the clusters, depending on the similarity (distance) to each of the centroids. This process is applied until the algorithm converges.
 
 \begin{equation}\label{eq:euclidean}
     J =\sum_{i=1}^{k}\sum_{j=1}^{n}{||x_i-c_j||}^2
 \end{equation}
 
+In equation \ref{eq:euclidean}: J is the objective function, \textit{k} is the number of clusters, $c_{i}$ is the centroid of the cluster \textit{i} and $x_{i}$ is each element inside the cluster.
+
 One of the limitations of this method is its dependency on the first selection of the centroids, that could lead to a local optimum instead of a global optimum. To solve this difficulty, the algorithm can be run many times to test the sensitivity of the algorithm to different initial conditions. Another option is to use an initialization technique to select the centroids.
 
-As the number of clusters 'k' is not normally known in advance, the algorithm is applied from 2 to 'n' times, with 'n' high enough to get the whole variability of the dataset and the optimum number of clusters is defined afterwards. This optimum 'k' will define the number of clusters that explains most of the variability and will assure that the increase in the number of clusters does not improve the variance representation.
+As the number of clusters ``k'' is not normally known in advance, the algorithm is applied from 2 to ``n'' times, with ``n'' high enough to get the whole variability of the dataset and the optimum number of clusters is defined afterwards. This optimum ``k'' will define the number of clusters that explains most of the variability and will assure that the increase in the number of clusters does not improve the variance representation.
 
 \subsubsection{Principal Component Analysis}
 
@@ -339,7 +350,7 @@ External validation techniques use information from outside of the dataset invol
 
 Two different indices are used in this study, the \textbf{Calinski-Harabasz} index (Eq.:\ref{eq:calinski}), the \textbf{Davies-Bouldien} index (Eq.:\ref{eq:davies}). The L-method proposed by Salvador and Chan, 2005 \cite*{CalinskiH, davies1979cluster, Salvador2004}, is also used in an intermediate stage.
 
-In the equation \ref{eq:calinski}: The 'BCSM' is the Between-Cluster-Scatter-Matrix, and its trace is the sum of squares distances between each cluster center $c_{i}$ and the global centroid vector of all the objects of the dataset. The term 'WCSM' is the Within-Cluster-Scatter-Matrix and the trace of this matrix is the sum of squares of the distances between the objects inside each cluster and the centroid. 'k' is the number of clusters. In the equation \ref{eq:davies}, $d_{i}$ is the averaged distance between the data classified into class i and the cluster center $c_{i}$ and $d(c_i,c_j)$ is the distance between the different cluster centers. 'k' is the number of clusters. 
+In the equation \ref{eq:calinski}: The ``BCSM'' is the Between-Cluster-Scatter-Matrix, and its trace is the sum of squares distances between each cluster center $c_{i}$ and the global centroid vector of all the objects of the dataset. The term ``WCSM'' is the Within-Cluster-Scatter-Matrix and the trace of this matrix is the sum of squares of the distances between the objects inside each cluster and the centroid. ``k'' is the number of clusters. In the equation \ref{eq:davies}, $d_{i}$ is the averaged distance between the data classified into class i and the cluster center $c_{i}$ and $d(c_i,c_j)$ is the distance between the different cluster centers. ``k'' is the number of clusters. 
 
 Similar results are obtained with the CH and DB indexes. In order to analyze the optimum partition, it is important to consider the nature of the variables that we are analyzing. Most of the atmospheric variables, are continuous variables that could be closely related to other variables such as latitude. For that reason, the regionalization procedure cannot be applied in the same way as for other discrete or non-continuous data. That characteristics should be considered when the results have to be evaluated.
 
@@ -351,6 +362,7 @@ Similar results are obtained with the CH and DB indexes. In order to analyze the
     DB =\frac{1}{k}\sum_{i-1}^{k}\max_{i=1,...i\neq{j}}{\frac{d_{i}+d_{j}}{d(c_i,c_j)}}
 \end{equation}
 
+
 %\subsubsection{Initialize K-Means}
 \section{Simulating a photovoltaic system}
 
@@ -358,8 +370,8 @@ Photovoltaic energy is based on the conversion of incident solar energy into ele
 
 \begin{figure}
 \centering
-\includegraphics[width=0.5\textwidth]{figs/pvsistem.pdf}
-\caption[Scheme of a photovoltaic system]{Scheme of a photovoltaic system. The effective irradiation is transformed into electricity by the generator and into alternate current by the inverter to be fed into the grid.}
+\includegraphics[width=0.8\textwidth]{figs/pvsistem.pdf}
+\caption[Scheme of a photovoltaic system]{Scheme of a photovoltaic system. The effective irradiation is transformed into electricity by the generator and after that, into alternate current by the inverter, to be fed into the grid.}
 \label{fig:ecad}
 \end{figure}
 
@@ -372,12 +384,12 @@ The process of simulating a photovoltaic system has two main steps:
   
 Both stages involve some modeling assumptions and each one will be explained in detail in the following section. In general, due to the fact that it is very unlikely to obtain solar radiation measurements in the plane-of-array, $G(\alpha, \beta)$; global horizontal irradiation, $G(0)$ (the most common variable measured or modeled that can be obtained from different sources), will be the starting point of the simulation. In order to estimate the amount of energy that reaches the generator surface, $G(\alpha, \beta)$, it is necessary to do a transposition of the different radiation components from the horizontal plane $G(0)$ to the plane of the array (POA).
 
-\nomenclature[G(alfa,beta)]{$G(\alpha, \beta)$}{Global irradiation at the plane of the array. Alpha and beta correspond to the inclination and ** angles of the panel.}
+\nomenclature[G(alfa,beta)]{$G(\alpha, \beta)$}{Global irradiation at the plane of the array. Alpha and beta correspond to the inclination and orientation angles of the panel.}
 
 Once the solar irradiation components at the generator surface are calculated, the amount of that energy that can be transformed into electricity is assessed. The relative position between the generator and the sun gives the optical losses according to the difference with the optimum incident angle. After considering the optical losses and dust accumulation, the plane of array irradiation becomes the global effective irradiation $G_{eff}(\alpha, \beta)$.
 % In order to estimate the amount of energy produced by a photovoltaic system it is necessary first to assess the amount of energy that reach the generator surface (plane of array irradiation, $G(\alpha, \beta)$) and after this estimation, which it is not straightforward unless it is measured, the different components of the generator has to be modeled.\\
 
-The second step that will calculate the energy output will provide the performance of the electrical components from the global effective irradiation and other variables that can influence on cells, like ambient temperature. The whole photovoltaic system includes the generator, the inverter and the transmission elements and wires.
+The second step that calculates the energy output, provides the performance of the electrical components from the global effective irradiation and other variables that can influence on cells, like ambient temperature. The whole photovoltaic system includes the generator, the inverter and the transmission elements and wires.
 
 % For the evaluation of the photovoltaic \textbf{energy yield}, defined as the amount of energy produced by a photovoltaic system divided by its nominal power, along this work we use the process explained below, which can be summarized in two steps:
 
@@ -414,7 +426,7 @@ F_{D,d}=\frac{D_{d}(0)}{G_{d}(0)}
 K_{Td}=\frac{G_d(0)}{B_{0d}(0)}
 \end{equation}
 
-Secondly, daily irradiance profile $[\si{\watt\per\metro\squared}]$ has to be estimated from irradiation values $[\si{\watt\hour\per\metro\squared}]$. Considering low variability of solar irradiance during an hour, it is assumed that average irradiance in that interval coincides with solar irradiation in that hour. Regarding equations proposed by \cite{Aguiar1992}, the ratio of the diffuse irradiance to diffuse irradiation is assumed to be equivalent to the ratio of extraterrestrial irradiance to extraterrestrial irradiation Eq.\ref{ratioB0}, and the ratio of global irradiance to daily global irradiation follows from the same reference Eq.\ref{ratioG0}. 
+Secondly, daily irradiance profile $[\si{\watt\per\metro\squared}]$ has to be estimated from irradiation values $[\si{\watt\hour\per\metro\squared}]$. Considering low variability of solar irradiance during an hour, it is assumed that average irradiance in that interval coincides with solar irradiation in that hour. Regarding equations proposed by \cite{Aguiar1992}, the ratio of the diffuse irradiance to diffuse irradiation is assumed to be equivalent to the ratio of extraterrestrial irradiance to extraterrestrial irradiation, Eq.\ref{ratioB0}, and the ratio of global irradiance to daily global irradiation follows from the same reference, Eq.\ref{ratioG0}. 
 
 \begin{equation}\label{ratioB0}
 r_{D}=\frac{D(0)}{D_d(0)}=\frac{B_0(0)}{B_{0d}(0)}
@@ -454,12 +466,14 @@ Once the effective irradiation that reaches solar cells is being assessed, the t
 
 Considering that a photovoltaic generator is composed by modules, the generator nominal power output is calculated by multiplying the power output of a single module by the number of them, assuming the same electric performance of all modules. 
 \begin{equation}\label{Pout}
-P_{out}=I_{m} \cdot V_{m}
+P_{out}=I_{m, mpp} \cdot V_{m, mpp}
 \end{equation}
 
 \nomenclature[P_out]{$P_{out}$}{Power output from the photovoltaic module}
 \nomenclature[Im]{$I_m$}{Intensity from the photovoltaic module}
+\nomenclature[Impp]{$I_{mpp}$}{Intensity for the maximum power point from I-V curve}
 \nomenclature[Vm]{$V_m$}{Voltage of a photovoltaic module}
+\nomenclature[Vmpp]{$V_{mpp}$}{Voltage for the maximum power point from I-V curve}
 
 The nominal values of the photovoltaic generator are defined by the manufacturer regarding the performance of the modules under certain conditions. However under operating conditions its performance varies and the obtained power depends on how the real conditions affect the cells.
 
@@ -472,12 +486,12 @@ The characterization of the solar cells that composed the modules is made by its
 This point is called the MPP point and the current and voltage corresponding to this point are the $I_{mpp}$ and $V_{mpp}$. The nominal power output of a module comes from the product of $I_{mpp}$ and $V_{mpp}$. The standard conditions applied to characterize the solar cells, thus the modules are:
 
 \begin{itemize}
-  \item $T_c$=25ºC
+  \item $T_c$=$25ºC$
   \item G=800 $[\si{\watt\per\metro\squared}]$
   \item AM=1,5
 \end{itemize}
 
-The characteristic equation of a solar cell and a module depends on two parameters called: the short-circuit current, $I_{sc}$ (eq. \ref{eq:Isc}) and the open circuit voltage, $V_{oc}$ (eq. \ref{eq:Voc}). These two parameters are respectively affected by the incident irradiation and the cell temperature. When the module is exposed to real conditions, the Impp and Vmpp are different from those under STC conditions. The Impp and Vmpp can be obtained from the $I_{sc}$ and the $V_{oc}$ and the standard $I_{mpp }$ and $V_{mpp}$, from now on: $I_{mpp}^*$ and $V_{oc}^*$:
+The characteristic equation of a solar cell and a module depends on two parameters called: the short-circuit current, $I_{sc}$ (eq. \ref{eq:Isc}) and the open circuit voltage, $V_{oc}$ (eq. \ref{eq:Voc}). These two parameters are respectively affected by the incident irradiation and the cell temperature. When the module is exposed to real conditions, the Impp and Vmpp are different from those under STC conditions. The $I_{mpp}$ and $V_{mpp}$ can be obtained from the $I_{sc}$ and the $V_{oc}$ and the standard $I_{mpp }$ and $V_{mpp}$, from now on: $I_{mpp}^*$ and $V_{oc}^*$:
 
 \begin{equation}\label{Tcelula}
   I_{sc}=G_{eff}(\alpha, \beta)\cdot\frac{I_{sc}^*}{G_{STC}}
@@ -491,7 +505,7 @@ V_{oc}(T)=V_{oc}^*+(T_c-T_c^*)\frac{dV_{oc}}{T_{c}}
 
 %* Explicar aquí lo que es el nominal power output. Este valor se obtiene a partir de las ecuaciones del generador en condiciones STC de laboratorio. En condiciones normales, no se reproducen las condiciones STC, por lo que hay que corregirlos. De ahí la ecuacion de la temperatura.
 
-The open circuit voltage decreases linearly with cell temperature. Due to that, cells performance depends on cells temperature that is related to ambient temperature as it is shown in eq. \ref{eq:Tc}.
+The open circuit voltage decreases linearly with cells' temperature. Due to that, cells' performance depends on cells' temperature that is related to ambient temperature as it is shown in eq. \ref{eq:Tc}.
 
 The assumption used for this assessment considers a linear relationship between cell temperature and global effective irradiation, Eq.\ref{Tcelula}. NOCT in equation \ref{Tcelula} is considered constant, being the temperature of a cell when it works under conditions of incident irradiance of 800 $[\si{\watt\over\metro^2}]$ and ambient temperature of 20ºC.
 
@@ -502,7 +516,7 @@ T_c=T_a + G_{eff}(\alpha, \beta) \cdot \frac{NOCT-20}{800}
 
 \nomenclature[T_c]{$T_c$}{Cell temperature}
 \nomenclature[T_a]{$T_a$}{Ambient temperature}
-\nomenclature[G_ef]{$G_{ef}$}{Global effective irradiation}
+\nomenclature[G_eff]{$G_{eff}(\alpha,\beta)$}{Global effective irradiation at the tilted panel}
 
 Once the power of the generator is calculated, the power output of the whole system is assessed by the consideration of a common inverter for transforming DC current into AC, also arrangement losses of the generator are included. Other systems factors that influence the performance of the photovoltaic system are shadows over the generator due to the positions of the PV modules over the land. This factor is not considered in our calculations assuming that we look for an estimation of the potential yield of an area, not the product of a real PV plant. %Detailed description of the software employed to the assessment, solaR, is in \cite{Perpinan2012}. The process for the photovoltaic output is summarized in table \ref{tabla1} including all the steps and elements involved as explained in \cite{Perpinan2009}.
 
@@ -536,7 +550,7 @@ Once the power of the generator is calculated, the power output of the whole sys
   \end{tabular}
   \caption[Calculation procedure for the estimation of energy produced by a PV
     system. Equations and methods for the efficiency of the elements]{Calculation procedure for the estimation of energy produced by a PV
-    system from daily global horizontal irradiation data. Left column represents the element of the PV system and the right column the equations and methods used in each case for the efficiency of the elements.}
+    system from irradiation data. Left column represents the element of the PV system and the right column the equations and methods used in each case for the efficiency of the elements.}
   \label{tabla1}
 \end{table}
 
@@ -567,11 +581,11 @@ Since its origins, there has been an increase and a diversification in research 
 
 Global climate models provide useful information about the possible evolution of climate on large scales. Due to their low horizontal resolution, the model's cells cover areas with very different regional characteristics, which potentially can lead to missing some information that affects particularly to smaller and vulnerable areas.
 
-It was in the early 90s \cite*{Dickinson1989, Giorgi1990} when it was proposed to use global models as the necessary boundary conditions to force a 'limited area model LAM'. Those LAMs had been used for numerical weather prediction forecast, but they were applied to predict the weather just few days in advance. The idea of running these simulations for longer periods will result in the development of \textbf{Regional Climate Modeling}, which would provide regional climate information of processes that occurs in a spatial scale not resolved by a global models.
+It was in the early 90s \cite*{Dickinson1989, Giorgi1990} when it was proposed to use global models as the necessary boundary conditions to force a ``limited area model LAM''. Those LAMs had been used for numerical weather prediction forecast, but they were applied to predict the weather just few days in advance. The idea of running these simulations for longer periods will result in the development of \textbf{Regional Climate Modeling}, which would provide regional climate information of processes that occurs in a spatial scale not resolved by a global models.
 
-In a similar way than the GCMs, the RCMs community has expanded in the last decades and the number of research groups has increased. Also, some international initiatives try to engage different groups and modelers to develop better models and simulations (PRUDENCE, ENSEMBLES,CORDEX, EURO-CORDEX, MED-CORDEX).
+In a similar way than the GCMs, the RCMs community has expanded in the last decades and the number of research groups has increased. Also, some international initiatives try to engage different groups and modelers to develop better models and simulations (PRUDENCE, ENSEMBLES, CORDEX, Euro-CORDEX, Med-CORDEX).
 
-In the present work we make use of RCMs focused on the Mediterranean area with finer resolution than GCMs, considering the models and simulations included in the EURO-CORDEX and MED-CORDEX projects \cite*{Jacob2014, Ruti2016}.
+In the present work we make use of RCMs focused on the Mediterranean area with finer resolution than GCMs, considering the models and simulations included in the Euro-CORDEX and Med-CORDEX projects \cite*{Jacob2014, Ruti2016}.
 
 These RCMs can provide the necessary atmospheric variables for the analysis of renewable energy resources. Due to its complexity and the need of parametrizations for some atmospheric processes, they can have systematic bias that difficults their use for resource assessment. However, due to the low frequency variability observed in some variables and to the importance of considering the future projections, they are a valuable tool for analyzing renewable energy resources and its evolution. Besides, the use of climate models allows to study specific climatic events and to understand their mechanisms, linking the implications of those situations with renewable generation.
 
@@ -590,11 +604,11 @@ For chapter 6, ``Impact of aerosols in photovoltaic energy production'', only on
 
 Behind the study of the climate system there is not only the interest of a deeper understanding of the physical processes, but also a concern about the impact that a changing climatic system could have in the ecosystems and different species of the Earth.
 
-The Intergovernmental Panel on Climate Change, IPCC \cite*{IPCC2013}, was launched in 1992 and it is an international organism that was founded by the World Meteorological Association, WMO, and the United Nations Environmental Program, UNEP. Its purpose was to gather together all the scientific information available about the anthropogenic climate change. This information summarizes our knowledge about climate change, its impacts as well as some mitigation strategies to be adopted.
+The Intergovernmental Panel on Climate Change, IPCC, was launched in 1992 and it is an international organism that was founded by the World Meteorological Association, WMO, and the United Nations Environmental Program, UNEP. Its purpose was to gather together all the scientific information available about the anthropogenic climate change. This information summarizes our knowledge about climate change, its impacts as well as some mitigation strategies to be adopted.
 
 In order to elaborate the climate scenarios, which represent the possible evolution of the climate system, it is also necessary to generate different plausible scenarios of emissions. The development of these emission scenarios of greenhouse gases or aerosols, will be based on the assumptions about technological changes or demographic criteria as well as the socioeconomic development of each region. Those scenarios, with different options for the future evolution, will be the driving force for the climate simulations in order to elaborate the climate projections.
 
-The first emission scenarios were elaborated in the 90s and they have changed since then. For the 5th AR of the IPCC, that was released 2014 the RCP scenarios were defined. They are different 'representative concentrations pathways' that correspond to one of the possible scenarios that lead to a specific radiative forcing, i.e, the RCP8.5 represents a radiative forcing of 8.5 $[\si{\watt\per\metro^2}]$ at the end of the present century.
+The first emission scenarios were elaborated in the 90s and they have changed since then. For the 5th AR of the IPCC, that was released 2014 the RCP scenarios were defined \cite*{Stocker2013}. They are different ``representative concentrations pathways'' that correspond to one of the possible scenarios that lead to a specific radiative forcing, i.e, the RCP8.5 represents a radiative forcing of 8.5 ($\si{\watt\per\metro^2}$) at the end of the present century.
 
 For chapter 7, ``Future projections for PV technology'', several RCMs and its corresponding GCMs are used. The simulations include the historical period and the future scenario RCP8.5 or RCP4.5. The analysis of the results will be done with respect to a reference historical period.
 
@@ -607,30 +621,30 @@ In table \ref{climatemodels} there is a summary of the climate models and the si
     \midrule                                                         
     & \centering{GCM} & \centering{RCM} & \centering{Domain} & \centering{Resolution RCM} &\centering{Simulation} \tabularnewline                                            
     \midrule
-     Aerosols' impact & \centering{CNRM-CM5} & \centering{CNRM-ALADIN53} & \centering{MED-CORDEX} & \centering{0.44º} & \centering{AER}\midrule\\
+     Aerosols' impact & \centering{CNRM-CM5} & \centering{CNRM-ALADIN53} & \centering{Med-CORDEX} & \centering{0.44º} & \centering{AER}\midrule\\
     \centering{NO-AER}\midrule\\
     \centering{TREND}
     \tabularnewline
    \midrule
     Future projections & \centering{CNRM-CM5} & \centering{ALADIN53}\midrule\\
     \centering{RCA4}\midrule\\
-    \centering{CCLM4}\midrule & \centering{EURO-CORDEX} & \centering{0.11º} & \centering{HIST/RCP8.5}\\
+    \centering{CCLM4}\midrule & \centering{Euro-CORDEX} & \centering{0.11º} & \centering{HIST/RCP8.5}\\
     \centering{HIST/RCP8.5}\\
     \centering{HIST/RCP8.5}
     \tabularnewline
-          & \centering{ICHEC-EC-EARTH} & \centering{RACMO}\midrule\\
+          & \centering{EC-EARTH} & \centering{RACMO}\midrule\\
     \centering{RCA4}\midrule\\
-    \centering{CCLM4}\midrule & \centering{EURO-CORDEX} & \centering{0.11º} & \centering{HIST/RCP8.5}\\
+    \centering{CCLM4}\midrule & \centering{Euro-CORDEX} & \centering{0.11º} & \centering{HIST/RCP8.5}\\
     \centering{HIST/RCP8.5}\\
     \centering{HIST/RCP8.5}
     \tabularnewline
           & \centering{CNRM-CM5} & \centering{ALADIN-RCSM4}\midrule\\
-    \centering{RCA4}\midrule & \centering{MED-CORDEX} & \centering{0.44º} & \centering{HIST/RCP4.5}\\
-    \centering{HIST/RCP8.5}
+    \centering{PROTHEUS}\midrule & \centering{Med-CORDEX} & \centering{0.44º} & \centering{HIST/RCP4.5}\\
+    \centering{HIST/RCP4.5}
     \tabularnewline
  \bottomrule
   \end{tabular}
-  \caption[Summary of the climate models (global, GCM, or regional, RCM) used in chapters 7 and 8]{Summarize of the climate models (global, GCM, or regional, RCM) used in chapters 7 and 8. The name of the global model includes the institute that elaborates the simulation and then the global models's name. The domain of the simulations is MED-CORDEX or EURO-CORDEX, described in the referenced paper.}
+  \caption[Summary of the climate models (global, GCM, or regional, RCM) used in chapters 7 and 8]{Summary of the climate models (global, GCM, or regional, RCM) used in chapters 7 and 8. The name of the global model includes the institute that elaborates the simulation and then the global models's name. The domain of the simulations is Med-CORDEX or Euro-CORDEX, described in the referenced paper.}
   \label{climatemodels}
 \end{table}
  

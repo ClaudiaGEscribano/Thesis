@@ -1,46 +1,46 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \addvspace {10pt}
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Conceptual scheme: climate, energy and societies interactions}}{8}{figure.caption.4}
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Conceptual scheme: climate, energy and societies interactions}}{8}{figure.caption.9}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Irradiance, wind and wave, forecasting methods depending on the time horizon}}{17}{figure.caption.5}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Irradiance, wind and wave, forecasting methods depending on the time horizon}}{17}{figure.caption.10}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Map of BSRN stations}}{33}{figure.caption.7}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Retrieval of solar irradiation from satellites}}{35}{figure.caption.8}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces The EURO and MED-CORDEX projects domains}}{37}{figure.caption.9}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Map of ECA&D stations}}{39}{figure.caption.10}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Map of BSRN stations}}{33}{figure.caption.12}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Retrieval of solar irradiation from satellites}}{35}{figure.caption.13}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces The EURO and MED-CORDEX projects domains}}{37}{figure.caption.14}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Map of ECA&D stations}}{39}{figure.caption.15}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Scheme of a photovoltaic system}}{45}{figure.caption.11}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Steps for obtaining $G_{eff}$}}{48}{figure.caption.12}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Scheme of a photovoltaic system}}{45}{figure.caption.16}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Steps for obtaining $G_{eff}$}}{48}{figure.caption.17}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Stages of the multi-step scheme for variability and complementarity analysis}}{61}{figure.caption.16}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Calinski-Harabasz index by number of clusters}}{63}{figure.caption.17}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Optimal partition of clusters over the Iberian Peninsula}}{66}{figure.caption.18}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Yearly mean of PV yield by cluster and tracking type over the Iberian Peninsula}}{69}{figure.caption.20}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Annual cycle of CV by cluster and tracking type over the Iberian Peninsula}}{70}{figure.caption.21}
-\contentsline {figure}{\numberline {5.6}{\ignorespaces CV ratios of PV by tracking type and solar irradiation at horizontal plane}}{71}{figure.caption.22}
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Correlation coefficients of the yearly energy yield for the two pairs of clusters with the highest and smallest correlation values over the Iberian Peninsula}}{73}{figure.caption.23}
-\contentsline {figure}{\numberline {5.8}{\ignorespaces Correlation coefficients of the monthly energy yield for the two pairs of clusters with the highest and smallest correlation values over the Iberian Peninsula}}{74}{figure.caption.24}
-\contentsline {figure}{\numberline {5.9}{\ignorespaces Yearly mean of solar irradiation and variability over the Iberian Peninsula}}{76}{figure.caption.25}
-\contentsline {figure}{\numberline {5.10}{\ignorespaces Yearly mean of solar irradiation and variability by tracking type and cluster over the Iberian Peninsula}}{77}{figure.caption.26}
-\contentsline {figure}{\numberline {5.11}{\ignorespaces Yearly mean of solar irradiation and variability by tracking type and cluster for each cell over the Iberian Peninsula}}{78}{figure.caption.27}
-\contentsline {figure}{\numberline {5.12}{\ignorespaces Correlation matrix between clusters over the Iberain Peninsula}}{80}{figure.caption.28}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Stages of the multi-step scheme for variability and complementarity analysis}}{62}{figure.caption.21}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Calinski-Harabasz index by number of clusters}}{64}{figure.caption.22}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Optimal partition of clusters over the Iberian Peninsula}}{67}{figure.caption.23}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Yearly mean of PV yield by cluster and tracking type over the Iberian Peninsula}}{70}{figure.caption.25}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Annual cycle of CV by cluster and tracking type over the Iberian Peninsula}}{71}{figure.caption.26}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces CV ratios of PV by tracking type and solar irradiation at horizontal plane}}{72}{figure.caption.27}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Correlation coefficients of the yearly energy yield for the two pairs of clusters with the highest and smallest correlation values over the Iberian Peninsula}}{74}{figure.caption.28}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Correlation coefficients of the monthly energy yield for the two pairs of clusters with the highest and smallest correlation values over the Iberian Peninsula}}{75}{figure.caption.29}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Yearly mean of solar irradiation and variability over the Iberian Peninsula}}{77}{figure.caption.30}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Yearly mean of solar irradiation and variability by tracking type and cluster over the Iberian Peninsula}}{78}{figure.caption.31}
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Yearly mean of solar irradiation and variability by tracking type and cluster for each cell over the Iberian Peninsula}}{79}{figure.caption.32}
+\contentsline {figure}{\numberline {5.12}{\ignorespaces Correlation matrix between clusters over the Iberain Peninsula}}{81}{figure.caption.33}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Euro-Mediterranean areas defined and local points}}{86}{figure.caption.30}
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Time series of differences between SSR from simulations, satellite data and BSRN stations}}{90}{figure.caption.33}
-\contentsline {figure}{\numberline {6.3}{\ignorespaces Distribution of differences in monthly mean of daily PV productivity between simulations and real PV data}}{91}{figure.caption.34}
-\contentsline {figure}{\numberline {6.4}{\ignorespaces Differences between climate simulations and satellite in SSR in defined areas}}{93}{figure.caption.36}
-\contentsline {figure}{\numberline {6.5}{\ignorespaces Differences in annual cycle of daily energy productivity between PV simulations with SSR from climate models andfrom satellite}}{94}{figure.caption.37}
-\contentsline {figure}{\numberline {6.6}{\ignorespaces Differences in yearly PV productivity between simulations with and without aerosols}}{95}{figure.caption.38}
-\contentsline {figure}{\numberline {6.7}{\ignorespaces Differences in seasonal PV productivity between simulations with and without aerosols}}{96}{figure.caption.39}
-\contentsline {figure}{\numberline {6.8}{\ignorespaces Difference in PV productivity in the brightening period}}{98}{figure.caption.40}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Euro-Mediterranean areas defined and local points}}{89}{figure.caption.35}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Time series of differences between SSR from simulations, satellite data and BSRN stations}}{93}{figure.caption.38}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Distribution of differences in monthly mean of daily PV productivity between simulations and real PV data}}{94}{figure.caption.39}
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Differences between climate simulations and satellite in SSR in defined areas}}{96}{figure.caption.41}
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Differences in annual cycle of daily energy productivity between PV simulations with SSR from climate models andfrom satellite}}{97}{figure.caption.42}
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Differences in yearly PV productivity between simulations with and without aerosols}}{98}{figure.caption.43}
+\contentsline {figure}{\numberline {6.7}{\ignorespaces Differences in seasonal PV productivity between simulations with and without aerosols}}{99}{figure.caption.44}
+\contentsline {figure}{\numberline {6.8}{\ignorespaces Difference in PV productivity in the brightening period}}{101}{figure.caption.45}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {7.1}{\ignorespaces Aerosol optical depth summer anomalies between 2050-2021 with respect to 1971-2000 over Europe}}{106}{figure.caption.43}
-\contentsline {figure}{\numberline {7.2}{\ignorespaces Anomaly of summer SSR over Europe for the period 2021-2050 with respect of 1971-2000 with different climate models}}{108}{figure.caption.45}
-\contentsline {figure}{\numberline {7.3}{\ignorespaces Mean anomaly 2021-2050 with respect to the reference period 1970-2021 of JJA surface solar radiation, CLT. [$\si {\watt \per \metro \squared }$]\relax }}{110}{figure.caption.46}
-\contentsline {figure}{\numberline {7.4}{\ignorespaces Yearly anomaly of PV productivity over Europe for the period 2021-2050 with respect of 1971-2000}}{111}{figure.caption.48}
-\contentsline {figure}{\numberline {7.5}{\ignorespaces JJA mean change of PV productivity over Europe for the period 2021-2050 with respect of 1971-2000}}{112}{figure.caption.49}
-\contentsline {figure}{\numberline {7.6}{\ignorespaces Statistical significance of PV anomalies}}{114}{figure.caption.50}
-\contentsline {figure}{\numberline {7.7}{\ignorespaces Anomaly of summer SSR over MED-CORDEX domain for the period 2021-2050 with respect of 1971-2000 with different climate models}}{115}{figure.caption.51}
-\contentsline {figure}{\numberline {7.8}{\ignorespaces Anomaly of summer CLT over MED-CORDEX domain for the period 2021-2050 with respect of 1971-2000 with different climate models}}{116}{figure.caption.52}
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Aerosol optical depth summer anomalies between 2050-2021 with respect to 1971-2000 over Europe}}{111}{figure.caption.48}
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Anomaly of summer SSR over Europe for the period 2021-2050 with respect of 1971-2000 with different climate models}}{114}{figure.caption.50}
+\contentsline {figure}{\numberline {7.3}{\ignorespaces Mean change 2021-2050 with respect to the reference period 1970-2021 of JJA surface solar radiation, CLT. [$\si {\watt \per \metro \squared }$]\relax }}{116}{figure.caption.51}
+\contentsline {figure}{\numberline {7.4}{\ignorespaces Yearly anomaly of PV productivity over Europe for the period 2021-2050 with respect of 1971-2000}}{117}{figure.caption.53}
+\contentsline {figure}{\numberline {7.5}{\ignorespaces JJA mean change of PV productivity over Europe for the period 2021-2050 with respect of 1971-2000}}{118}{figure.caption.54}
+\contentsline {figure}{\numberline {7.6}{\ignorespaces Statistical significance of PV anomalies}}{120}{figure.caption.55}
+\contentsline {figure}{\numberline {7.7}{\ignorespaces Anomaly of summer SSR over Med-CORDEX domain for the period 2021-2050 with respect of 1971-2000 with different climate models}}{121}{figure.caption.56}
+\contentsline {figure}{\numberline {7.8}{\ignorespaces Anomaly of summer CLT over Med-CORDEX domain for the period 2021-2050 with respect of 1971-2000 with different climate models}}{122}{figure.caption.57}
 \addvspace {10pt}
 \addvspace {10pt}

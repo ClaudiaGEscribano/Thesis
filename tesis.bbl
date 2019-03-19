@@ -25,7 +25,7 @@
      {}{}}%
     {{}%
      {Collares-Pereira}{C.-P.}%
-     {M}{M}%
+     {M.}{M.}%
      {}{}%
      {}{}}%
   }
@@ -110,8 +110,7 @@
   \field{series}{World Energy Outlook}
   \field{title}{{World Energy Outlook 2018}}
   \verb{url}
-  \verb https://www.oecd-ilibrary.org/content/publication/weo-2018-en https://w
-  \verb ww.oecd-ilibrary.org/energy/world-energy-outlook-2018{\_}weo-2018-en
+  \verb https://www.oecd-ilibrary.org/content/publication/weo-2018-en
   \endverb
   \field{year}{2018}
   \warn{\item Invalid format of field 'month'}
@@ -121,17 +120,17 @@
   \name{author}{3}{}{%
     {{}%
      {Almeida}{A.}%
-     {Marcelo~Pinho}{M.~P.}%
+     {M.~P.}{M.~P.}%
      {}{}%
      {}{}}%
     {{}%
      {Perpi{\~{n}}{\'{a}}n}{P.}%
-     {Oscar}{O.}%
+     {O.}{O.}%
      {}{}%
      {}{}}%
     {{}%
      {Narvarte}{N.}%
-     {Luis}{L.}%
+     {L.}{L.}%
      {}{}%
      {}{}}%
   }
@@ -166,8 +165,7 @@
   \field{title}{{PV power forecast using a nonparametric PV model}}
   \verb{url}
   \verb https://www.sciencedirect.com/science/article/pii/S0038092X15001218?via
-  \verb {\%}3Dihub https://linkinghub.elsevier.com/retrieve/pii/S0038092X150012
-  \verb 18
+  \verb {\%}3Dihub
   \endverb
   \field{volume}{115}
   \field{journaltitle}{Solar Energy}
@@ -179,32 +177,32 @@
   \name{author}{6}{}{%
     {{}%
      {Arg{\"{u}}eso}{A.}%
-     {Daniel}{D.}%
+     {D.}{D.}%
      {}{}%
      {}{}}%
     {{}%
      {Hidalgo-Mu{\~{n}}oz}{H.-M.}%
-     {Jos{\'{e}}~M.}{J.~M.}%
+     {J.~M.}{J.~M.}%
      {}{}%
      {}{}}%
     {{}%
      {G{\'{a}}miz-Fortis}{G.-F.}%
-     {Sonia~R.}{S.~R.}%
+     {S.~R.}{S.~R.}%
      {}{}%
      {}{}}%
     {{}%
      {Esteban-Parra}{E.-P.}%
-     {Mar{\'{i}}a~Jes{\'{u}}s}{M.~J.}%
+     {M.~J.}{M.~J.}%
      {}{}%
      {}{}}%
     {{}%
      {Dudhia}{D.}%
-     {Jimy}{J.}%
+     {J.}{J.}%
      {}{}%
      {}{}}%
     {{}%
      {Castro-D{\'{i}}ez}{C.-D.}%
-     {Yolanda}{Y.}%
+     {Y.}{Y.}%
      {}{}%
      {}{}}%
   }
@@ -290,8 +288,7 @@
   estimate model (CM SAF) and on-ground measurements (SIAR): A Spanish case
   study}}
   \verb{url}
-  \verb http://linkinghub.elsevier.com/retrieve/pii/S1364032112007368 https://l
-  \verb inkinghub.elsevier.com/retrieve/pii/S1364032112007368
+  \verb http://linkinghub.elsevier.com/retrieve/pii/S1364032112007368
   \endverb
   \field{volume}{21}
   \verb{file}
@@ -315,32 +312,32 @@
   \name{author}{9}{}{%
     {{}%
      {Bart{\'{o}}k}{B.}%
-     {Blanka}{B.}%
+     {B.}{B.}%
      {}{}%
      {}{}}%
     {{}%
      {Wild}{W.}%
-     {Martin}{M.}%
+     {M.}{M.}%
      {}{}%
      {}{}}%
     {{}%
      {Folini}{F.}%
-     {Doris}{D.}%
+     {D.}{D.}%
      {}{}%
      {}{}}%
     {{}%
      {L{\"{u}}thi}{L.}%
-     {Daniel}{D.}%
+     {D.}{D.}%
      {}{}%
      {}{}}%
     {{}%
      {Kotlarski}{K.}%
-     {Sven}{S.}%
+     {S.}{S.}%
      {}{}%
      {}{}}%
     {{}%
      {Sch{\"{a}}r}{S.}%
-     {Christoph}{C.}%
+     {C.}{C.}%
      {}{}%
      {}{}}%
     {{}%
@@ -410,7 +407,7 @@
   \name{author}{1}{}{%
     {{}%
      {Bart{\'{o}}k}{B.}%
-     {Blanka}{B.}%
+     {B.}{B.}%
      {}{}%
      {}{}}%
   }
@@ -451,8 +448,7 @@
   \field{title}{{Changes in solar energy availability for south-eastern Europe
   with respect to global warming}}
   \verb{url}
-  \verb https://www.sciencedirect.com/science/article/pii/S1474706510000239 htt
-  \verb ps://linkinghub.elsevier.com/retrieve/pii/S1474706510000239
+  \verb https://www.sciencedirect.com/science/article/pii/S1474706510000239
   \endverb
   \field{volume}{35}
   \verb{file}
@@ -465,16 +461,77 @@
   \warn{\item Invalid format of field 'month'}
 \endentry
 
+\entry{Burnett2014}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Burnett}{B.}%
+     {D.}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Barbour}{B.}%
+     {E.}{E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Harrison}{H.}%
+     {G.~P.}{G.~P.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{Climate change,Probabilistic projections,Solar PV,Solar
+  irradiation,Solar resource,Solar thermal,Suehrcke,Sunshine
+  duration,UK,UKCP09}
+  \strng{namehash}{BDBEHGP1}
+  \strng{fullhash}{BDBEHGP1}
+  \field{labelalpha}{BBH14}
+  \field{sortinit}{B}
+  \field{abstract}{%
+  Solar energy use in the UK is increasing dramatically, providing both heat
+  energy and generation of electricity. This trend is expected to continue due
+  to solar technologies becoming cheaper and more readily available along with
+  low carbon government legislation such as the Renewable Heat Incentive (RHI)
+  and Feed in Tariffs (FiTs) supporting solar energy deployment. However, the
+  effects of climate change on the solar resource remain largely unstudied.
+  Climate change affects cloud cover characteristics and consequently directly
+  affects the performance of solar energy technologies. This paper investigates
+  the UK solar irradiation resource for both the present and future climates.
+  The present solar irradiation level was assessed through the conversion of 30
+  years of observed historical monthly average sunshine duration data. The
+  method and results are validated by comparing the converted solar irradiation
+  levels to actual solar irradiance measurements at weather stations with
+  significant historical records of solar irradiance data. The impact of
+  climate change is investigated across different regions of the UK by using
+  the UKCP09 probabilistic climate change projections. We find that the current
+  average UK annual solar resource is 101.2Wm-2, ranging from 128.4 Wm-2 in the
+  south of England to 71.8Wm-2 in the northwest of Scotland. It seems likely
+  that climate change will increase the average resource in the south of the
+  UK, while marginally decreasing it in the Northwest. The overall effect is a
+  mean increase of the UK solar resource, however it will have greater seasonal
+  variability and discrepancies between geographical regions will be
+  reinforced. {\textcopyright} 2014 The Authors.%
+  }
+  \verb{doi}
+  \verb 10.1016/j.renene.2014.05.034
+  \endverb
+  \field{isbn}{0960-1481}
+  \field{issn}{09601481}
+  \field{title}{{The UK solar energy resource and the impact of climate
+  change}}
+  \field{journaltitle}{Renewable Energy}
+  \field{year}{2014}
+\endentry
+
 \entry{Bartos2015}{article}{}
   \name{author}{2}{}{%
     {{}%
      {Bartos}{B.}%
-     {Matthew~D.}{M.~D.}%
+     {M.~D.}{M.~D.}%
      {}{}%
      {}{}}%
     {{}%
      {Chester}{C.}%
-     {Mikhail~V}{M.~V.}%
+     {M.~V.}{M.~V.}%
      {}{}%
      {}{}}%
   }
@@ -506,27 +563,27 @@
   \name{author}{5}{}{%
     {{}%
      {Begert}{B.}%
-     {Michael}{M.}%
+     {M.}{M.}%
      {}{}%
      {}{}}%
     {{}%
      {Zenklusen}{Z.}%
-     {Evelyn}{E.}%
+     {E.}{E.}%
      {}{}%
      {}{}}%
     {{}%
      {H{\"{a}}berli}{H.}%
-     {Christian}{C.}%
+     {C.}{C.}%
      {}{}%
      {}{}}%
     {{}%
      {Appenzeller}{A.}%
-     {Christof}{C.}%
+     {C.}{C.}%
      {}{}%
      {}{}}%
     {{}%
      {Klok}{K.}%
-     {Lisette}{L.}%
+     {L.}{L.}%
      {}{}%
      {}{}}%
   }
@@ -660,27 +717,27 @@
   \name{author}{5}{}{%
     {{}%
      {Bergin}{B.}%
-     {Mike~H.}{M.~H.}%
+     {M.~H.}{M.~H.}%
      {}{}%
      {}{}}%
     {{}%
      {Ghoroi}{G.}%
-     {Chinmay}{C.}%
+     {C.}{C.}%
      {}{}%
      {}{}}%
     {{}%
      {Dixit}{D.}%
-     {Deepa}{D.}%
+     {D.}{D.}%
      {}{}%
      {}{}}%
     {{}%
      {Schauer}{S.}%
-     {James~J.}{J.~J.}%
+     {J.~J.}{J.~J.}%
      {}{}%
      {}{}}%
     {{}%
      {Shindell}{S.}%
-     {Drew~T.}{D.~T.}%
+     {D.~T.}{D.~T.}%
      {}{}%
      {}{}}%
   }
@@ -725,26 +782,9 @@
   \endverb
   \field{volume}{4}
   \verb{file}
-  \verb :home/claudia/Escritorio/referencias/gueymard2012.pdf:pdf;:home/claudia
-  \verb /.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Gaetani et
-  \verb  al. - 2014 - The near future availability of photovoltaic energy in Eu
-  \verb rope and Africa in climate-aerosol modeling experiments.pdf:pdf;:home/c
-  \verb laudia/Escritorio/referencias/polo2016.pdf:pdf;:home/claudia/.local/sha
-  \verb re/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Lelieveld - Unknown -
-  \verb  Global air pollution crossroads over the Mediterranean.pdf:pdf;:home/c
-  \verb laudia/Escritorio/referencias/acs.estlett.7b00197.pdf:pdf;:home/claudia
-  \verb /Escritorio/referencias/Bender-Bankability and variability-ASES11.pdf:p
-  \verb df;:home/claudia/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downl
-  \verb oaded/Crook et al. - 2011 - Climate change impacts on future photovolta
-  \verb ic and concentrated solar power energy output.pdf:pdf;:home/claudia/.lo
-  \verb cal/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Bergin et al.
-  \verb - 2017 - Large Reductions in Solar Energy Production Due to Dust and Pa
-  \verb rticulate Air Pollution.pdf:pdf;:home/claudia/.local/share/data/Mendele
-  \verb y Ltd./Mendeley Desktop/Downloaded/Bergin et al. - 2017 - Large Reducti
-  \verb ons in Solar Energy Production Due to Dust and Particulate Air Pollutio
-  \verb n(2).pdf:pdf;:home/claudia/.local/share/data/Mendeley Ltd./Mendeley Des
-  \verb ktop/Downloaded/Bergin et al. - 2017 - Large Reductions in Solar Energy
-  \verb  Production Due to Dust and Particulate Air Pollution(3).pdf:pdf
+  \verb :home/claudia/.local/share/data/Mendeley Ltd./Mendeley Desktop/Download
+  \verb ed/Bergin et al. - 2017 - Large Reductions in Solar Energy Production D
+  \verb ue to Dust and Particulate Air Pollution(3).pdf:pdf
   \endverb
   \field{journaltitle}{Environmental Science {\&} Technology Letters}
   \field{year}{2017}
@@ -755,12 +795,12 @@
   \name{author}{2}{}{%
     {{}%
      {Blanco}{B.}%
-     {Herib}{H.}%
+     {H.}{H.}%
      {}{}%
      {}{}}%
     {{}%
      {Faaij}{F.}%
-     {Andr{\'{e}}}{A.}%
+     {A.}{A.}%
      {}{}%
      {}{}}%
   }
@@ -803,8 +843,7 @@
   \field{title}{{A review at the role of storage in energy systems with a focus
   on Power to Gas and long-term storage}}
   \verb{url}
-  \verb https://www.sciencedirect.com/science/article/pii/S1364032117311310 htt
-  \verb ps://linkinghub.elsevier.com/retrieve/pii/S1364032117311310
+  \verb https://www.sciencedirect.com/science/article/pii/S1364032117311310
   \endverb
   \field{volume}{81}
   \verb{file}
@@ -821,32 +860,32 @@
   \name{author}{15}{}{%
     {{}%
      {Bindoff}{B.}%
-     {N~L}{N.~L.}%
+     {N.~L.}{N.~L.}%
      {}{}%
      {}{}}%
     {{}%
      {Stott}{S.}%
-     {P~A}{P.~A.}%
+     {P.~A.}{P.~A.}%
      {}{}%
      {}{}}%
     {{}%
      {AchutaRao}{A.}%
-     {K~M}{K.~M.}%
+     {K.~M.}{K.~M.}%
      {}{}%
      {}{}}%
     {{}%
      {Allen}{A.}%
-     {M~R}{M.~R.}%
+     {M.~R.}{M.~R.}%
      {}{}%
      {}{}}%
     {{}%
      {Gillett}{G.}%
-     {N}{N}%
+     {N.}{N.}%
      {}{}%
      {}{}}%
     {{}%
      {Gutzler}{G.}%
-     {D}{D}%
+     {D.}{D.}%
      {}{}%
      {}{}}%
     {{}%
@@ -930,17 +969,17 @@
   \name{author}{3}{}{%
     {{}%
      {Beluco}{B.}%
-     {Alexandre}{A.}%
+     {A.}{A.}%
      {}{}%
      {}{}}%
     {{}%
      {{Kroeff de Souza}}{K.}%
-     {Paulo}{P.}%
+     {P.}{P.}%
      {}{}%
      {}{}}%
     {{}%
      {Krenzinger}{K.}%
-     {Arno}{A.}%
+     {A.}{A.}%
      {}{}%
      {}{}}%
   }
@@ -1006,27 +1045,27 @@
   \name{author}{5}{}{%
     {{}%
      {Bloomfield}{B.}%
-     {H~C}{H.~C.}%
+     {H.~C.}{H.~C.}%
      {}{}%
      {}{}}%
     {{}%
      {Brayshaw}{B.}%
-     {D~J}{D.~J.}%
+     {D.~J.}{D.~J.}%
      {}{}%
      {}{}}%
     {{}%
      {Shaffrey}{S.}%
-     {L~C}{L.~C.}%
+     {L.~C.}{L.~C.}%
      {}{}%
      {}{}}%
     {{}%
      {Coker}{C.}%
-     {P~J}{P.~J.}%
+     {P.~J.}{P.~J.}%
      {}{}%
      {}{}}%
     {{}%
      {Thornton}{T.}%
-     {H~E}{H.~E.}%
+     {H.~E.}{H.~E.}%
      {}{}%
      {}{}}%
   }
@@ -1056,17 +1095,17 @@
   \name{author}{3}{}{%
     {{}%
      {Bacher}{B.}%
-     {Peder}{P.}%
+     {P.}{P.}%
      {}{}%
      {}{}}%
     {{}%
      {Madsen}{M.}%
-     {Henrik}{H.}%
+     {H.}{H.}%
      {}{}%
      {}{}}%
     {{}%
      {Nielsen}{N.}%
-     {Henrik~Aalborg}{H.~A.}%
+     {H.~A.}{H.~A.}%
      {}{}%
      {}{}}%
   }
@@ -1097,7 +1136,7 @@
   \name{author}{1}{}{%
     {{}%
      {Bofinger}{B.}%
-     {Stefan}{S.}%
+     {S.}{S.}%
      {}{}%
      {}{}}%
   }
@@ -1131,7 +1170,7 @@
   \name{author}{1}{}{%
     {{}%
      {Boucher}{B.}%
-     {Olivier}{O.}%
+     {O.}{O.}%
      {}{}%
      {}{}}%
   }
@@ -1160,32 +1199,32 @@
   \name{author}{6}{}{%
     {{}%
      {Bryce}{B.}%
-     {Richard}{R.}%
+     {R.}{R.}%
      {}{}%
      {}{}}%
     {{}%
      {{Losada Carre{\~{n}}o}}{L.}%
-     {Ignacio}{I.}%
+     {I.}{I.}%
      {}{}%
      {}{}}%
     {{}%
      {Kumler}{K.}%
-     {Andrew}{A.}%
+     {A.}{A.}%
      {}{}%
      {}{}}%
     {{}%
      {Hodge}{H.}%
-     {Bri-Mathias}{B.-M.}%
+     {B.~M.}{B.~M.}%
      {}{}%
      {}{}}%
     {{}%
      {Roberts}{R.}%
-     {Billy}{B.}%
+     {B.}{B.}%
      {}{}%
      {}{}}%
     {{}%
      {{Brancucci Martinez-Anido}}{B.}%
-     {Carlo}{C.}%
+     {C.}{C.}%
      {}{}%
      {}{}}%
   }
@@ -1233,8 +1272,7 @@
   solar resource: A case study of photovoltaic power among the Hawaiian
   Islands}}
   \verb{url}
-  \verb https://www.sciencedirect.com/science/article/pii/S0038092X18303414 htt
-  \verb ps://linkinghub.elsevier.com/retrieve/pii/S0038092X18303414
+  \verb https://www.sciencedirect.com/science/article/pii/S0038092X18303414
   \endverb
   \field{volume}{167}
   \field{journaltitle}{Solar Energy}
@@ -1246,12 +1284,12 @@
   \name{author}{2}{}{%
     {{}%
      {Bett}{B.}%
-     {Philip~E.}{P.~E.}%
+     {P.~E.}{P.~E.}%
      {}{}%
      {}{}}%
     {{}%
      {Thornton}{T.}%
-     {Hazel~E.}{H.~E.}%
+     {H.~E.}{H.~E.}%
      {}{}%
      {}{}}%
   }
@@ -1291,8 +1329,7 @@
   \field{title}{{The climatological relationships between wind and solar energy
   supply in Britain}}
   \verb{url}
-  \verb https://www.sciencedirect.com/science/article/pii/S0960148115303591 htt
-  \verb ps://linkinghub.elsevier.com/retrieve/pii/S0960148115303591
+  \verb https://www.sciencedirect.com/science/article/pii/S0960148115303591
   \endverb
   \field{volume}{87}
   \verb{file}
@@ -1326,7 +1363,7 @@
   \name{author}{6}{}{%
     {{}%
      {Cano}{C.}%
-     {Daniel}{D.}%
+     {D.}{D.}%
      {}{}%
      {}{}}%
     {{}%
@@ -1336,22 +1373,22 @@
      {}{}}%
     {{}%
      {Albuisson}{A.}%
-     {Michel}{M.}%
+     {M.}{M.}%
      {}{}%
      {}{}}%
     {{}%
      {Guillard}{G.}%
-     {Herv{\'{e}}}{H.}%
+     {H.}{H.}%
      {}{}%
      {}{}}%
     {{}%
      {Regas}{R.}%
-     {Nathalie}{N.}%
+     {N.}{N.}%
      {}{}%
      {}{}}%
     {{}%
      {Wald}{W.}%
-     {Lucien}{L.}%
+     {L.}{L.}%
      {}{}%
      {}{}}%
   }
@@ -1379,82 +1416,82 @@
   \name{author}{16}{}{%
     {{}%
      {Cavicchia}{C.}%
-     {Leone}{L.}%
+     {L.}{L.}%
      {}{}%
      {}{}}%
     {{}%
      {Scoccimarro}{S.}%
-     {Enrico}{E.}%
+     {E.}{E.}%
      {}{}%
      {}{}}%
     {{}%
      {Gualdi}{G.}%
-     {Silvio}{S.}%
+     {S.}{S.}%
      {}{}%
      {}{}}%
     {{}%
      {Marson}{M.}%
-     {Paola}{P.}%
+     {P.}{P.}%
      {}{}%
      {}{}}%
     {{}%
      {Ahrens}{A.}%
-     {Bodo}{B.}%
+     {B.}{B.}%
      {}{}%
      {}{}}%
     {{}%
      {Berthou}{B.}%
-     {S{\'{e}}gol{\`{e}}ne}{S.}%
+     {S.}{S.}%
      {}{}%
      {}{}}%
     {{}%
      {Conte}{C.}%
-     {Dario}{D.}%
+     {D.}{D.}%
      {}{}%
      {}{}}%
     {{}%
      {Dell'Aquila}{D.}%
-     {Alessandro}{A.}%
+     {A.}{A.}%
      {}{}%
      {}{}}%
     {{}%
      {Drobinski}{D.}%
-     {Philippe}{P.}%
+     {P.}{P.}%
      {}{}%
      {}{}}%
     {{}%
      {Djurdjevic}{D.}%
-     {Vladimir}{V.}%
+     {V.}{V.}%
      {}{}%
      {}{}}%
     {{}%
      {Dubois}{D.}%
-     {Clotilde}{C.}%
+     {C.}{C.}%
      {}{}%
      {}{}}%
     {{}%
      {Gallardo}{G.}%
-     {Clemente}{C.}%
+     {C.}{C.}%
      {}{}%
      {}{}}%
     {{}%
      {Li}{L.}%
-     {Laurent}{L.}%
+     {L.}{L.}%
      {}{}%
      {}{}}%
     {{}%
      {Oddo}{O.}%
-     {Paolo}{P.}%
+     {P.}{P.}%
      {}{}%
      {}{}}%
     {{}%
      {Sanna}{S.}%
-     {Antonella}{A.}%
+     {A.}{A.}%
      {}{}%
      {}{}}%
     {{}%
      {Torma}{T.}%
-     {Csaba}{C.}%
+     {C.}{C.}%
      {}{}%
      {}{}}%
   }
@@ -1489,8 +1526,7 @@
   \field{title}{{Mediterranean extreme precipitation: a multi-model
   assessment}}
   \verb{url}
-  \verb https://doi.org/10.1007/s00382-016-3245-x http://link.springer.com/10.1
-  \verb 007/s00382-016-3245-x
+  \verb https://doi.org/10.1007/s00382-016-3245-x
   \endverb
   \field{volume}{51}
   \field{journaltitle}{Climate Dynamics}
@@ -1556,22 +1592,22 @@
   \name{author}{4}{}{%
     {{}%
      {Colin}{C.}%
-     {Jeanne}{J.}%
+     {J.}{J.}%
      {}{}%
      {}{}}%
     {{}%
      {D{\'{e}}qu{\'{e}}}{D.}%
-     {Michel}{M.}%
+     {M.}{M.}%
      {}{}%
      {}{}}%
     {{}%
      {Radu}{R.}%
-     {Raluca}{R.}%
+     {R.}{R.}%
      {}{}%
      {}{}}%
     {{}%
      {Somot}{S.}%
-     {Samuel}{S.}%
+     {S.}{S.}%
      {}{}%
      {}{}}%
   }
@@ -1616,7 +1652,7 @@
   \name{author}{1}{}{%
     {{}%
      {Commoner}{C.}%
-     {Barry}{B.}%
+     {B.}{B.}%
      {}{}%
      {}{}}%
   }
@@ -1693,8 +1729,7 @@
   \field{title}{{Master optimization process based on neural networks ensemble
   for 24-h solar irradiance forecast}}
   \verb{url}
-  \verb https://www.sciencedirect.com/science/article/pii/S0038092X14005234 htt
-  \verb ps://linkinghub.elsevier.com/retrieve/pii/S0038092X14005234
+  \verb https://www.sciencedirect.com/science/article/pii/S0038092X14005234
   \endverb
   \field{volume}{111}
   \field{journaltitle}{Solar Energy}
@@ -1706,12 +1741,12 @@
   \name{author}{2}{}{%
     {{}%
      {Collares-Pereira}{C.-P.}%
-     {Manuel}{M.}%
+     {M.}{M.}%
      {}{}%
      {}{}}%
     {{}%
      {Rabl}{R.}%
-     {Ari}{A.}%
+     {A.}{A.}%
      {}{}%
      {}{}}%
   }
@@ -1769,22 +1804,22 @@
   \name{author}{4}{}{%
     {{}%
      {Crook}{C.}%
-     {Julia~A.}{J.~A.}%
+     {J.~A.}{J.~A.}%
      {}{}%
      {}{}}%
     {{}%
      {Jones}{J.}%
-     {Laura~A.}{L.~A.}%
+     {.L.~A.}{L.~A.}%
      {}{}%
      {}{}}%
     {{}%
      {Forster}{F.}%
-     {Piers~M.}{P.~M.}%
+     {P.~M.}{P.~M.}%
      {}{}%
      {}{}}%
     {{}%
      {Crook}{C.}%
-     {Rolf}{R.}%
+     {R.}{R.}%
      {}{}%
      {}{}}%
   }
@@ -1901,22 +1936,22 @@
   \name{author}{3}{}{%
     {{}%
      {Cebecauer}{C.}%
-     {Tom{\'{a}}{\v{s}}}{T.}%
+     {T.}{T.}%
      {}{}%
      {}{}}%
     {{}%
      {Suri}{S.}%
-     {Marcel}{M.}%
+     {M.}{M.}%
      {}{}%
      {}{}}%
     {{}%
      {Gueymard}{G.}%
-     {C}{C}%
+     {C.~A.}{C.~A.}%
      {}{}%
      {}{}}%
   }
-  \strng{namehash}{CTSMGC1}
-  \strng{fullhash}{CTSMGC1}
+  \strng{namehash}{CTSMGCA1}
+  \strng{fullhash}{CTSMGCA1}
   \field{labelalpha}{CSG11}
   \field{sortinit}{C}
   \field{booktitle}{Proceedings of the SolarPACES Conference, Granada, Spain}
@@ -1930,12 +1965,12 @@
   \name{author}{2}{}{%
     {{}%
      {Chiacchio}{C.}%
-     {Marc}{M.}%
+     {M.}{M.}%
      {}{}%
      {}{}}%
     {{}%
      {Vitolo}{V.}%
-     {Renato}{R.}%
+     {R.}{R.}%
      {}{}%
      {}{}}%
   }
@@ -1967,12 +2002,12 @@
   \name{author}{2}{}{%
     {{}%
      {Chiacchio}{C.}%
-     {Marc}{M.}%
+     {M.}{M.}%
      {}{}%
      {}{}}%
     {{}%
      {Wild}{W.}%
-     {Martin}{M.}%
+     {M.}{M.}%
      {}{}%
      {}{}}%
   }
@@ -2029,27 +2064,27 @@
   \name{author}{5}{}{%
     {{}%
      {Damm}{D.}%
-     {Andrea}{A.}%
+     {A.}{A.}%
      {}{}%
      {}{}}%
     {{}%
      {K{\"{o}}berl}{K.}%
-     {Judith}{J.}%
+     {J.}{J.}%
      {}{}%
      {}{}}%
     {{}%
      {Prettenthaler}{P.}%
-     {Franz}{F.}%
+     {F.}{F.}%
      {}{}%
      {}{}}%
     {{}%
      {Rogler}{R.}%
-     {Nikola}{N.}%
+     {N.}{N.}%
      {}{}%
      {}{}}%
     {{}%
      {T{\"{o}}glhofer}{T.}%
-     {Christoph}{C.}%
+     {C.}{C.}%
      {}{}%
      {}{}}%
   }
@@ -2091,8 +2126,7 @@
   \field{title}{{Impacts of +2 °C global warming on electricity demand in
   Europe}}
   \verb{url}
-  \verb https://www.sciencedirect.com/science/article/pii/S2405880716300012 htt
-  \verb ps://linkinghub.elsevier.com/retrieve/pii/S2405880716300012
+  \verb https://www.sciencedirect.com/science/article/pii/S2405880716300012
   \endverb
   \field{volume}{7}
   \verb{file}
@@ -2109,12 +2143,12 @@
   \name{author}{2}{}{%
     {{}%
      {Davies}{D.}%
-     {David~L}{D.~L.}%
+     {D.~L.}{D.~L.}%
      {}{}%
      {}{}}%
     {{}%
      {Bouldin}{B.}%
-     {Donald~W}{D.~W.}%
+     {D.~W.}{D.~W.}%
      {}{}%
      {}{}}%
   }
@@ -2146,17 +2180,17 @@
   \name{author}{3}{}{%
     {{}%
      {Denault}{D.}%
-     {Michel}{M.}%
+     {M.}{M.}%
      {}{}%
      {}{}}%
     {{}%
      {Dupuis}{D.}%
-     {Debbie}{D.}%
+     {D.}{D.}%
      {}{}%
      {}{}}%
     {{}%
      {Couture-Cardinal}{C.-C.}%
-     {S{\'{e}}bastien}{S.}%
+     {S.}{S.}%
      {}{}%
      {}{}}%
   }
@@ -2206,57 +2240,57 @@
   \name{author}{10}{}{%
     {{}%
      {Dell'Aquila}{D.}%
-     {Alessandro}{A.}%
+     {A.}{A.}%
      {}{}%
      {}{}}%
     {{}%
      {Mariotti}{M.}%
-     {Annarita}{A.}%
+     {A.}{A.}%
      {}{}%
      {}{}}%
     {{}%
      {Bastin}{B.}%
-     {Sophie}{S.}%
+     {S.}{S.}%
      {}{}%
      {}{}}%
     {{}%
      {Calmanti}{C.}%
-     {Sandro}{S.}%
+     {S.}{S.}%
      {}{}%
      {}{}}%
     {{}%
      {Cavicchia}{C.}%
-     {Leone}{L.}%
+     {L.}{L.}%
      {}{}%
      {}{}}%
     {{}%
      {Deque}{D.}%
-     {Michel}{M.}%
+     {M.}{M.}%
      {}{}%
      {}{}}%
     {{}%
      {Djurdjevic}{D.}%
-     {Vladimir}{V.}%
+     {V.}{V.}%
      {}{}%
      {}{}}%
     {{}%
      {Dominguez}{D.}%
-     {Marta}{M.}%
+     {M.}{M.}%
      {}{}%
      {}{}}%
     {{}%
      {Gaertner}{G.}%
-     {Miguel}{M.}%
+     {M.~{\'{A}}}{M.~{\'{A}}}%
      {}{}%
      {}{}}%
     {{}%
      {Gualdi}{G.}%
-     {Silvio}{S.}%
+     {S.}{S.}%
      {}{}%
      {}{}}%
   }
   \strng{namehash}{DA+2}
-  \strng{fullhash}{DAMABSCSCLDMDVDMGMGS1}
+  \strng{fullhash}{DAMABSCSCLDMDVDMGMAGS1}
   \field{labelalpha}{Del+18}
   \field{sortinit}{D}
   \field{abstract}{%
@@ -2298,8 +2332,7 @@
   \field{title}{{Evaluation of simulated decadal variations over the
   Euro-Mediterranean region from ENSEMBLES to Med-CORDEX}}
   \verb{url}
-  \verb https://doi.org/10.1007/s00382-016-3143-2 http://link.springer.com/10.1
-  \verb 007/s00382-016-3143-2
+  \verb https://doi.org/10.1007/s00382-016-3143-2
   \endverb
   \field{volume}{51}
   \field{journaltitle}{Climate Dynamics}
@@ -2311,7 +2344,7 @@
   \name{author}{2}{}{%
     {{}%
      {Ding}{D.}%
-     {Chris}{C.}%
+     {C.}{C.}%
      {}{}%
      {}{}}%
     {{}%
@@ -2376,27 +2409,27 @@
   \name{author}{5}{}{%
     {{}%
      {Diagne}{D.}%
-     {Maimouna}{M.}%
+     {M.}{M.}%
      {}{}%
      {}{}}%
     {{}%
      {David}{D.}%
-     {Mathieu}{M.}%
+     {M.}{M.}%
      {}{}%
      {}{}}%
     {{}%
      {Lauret}{L.}%
-     {Philippe}{P.}%
+     {P.}{P.}%
      {}{}%
      {}{}}%
     {{}%
      {Boland}{B.}%
-     {John}{J.}%
+     {J.}{J.}%
      {}{}%
      {}{}}%
     {{}%
      {Schmutz}{S.}%
-     {Nicolas}{N.}%
+     {N.}{N.}%
      {}{}%
      {}{}}%
   }
@@ -2430,8 +2463,7 @@
   \field{title}{{Review of solar irradiance forecasting methods and a
   proposition for small-scale insular grids}}
   \verb{url}
-  \verb https://www.sciencedirect.com/science/article/pii/S1364032113004334 htt
-  \verb ps://linkinghub.elsevier.com/retrieve/pii/S1364032113004334
+  \verb https://www.sciencedirect.com/science/article/pii/S1364032113004334
   \endverb
   \field{volume}{27}
   \field{journaltitle}{Renewable and Sustainable Energy Reviews}
@@ -2442,22 +2474,22 @@
 \entry{Diabate1987}{article}{}
   \name{author}{4}{}{%
     {{}%
-     {DIABAT{\'{E}}}{D.}%
+     {Diabat{\'{e}}}{D.}%
      {L.}{L.}%
      {}{}%
      {}{}}%
     {{}%
-     {DEMARCQ}{D.}%
+     {Ddemarcq}{D.}%
      {H.}{H.}%
      {}{}%
      {}{}}%
     {{}%
-     {MICHAUD-REGAS}{M.-R.}%
+     {Michaud-Regas}{M.-R.}%
      {N.}{N.}%
      {}{}%
      {}{}}%
     {{}%
-     {WALD}{W.}%
+     {Wald}{W.}%
      {L.}{L.}%
      {}{}%
      {}{}}%
@@ -2467,7 +2499,7 @@
   }
   \strng{namehash}{DL+1}
   \strng{fullhash}{DLDHMRNWL1}
-  \field{labelalpha}{DIA+87}
+  \field{labelalpha}{Dia+87}
   \field{sortinit}{D}
   \verb{doi}
   \verb 10.1080/01425918708914425
@@ -2490,27 +2522,27 @@
   \name{author}{4}{}{%
     {{}%
      {Dickinson}{D.}%
-     {RobertE.}{R.}%
+     {R.~E.}{R.~E.}%
      {}{}%
      {}{}}%
     {{}%
      {Errico}{E.}%
-     {RonaldM.}{R.}%
+     {R.~M.}{R.~M.}%
      {}{}%
      {}{}}%
     {{}%
      {Giorgi}{G.}%
-     {Filippo}{F.}%
+     {F.}{F.}%
      {}{}%
      {}{}}%
     {{}%
      {Bates}{B.}%
-     {GaryT.}{G.}%
+     {G.~T.}{G.~T.}%
      {}{}%
      {}{}}%
   }
-  \strng{namehash}{DR+1}
-  \strng{fullhash}{DRERGFBG1}
+  \strng{namehash}{DRE+1}
+  \strng{fullhash}{DREERMGFBGT1}
   \field{labelalpha}{Dic+89}
   \field{sortinit}{D}
   \field{abstract}{%
@@ -2539,8 +2571,7 @@
   \field{pages}{383\bibrangedash 422}
   \field{title}{{A regional climate model for the western United States}}
   \verb{url}
-  \verb https://doi.org/10.1007/BF00240465 http://link.springer.com/10.1007/BF0
-  \verb 0240465
+  \verb https://doi.org/10.1007/BF00240465
   \endverb
   \field{volume}{15}
   \field{journaltitle}{Climatic Change}
@@ -2552,12 +2583,12 @@
   \name{author}{2}{}{%
     {{}%
      {Dumortier}{D.}%
-     {D}{D}%
+     {D.}{D.}%
      {}{}%
      {}{}}%
     {{}%
      {Koga}{K.}%
-     {Y}{Y}%
+     {Y.}{Y.}%
      {}{}%
      {}{}}%
   }
@@ -2581,15 +2612,15 @@
   \name{author}{1}{}{%
     {{}%
      {Dore}{D.}%
-     {Mohammed~H.I.}{M.~H.}%
+     {M.~H.~I.}{M.~H.~I.}%
      {}{}%
      {}{}}%
   }
   \list{publisher}{1}{%
     {Pergamon}%
   }
-  \strng{namehash}{DMH1}
-  \strng{fullhash}{DMH1}
+  \strng{namehash}{DMHI1}
+  \strng{fullhash}{DMHI1}
   \field{labelalpha}{Dor05}
   \field{sortinit}{D}
   \field{abstract}{%
@@ -2622,8 +2653,7 @@
   \field{title}{{Climate change and changes in global precipitation patterns:
   What do we know?}}
   \verb{url}
-  \verb https://www.sciencedirect.com/science/article/pii/S0160412005000553 htt
-  \verb ps://linkinghub.elsevier.com/retrieve/pii/S0160412005000553
+  \verb https://www.sciencedirect.com/science/article/pii/S0160412005000553
   \endverb
   \field{volume}{31}
   \verb{file}
@@ -2640,32 +2670,32 @@
   \name{author}{18}{}{%
     {{}%
      {Drobinski}{D.}%
-     {Philippe}{P.}%
+     {P.}{P.}%
      {}{}%
      {}{}}%
     {{}%
      {Silva}{S.}%
-     {Nicolas~Da}{N.~D.}%
+     {N.~D.}{N.~D.}%
      {}{}%
      {}{}}%
     {{}%
      {Panthou}{P.}%
-     {G{\'{e}}r{\'{e}}my}{G.}%
+     {G.}{G.}%
      {}{}%
      {}{}}%
     {{}%
      {Bastin}{B.}%
-     {Sophie}{S.}%
+     {S.}{S.}%
      {}{}%
      {}{}}%
     {{}%
      {Muller}{M.}%
-     {Caroline}{C.}%
+     {C.}{C.}%
      {}{}%
      {}{}}%
     {{}%
      {Ahrens}{A.}%
-     {Bodo}{B.}%
+     {B.}{B.}%
      {}{}%
      {}{}}%
     {{}%
@@ -2755,17 +2785,17 @@
   \name{author}{3}{}{%
     {{}%
      {Dubey}{D.}%
-     {Swapnil}{S.}%
+     {S.}{S.}%
      {}{}%
      {}{}}%
     {{}%
      {Sarvaiya}{S.}%
-     {Jatin~Narotam}{J.~N.}%
+     {J.~N.}{J.~N.}%
      {}{}%
      {}{}}%
     {{}%
      {Seshadri}{S.}%
-     {Bharath}{B.}%
+     {B.}{B.}%
      {}{}%
      {}{}}%
   }
@@ -2820,12 +2850,12 @@
   \name{author}{2}{}{%
     {{}%
      {Davy}{D.}%
-     {Robert~J.}{R.~J.}%
+     {R.~J.}{R.~J.}%
      {}{}%
      {}{}}%
     {{}%
      {Troccoli}{T.}%
-     {Alberto}{A.}%
+     {A.}{A.}%
      {}{}%
      {}{}}%
   }
@@ -2869,8 +2899,7 @@
   \field{title}{{Interannual variability of solar energy generation in
   Australia}}
   \verb{url}
-  \verb https://www.sciencedirect.com/science/article/pii/S0038092X11004336 htt
-  \verb ps://linkinghub.elsevier.com/retrieve/pii/S0038092X11004336
+  \verb https://www.sciencedirect.com/science/article/pii/S0038092X11004336
   \endverb
   \field{volume}{86}
   \verb{file}
@@ -2883,11 +2912,83 @@
   \warn{\item Invalid format of field 'month'}
 \endentry
 
+\entry{Dutton2006}{article}{}
+  \name{author}{7}{}{%
+    {{}%
+     {Dutton}{D.}%
+     {E.~G.}{E.~G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Nelson}{N.}%
+     {D.~W.}{D.~W.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Stone}{S.}%
+     {R.~S.}{R.~S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Longenecker}{L.}%
+     {D.}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Carbaugh}{C.}%
+     {G.}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Harris}{H.}%
+     {J.~M.}{J.~M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Wendell}{W.}%
+     {J.}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{DEG+1}
+  \strng{fullhash}{DEGNDWSRSLDCGHJMWJ1}
+  \field{labelalpha}{Dut+06}
+  \field{sortinit}{D}
+  \field{abstract}{%
+  Twenty-eight years (1977–2004) of surface solar irradiance observations at
+  five remote climate observatories are analyzed for long-term temporal
+  variations and spatial representativeness. Autocorrelated temporal variations
+  are suggested in the annual mean irradiance records at some of the sites and
+  in normalized anomaly records for various combinations of the surface sites.
+  These variations are illustrated by first-, second-, and third-degree
+  polynomials as well as by a sinusoidal fit, all of which are used as data
+  smoothers not necessarily representative of any related physical processes,
+  although some fits yield statistically significant coefficients. In general,
+  there is an indication of a decreasing tendency in the early portion of the
+  records and then an increasing tendency until toward the very end of the
+  record. Variations among field sites are seen, with the one Arctic site
+  showing the most departure from the others, with primarily a downward trend
+  for most of the record. The spatial representativeness of each site's annual
+  mean record is investigated using spatial cross correlation with
+  satellite-derived global estimates of the surface solar irradiance. These
+  cross correlations show significant correlations with relatively large areas
+  both contiguous and noncontiguous with the sites.%
+  }
+  \verb{doi}
+  \verb 10.1029/2005JD006901
+  \endverb
+  \field{issn}{01480227}
+  \field{title}{{Decadal variations in surface solar irradiance as observed in
+  a globally remote network}}
+  \field{journaltitle}{Journal of Geophysical Research Atmospheres}
+  \field{year}{2006}
+\endentry
+
 \entry{Edwards2011}{article}{}
   \name{author}{1}{}{%
     {{}%
      {Edwards}{E.}%
-     {Paul~N}{P.~N.}%
+     {P.~N.}{P.~N.}%
      {}{}%
      {}{}}%
   }
@@ -2918,8 +3019,7 @@
   \field{pages}{128\bibrangedash 139}
   \field{title}{{History of climate modeling}}
   \verb{url}
-  \verb https://onlinelibrary.wiley.com/doi/abs/10.1002/wcc.95 http://doi.wiley
-  \verb .com/10.1002/wcc.95
+  \verb https://onlinelibrary.wiley.com/doi/abs/10.1002/wcc.95
   \endverb
   \field{volume}{2}
   \field{journaltitle}{Wiley Interdisciplinary Reviews: Climate Change}
@@ -2958,8 +3058,7 @@
   \field{pages}{309\bibrangedash 315}
   \field{title}{{Theoretical temperature dependence of solar cell parameters}}
   \verb{url}
-  \verb https://www.sciencedirect.com/science/article/pii/0379678786900207 http
-  \verb ://linkinghub.elsevier.com/retrieve/pii/0379678786900207
+  \verb https://www.sciencedirect.com/science/article/pii/0379678786900207
   \endverb
   \field{volume}{17}
   \field{journaltitle}{Solar Cells}
@@ -2971,67 +3070,67 @@
   \name{author}{13}{}{%
     {{}%
      {Flaounas}{F.}%
-     {Emmanouil}{E.}%
+     {E.}{E.}%
      {}{}%
      {}{}}%
     {{}%
      {Kelemen}{K.}%
-     {Fanni~Dora}{F.~D.}%
+     {F.~D.}{F.~D.}%
      {}{}%
      {}{}}%
     {{}%
      {Wernli}{W.}%
-     {Heini}{H.}%
+     {H.}{H.}%
      {}{}%
      {}{}}%
     {{}%
      {Gaertner}{G.}%
-     {Miguel~Angel}{M.~A.}%
+     {M.~A.}{M.~A.}%
      {}{}%
      {}{}}%
     {{}%
      {Reale}{R.}%
-     {Marco}{M.}%
+     {M.}{M.}%
      {}{}%
      {}{}}%
     {{}%
      {Sanchez-Gomez}{S.-G.}%
-     {Emilia}{E.}%
+     {E.}{E.}%
      {}{}%
      {}{}}%
     {{}%
      {Lionello}{L.}%
-     {Piero}{P.}%
+     {P.}{P.}%
      {}{}%
      {}{}}%
     {{}%
      {Calmanti}{C.}%
-     {Sandro}{S.}%
+     {S.}{S.}%
      {}{}%
      {}{}}%
     {{}%
      {Podrascanin}{P.}%
-     {Zorica}{Z.}%
+     {Z.}{Z.}%
      {}{}%
      {}{}}%
     {{}%
      {Somot}{S.}%
-     {Samuel}{S.}%
+     {S.}{S.}%
      {}{}%
      {}{}}%
     {{}%
      {Akhtar}{A.}%
-     {Naveed}{N.}%
+     {N.}{N.}%
      {}{}%
      {}{}}%
     {{}%
      {Romera}{R.}%
-     {Raquel}{R.}%
+     {R.}{R.}%
      {}{}%
      {}{}}%
     {{}%
      {Conte}{C.}%
-     {Dario}{D.}%
+     {D.}{D.}%
      {}{}%
      {}{}}%
   }
@@ -3070,8 +3169,7 @@
   uncoupled regional climate models to reproduce the climatology of
   Mediterranean cyclones}}
   \verb{url}
-  \verb https://doi.org/10.1007/s00382-016-3398-7 http://link.springer.com/10.1
-  \verb 007/s00382-016-3398-7
+  \verb https://doi.org/10.1007/s00382-016-3398-7
   \endverb
   \field{volume}{51}
   \field{journaltitle}{Climate Dynamics}
@@ -3159,12 +3257,12 @@
   \name{author}{2}{}{%
     {{}%
      {Fischer}{F.}%
-     {Erich~M}{E.~M.}%
+     {E.~M.}{E.~M.}%
      {}{}%
      {}{}}%
     {{}%
      {Sch{\"{a}}r}{S.}%
-     {Christoph}{C.}%
+     {C.}{C.}%
      {}{}%
      {}{}}%
   }
@@ -3276,8 +3374,7 @@
   extreme dust and wildfire episode on the performance of a photovoltaic plant
   in Western Mediterranean}}
   \verb{url}
-  \verb https://www.sciencedirect.com/science/article/pii/S0306261918317586 htt
-  \verb ps://linkinghub.elsevier.com/retrieve/pii/S0306261918317586
+  \verb https://www.sciencedirect.com/science/article/pii/S0306261918317586
   \endverb
   \field{volume}{235}
   \field{journaltitle}{Applied Energy}
@@ -3289,32 +3386,32 @@
   \name{author}{6}{}{%
     {{}%
      {Gaetani}{G.}%
-     {Marco}{M.}%
+     {M.}{M.}%
      {}{}%
      {}{}}%
     {{}%
      {Huld}{H.}%
-     {Thomas}{T.}%
+     {T.}{T.}%
      {}{}%
      {}{}}%
     {{}%
      {Vignati}{V.}%
-     {Elisabetta}{E.}%
+     {E.}{E.}%
      {}{}%
      {}{}}%
     {{}%
      {Monforti-Ferrario}{M.-F.}%
-     {Fabio}{F.}%
+     {F.}{F.}%
      {}{}%
      {}{}}%
     {{}%
      {Dosio}{D.}%
-     {Alessandro}{A.}%
+     {A.}{A.}%
      {}{}%
      {}{}}%
     {{}%
      {Raes}{R.}%
-     {Frank}{F.}%
+     {F.}{F.}%
      {}{}%
      {}{}}%
   }
@@ -3358,8 +3455,7 @@
   \field{title}{{The near future availability of photovoltaic energy in Europe
   and Africa in climate-aerosol modeling experiments}}
   \verb{url}
-  \verb https://www.sciencedirect.com/science/article/pii/S1364032114004936 htt
-  \verb ps://linkinghub.elsevier.com/retrieve/pii/S1364032114004936
+  \verb https://www.sciencedirect.com/science/article/pii/S1364032114004936
   \endverb
   \field{volume}{38}
   \field{journaltitle}{Renewable and Sustainable Energy Reviews}
@@ -3371,22 +3467,22 @@
   \name{author}{4}{}{%
     {{}%
      {Gaetani}{G.}%
-     {Marco}{M.}%
+     {M.}{M.}%
      {}{}%
      {}{}}%
     {{}%
      {Vignati}{V.}%
-     {Elisabetta}{E.}%
+     {E.}{E.}%
      {}{}%
      {}{}}%
     {{}%
      {Huld}{H.}%
-     {Thomas}{T.}%
+     {T.}{T.}%
      {}{}%
      {}{}}%
     {{}%
      {Dosio}{D.}%
-     {Alessandro}{A.}%
+     {A.}{A.}%
      {}{}%
      {}{}}%
   }
@@ -3407,32 +3503,32 @@
   \name{author}{19}{}{%
     {{}%
      {Gaertner}{G.}%
-     {Miguel~{\'{A}}ngel}{M.~{\'{A}}.}%
+     {M.~{\'{A}}.}{M.~{\'{A}}.}%
      {}{}%
      {}{}}%
     {{}%
      {Gonz{\'{a}}lez-Alem{\'{a}}n}{G.-A.}%
-     {Juan~Jes{\'{u}}s}{J.~J.}%
+     {J.~J.}{J.~J.}%
      {}{}%
      {}{}}%
     {{}%
      {Romera}{R.}%
-     {Raquel}{R.}%
+     {R.}{R.}%
      {}{}%
      {}{}}%
     {{}%
      {Dom{\'{i}}nguez}{D.}%
-     {Marta}{M.}%
+     {M.}{M.}%
      {}{}%
      {}{}}%
     {{}%
      {Gil}{G.}%
-     {Victoria}{V.}%
+     {V.}{V.}%
      {}{}%
      {}{}}%
     {{}%
      {S{\'{a}}nchez}{S.}%
-     {Enrique}{E.}%
+     {E.}{E.}%
      {}{}%
      {}{}}%
     {{}%
@@ -3557,8 +3653,7 @@
   regional climate model ensemble: impact of ocean–atmosphere coupling and
   increased resolution}}
   \verb{url}
-  \verb https://doi.org/10.1007/s00382-016-3456-1 http://link.springer.com/10.1
-  \verb 007/s00382-016-3456-1
+  \verb https://doi.org/10.1007/s00382-016-3456-1
   \endverb
   \field{volume}{51}
   \field{journaltitle}{Climate Dynamics}
@@ -3570,32 +3665,32 @@
   \name{author}{7}{}{%
     {{}%
      {Gil}{G.}%
-     {Victoria}{V.}%
+     {V.}{V.}%
      {}{}%
      {}{}}%
     {{}%
      {Gaertner}{G.}%
-     {Miguel~A.}{M.~A.}%
+     {M.~A.}{M.~A.}%
      {}{}%
      {}{}}%
     {{}%
      {Sanchez}{S.}%
-     {Enrique}{E.}%
+     {E.}{E.}%
      {}{}%
      {}{}}%
     {{}%
      {Gallardo}{G.}%
-     {Clemente}{C.}%
+     {C.}{C.}%
      {}{}%
      {}{}}%
     {{}%
      {Hagel}{H.}%
-     {Edit}{E.}%
+     {E.}{E.}%
      {}{}%
      {}{}}%
     {{}%
      {Tejeda}{T.}%
-     {Cesar}{C.}%
+     {C.}{C.}%
      {}{}%
      {}{}}%
     {{}%
@@ -3641,8 +3736,7 @@
   precipitation over Peninsular Spain}}
   \verb{url}
   \verb http://www.scopus.com/inward/record.url?eid=2-s2.0-84930226656{\&}partn
-  \verb erID=tZOtx3y1 https://linkinghub.elsevier.com/retrieve/pii/S09601481150
-  \verb 03626
+  \verb erID=tZOtx3y1
   \endverb
   \field{volume}{83}
   \field{journaltitle}{Renewable Energy}
@@ -3654,22 +3748,22 @@
   \name{author}{4}{}{%
     {{}%
      {Gil}{G.}%
-     {Victoria}{V.}%
+     {V.}{V.}%
      {}{}%
      {}{}}%
     {{}%
      {Gaertner}{G.}%
-     {Miguel~Angel}{M.~A.}%
+     {M.~{\'{A}}.}{M.~{\'{A}}.}%
      {}{}%
      {}{}}%
     {{}%
      {Gutierrez}{G.}%
-     {Claudia}{C.}%
+     {C.}{C.}%
      {}{}%
      {}{}}%
     {{}%
      {Losada}{L.}%
-     {Teresa}{T.}%
+     {T.}{T.}%
      {}{}%
      {}{}}%
   }
@@ -3717,8 +3811,7 @@
   \field{title}{{Impact of climate change on solar irradiation and variability
   over the Iberian Peninsula using regional climate models}}
   \verb{url}
-  \verb https://rmets.onlinelibrary.wiley.com/doi/abs/10.1002/joc.5916 https://
-  \verb onlinelibrary.wiley.com/doi/abs/10.1002/joc.5916
+  \verb https://rmets.onlinelibrary.wiley.com/doi/abs/10.1002/joc.5916
   \endverb
   \field{volume}{0}
   \field{journaltitle}{International Journal of Climatology}
@@ -3730,15 +3823,15 @@
   \name{author}{1}{}{%
     {{}%
      {Giorgi}{G.}%
-     {Filippo}{F.}%
+     {F.}{F.}%
      {}{}%
      {}{}}%
   }
   \list{publisher}{1}{%
     {Wiley Online Library}%
   }
-  \strng{namehash}{GF2}
-  \strng{fullhash}{GF2}
+  \strng{namehash}{GF1}
+  \strng{fullhash}{GF1}
   \field{labelalpha}{Gio02}
   \field{sortinit}{G}
   \verb{doi}
@@ -3805,12 +3898,12 @@
   \name{author}{1}{}{%
     {{}%
      {Giorgi}{G.}%
-     {Filippo}{F.}%
+     {F.}{F.}%
      {}{}%
      {}{}}%
   }
-  \strng{namehash}{GF2}
-  \strng{fullhash}{GF2}
+  \strng{namehash}{GF1}
+  \strng{fullhash}{GF1}
   \field{labelalpha}{Gio90}
   \field{sortinit}{G}
   \field{abstract}{%
@@ -3854,11 +3947,6 @@
   \field{pages}{941\bibrangedash 963}
   \field{title}{{Simulation of Regional Climate Using a Limited Area Model
   Nested in a General Circulation Model}}
-  \verb{url}
-  \verb https://doi.org/10.1175/1520-0442(1990)003{\%}3C0941:SORCUA{\%}3E2.0.CO
-  \verb ;2 http://journals.ametsoc.org/doi/abs/10.1175/1520-0442{\%}281990{\%}2
-  \verb 9003{\%}3C0941{\%}3ASORCUA{\%}3E2.0.CO{\%}3B2
-  \endverb
   \field{volume}{3}
   \field{journaltitle}{Journal of Climate}
   \field{year}{1990}
@@ -3869,12 +3957,12 @@
   \name{author}{2}{}{%
     {{}%
      {Giorgi}{G.}%
-     {Filippo}{F.}%
+     {F.}{F.}%
      {}{}%
      {}{}}%
     {{}%
      {Lionello}{L.}%
-     {Piero}{P.}%
+     {P.}{P.}%
      {}{}%
      {}{}}%
   }
@@ -3917,8 +4005,7 @@
   \field{pages}{90\bibrangedash 104}
   \field{title}{{Climate change projections for the Mediterranean region}}
   \verb{url}
-  \verb https://www.sciencedirect.com/science/article/pii/S0921818107001750 htt
-  \verb ps://linkinghub.elsevier.com/retrieve/pii/S0921818107001750
+  \verb https://www.sciencedirect.com/science/article/pii/S0921818107001750
   \endverb
   \field{volume}{63}
   \field{journaltitle}{Global and Planetary Change}
@@ -3930,12 +4017,12 @@
   \name{author}{2}{}{%
     {{}%
      {Gueymard}{G.}%
-     {Christian~A}{C.~A.}%
+     {C.~A.}{C.~A.}%
      {}{}%
      {}{}}%
     {{}%
      {Myers}{M.}%
-     {Daryl~R}{D.~R.}%
+     {D.~R.}{D.~R.}%
      {}{}%
      {}{}}%
   }
@@ -3962,8 +4049,7 @@
   \field{title}{{Solar Radiation Measurement: Progress in Radiometry for
   Improved Modeling}}
   \verb{url}
-  \verb https://doi.org/10.1007/978-3-540-77455-6{\_}1 http://link.springer.com
-  \verb /10.1007/978-3-540-77455-6{\_}1
+  \verb https://doi.org/10.1007/978-3-540-77455-6_1
   \endverb
   \list{location}{1}{%
     {Berlin, Heidelberg}%
@@ -3980,12 +4066,12 @@
      {}{}}%
     {{}%
      {Pal}{P.}%
-     {Jeremy~S}{J.~S.}%
+     {J.~S.}{J.~S.}%
      {}{}%
      {}{}}%
     {{}%
      {Giorgi}{G.}%
-     {Filippo}{F.}%
+     {F.}{F.}%
      {}{}%
      {}{}}%
   }
@@ -4018,8 +4104,7 @@
   \field{title}{{Projected changes in mean and extreme precipitation over the
   Mediterranean region from a high resolution double nested RCM simulation}}
   \verb{url}
-  \verb https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2005GL024954 ht
-  \verb tp://doi.wiley.com/10.1029/2005GL024954
+  \verb https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2005GL024954
   \endverb
   \field{volume}{33}
   \field{journaltitle}{Geophysical Research Letters}
@@ -4030,7 +4115,7 @@
   \name{author}{1}{}{%
     {{}%
      {Gueymard}{G.}%
-     {Christian~A.}{C.~A.}%
+     {C.~A.}{C.~A.}%
      {}{}%
      {}{}}%
   }
@@ -4094,8 +4179,7 @@
   and large-scale applications: Improved validation methodology and detailed
   performance analysis of 18 broadband radiative models}}
   \verb{url}
-  \verb http://dx.doi.org/10.1016/j.solener.2011.11.011 https://linkinghub.else
-  \verb vier.com/retrieve/pii/S0038092X11004221
+  \verb http://dx.doi.org/10.1016/j.solener.2011.11.011
   \endverb
   \field{volume}{86}
   \verb{file}
@@ -4110,15 +4194,15 @@
   \name{author}{1}{}{%
     {{}%
      {Gueymard}{G.}%
-     {Christian~A}{C.~A.}%
+     {C.~A.}{C.~A.}%
      {}{}%
      {}{}}%
   }
   \list{publisher}{1}{%
     {Elsevier}%
   }
-  \strng{namehash}{GCA2}
-  \strng{fullhash}{GCA2}
+  \strng{namehash}{GCA1}
+  \strng{fullhash}{GCA1}
   \field{labelalpha}{Gue14}
   \field{sortinit}{G}
   \verb{doi}
@@ -4142,27 +4226,27 @@
   \name{author}{5}{}{%
     {{}%
      {Guti{\'{e}}rrez}{G.}%
-     {Claudia}{C.}%
+     {C.}{C.}%
      {}{}%
      {}{}}%
     {{}%
      {Gaertner}{G.}%
-     {Miguel~{\'{A}}ngel}{M.~{\'{A}}.}%
+     {M.~{\'{A}}.}{M.~{\'{A}}.}%
      {}{}%
      {}{}}%
     {{}%
      {Perpi{\~{n}}{\'{a}}n}{P.}%
-     {Oscar}{O.}%
+     {O.}{O.}%
      {}{}%
      {}{}}%
     {{}%
      {Gallardo}{G.}%
-     {Clemente}{C.}%
+     {C.}{C.}%
      {}{}%
      {}{}}%
     {{}%
      {S{\'{a}}nchez}{S.}%
-     {Enrique}{E.}%
+     {E.}{E.}%
      {}{}%
      {}{}}%
   }
@@ -4237,32 +4321,32 @@
   \name{author}{6}{}{%
     {{}%
      {Guti{\'{e}}rrez}{G.}%
-     {Claudia}{C.}%
+     {C.}{C.}%
      {}{}%
      {}{}}%
     {{}%
      {Somot}{S.}%
-     {Samuel}{S.}%
+     {S.}{S.}%
      {}{}%
      {}{}}%
     {{}%
      {Nabat}{N.}%
-     {Pierre}{P.}%
+     {P.}{P.}%
      {}{}%
      {}{}}%
     {{}%
      {Mallet}{M.}%
-     {Marc}{M.}%
+     {M.}{M.}%
      {}{}%
      {}{}}%
     {{}%
      {Gaertner}{G.}%
-     {Miguel~{\'{A}}ngel}{M.~{\'{A}}.}%
+     {M.~{\'{A}}.}{M.~{\'{A}}.}%
      {}{}%
      {}{}}%
     {{}%
      {Perpi{\~{n}}{\'{a}}n}{P.}%
-     {Oscar}{O.}%
+     {O.}{O.}%
      {}{}%
      {}{}}%
   }
@@ -4302,8 +4386,7 @@
   \field{title}{{Impact of aerosols on the spatiotemporal variability of
   photovoltaic energy production in the Euro-Mediterranean area}}
   \verb{url}
-  \verb http://www.sciencedirect.com/science/article/pii/S0038092X18309794 http
-  \verb s://linkinghub.elsevier.com/retrieve/pii/S0038092X18309794
+  \verb http://www.sciencedirect.com/science/article/pii/S0038092X18309794
   \endverb
   \field{volume}{174}
   \field{journaltitle}{Solar Energy}
@@ -4315,32 +4398,32 @@
   \name{author}{6}{}{%
     {{}%
      {Garc{\'{i}}a-Valero}{G.-V.}%
-     {Juan~Andr{\'{e}}s}{J.~A.}%
+     {J.~A.}{J.~A.}%
      {}{}%
      {}{}}%
     {{}%
      {Montavez}{M.}%
-     {Juan~Pedro}{J.~P.}%
+     {J.~P.}{J.~P.}%
      {}{}%
      {}{}}%
     {{}%
      {Jerez}{J.}%
-     {Sonia}{S.}%
+     {S.}{S.}%
      {}{}%
      {}{}}%
     {{}%
      {G{\'{o}}mez-Navarro}{G.-N.}%
-     {Juan~Jos{\'{e}}}{J.~J.}%
+     {J.~J.}{J.~J.}%
      {}{}%
      {}{}}%
     {{}%
      {Lorente-Plazas}{L.-P.}%
-     {Raquel}{R.}%
+     {R.}{R.}%
      {}{}%
      {}{}}%
     {{}%
      {Jim{\'{e}}nez-Guerrero}{J.-G.}%
-     {Pedro}{P.}%
+     {P.}{P.}%
      {}{}%
      {}{}}%
   }
@@ -4372,12 +4455,12 @@
   \name{author}{2}{}{%
     {{}%
      {Gueymard}{G.}%
-     {Christian~A.}{C.~A.}%
+     {C.~A.}{C.~A.}%
      {}{}%
      {}{}}%
     {{}%
      {Wilcox}{W.}%
-     {Stephen~M.}{S.~M.}%
+     {S.~M.}{S.~M.}%
      {}{}%
      {}{}}%
   }
@@ -4505,32 +4588,32 @@
   \name{author}{13}{}{%
     {{}%
      {G{\'{o}}mez}{G.}%
-     {Guillermo}{G.}%
+     {G.}{G.}%
      {}{}%
      {}{}}%
     {{}%
      {Cabos}{C.}%
-     {William~David}{W.~D.}%
+     {W.~D.}{W.~D.}%
      {}{}%
      {}{}}%
     {{}%
      {Liguori}{L.}%
-     {Giovanni}{G.}%
+     {G.}{G.}%
      {}{}%
      {}{}}%
     {{}%
      {Sein}{S.}%
-     {Dmitry}{D.}%
+     {D.}{D.}%
      {}{}%
      {}{}}%
     {{}%
      {Lozano-Galeana}{L.-G.}%
-     {Sergio}{S.}%
+     {S.}{S.}%
      {}{}%
      {}{}}%
     {{}%
      {Fita}{F.}%
-     {Llu{\'{i}}s}{L.}%
+     {L.}{L.}%
      {}{}%
      {}{}}%
     {{}%
@@ -4631,52 +4714,52 @@
   \name{author}{10}{}{%
     {{}%
      {Harzallah}{H.}%
-     {Ali}{A.}%
+     {A.}{A.}%
      {}{}%
      {}{}}%
     {{}%
      {Jord{\`{a}}}{J.}%
-     {Gabriel}{G.}%
+     {G.}{G.}%
      {}{}%
      {}{}}%
     {{}%
      {Dubois}{D.}%
-     {Clotilde}{C.}%
+     {C.}{C.}%
      {}{}%
      {}{}}%
     {{}%
      {Sannino}{S.}%
-     {Gianmaria}{G.}%
+     {G.}{G.}%
      {}{}%
      {}{}}%
     {{}%
      {Carillo}{C.}%
-     {Adriana}{A.}%
+     {A.}{A.}%
      {}{}%
      {}{}}%
     {{}%
      {Li}{L.}%
-     {Laurent}{L.}%
+     {L.}{L.}%
      {}{}%
      {}{}}%
     {{}%
      {Arsouze}{A.}%
-     {Thomas}{T.}%
+     {T.}{T.}%
      {}{}%
      {}{}}%
     {{}%
      {Cavicchia}{C.}%
-     {Leone}{L.}%
+     {L.}{L.}%
      {}{}%
      {}{}}%
     {{}%
      {Beuvier}{B.}%
-     {Jonathan}{J.}%
+     {J.}{J.}%
      {}{}%
      {}{}}%
     {{}%
      {Akhtar}{A.}%
-     {Naveed}{N.}%
+     {N.}{N.}%
      {}{}%
      {}{}}%
   }
@@ -4722,8 +4805,7 @@
   \field{title}{{Long term evolution of heat budget in the Mediterranean Sea
   from Med-CORDEX forced and coupled simulations}}
   \verb{url}
-  \verb https://doi.org/10.1007/s00382-016-3363-5 http://link.springer.com/10.1
-  \verb 007/s00382-016-3363-5
+  \verb https://doi.org/10.1007/s00382-016-3363-5
   \endverb
   \field{volume}{51}
   \field{journaltitle}{Climate Dynamics}
@@ -4735,7 +4817,7 @@
   \name{author}{6}{}{%
     {{}%
      {Haylock}{H.}%
-     {M~R}{M.~R.}%
+     {M~.R.}{M.~R.}%
      {}{}%
      {}{}}%
     {{}%
@@ -4821,12 +4903,12 @@
   \name{author}{2}{}{%
     {{}%
      {Hay}{H.}%
-     {John~E}{J.~E.}%
+     {J.~E.}{J.~E.}%
      {}{}%
      {}{}}%
     {{}%
      {McKay}{M.}%
-     {Donnald~C}{D.~C.}%
+     {D.~C.}{D.~C.}%
      {}{}%
      {}{}}%
   }
@@ -4846,21 +4928,81 @@
   \field{year}{1985}
 \endentry
 
+\entry{Hirth2018}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Hirth}{H.}%
+     {L.}{L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {M{\"{u}}hlenpfordt}{M.}%
+     {J.}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bulkeley}{B.}%
+     {M.}{M.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Elsevier}%
+  }
+  \strng{namehash}{HLMJBM1}
+  \strng{fullhash}{HLMJBM1}
+  \field{labelalpha}{HMB18}
+  \field{sortinit}{H}
+  \field{abstract}{%
+  Applied power system research is data intensive, often requiring hour-by-hour
+  data on electricity consumption and generation as well as detailed
+  information about technical and cost parameters of power stations. The
+  European Union obliges firms to publish much of this information on a common
+  website, the “ENTSO-E Transparency Platform” operated by the association
+  of transmission system operators. It is possibly the most ambitious platform
+  for power system data globally. However, anecdotal evidence from users
+  indicates significant shortcomings regarding data quality and usability. This
+  paper provides an introduction to and an assessment of the Transparency
+  Platform, helping researchers to use it more efficiently and to judge data
+  quality more rigorously.%
+  }
+  \verb{doi}
+  \verb 10.1016/J.APENERGY.2018.04.048
+  \endverb
+  \field{issn}{0306-2619}
+  \field{pages}{1054\bibrangedash 1067}
+  \field{title}{{The ENTSO-E Transparency Platform – A review of Europe's
+  most ambitious electricity data platform}}
+  \verb{url}
+  \verb https://www.sciencedirect.com/science/article/pii/S0306261918306068
+  \endverb
+  \field{volume}{225}
+  \verb{file}
+  \verb :home/claudia/.local/share/data/Mendeley Ltd./Mendeley Desktop/Download
+  \verb ed/Hirth, M{\"{u}}hlenpfordt, Bulkeley - 2018 - The ENTSO-E Transparenc
+  \verb y Platform – A review of Europe's most ambitious electricity data pla
+  \verb .pdf:pdf
+  \endverb
+  \field{journaltitle}{Applied Energy}
+  \field{year}{2018}
+  \warn{\item Invalid format of field 'month'}
+\endentry
+
 \entry{Hoerling2012}{article}{}
   \name{author}{6}{}{%
     {{}%
      {Hoerling}{H.}%
-     {Martin}{M.}%
+     {M.}{M.}%
      {}{}%
      {}{}}%
     {{}%
      {Eischeid}{E.}%
-     {Jon}{J.}%
+     {J.}{J.}%
      {}{}%
      {}{}}%
     {{}%
      {Perlwitz}{P.}%
-     {Judith}{J.}%
+     {J.}{J.}%
      {}{}%
      {}{}}%
     {{}%
@@ -4875,7 +5017,7 @@
      {}{}}%
     {{}%
      {Pegion}{P.}%
-     {Philip}{P.}%
+     {P.}{P.}%
      {}{}%
      {}{}}%
   }
@@ -4917,8 +5059,7 @@
   \field{pages}{2146\bibrangedash 2161}
   \field{title}{{On the Increased Frequency of Mediterranean Drought}}
   \verb{url}
-  \verb https://doi.org/10.1175/JCLI-D-11-00296.1 http://journals.ametsoc.org/d
-  \verb oi/abs/10.1175/JCLI-D-11-00296.1
+  \verb https://doi.org/10.1175/JCLI-D-11-00296.1
   \endverb
   \field{volume}{25}
   \field{journaltitle}{Journal of Climate}
@@ -4930,22 +5071,22 @@
   \name{author}{4}{}{%
     {{}%
      {Hofstra}{H.}%
-     {Nynke}{N.}%
+     {N.}{N.}%
      {}{}%
      {}{}}%
     {{}%
      {Haylock}{H.}%
-     {Malcolm}{M.}%
+     {M.}{M.}%
      {}{}%
      {}{}}%
     {{}%
      {New}{N.}%
-     {Mark}{M.}%
+     {M.}{M.}%
      {}{}%
      {}{}}%
     {{}%
      {Jones}{J.}%
-     {Phil~D}{P.~D.}%
+     {P.~D.}{P.~D.}%
      {}{}%
      {}{}}%
   }
@@ -5084,8 +5225,6 @@
   Aerosol Characterization}}
   \verb{url}
   \verb https://www.sciencedirect.com/science/article/abs/pii/S0034425798000315
-  \verb ?via{\%}3Dihub http://linkinghub.elsevier.com/retrieve/pii/S00344257980
-  \verb 00315
   \endverb
   \field{volume}{66}
   \field{journaltitle}{Remote Sensing of Environment}
@@ -5093,73 +5232,24 @@
   \warn{\item Invalid format of field 'month'}
 \endentry
 
-\entry{Hoff2010}{article}{}
-  \name{author}{2}{}{%
-    {{}%
-     {Hoff}{H.}%
-     {Thomas~E}{T.~E.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Perez}{P.}%
-     {Richard}{R.}%
-     {}{}%
-     {}{}}%
-  }
-  \keyw{Solar resource}
-  \strng{namehash}{HTEPR1}
-  \strng{fullhash}{HTEPR1}
-  \field{labelalpha}{HP10}
-  \field{sortinit}{H}
-  \field{abstract}{%
-  This paper presents a novel approach to rigorously quantify power Output
-  Variability from a fleet of photovoltaic (PV) systems, ranging from a single
-  central station to a set of distributed PV systems. The approach demonstrates
-  that the relative power Output Variability for a fleet of identical PV
-  systems (same size, orientation, and spacing) can be quantified by
-  identifying the number of PV systems and their Dispersion Factor. The
-  Dispersion Factor is a new variable that captures the relationship between PV
-  Fleet configuration, Cloud Transit Speed, and the Time Interval over which
-  variability is evaluated. Results indicate that Relative Output Variability:
-  (1) equals the inverse of the square root of the number of systems for fully
-  dispersed PV systems; and (2) could be further minimized for optimally-spaced
-  PV systems.%
-  }
-  \verb{doi}
-  \verb 10.1016/j.solener.2010.07.003
-  \endverb
-  \field{issn}{0038092X}
-  \field{number}{10}
-  \field{pages}{1782\bibrangedash 1793}
-  \field{title}{{Quantifying PV power Output Variability}}
-  \verb{url}
-  \verb http://www.asrc.cestm.albany.edu/perez/2010/short.pdf https://linkinghu
-  \verb b.elsevier.com/retrieve/pii/S0038092X10002380
-  \endverb
-  \field{volume}{84}
-  \field{journaltitle}{Solar Energy}
-  \field{year}{2010}
-  \warn{\item Invalid format of field 'month'}
-\endentry
-
 \entry{Hoff2012}{article}{}
   \name{author}{2}{}{%
     {{}%
      {Hoff}{H.}%
-     {Thomas~E.}{T.~E.}%
+     {T.~E.}{T.~E.}%
      {}{}%
      {}{}}%
     {{}%
      {Perez}{P.}%
-     {Richard}{R.}%
+     {R.}{R.}%
      {}{}%
      {}{}}%
   }
   \list{publisher}{1}{%
     {Pergamon}%
   }
-  \strng{namehash}{HTEPR2}
-  \strng{fullhash}{HTEPR2}
+  \strng{namehash}{HTEPR1}
+  \strng{fullhash}{HTEPR1}
   \field{labelalpha}{HP12}
   \field{sortinit}{H}
   \field{abstract}{%
@@ -5190,8 +5280,7 @@
   \field{pages}{2177\bibrangedash 2189}
   \field{title}{{Modeling PV fleet output variability}}
   \verb{url}
-  \verb https://www.sciencedirect.com/science/article/pii/S0038092X11004154 htt
-  \verb ps://linkinghub.elsevier.com/retrieve/pii/S0038092X11004154
+  \verb https://www.sciencedirect.com/science/article/pii/S0038092X11004154
   \endverb
   \field{volume}{86}
   \verb{file}
@@ -5207,12 +5296,12 @@
   \name{author}{2}{}{%
     {{}%
      {Hoicka}{H.}%
-     {Christina~E.}{C.~E.}%
+     {C.~E.}{C.~E.}%
      {}{}%
      {}{}}%
     {{}%
      {Rowlands}{R.}%
-     {Ian~H.}{I.~H.}%
+     {I.~H.}{I.~H.}%
      {}{}%
      {}{}}%
   }
@@ -5263,8 +5352,7 @@
   \field{title}{{Solar and wind resource complementarity: Advancing options for
   renewable electricity integration in Ontario, Canada}}
   \verb{url}
-  \verb https://www.sciencedirect.com/science/article/pii/S0960148110002600 htt
-  \verb ps://linkinghub.elsevier.com/retrieve/pii/S0960148110002600
+  \verb https://www.sciencedirect.com/science/article/pii/S0960148110002600
   \endverb
   \field{volume}{36}
   \field{journaltitle}{Renewable Energy}
@@ -5276,7 +5364,7 @@
   \name{author}{1}{}{%
     {{}%
      {Ineichen}{I.}%
-     {Pierre}{P.}%
+     {P.}{P.}%
      {}{}%
      {}{}}%
   }
@@ -5314,12 +5402,12 @@
   \name{author}{2}{}{%
     {{}%
      {Ineichen}{I.}%
-     {Pierre}{P.}%
+     {P.}{P.}%
      {}{}%
      {}{}}%
     {{}%
      {Perez}{P.}%
-     {Richard}{R.}%
+     {R.}{R.}%
      {}{}%
      {}{}}%
   }
@@ -5352,17 +5440,17 @@
   \name{author}{3}{}{%
     {{}%
      {Inman}{I.}%
-     {Rich~H}{R.~H.}%
+     {R.~H}{R.~H}%
      {}{}%
      {}{}}%
     {{}%
      {Pedro}{P.}%
-     {Hugo~T.C.}{H.~T.}%
+     {H.~T.C.}{H.~T.}%
      {}{}%
      {}{}}%
     {{}%
      {Coimbra}{C.}%
-     {Carlos~F.M.}{C.~F.}%
+     {C~F.M.}{C.~F.}%
      {}{}%
      {}{}}%
   }
@@ -5378,8 +5466,7 @@
   \field{pages}{535\bibrangedash 576}
   \field{title}{{Solar forecasting methods for renewable energy integration}}
   \verb{url}
-  \verb http://linkinghub.elsevier.com/retrieve/pii/S0360128513000294 https://l
-  \verb inkinghub.elsevier.com/retrieve/pii/S0360128513000294
+  \verb http://linkinghub.elsevier.com/retrieve/pii/S0360128513000294
   \endverb
   \field{volume}{39}
   \verb{file}
@@ -5396,7 +5483,7 @@
   \name{author}{1}{}{%
     {{}%
      {Iqbal}{I.}%
-     {Muhammad}{M.}%
+     {M.}{M.}%
      {}{}%
      {}{}}%
   }
@@ -5422,197 +5509,197 @@
   \name{author}{39}{}{%
     {{}%
      {Jacob}{J.}%
-     {Daniela}{D.}%
+     {D.}{D.}%
      {}{}%
      {}{}}%
     {{}%
      {Petersen}{P.}%
-     {Juliane}{J.}%
+     {J.}{J.}%
      {}{}%
      {}{}}%
     {{}%
      {Eggert}{E.}%
-     {Bastian}{B.}%
+     {B.}{B.}%
      {}{}%
      {}{}}%
     {{}%
      {Alias}{A.}%
-     {Antoinette}{A.}%
+     {A.}{A.}%
      {}{}%
      {}{}}%
     {{}%
      {Christensen}{C.}%
-     {Ole~B{\o}ssing}{O.~B.}%
+     {O.~B.}{O.~B.}%
      {}{}%
      {}{}}%
     {{}%
      {Bouwer}{B.}%
-     {Laurens~M.}{L.~M.}%
+     {L.~M.}{L.~M.}%
      {}{}%
      {}{}}%
     {{}%
      {Braun}{B.}%
-     {Alain}{A.}%
+     {A.}{A.}%
      {}{}%
      {}{}}%
     {{}%
      {Colette}{C.}%
-     {Augustin}{A.}%
+     {A.}{A.}%
      {}{}%
      {}{}}%
     {{}%
      {D{\'{e}}qu{\'{e}}}{D.}%
-     {Michel}{M.}%
+     {M.}{M.}%
      {}{}%
      {}{}}%
     {{}%
      {Georgievski}{G.}%
-     {Goran}{G.}%
+     {G.}{G.}%
      {}{}%
      {}{}}%
     {{}%
      {Georgopoulou}{G.}%
-     {Elena}{E.}%
+     {E.}{E.}%
      {}{}%
      {}{}}%
     {{}%
      {Gobiet}{G.}%
-     {Andreas}{A.}%
+     {A.}{A.}%
      {}{}%
      {}{}}%
     {{}%
      {Menut}{M.}%
-     {Laurent}{L.}%
+     {L.}{L.}%
      {}{}%
      {}{}}%
     {{}%
      {Nikulin}{N.}%
-     {Grigory}{G.}%
+     {G.}{G.}%
      {}{}%
      {}{}}%
     {{}%
      {Haensler}{H.}%
-     {Andreas}{A.}%
+     {A.}{A.}%
      {}{}%
      {}{}}%
     {{}%
      {Hempelmann}{H.}%
-     {Nils}{N.}%
+     {N.}{N.}%
      {}{}%
      {}{}}%
     {{}%
      {Jones}{J.}%
-     {Colin}{C.}%
+     {C.}{C.}%
      {}{}%
      {}{}}%
     {{}%
      {Keuler}{K.}%
-     {Klaus}{K.}%
+     {K.}{K.}%
      {}{}%
      {}{}}%
     {{}%
      {Kovats}{K.}%
-     {Sari}{S.}%
+     {S.}{S.}%
      {}{}%
      {}{}}%
     {{}%
      {Kr{\"{o}}ner}{K.}%
-     {Nico}{N.}%
+     {N.}{N.}%
      {}{}%
      {}{}}%
     {{}%
      {Kotlarski}{K.}%
-     {Sven}{S.}%
+     {S.}{S.}%
      {}{}%
      {}{}}%
     {{}%
      {Kriegsmann}{K.}%
-     {Arne}{A.}%
+     {A.}{A.}%
      {}{}%
      {}{}}%
     {{}%
      {Martin}{M.}%
-     {Eric}{E.}%
+     {E.}{E.}%
      {}{}%
      {}{}}%
     {{}%
      {Meijgaard}{M.}%
-     {Erik}{E.}%
+     {E.}{E.}%
      {van}{v.}%
      {}{}}%
     {{}%
      {Moseley}{M.}%
-     {Christopher}{C.}%
+     {C.}{C.}%
      {}{}%
      {}{}}%
     {{}%
      {Pfeifer}{P.}%
-     {Susanne}{S.}%
+     {S.}{S.}%
      {}{}%
      {}{}}%
     {{}%
      {Preuschmann}{P.}%
-     {Swantje}{S.}%
+     {S.}{S.}%
      {}{}%
      {}{}}%
     {{}%
      {Radermacher}{R.}%
-     {Christine}{C.}%
+     {C.}{C.}%
      {}{}%
      {}{}}%
     {{}%
      {Radtke}{R.}%
-     {Kai}{K.}%
+     {K.}{K.}%
      {}{}%
      {}{}}%
     {{}%
      {Rechid}{R.}%
-     {Diana}{D.}%
+     {D.}{D.}%
      {}{}%
      {}{}}%
     {{}%
      {Rounsevell}{R.}%
-     {Mark}{M.}%
+     {M.}{M.}%
      {}{}%
      {}{}}%
     {{}%
      {Samuelsson}{S.}%
-     {Patrick}{P.}%
+     {P.}{P.}%
      {}{}%
      {}{}}%
     {{}%
      {Somot}{S.}%
-     {Samuel}{S.}%
+     {S.}{S.}%
      {}{}%
      {}{}}%
     {{}%
      {Soussana}{S.}%
-     {Jean-Francois}{J.-F.}%
+     {J.~F.}{J.~F.}%
      {}{}%
      {}{}}%
     {{}%
      {Teichmann}{T.}%
-     {Claas}{C.}%
+     {C.}{C.}%
      {}{}%
      {}{}}%
     {{}%
      {Valentini}{V.}%
-     {Riccardo}{R.}%
+     {R.}{R.}%
      {}{}%
      {}{}}%
     {{}%
      {Vautard}{V.}%
-     {Robert}{R.}%
+     {R.}{R.}%
      {}{}%
      {}{}}%
     {{}%
      {Weber}{W.}%
-     {Bj{\"{o}}rn}{B.}%
+     {B.}{B.}%
      {}{}%
      {}{}}%
     {{}%
      {Yiou}{Y.}%
-     {Pascal}{P.}%
+     {P.}{P.}%
      {}{}%
      {}{}}%
   }
@@ -5664,74 +5751,6 @@
   \warn{\item Invalid format of field 'month'}
 \endentry
 
-\entry{Jerez2013b}{article}{}
-  \name{author}{6}{}{%
-    {{}%
-     {Jerez}{J.}%
-     {S.}{S.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Trigo}{T.}%
-     {R.M.}{R.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Sarsa}{S.}%
-     {A.}{A.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Lorente-Plazas}{L.-P.}%
-     {R.}{R.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Pozo-V{\'{a}}zquez}{P.-V.}%
-     {D.}{D.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Mont{\'{a}}vez}{M.}%
-     {J.P.}{J.}%
-     {}{}%
-     {}{}}%
-  }
-  \keyw{Complementarity,Iberian Peninsula,Optimization,Solar power,Wind power}
-  \strng{namehash}{JS+1}
-  \strng{fullhash}{JSTRSALPRPVDMJ1}
-  \field{labelalpha}{Jer+13}
-  \field{extraalpha}{1}
-  \field{sortinit}{J}
-  \field{abstract}{%
-  This study addresses the task of identifying optimum locations for solar and
-  wind power plants so that the wind-plussolar power generation meets certain
-  conditions of efficiency and stability, thus allowing to overcome the
-  downside that the natural variability of these renewable resources
-  represents. The method was based on a simulated annealing algorithm and
-  applied over the Iberian Peninsula, a region whose commitment to renewable
-  energy is growing relatively fast. Obtained results are encouraging since a
-  number of different sensitivity experiments support the spatio-temporal
-  complementarity between solar and wind power, at least at the monthly
-  time-scale, in this region. {\textcopyright} 2013 The Authors. Published by
-  Elsevier Ltd.%
-  }
-  \verb{doi}
-  \verb 10.1016/j.egypro.2013.08.007
-  \endverb
-  \field{isbn}{1876-6102}
-  \field{issn}{18766102}
-  \field{pages}{48\bibrangedash 57}
-  \field{title}{{Spatio-temporal Complementarity between Solar and Wind Power
-  in the Iberian Peninsula}}
-  \verb{url}
-  \verb https://linkinghub.elsevier.com/retrieve/pii/S1876610213016019
-  \endverb
-  \field{volume}{40}
-  \field{journaltitle}{Energy Procedia}
-  \field{year}{2013}
-\endentry
-
 \entry{Jerez2013}{article}{}
   \name{author}{8}{}{%
     {{}%
@@ -5778,7 +5797,6 @@
   \strng{namehash}{JS+1}
   \strng{fullhash}{JSTRMVSSMPVDLPRLLJSAFMJP1}
   \field{labelalpha}{Jer+13}
-  \field{extraalpha}{2}
   \field{sortinit}{J}
   \field{abstract}{%
   Europe is investing considerably in renewable energies for a sustainable
@@ -5916,32 +5934,32 @@
   \name{author}{15}{}{%
     {{}%
      {Jerez}{J.}%
-     {Sonia}{S.}%
+     {S.}{S.}%
      {}{}%
      {}{}}%
     {{}%
      {Tobin}{T.}%
-     {Isabelle}{I.}%
+     {I.}{I.}%
      {}{}%
      {}{}}%
     {{}%
      {Vautard}{V.}%
-     {Robert}{R.}%
+     {R.}{R.}%
      {}{}%
      {}{}}%
     {{}%
      {Mont{\'{a}}vez}{M.}%
-     {Juan~Pedro}{J.~P.}%
+     {J.~P.}{J.~P.}%
      {}{}%
      {}{}}%
     {{}%
      {L{\'{o}}pez-Romero}{L.-R.}%
-     {Jose~Mar{\'{i}}a}{J.~M.}%
+     {J.~M.}{J.~M.}%
      {}{}%
      {}{}}%
     {{}%
      {Thais}{T.}%
-     {Fran{\c{c}}oise}{F.}%
+     {F.}{F.}%
      {}{}%
      {}{}}%
     {{}%
@@ -5996,7 +6014,7 @@
   \list{publisher}{1}{%
     {Nature Publishing Group}%
   }
-  \strng{namehash}{JS+2}
+  \strng{namehash}{JS+1}
   \strng{fullhash}{JSTIVRMJPLRJMTFBBCOBCADMNGKSMEvTCWM1}
   \field{labelalpha}{Jer+15}
   \field{extraalpha}{2}
@@ -6027,7 +6045,7 @@
   in Europe}}
   \verb{url}
   \verb http://www.nature.com/ncomms/2015/151211/ncomms10014/abs/ncomms10014.ht
-  \verb ml http://www.nature.com/articles/ncomms10014
+  \verb ml
   \endverb
   \field{volume}{6}
   \field{journaltitle}{Nature Communications}
@@ -6104,8 +6122,7 @@
   \field{title}{{Future changes, or lack thereof, in the temporal variability
   of the combined wind-plus-solar power production in Europe}}
   \verb{url}
-  \verb https://www.sciencedirect.com/science/article/pii/S0960148119302149{\#}
-  \verb bib33 https://linkinghub.elsevier.com/retrieve/pii/S0960148119302149
+  \verb https://www.sciencedirect.com/science/article/pii/S0960148119302149
   \endverb
   \field{volume}{139}
   \verb{file}
@@ -6123,32 +6140,32 @@
   \name{author}{6}{}{%
     {{}%
      {Jimenez-Guerrero}{J.-G.}%
-     {Pedro}{P.}%
+     {P.}{P.}%
      {}{}%
      {}{}}%
     {{}%
      {{Jose Gomez-Navarro}}{J.}%
-     {Juan}{J.}%
+     {J.}{J.}%
      {}{}%
      {}{}}%
     {{}%
      {Jerez}{J.}%
-     {Sonia}{S.}%
+     {S.}{S.}%
      {}{}%
      {}{}}%
     {{}%
      {Lorente-Plazas}{L.-P.}%
-     {Raquel}{R.}%
+     {R.}{R.}%
      {}{}%
      {}{}}%
     {{}%
      {Garcia-Valero}{G.-V.}%
-     {Juan~Andres}{J.~A.}%
+     {J.~A.}{J.~A.}%
      {}{}%
      {}{}}%
     {{}%
      {Montavez}{M.}%
-     {Juan~Pedro}{J.~P.}%
+     {J.~P.}{J.~P.}%
      {}{}%
      {}{}}%
   }
@@ -6207,73 +6224,11 @@
   \warn{\item Invalid format of field 'month'}
 \endentry
 
-\entry{Jain1999}{article}{}
-  \name{author}{3}{}{%
-    {{}%
-     {Jain}{J.}%
-     {A.~K.}{A.~K.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Murty}{M.}%
-     {M.~N.}{M.~N.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Flynn}{F.}%
-     {P.~J.}{P.~J.}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{JAKMMNFPJ1}
-  \strng{fullhash}{JAKMMNFPJ1}
-  \field{labelalpha}{JMF99}
-  \field{sortinit}{J}
-  \field{abstract}{%
-  Clustering is the unsupervised classification of patterns (observations, data
-  items, or feature vectors) into groups (clusters). The clustering problem has
-  been addressed in many contexts and by researchers in many disciplines; this
-  reflects its broad appeal and usefulness as one of the steps in exploratory
-  data analysis. However, clustering is a difficult problem combinatorially,
-  and differences in assumptions and contexts in different communities has made
-  the transfer of useful generic concepts and methodologies slow to occur. This
-  paper presents an overview of pattern clustering methods from a statistical
-  pattern recognition perspective, with a goal of providing useful advice and
-  references to fundamental concepts accessible to the broad community of
-  clustering practitioners. We present a taxonomy of clustering techniques, and
-  identify cross-cutting themes and recent advances. We also describe some
-  important applications of clustering algorithms such as image segmentation,
-  object recognition, and information retrieval.%
-  }
-  \verb{doi}
-  \verb 10.1136/emermed-2012-202314
-  \endverb
-  \verb{eprint}
-  \verb arXiv:1101.1881v2
-  \endverb
-  \field{isbn}{0360-0300}
-  \field{issn}{14720205}
-  \field{number}{3}
-  \field{pages}{264\bibrangedash 323}
-  \field{title}{{Data clustering: a review}}
-  \verb{url}
-  \verb http://portal.acm.org/citation.cfm?doid=331499.331504
-  \endverb
-  \field{volume}{31}
-  \verb{file}
-  \verb :home/claudia/.local/share/data/Mendeley Ltd./Mendeley Desktop/Download
-  \verb ed/Jain, Murty, Flynn - 1999 - Data clustering a review.pdf:pdf
-  \endverb
-  \field{journaltitle}{ACM Computing Surveys}
-  \field{eprinttype}{arXiv}
-  \field{year}{1999}
-\endentry
-
 \entry{jolliffe2011}{incollection}{}
   \name{author}{1}{}{%
     {{}%
      {Jolliffe}{J.}%
-     {Ian}{I.}%
+     {I.}{I.}%
      {}{}%
      {}{}}%
   }
@@ -6305,17 +6260,17 @@
   \name{author}{3}{}{%
     {{}%
      {Jantsch}{J.}%
-     {Martin}{M.}%
+     {M.}{M.}%
      {}{}%
      {}{}}%
     {{}%
      {Schmidt}{S.}%
-     {Heribert}{H.}%
+     {H.}{H.}%
      {}{}%
      {}{}}%
     {{}%
      {Schmid}{S.}%
-     {J{\"{u}}rgen}{J.}%
+     {J.}{J.}%
      {}{}%
      {}{}}%
   }
@@ -6335,12 +6290,12 @@
   \name{author}{2}{}{%
     {{}%
      {Jerez}{J.}%
-     {Sonia}{S.}%
+     {S.}{S.}%
      {}{}%
      {}{}}%
     {{}%
      {Trigo}{T.}%
-     {Ricardo~M.}{R.~M.}%
+     {R.~M.}{R.~M.}%
      {}{}%
      {}{}}%
   }
@@ -6403,12 +6358,12 @@
   \name{author}{2}{}{%
     {{}%
      {Kasten}{K.}%
-     {Fritz}{F.}%
+     {F.}{F.}%
      {}{}%
      {}{}}%
     {{}%
      {Czeplak}{C.}%
-     {Gerhard}{G.}%
+     {G.}{G.}%
      {}{}%
      {}{}}%
   }
@@ -6448,8 +6403,7 @@
   \field{title}{{Solar and terrestrial radiation dependent on the amount and
   type of cloud}}
   \verb{url}
-  \verb https://www.sciencedirect.com/science/article/pii/0038092X80903916 http
-  \verb s://linkinghub.elsevier.com/retrieve/pii/0038092X80903916
+  \verb https://www.sciencedirect.com/science/article/pii/0038092X80903916
   \endverb
   \field{volume}{24}
   \field{journaltitle}{Solar Energy}
@@ -6466,7 +6420,7 @@
      {}{}}%
     {{}%
      {I}{I}%
-     {Isha}{I.}%
+     {I.}{I.}%
      {}{}%
      {}{}}%
   }
@@ -6495,32 +6449,32 @@
   \name{author}{6}{}{%
     {{}%
      {K{\"{o}}nig-Langlo}{K.-L.}%
-     {Gert}{G.}%
+     {G.}{G.}%
      {}{}%
      {}{}}%
     {{}%
      {Sieger}{S.}%
-     {Rainer}{R.}%
+     {R.}{R.}%
      {}{}%
      {}{}}%
     {{}%
      {Schmith{\"{u}}sen}{S.}%
-     {Holger}{H.}%
+     {H.}{H.}%
      {}{}%
      {}{}}%
     {{}%
      {B{\"{u}}cker}{B.}%
-     {Amelie}{A.}%
+     {A.}{A.}%
      {}{}%
      {}{}}%
     {{}%
      {Richter}{R.}%
-     {Friedrich}{F.}%
+     {F.}{F.}%
      {}{}%
      {}{}}%
     {{}%
      {Dutton}{D.}%
-     {Ellsworth}{E.}%
+     {E.}{E.}%
      {}{}%
      {}{}}%
   }
@@ -6566,7 +6520,7 @@
   \name{author}{1}{}{%
     {{}%
      {Kleissl}{K.}%
-     {Jan}{J.}%
+     {J.}{J.}%
      {}{}%
      {}{}}%
   }
@@ -6683,32 +6637,32 @@
   \name{author}{7}{}{%
     {{}%
      {Kloster}{K.}%
-     {Silvia}{S.}%
+     {S.}{S.}%
      {}{}%
      {}{}}%
     {{}%
      {Dentener}{D.}%
-     {Frank}{F.}%
+     {F.}{F.}%
      {}{}%
      {}{}}%
     {{}%
      {Feichter}{F.}%
-     {Johann}{J.}%
+     {J.}{J.}%
      {}{}%
      {}{}}%
     {{}%
      {Raes}{R.}%
-     {Frank}{F.}%
+     {F.}{F.}%
      {}{}%
      {}{}}%
     {{}%
      {Lohmann}{L.}%
-     {Ulrike}{U.}%
+     {U.}{U.}%
      {}{}%
      {}{}}%
     {{}%
      {Roeckner}{R.}%
-     {Erich}{E.}%
+     {E.}{E.}%
      {}{}%
      {}{}}%
     {{}%
@@ -6717,7 +6671,7 @@
      {}{}%
      {}{}}%
   }
-  \strng{namehash}{KS+2}
+  \strng{namehash}{KS+1}
   \strng{fullhash}{KSDFFJRFLUREFBI1}
   \field{labelalpha}{Klo+10}
   \field{sortinit}{K}
@@ -6755,8 +6709,7 @@
   \field{title}{{A GCM study of future climate response to aerosol pollution
   reductions}}
   \verb{url}
-  \verb https://doi.org/10.1007/s00382-009-0573-0 http://link.springer.com/10.1
-  \verb 007/s00382-009-0573-0
+  \verb https://doi.org/10.1007/s00382-009-0573-0
   \endverb
   \field{volume}{34}
   \field{journaltitle}{Climate Dynamics}
@@ -6768,27 +6721,27 @@
   \name{author}{5}{}{%
     {{}%
      {Kottek}{K.}%
-     {Markus}{M.}%
+     {M.}{M.}%
      {}{}%
      {}{}}%
     {{}%
      {Grieser}{G.}%
-     {J{\"{u}}rgen}{J.}%
+     {J.}{J.}%
      {}{}%
      {}{}}%
     {{}%
      {Beck}{B.}%
-     {Christoph}{C.}%
+     {C.}{C.}%
      {}{}%
      {}{}}%
     {{}%
      {Rudolf}{R.}%
-     {Bruno}{B.}%
+     {B.}{B.}%
      {}{}%
      {}{}}%
     {{}%
      {Rubel}{R.}%
-     {Franz}{F.}%
+     {F.}{F.}%
      {}{}%
      {}{}}%
   }
@@ -6830,9 +6783,7 @@
   \field{title}{{World Map of the K{\"{o}}ppen-Geiger climate classification
   updated}}
   \verb{url}
-  \verb http://koeppen-geiger.vu-wien.ac.at/present.htm http://www.schweizerbar
-  \verb t.de/papers/metz/detail/15/55034/World{\_}Map{\_}of{\_}the{\_}Koppen{\_
-  \verb }Geiger{\_}climate{\_}classificat?af=crossref
+  \verb http://koeppen-geiger.vu-wien.ac.at/present.htm
   \endverb
   \field{volume}{15}
   \field{journaltitle}{Meteorologische Zeitschrift}
@@ -6844,27 +6795,27 @@
   \name{author}{5}{}{%
     {{}%
      {Kougias}{K.}%
-     {Ioannis}{I.}%
+     {I.}{I.}%
      {}{}%
      {}{}}%
     {{}%
      {Szab{\'{o}}}{S.}%
-     {S{\'{a}}ndor}{S.}%
+     {S.}{S.}%
      {}{}%
      {}{}}%
     {{}%
      {Monforti-Ferrario}{M.-F.}%
-     {Fabio}{F.}%
+     {F.}{F.}%
      {}{}%
      {}{}}%
     {{}%
      {Huld}{H.}%
-     {Thomas}{T.}%
+     {T.}{T.}%
      {}{}%
      {}{}}%
     {{}%
      {B{\'{o}}dis}{B.}%
-     {Katalin}{K.}%
+     {K.}{K.}%
      {}{}%
      {}{}}%
   }
@@ -6899,8 +6850,7 @@
   \field{title}{{A methodology for optimization of the complementarity between
   small-hydropower plants and solar PV systems}}
   \verb{url}
-  \verb http://www.ncbi.nlm.nih.gov/pubmed/11292186 https://linkinghub.elsevier
-  \verb .com/retrieve/pii/S0960148115303529
+  \verb http://www.ncbi.nlm.nih.gov/pubmed/11292186
   \endverb
   \field{volume}{87}
   \field{journaltitle}{Renewable Energy}
@@ -6912,12 +6862,12 @@
   \name{author}{3}{}{%
     {{}%
      {Kostylev}{K.}%
-     {V}{V}%
+     {V.}{V.}%
      {}{}%
      {}{}}%
     {{}%
      {Pavlovski}{P.}%
-     {A}{A}%
+     {A.}{A.}%
      {}{}%
      {}{}}%
     {{}%
@@ -6940,14 +6890,14 @@
 \entry{KROPOSKI2017}{article}{}
   \name{author}{1}{}{%
     {{}%
-     {KROPOSKI}{K.}%
-     {Benjamin}{B.}%
+     {Krokospi}{K.}%
+     {B.}{B.}%
      {}{}%
      {}{}}%
   }
   \strng{namehash}{KB1}
   \strng{fullhash}{KB1}
-  \field{labelalpha}{KRO17}
+  \field{labelalpha}{Kro17}
   \field{sortinit}{K}
   \field{abstract}{%
   As more variable renewable energy (VRE) such as wind and solar are integrated
@@ -6967,8 +6917,7 @@
   \field{title}{{Integrating high levels of variable renewable energy into
   electric power systems}}
   \verb{url}
-  \verb https://doi.org/10.1007/s40565-017-0339-3 http://link.springer.com/10.1
-  \verb 007/s40565-017-0339-3
+  \verb https://doi.org/10.1007/s40565-017-0339-3
   \endverb
   \field{volume}{5}
   \field{journaltitle}{Journal of Modern Power Systems and Clean Energy}
@@ -6980,17 +6929,17 @@
   \name{author}{3}{}{%
     {{}%
      {Kaufman}{K.}%
-     {Yoram~J.}{Y.~J.}%
+     {Y.~J.}{Y.~J.}%
      {}{}%
      {}{}}%
     {{}%
      {Tanr{\'{e}}}{T.}%
-     {Didier}{D.}%
+     {D.}{D.}%
      {}{}%
      {}{}}%
     {{}%
      {Boucher}{B.}%
-     {Olivier}{O.}%
+     {O.}{O.}%
      {}{}%
      {}{}}%
   }
@@ -7037,32 +6986,32 @@
   \name{author}{22}{}{%
     {{}%
      {Lamarque}{L.}%
-     {J-F}{J.-F.}%
+     {J-F.}{J.-F.}%
      {}{}%
      {}{}}%
     {{}%
      {Bond}{B.}%
-     {Tami~C}{T.~C.}%
+     {T.~C.}{T.~C.}%
      {}{}%
      {}{}}%
     {{}%
      {Eyring}{E.}%
-     {Veronika}{V.}%
+     {V.}{V.}%
      {}{}%
      {}{}}%
     {{}%
      {Granier}{G.}%
-     {Claire}{C.}%
+     {C.}{C.}%
      {}{}%
      {}{}}%
     {{}%
      {Heil}{H.}%
-     {Angelika}{A.}%
+     {A.}{A.}%
      {}{}%
      {}{}}%
     {{}%
      {Klimont}{K.}%
-     {Z}{Z}%
+     {Z.}{Z.}%
      {}{}%
      {}{}}%
     {{}%
@@ -7175,7 +7124,7 @@
   \name{author}{1}{}{%
     {{}%
      {Lelieveld}{L.}%
-     {Jos}{J.}%
+     {J.}{J.}%
      {}{}%
      {}{}}%
   }
@@ -7259,12 +7208,12 @@
   \name{author}{2}{}{%
     {{}%
      {Liu}{L.}%
-     {Benjamin~Y.H.}{B.~Y.}%
+     {B.~Y.H.}{B.~Y.}%
      {}{}%
      {}{}}%
     {{}%
      {Jordan}{J.}%
-     {Richard~C}{R.~C.}%
+     {R.~C.}{R.~C.}%
      {}{}%
      {}{}}%
   }
@@ -7295,8 +7244,7 @@
   \field{title}{{The interrelationship and characteristic distribution of
   direct, diffuse and total solar radiation}}
   \verb{url}
-  \verb http://www.sciencedirect.com/science/article/pii/0038092X60900621 https
-  \verb ://linkinghub.elsevier.com/retrieve/pii/0038092X60900621
+  \verb http://www.sciencedirect.com/science/article/pii/0038092X60900621
   \endverb
   \field{volume}{4}
   \field{journaltitle}{Solar Energy}
@@ -7308,32 +7256,32 @@
   \name{author}{6}{}{%
     {{}%
      {Lorenz}{L.}%
-     {Elke}{E.}%
+     {E.}{E.}%
      {}{}%
      {}{}}%
     {{}%
      {Hurka}{H.}%
-     {Johannes}{J.}%
+     {J.}{J.}%
      {}{}%
      {}{}}%
     {{}%
      {Karampela}{K.}%
-     {Giota}{G.}%
+     {G.}{G.}%
      {}{}%
      {}{}}%
     {{}%
      {Heinemann}{H.}%
-     {Detlev}{D.}%
+     {D.}{D.}%
      {}{}%
      {}{}}%
     {{}%
      {Beyer}{B.}%
-     {Hans~Georg}{H.~G.}%
+     {H.~G.}{H.~G.}%
      {}{}%
      {}{}}%
     {{}%
      {Schneider}{S.}%
-     {Moti}{M.}%
+     {M.}{M.}%
      {}{}%
      {}{}}%
   }
@@ -7353,27 +7301,27 @@
   \name{author}{5}{}{%
     {{}%
      {Lorenz}{L.}%
-     {Elke}{E.}%
+     {E.}{E.}%
      {}{}%
      {}{}}%
     {{}%
      {Scheidsteger}{S.}%
-     {Thomas}{T.}%
+     {T.}{T.}%
      {}{}%
      {}{}}%
     {{}%
      {Hurka}{H.}%
-     {Johannes}{J.}%
+     {J.}{J.}%
      {}{}%
      {}{}}%
     {{}%
      {Heinemann}{H.}%
-     {Detlev}{D.}%
+     {D.}{D.}%
      {}{}%
      {}{}}%
     {{}%
      {Kurz}{K.}%
-     {Christian}{C.}%
+     {C.}{C.}%
      {}{}%
      {}{}}%
   }
@@ -7433,22 +7381,22 @@
   \name{author}{4}{}{%
     {{}%
      {Lund}{L.}%
-     {Peter~D.}{P.~D.}%
+     {P.~D.}{P.~D.}%
      {}{}%
      {}{}}%
     {{}%
      {Lindgren}{L.}%
-     {Juuso}{J.}%
+     {J.}{J.}%
      {}{}%
      {}{}}%
     {{}%
      {Mikkola}{M.}%
-     {Jani}{J.}%
+     {J.}{J.}%
      {}{}%
      {}{}}%
     {{}%
      {Salpakari}{S.}%
-     {Jyri}{J.}%
+     {J.}{J.}%
      {}{}%
      {}{}}%
   }
@@ -7919,22 +7867,22 @@
   \name{author}{4}{}{%
     {{}%
      {Marcos}{M.}%
-     {Javier}{J.}%
+     {J.}{J.}%
      {}{}%
      {}{}}%
     {{}%
      {Marroyo}{M.}%
-     {Luis}{L.}%
+     {L.}{L.}%
      {}{}%
      {}{}}%
     {{}%
      {Lorenzo}{L.}%
-     {Eduardo}{E.}%
+     {E.}{E.}%
      {}{}%
      {}{}}%
     {{}%
      {Garc{\'{i}}a}{G.}%
-     {Miguel}{M.}%
+     {M.}{M.}%
      {}{}%
      {}{}}%
   }
@@ -8073,7 +8021,7 @@
   \name{author}{1}{}{%
     {{}%
      {Meehl}{M.}%
-     {Gerald~A}{G.~A.}%
+     {G.~A.}{G.~A.}%
      {}{}%
      {}{}}%
   }
@@ -8105,17 +8053,17 @@
   \name{author}{3}{}{%
     {{}%
      {McMahan}{M.}%
-     {Andrew~C}{A.~C.}%
+     {A.~C.}{A.~C.}%
      {}{}%
      {}{}}%
     {{}%
      {Grover}{G.}%
-     {Catherine~N}{C.~N.}%
+     {C.~N.}{C.~N.}%
      {}{}%
      {}{}}%
     {{}%
      {Vignola}{V.}%
-     {Frank~E}{F.~E.}%
+     {F.~E.}{F.~E.}%
      {}{}%
      {}{}}%
   }
@@ -8142,8 +8090,7 @@
   \field{pages}{81\bibrangedash 95}
   \field{title}{{Evaluation of Resource Risk in Solar-Project Financing}}
   \verb{url}
-  \verb http://www.sciencedirect.com/science/article/pii/B9780123971777000048 h
-  \verb ttps://linkinghub.elsevier.com/retrieve/pii/B9780123971777000048
+  \verb http://www.sciencedirect.com/science/article/pii/B9780123971777000048
   \endverb
   \list{location}{1}{%
     {Boston}%
@@ -8175,12 +8122,12 @@
   \name{author}{2}{}{%
     {{}%
      {Mellit}{M.}%
-     {Adel}{A.}%
+     {A.}{A.}%
      {}{}%
      {}{}}%
     {{}%
      {Kalogirou}{K.}%
-     {Soteris~A.}{S.~A.}%
+     {S.~A.}{S.~A.}%
      {}{}%
      {}{}}%
   }
@@ -8283,8 +8230,7 @@
   \field{title}{{Assessing complementarity of wind and solar resources for
   energy production in Italy. A Monte Carlo approach}}
   \verb{url}
-  \verb http://linkinghub.elsevier.com/retrieve/pii/S0960148113005594 https://l
-  \verb inkinghub.elsevier.com/retrieve/pii/S0960148113005594
+  \verb http://linkinghub.elsevier.com/retrieve/pii/S0960148113005594
   \endverb
   \field{volume}{63}
   \verb{file}
@@ -8412,17 +8358,17 @@
   \name{author}{3}{}{%
     {{}%
      {Marquez}{M.}%
-     {Ricardo}{R.}%
+     {R.}{R.}%
      {}{}%
      {}{}}%
     {{}%
      {Pedro}{P.}%
-     {Hugo~T.C.}{H.~T.}%
+     {H.~T.C.}{H.~T.}%
      {}{}%
      {}{}}%
     {{}%
      {Coimbra}{C.}%
-     {Carlos~F.M.}{C.~F.}%
+     {C.~F.M.}{C.~F.}%
      {}{}%
      {}{}}%
   }
@@ -8455,8 +8401,7 @@
   \field{title}{{Hybrid solar forecasting method uses satellite imaging and
   ground telemetry as inputs to ANNs}}
   \verb{url}
-  \verb https://www.sciencedirect.com/science/article/pii/S0038092X13000881 htt
-  \verb ps://linkinghub.elsevier.com/retrieve/pii/S0038092X13000881
+  \verb https://www.sciencedirect.com/science/article/pii/S0038092X13000881
   \endverb
   \field{volume}{92}
   \field{journaltitle}{Solar Energy}
@@ -8584,27 +8529,27 @@
   \name{author}{5}{}{%
     {{}%
      {Mueller}{M.}%
-     {R~W}{R.~W.}%
+     {R.~W.}{R.~W.}%
      {}{}%
      {}{}}%
     {{}%
      {Matsoukas}{M.}%
-     {C}{C}%
+     {C.}{C.}%
      {}{}%
      {}{}}%
     {{}%
      {Gratzki}{G.}%
-     {A}{A}%
+     {A.}{A.}%
      {}{}%
      {}{}}%
     {{}%
      {Behr}{B.}%
-     {H~D}{H.~D.}%
+     {H.~D.}{H.~D.}%
      {}{}%
      {}{}}%
     {{}%
      {Hollmann}{H.}%
-     {R}{R}%
+     {R.}{R.}%
      {}{}%
      {}{}}%
   }
@@ -8634,22 +8579,22 @@
   \name{author}{4}{}{%
     {{}%
      {M{\"{u}}ller}{M.}%
-     {Bj{\"{o}}rn}{B.}%
+     {B.}{B.}%
      {}{}%
      {}{}}%
     {{}%
      {Wild}{W.}%
-     {Martin}{M.}%
+     {M.}{M.}%
      {}{}%
      {}{}}%
     {{}%
      {Driesse}{D.}%
-     {Anton}{A.}%
+     {A.}{A.}%
      {}{}%
      {}{}}%
     {{}%
      {Behrens}{B.}%
-     {Klaus}{K.}%
+     {K.}{K.}%
      {}{}%
      {}{}}%
   }
@@ -8680,32 +8625,32 @@
   \name{author}{6}{}{%
     {{}%
      {M{\"{u}}ller}{M.}%
-     {Richard}{R.}%
+     {R.}{R.}%
      {}{}%
      {}{}}%
     {{}%
      {Pfeifroth}{P.}%
-     {Uwe}{U.}%
+     {U.}{U.}%
      {}{}%
      {}{}}%
     {{}%
      {Tr{\"{a}}ger-Chatterjee}{T.-C.}%
-     {Christine}{C.}%
+     {C.}{C.}%
      {}{}%
      {}{}}%
     {{}%
      {Cremer}{C.}%
-     {Roswitha}{R.}%
+     {R.}{R.}%
      {}{}%
      {}{}}%
     {{}%
      {Trentmann}{T.}%
-     {J{\"{o}}rg}{J.}%
+     {J.}{J.}%
      {}{}%
      {}{}}%
     {{}%
      {Hollmann}{H.}%
-     {Rainer}{R.}%
+     {R.}{R.}%
      {}{}%
      {}{}}%
   }
@@ -8732,7 +8677,7 @@
   \field{title}{{Surface Solar Radiation Data Set - Heliosat (SARAH) - Edition
   1}}
   \verb{url}
-  \verb http://dx.doi.org/10.5676/EUM{\_}SAF{\_}CM/SARAH/V001
+  \verb http://dx.doi.org/10.5676/EUM_SAF_CM/SARAH/V001
   \endverb
   \field{journaltitle}{EUMETSAT Satellite Application Facility on Climate
   Monitoring (CM SAF)}
@@ -8883,10 +8828,9 @@
   \field{issn}{1867-8548}
   \field{number}{5}
   \field{pages}{1287\bibrangedash 1314}
-  \field{title}{{A 4-D climatology (1979{\&}amp;ndash;2009) of the monthly
-  tropospheric aerosol optical depth distribution over the Mediterranean region
-  from a comparative evaluation and blending of remote sensing and model
-  products}}
+  \field{title}{{A 4-D climatology (1979-2009) of the monthly tropospheric
+  aerosol optical depth distribution over the Mediterranean region from a
+  comparative evaluation and blending of remote sensing and model products}}
   \verb{url}
   \verb https://www.atmos-meas-tech.net/6/1287/2013/
   \endverb
@@ -8900,32 +8844,32 @@
   \name{author}{5}{}{%
     {{}%
      {Nabat}{N.}%
-     {Pierre}{P.}%
+     {P.}{P.}%
      {}{}%
      {}{}}%
     {{}%
      {Somot}{S.}%
-     {Samuel}{S.}%
+     {S.}{S.}%
      {}{}%
      {}{}}%
     {{}%
      {Mallet}{M.}%
-     {Marc}{M.}%
+     {M.}{M.}%
      {}{}%
      {}{}}%
     {{}%
      {Sanchez-Lorenzo}{S.-L.}%
-     {Arturo}{A.}%
+     {A.}{A.}%
      {}{}%
      {}{}}%
     {{}%
      {Wild}{W.}%
-     {Martin}{M.}%
+     {M.}{M.}%
      {}{}%
      {}{}}%
   }
   \keyw{Europe,Mediterranean,aerosols,brightening,climate change,sulfates}
-  \strng{namehash}{NP+2}
+  \strng{namehash}{NP+1}
   \strng{fullhash}{NPSSMMSLAWM1}
   \field{labelalpha}{Nab+14}
   \field{sortinit}{N}
@@ -8966,36 +8910,36 @@
   \name{author}{6}{}{%
     {{}%
      {Nabat}{N.}%
-     {Pierre}{P.}%
+     {P.}{P.}%
      {}{}%
      {}{}}%
     {{}%
      {Somot}{S.}%
-     {Samuel}{S.}%
+     {S.}{S.}%
      {}{}%
      {}{}}%
     {{}%
      {Mallet}{M.}%
-     {Marc}{M.}%
+     {M.}{M.}%
      {}{}%
      {}{}}%
     {{}%
      {Sevault}{S.}%
-     {Florence}{F.}%
+     {F.}{F.}%
      {}{}%
      {}{}}%
     {{}%
      {Chiacchio}{C.}%
-     {Marc}{M.}%
+     {M.}{M.}%
      {}{}%
      {}{}}%
     {{}%
      {Wild}{W.}%
-     {Martin}{M.}%
+     {M.}{M.}%
      {}{}%
      {}{}}%
   }
-  \strng{namehash}{NP+2}
+  \strng{namehash}{NP+1}
   \strng{fullhash}{NPSSMMSFCMWM1}
   \field{labelalpha}{Nab+15}
   \field{sortinit}{N}
@@ -9057,8 +9001,7 @@
   Mediterranean climate variability using a coupled regional climate system
   model}}
   \verb{url}
-  \verb http://dx.doi.org/10.1007/s00382-014-2205-6 http://link.springer.com/10
-  \verb .1007/s00382-014-2205-6
+  \verb http://dx.doi.org/10.1007/s00382-014-2205-6
   \endverb
   \field{volume}{44}
   \field{journaltitle}{Climate Dynamics}
@@ -9070,32 +9013,32 @@
   \name{author}{8}{}{%
     {{}%
      {Neher}{N.}%
-     {Ina}{I.}%
+     {I.}{I.}%
      {}{}%
      {}{}}%
     {{}%
      {Buchmann}{B.}%
-     {Tina}{T.}%
+     {T.}{T.}%
      {}{}%
      {}{}}%
     {{}%
      {Crewell}{C.}%
-     {Susanne}{S.}%
+     {S.}{S.}%
      {}{}%
      {}{}}%
     {{}%
      {Evers-Dietze}{E.-D.}%
-     {Bernd}{B.}%
+     {B.}{B.}%
      {}{}%
      {}{}}%
     {{}%
      {Pfeilsticker}{P.}%
-     {Klaus}{K.}%
+     {K.}{K.}%
      {}{}%
      {}{}}%
     {{}%
      {Pospichal}{P.}%
-     {Bernhard}{B.}%
+     {B.}{B.}%
      {}{}%
      {}{}}%
     {{}%
@@ -9145,12 +9088,12 @@
   \name{author}{2}{}{%
     {{}%
      {Norris}{N.}%
-     {Joel~R}{J.~R.}%
+     {J.~R}{J.~R}%
      {}{}%
      {}{}}%
     {{}%
      {Wild}{W.}%
-     {Martin}{M.}%
+     {M.}{M.}%
      {}{}%
      {}{}}%
   }
@@ -9208,21 +9151,148 @@
   \warn{\item Invalid format of field 'month'}
 \endentry
 
+\entry{Ohmura}{article}{}
+  \name{author}{15}{}{%
+    {{}%
+     {Ohmura}{O.}%
+     {A.}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Dutton}{D.}%
+     {G.}{G.}%
+     {}{}%
+     {E}{E}}%
+    {{}%
+     {Forgan}{F.}%
+     {B.}{B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Fröhlich}{F.}%
+     {C.}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Gilgen}{G.}%
+     {H.}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hegner}{H.}%
+     {H.}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Heimo}{H.}%
+     {A.}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {König-Langlo}{K.-L.}%
+     {G.}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {McArthur}{M.}%
+     {B.}{B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Müller}{M.}%
+     {G.}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Philipona}{P.}%
+     {R.}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Pinker}{P.}%
+     {R.}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Whitlock}{W.}%
+     {C.~H.}{C.~H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Dehne}{D.}%
+     {K.}{K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Wild}{W.}%
+     {M.}{M.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{OA+1}
+  \strng{fullhash}{OADEGFBFCGHHHHAKLGMBMGPRPRWCHDKWM1}
+  \field{labelalpha}{Ohm+98}
+  \field{sortinit}{O}
+  \field{abstract}{%
+  To support climate research, the World Climate Research Programme (WCRP)
+  initiated a new radiometric network, the Baseline Surface Radiation Network
+  (BSRN). The network aims at providing validation material for satellite
+  radiometry and climate models. It further aims at detecting long-term
+  variations in irradiances at the earth's surface, which are believed to play
+  an important role in climate change. The network and its instrumentation are
+  designed 1) to cover major climate zones, 2) to provide the accuracy required
+  to meet the objectives, and 3) to ensure homogenized standards for a long
+  period in the future. The limits of the accuracy are defined to reach these
+  goals. The suitable instruments and instrumentations have been determined and
+  the methods for observations and data management have been agreed on at all
+  stations. Measurements of irradiances are at 1 Hz, and the 1-min statistics
+  (mean, standard deviation, and extreme values) with quality flags are stored
+  at a centralized data archive at the WCRP's World Radiation Monitoring Center
+  (WRMC) in Zurich, Switzerland. The data are quality controlled both at
+  stations and at the WRMC. The original 1-min irradiance statistics will be
+  stored at the WRMC for 10 years, while hourly mean values will be transferred
+  to the World Radiation Data Center in St. Petersburg, Russia. The BSRN,
+  consisting of 15 stations, covers the earth's surface from 80°N to 90°S,
+  and will soon be joined by seven more stations. The data are available to
+  scientific communities in various ways depending on the communication
+  environment of the users. The present article discusses the scientific base,
+  organizational and technical aspects of the network, and data retrieval
+  methods; shows various application possibilities; and presents the future
+  tasks to be accomplished.%
+  }
+  \verb{doi}
+  \verb 10.1175/1520-0477(1998)079<2115:BSRNBW>2.0.CO;2
+  \endverb
+  \verb{eprint}
+  \verb https://doi.org/10.1175/1520-0477(1998)079<2115:BSRNBW>2.0.CO;2
+  \endverb
+  \field{number}{10}
+  \field{pages}{2115\bibrangedash 2136}
+  \field{title}{Baseline Surface Radiation Network (BSRN/WCRP): New Precision
+  Radiometry for Climate Research}
+  \verb{url}
+  \verb https://doi.org/10.1175/1520-0477(1998)079<2115:BSRNBW>2.0.CO;2
+  \endverb
+  \field{volume}{79}
+  \field{journaltitle}{Bulletin of the American Meteorological Society}
+  \field{year}{1998}
+\endentry
+
 \entry{Otani1997}{article}{}
   \name{author}{3}{}{%
     {{}%
      {Otani}{O.}%
-     {Kenji}{K.}%
+     {K.}{K.}%
      {}{}%
      {}{}}%
     {{}%
      {Minowa}{M.}%
-     {Jyunya}{J.}%
+     {J.}{J.}%
      {}{}%
      {}{}}%
     {{}%
      {Kurokawa}{K.}%
-     {Kosuke}{K.}%
+     {K.}{K.}%
      {}{}%
      {}{}}%
   }
@@ -9253,8 +9323,7 @@
   \field{title}{{Study on areal solar irradiance for analyzing
   areally-totalized PV systems}}
   \verb{url}
-  \verb https://www.sciencedirect.com/science/article/pii/S0927024897000500 htt
-  \verb p://linkinghub.elsevier.com/retrieve/pii/S0927024897000500
+  \verb https://www.sciencedirect.com/science/article/pii/S0927024897000500
   \endverb
   \field{volume}{47}
   \field{journaltitle}{Solar Energy Materials and Solar Cells}
@@ -9266,15 +9335,15 @@
   \name{author}{1}{}{%
     {{}%
      {Page}{P.}%
-     {John}{J.}%
+     {J.}{J.}%
      {}{}%
      {}{}}%
   }
   \list{publisher}{1}{%
     {Elsevier}%
   }
-  \strng{namehash}{PJ2}
-  \strng{fullhash}{PJ2}
+  \strng{namehash}{PJ1}
+  \strng{fullhash}{PJ1}
   \field{labelalpha}{Pag12}
   \field{sortinit}{P}
   \field{abstract}{%
@@ -9304,7 +9373,6 @@
   Photovoltaic Systems}}
   \verb{url}
   \verb https://www.sciencedirect.com/science/article/pii/B9780123859341000179
-  \verb https://linkinghub.elsevier.com/retrieve/pii/B9780123859341000179
   \endverb
   \field{year}{2012}
   \warn{\item Invalid format of field 'month'}
@@ -9339,22 +9407,22 @@
   \name{author}{4}{}{%
     {{}%
      {Panagea}{P.}%
-     {Ioanna~S}{I.~S.}%
+     {I.~S.}{I.~S.}%
      {}{}%
      {}{}}%
     {{}%
      {Tsanis}{T.}%
-     {Ioannis~K}{I.~K.}%
+     {I.~K.}{I.~K.}%
      {}{}%
      {}{}}%
     {{}%
      {Koutroulis}{K.}%
-     {Aristeidis~G}{A.~G.}%
+     {A.~G.}{A.~G.}%
      {}{}%
      {}{}}%
     {{}%
      {Grillakis}{G.}%
-     {Manolis~G}{M.~G.}%
+     {M.~G.}{M.~G.}%
      {}{}%
      {}{}}%
   }
@@ -9403,17 +9471,17 @@
   \name{author}{3}{}{%
     {{}%
      {Pryor}{P.}%
-     {S~C}{S.~C.}%
+     {S~.C.}{S.~C.}%
      {}{}%
      {}{}}%
     {{}%
      {Barthelmie}{B.}%
-     {Rebecca~Jane}{R.~J.}%
+     {R.~J.}{R.~J.}%
      {}{}%
      {}{}}%
     {{}%
      {Schoof}{S.}%
-     {J~T}{J.~T.}%
+     {J~.T.}{J.~T.}%
      {}{}%
      {}{}}%
   }
@@ -9444,32 +9512,32 @@
   \name{author}{6}{}{%
     {{}%
      {Perez}{P.}%
-     {Richard}{R.}%
+     {R.}{R.}%
      {}{}%
      {}{}}%
     {{}%
      {Kivalov}{K.}%
-     {Sergey}{S.}%
+     {S.}{S.}%
      {}{}%
      {}{}}%
     {{}%
      {Schlemmer}{S.}%
-     {James}{J.}%
+     {J.}{J.}%
      {}{}%
      {}{}}%
     {{}%
      {Hemker}{H.}%
-     {Karl}{K.}%
+     {K.}{K.}%
      {}{}%
      {}{}}%
     {{}%
      {Renn{\'{e}}}{R.}%
-     {David}{D.}%
+     {D.}{D.}%
      {}{}%
      {}{}}%
     {{}%
      {Hoff}{H.}%
-     {Thomas~E.}{T.~E.}%
+     {T.~E.}{T.~E.}%
      {}{}%
      {}{}}%
   }
@@ -9501,8 +9569,7 @@
   \field{title}{{Validation of short and medium term operational solar
   radiation forecasts in the US}}
   \verb{url}
-  \verb https://www.sciencedirect.com/science/article/pii/S0038092X10002823 htt
-  \verb ps://linkinghub.elsevier.com/retrieve/pii/S0038092X10002823
+  \verb https://www.sciencedirect.com/science/article/pii/S0038092X10002823
   \endverb
   \field{volume}{84}
   \field{journaltitle}{Solar Energy}
@@ -9520,8 +9587,8 @@
   }
   \keyw{Performance calculation,Solar radiation,Statistical analysis,Two-axis
   tracking}
-  \strng{namehash}{PO1}
-  \strng{fullhash}{PO1}
+  \strng{namehash}{PO2}
+  \strng{fullhash}{PO2}
   \field{labelalpha}{Per09}
   \field{sortinit}{P}
   \field{abstract}{%
@@ -9565,14 +9632,14 @@
   \name{author}{1}{}{%
     {{}%
      {Perpi{\~{n}}{\'{a}}n}{P.}%
-     {Oscar}{O.}%
+     {O.}{O.}%
      {}{}%
      {}{}}%
   }
   \keyw{S4,photovoltaic,solar energy,solar radiation,spatio-temporal data,sun
   geometry,time series,visualization methods}
-  \strng{namehash}{PO2}
-  \strng{fullhash}{PO2}
+  \strng{namehash}{PO1}
+  \strng{fullhash}{PO1}
   \field{labelalpha}{Per12}
   \field{sortinit}{P}
   \field{abstract}{%
@@ -9613,42 +9680,42 @@
   \name{author}{8}{}{%
     {{}%
      {Pfeifroth}{P.}%
-     {Uwe}{U.}%
+     {U.}{U.}%
      {}{}%
      {}{}}%
     {{}%
      {Bojanowski}{B.}%
-     {Jedrzej~S}{J.~S.}%
+     {J.~S.}{J.~S.}%
      {}{}%
      {}{}}%
     {{}%
      {Clerbaux}{C.}%
-     {Nicolas}{N.}%
+     {N.}{N.}%
      {}{}%
      {}{}}%
     {{}%
      {Manara}{M.}%
-     {Veronica}{V.}%
+     {V.}{V.}%
      {}{}%
      {}{}}%
     {{}%
      {Sanchez-Lorenzo}{S.-L.}%
-     {Arturo}{A.}%
+     {A.}{A.}%
      {}{}%
      {}{}}%
     {{}%
      {Trentmann}{T.}%
-     {J{\"{o}}rg}{J.}%
+     {J.}{J.}%
      {}{}%
      {}{}}%
     {{}%
      {Walawender}{W.}%
-     {Jakub~P}{J.~P.}%
+     {J.~P.}{J.~P.}%
      {}{}%
      {}{}}%
     {{}%
      {Hollmann}{H.}%
-     {Rainer}{R.}%
+     {R.}{R.}%
      {}{}%
      {}{}}%
   }
@@ -9699,27 +9766,27 @@
   \name{author}{5}{}{%
     {{}%
      {Pfeifroth}{P.}%
-     {Uwe}{U.}%
+     {U.}{U.}%
      {}{}%
      {}{}}%
     {{}%
      {Sanchez-Lorenzo}{S.-L.}%
-     {Arturo}{A.}%
+     {A.}{A.}%
      {}{}%
      {}{}}%
     {{}%
      {Manara}{M.}%
-     {Veronica}{V.}%
+     {V.}{V.}%
      {}{}%
      {}{}}%
     {{}%
      {Trentmann}{T.}%
-     {J{\"{o}}rg}{J.}%
+     {J.}{J.}%
      {}{}%
      {}{}}%
     {{}%
      {Hollmann}{H.}%
-     {Rainer}{R.}%
+     {R.}{R.}%
      {}{}%
      {}{}}%
   }
@@ -9765,8 +9832,7 @@
   \field{title}{{Trends and Variability of Surface Solar Radiation in Europe
   Based On Surface- and Satellite-Based Data Records}}
   \verb{url}
-  \verb https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1002/2017JD027418 ht
-  \verb tp://doi.wiley.com/10.1002/2017JD027418
+  \verb https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1002/2017JD027418
   \endverb
   \field{volume}{123}
   \field{journaltitle}{Journal of Geophysical Research: Atmospheres}
@@ -9778,25 +9844,25 @@
   \name{author}{3}{}{%
     {{}%
      {Pinker}{P.}%
-     {R.T.}{R.}%
+     {R.~T.}{R.~T.}%
      {}{}%
      {}{}}%
     {{}%
      {Frouin}{F.}%
-     {R}{R}%
+     {R.}{R.}%
      {}{}%
      {}{}}%
     {{}%
      {Li}{L.}%
-     {Z}{Z}%
+     {Z.}{Z.}%
      {}{}%
      {}{}}%
   }
   \list{publisher}{1}{%
     {Elsevier}%
   }
-  \strng{namehash}{PRFRLZ1}
-  \strng{fullhash}{PRFRLZ1}
+  \strng{namehash}{PRTFRLZ1}
+  \strng{fullhash}{PRTFRLZ1}
   \field{labelalpha}{PFL95}
   \field{sortinit}{P}
   \verb{doi}
@@ -9864,8 +9930,7 @@
   \field{title}{{Analysis and synthesis of the variability of irradiance and PV
   power time series with the wavelet transform}}
   \verb{url}
-  \verb https://www.sciencedirect.com/science/article/pii/S0038092X10002811 htt
-  \verb ps://linkinghub.elsevier.com/retrieve/pii/S0038092X10002811
+  \verb https://www.sciencedirect.com/science/article/pii/S0038092X10002811
   \endverb
   \field{volume}{85}
   \field{journaltitle}{Solar Energy}
@@ -9877,17 +9942,17 @@
   \name{author}{3}{}{%
     {{}%
      {Perpi{\~{n}}an}{P.}%
-     {O}{O}%
+     {O.}{O.}%
      {}{}%
      {}{}}%
     {{}%
      {Lorenzo}{L.}%
-     {E}{E}%
+     {E.}{E.}%
      {}{}%
      {}{}}%
     {{}%
      {Castro}{C.}%
-     {M~A}{M.~A.}%
+     {M.~A.}{M.~A.}%
      {}{}%
      {}{}}%
   }
@@ -9929,7 +9994,7 @@
   \warn{\item Invalid format of field 'month'}
 \endentry
 
-\entry{Perpinan2013}{article}{}
+\entry{Perpinan.Marcos.ea2013}{article}{}
   \name{author}{3}{}{%
     {{}%
      {Perpi{\~{n}}{\'{a}}n}{P.}%
@@ -9975,9 +10040,9 @@
   software. Source code is available as supplementary material.%
   }
   \verb{doi}
-  \verb 10.1016/J.SOLENER.2012.12.004
+  \verb 10.1016/j.solener.2012.12.004
   \endverb
-  \field{issn}{0038-092X}
+  \field{issn}{0038092X}
   \field{pages}{227\bibrangedash 241}
   \field{title}{{Electrical power fluctuations in a network of DC/AC inverters
   in a large PV plant: Relationship between correlation, distance and time
@@ -9986,6 +10051,12 @@
   \verb https://www.sciencedirect.com/science/article/pii/S0038092X12004197
   \endverb
   \field{volume}{88}
+  \verb{file}
+  \verb :home/claudia/.local/share/data/Mendeley Ltd./Mendeley Desktop/Download
+  \verb ed/Perpi{\~{n}}{\'{a}}n, Marcos, Lorenzo - 2013 - Electrical power fluc
+  \verb tuations in a network of DCAC inverters in a large PV plant Relationshi
+  \verb p betwe.pdf:pdf
+  \endverb
   \field{journaltitle}{Solar Energy}
   \field{year}{2013}
   \warn{\item Invalid format of field 'month'}
@@ -10058,8 +10129,7 @@
   \field{title}{{Sensitivity of satellite-based methods for deriving solar
   radiation to different choice of aerosol input and models}}
   \verb{url}
-  \verb https://www.sciencedirect.com/science/article/pii/S0960148114001670 htt
-  \verb ps://linkinghub.elsevier.com/retrieve/pii/S0960148114001670
+  \verb https://www.sciencedirect.com/science/article/pii/S0960148114001670
   \endverb
   \field{volume}{68}
   \field{journaltitle}{Renewable Energy}
@@ -10123,8 +10193,7 @@
   \field{title}{{Spatial variability and clustering of global solar irradiation
   in Vietnam from sunshine duration measurements}}
   \verb{url}
-  \verb http://linkinghub.elsevier.com/retrieve/pii/S1364032114009459 https://l
-  \verb inkinghub.elsevier.com/retrieve/pii/S1364032114009459
+  \verb http://linkinghub.elsevier.com/retrieve/pii/S1364032114009459
   \endverb
   \field{volume}{42}
   \verb{file}
@@ -10288,27 +10357,27 @@
   \name{author}{5}{}{%
     {{}%
      {Pozo-Vazquez}{P.-V.}%
-     {David}{D.}%
+     {D.}{D.}%
      {}{}%
      {}{}}%
     {{}%
      {Santos-Alamillos}{S.-A.}%
-     {Francisco~Javier}{F.~J.}%
+     {F.~J.}{F.~J.}%
      {}{}%
      {}{}}%
     {{}%
      {Lara-Fanego}{L.-F.}%
-     {Vicente}{V.}%
+     {V.}{V.}%
      {}{}%
      {}{}}%
     {{}%
      {Ruiz-Arias}{R.-A.}%
-     {Jose~Antonio}{J.~A.}%
+     {J.~A.}{J.~A.}%
      {}{}%
      {}{}}%
     {{}%
      {Tovar-Pescador}{T.-P.}%
-     {Joaqu{\'{i}}n}{J.}%
+     {J.}{J.}%
      {}{}%
      {}{}}%
   }
@@ -10333,21 +10402,64 @@
   \field{year}{2011}
 \endentry
 
+\entry{vazquez2012interannual}{article}{}
+  \name{author}{6}{}{%
+    {{}%
+     {Pozo-V{\'{a}}zquez}{P.-V.}%
+     {D.}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Wilbert}{W.}%
+     {S.}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Gueymard}{G.}%
+     {C.~A.}{C.~A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Alados-Arboledas}{A.-A.}%
+     {L.}{L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Santos-Alamillos}{S.-A.}%
+     {F.~J.}{F.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Granados-Mu{\~{n}}oz}{G.-M.}%
+     {M.~J.}{M.~J.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{PVD+3}
+  \strng{fullhash}{PVDWSGCAAALSAFJGMMJ1}
+  \field{labelalpha}{PV+12}
+  \field{sortinit}{P}
+  \field{title}{{Interannual variability of long time series of dni and ghi at
+  psa, spain}}
+  \field{journaltitle}{Report of Solar Consulting Services}
+  \field{year}{2012}
+\endentry
+
 \entry{Polo2008}{inbook}{}
   \name{author}{3}{}{%
     {{}%
      {Polo}{P.}%
-     {Jes{\'{u}}s}{J.}%
+     {J.}{J.}%
      {}{}%
      {}{}}%
     {{}%
      {Zarzalejo}{Z.}%
-     {Luis~F}{L.~F.}%
+     {L.~F.}{L.~F.}%
      {}{}%
      {}{}}%
     {{}%
      {Ram{\'{i}}rez}{R.}%
-     {Lourdes}{L.}%
+     {L.}{L.}%
      {}{}%
      {}{}}%
   }
@@ -10373,8 +10485,7 @@
   \field{pages}{449\bibrangedash 462}
   \field{title}{{Solar Radiation Derived from Satellite Images}}
   \verb{url}
-  \verb https://doi.org/10.1007/978-3-540-77455-6{\_}18 http://link.springer.co
-  \verb m/10.1007/978-3-540-77455-6{\_}18
+  \verb https://doi.org/10.1007/978-3-540-77455-6_18
   \endverb
   \list{location}{1}{%
     {Berlin, Heidelberg}%
@@ -10382,74 +10493,16 @@
   \field{year}{2008}
 \endentry
 
-\entry{delrio}{article}{}
-  \name{author}{3}{}{%
-    {{}%
-     {R{\'{i}}o}{R.}%
-     {Pablo}{P.}%
-     {del}{d.}%
-     {}{}}%
-    {{}%
-     {{Calvo Silvosa}}{C.}%
-     {Anxo}{A.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Iglesias G{\'{o}}mez}}{I.}%
-     {Guillermo}{G.}%
-     {}{}%
-     {}{}}%
-  }
-  \keyw{Repowering,Support schemes,Wind energy}
-  \strng{namehash}{RPdCAIG1}
-  \strng{fullhash}{RPdCAIG1}
-  \field{labelalpha}{RCI11}
-  \field{sortinit}{R}
-  \field{abstract}{%
-  Repowering of a wind farm is the process of replacing existing wind turbines
-  with new turbines that either have a larger nameplate capacity or more
-  efficiency, resulting in a net increase of the power generated. Although
-  repowering brings, both, social and private benefits, there are also several
-  obstacles to repowering which justify public support. The aim of this paper
-  is to provide an overview and a qualitative analysis of instruments and
-  design options to support repowering of on-shore wind farms. The
-  multicriteria analysis carried out in this paper shows that all instruments
-  have their advantages and drawbacks. However, feed-in tariffs and investment
-  subsidies seem to be particularly appropriate instruments in this regard.
-  Furthermore, we provide an assessment of different design options to promote
-  repowering according to key assessment criteria. The relevance of design
-  elements hinges on the fact that these are the ones directly affecting the
-  variables that are relevant in the decision to repower (capacity factors and
-  investment costs).%
-  }
-  \verb{doi}
-  \verb 10.1016/j.enpol.2010.12.035
-  \endverb
-  \field{issn}{03014215}
-  \field{number}{4}
-  \field{pages}{1897\bibrangedash 1908}
-  \field{title}{{Policies and design elements for the repowering of wind farms:
-  A qualitative analysis of different options}}
-  \verb{url}
-  \verb http://www.sciencedirect.com/science/article/pii/S0301421510009353 http
-  \verb s://linkinghub.elsevier.com/retrieve/pii/S0301421510009353
-  \endverb
-  \field{volume}{39}
-  \field{journaltitle}{Energy Policy}
-  \field{year}{2011}
-  \warn{\item Invalid format of field 'month'}
-\endentry
-
 \entry{Rosa2012}{article}{}
   \name{author}{2}{}{%
     {{}%
      {Rosa}{R.}%
-     {Eugene~A}{E.~A.}%
+     {E.~A.}{E.~A.}%
      {}{}%
      {}{}}%
     {{}%
      {Dietz}{D.}%
-     {Thomas}{T.}%
+     {T.}{T.}%
      {}{}%
      {}{}}%
   }
@@ -10480,7 +10533,7 @@
   \name{author}{1}{}{%
     {{}%
      {Reikard}{R.}%
-     {Gordon}{G.}%
+     {G.}{G.}%
      {}{}%
      {}{}}%
   }
@@ -10551,8 +10604,7 @@
   \field{title}{{Characterization of the spatio-temporal variations and ramp
   rates of solar radiation and PV}}
   \verb{url}
-  \verb http://iea-pvps.org/index.php?id=336{\&}eID=dam{\_}frontend{\_}push{\&}
-  \verb docID=2733
+  \verb http://iea-pvps.org/index.php?id=336&eID=dam_frontend_push&docID=2733
   \endverb
   \verb{file}
   \verb :home/claudia/.local/share/data/Mendeley Ltd./Mendeley Desktop/Download
@@ -10583,42 +10635,42 @@
   \name{author}{8}{}{%
     {{}%
      {Rieger}{R.}%
-     {Daniel}{D.}%
+     {D.}{D.}%
      {}{}%
      {}{}}%
     {{}%
      {Steiner}{S.}%
-     {Andrea}{A.}%
+     {A.}{A.}%
      {}{}%
      {}{}}%
     {{}%
      {Bachmann}{B.}%
-     {Vanessa}{V.}%
+     {V.}{V.}%
      {}{}%
      {}{}}%
     {{}%
      {Gasch}{G.}%
-     {Philipp}{P.}%
+     {P.}{P.}%
      {}{}%
      {}{}}%
     {{}%
      {F{\"{o}}rstner}{F.}%
-     {Jochen}{J.}%
+     {J.}{J.}%
      {}{}%
      {}{}}%
     {{}%
      {Deetz}{D.}%
-     {Konrad}{K.}%
+     {K.}{K.}%
      {}{}%
      {}{}}%
     {{}%
      {Vogel}{V.}%
-     {Bernhard}{B.}%
+     {B.}{B.}%
      {}{}%
      {}{}}%
     {{}%
      {Vogel}{V.}%
-     {Heike}{H.}%
+     {H.}{H.}%
      {}{}%
      {}{}}%
   }
@@ -10665,8 +10717,7 @@
   \field{title}{{Impact of the 4 April 2014 Saharan dust outbreak on the
   photovoltaic power generation in Germany}}
   \verb{url}
-  \verb http://www.atmos-chem-phys-discuss.net/acp-2017-441/ https://www.atmos-
-  \verb chem-phys-discuss.net/acp-2017-441/
+  \verb http://www.atmos-chem-phys-discuss.net/acp-2017-441/
   \endverb
   \field{volume}{17}
   \field{journaltitle}{Atmospheric Chemistry and Physics Discussions}
@@ -10678,7 +10729,7 @@
   \name{author}{1}{}{%
     {{}%
      {Rifkin}{R.}%
-     {Jeremy}{J.}%
+     {J.}{J.}%
      {}{}%
      {}{}}%
   }
@@ -10699,32 +10750,32 @@
   \name{author}{53}{}{%
     {{}%
      {Ruti}{R.}%
-     {P~M}{P.~M.}%
+     {P.~M.}{P.~M.}%
      {}{}%
      {}{}}%
     {{}%
      {Somot}{S.}%
-     {S}{S}%
+     {S.}{S.}%
      {}{}%
      {}{}}%
     {{}%
      {Giorgi}{G.}%
-     {F}{F}%
+     {F.}{F.}%
      {}{}%
      {}{}}%
     {{}%
      {Dubois}{D.}%
-     {C}{C}%
+     {C.}{C.}%
      {}{}%
      {}{}}%
     {{}%
      {Flaounas}{F.}%
-     {E}{E}%
+     {E.}{E.}%
      {}{}%
      {}{}}%
     {{}%
      {Obermann}{O.}%
-     {A}{A}%
+     {A.}{A.}%
      {}{}%
      {}{}}%
     {{}%
@@ -10998,8 +11049,7 @@
   \field{pages}{1187\bibrangedash 1208}
   \field{title}{{Med-CORDEX Initiative for Mediterranean Climate Studies}}
   \verb{url}
-  \verb https://doi.org/10.1175/BAMS-D-14-00176.1 http://journals.ametsoc.org/d
-  \verb oi/10.1175/BAMS-D-14-00176.1
+  \verb https://doi.org/10.1175/BAMS-D-14-00176.1
   \endverb
   \field{volume}{97}
   \field{journaltitle}{Bulletin of the American Meteorological Society}
@@ -11089,22 +11139,22 @@
   \name{author}{4}{}{%
     {{}%
      {Sanchez‐Lorenzo}{S.}%
-     {Arturo}{A.}%
+     {A.}{A.}%
      {}{}%
      {}{}}%
     {{}%
      {Calb{\'{o}}}{C.}%
-     {Josep}{J.}%
+     {J.}{J.}%
      {}{}%
      {}{}}%
     {{}%
      {Brunetti}{B.}%
-     {Michele}{M.}%
+     {M.}{M.}%
      {}{}%
      {}{}}%
     {{}%
      {Deser}{D.}%
-     {Clara}{C.}%
+     {C.}{C.}%
      {}{}%
      {}{}}%
   }
@@ -11150,8 +11200,7 @@
   sunshine duration and cloud cover and their relations with atmospheric
   circulation}}
   \verb{url}
-  \verb https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2008JD011394 ht
-  \verb tp://doi.wiley.com/10.1029/2008JD011394
+  \verb https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2008JD011394
   \endverb
   \field{volume}{114}
   \field{journaltitle}{Journal of Geophysical Research}
@@ -11163,12 +11212,12 @@
   \name{author}{2}{}{%
     {{}%
      {Salvador}{S.}%
-     {Stan}{S.}%
+     {S.}{S.}%
      {}{}%
      {}{}}%
     {{}%
      {Chan}{C.}%
-     {Philip}{P.}%
+     {P.}{P.}%
      {}{}%
      {}{}}%
   }
@@ -11208,9 +11257,7 @@
   clustering/segmentation algorithms}}
   \verb{url}
   \verb http://ieeexplore.ieee.org/xpl/login.jsp?tp={\&}arnumber=1374239{\&}url
-  \verb =http://ieeexplore.ieee.org/xpls/abs{\_}all.jsp?arnumber=1374239{\%}5Cn
-  \verb http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.70.9687{\&}rep
-  \verb =rep1{\&}type=pdf http://ieeexplore.ieee.org/document/1374239/
+  \verb =
   \endverb
   \field{year}{2004}
 \endentry
@@ -11219,52 +11266,52 @@
   \name{author}{11}{}{%
     {{}%
      {Schulz}{S.}%
-     {J}{J}%
+     {J.}{J.}%
      {}{}%
      {}{}}%
     {{}%
      {Albert}{A.}%
-     {P}{P}%
+     {P.}{P.}%
      {}{}%
      {}{}}%
     {{}%
      {Behr}{B.}%
-     {H-D}{H.-D.}%
+     {H-D.}{H.-D.}%
      {}{}%
      {}{}}%
     {{}%
      {Caprion}{C.}%
-     {D}{D}%
+     {D.}{D.}%
      {}{}%
      {}{}}%
     {{}%
      {Deneke}{D.}%
-     {H}{H}%
+     {H.}{H.}%
      {}{}%
      {}{}}%
     {{}%
      {Dewitte}{D.}%
-     {S}{S}%
+     {S.}{S.}%
      {}{}%
      {}{}}%
     {{}%
      {D{\"{u}}rr}{D.}%
-     {B}{B}%
+     {B.}{B.}%
      {}{}%
      {}{}}%
     {{}%
      {Fuchs}{F.}%
-     {P}{P}%
+     {P.}{P.}%
      {}{}%
      {}{}}%
     {{}%
      {Gratzki}{G.}%
-     {A}{A}%
+     {A.}{A.}%
      {}{}%
      {}{}}%
     {{}%
      {Hechler}{H.}%
-     {P}{P}%
+     {P.}{P.}%
      {}{}%
      {}{}}%
     {{}%
@@ -11289,7 +11336,7 @@
   \name{author}{1}{}{%
     {{}%
      {Schmetz}{S.}%
-     {Johannes}{J.}%
+     {J.}{J.}%
      {}{}%
      {}{}}%
   }
@@ -11321,32 +11368,32 @@
   \name{author}{5}{}{%
     {{}%
      {Sengupta}{S.}%
-     {Manajit}{M.}%
+     {M.}{M.}%
      {}{}%
      {}{}}%
     {{}%
      {Habte}{H.}%
-     {Aron}{A.}%
+     {A.}{A.}%
      {}{}%
      {}{}}%
     {{}%
      {Gueymard}{G.}%
-     {Christian}{C.}%
+     {C.~A.}{C.~A.}%
      {}{}%
      {}{}}%
     {{}%
      {Wilbert}{W.}%
-     {Stefan}{S.}%
+     {S.}{S.}%
      {}{}%
      {}{}}%
     {{}%
      {Renne}{R.}%
-     {Dave}{D.}%
+     {D.}{D.}%
      {}{}%
      {}{}}%
   }
   \strng{namehash}{SM+1}
-  \strng{fullhash}{SMHAGCWSRD1}
+  \strng{fullhash}{SMHAGCAWSRD1}
   \field{labelalpha}{Sen+17}
   \field{extraalpha}{1}
   \field{sortinit}{S}
@@ -11363,27 +11410,27 @@
   \name{author}{5}{}{%
     {{}%
      {Sengupta}{S.}%
-     {Manajit}{M.}%
+     {M.}{M.}%
      {}{}%
      {}{}}%
     {{}%
      {Habte}{H.}%
-     {Aron}{A.}%
+     {A.}{A.}%
      {}{}%
      {}{}}%
     {{}%
      {Gueymard}{G.}%
-     {Christian}{C.}%
+     {C.}{C.}%
      {}{}%
      {}{}}%
     {{}%
      {Wilbert}{W.}%
-     {Stefan}{S.}%
+     {S.}{S.}%
      {}{}%
      {}{}}%
     {{}%
      {Renne}{R.}%
-     {Dave}{D.}%
+     {D.}{D.}%
      {}{}%
      {}{}}%
   }
@@ -11414,47 +11461,47 @@
   \name{author}{9}{}{%
     {{}%
      {Sevault}{S.}%
-     {Florence}{F.}%
+     {F.}{F.}%
      {}{}%
      {}{}}%
     {{}%
      {Somot}{S.}%
-     {Samuel}{S.}%
+     {S.}{S.}%
      {}{}%
      {}{}}%
     {{}%
      {Alias}{A.}%
-     {Antoinette}{A.}%
+     {A.}{A.}%
      {}{}%
      {}{}}%
     {{}%
      {Dubois}{D.}%
-     {Clotilde}{C.}%
+     {C.}{C.}%
      {}{}%
      {}{}}%
     {{}%
      {Lebeaupin-Brossier}{L.-B.}%
-     {Cindy}{C.}%
+     {C.}{C.}%
      {}{}%
      {}{}}%
     {{}%
      {Nabat}{N.}%
-     {Pierre}{P.}%
+     {P.}{P.}%
      {}{}%
      {}{}}%
     {{}%
      {Adloff}{A.}%
-     {Fanny}{F.}%
+     {F.}{F.}%
      {}{}%
      {}{}}%
     {{}%
      {D{\'{e}}qu{\'{e}}}{D.}%
-     {Michel}{M.}%
+     {M.}{M.}%
      {}{}%
      {}{}}%
     {{}%
      {Decharme}{D.}%
-     {Bertrand}{B.}%
+     {B.}{B.}%
      {}{}%
      {}{}}%
   }
@@ -11474,8 +11521,7 @@
   \field{title}{{A fully coupled Mediterranean regional climate system model:
   design and evaluation of the ocean component for the 1980–2012 period}}
   \verb{url}
-  \verb https://doi.org/10.3402/tellusa.v66.23967 https://www.tandfonline.com/d
-  \verb oi/full/10.3402/tellusa.v66.23967
+  \verb https://doi.org/10.3402/tellusa.v66.23967
   \endverb
   \field{volume}{66}
   \field{journaltitle}{Tellus A: Dynamic Meteorology and Oceanography}
@@ -11553,42 +11599,42 @@
   \name{author}{8}{}{%
     {{}%
      {Sanchez-Lorenzo}{S.-L.}%
-     {Arturo}{A.}%
+     {A.}{A.}%
      {}{}%
      {}{}}%
     {{}%
      {Enriquez-Alonso}{E.-A.}%
-     {Aaron}{A.}%
+     {A.}{A.}%
      {}{}%
      {}{}}%
     {{}%
      {Wild}{W.}%
-     {Martin}{M.}%
+     {M.}{M.}%
      {}{}%
      {}{}}%
     {{}%
      {Trentmann}{T.}%
-     {J{\"{o}}rg}{J.}%
+     {J.}{J.}%
      {}{}%
      {}{}}%
     {{}%
      {Vicente-Serrano}{V.-S.}%
-     {Sergio~M.}{S.~M.}%
+     {S.~M.}{S.~M.}%
      {}{}%
      {}{}}%
     {{}%
      {Sanchez-Romero}{S.-R.}%
-     {Alejandro}{A.}%
+     {A.}{A.}%
      {}{}%
      {}{}}%
     {{}%
      {Posselt}{P.}%
-     {Rebekka}{R.}%
+     {R.}{R.}%
      {}{}%
      {}{}}%
     {{}%
      {Hakuba}{H.}%
-     {Maria~Z.}{M.~Z.}%
+     {M.~Z.}{M.~Z.}%
      {}{}%
      {}{}}%
   }
@@ -11634,17 +11680,17 @@
   \name{author}{3}{}{%
     {{}%
      {Sanchez-Lorenzo}{S.-L.}%
-     {A}{A}%
+     {A.}{A.}%
      {}{}%
      {}{}}%
     {{}%
      {Calb{\'{o}}}{C.}%
-     {J}{J}%
+     {J.}{J.}%
      {}{}%
      {}{}}%
     {{}%
      {Wild}{W.}%
-     {M}{M}%
+     {M.}{M.}%
      {}{}%
      {}{}}%
   }
@@ -11675,17 +11721,17 @@
   \name{author}{3}{}{%
     {{}%
      {Schaber}{S.}%
-     {Christopher}{C.}%
+     {C.}{C.}%
      {}{}%
      {}{}}%
     {{}%
      {Mazza}{M.}%
-     {Patrick}{P.}%
+     {P.}{P.}%
      {}{}%
      {}{}}%
     {{}%
      {Hammerschlag}{H.}%
-     {Roel}{R.}%
+     {R.}{R.}%
      {}{}%
      {}{}}%
   }
@@ -11712,8 +11758,7 @@
   \field{pages}{21\bibrangedash 29}
   \field{title}{{Utility-Scale Storage of Renewable Energy}}
   \verb{url}
-  \verb https://www.sciencedirect.com/science/article/pii/S1040619004000594 htt
-  \verb ps://linkinghub.elsevier.com/retrieve/pii/S1040619004000594
+  \verb https://www.sciencedirect.com/science/article/pii/S1040619004000594
   \endverb
   \field{volume}{17}
   \field{journaltitle}{The Electricity Journal}
@@ -11725,12 +11770,12 @@
   \name{author}{34}{}{%
     {{}%
      {Stocker}{S.}%
-     {T~F}{T.~F.}%
+     {T.~F.}{T.~F.}%
      {}{}%
      {}{}}%
     {{}%
      {Qin}{Q.}%
-     {D}{D}%
+     {D.}{D.}%
      {}{}%
      {}{}}%
     {{}%
@@ -11740,17 +11785,17 @@
      {}{}}%
     {{}%
      {Alexander}{A.}%
-     {L~V}{L.~V.}%
+     {L.~V.}{L.~V.}%
      {}{}%
      {}{}}%
     {{}%
      {Allen}{A.}%
-     {S~K}{S.~K.}%
+     {S.~K.}{S.~K.}%
      {}{}%
      {}{}}%
     {{}%
      {Bindoff}{B.}%
-     {N~L}{N.~L.}%
+     {N.~L.}{N.~L.}%
      {}{}%
      {}{}}%
     {{}%
@@ -11917,7 +11962,7 @@
   of the Intergovernmental Panel on Climate Change}}
   \verb{url}
   \verb https://www.cambridge.org/core/product/identifier/CBO9781107415324A011/
-  \verb type/book{\_}part
+  \verb type/book_part
   \endverb
   \list{location}{1}{%
     {Cambridge}%
@@ -11929,7 +11974,7 @@
   \name{author}{3}{}{%
     {{}%
      {Streets}{S.}%
-     {David~G}{D.~G.}%
+     {D.~G.}{D.~G.}%
      {}{}%
      {}{}}%
     {{}%
@@ -11970,8 +12015,7 @@
   \field{title}{{Two-decadal aerosol trends as a likely explanation of the
   global dimming/brightening transition}}
   \verb{url}
-  \verb https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2006GL026471 ht
-  \verb tp://doi.wiley.com/10.1029/2006GL026471
+  \verb https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2006GL026471
   \endverb
   \field{volume}{33}
   \field{journaltitle}{Geophysical Research Letters}
@@ -11982,7 +12026,7 @@
   \name{author}{17}{}{%
     {{}%
      {Szopa}{S.}%
-     {Sophie}{S.}%
+     {S.}{S.}%
      {}{}%
      {}{}}%
     {{}%
@@ -12126,78 +12170,36 @@
   \warn{\item Invalid format of field 'month'}
 \endentry
 
-\entry{Sorensen1991}{article}{}
-  \name{author}{1}{}{%
-    {{}%
-     {S{\o}rensen}{S.}%
-     {Bent}{B.}%
-     {}{}%
-     {}{}}%
-  }
-  \keyw{History,Renewable energy,Technical and economic evaluation}
-  \strng{namehash}{SB1}
-  \strng{fullhash}{SB1}
-  \field{labelalpha}{S{\o}r91}
-  \field{sortinit}{S}
-  \field{abstract}{%
-  During most of human history renewable energy has been the only energy option
-  available. Only during the last few centuries has fossil and lately nuclear
-  energy sources been used in a non-renewable way. They took over because they
-  seemed much cheaper than the renewable sources. However, environmental
-  problems of a local as well as a global magnitude are becoming evident, and
-  questions are now being raised: are the fossil and nuclear choices indeed the
-  cheapest; could a full account of indirect costs be attempted? In any case,
-  the renewable options have only been developed in some areas of the world,
-  and the reasons for their successes and failures has to be discussed.
-  {\textcopyright} 1991.%
-  }
-  \verb{doi}
-  \verb 10.1016/0301-4215(91)90072-V
-  \endverb
-  \field{isbn}{ISSN{\~{}}{\~{}}0301-4215}
-  \field{issn}{03014215}
-  \field{number}{1}
-  \field{pages}{8\bibrangedash 12}
-  \field{title}{{A history of renewable energy technology}}
-  \verb{url}
-  \verb https://linkinghub.elsevier.com/retrieve/pii/030142159190072V
-  \endverb
-  \field{volume}{19}
-  \field{journaltitle}{Energy Policy}
-  \field{year}{1991}
-  \warn{\item Invalid format of field 'month'}
-\endentry
-
 \entry{Tegen1997}{article}{}
   \name{author}{6}{}{%
     {{}%
      {Tegen}{T.}%
-     {Ina}{I.}%
+     {I.}{I.}%
      {}{}%
      {}{}}%
     {{}%
      {Hollrig}{H.}%
-     {Peter}{P.}%
+     {P.}{P.}%
      {}{}%
      {}{}}%
     {{}%
      {Chin}{C.}%
-     {Mian}{M.}%
+     {M.}{M.}%
      {}{}%
      {}{}}%
     {{}%
      {Fung}{F.}%
-     {Inez}{I.}%
+     {I.}{I.}%
      {}{}%
      {}{}}%
     {{}%
      {Jacob}{J.}%
-     {Daniel}{D.}%
+     {D.}{D.}%
      {}{}%
      {}{}}%
     {{}%
      {Penner}{P.}%
-     {Joyce}{J.}%
+     {J.}{J.}%
      {}{}%
      {}{}}%
   }
@@ -12239,17 +12241,17 @@
   \name{author}{3}{}{%
     {{}%
      {Tanr{\'{e}}}{T.}%
-     {D}{D}%
+     {D.}{D.}%
      {}{}%
      {}{}}%
     {{}%
      {Geleyn}{G.}%
-     {J~F}{J.~F.}%
+     {J.~F.}{J.~F.}%
      {}{}%
      {}{}}%
     {{}%
      {Slingo}{S.}%
-     {J}{J}%
+     {J.}{J.}%
      {}{}%
      {}{}}%
   }
@@ -12271,12 +12273,12 @@
   \name{author}{2}{}{%
     {{}%
      {Trewartha}{T.}%
-     {G~T}{G.~T.}%
+     {G.~T.}{G.~T.}%
      {}{}%
      {}{}}%
     {{}%
      {Horn}{H.}%
-     {L~H}{L.~H.}%
+     {L.~H.}{L.~H.}%
      {}{}%
      {}{}}%
   }
@@ -12300,51 +12302,51 @@
   \name{author}{9}{}{%
     {{}%
      {Tobin}{T.}%
-     {Isabelle}{I.}%
+     {I.}{I.}%
      {}{}%
      {}{}}%
     {{}%
      {Vautard}{V.}%
-     {Robert}{R.}%
+     {R.}{R.}%
      {}{}%
      {}{}}%
     {{}%
      {Balog}{B.}%
-     {Irena}{I.}%
+     {I.}{I.}%
      {}{}%
      {}{}}%
     {{}%
      {Br{\'{e}}on}{B.}%
-     {Fran{\c{c}}ois-Marie}{F.-M.}%
+     {F.~M.}{F.~M.}%
      {}{}%
      {}{}}%
     {{}%
      {Jerez}{J.}%
-     {Sonia}{S.}%
+     {S.}{S.}%
      {}{}%
      {}{}}%
     {{}%
      {Ruti}{R.}%
-     {Paolo~Michele}{P.~M.}%
+     {P.~M.}{P.~M.}%
      {}{}%
      {}{}}%
     {{}%
      {Thais}{T.}%
-     {Fran{\c{c}}oise}{F.}%
+     {F.}{F.}%
      {}{}%
      {}{}}%
     {{}%
      {Vrac}{V.}%
-     {Mathieu}{M.}%
+     {M.}{M.}%
      {}{}%
      {}{}}%
     {{}%
      {Yiou}{Y.}%
-     {Pascal}{P.}%
+     {P.}{P.}%
      {}{}%
      {}{}}%
   }
-  \strng{namehash}{TI+3}
+  \strng{namehash}{TI+2}
   \strng{fullhash}{TIVRBIBFMJSRPMTFVMYP1}
   \field{labelalpha}{Tob+15}
   \field{sortinit}{T}
@@ -12396,67 +12398,67 @@
   \name{author}{12}{}{%
     {{}%
      {Tobin}{T.}%
-     {Isabelle}{I.}%
+     {I.}{I.}%
      {}{}%
      {}{}}%
     {{}%
      {Jerez}{J.}%
-     {Sonia}{S.}%
+     {S.}{S.}%
      {}{}%
      {}{}}%
     {{}%
      {Vautard}{V.}%
-     {Robert}{R.}%
+     {R.}{R.}%
      {}{}%
      {}{}}%
     {{}%
      {Thais}{T.}%
-     {Fran{\c{c}}oise}{F.}%
+     {F.}{F.}%
      {}{}%
      {}{}}%
     {{}%
      {Meijgaard}{M.}%
-     {Erik}{E.}%
+     {E.}{E.}%
      {van}{v.}%
      {}{}}%
     {{}%
      {Prein}{P.}%
-     {Andreas}{A.}%
+     {A.}{A.}%
      {}{}%
      {}{}}%
     {{}%
      {D{\'{e}}qu{\'{e}}}{D.}%
-     {Michel}{M.}%
+     {M.}{M.}%
      {}{}%
      {}{}}%
     {{}%
      {Kotlarski}{K.}%
-     {Sven}{S.}%
+     {S.}{S.}%
      {}{}%
      {}{}}%
     {{}%
      {Maule}{M.}%
-     {Cathrine~Fox}{C.~F.}%
+     {C.~F.}{C.~F.}%
      {}{}%
      {}{}}%
     {{}%
      {Nikulin}{N.}%
-     {Grigory}{G.}%
+     {G.}{G.}%
      {}{}%
      {}{}}%
     {{}%
      {No{\"{e}}l}{N.}%
-     {Thomas}{T.}%
+     {T.}{T.}%
      {}{}%
      {}{}}%
     {{}%
      {Teichmann}{T.}%
-     {Claas}{C.}%
+     {C.}{C.}%
      {}{}%
      {}{}}%
   }
   \keyw{Europe,climate change impacts,regional climate modelling,wind energy}
-  \strng{namehash}{TI+3}
+  \strng{namehash}{TI+2}
   \strng{fullhash}{TIJSVRTFMEvPADMKSMCFNGNTTC1}
   \field{labelalpha}{Tob+16}
   \field{sortinit}{T}
@@ -12498,32 +12500,32 @@
   \name{author}{7}{}{%
     {{}%
      {Tobin}{T.}%
-     {I}{I}%
+     {I.}{I.}%
      {}{}%
      {}{}}%
     {{}%
      {Greuell}{G.}%
-     {W}{W}%
+     {W.}{W.}%
      {}{}%
      {}{}}%
     {{}%
      {Jerez}{J.}%
-     {S}{S}%
+     {S.}{S.}%
      {}{}%
      {}{}}%
     {{}%
      {Ludwig}{L.}%
-     {F}{F}%
+     {F.}{F.}%
      {}{}%
      {}{}}%
     {{}%
      {Vautard}{V.}%
-     {R}{R}%
+     {R.}{R.}%
      {}{}%
      {}{}}%
     {{}%
      {Vliet}{V.}%
-     {M~T~H}{M.~T.~H.}%
+     {M.~T.~H.}{M.~T.~H.}%
      {van}{v.}%
      {}{}}%
     {{}%
@@ -12566,8 +12568,7 @@
   \field{title}{{Vulnerabilities and resilience of European power generation to
   1.5 °C, 2 °C and 3 °C warming}}
   \verb{url}
-  \verb http://stacks.iop.org/1748-9326/13/i=4/a=044024 http://stacks.iop.org/1
-  \verb 748-9326/13/i=4/a=044024?key=crossref.7132b6b600e244c44cef30e5d9da6a42
+  \verb http://stacks.iop.org/1748-9326/13/i=4/a=044024
   \endverb
   \field{volume}{13}
   \field{journaltitle}{Environmental Research Letters}
@@ -12579,7 +12580,7 @@
   \name{author}{1}{}{%
     {{}%
      {Troccoli}{T.}%
-     {Alberto}{A.}%
+     {A.}{A.}%
      {}{}%
      {}{}}%
   }
@@ -12645,17 +12646,17 @@
   \name{author}{3}{}{%
     {{}%
      {Taylor}{T.}%
-     {Karl~E.}{K.~E.}%
+     {K.~E.}{K.~E.}%
      {}{}%
      {}{}}%
     {{}%
      {Stouffer}{S.}%
-     {Ronald~J.}{R.~J.}%
+     {R.~J.}{R.~J.}%
      {}{}%
      {}{}}%
     {{}%
      {Meehl}{M.}%
-     {Gerald~A.}{G.~A.}%
+     {G.~A.}{G.~A.}%
      {}{}%
      {}{}}%
   }
@@ -12704,22 +12705,22 @@
   \name{author}{4}{}{%
     {{}%
      {Vignola}{V.}%
-     {Frank}{F.}%
+     {F.}{F.}%
      {}{}%
      {}{}}%
     {{}%
      {Grover}{G.}%
-     {Cathy}{C.}%
+     {C.}{C.}%
      {}{}%
      {}{}}%
     {{}%
      {Lemon}{L.}%
-     {Nick}{N.}%
+     {N.}{N.}%
      {}{}%
      {}{}}%
     {{}%
      {McMahan}{M.}%
-     {Andrew}{A.}%
+     {A.}{A.}%
      {}{}%
      {}{}}%
   }
@@ -12770,17 +12771,17 @@
   \name{author}{3}{}{%
     {{}%
      {Vernay}{V.}%
-     {Christophe}{C.}%
+     {C.}{C.}%
      {}{}%
      {}{}}%
     {{}%
      {Pitaval}{P.}%
-     {S{\'{e}}bastien}{S.}%
+     {S.}{S.}%
      {}{}%
      {}{}}%
     {{}%
      {Blanc}{B.}%
-     {Philippe}{P.}%
+     {P.}{P.}%
      {}{}%
      {}{}}%
   }
@@ -12817,8 +12818,7 @@
   for the Engineering, the Financing and the Operating of Photovoltaic
   Systems}}
   \verb{url}
-  \verb https://www.sciencedirect.com/science/article/pii/S1876610214014969 htt
-  \verb ps://linkinghub.elsevier.com/retrieve/pii/S1876610214014969
+  \verb https://www.sciencedirect.com/science/article/pii/S1876610214014969
   \endverb
   \field{volume}{57}
   \verb{file}
@@ -12832,64 +12832,21 @@
   \warn{\item Invalid format of field 'month'}
 \endentry
 
-\entry{vazquez2012interannual}{article}{}
-  \name{author}{6}{}{%
-    {{}%
-     {V{\'{a}}zquez}{V.}%
-     {D~Pozo}{D.~P.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Wilbert}{W.}%
-     {S}{S}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Gueymard}{G.}%
-     {C~A}{C.~A.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Alados-Arboledas}{A.-A.}%
-     {L}{L}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Santos-Alamillos}{S.-A.}%
-     {F~J}{F.~J.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Granados-Mu{\~{n}}oz}{G.-M.}%
-     {M~J}{M.~J.}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{VDP+1}
-  \strng{fullhash}{VDPWSGCAAALSAFJGMMJ1}
-  \field{labelalpha}{V{\'{a}}z+12}
-  \field{sortinit}{V}
-  \field{title}{{Interannual variability of long time series of dni and ghi at
-  psa, spain}}
-  \field{journaltitle}{Report of Solar Consulting Services}
-  \field{year}{2012}
-\endentry
-
 \entry{Wilcox2013}{article}{}
   \name{author}{3}{}{%
     {{}%
      {Wilcox}{W.}%
-     {L~J}{L.~J.}%
+     {L.~J.}{L.~J.}%
      {}{}%
      {}{}}%
     {{}%
      {Highwood}{H.}%
-     {E~J}{E.~J.}%
+     {E.~J.}{E.~J.}%
      {}{}%
      {}{}}%
     {{}%
      {Dunstone}{D.}%
-     {N~J}{N.~J.}%
+     {N.~J.}{N.~J.}%
      {}{}%
      {}{}}%
   }
@@ -12919,47 +12876,47 @@
   \name{author}{9}{}{%
     {{}%
      {Wid{\'{e}}n}{W.}%
-     {Joakim}{J.}%
+     {J.}{J.}%
      {}{}%
      {}{}}%
     {{}%
      {Carpman}{C.}%
-     {Nicole}{N.}%
+     {N.}{N.}%
      {}{}%
      {}{}}%
     {{}%
      {Castellucci}{C.}%
-     {Valeria}{V.}%
+     {V.}{V.}%
      {}{}%
      {}{}}%
     {{}%
      {Lingfors}{L.}%
-     {David}{D.}%
+     {D.}{D.}%
      {}{}%
      {}{}}%
     {{}%
      {Olauson}{O.}%
-     {Jon}{J.}%
+     {J.}{J.}%
      {}{}%
      {}{}}%
     {{}%
      {Remouit}{R.}%
-     {Flore}{F.}%
+     {F.}{F.}%
      {}{}%
      {}{}}%
     {{}%
      {Bergkvist}{B.}%
-     {Mikael}{M.}%
+     {M.}{M.}%
      {}{}%
      {}{}}%
     {{}%
      {Grabbe}{G.}%
-     {M{\aa}rten}{M.}%
+     {M.}{M.}%
      {}{}%
      {}{}}%
     {{}%
      {Waters}{W.}%
-     {Rafael}{R.}%
+     {R.}{R.}%
      {}{}%
      {}{}}%
   }
@@ -13003,8 +12960,7 @@
   \field{title}{{Variability assessment and forecasting of renewables: A review
   for solar, wind, wave and tidal resources}}
   \verb{url}
-  \verb http://www.sciencedirect.com/science/article/pii/S1364032114010715 http
-  \verb s://linkinghub.elsevier.com/retrieve/pii/S1364032114010715
+  \verb http://www.sciencedirect.com/science/article/pii/S1364032114010715
   \endverb
   \field{volume}{44}
   \verb{file}
@@ -13071,8 +13027,7 @@
   combined power production of 100 grid connected PV systems distributed over
   the area of Germany}}
   \verb{url}
-  \verb https://www.sciencedirect.com/science/article/pii/S0038092X00001468 htt
-  \verb p://linkinghub.elsevier.com/retrieve/pii/S0038092X00001468
+  \verb https://www.sciencedirect.com/science/article/pii/S0038092X00001468
   \endverb
   \field{volume}{70}
   \field{journaltitle}{Solar Energy}
@@ -13084,27 +13039,27 @@
   \name{author}{5}{}{%
     {{}%
      {Wild}{W.}%
-     {Martin}{M.}%
+     {M.}{M.}%
      {}{}%
      {}{}}%
     {{}%
      {Folini}{F.}%
-     {Doris}{D.}%
+     {D.}{D.}%
      {}{}%
      {}{}}%
     {{}%
      {Henschel}{H.}%
-     {Florian}{F.}%
+     {F.}{F.}%
      {}{}%
      {}{}}%
     {{}%
      {Fischer}{F.}%
-     {Natalie}{N.}%
+     {N.}{N.}%
      {}{}%
      {}{}}%
     {{}%
      {M{\"{u}}ller}{M.}%
-     {Bj{\"{o}}rn}{B.}%
+     {B.}{B.}%
      {}{}%
      {}{}}%
   }
@@ -13153,8 +13108,7 @@
   CMIP5 climate models and their influence on energy yields of photovoltaic
   systems}}
   \verb{url}
-  \verb http://www.sciencedirect.com/science/article/pii/S0038092X15001668 http
-  \verb s://linkinghub.elsevier.com/retrieve/pii/S0038092X15001668
+  \verb http://www.sciencedirect.com/science/article/pii/S0038092X15001668
   \endverb
   \field{volume}{116}
   \field{journaltitle}{Solar Energy}
@@ -13166,7 +13120,7 @@
   \name{author}{1}{}{%
     {{}%
      {Wild}{W.}%
-     {Martin}{M.}%
+     {M.}{M.}%
      {}{}%
      {}{}}%
   }
@@ -13211,7 +13165,7 @@
   \name{author}{1}{}{%
     {{}%
      {Wild}{W.}%
-     {Martin}{M.}%
+     {M.}{M.}%
      {}{}%
      {}{}}%
   }
@@ -13276,7 +13230,7 @@
   \name{author}{1}{}{%
     {{}%
      {Wild}{W.}%
-     {Martin}{M.}%
+     {M.}{M.}%
      {}{}%
      {}{}}%
   }
@@ -13304,12 +13258,12 @@
   \name{author}{2}{}{%
     {{}%
      {Willson}{W.}%
-     {Richard~C}{R.~C.}%
+     {R.~C.}{R.~C.}%
      {}{}%
      {}{}}%
     {{}%
      {Mordvinov}{M.}%
-     {Alexander~V}{A.~V.}%
+     {A.~V.}{A.~V.}%
      {}{}%
      {}{}}%
   }
@@ -13385,7 +13339,7 @@
   \name{author}{1}{}{%
     {{}%
      {Yin}{Y.}%
-     {Jeffrey~H}{J.~H.}%
+     {J.~H.}{J.~H.}%
      {}{}%
      {}{}}%
   }
@@ -13417,8 +13371,7 @@
   \field{title}{{A consistent poleward shift of the storm tracks in simulations
   of 21st century climate}}
   \verb{url}
-  \verb https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2005GL023684 ht
-  \verb tp://doi.wiley.com/10.1029/2005GL023684
+  \verb https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2005GL023684
   \endverb
   \field{volume}{32}
   \field{journaltitle}{Geophysical Research Letters}
@@ -13483,8 +13436,7 @@
   \field{title}{{Determination of measuring sites for solar irradiance, based
   on cluster analysis of satellite-derived cloud estimations}}
   \verb{url}
-  \verb http://dx.doi.org/10.1016/j.solener.2013.08.005 https://linkinghub.else
-  \verb vier.com/retrieve/pii/S0038092X13003150
+  \verb http://dx.doi.org/10.1016/j.solener.2013.08.005
   \endverb
   \field{volume}{97}
   \verb{file}
@@ -13562,8 +13514,7 @@
   forecasting of photovoltaic electricity production. Part II: Probabilistic
   forecast of daily production}}
   \verb{url}
-  \verb http://linkinghub.elsevier.com/retrieve/pii/S0038092X13005239 https://l
-  \verb inkinghub.elsevier.com/retrieve/pii/S0038092X14001601
+  \verb http://linkinghub.elsevier.com/retrieve/pii/S0038092X13005239
   \endverb
   \field{volume}{105}
   \verb{file}
@@ -13585,17 +13536,17 @@
   \name{author}{3}{}{%
     {{}%
      {Zagouras}{Z.}%
-     {Athanassios}{A.}%
+     {A.}{A.}%
      {}{}%
      {}{}}%
     {{}%
      {Inman}{I.}%
-     {Rich~H.}{R.~H.}%
+     {R.~H.}{R.~H.}%
      {}{}%
      {}{}}%
     {{}%
      {Coimbra}{C.}%
-     {Carlos~F.M.}{C.~F.}%
+     {C.~F.M.}{C.~F.}%
      {}{}%
      {}{}}%
   }
@@ -13644,8 +13595,7 @@
   \field{title}{{On the determination of coherent solar microclimates for
   utility planning and operations}}
   \verb{url}
-  \verb http://dx.doi.org/10.1016/j.solener.2014.01.021 https://linkinghub.else
-  \verb vier.com/retrieve/pii/S0038092X14000395
+  \verb http://dx.doi.org/10.1016/j.solener.2014.01.021
   \endverb
   \field{volume}{102}
   \verb{file}
@@ -13662,17 +13612,17 @@
   \name{author}{3}{}{%
     {{}%
      {Zscheischler}{Z.}%
-     {Jakob}{J.}%
+     {J.}{J.}%
      {}{}%
      {}{}}%
     {{}%
      {Mahecha}{M.}%
-     {Miguel~D}{M.~D.}%
+     {M.~D.}{M.~D.}%
      {}{}%
      {}{}}%
     {{}%
      {Harmeling}{H.}%
-     {Stefan}{S.}%
+     {S.}{S.}%
      {}{}%
      {}{}}%
   }
@@ -13712,8 +13662,7 @@
   \field{title}{{Climate Classifications: the Value of Unsupervised
   Clustering}}
   \verb{url}
-  \verb http://www.sciencedirect.com/science/article/pii/S1877050912002177 http
-  \verb s://linkinghub.elsevier.com/retrieve/pii/S1877050912002177
+  \verb http://www.sciencedirect.com/science/article/pii/S1877050912002177
   \endverb
   \field{volume}{9}
   \field{journaltitle}{Procedia Computer Science}
@@ -13728,17 +13677,17 @@
   \name{author}{3}{}{%
     {{}%
      {Zagouras}{Z.}%
-     {Athanassios}{A.}%
+     {A.}{A.}%
      {}{}%
      {}{}}%
     {{}%
      {Pedro}{P.}%
-     {Hugo~T.C.}{H.~T.}%
+     {H.~T.C.}{H.~T.}%
      {}{}%
      {}{}}%
     {{}%
      {Coimbra}{C.}%
-     {Carlos~F.M.}{C.~F.}%
+     {C.~F.M.}{C.~F.}%
      {}{}%
      {}{}}%
   }
@@ -13803,17 +13752,17 @@
   \name{author}{3}{}{%
     {{}%
      {Zarzalejo}{Z.}%
-     {Luis~F}{L.~F.}%
+     {L.~F.}{L.~F.}%
      {}{}%
      {}{}}%
     {{}%
      {Ramirez}{R.}%
-     {Lourdes}{L.}%
+     {L.}{L.}%
      {}{}%
      {}{}}%
     {{}%
      {Polo}{P.}%
-     {Jesus}{J.}%
+     {J.}{J.}%
      {}{}%
      {}{}}%
   }
@@ -13845,15 +13794,15 @@
   \name{author}{1}{}{%
     {{}%
      {{Alonso Garc{\'{i}}a}}{A.}%
-     {Mar{\'{i}}a del~Carmen}{M.~d.~C.}%
+     {M.~C.}{M.~C.}%
      {}{}%
      {}{}}%
   }
   \list{publisher}{1}{%
     {CIEMAT}%
   }
-  \strng{namehash}{AMdC1}
-  \strng{fullhash}{AMdC1}
+  \strng{namehash}{AMC1}
+  \strng{fullhash}{AMC1}
   \field{labelalpha}{{Alo}05}
   \field{sortinit}{{A}}
   \field{isbn}{84-7834-495-0}

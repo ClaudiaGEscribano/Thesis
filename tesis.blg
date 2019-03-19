@@ -3,7 +3,9 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: tesis.aux
 The style file: biblatex.bst
 A level-1 auxiliary file: agradecimientos.aux
+A level-1 auxiliary file: preface.aux
 A level-1 auxiliary file: resumen.aux
+A level-1 auxiliary file: abstract.aux
 A level-1 auxiliary file: Intro.aux
 A level-1 auxiliary file: DataMethods.aux
 A level-1 auxiliary file: Resultados.aux
@@ -20,69 +22,72 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated field_info (elt_size=4) to 34329 items from 5000.
+Reallocated field_info (elt_size=4) to 34607 items from 5000.
 Database file #1: tesis-blx.bib
-Database file #2: Data2.bib
+Database file #2: Data5.bib
 Reallocated str_pool (elt_size=1) to 130000 items from 65000.
 Warning--entry type for "dumortier1999status" isn't style-file defined
---line 756 of file Data2.bib
-Repeated entry---line 874 of file Data2.bib
+--line 778 of file Data5.bib
+Repeated entry---line 896 of file Data5.bib
  : @article{Gaetani2014
  :                     ,
 I'm skipping whatever remains of this entry
 Reallocated str_pool (elt_size=1) to 195000 items from 130000.
-Reallocated str_pool (elt_size=1) to 260000 items from 195000.
-Repeated entry---line 2265 of file Data2.bib
- : @article{Jain1999
- :                  ,
+Repeated entry---line 1513 of file Data5.bib
+ : @article{Jerez2013
+ :                   ,
 I'm skipping whatever remains of this entry
+Reallocated str_pool (elt_size=1) to 260000 items from 195000.
 Reallocated str_pool (elt_size=1) to 325000 items from 260000.
-Warning--I didn't find a database entry for "IPCC2013"
-Warning--I didn't find a database entry for "Nabat2015a"
-Warning--I didn't find a database entry for "Perpinan.Marcos.ea2013"
+Warning--I didn't find a database entry for "Sorensen1991"
+Warning--I didn't find a database entry for "delrio"
+Warning--I didn't find a database entry for "Hoff2010"
+Warning--I didn't find a database entry for "Jerez2013b"
+Warning--I didn't find a database entry for "Perpinan2013"
+Warning--I didn't find a database entry for "Jain1999"
 Warning--I didn't find a database entry for "ohmura1998"
 Biblatex version: 3.3
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
-You've used 207 entries,
+You've used 206 entries,
             6047 wiz_defined-function locations,
-            3094 strings with 288618 characters,
-and the built_in function-call counts, 858671 in all, are:
-= -- 31166
-> -- 29010
-< -- 8020
-+ -- 10279
-- -- 12766
-* -- 84647
-:= -- 51243
+            3085 strings with 281891 characters,
+and the built_in function-call counts, 856119 in all, are:
+= -- 31145
+> -- 28989
+< -- 7992
++ -- 10310
+- -- 12558
+* -- 84540
+:= -- 51132
 add.period$ -- 0
-call.type$ -- 207
-change.case$ -- 4458
-chr.to.int$ -- 190
-cite$ -- 412
-duplicate$ -- 99968
-empty$ -- 87869
-format.name$ -- 22542
-if$ -- 187056
+call.type$ -- 206
+change.case$ -- 4449
+chr.to.int$ -- 188
+cite$ -- 410
+duplicate$ -- 99779
+empty$ -- 87459
+format.name$ -- 22634
+if$ -- 186509
 int.to.chr$ -- 0
-int.to.str$ -- 561
+int.to.str$ -- 556
 missing$ -- 0
-newline$ -- 11049
-num.names$ -- 11241
-pop$ -- 67841
+newline$ -- 10979
+num.names$ -- 11198
+pop$ -- 67623
 preamble$ -- 1
-purify$ -- 5239
+purify$ -- 5244
 quote$ -- 0
-skip$ -- 44757
+skip$ -- 44710
 stack$ -- 0
-substring$ -- 18778
-swap$ -- 38601
-text.length$ -- 6940
-text.prefix$ -- 454
+substring$ -- 18564
+swap$ -- 38413
+text.length$ -- 6883
+text.prefix$ -- 413
 top$ -- 1
-type$ -- 7852
+type$ -- 7814
 warning$ -- 0
-while$ -- 4682
+while$ -- 4648
 width$ -- 0
-write$ -- 10841
+write$ -- 10772
 (There were 2 error messages)

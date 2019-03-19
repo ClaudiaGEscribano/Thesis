@@ -1,4 +1,4 @@
-x\usepackage[T1]{fontenc}
+\usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
 \usepackage[a4paper]{geometry}%[b5paper]{geometry}%[a4paper]{geometry}
 \geometry{verbose,tmargin=2.5cm,bmargin=2.5cm,lmargin=2.5cm,rmargin=2.5cm}
@@ -48,7 +48,7 @@ x\usepackage[T1]{fontenc}
 %\providecommand{\printnomenclature}{\printglossary}
 %\providecommand{\makenomenclature}{\makeglossary}
 
-\makenomenclature
+%\makenomenclature
 
 \usepackage[caption=false]{subfig}
 %Configuración de los caption
@@ -104,7 +104,7 @@ x\usepackage[T1]{fontenc}
 
 
 % \addbibresource{../biblio.bib}
-\addbibresource{Data2.bib}
+\addbibresource{Data5.bib}
 
 \let\cite\parencite
 
@@ -274,8 +274,8 @@ x\usepackage[T1]{fontenc}
 %claudia
 
 \renewenvironment{abstract}%
-{\clearpage\null \vfill\begin{center}%
-\bfseries\abstractname\end{center}}%
+{\cleardoublepage\null \vfill\begin{center}%
+    \bfseries\abstractname\end{center}}%
 {\vfill\null}
 
 %%%% claudia:
@@ -350,8 +350,8 @@ x\usepackage[T1]{fontenc}
 \usepackage[scaled=0.92]{helvet}%. Sans serif - Helvetica
 \usepackage{color,calc}
 \newsavebox{\ChpNumBox}
-%\definecolor{ChapBlue}{rgb}{0.00,0.65,0.65} %%ORIGINAL
-\definecolor{ChapBlue}{rgb}{.7,.05,.25} %%RED
+\definecolor{ChapBlue}{rgb}{0.00,0.65,0.65} %%ORIGINAL
+%\definecolor{ChapBlue}{rgb}{.7,.05,.25} %%RED
 %\definecolor{ChapBlue}{rgb}{1,0,0.3} %%ROSA
 \makeatletter
 \newcommand*{\thickhrulefill}{%
@@ -394,3 +394,107 @@ x\usepackage[T1]{fontenc}
 \epigraphfontsize{\small\itshape}
 \setlength\epigraphwidth{8cm}
 \setlength\epigraphrule{0pt}
+
+%%% PORTADA
+
+\pretitle{\vfill \begin{center} \bfseries\HUGE \color{Black}}% \scshape \HUGE \color{Black}}
+\posttitle{\par\end{flushright}}
+
+
+\newcommand*{\titleDS}{\begingroup% DS Thesis
+%\drop=1\textheight
+\centering
+\vspace{2\baselineskip}
+{\Huge\bfseries Spatiotemporal characteristics of solar resource and photovoltaic productivity over the Euro-Mediterranean area: a climate perspective}
+\par
+\vspace{2\baselineskip}
+%{By}\\[0.5\baselineskip]
+{Claudia Gutiérrez Escribano\\[0.5\baselineskip]
+Memoria para optar al grado de doctor\\[0.5\baselineskip]
+Facultad de Ambientales y Bioquímica\\[0.5\baselineskip]
+%Universidad de Castilla-La Mancha\\%[0.5\baselineskip]
+%DEGREE\\[0.5\baselineskip]
+}\par
+\vspace{1\baselineskip}
+\begin{figure}[tbt!]
+  \includegraphics[width=0.3\textwidth]{figs/universidad.jpg}
+  \end{figure}
+Universidad de Castilla-La Mancha \\
+%The Address \\[\baselineskip]
+Toledo, 2019\par
+\vfill
+\flushleft
+\vspace{5\baselineskip}
+{Director: \\
+Miguel Ángel Gaertner}\par
+\vspace{1\baselineskip}
+%\rule{15em}{0.4pt}\\
+Co-director: \\
+Oscar Perpiñán\par
+\vspace{1\baselineskip}
+%\rule{15em}{0.4pt}\\
+% Another Professor, Thesis Advisor \\[1\baselineskip]
+% \rule{15em}{0.4pt}\\
+% A Faculty, Member \\[1\baselineskip]
+% \rule{15em}{0.4pt}\\
+% Another Faculty, Member \\[1\baselineskip]
+% \rule{15em}{0.4pt}\\
+% A Third Faculty, Member\par
+% \centering 
+% \vspace{1\baselineskip}
+% \begin{figure}
+%   \includegraphics[width=0.2\textwidth]{figs/universidad.jpg}
+%   \end{figure}
+% Universidad de Castilla-La Mancha \\
+% %The Address \\[\baselineskip]
+
+% Toledo, 2019\par
+% \vfill
+\endgroup}
+
+%% Background pics
+
+% \newcommand\BackgroundPic{
+%   \put(350,-150){
+%     \parbox[b][0.5\paperheight]{0.5\paperwidth}{%
+%       \includegraphics[scale=0.5]{/figs/universidad.jpg}%
+%     }}}
+
+\newcommand*{\titleUL}{\begingroup% University of Liege
+%\drop=0.1\textheight
+\vspace*{\drop}
+\begin{center}
+{\LARGE\textsc{Universidad de Castilla-La Mancha}}\\[\drop]
+%{\LARGE{Facultad de Ambientales y Bioquímica}}\\[\drop]
+% University logo
+{\LARGE \plogo}\\[\drop]
+\rule{\textwidth}{1pt}\par
+\vspace{0.5\baselineskip}
+{\huge\bfseries Características espacio-temporales del recurso solar y la productividad fotovoltaica en el área Euro-Mediterránea: perspectiva climática \\
+  \large }\\[0.5\baselineskip]
+\rule{\textwidth}{1pt}\par \\[0.5\baselineskip]
+%{\Large{Claudia Gutiérrez Escribano\footnote{\texttt{claudia.gutierrez@uclm.es}}}}\\[0.5\baselineskip]
+%\vfill
+{\large Memoria para optar al grado de doctor}\\[0.5\baselineskip]
+{\large Facultad de Ambientales y Bioquímica}\\[0.5\baselineskip]
+{\large Toledo, 2018}
+\end{center}
+\flushleft
+\vspace{3\baselineskip}
+{Doctorando: \\
+Claudia Gutiérrez Escribano}\par
+\vspace{1\baselineskip}
+{Director: \\
+Miguel Ángel Gaertner}\par
+\vspace{1\baselineskip}
+%\rule{15em}{0.4pt}\\
+Co-director: \\
+Oscar Perpiñán\par
+\vspace{1\baselineskip}
+\begin{figure}[tbt!]
+  \includegraphics[width=0.2\textwidth]{figs/universidad.jpg}
+  \end{figure}
+\vfill
+%City, Country
+%\vfill
+\endgroup}
