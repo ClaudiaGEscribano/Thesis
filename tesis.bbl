@@ -1058,8 +1058,7 @@
   \field{title}{{Detection and Attribution of Climate Change: from Global to
   Regional}}
   \verb{url}
-  \verb https://www.cambridge.org/core/product/identifier/CBO9781107415324A030/
-  \verb type/book{\_}part
+  \verb https://doi.org/10.1017/CBO9781107415324.022
   \endverb
   \list{location}{1}{%
     {Cambridge}%
@@ -3129,6 +3128,80 @@
   \warn{\item Invalid format of field 'month'}
 \endentry
 
+\entry{Engeland2017}{misc}{}
+  \name{author}{6}{}{%
+    {{}%
+     {Engeland}{E.}%
+     {K.}{K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Borga}{B.}%
+     {M.}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Creutin}{C.}%
+     {J.~D.}{J.~D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Fran{\c{c}}ois}{F.}%
+     {B.}{B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ramos}{R.}%
+     {M.~H.}{M.~H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Vidal}{V.}%
+     {J.~P.}{J.~P.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{Climate variability,Hydropower,Intermittency,Residual load,Scale,Solar
+  power,Wind power}
+  \strng{namehash}{EK+1}
+  \strng{fullhash}{EKBMCJDFBRMHVJP1}
+  \field{labelalpha}{Eng+17}
+  \field{sortinit}{E}
+  \field{abstract}{%
+  A major part of renewable electricity production is characterized by a large
+  degree of intermittency driven by the natural variability of climate factors
+  such as air temperature, wind velocity, solar radiation, precipitation,
+  evaporation, and river runoff. The main strategies to handle this
+  intermittency include energy-storage, -transport, -diversity and
+  -information. The three first strategies smooth out the variability of
+  production in time and space, whereas the last one aims a better balance
+  between production and demand. This study presents a literature review on the
+  space-time variability of climate variables driving the intermittency of
+  wind-, solar- and hydropower productions and their joint management in
+  electricity systems. A vast body of studies pertains to this question
+  bringing results covering the full spectrum of resolutions and extents, using
+  a variety of data sources, but mostly dealing with a single source. Our
+  synthesis highlights the consistency of these works, and, besides astronomic
+  forcing, we identify three broad climatic regimes governing the variability
+  of renewable production and load. At sub-daily time scales, the three
+  considered renewables have drastically different pattern sizes in response to
+  small scale atmospheric processes. At regional scales, large perturbation
+  weather patterns consistently control wind and solar production, hydropower
+  having a clearly distinct type of pattern. At continental scales, all
+  renewable sources and load seem to display patterns of constant space
+  characteristics and no indication of marked temporal trends.%
+  }
+  \field{booktitle}{Renewable and Sustainable Energy Reviews}
+  \verb{doi}
+  \verb 10.1016/j.rser.2017.05.046
+  \endverb
+  \field{isbn}{1364-0321}
+  \field{issn}{18790690}
+  \field{title}{{Space-time variability of climate variables and intermittent
+  renewable electricity production – A review}}
+  \field{year}{2017}
+\endentry
+
 \entry{Fan1986}{article}{}
   \name{author}{1}{}{%
     {{}%
@@ -3837,8 +3910,7 @@
   \field{title}{{Analysis of interannual variability of sunshine hours and
   precipitation over Peninsular Spain}}
   \verb{url}
-  \verb http://www.scopus.com/inward/record.url?eid=2-s2.0-84930226656{\&}partn
-  \verb erID=tZOtx3y1
+  \verb https://doi.org/10.1016/j.renene.2015.05.001
   \endverb
   \field{volume}{83}
   \field{journaltitle}{Renewable Energy}
@@ -3919,6 +3991,135 @@
   \field{journaltitle}{International Journal of Climatology}
   \field{year}{2018}
   \warn{\item Invalid format of field 'month'}
+\endentry
+
+\entry{Giorgi2016}{article}{}
+  \name{author}{6}{}{%
+    {{}%
+     {Giorgi}{G.}%
+     {F.}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Torma}{T.}%
+     {C.}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Coppola}{C.}%
+     {E.}{E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ban}{B.}%
+     {N.}{N.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sch{\"{a}}r}{S.}%
+     {C.}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Somot}{S.}%
+     {S.}{S.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{GF+1}
+  \strng{fullhash}{GFTCCEBNSCSS1}
+  \field{labelalpha}{Gio+16}
+  \field{sortinit}{G}
+  \field{abstract}{%
+  Global climate projections consistently indicate a future decrease in summer
+  precipitation over the European Alps 1–3 . However, topography can
+  substantially modulate precipita-tion change signals. For example, the
+  shadowing eeect by topographic barriers can modify winter precipitation
+  change patterns 4,5 , and orographic convection might also play an important
+  role 6,7 . Here we analyse summer precipitation over the Alpine region in an
+  ensemble of twenty-first-century projections with high-resolution (∼12 km)
+  regional climate models 8,9 driven by recent global climate model simulations
+  10 . A broad-scale summer precipitation reduction is projected by both model
+  ensembles. However, the regional models simulate an increase in precipitation
+  over the high Alpine elevations that is not present in the global
+  simulations. This is associated with increased convective rainfall due to
+  enhanced potential instability by high-elevation surface heating and
+  moistening. The robustness of this signal, which is found also for
+  precipitation extremes, is supported by the consistency across models and
+  future time slices, the identification of an underlying mechanism (enhanced
+  convection), results from a convection-resolving simulation 11 , the
+  statistical significance of the signal and the consistency with some observed
+  trends. Our results challenge the picture of a ubiquitous decrease of summer
+  precipitation over the Alps found in coarse-scale projections. The hypothesis
+  that topography might locally modify precipitation change patterns is
+  particularly relevant for the European Alps, whose complex physiography is
+  well known to strongly affect local climate characteristics 12 . Regional
+  climate models (RCMs) are especially suitable tools to explore this issue
+  since they can reach high horizontal resolutions, of the order of 10 km or
+  less 8,11 . In this regard, an unprecedented ensemble of high-resolution
+  (grid spacing of ∼12 km, or 0.11 •) RCM projections over the
+  Mediterranean and European regions (both encompassing the Alps) have been
+  completed as part of the CORDEX programme (COordinated Regional Downscaling
+  EXperiment, ref. 13), and specifically the EURO-CORDEX 8 and MED-CORDEX 9
+  initiatives. In addition, a high-resolution (5 km) gridded observation data
+  set is available for model assessment over the Alpine region 14 . These
+  products thus provide optimal resources to investigate the issue of the
+  impact of complex topography on precipitation change signals. Specifically,
+  we here focus on summer precipitation over the Alps, which constitutes an
+  important water source for the region 12,15 , in particular due to summer
+  convection. While most global climate models (GCMs) project a ubiquitous
+  decrease in summer precipitation over the Alps in response to global warming
+  1–3 , this response can be substantially affected by topography. Such a
+  modulation would in fact point to the added value of using high-resolution
+  models in regional climate projections. As shown in a previous study 15 the
+  EURO-CORDEX and MED-CORDEX RCMs can reproduce well the observed fine-scale
+  summer precipitation patterns over the Alps (for example, Supplementary Fig.
+  2), in particular improving the corresponding patterns in the driving GCMs. A
+  number of studies demonstrated the added value of RCMs in reproducing
+  different characteristics of topographically forced precipitation 9,15–17 .
+  However, whether the added value in reproducing present-day climate also
+  results into more credible projections is still an open issue 18 . Here we
+  use an ensemble of projections with 6 RCMs at ∼12 km grid spacing driven by
+  4 different GCMs (Supplementary Table 1) and analyse three future
+  twenty-first-century time slices (near term, 2010–2039; mid-century,
+  2040–2069; late century, 2070–2099) under the RCP8.5 greenhouse gas
+  concentration pathway 19 with respect to the present-day period 1975–2004
+  (see Methods). The domain of analysis encompasses the Alpine chain and
+  surrounding areas (Supplementary Fig. 1), and is defined by the coverage area
+  of the observation data set 14 . Figure 1 shows the ensemble mean of the
+  percentage change in summer precipitation for the three twenty-first-century
+  time slices in the driving GCM and the RCM ensembles. The GCMs produce a
+  large-scale drying signal over the region, which grows in magnitude
+  throughout the twenty-first century and extends to the entire Alpine region
+  in the mid-and late century time slices (Fig. 1a–c). This precipitation
+  reduction is in line with previous GCM-based projec-tions 1–3 , and it is
+  associated with an increase in anticyclonic circula-tion over the
+  Mediterranean and central European areas that locally enhances downward
+  motions and deflects storms northward 2,3 . Contrary to the GCMs, the RCMs
+  produce an area of increased summer precipitation along the Alpine chain
+  embedded in the large-scale regional drying (Fig. 1d–f). This area covers
+  most of the Alps in the near-term and mid-century time slices, while it is
+  more limited to the highest peaks in the late century. This precipitation
+  increase is qualitatively consistent with positive trends in precipitation
+  ob-servations found across the Alps in the late twentieth century
+  (Sup-plementary Fig. 3), when substantial warming occurred over the region 12
+  , and in parts of the Swiss Alps 20 , although these observed increases could
+  in principle also be due to natural variability. Figure 1 also presents the
+  ensemble average of what we call downscaling signal (DS, see Methods), which
+  identifies the difference between RCM and GCM changes after the region-mean
+  change values are filtered out, and it is therefore a direct measure of the
+  local signal obtained via the RCM downscaling. Figure 1g–i shows that the
+  summer precipitation change DS is positive along the Alpine chain and
+  negative in the surrounding%
+  }
+  \verb{doi}
+  \verb 10.1038/ngeo2761
+  \endverb
+  \field{issn}{17520908}
+  \field{title}{{Enhanced summer convective rainfall at Alpine high elevations
+  in response to climate warming}}
+  \field{journaltitle}{Nature Geoscience}
+  \field{year}{2016}
 \endentry
 
 \entry{Giorgi2002}{article}{}
@@ -5334,6 +5535,54 @@
   \warn{\item Invalid format of field 'month'}
 \endentry
 
+\entry{Hoff2010}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Hoff}{H.}%
+     {T.~E.}{T.~E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Perez}{P.}%
+     {R.}{R.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{Solar resource}
+  \strng{namehash}{HTEPR1}
+  \strng{fullhash}{HTEPR1}
+  \field{labelalpha}{HP10}
+  \field{sortinit}{H}
+  \field{abstract}{%
+  This paper presents a novel approach to rigorously quantify power Output
+  Variability from a fleet of photovoltaic (PV) systems, ranging from a single
+  central station to a set of distributed PV systems. The approach demonstrates
+  that the relative power Output Variability for a fleet of identical PV
+  systems (same size, orientation, and spacing) can be quantified by
+  identifying the number of PV systems and their Dispersion Factor. The
+  Dispersion Factor is a new variable that captures the relationship between PV
+  Fleet configuration, Cloud Transit Speed, and the Time Interval over which
+  variability is evaluated. Results indicate that Relative Output Variability:
+  (1) equals the inverse of the square root of the number of systems for fully
+  dispersed PV systems; and (2) could be further minimized for optimally-spaced
+  PV systems.%
+  }
+  \verb{doi}
+  \verb 10.1016/j.solener.2010.07.003
+  \endverb
+  \field{issn}{0038092X}
+  \field{number}{10}
+  \field{pages}{1782\bibrangedash 1793}
+  \field{title}{{Quantifying PV power Output Variability}}
+  \verb{url}
+  \verb http://www.asrc.cestm.albany.edu/perez/2010/short.pdf
+  \endverb
+  \field{volume}{84}
+  \field{journaltitle}{Solar Energy}
+  \field{year}{2010}
+  \warn{\item Invalid format of field 'month'}
+\endentry
+
 \entry{Hoff2012}{article}{}
   \name{author}{2}{}{%
     {{}%
@@ -5853,6 +6102,74 @@
   \warn{\item Invalid format of field 'month'}
 \endentry
 
+\entry{Jerez2013b}{article}{}
+  \name{author}{6}{}{%
+    {{}%
+     {Jerez}{J.}%
+     {S.}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Trigo}{T.}%
+     {R.M.}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sarsa}{S.}%
+     {A.}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lorente-Plazas}{L.-P.}%
+     {R.}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Pozo-V{\'{a}}zquez}{P.-V.}%
+     {D.}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Mont{\'{a}}vez}{M.}%
+     {J.P.}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{Complementarity,Iberian Peninsula,Optimization,Solar power,Wind power}
+  \strng{namehash}{JS+1}
+  \strng{fullhash}{JSTRSALPRPVDMJ1}
+  \field{labelalpha}{Jer+13}
+  \field{extraalpha}{1}
+  \field{sortinit}{J}
+  \field{abstract}{%
+  This study addresses the task of identifying optimum locations for solar and
+  wind power plants so that the wind-plussolar power generation meets certain
+  conditions of efficiency and stability, thus allowing to overcome the
+  downside that the natural variability of these renewable resources
+  represents. The method was based on a simulated annealing algorithm and
+  applied over the Iberian Peninsula, a region whose commitment to renewable
+  energy is growing relatively fast. Obtained results are encouraging since a
+  number of different sensitivity experiments support the spatio-temporal
+  complementarity between solar and wind power, at least at the monthly
+  time-scale, in this region. {\textcopyright} 2013 The Authors. Published by
+  Elsevier Ltd.%
+  }
+  \verb{doi}
+  \verb 10.1016/j.egypro.2013.08.007
+  \endverb
+  \field{isbn}{1876-6102}
+  \field{issn}{18766102}
+  \field{pages}{48\bibrangedash 57}
+  \field{title}{{Spatio-temporal Complementarity between Solar and Wind Power
+  in the Iberian Peninsula}}
+  \verb{url}
+  \verb https://linkinghub.elsevier.com/retrieve/pii/S1876610213016019
+  \endverb
+  \field{volume}{40}
+  \field{journaltitle}{Energy Procedia}
+  \field{year}{2013}
+\endentry
+
 \entry{Jerez2013}{article}{}
   \name{author}{8}{}{%
     {{}%
@@ -5899,6 +6216,7 @@
   \strng{namehash}{JS+1}
   \strng{fullhash}{JSTRMVSSMPVDLPRLLJSAFMJP1}
   \field{labelalpha}{Jer+13}
+  \field{extraalpha}{2}
   \field{sortinit}{J}
   \field{abstract}{%
   Europe is investing considerably in renewable energies for a sustainable
@@ -10040,6 +10358,149 @@
   \warn{\item Invalid format of field 'month'}
 \endentry
 
+\entry{Planton2012}{incollection}{}
+  \name{author}{22}{}{%
+    {{}%
+     {Planton}{P.}%
+     {S.}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lionello}{L.}%
+     {P.}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Artale}{A.}%
+     {V.}{V.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Aznar}{A.}%
+     {R.}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Carrillo}{C.}%
+     {A.}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Colin}{C.}%
+     {J.}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Congedi}{C.}%
+     {L.}{L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Dubois}{D.}%
+     {C.}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Elizalde}{E.}%
+     {A.}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Gualdi}{G.}%
+     {S.}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hertig}{H.}%
+     {E.}{E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Jacobeit}{J.}%
+     {J.}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Jord{\`{a}}}{J.}%
+     {G.}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Li}{L.}%
+     {L.}{L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Mariotti}{M.}%
+     {A.}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Piani}{P.}%
+     {C.}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ruti}{R.}%
+     {P.}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sanchez-Gomez}{S.-G.}%
+     {E.}{E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sannino}{S.}%
+     {G.}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sevault}{S.}%
+     {F.}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Somot}{S.}%
+     {S.}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Tsimplis}{T.}%
+     {M.}{M.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{PS+1}
+  \strng{fullhash}{PSLPAVARCACJCLDCEAGSHEJJJGLLMAPCRPSGESGSFSSTM1}
+  \field{labelalpha}{Pla+12}
+  \field{sortinit}{P}
+  \field{abstract}{%
+  Future climate change over the Mediterranean area is investigated by means of
+  climate model simulations covering the twenty-first century that take into
+  account different anthropogenic greenhouse-gas-emission scenarios. This
+  chapter first gives some new insights on these projections coming from the
+  use of new methods, including the coupling at the regional scale of the
+  atmospheric component to a Mediterranean Sea component. A synthesis of the
+  expected changes of key aspects of the Mediterranean regional climate,
+  obtained with a wide range of models and downscaling methods, is then
+  presented. This includes an overview of not only expected changes in the mean
+  climate and climate extremes but also possible changes in Mediterranean Sea
+  temperature, salinity, circulation, water and heat budgets, and sea level.
+  The chapter ends with some advanced results on the way to deal with
+  uncertainties in climate projections and some discussion on the confidence
+  that we can attribute to these projections.%
+  }
+  \field{booktitle}{The Climate of the Mediterranean Region}
+  \verb{doi}
+  \verb 10.1016/B978-0-12-416042-2.00008-2
+  \endverb
+  \field{isbn}{9780124160422}
+  \field{title}{{The climate of the mediterranean region in future climate
+  projections}}
+  \field{year}{2012}
+\endentry
+
 \entry{Perpinan2007}{article}{}
   \name{author}{3}{}{%
     {{}%
@@ -10499,7 +10960,7 @@
   \field{title}{{The Impact of the NAO on the Solar and Wind Energy Resources
   in the Mediterranean Area}}
   \verb{url}
-  \verb http://www.springerlink.com/index/10.1007/978-94-007-1372-7{\_}15
+  \verb http://www.springerlink.com/index/10.1007/978-94-007-1372-7_15
   \endverb
   \field{year}{2011}
 \endentry
@@ -10593,6 +11054,63 @@
     {Berlin, Heidelberg}%
   }
   \field{year}{2008}
+\endentry
+
+\entry{delrio}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {R{\'{i}}o}{R.}%
+     {P.}{P.}%
+     {del}{d.}%
+     {}{}}%
+    {{}%
+     {{Calvo Silvosa}}{C.}%
+     {A.}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Iglesias G{\'{o}}mez}}{I.}%
+     {G.}{G.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{Repowering,Support schemes,Wind energy}
+  \strng{namehash}{RPdCAIG1}
+  \strng{fullhash}{RPdCAIG1}
+  \field{labelalpha}{RCI11}
+  \field{sortinit}{R}
+  \field{abstract}{%
+  Repowering of a wind farm is the process of replacing existing wind turbines
+  with new turbines that either have a larger nameplate capacity or more
+  efficiency, resulting in a net increase of the power generated. Although
+  repowering brings, both, social and private benefits, there are also several
+  obstacles to repowering which justify public support. The aim of this paper
+  is to provide an overview and a qualitative analysis of instruments and
+  design options to support repowering of on-shore wind farms. The
+  multicriteria analysis carried out in this paper shows that all instruments
+  have their advantages and drawbacks. However, feed-in tariffs and investment
+  subsidies seem to be particularly appropriate instruments in this regard.
+  Furthermore, we provide an assessment of different design options to promote
+  repowering according to key assessment criteria. The relevance of design
+  elements hinges on the fact that these are the ones directly affecting the
+  variables that are relevant in the decision to repower (capacity factors and
+  investment costs).%
+  }
+  \verb{doi}
+  \verb 10.1016/j.enpol.2010.12.035
+  \endverb
+  \field{issn}{03014215}
+  \field{number}{4}
+  \field{pages}{1897\bibrangedash 1908}
+  \field{title}{{Policies and design elements for the repowering of wind farms:
+  A qualitative analysis of different options}}
+  \verb{url}
+  \verb http://www.sciencedirect.com/science/article/pii/S0301421510009353
+  \endverb
+  \field{volume}{39}
+  \field{journaltitle}{Energy Policy}
+  \field{year}{2011}
+  \warn{\item Invalid format of field 'month'}
 \endentry
 
 \entry{Rosa2012}{article}{}
@@ -11358,8 +11876,7 @@
   \field{title}{{Determining the number of clusters/segments in hierarchical
   clustering/segmentation algorithms}}
   \verb{url}
-  \verb http://ieeexplore.ieee.org/xpl/login.jsp?tp={\&}arnumber=1374239{\&}url
-  \verb =
+  \verb https://ieeexplore.ieee.org/document/1374239
   \endverb
   \field{year}{2004}
 \endentry
@@ -12269,6 +12786,48 @@
   \field{volume}{40}
   \field{journaltitle}{Climate Dynamics}
   \field{year}{2013}
+  \warn{\item Invalid format of field 'month'}
+\endentry
+
+\entry{Sorensen1991}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {S{\o}rensen}{S.}%
+     {B.}{B.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{History,Renewable energy,Technical and economic evaluation}
+  \strng{namehash}{SB1}
+  \strng{fullhash}{SB1}
+  \field{labelalpha}{S{\o}r91}
+  \field{sortinit}{S}
+  \field{abstract}{%
+  During most of human history renewable energy has been the only energy option
+  available. Only during the last few centuries has fossil and lately nuclear
+  energy sources been used in a non-renewable way. They took over because they
+  seemed much cheaper than the renewable sources. However, environmental
+  problems of a local as well as a global magnitude are becoming evident, and
+  questions are now being raised: are the fossil and nuclear choices indeed the
+  cheapest; could a full account of indirect costs be attempted? In any case,
+  the renewable options have only been developed in some areas of the world,
+  and the reasons for their successes and failures has to be discussed.
+  {\textcopyright} 1991.%
+  }
+  \verb{doi}
+  \verb 10.1016/0301-4215(91)90072-V
+  \endverb
+  \field{isbn}{ISSN{\~{}}{\~{}}0301-4215}
+  \field{issn}{03014215}
+  \field{number}{1}
+  \field{pages}{8\bibrangedash 12}
+  \field{title}{{A history of renewable energy technology}}
+  \verb{url}
+  \verb https://linkinghub.elsevier.com/retrieve/pii/030142159190072V
+  \endverb
+  \field{volume}{19}
+  \field{journaltitle}{Energy Policy}
+  \field{year}{1991}
   \warn{\item Invalid format of field 'month'}
 \endentry
 

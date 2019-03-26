@@ -39,7 +39,7 @@ This chapter is organized as follows: in first place, a description of the metho
 
 \section{Data sources}
 
-Surface irradiance data is obtained from CM-SAF (Climate Monitoring Satellite Application Facility). A 30-year period of daily irradiance from 1983 to 2013 is obtained from the SARAH data set \cite*{Muller2015}. Its accuracy has been analyzed \cite*{Posselt2012, Muller2015} against ground measurements from the Baseline Surface Radiation Network (BSRN) \cite*{ohmura1998}. For shortwave irradiation daily data, limitations reported by providers are related to high clear sky reflection over bright surfaces like desert areas or due to aerosol data, where only climatology of AOD (aerosols optical depth) is used and no variations in monthly to hourly time scales are considered. However, the mean bias requirement threshold of 25 W/m² of the dataset imposed by providers for accuracy is accomplished \cite*{Posselt2012, Muller2015}. 
+Surface irradiance data is obtained from CM-SAF (Climate Monitoring Satellite Application Facility). A 30-year period of daily irradiance from 1983 to 2013 is obtained from the SARAH data set \cite*{Muller2015}. Its accuracy has been analyzed \cite*{Posselt2012, Muller2015} against ground measurements from the Baseline Surface Radiation Network (BSRN) \cite*{Ohmura}. For shortwave irradiation daily data, limitations reported by providers are related to high clear sky reflection over bright surfaces like desert areas or due to aerosol data, where only climatology of AOD (aerosols optical depth) is used and no variations in monthly to hourly time scales are considered. However, the mean bias requirement threshold of 25 W/m² of the dataset imposed by providers for accuracy is accomplished \cite*{Posselt2012, Muller2015}. 
 
 % The irradiance products come from METEOSAT geostationary first (MFG) and second generation satellite (MSG). MVIRI instruments from the MFG, retrieved data from 1982 until 2005 and SEVIRI instruments from MSG cover from 2005 until now. CM-SAF provides two types of data: operational products, which are mainly focused on real time availability and climate data products. In order to get a long period for climate studies, MVIRI/SEVIRI instruments cover the whole period.  Its accuracy has been analysed \citep{posselt2012remote, cmsafcitation} against ground measurements from the Baseline Surface Radiation Network (BSRN) \citep{ohmura1998baseline}. For shortwave irradiation daily data, limitations reported by providers are related to high clear sky reflection over bright surfaces like desert areas or due to aerosol data where only climatology of AOD (aerosols optical depth) is used and no variation in monthly to hourly time scales are considered. However, the accuracy mean bias requirement threshold of 25 W/m² of the data set imposed by providers is accomplished \citep{posselt2012remote, cmsafcitation}. 
 
@@ -1088,7 +1088,7 @@ The non-negligible impact of aerosols on PV production in the area suggests that
 % variety in physico-chemical and optical aerosol properties
 % over the basin (Basart et al. 2009).
 
-First attempts to estimate PV potential in the future under climate change were made in previous works \cite*{Crook2011, panagea2014, Gaetani2014, Burnett2014}. Some of them were focused locally \cite*{panagea2014, Burnett2014} and others use a single climate model \cite*{Crook2011}. Different CMIP5 simulations with different GCMs have also been evaluated to assess the photovoltaic potential under climate change conditions in \cite*{Wild2015}, projecting an increase over Europe due to the increase in clear-sky and all-sky conditions. Another sensitivity study has shown that projected increase in SSR is also augmented by changes in anthropogenic aerosols emissions for the same area \cite*{Gaetani2014}.
+Attempts to estimate PV potential in the future under climate change were made in previous works \cite*{Crook2011, panagea2014, Gaetani2014, Burnett2014}. Some of them were focused locally \cite*{panagea2014, Burnett2014} and others use a single climate model \cite*{Crook2011}. Different CMIP5 simulations with different GCMs have also been evaluated to assess the photovoltaic potential under climate change conditions in \cite*{Wild2015}, projecting an increase over Europe due to the increase in clear-sky and all-sky conditions. Another sensitivity study has shown that projected increase in SSR is also augmented by changes in anthropogenic aerosols emissions for the same area \cite*{Gaetani2014}.
 
 However, later studies using regional climate models \cite*{Jerez2015, Bartok2017} have shown the opposite behavior for some regions in Europe, an overall decrease in shortwave solar radiation and photovoltaic potential in the same area is projected although no significant change in cloud cover (CLT) was found. %The increase in atmospheric absorption due to the increase in water vapor content has been reported as the explanation for the decrease in SSR.
 
@@ -1135,7 +1135,7 @@ The Coupled Model Intercomparison Project Phase Five provides and coordinates gl
 
 Euro-CORDEX develops climate projections focused on the European continent at different horizontal resolutions (0.44º, 0.11º). These simulations are driven by different CMIP5 GCMs \cite*{Taylor2012}.
 
-Among the whole list of simulations included in the Euro-CORDEX database, aerosols are described very differently depending on the RCM. RCMs use different aerosol datasets, different levels of complexity for their representation and different temporal evolutions. In particular, it is worth noting that most of the Euro-CORDEX RCMs do not present evolving aerosols in the future projections. Only two RCMs (namely RACMO22E and ALADIN53) include an aerosol dataset that evolves depending on the year, following the chosen RCP scenarios and the driving GCM.
+Among the whole list of simulations included in the Euro-CORDEX database, aerosols are described very differently depending on the RCM. RCMs use different aerosol datasets, different levels of complexity for their representation and different temporal evolutions. In particular, most of the Euro-CORDEX RCMs do not present evolving aerosols in the future projections. Only two RCMs (namely RACMO22E and ALADIN53) include an aerosol dataset that evolves depending on the year, following the chosen RCP scenarios and the driving GCM.
 
 For our purpose a relevant 6-member ensemble is used, which is a sub-sampling of the whole list of the 0.11° Euro-CORDEX scenario simulations performed under the RCP8.5 hypothesis. Two driving GCMs (EC-EARTH and CNRM-CM5) and four RCMs (RACMO22E, ALADIN53, CCLM4-8-17 and RCA4) are selected. Each GCM drives three RCM simulations, one with evolving aerosols and two with constant aerosols (see Table \ref{tb:families} for a detailed description of the GCM-RCM pairs). A group of three RCM simulations driven by the same GCM will be called ``family''. Although a small number of the possible Euro-CORDEX GCM-RCM pairs is used, it is largely enough to serve the purpose of the study.
 
@@ -1148,7 +1148,7 @@ To measure the climate change signal, a 30-year near-future period (2021-2050) i
 \toprule 
 CMIP5 GCM & Institution  & RCM  \tabularnewline
 \midrule
-CNRM-CERFACS-CNRM-CM5 & CNRM & ALADIN5.3 \tabularnewline
+CNRM-CERFACS-CNRM-CM5 & CNRM & ALADIN53 \tabularnewline
 &CLMcom&CCLM4-8-17\tabularnewline 
 &SMHI&RCA4\tabularnewline
 \midrule  
@@ -1184,7 +1184,7 @@ The information about the aerosols datasets included in the regional climate sim
 \toprule 
 Institution  & RCM & description & classes & scenarios \tabularnewline
 \midrule
-CNRM & ALADIN5.3 & Climatology. Szopa 2013 & 5 classes: sea salt, sulfate,black carbon, desert dust,organic carbon.& evolve with RCP \tabularnewline
+CNRM & ALADIN53 & Climatology. Szopa 2013 & 5 classes: sea salt, sulfate,black carbon, desert dust,organic carbon.& evolve with RCP \tabularnewline
 CLMcom&CCLM4-8-17& Climatology. Tanré 1984 & 4 classes: sea, land, desert, urban.& no evolution\tabularnewline 
 SMHI&RCA4& Parametrization in radiation fluxes & Single integrated class.& no evolution \tabularnewline
 KNMI&RACMO&CAM inventory, Lamarque 2010 & 6 classes: sulfate, organic matter, desert dust, sea salt,stratospheric aerosols, volcanic & evolve with RCP\tabularnewline
@@ -1219,7 +1219,7 @@ In order to analyze the spatial behavior of solar radiation, SSR, the summer mea
 
 % The 2021-2050 period has been selected because of two reasons: in the mid-century the effects of global warming are still not very remarkable among the simulations, which could help to better detect the impact of including evolving aerosols. On the other hand, the PV power plants operating during 2021-2050 are the ones that will be planned shortly, so the results are presently relevant for the industry.
 
-As an important driver of the variability of SSR the same procedure is applied to the total cloud cover variable, CLT. This allows to know if a correlation exists between both anomalies and how is modified between models with or without evolving aerosols.
+As an important driver of the variability of SSR the same procedure is applied to the total cloud cover variable, CLT. This allows to know if a correlation exists between both changes and how is modified between models with or without evolving aerosols.
 
 % \subsubsection{Linear regression}
 
@@ -1248,9 +1248,9 @@ The effective irradiation is then obtained from the consideration of optical los
 
 The second step transforms the ‘effective’ irradiation into power output $\left[\si{\kilo\watthour\per\kilo\wattpeak}\right]$ considering the electrical performance of the system. The system includes characteristics of a general PV module and inverter, the arrangement of the generator and some efficiency losses. Characteristics of the general PV system are the same as the ones described in chapter \ref{cha:methods}
 
-Yearly PV potential anomalies for the period 2021-2050 with respect to the reference period 1971-2000 are computed. Yearly values of productivity are considered a good estimation of the performance of a power plant and are considered as a reference for feasibility studies and finance calculations.
+Yearly PV potential changes for the period 2021-2050 with respect to the reference period 1971-2000 are computed. Yearly values of productivity are considered a good estimation of the performance of a power plant and are considered as a reference for feasibility studies and finance calculations.
 
-Anomalies of PV production for summer months are also calculated, considering that it is the season with higher loads of aerosols and it is when solar energy production peaks.
+Changes in PV potential production for summer months are also calculated, considering that it is the season with higher loads of aerosols and it is when solar energy production peaks.
 
 {\section{Results}\label{Results}}
 
@@ -1266,16 +1266,16 @@ The summer (JJA) mean changes of the period 2021-2050 with respect to the refere
   CMIP5 GCM & RCM & $\Delta{SSR}$ & $\Delta{CLT}$ & $\Delta{AOD}$ & $\rho_{SSR,CLT}$  & $\rho_{SSR,AOD}$\\
 \midrule 
 %\mr  
-  CNRM-CERFACS-CNRM-CM5& & 9.85 & 0.66 & &-0.38 &  \\
-            &ALADIN5.3 & 13.19 & 0.29 & -0.16 & -0.22 & -0.93\\
-            &CCLM4-8-17& -2.82 & -0.82 & - & -0.73 & -  \\
-            &RCA4& -2.81 & 0.21 & - & -0.80 & - \\
+  CNRM-CERFACS-CNRM-CM5& & 9.8 & 0.7 & & -0.4 &  \\
+            &ALADIN53 & 13.2 & 0.3 & -0.2 & -0.2 & -0.9\\
+            &CCLM4-8-17& -2.8 & -0.8 & - & -0.7 & -  \\
+            &RCA4& -2.8 & 0.2 & - & -0.8 & - \\
 \midrule
 %\mr   
-  ICHEC-EC-EARTH& &5.63 & -0.32 & &-0.35 &  \\
-          &RACMO& 4.81 & 0.50 & -0.15 & -0.35 & -0.57 \\
-          &CCLM4-8-17& -3.04 & -0.85 & - & -0.80 & - \\
-          &RCA4&-2.29 & 0.13 & - & -0.78 & - \\
+  ICHEC-EC-EARTH& &5.6 & -0.3 & &-0.3 &  \\
+          &RACMO& 4.8 & 0.5 & -0.1 & -0.3 & -0.6 \\
+          &CCLM4-8-17& -3.0 & -0.8 & - & -0.8 & - \\
+          &RCA4&-2.3 & 0.1 & - & -0.8 & - \\
 \bottomrule
 %\br
 \end{tabular}\\
@@ -1356,7 +1356,7 @@ The summer (JJA) mean changes of the period 2021-2050 with respect to the refere
 \label{fig:anomalySSR}
 \end{figure}
  
-Summer mean change shows an increase in Europe, more relevant in Central-Europe, for regional climate models with evolving aerosols in scenarios (ALADIN5.3 and RACMO22E) although there are differences in the magnitude of the changes. ALADIN5.3 presents the highest change in the mentioned area, which correlates with the negative change and spatial pattern of AOD of this model, as can be seen in figure \ref{fig:aod}. For RACMO, the AOD change has a similar spatial pattern but the magnitude is slightly smaller. The projected SSR changes in RACMO are positive for a large area among the domain although they do not reach the higher values of ALADIN5.3. Mean values for the whole domain are positive for ALADIN (13.2 $\si{\watt\per\metro\squared}$) and RACMO (4.8 $\si{\watt\per\metro\squared}$) and negative for the others.
+Summer mean change shows an increase in Europe, more relevant in Central-Europe, for regional climate models with evolving aerosols in scenarios (ALADIN53 and RACMO22E) although there are differences in the magnitude of the changes. ALADIN53 presents the highest change in the mentioned area, which correlates with the negative change and spatial pattern of AOD of this model, as can be seen in figure \ref{fig:aod}. For RACMO, the AOD change has a similar spatial pattern but the magnitude is slightly smaller. The projected SSR changes in RACMO are positive for a large area among the domain although they do not reach the higher values of ALADIN53. Mean values for the whole domain are positive for ALADIN (13.2 $\si{\watt\per\metro\squared}$) and RACMO (4.8 $\si{\watt\per\metro\squared}$) and negative for the others.
 
 The rest of the RCMs from the first and second family present a similar signal in SSR among them, with a slight decrease in SSR with the exception of southern and western Europe that show a small increase.
 
@@ -1382,7 +1382,7 @@ The changes projected in the two RCMs that account for the evolution of aerosols
 \label{fig:anomalyCLT}      
 \end{figure}
 
-In general, for the whole domain, the mean change in CLT is close to zero for every simulation as can be seen in table \ref{tb:spatial correlations}. The spatial pattern of CLT change in ALADIN53 shows a positive sign in the area where SSR change is higher (Central Europe), which is remarkable. For ALADIN5.3 and RACMO22E the spatial correlation between CLT and SSR is very low, -0.16 and -0.15 respectively, whereas it increases between SSR and AOD, -0.93 for ALADIN5.3 and -0.57 for RACMO22E.
+In general, for the whole domain, the mean change in CLT is close to zero for every simulation as can be seen in table \ref{tb:spatial correlations}. The spatial pattern of CLT change in ALADIN53 shows a positive sign in the area where SSR change is higher (Central Europe), which is remarkable. For ALADIN53 and RACMO22E the spatial correlation between CLT and SSR is very low, -0.2 and -0.1 respectively, whereas it increases between SSR and AOD, -0.9 for ALADIN53 and -0.6 for RACMO22E.
 
 On the whole, the CLT spatial pattern explains well the SSR spatial pattern in RCMs without evolving aerosols whereas both AOD and CLT are required to explain the SSR spatial pattern in GCMs and RCMs with evolving aerosols. AOD pattern is even the dominant signal for ALADIN53.
 
@@ -1408,7 +1408,7 @@ The photovoltaic yearly productivity, defined as the power output by the power i
 CMIP5 GCM & RCM &  $\Delta{PV_{annual}}$ & $\Delta{PV_{JJA}}$ & Spain & Germany & Italy & Greece & Hungary & Czech &&&&&&&&&&Republic\\
 \midrule 
 %\mr   
-  \\CNRM-CM5&ALADIN5.3& 5.9$\%$ & 4.8 $\%$ & 2.4$\%$ & 10.9$\%$ & 6.4$\%$ & 4.6$\%$ & 11.2$\%$ & 12.2$\%$ \\
+  \\CNRM-CM5&ALADIN53& 5.9$\%$ & 4.8 $\%$ & 2.4$\%$ & 10.9$\%$ & 6.4$\%$ & 4.6$\%$ & 11.2$\%$ & 12.2$\%$ \\
           &CCLM4-8-17& -2.7$\%$ & -1.5$\%$ & -0.6$\%$ & -2.3 $\%$ & -0.4$\%$ & 0.3 $\%$ &-1.0$\%$ &-1.2$\%$ \\
           &RCA4& -2.8$\%$ & -1.3 $\%$ & -0.8 $\%$ & -1.5 $\%$ & -0.4 $\%$ & -0.4$\%$ &  -0.5$\%$ &-1.1$\%$ &\\
 \midrule
@@ -1447,7 +1447,7 @@ CMIP5 GCM & RCM &  $\Delta{PV_{annual}}$ & $\Delta{PV_{JJA}}$ & Spain & Germany 
 
 %{\color{red} Anomalía para los modelos con aerosoles y los modelos sin aerosoles}
 
-The geographical dependence of the PV potential change is due to the spatial pattern of SSR change, which is closely related to the anomaly of AOD in central Europe projected by ALADIN5.3 and RACMO22E. The most important result is that the projected change in PV output is positive for both RCMs with evolving aerosols in countries where the other RCMs show the opposite sign. This suggests that for some areas in Europe information from RCMs projections might not be accurate if an ensemble is used for these energy related purposes.
+The geographical dependence of the PV potential change is due to the spatial pattern of SSR change, which is closely related to the anomaly of AOD in central Europe projected by ALADIN53 and RACMO22E. The most important result is that the projected change in PV output is positive for both RCMs with evolving aerosols in countries where the other RCMs show the opposite sign. This suggests that for some areas in Europe information from RCMs projections might not be accurate if an ensemble is used for these energy related purposes.
 
 \begin{figure}[h!]
     \includegraphics[width=1\textwidth]{figs/capitulo7/bycountryYEAR.pdf}
@@ -1456,7 +1456,7 @@ The geographical dependence of the PV potential change is due to the spatial pat
 \end{figure}
 
 
-The annual values of PV change for the models without aerosol evolution is between -4.4 to -2.7$\%$ over the whole domain. ALADIN5.3 projects a positive annual mean change of 5.9$\%$ and RACMO22E of, -1.2$\%$.
+The annual values of PV change for the models without aerosol evolution is between -4.4 to -2.7$\%$ over the whole domain. ALADIN53 projects a positive annual mean change of 5.9$\%$ and RACMO22E of, -1.2$\%$.
 %It is important to notice that for the ALADIN53 simulation including aerosols the sign in PV power output anomaly is positive and negative in the other cases. !!Besides, the RACMO anomaly is close to zero (although negative) whereas the rest of the simulation has the same magnitude order of the anomaly: ~ -2 to -4\%
 
 For summer months, which is the most important season for solar energy supply, the results are shown in figure \ref{fig:pvcountryjja}. In this case, the same pattern as in the annual PV yield is found, with the two models with evolving aerosols showing higher changes. All the simulations not including evolving aerosols have very similar values, close to zero in western and southern Europe a slightly negative for the rest of the countries. On the other hand, ALADIN53 gives an strong change for Central-Europe and countries with a maximum that ranges between 11-13\% of increase. RACMO22E has positive values but smaller in magnitude with the maximum values around the eastern-southern European countries.
@@ -1467,7 +1467,7 @@ For summer months, which is the most important season for solar energy supply, t
 \label{fig:pvcountryjja}
 \end{figure}
 
-At the country level, some representative ones have been included in table \ref{tb:pvanomalies}. For ALADIN5.3 values above 10$\%$ are found in Germany, Hungary, and the Czech Republic, whereas lower values are found for Spain (2.4$\%$), Italy (6.4$\%$) or Greece (4.6$\%$), although still positive. In the same countries, RACMO22E shows the highest increase in Hungary, 4$\%$,  and smaller values in the rest, from 0.4$\%$ in Spain to 2.5$\%$ in the Czech Republic.
+At the country level, some representative ones have been included in table \ref{tb:pvanomalies}. For ALADIN53 values above 10$\%$ are found in Germany, Hungary, and the Czech Republic, whereas lower values are found for Spain (2.4$\%$), Italy (6.4$\%$) or Greece (4.6$\%$), although still positive. In the same countries, RACMO22E shows the highest increase in Hungary, 4$\%$,  and smaller values in the rest, from 0.4$\%$ in Spain to 2.5$\%$ in the Czech Republic.
  
 %Uncertainties due to the different AOD datasets used in the two RCMs and in the radiative transfer code of the model difficults the robust answer about the change magnitude. Averaging the results for the non-aerosols simulations and aerosols simulation, we obtain the results in fugure.
 
