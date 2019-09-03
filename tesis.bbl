@@ -11056,6 +11056,73 @@
   \field{year}{2008}
 \endentry
 
+\entry{Quesada-Ruiz2015}{article}{}
+  \name{author}{5}{}{%
+    {{}%
+     {Quesada-Ruiz}{Q.-R.}%
+     {S.}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Linares-Rodr{\'{i}}guez}{L.-R.}%
+     {A.}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ruiz-Arias}{R.-A.}%
+     {J.A.}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Pozo-V{\'{a}}zquez}{P.-V.}%
+     {D.}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Tovar-Pescador}{T.-P.}%
+     {J.}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Pergamon}%
+  }
+  \strng{namehash}{QRS+1}
+  \strng{fullhash}{QRSLRARAJPVDTPJ1}
+  \field{labelalpha}{QR+15}
+  \field{sortinit}{Q}
+  \field{abstract}{%
+  In this work, a new method to derive hourly global horizontal irradiance
+  (GHI) estimates from Meteosat Second Generation (MSG) imagery is presented.
+  The method is based on an optimized Artificial Neural Network (ANN) ensemble
+  model using a selection of the best ANN models identified from an initial
+  ensemble that discerns between different sky conditions and an additional
+  ensemble that considers all sky conditions together. For benchmarking
+  purposes, hourly GHI estimates computed with the Heliosat-2 method,
+  accounting for the diurnal variability of ground albedo, are used. Data
+  collected during the 3-year period from 2009 to 2011 at 28 radiometric
+  stations located in northern Africa, Middle East and Europe, are used in the
+  procedure. From these stations, 7 are used to train the ANN models and the
+  other 21 for independent validation. Results obtained with the proposed ANN
+  ensemble model reduced the RMSE value of the Heliosat-2 model a 22{\%} for
+  all-sky conditions and a 42{\%} for overcast conditions.%
+  }
+  \verb{doi}
+  \verb 10.1016/J.SOLENER.2015.03.014
+  \endverb
+  \field{issn}{0038-092X}
+  \field{pages}{494\bibrangedash 504}
+  \field{title}{{An advanced ANN-based method to estimate hourly solar
+  radiation from multi-spectral MSG imagery}}
+  \verb{url}
+  \verb https://www.sciencedirect.com/science/article/pii/S0038092X15001322
+  \endverb
+  \field{volume}{115}
+  \field{journaltitle}{Solar Energy}
+  \field{year}{2015}
+  \warn{\item Invalid format of field 'month'}
+\endentry
+
 \entry{delrio}{article}{}
   \name{author}{3}{}{%
     {{}%

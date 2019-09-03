@@ -77,12 +77,11 @@ The procedure used in \cite{Argueso2011} and in \cite{Zagouras2014} is adapted t
 \begin{itemize}
 \item \textbf{To reduce data dimensionality}. Principal components are eigenvectors of an orthogonal matrix after applying a singular value decomposition (SVD) to the original data, daily solar irradiation vectors, whose initial dimension is reduced to the first eigenvectors that retain $95\%$ of the variance. Considering that, a linear combination of these eigenvectors represents the initial data.
 \item \textbf{Hierarchical clustering to initialize k-means}. A hierarchical clustering method classifies data based on a hierarchy. If it is agglomerative, it will start with a cluster for each observation of the data and observations will group together recursively by similarity using the “complete linkage” method. Once the hierarchy is obtained, centroids can be calculated for each emerged partition with a number of clusters between 2 and \textit{n}, where \textit{n} is a high enough selected number of clusters. Centroids will be the initial seed for the Kmeans algorithm, avoiding the computational problems and favoring reproducibility.
-\item \textbf{K-means algorithm}. The K-means algorithm is a partitional clustering method that minimizes an objective function that defines similarity among the elements of each cluster. In our case we made use of the Euclidean distance, Eq. \ref{eq:euclidean} between the objects or elements in the cluster and its centroid as the objective function. The number of clusters in which the data is divided into has to be known beforehand. In order to overcome the inconvenience, the algorithm is run from 2 to \textit{n} clusters and the optimum number is determined by making use of a clustering validity index after that.
+\item \textbf{K-means algorithm}. The K-means algorithm is a partitional clustering method that minimizes an objective function that defines similarity among the elements of each cluster. In our case we made use of the Euclidean distance, Eq. \ref{eq:euclidean} between the objects or elements in the cluster, $x_{i}$, and its centroid, $c_{j}$, as the objective function. The number of clusters in which the data is divided into has to be known beforehand. In order to overcome the inconvenience, the algorithm is run from 2 to \textit{n} clusters and the optimum number is determined by making use of a clustering validity index after that.
 
 \begin{equation}\label{eq:euclidean}
     J =\sum_{i=1}^{k}\sum_{j=1}^{n}{||x_i-c_j||}^2
 \end{equation}
-
 
 \nomenclature[J]{$J$}{Objective function of the Kmeans clustering method: summation over euclidean distances}
 \nomenclature[x_i]{$x_i$}{Each point in the cluster, where the point is a vector with elements comprising the daily irradiation time series values at a pixel obtained from satellite images }
@@ -91,7 +90,7 @@ The procedure used in \cite{Argueso2011} and in \cite{Zagouras2014} is adapted t
 \nomenclature[IP]{$IP$}{Iberian Peninsula}
 
 \item \textbf{Validity index}. In order to determine the optimal partition, validity clustering techniques are applied. There are two types of validation for the clustering methods. First, external clustering validation methods that make use of external information out of the data; and secondly, there are internal clustering validation methods that rely only on information from the data \cite*{Liu2010}. The latter are used to preserve objectivity as much as possible and are based on two criteria: compactness and separation of the clusters emerged. We use one of the most applied validity indices, the Calinski-Harabasz index \cite*{CalinskiH}, CH, that evaluates the average between and within cluster sums of squares.
-\item \textbf{L-method}. CH index is calculated for every partition from 2 to $n$ clusters. The resulting CH graph in figure \ref{CHindex} for the Iberian Peninsula regionalization is shown for a number of clusters between 2 and 70 as an example. Theoretically, the partition with the maximum CH is the optimum, but the graph shows a decreasing trend which leads to imprecision in finding the optimum. The large number of data and the continuous variable analyzed are responsible for that. For that reason, the L-method is applied \cite*{Salvador2004}. This method selects the intersection of two best-fit lines in the graph CH vs. \textit{k}, where \textit{k} is the number of clusters of the partition \cite*{Zagouras2013}. All possible pairs of lines that fit linearly to the left and right sequence of data points are created. Each line has at least two points. The total root mean squared error is calculated as in Eq.:\ref{eq:total_RMSE}:
+\item \textbf{L-method}. CH index is calculated for every partition from 2 to $n$ clusters. The resulting CH graph in Figure \ref{CHindex} for the Iberian Peninsula regionalization is shown for a number of clusters between 2 and 70 as an example. Theoretically, the partition with the maximum CH is the optimum, but the graph shows a decreasing trend which leads to imprecision in finding the optimum. The large number of data and the continuous variable analyzed are responsible for that. For that reason, the L-method is applied \cite*{Salvador2004}. This method selects the intersection of two best-fit lines in the graph CH vs. \textit{k}, where \textit{k} is the number of clusters of the partition \cite*{Zagouras2013}. All possible pairs of lines that fit linearly to the left and right sequence of data points are created. Each line has at least two points. The total root mean squared error is calculated as in Eq.:\ref{eq:total_RMSE}:
 
 \begin{figure}[h!]
 \centering\includegraphics[width=0.5\textwidth]{figs/capitulo5/CHindex}
@@ -144,7 +143,7 @@ The metric to analyze interannual variability is the coefficient of variation, C
 
 In this equation, $\sigma$ is the standard deviation of the variable analyzed and it is divided by the mean of the variable in the period of the study. Sometimes CV is represented in percentage. This measure is dimensionless and can be applied in different time scales, which is helpful for comparisons.
 
-To assess complementarity of the solar resource in the area of study, the Pearson's correlation coefficient between the time series of pairs of clusters is calculated, equation \ref{eq:pearson}. Different aggregation time steps for the time series (daily, monthly, etc.) can be selected to assess complementarity in different time scales. 
+To assess complementarity of the solar resource in the area of study, the Pearson's correlation coefficient between the time series of pairs of clusters is calculated, Eq. \ref{eq:pearson}. Different aggregation time steps for the time series (daily, monthly, etc.) can be selected to assess complementarity in different time scales. 
 
 \begin{equation}\label{eq:pearson}
   \rho_{i,j}=\frac{\sigma_{c_i,c_j}}{\sigma_{c_i}\sigma_{c_j}}
@@ -166,7 +165,7 @@ A 15 years moving window is selected over a 30-years monthly time series in orde
 
 \subsection{Regionalization}
 
-The optimal partition after having applied the clustering method is represented in figure \ref{clusters}. The CH validation procedure gives an optimum number of 19 clusters for the area, where each of the clusters has an homogeneous time evolution of solar irradiation. Due to the nature of clustering techniques, there is not a unique/best method to select the optimum partition. Another index (Davies-Boudin, \cite{davies1979cluster}) has been applied for comparison, and the obtained optimum number of clusters was of the same order than for CH index.
+The optimal partition after having applied the clustering method is represented in Figure \ref{clusters}. The CH validation procedure gives an optimum number of 19 clusters for the area, where each of the clusters has an homogeneous time evolution of solar irradiation. Due to the nature of clustering techniques, there is not a unique/best method to select the optimum partition. Another index (Davies-Boudin, \cite{davies1979cluster}) has been applied for comparison, and the obtained optimum number of clusters was of the same order than for CH index.
  
 \begin{figure}[h!]
 \centering\includegraphics[width=0.6\textwidth]{figs/capitulo5/clusters2}
@@ -175,7 +174,7 @@ The optimal partition after having applied the clustering method is represented 
 \end{figure}
 
   
-The ability of the clustering method to select optimum regions and to represent different climates of the area can be highlighted evaluating aggregated values of yearly mean of daily irradiation by cluster. Higher values are found in clusters 14, 15, 17, 18, 19, as can be seen in table \ref{tabla2} which corresponds to the southern half of the Iberian Peninsula. Apart from this latitude-related maximum irradiation, a particularly high value is found in cluster 11, clearly above all surrounding clusters in the northern half of the Iberian Peninsula. This cluster corresponds to the central Ebro basin, which is characterized by a very dry continental climate. It is a deep depression totally surrounded by mountain ranges like the Pyrenees,  which frequently cause a Föhn effect which reduces cloudiness and precipitation in comparison with other nearby clusters. Excluding this cluster, irradiation in the northern half of the Iberian Peninsula (1, 2, 3, 4, 5, 6) is lower than in the southern half, and the minimum values are found in clusters in the northern coast and the Pyrenees. The maximum solar irradiation is 50 percent higher than the minimum, which reflects the large climatic differences between clusters.
+The ability of the clustering method to select optimum regions and to represent different climates of the area can be highlighted evaluating aggregated values of yearly mean of daily irradiation by cluster. Higher values are found in clusters 14, 15, 17, 18, 19, as can be seen in Table \ref{tabla2} which corresponds to the southern half of the Iberian Peninsula. Apart from this latitude-related maximum irradiation, a particularly high value is found in cluster 11, clearly above all surrounding clusters in the northern half of the Iberian Peninsula. This cluster corresponds to the central Ebro basin, which is characterized by a very dry continental climate. It is a deep depression totally surrounded by mountain ranges like the Pyrenees,  which frequently cause a Föhn effect which reduces cloudiness and precipitation in comparison with other nearby clusters. Excluding this cluster, irradiation in the northern half of the Iberian Peninsula (1, 2, 3, 4, 5, 6) is lower than in the southern half, and the minimum values are found in clusters in the northern coast and the Pyrenees. The maximum solar irradiation is 50 percent higher than the minimum, which reflects the large climatic differences between clusters.
 
 \begin{center}
   \begin{table}[h!]
@@ -226,13 +225,13 @@ The CV is also aggregated by cluster, in order to facilitate the intercomparison
 
 \subsubsection{Yearly mean}
 
-The results for the CV of the yearly mean of daily irradiation and of the annual mean yield by tracking type, aggregated by cluster, are shown in table \ref{tabla2}. Also, yearly mean of daily irradiation is represented, showing differences in resource among areas, as well as yield differences.
+The results for the CV of the yearly mean of daily irradiation and of the annual mean yield by tracking type, aggregated by cluster, are shown in Table \ref{tabla2}. Also, yearly mean of daily irradiation is represented, showing differences in resource among areas, as well as yield differences.
 
 The highest values of CV (above $4\%$) are seen in clusters 8, 4 and 5. These clusters correspond to the Pyrenees and the northern Cantabric coast. This behavior can be explained in part through the influence of variable summer cloudiness, as these areas are not affected by the summer dryness typical of the Mediterranean climate of most of the Iberian Peninsula. Southern and central regions are the least variable. Remarkably, the lowest value of CV is found in cluster 11, corresponding to the central Ebro basin, located at the north of the Iberian Peninsula. Very low values near $2\%$   are also found in the southwestern clusters (4 and 19), a result that coincides with \cite{Gil2015}. Finally, the north-western clusters (2 and 7) show a higher value than the northeastern cluster 13, despite sharing the same latitude. The north-western clusters are particularly influenced by the Azores high position and interannual variability.
 
 Regarding the electricity production, power from the PV generator depends quasi-linearly on solar irradiation at the plane-of-array ($G_{eff}(\alpha,\beta)$), apart from second order effects (spectrum, wind, etc) \cite*{Perpinan2007} . Due to that, the fixed typology is the one with lower yield because the amount of irradiation reaching cells is lower than the amount of energy reaching panels when trackers are allowed to move in one or two axes.
 
-For areas where solar irradiation is higher, yield differences between trackers are higher. This can be seen in figure \ref{yearly_productivity_byCluster} where yearly mean yield for the 30-years period is aggregated by cluster and tracking system, and clusters are sorted vertically from less to more energy yield. Yield increase from fixed panels to one-axis panels is non-linear. This increase ranges between $17\%$ for the clusters with less solar irradiation, located at the northern coast like clusters 4, 5; and $30\%$ for the southern clusters with more solar irradiation (clusters 18, 19). In contrast, energy yield increase from one-axis to two-axes panels is almost constant, around $12\%$ for all clusters. A consequence of the non-linear PV yield increase from fixed to one-axis panels is that the energy yield differences between clusters are much higher for tracking than for fixed systems. While for fixed panels PV energy yield varies between 1000 and 1450 $\left[\si{\kilo\watthour\over\kilo\wattpeak}\right]$, for two-axes systems it varies between 1350 and 2100 $\left[\si{\kilo\watthour\over\kilo\wattpeak}\right]$. These average values are coherent with results obtained in \cite{Antonanzas-Torres2013}.
+For areas where solar irradiation is higher, yield differences between trackers are higher. This can be seen in Figure \ref{yearly_productivity_byCluster} where yearly mean yield for the 30-years period is aggregated by cluster and tracking system, and clusters are sorted vertically from less to more energy yield. Yield increase from fixed panels to one-axis panels is non-linear. This increase ranges between $17\%$ for the clusters with less solar irradiation, located at the northern coast like clusters 4, 5; and $30\%$ for the southern clusters with more solar irradiation (clusters 18, 19). In contrast, energy yield increase from one-axis to two-axes panels is almost constant, around $12\%$ for all clusters. A consequence of the non-linear PV yield increase from fixed to one-axis panels is that the energy yield differences between clusters are much higher for tracking than for fixed systems. While for fixed panels PV energy yield varies between 1000 and 1450 $\left[\si{\kilo\watthour\over\kilo\wattpeak}\right]$, for two-axes systems it varies between 1350 and 2100 $\left[\si{\kilo\watthour\over\kilo\wattpeak}\right]$. These average values are coherent with results obtained in \cite{Antonanzas-Torres2013}.
  
 \begin{figure}[!tbp] 
 \includegraphics[width=0.7\textwidth]{figs/capitulo5/productivity_bycluster_andtype.pdf}
@@ -250,13 +249,13 @@ Variations in electricity prices from one year to another are significantly depe
 \label{cicloAnualCV_all}
 \end{figure}
 
-Annual cycles of interannual monthly CV are represented in figure \ref{cicloAnualCV_all}. The interannual variability for monthly yield is higher than for the solar irradiation at the horizontal plane. In winter months, these differences in CV are much higher than in summer. This behavior is more pronounced in northern areas (clusters 1, 2, 3, 4, 5, 6, 7).  Seasonal patterns can be appreciated in all the areas although some clusters in the north-east area (13, 11) present flatter cycles.
+Annual cycles of interannual monthly CV are represented in Figure \ref{cicloAnualCV_all}. The interannual variability for monthly yield is higher than for the solar irradiation at the horizontal plane. In winter months, these differences in CV are much higher than in summer. This behavior is more pronounced in northern areas (clusters 1, 2, 3, 4, 5, 6, 7).  Seasonal patterns can be appreciated in all the areas although some clusters in the north-east area (13, 11) present flatter cycles.
 
 Regarding solar irradiation variability, it is also important to notice the differences in winter months between the eastern and north-western sides of the Iberian Peninsula. Eastern clusters (10, 11, 13, 16, 17, and 18), have smaller values of CV (below $15\%$) in winter than northern and north-western clusters (1, 2, 3, 4 and 7), where values above $15\%$ and close to $20\%$ are found. In summer there is a different behavior because the main differences exist between the north and the south of the Iberian Peninsula. Northern clusters (1, 2, 4, 5 and 8) show summer CV values above $7\%$, while southern clusters (15, 14, 17, 18 and 19) show very low values, around $2\%$.
 
 Cluster 8, in the Pyrenees region has the highest values in winter, above $25\%$. Its annual cycle has a wide range between winter and summer, decreasing to $7\%$ in August. On the other hand, north-eastern clusters (13, 11, and 10) show the smallest differences between winter and summer for the CV of solar irradiation.
 
-In order to quantify differences in variability between solar irradiation and solar power output, the ratio between variability of yield by tracking system and solar irradiation is represented in figure \ref{ratiosCV} for each month and cluster. If CV of energy yield is higher than CV of solar irradiation, values are above one. On the other side, values will be below one if CV of solar irradiation is higher than CV of energy yield. 
+In order to quantify differences in variability between solar irradiation and solar power output, the ratio between variability of yield by tracking system and solar irradiation is represented in Figure \ref{ratiosCV} for each month and cluster. If CV of energy yield is higher than CV of solar irradiation, values are above one. On the other side, values will be below one if CV of solar irradiation is higher than CV of energy yield. 
 
 \begin{figure}
   \includegraphics[width=0.7\textwidth]{figs/capitulo5/dotplot_ratio_zone2.pdf}
@@ -297,11 +296,11 @@ The results of CV show that variability of PV energy yield at tilted panels is h
 \subsection{Complementarity results}
 
 The monthly time series are also selected for the complementarity analysis.
-Regarding solar power complementarity, opposite-evolving time-series for different areas would strongly increase the reliability of the whole electric system, as shortfalls of solar irradiation in certain areas could be compensated by above-normal irradiation in others. However, this ideal situation is difficult to find in a rather limited area like the IP, at least for monthly time scales over a long time period of 30 years. In this case, the absence of correlation also becomes important, as it avoids simultaneous shortfalls or simultaneous above-normal values and therefore, softens the overall power production. Overall, the 30-year period correlation matrix for each month shows that southern and eastern clusters are uncorrelated at least during part of the year with northern and northwestern clusters. In some cases, the absence of correlation is found between nearby clusters. A more detailed discussion can be found in the appendix 5.A.2.
+Regarding solar power complementarity, opposite-evolving time-series for different areas would strongly increase the reliability of the whole electric system, as shortfalls of solar irradiation in certain areas could be compensated by above-normal irradiation in others. However, this ideal situation is difficult to find in a rather limited area like the IP, at least for monthly time scales over a long time period of 30 years. In this case, the absence of correlation also becomes important, as it avoids simultaneous shortfalls or simultaneous above-normal values and therefore, softens the overall power production. Overall, the 30-year period correlation matrix for each month shows that southern and eastern clusters are uncorrelated at least during part of the year with northern and northwestern clusters. In some cases, the absence of correlation is found between nearby clusters. A more detailed discussion can be found in the appendix A.
 
 It could be that the obtained clusters present higher complementarity in shorter sub-periods. As explained in section 5.3.3, we have divided the whole 30-year period in sub-periods of consecutive 15 years. The correlation coefficients have been calculated again for the resulting 15-year moving window, for each pair of clusters and for each month. In this way, we obtain how each correlation coefficient evolves during the 30 year period. The analysis has been applied for the four variables in the study: solar irradiation at the horizontal plane and PV energy yield for each tracking system.
 
-The correlation coefficient evolution of the photovoltaic energy yield obtained with fixed panels and for the most important pair of clusters, in terms of complementarity (2-18), is represented in figure \ref{series_correlacion} to illustrate main results. In addition, the less relevant pair of clusters (15-19), the one with the highest medium value of the correlation coefficient, is also overlapped in the figure in order to show the differences that exist between the areas that present complementarity in some points of the period and those with high positive values for the whole time series.
+The correlation coefficient evolution of the photovoltaic energy yield obtained with fixed panels and for the most important pair of clusters, in terms of complementarity (2-18), is represented in Figure \ref{series_correlacion} to illustrate main results. In addition, the less relevant pair of clusters (15-19), the one with the highest medium value of the correlation coefficient, is also overlapped in the Figure in order to show the differences that exist between the areas that present complementarity in some points of the period and those with high positive values for the whole time series.
 
 Other relevant pairs for complementarity include a northern (1, 2, 4 or 5) and a south-eastern cluster (17 or 18),  although they are not shown in the graph. They behave similar to the pair 2-18, with a swinging time series that reaches negative values below -0.6 for the correlation coefficient at some 15-years sub-periods. 
 
@@ -313,7 +312,7 @@ Other relevant pairs for complementarity include a northern (1, 2, 4 or 5) and a
 
 Among the first pairs in terms of complementarity, it is important to remark the appearance of 3-4 and 3-5 although they are not shown in the graph. These clusters are closer than the previously commented cases, which highlight the adequacy of the clustering method. All three are Atlantic coast clusters, but while cluster 3 includes part of the western coast, clusters 4 and 5 are northern coastal areas. This fact, together with the position of the main mountain ranges, can explain their partially complementary behavior.
 
-In order to highlight the months with maximum anti-correlation, figure \ref{series_correlacion_meses} presents, for the same cluster pairs as above, the minimum values of the monthly correlation coefficient (where the minimum for each month is calculated over all 15-year sub-periods). Differences between months are clearly observed in this graph. Only two months (March and June) show consistent positive values of this parameter and therefore, a low complementarity. In the other months, this parameter predominantly has negative values, revealing a certain degree of complementarity for the pair 2-18.
+In order to highlight the months with maximum anti-correlation, Figure \ref{series_correlacion_meses} presents, for the same cluster pairs as above, the minimum values of the monthly correlation coefficient (where the minimum for each month is calculated over all 15-year sub-periods). Differences between months are clearly observed in this graph. Only two months (March and June) show consistent positive values of this parameter and therefore, a low complementarity. In the other months, this parameter predominantly has negative values, revealing a certain degree of complementarity for the pair 2-18.
 
 \begin{figure}[h!]
 \includegraphics[scale=0.6]{figs/capitulo5/figure9.pdf}
@@ -389,15 +388,18 @@ This work provides a robust and comprehensive methodology that can be extended t
 
 % This work provides a robust and comprehensive methodology that can be extended to other domains and to other timescales. The method can also be adapted to other types of renewable energy generation, like wind or solar thermoelectric, and can also provide combined assessments of different renewable resources, offering for example information about complementarity of solar and wind energy. Future applications of the method will explore such extensions.
 
-\begin{subappendices}
+% \begin{subappendices}
 
-\section{Appendix}
+% \section{Appendix}
+  
+% \subsection{Yearly mean values and variability}
 
-\subsection{Yearly mean values and variability}
+\section*{Appendix A}
+\subsection*{Yearly mean values and variability}
 
 The highest values of CV for solar irradiation (above $4\%$) are seen in clusters 8, 4 and 5. These clusters correspond to the Pyrenees and the northern Cantabric coast. This behavior can be explained in part through the influence of variable summer cloudiness, as these areas are not affected by the summer dryness typical of the Mediterranean climate of most of the Iberian Peninsula. Southern and Central regions are the least variable. Remarkably, the lowest value of CV is found in cluster 11, corresponding to the central Ebro basin, located at the north of the Iberian Peninsula. Very low values near $2\%$   are also found in the southwestern clusters (4 and 19), a result that coincides with \cite{Gil2015}. Finally, the northwestern clusters (2 and 7) show a higher value than the northeastern cluster (13), despite sharing the same latitude. The northwestern clusters are particularly influenced by the Azores high position and interannual variability.
 
-Irradiation data and their CV are also graphically represented in figure \ref{SolarIrradiation_CV_maps}, showing their geographical distribution. The functions represented at the margins of the graphs, show respectively the latitudinal and longitudinally aggregated value of the variable. In latitude, both, global irradiation and CV are inversely related. Regarding the longitude axis, a contrast between coastal and interior values is seen for the irradiance, while the CV shows a complex behavior, predominantly with higher values near the western and eastern coast than in the interior parts.
+Irradiation data and their CV are also graphically represented in Figure \ref{SolarIrradiation_CV_maps}, showing their geographical distribution. The functions represented at the margins of the graphs, show respectively the latitudinal and longitudinally aggregated value of the variable. In latitude, both, global irradiation and CV are inversely related. Regarding the longitude axis, a contrast between coastal and interior values is seen for the irradiance, while the CV shows a complex behavior, predominantly with higher values near the western and eastern coast than in the interior parts.
 
 \begin{figure}[!tbp]
   \centering
@@ -446,8 +448,7 @@ This figure also facilitates visualization of each cluster's size, due to the fa
   \label{yearly_productivity_and_CV}
 \end{figure}
 
-
-%The results for the CV of the yearly mean of daily irradiation and of the annual mean yield by tracking type, aggregated by cluster, are shown in table \ref{tabla2}. Also, yearly mean of daily irradiation is represented, showing differences in resource among areas, as well as yield differences.
+% The results for the CV of the yearly mean of daily irradiation and of the annual mean yield by tracking type, aggregated by cluster, are shown in table \ref{tabla2}. Also, yearly mean of daily irradiation is represented, showing differences in resource among areas, as well as yield differences.
 
 % \begin{center}
 % \begin{table}
@@ -533,7 +534,7 @@ This figure also facilitates visualization of each cluster's size, due to the fa
 %   \label{yearly_productivity_and_CV}
 % \end{figure}
 
-\subsection{Complementarity}
+\subsection*{Complementarity}
 
 
 Figure \ref{correlaciones_30} represents the correlation matrix, for each month and for all pairs of clusters, of the solar global irradiation at the horizontal plane, considering the whole period (1983-2013). Correlation coefficient varies in the annual cycle for each pair of clusters. Most of the relationships show a high positive correlation coefficient. This is the case particularly for northern clusters (4, 5, 6), which are highly correlated for every month. For clusters in the southern half of the Iberian Peninsula, from 14 to 19, the correlation coefficient is also positive, although it decreases in July and August for most of the pairs. 
@@ -578,13 +579,13 @@ However, the high positive correlation is not general. Northern clusters 4 and 5
 % \label{correlaciones_30}
 % \end{figure}
 
-\end{subappendices}
+%\end{subappendices}
 
 \clearpage
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\chapter[Impact of aerosols on photovoltaic production]{Impact of aerosols on photovoltaic energy production over the Euro-Mediterranean area}
+\chapter[Impact of aerosols on photovoltaic production]{Impact of aerosols on photovoltaic energy production over the Euro-Mediterranean area\label{cha:impact}}
 
 \blfootnote
 {This chapter shows the results of the paper published in Solar Energy journal: \textit{Impact of aerosols on the spatiotemporal variability of photovoltaic energy production in the Euro-Mediterranean area.}\\
@@ -645,13 +646,13 @@ During the eighties, some policies against the emissions of certain types of ant
 
 There is a large spatial and seasonal variability of the AOD at 550nm over the Euro-Mediterranean. Spring and summer months are highly influenced by dust aerosols in the south of the domain. In winter, anthropogenic aerosols dominate in central Europe and during autumn, there are few areas with high values in opposition to the rest of the domain.
 
-The domain considered in the simulations covers the Mediterranean area in addition to a large part of Europe (see figure \ref{fig:mapapral}).
+The domain considered in the simulations covers the Mediterranean area in addition to a large part of Europe (see Figure \ref{fig:mapapral}).
 
 For the first period, 2003-2009, a pair of runs is analyzed. We refer to them as \textbf{AER} and \textbf{NO-AER}. The AER simulation includes the NAB13 dataset, whereas no aerosols are included in NO-AER. This pair allows to easily attribute the obtain differences to the aerosols effect, therefore to quantify the impact of aerosols on the Euro-Mediterranean SSR and PV productivity. It is an important point considering the fact that some of the state-of-art RCMs do not include aerosols in their simulations, so it gives an idea of that missing forcing.
 
 Secondly, a longer simulation between 1980 and 2012, \textbf{TREND}, covering the ``brightening'' period observed in Europe is also analyzed. It will show the effect of a decreasing trend in sulfur aerosols on the shortwave solar radiation and on the PV productivity.  
 
-A summary of the different simulations is reported in table \ref{tabSIM}.
+A summary of the different simulations is reported in Table \ref{tabSIM}.
 
 \begin{table}
   \begin{tabular}{>{\raggedright}m{2cm}>{\raggedright}m{3cm}>{\raggedright}m{2cm}}
@@ -756,7 +757,7 @@ Concerning aerosols representation, the satellite dataset includes information f
 
 %The BSRN (Baseline surface radiation network) \cite*{Ohmura1998} is a set of ground-based measurements, from the WRCP Radiative Fluxes Working Group. It was created for supporting research in the radiation budget of the Earth-atmosphere and the radiation distribution, considering its main role in climate processes. The main objective is to provide high-quality measurements that are able to deal with the scarcity of the existing radiometric network. Although there are not many stations available for the period of the study in the Euro-Mediterranean domain, the high quality data provided by BSRN is necessary for a first evaluation of the climate simulations.
 
-The three stations of the BSRN network used in this study (Payerne, Carpentras and Sede Boker) covered the period 2003-2009 and provide SSR monthly data \cite*{Konig-Langlo2013}. Their location is represented in figure \ref{fig:mapapral} together with the PV plants considered in the study.   
+The three stations of the BSRN network used in this study (Payerne, Carpentras and Sede Boker) covered the period 2003-2009 and provide SSR monthly data \cite*{Konig-Langlo2013}. Their location is represented in Figure \ref{fig:mapapral} together with the PV plants considered in the study.   
 
 \subsubsection{Temperature data: ECAD}
 
@@ -766,7 +767,7 @@ The PV production assessment calculated using the SSR from satellite data needs 
 
 Data from two different power plants are used for the evaluation of the simulated PV power and the assessment of the added value of the aerosol inclusion in the climate simulations.
 
-The two power plants are in the Iberian Peninsula and their location represented in figure \ref{fig:mapapral}. The first one, located in Tarragona in the North-East area, is a PV system with fixed structure. The second one is a two-axis tracking PV plant located in Seville, in the South of Spain. Details of both PV power plants are in table \ref{tabPlants}, including the electrical characteristics of their components. 
+The two power plants are in the Iberian Peninsula and their location represented in Figure \ref{fig:mapapral}. The first one, located in Tarragona in the North-East area, is a PV system with fixed structure. The second one is a two-axis tracking PV plant located in Seville, in the South of Spain. Details of both PV power plants are in Table \ref{tabPlants}, including the electrical characteristics of their components. 
 
 \begin{table}[h!]
   \begin{tabular}{>{\raggedright}m{1.5cm}>{\raggedright}m{3cm}>{\raggedright}m{3cm}}
@@ -794,7 +795,7 @@ The two power plants are in the Iberian Peninsula and their location represented
 \end{table}
 
 
-Data of PV production are difficult to obtain due to confidentiality contracts. Moreover, when data are available time series are not always complete. Maintenance, modules substitutions, inverter problems and other stops in the production may lead to common time-gaps in the datasets. These limitations must be taken into account when establishing statistical comparisons between models and real data. In this case, the two PV power plants provide daily data within the period 2003-2009, the details are in table \ref{localData}. Monthly means of these data are compared against the monthly means of simulated daily PV productivity, energy produced by the power installed ${\kilo\watthour\over\kilo\wattpeak}$, with the models and the satellite. Only months with more than 15 days of data available are considered for the monthly mean and compared against simulated data.
+Data of PV production are difficult to obtain due to confidentiality contracts. Moreover, when data are available time series are not always complete. Maintenance, modules substitutions, inverter problems and other stops in the production may lead to common time-gaps in the datasets. These limitations must be taken into account when establishing statistical comparisons between models and real data. In this case, the two PV power plants provide daily data within the period 2003-2009, the details are in Table \ref{localData}. Monthly means of these data are compared against the monthly means of simulated daily PV productivity, energy produced by the power installed ${\kilo\watthour\over\kilo\wattpeak}$, with the models and the satellite. Only months with more than 15 days of data available are considered for the monthly mean and compared against simulated data.
 
 \section{Results} 
 
@@ -802,7 +803,7 @@ Although the AOD dataset and the climate simulations used in this study have alr
 
 \subsection{Local scale}
 
-Three different stations from BSRN cover the period between 2003-2009 with SSR monthly data. Stations are represented in figure \ref{fig:mapapral} with points. Also, two different power plants in Spain, represented in figure \ref{fig:mapapral} with a cross, are used to evaluate PV power simulations at a local scale. A summary of the data used in this section, the periods and the resolution can be found in table \ref{localData}.
+Three different stations from BSRN cover the period between 2003-2009 with SSR monthly data. Stations are represented in Figure \ref{fig:mapapral} with points. Also, two different power plants in Spain, represented in Figure \ref{fig:mapapral} with a cross, are used to evaluate PV power simulations at a local scale. A summary of the data used in this section, the periods and the resolution can be found in Table \ref{localData}.
 
 
 \begin{table}[h!]
@@ -828,7 +829,7 @@ Three different stations from BSRN cover the period between 2003-2009 with SSR m
   \label{localData}
 \end{table}
 
-In figure \ref{fig:station} differences in monthly time series of SSR from simulations and satellite data and the stations measurements are represented.
+In Figure \ref{fig:station} differences in monthly time series of SSR from simulations and satellite data and the stations measurements are represented.
 
 \begin{figure}[h!]
   \centering\begin{subfigure}{0.45\textwidth}
@@ -854,7 +855,7 @@ In figure \ref{fig:station} differences in monthly time series of SSR from simul
 
 For the three stations, the satellite has better results than the simulations, although the error magnitude varies depending on the station. There is also a general improvement of the AER simulation against the NO-AER. Carpentras station is the one with lower bias with respect to the observed data \ref{Carpentras}. In the case of the Sede Boker station \ref{fig:Sde Boker}, there is a seasonal bias in the AER simulation. High negative differences appear from May to August, showing underestimation of the SSR in these months.
 
-Several statistical measurements summarize the general performance of the SSR from the climate model and the PV simulations at each location and are reported in table \ref{RMSE_MAE_table}.
+Several statistical measurements summarize the general performance of the SSR from the climate model and the PV simulations at each location and are reported in Table \ref{RMSE_MAE_table}.
 
 For the simulation of PV power output, the daily mean of PV production data averaged for each month is compared with simulated PV energy production at each power plant, using the three possibilities of SSR data as input: AER, NO-AER and SAT. For these simulations, in order to help with the visualization of the results a \textit{violin plot} (\ref{violin}) is used to visualize the absolute error and its distribution.
 For the Seville PV power plant \ref{fig:figuraSEVILLA}, AER performs better than NO-AER and SAT simulations showing lower errors. Besides, only AER has some negative errors, which means underestimation for some months, whereas the satellite and the NO-AER have only positive error values.
@@ -927,13 +928,13 @@ The Tarragona PV power plant presents larger errors. The SAT has slightly better
 
 AER simulation's median error is 0.60 $\si{\kilo\watthour\per\kilo\wattpeak}$ and NO-AER simulation error has larger values, the median is 0.77  $\si{\kilo\watthour\per\kilo\wattpeak}$. The SAT error has lower median value: 0.48  $\si{\kilo\watthour\per\kilo\wattpeak}$.
 
-It can be also appreciated in figure \ref{fig:violinTarragona} that there are two months in the simulations where errors are specially large. As these values are clear outliers, it might be that some maintenance activities in the plant are the cause of a lower energy output than expected, which would explain the larger errors in those months.  
+It can be also appreciated in Figure \ref{fig:violinTarragona} that there are two months in the simulations where errors are specially large. As these values are clear outliers, it might be that some maintenance activities in the plant are the cause of a lower energy output than expected, which would explain the larger errors in those months.  
 
 The added value of including aerosols in climate simulations for the estimation of PV production is clearly illustrated by our results. The model using climate simulations with a good aerosols representation could be locally as good as the satellite, at least at the location of the PV power plants used (despite of its biases in some areas). The satellite product has revealed itself also as a good dataset, both for SSR (seen in the evaluation with BSRN stations) and for the PV production estimation.
 
 \subsection{Regional scale}
 
-The regions defined in figure \ref{fig:mapapral} are the same areas selected in \cite{Nabat2014}, and the acronyms used in this section are also in the figure. The difference between simulations and satellite data in annual terms is represented in figure \ref{fig:figura4}. The improvement of the simulation including aerosols is noticeable for every region. It can be appreciated also that there are some weak changes in the interannual variability of the bias due to aerosols inclusion, like in the BISL area, AFRE region in 2009 or AFRW.
+The regions defined in Figure \ref{fig:mapapral} are the same areas selected in \cite{Nabat2014}, and the acronyms used in this section are also in the figure. The difference between simulations and satellite data in annual terms is represented in Figure \ref{fig:figura4}. The improvement of the simulation including aerosols is noticeable for every region. It can be appreciated also that there are some weak changes in the interannual variability of the bias due to aerosols inclusion, like in the BISL area, AFRE region in 2009 or AFRW.
 
 Western (EURW) and Southern Europe (EURS) have the lowest biases in SSR, as well as eastern Africa (AFRE) and the South of the British Islands (BISL). Negative biases only appear for Africa and they could be due to the fact that in some cases the annual amount of aerosols is overestimated, or due to the optical properties of the aerosols in the model. The rest of the areas have positive biases, probably due to an underestimation of the cloud cover in the model \cite*{Nabat2014}. The eastern side of the domain shows a higher bias (NEEUR), although it is clear that the addition of aerosols improves the representation of SSR. 
 
@@ -943,7 +944,7 @@ Western (EURW) and Southern Europe (EURS) have the lowest biases in SSR, as well
 \label{fig:figura4}
 \end{figure}
 
-In order to calculate the impact on photovoltaic production, shortwave solar irradiation, SSR, from the climate model simulations and the satellite dataset is used as an input of the photovoltaic model. For a fixed typology of the panels, the difference between simulations with respect to the satellite dataset as input, in the mean of daily productivity for each month, is represented in figure \ref{fig:ciclosFixed}. The productivity is defined as the energy production per unit of power installed $\si{\kilo\wattpeak}$.
+In order to calculate the impact on photovoltaic production, shortwave solar irradiation, SSR, from the climate model simulations and the satellite dataset is used as an input of the photovoltaic model. For a fixed typology of the panels, the difference between simulations with respect to the satellite dataset as input, in the mean of daily productivity for each month, is represented in Figure \ref{fig:ciclosFixed}. The productivity is defined as the energy production per unit of power installed $\si{\kilo\wattpeak}$.
 
 In general, The NO-AER simulation gives more production than the AER and the satellite, overestimating the PV power potential. Climate model simulations, AER and NO-AER, differ more from satellite PV production output in winter months, whereas in summer months, AER and satellite are close to each other, except for the EURNE region. This area is the most biased area of the model in comparison with the satellite, perhaps due to a bias in the cloud cover.
 
@@ -962,7 +963,7 @@ The EURS area is the one with largest amplitude between winter and summer months
 
 In addition to the absolute difference in PV productivity between AER and NO-AER, the relative difference between simulations is presented in this section, showing the relative impact in each case. It allows us to contextualize the loss with respect of the potential of the place.
 
-The difference in yearly PV production between both simulations, for every type of tracking panel, is represented in figure \ref{fig:diferenciaYm}. The spatial pattern shows areas where the aerosols affect more the shortwave solar radiation. Central Europe, Po Valley and the South of the domain, along the African continent coast, are the areas where the differences are more noticeable.
+The difference in yearly PV production between both simulations, for every type of tracking panel, is represented in Figure \ref{fig:diferenciaYm}. The spatial pattern shows areas where the aerosols affect more the shortwave solar radiation. Central Europe, Po Valley and the South of the domain, along the African continent coast, are the areas where the differences are more noticeable.
 
 For the fixed panels, the differences are around -150 $\si{\kilo\watthour\per\kilo\wattpeak}$ for some of these areas in annual terms and reaching -200 $\si{\kilo\watthour\per\kilo\wattpeak}$ in the Po Valley, Syria, Iraq and between Algeria and Tunisia.
 
@@ -984,7 +985,7 @@ When the two other tracking systems are considered, the difference between both 
   \caption[Differences in yearly PV productivity between simulations with and without aerosols]{Differences in PV yearly productivity: (a) absolute $\left[\si{\kilo\watthour\per\kilo\wattpeak}\right]$, (b) relative averaged by country (\%); for the period 2003-2009 between AER and NO-AER and for the three different types of tracking. For he non-significant differences, calculated with a 't-test', a point is over-plotted for (a)}
 \end{figure}
 
-The results of the country averages for the annual productivity are shown in figure \ref{fig:diferenciasRel}. It is shown that the aerosols impact range from $-4\%$ to the PV production to $-16\%$. It can be seen that from the fixed panels to the one-axis, and then to the two-axes tracking type, there is an increase in the productivity losses that is more noticeable in Central Europe, like in Belgium-The Netherlands.
+The results of the country averages for the annual productivity are shown in Figure \ref{fig:diferenciasRel}. It is shown that the aerosols impact range from $-4\%$ to the PV production to $-16\%$. It can be seen that from the fixed panels to the one-axis, and then to the two-axes tracking type, there is an increase in the productivity losses that is more noticeable in Central Europe, like in Belgium-The Netherlands.
 
 Germany, that has installed a high amount of PV capacity, is affected with values around $-10\%$ of loss for fixed system and more than $-12\%$ for the one-axis and two-axes panels. Thus, some countries with high PV production have moderate losses due to aerosols in relative terms. For countries in the west and south of the domain like Portugal, Spain, Morocco, Jordanian or the extension of Saudi Arabia included in the domain, the relative amount of energy loss is smaller due to its high potential, with differences between $-5\%$ and $-6\%$ for fixed panels and reaching $-8\%$ in some cases for the other types of tracking systems.
 
@@ -997,13 +998,13 @@ Germany, that has installed a high amount of PV capacity, is affected with value
 \label{mapas}
 \end{figure}
 
-As can be seen in figure 6.7, in seasonal terms spring (MAM) and summer months (JJA) show statistically significant values of the PV productivity difference. For winter (DJF) and Autumn (SON), there are few significant areas, mostly located in the south of the domain, in the African continent. An exception can be found for fixed panels in winter, with significant zones in Europe with values above $-10\%$, like the Po Valley or the British Islands. 
+As can be seen in Figure 6.7, in seasonal terms spring (MAM) and summer months (JJA) show statistically significant values of the PV productivity difference. For winter (DJF) and Autumn (SON), there are few significant areas, mostly located in the south of the domain, in the African continent. An exception can be found for fixed panels in winter, with significant zones in Europe with values above $-10\%$, like the Po Valley or the British Islands. 
 
 The spatial pattern for the spring season shows higher values in Central-Europe, in specific countries like Poland, Belgium and The Netherlands, or the British Islands, and in northern parts of Syria and Iraq. Maximum values in these areas, range from an impact higher than $-10\%$ for fixed panels to around $-15\%$ for the two axes tracking type. Almost the whole African part of the domain shows significant differences, with impact values above $-5\%$ and local values reaching more than $-10\%$ between Algeria and Tunisia and in areas of Libya or Egypt. 
 
 Summer months have higher loads of aerosols over the Mediterranean. For fixed panels, only a few areas in north Africa, Middle East and north-western Europe show values with a loss higher than $-10\%$. One-axis tracking enlarge the extension of areas with a decrease higher than $10\%$ and some areas with more than $-15\%$ appear in Belgium and The Netherlands, Algeria and Syria-Iraq border. Also some smaller areas appear with PV production losses above $-15\%$ within the above mentioned areas. Between the one-axis and the two-axes tracking type, there are no substantial differences in the spatial pattern but maximum values reach in these cases $-17\%$ to $-20\%$ in the same areas.
 
-Significance is not clearly linked to the magnitude of the relative difference in productivity. High relative differences in DJF and SON in central and northern Europe are not significant, due to the high climate variability in these areas and seasons, whereas lower relative differences in spring in Africa and in summer in southern and eastern Europe are mostly significant. The fact that JJA changes are significant over most of the domain explains the statistical significance of most yearly differences (figure \ref{fig:diferenciaYm}), due to the high contribution of summer to the yearly production and yearly interannual variability (see e.g. \cite{Gil2015}).
+Significance is not clearly linked to the magnitude of the relative difference in productivity. High relative differences in DJF and SON in central and northern Europe are not significant, due to the high climate variability in these areas and seasons, whereas lower relative differences in spring in Africa and in summer in southern and eastern Europe are mostly significant. The fact that JJA changes are significant over most of the domain explains the statistical significance of most yearly differences (Figure \ref{fig:diferenciaYm}), due to the high contribution of summer to the yearly production and yearly interannual variability (see e.g. \cite{Gil2015}).
 
 
 \subsection{Long-term trends. Period 1980-2012}
@@ -1012,7 +1013,7 @@ The impact of long term trends of solar shortwave on PV production can be illust
 
 As a compromise between the lifetime of a PV plant and the length of the simulation, two 15-year periods (at the beginning and end of the simulated period) are evaluated as a proxy for a PV project and the potential amount of energy that can be obtained during such a project. A fixed system is selected for the panels.
 
-The relative difference between the accumulated energy obtained by a 15-year project between 1997-2012 and energy obtained by a 15-year project between 1980-1995 can be seen in figure \ref{fig:trends}.
+The relative difference between the accumulated energy obtained by a 15-year project between 1997-2012 and energy obtained by a 15-year project between 1980-1995 can be seen in Figure \ref{fig:trends}.
 
 \begin{figure}[h!]
   \centering\includegraphics[width=0.7\textwidth]{figs/capitulo6/DifferencesRelativesinPVtciclo15.pdf}
@@ -1090,7 +1091,7 @@ The non-negligible impact of aerosols on PV production in the area suggests that
 
 Attempts to estimate PV potential in the future under climate change were made in previous works \cite*{Crook2011, panagea2014, Gaetani2014, Burnett2014}. Some of them were focused locally \cite*{panagea2014, Burnett2014} and others use a single climate model \cite*{Crook2011}. Different CMIP5 simulations with different GCMs have also been evaluated to assess the photovoltaic potential under climate change conditions in \cite*{Wild2015}, projecting an increase over Europe due to the increase in clear-sky and all-sky conditions. Another sensitivity study has shown that projected increase in SSR is also augmented by changes in anthropogenic aerosols emissions for the same area \cite*{Gaetani2014}.
 
-However, later studies using regional climate models \cite*{Jerez2015, Bartok2017} have shown the opposite behavior for some regions in Europe, an overall decrease in shortwave solar radiation and photovoltaic potential in the same area is projected although no significant change in cloud cover (CLT) was found. %The increase in atmospheric absorption due to the increase in water vapor content has been reported as the explanation for the decrease in SSR.
+However, later studies using regional climate models \cite*{Jerez2015, Bartok2017} have shown the opposite behavior for some regions in Europe, an overall decrease in surface solar radiation and photovoltaic potential in the same area is projected although no significant change in cloud cover (CLT) was found. %The increase in atmospheric absorption due to the increase in water vapor content has been reported as the explanation for the decrease in SSR.
 
 These results constitute one of the few illustrations so far of GCM-RCM inconsistency in the sign of a climate change signal \cite*{Bartok2017}. In addition, this current inconsistency may lead to diverging messages delivered to the PV production stakeholders depending on the climate information source. So far, this inconsistency has been attributed to an added-value of RCMs with respect to GCMs, due to an improved cloud representation in RCMs and therefore an improved related climate change response in RCMs \cite*{Bartok2017}.
 
@@ -1107,7 +1108,7 @@ Usually, the added value of regional climate modeling against global simulations
    % simplification of other processes in order to not compromise the computational resources.
 
 
-   In this context, the goals of this study are to further illustrate the GCM-RCM inconsistency by using well-chosen pairs of GCM-RCM within the Euro-CORDEX ensemble, to attribute this inconsistency to missing evolution of the aerosol forcing in CORDEX RCMs and to deliver trustable future projections of the climate-related PV potential.
+ In this context, the goals of this study are to further illustrate the GCM-RCM inconsistency by using well-chosen pairs of GCM-RCM within the Euro-CORDEX ensemble, to attribute this inconsistency to missing evolution of the aerosol forcing in CORDEX RCMs and to deliver trustable future projections of the climate-related PV potential.
 
 In previous studies, the ensemble approach has been considered to evaluate the impact of climate change in renewable resources \cite*{Jerez2015, Tobin2018, Gil2019, Jerez2019}. However, the fact that a large majority of RCMs' simulations do not consider aerosol evolutions in their projections, the impact of aerosols is masked by the ensemble mean approaches.
 
@@ -1142,7 +1143,6 @@ For our purpose a relevant 6-member ensemble is used, which is a sub-sampling of
 To measure the climate change signal, a 30-year near-future period (2021-2050) is compared to the end of the 20th century (1971-2000). The focus on the near-future allows our results to be nearly independent of the chosen socio-economic scenario (here RCP8.5) and to maximize the aerosol effect with respect to the GHG effect. The choice of 30-year long periods allows to minimize the uncertainty related to the natural climate variability as only one realization of each GCM-RCM pair is usually computed in Euro-CORDEX. In addition, the PV power plants operating during 2021-2050 are the ones that will be planned shortly, so the results are timely for the industry.
 
 \begin{table}[h]
-\caption[RCMs from Euro-CORDEX grouped by the CMIP5 GCMs drivers generating the 2 families of simulations studied]{\label{tb:families}RCMs from Euro-CORDEX grouped by the CMIP5 GCMs drivers generating the 2 families of simulations studied.}
 \footnotesize
 \begin{tabular}{>{\raggedrigth}m{4.5cm}>{\raggedright}m{3cm}>{\raggedright}m{3cm}}
 \toprule 
@@ -1162,7 +1162,7 @@ ICHEC-EC-EARTH&KNMI&RACMO\tabularnewline
 \bottomrule
 %  \br
 \end{tabular}\\
-%$^{a}$UK spelling is required; $^{b}$MSC classification numbers are required; $^{c}$titles of articles are required in journal references; $^{d}$Harvard-style references must be used (see section \ref{except}); $^{e}$final page numbers of articles are required in journal references.
+\caption[RCMs from Euro-CORDEX grouped by the CMIP5 GCMs drivers generating the 2 families of simulations studied]{\label{tb:families}RCMs from Euro-CORDEX grouped by the CMIP5 GCMs drivers generating the 2 families of simulations studied.}
 \end{table}
 \normalsize
 
@@ -1173,12 +1173,11 @@ ICHEC-EC-EARTH&KNMI&RACMO\tabularnewline
 
 % Among the whole list of simulations included in the Euro-CORDEX database, aerosols are described differently depending on the RCM considered. Each RCM includes a different aerosols dataset in the evaluation runs that can be also applied for future projections, including the time evolution following the correspondent RCP scenario. Simpler approaches consist of a fixed climatology that is also included on the future projections but without evolving in time. There are other RCMs that do not include any aerosols dataset in their simulation runs.
 
-The information about the aerosols datasets included in the regional climate simulations from Euro-CORDEX, used in this chapter has been included in table \ref{tb:aero}. %Only two RCMs include time evolving aerosols for the scenario projections: RACMO22e and ALADIN5.3. %Each of these RCMs uses a different aerosols dataset. Whereas ALADIN5.3 select the Szopa dataset, RACMO22E uses the CAM inventory (Lamarqué et al).
+The information about the aerosols datasets included in the regional climate simulations from Euro-CORDEX, used in this chapter has been included in Table \ref{tb:aero}. %Only two RCMs include time evolving aerosols for the scenario projections: RACMO22e and ALADIN5.3. %Each of these RCMs uses a different aerosols dataset. Whereas ALADIN5.3 select the Szopa dataset, RACMO22E uses the CAM inventory (Lamarqué et al).
 
 % AEROSOLES EN LOS GCM! On the other hand, both driving GCMs used prescribed aerosols from Lamarqué inventory (2010
 
 \begin{table}[h!]
-\caption[RCMs from Euro-CORDEX and aerosols description]{\label{tb:aero}RCMs from Euro-CORDEX and aerosols description.}
 \footnotesize
 \begin{tabular}{>{\raggedrigth}m{1.3cm}>{\raggedright}m{1.5cm}|>{\raggedright}m{2.2cm}>{\raggedright}m{2.2cm}>{\raggedright}m{2cm}}
 \toprule 
@@ -1191,23 +1190,23 @@ KNMI&RACMO&CAM inventory, Lamarque 2010 & 6 classes: sulfate, organic matter, de
 \bottomrule
 %  \br
 \end{tabular}\\
-%$^{a}$UK spelling is required; $^{b}$MSC classification numbers are required; $^{c}$titles of articles are required in journal references; $^{d}$Harvard-style references must be used (see section \ref{except}); $^{e}$final page numbers of articles are required in journal references.
+\caption[RCMs from Euro-CORDEX and aerosols description]{\label{tb:aero}RCMs from Euro-CORDEX and aerosols description.}
 \end{table}
 \normalsize
 
 \subsubsection{Aerosols description in ALADIN53}
 
-The aerosols dataset used for ALADIN53 runs is based on AOD fields including 5 different species: black carbon, organic carbon, dust, sea salt, and sulfate. It is described in \cite*{Szopa2013} and built from the global LMDz-OR-INCA Climate-Chemistry coupled model. For the historical period it takes into account reference aerosol emissions, including seasonal cycle for each species and trends for the anthropogenic aerosol speceis. The future simulations include the same temporal variations but following the corresponding RCP8.5 scenario emissions. 
+The aerosols dataset used for ALADIN53 runs is based on AOD fields including 5 different species: black carbon, organic carbon, dust, sea salt, and sulfate. It is described in \cite*{Szopa2013} and built from the global LMDz-OR-INCA Climate-Chemistry coupled model. For the historical period it takes into account reference aerosol emissions, including seasonal cycle for each species and trends for the anthropogenic aerosol species. The future simulations include the same temporal variations but following the corresponding RCP8.5 scenario emissions. 
 
 \subsubsection{Aerosols description in RACMO22E}
 
 A spatial and vertically distributed dataset derived from CAM-inventory \cite*{Lamarque2010} is used in RACMO22E simulations. It also accounts for the same five different species. The historical run also follows the reference emissions \cite*{Lamarque2010} and from 2006 it evolves in time with the RCP.
 
-The resulting changes in AOD for both models in summer months (JJA) between 2021-2050 and a reference period 1971-2000, are represented in figure \ref{fig:aod} . An overall decrease for both models is observed with the maximum change in central Europe and with a slightly smaller signal for the RACMO22E simulation.
+The resulting changes in AOD for both models in summer months (JJA) between 2021-2050 and a reference period 1971-2000, are represented in Figure \ref{fig:aod} . An overall decrease for both models is observed with the maximum change in central Europe and with a slightly smaller signal for the RACMO22E simulation.
 
 \begin{figure}[h!]
 \centering\includegraphics[width=1\textwidth]{figs/capitulo7/ANOMALIAS_JJA_AOD_2050-2021_r12.pdf}
-\caption[Aerosol optical depth summer anomalies between 2050-2021 with respect to 1971-2000 over Europe]{Aerosols Optical Depth summer changes between 2021-2050 with respect to the period 1971-2000 for ALADIN53 and RACMO22E models.}
+\caption[Aerosol optical depth summer change between 2050-2021 with respect to 1971-2000 over Europe]{Aerosols Optical Depth summer changes between 2021-2050 with respect to the period 1971-2000 for ALADIN53 and RACMO22E models.}
 \label{fig:aod}
 \end{figure}
 
@@ -1246,7 +1245,7 @@ A monthly average daily profile of the irradiance $\left[\si{\watt\per\metro\squ
 
 The effective irradiation is then obtained from the consideration of optical losses due to the incident angle and dust accumulation \cite{Martin2001}. Only a moderate dust accumulation degree is considered.
 
-The second step transforms the ‘effective’ irradiation into power output $\left[\si{\kilo\watthour\per\kilo\wattpeak}\right]$ considering the electrical performance of the system. The system includes characteristics of a general PV module and inverter, the arrangement of the generator and some efficiency losses. Characteristics of the general PV system are the same as the ones described in chapter \ref{cha:methods}
+The second step transforms the ‘effective’ irradiation into power output $\left[\si{\kilo\watthour\per\kilo\wattpeak}\right]$ considering the electrical performance of the system. The system includes characteristics of a general PV module and inverter, the arrangement of the generator and some efficiency losses. Characteristics of the general PV system are the same as the ones described in chapter \ref{cha:methods}.
 
 Yearly PV potential changes for the period 2021-2050 with respect to the reference period 1971-2000 are computed. Yearly values of productivity are considered a good estimation of the performance of a power plant and are considered as a reference for feasibility studies and finance calculations.
 
@@ -1256,29 +1255,29 @@ Changes in PV potential production for summer months are also calculated, consid
 
 \subsection{Changes in SSR and CLT}
 
-The summer (JJA) mean changes of the period 2021-2050 with respect to the reference period 1971-2000 is represented in figures \ref{fig:anomalySSR} and \ref{fig:anomalyCLT} first for surface solar irradiation, SSR, and then for total cloud cover, CLT.
+The summer (JJA) mean changes of the period 2021-2050 with respect to the reference period 1971-2000 is represented in Figure \ref{fig:anomalySSR} and Figure \ref{fig:anomalyCLT} first for surface solar irradiation, SSR, and then for total cloud cover, CLT.
 
 \begin{table}[h!]
-  \caption[Changes of SSR, CLT, AOD and spatial correlations]{\label{tb:spatial correlations}Spatial changes with respect of the reference period for SSR (W/m²), CLT (\%) and AOD; and spatial correlation between SSR,CLT and AOD changes maps.}
 \footnotesize
 \begin{tabular*}{1\textwidth}{@{}lllllll}
 \br
   CMIP5 GCM & RCM & $\Delta{SSR}$ & $\Delta{CLT}$ & $\Delta{AOD}$ & $\rho_{SSR,CLT}$  & $\rho_{SSR,AOD}$\\
 \midrule 
 %\mr  
-  CNRM-CERFACS-CNRM-CM5& & 9.8 & 0.7 & & -0.4 &  \\
-            &ALADIN53 & 13.2 & 0.3 & -0.2 & -0.2 & -0.9\\
-            &CCLM4-8-17& -2.8 & -0.8 & - & -0.7 & -  \\
-            &RCA4& -2.8 & 0.2 & - & -0.8 & - \\
+  CNRM-CERFACS-CNRM-CM5& & 9.9 & 0.5 & & -0.4 &  \\
+            &ALADIN53 & 12.6 & 0.3 & -0.2 & -0.2 & -0.9\\
+            &CCLM4-8-17& -2.4 & -0.8 & - & -0.7 & -  \\
+            &RCA4& -2.6 & 0.2 & - & -0.8 & - \\
 \midrule
 %\mr   
   ICHEC-EC-EARTH& &5.6 & -0.3 & &-0.3 &  \\
           &RACMO& 4.8 & 0.5 & -0.1 & -0.3 & -0.6 \\
-          &CCLM4-8-17& -3.0 & -0.8 & - & -0.8 & - \\
-          &RCA4&-2.3 & 0.1 & - & -0.8 & - \\
+          &CCLM4-8-17& -2.7 & -0.9 & - & -0.8 & - \\
+          &RCA4&-2.1 & 0.1 & - & -0.8 & - \\
 \bottomrule
 %\br
 \end{tabular}\\
+  \caption[Changes of SSR, CLT, AOD and spatial correlations]{\label{tb:spatial correlations}Spatial changes with respect of the reference period for SSR (W/m²), CLT (\%) and AOD; and spatial correlation between SSR,CLT and AOD changes maps.}
 \end{table}
 \normalsize
  
@@ -1349,18 +1348,18 @@ The summer (JJA) mean changes of the period 2021-2050 with respect to the refere
 \hspace{0.1mm}
   %
   \centering\begin{subfigure}{1\textwidth}  
-    \includegraphics[width=1\textwidth]{figs/capitulo7/ANOMALIAS_JJA_SSR_2050-2021_r12.pdf}
+    \includegraphics[width=1\textwidth]{figs/capitulo7/ANOMALIAS_JJA_SSR_2050-2021_r12_names.pdf}
     \caption{Families of RCMs simulations. First row driven by CNRM-CM5 and second row driven by EC-EARTH.}
   \end{subfigure}
-  \caption[Anomaly of summer SSR over Europe for the period 2021-2050 with respect of 1971-2000 with different climate models]{Mean change 2021-2050 with respect to the reference period 1970-2021 of JJA surface solar radiation, SSR. $\left[\si{\watt\per\metro\squared}\right]$}
+  \caption[Summer mean SSR change over Europe for the period 2021-2050 with respect of 1971-2000 with different climate models]{Mean change 2021-2050 with respect to the reference period 1970-2021 of JJA surface solar radiation, SSR. $\left[\si{\watt\per\metro\squared}\right]$}
 \label{fig:anomalySSR}
 \end{figure}
  
-Summer mean change shows an increase in Europe, more relevant in Central-Europe, for regional climate models with evolving aerosols in scenarios (ALADIN53 and RACMO22E) although there are differences in the magnitude of the changes. ALADIN53 presents the highest change in the mentioned area, which correlates with the negative change and spatial pattern of AOD of this model, as can be seen in figure \ref{fig:aod}. For RACMO, the AOD change has a similar spatial pattern but the magnitude is slightly smaller. The projected SSR changes in RACMO are positive for a large area among the domain although they do not reach the higher values of ALADIN53. Mean values for the whole domain are positive for ALADIN (13.2 $\si{\watt\per\metro\squared}$) and RACMO (4.8 $\si{\watt\per\metro\squared}$) and negative for the others.
+Summer mean change shows an increase in Europe, more relevant in Central-Europe, for regional climate models with evolving aerosols in scenarios (ALADIN53 and RACMO22E) although there are differences in the magnitude of the changes. ALADIN53 presents the highest change in the mentioned area, which correlates with the negative change and spatial pattern of AOD of this model, as can be seen in Figure \ref{fig:aod}. For RACMO, the AOD change has a similar spatial pattern but the magnitude is slightly smaller. The projected SSR changes in RACMO are positive for a large area among the domain although they do not reach the higher values of ALADIN53. Mean values for the whole domain are positive for ALADIN (12.6 $\si{\watt\per\metro\squared}$) and RACMO (4.8 $\si{\watt\per\metro\squared}$) and negative for the others.
 
 The rest of the RCMs from the first and second family present a similar signal in SSR among them, with a slight decrease in SSR with the exception of southern and western Europe that show a small increase.
 
-The changes projected in the two RCMs that account for the evolution of aerosols in the future agree in the sign with the projected changes of the two GCM of the respective families also represented in figure \ref{fig:anomalySSR}. The magnitude and the spatial pattern of the changes in CNRM-CM5 coincide with the ones in ALADIN53. In the same manner, the driving GCM of the second family, EC-EARTH, also presents similar changes to RACMO22E. 
+The changes projected in the two RCMs that account for the evolution of aerosols in the future agree in the sign with the projected changes of the two GCM of the respective families also represented in Figure \ref{fig:anomalySSR}. The magnitude and the spatial pattern of the changes in CNRM-CM5 coincide with the ones in ALADIN53. In the same manner, the driving GCM of the second family, EC-EARTH, also presents similar changes to RACMO22E. 
 
 \begin{figure}[h]
   \centering\begin{subfigure}{0.4\textwidth}
@@ -1375,16 +1374,16 @@ The changes projected in the two RCMs that account for the evolution of aerosols
   \hspace{0.1mm}
   %
   \centering\begin{subfigure}{1\textwidth}  
-    \includegraphics[width=1\textwidth]{figs/capitulo7/ANOMALIAS_JJA_CLT_2050-2021_r12.pdf}
+    \includegraphics[width=1\textwidth]{figs/capitulo7/ANOMALIAS_JJA_CLT_2050-2021_r12_names.pdf}
 \caption{Families of RCMs simulations. First row driven by CNRM-CM5 and second row driven by EC-EARTH.}
 \end{subfigure}
 \caption[Change in summer CLT over Europe for the period 2021-2050 with respect of 1971-2000 with different climate models]{Mean change 2021-2050 with respect to the reference period 1970-2021 of JJA total cloud cover, CLT. [\%]}
 \label{fig:anomalyCLT}      
 \end{figure}
 
-In general, for the whole domain, the mean change in CLT is close to zero for every simulation as can be seen in table \ref{tb:spatial correlations}. The spatial pattern of CLT change in ALADIN53 shows a positive sign in the area where SSR change is higher (Central Europe), which is remarkable. For ALADIN53 and RACMO22E the spatial correlation between CLT and SSR is very low, -0.2 and -0.1 respectively, whereas it increases between SSR and AOD, -0.9 for ALADIN53 and -0.6 for RACMO22E.
+In general, for the whole domain, the mean change in CLT is close to zero for every simulation as can be seen in Table \ref{tb:spatial correlations}. The spatial pattern of CLT change in ALADIN53 shows a positive sign in the area where the change in SSR is higher (Central Europe), which is remarkable. For ALADIN53 and RACMO22E the spatial correlation between CLT and SSR is very low, -0.2 and -0.1 respectively, whereas it increases between SSR and AOD, -0.9 for ALADIN53 and -0.6 for RACMO22E.
 
-On the whole, the CLT spatial pattern explains well the SSR spatial pattern in RCMs without evolving aerosols whereas both AOD and CLT are required to explain the SSR spatial pattern in GCMs and RCMs with evolving aerosols. AOD pattern is even the dominant signal for ALADIN53.
+On the whole, the spatial pattern of CLT explains well the spatial pattern of SSR in RCMs without evolving aerosols whereas both AOD and CLT are required to explain spatial pattern of SSR in GCMs and RCMs with evolving aerosols. The spatial pattern of AOD is even the dominant signal for ALADIN53.
 
 
 %** Hablar de que la anomalía de nubosidad es parecida entre modelos independientemente de su GCM?
@@ -1398,27 +1397,27 @@ On the whole, the CLT spatial pattern explains well the SSR spatial pattern in R
 
 \subsection{Projected changes in PV production}
 
-The photovoltaic yearly productivity, defined as the power output by the power installed, is calculated for each pixel of land in the domain of Euro-CORDEX. Then, the averaged by country difference with respect to the reference period 1971-2000 is represented in figure \ref{fig:pvcountry}. 
+The photovoltaic yearly productivity, defined as the power output by the power installed, is calculated for each pixel of land in the domain of Euro-CORDEX. Then, the averaged by country difference with respect to the reference period 1971-2000 is represented in Figure \ref{fig:pvcountry}. 
 
 \begin{table}[h!]
-\caption{\label{tb:pvanomalies}Relative change of yearly PV [\%] and JJA PV [\%] with respect of the reference period for the whole domain and JJA PV relative change averaged by country [\%].}
 \footnotesize
 \begin{tabular*}{1.1\textwidth}{@{}llll|llllll}
 \br
 CMIP5 GCM & RCM &  $\Delta{PV_{annual}}$ & $\Delta{PV_{JJA}}$ & Spain & Germany & Italy & Greece & Hungary & Czech &&&&&&&&&&Republic\\
 \midrule 
 %\mr   
-  \\CNRM-CM5&ALADIN53& 5.9$\%$ & 4.8 $\%$ & 2.4$\%$ & 10.9$\%$ & 6.4$\%$ & 4.6$\%$ & 11.2$\%$ & 12.2$\%$ \\
-          &CCLM4-8-17& -2.7$\%$ & -1.5$\%$ & -0.6$\%$ & -2.3 $\%$ & -0.4$\%$ & 0.3 $\%$ &-1.0$\%$ &-1.2$\%$ \\
-          &RCA4& -2.8$\%$ & -1.3 $\%$ & -0.8 $\%$ & -1.5 $\%$ & -0.4 $\%$ & -0.4$\%$ &  -0.5$\%$ &-1.1$\%$ &\\
+  \\CNRM-CM5&ALADIN53& 3.2$\%$ & 2.7 $\%$ & 2.4$\%$ & 10.9$\%$ & 6.3$\%$ & 4.6$\%$ & 11.2$\%$ & 12.0$\%$ \\
+          &CCLM4-8-17& -1.4$\%$ & -0.8$\%$ & -0.6$\%$ & -2.2 $\%$ & -0.4$\%$ & 0.3 $\%$ &-1.0$\%$ &-1.6$\%$ \\
+          &RCA4& -1.5$\%$ & -0.7 $\%$ & -0.8 $\%$ & -1.5 $\%$ & -0.4 $\%$ & -0.4$\%$ &  -0.5$\%$ &-1.1$\%$ &\\
 \midrule
 %\mr  
-  \\EC-EARTH &RACMO& -1.2$\%$ & 1.2$\%$ & 0.4$\%$ & 1.4$\%$ & 1.6$\%$ & 2.4$\%$ & 4.0$\%$ &2.5$\%$\\
-                 &CCLM4-8-17& -4.4$\%$ & -2.0$\%$ & -0.6$\%$ & -1.9$\%$ & -0.6$\%$ & -1.4$\%$ & -1.8$\%$ &-1.8$\%$\\
-                 &RCA4& -4.0$\%$ & -1.4$\%$ & -0.8$\%$ & -0.3$\%$ & -0.6$\%$ & -0.9$\%$ & -0.7$\%$ &-0.5$\%$\\
+  \\EC-EARTH &RACMO& -0.6$\%$ & 0.6$\%$ & 0.3$\%$ & 1.4$\%$ & 1.6$\%$ & 2.3$\%$ & 4.0$\%$ &2.5$\%$\\
+                 &CCLM4-8-17& -2.3$\%$ & -1.5$\%$ & -0.6$\%$ & -1.8$\%$ & -0.6$\%$ & -1.4$\%$ & -1.8$\%$ &-1.7$\%$\\
+                 &RCA4& -2.0$\%$ & -0.7$\%$ & -0.8$\%$ & -0.3$\%$ & -0.6$\%$ & -0.9$\%$ & -0.7$\%$ &-0.4$\%$\\
 \bottomrule
 %\br
 \end{tabular}\\
+\caption{\label{tb:pvanomalies}Relative change of yearly PV [\%] and JJA PV [\%] with respect of the reference period for the whole domain and JJA PV relative change averaged by country [\%].}
 \end{table}
 \normalsize
 
@@ -1450,24 +1449,24 @@ CMIP5 GCM & RCM &  $\Delta{PV_{annual}}$ & $\Delta{PV_{JJA}}$ & Spain & Germany 
 The geographical dependence of the PV potential change is due to the spatial pattern of SSR change, which is closely related to the anomaly of AOD in central Europe projected by ALADIN53 and RACMO22E. The most important result is that the projected change in PV output is positive for both RCMs with evolving aerosols in countries where the other RCMs show the opposite sign. This suggests that for some areas in Europe information from RCMs projections might not be accurate if an ensemble is used for these energy related purposes.
 
 \begin{figure}[h!]
-    \includegraphics[width=1\textwidth]{figs/capitulo7/bycountryYEAR.pdf}
-    \caption[Yearly anomaly of PV productivity over Europe for the period 2021-2050 with respect of 1971-2000]{Yearly change of PV productivity for 2021-2050 with respect to the reference period 1970-2021 $\left[\si{\kilo\watthour\per\kilo\wattpeak}\right]$}
+    \includegraphics[width=1\textwidth]{figs/capitulo7/bycountryYEAR_newscript.pdf}
+    \caption[Yearly change of PV productivity over Europe for the period 2021-2050 with respect of 1971-2000]{Yearly change of PV productivity for 2021-2050 with respect to the reference period 1970-2021 $\left[\si{\kilo\watthour\per\kilo\wattpeak}\right]$}
         \label{fig:pvcountry}
 \end{figure}
 
 
-The annual values of PV change for the models without aerosol evolution is between -4.4 to -2.7$\%$ over the whole domain. ALADIN53 projects a positive annual mean change of 5.9$\%$ and RACMO22E of, -1.2$\%$.
+The annual values of PV relative change for the models without aerosol evolution is between -2.3 to -1.4$\%$ over the whole domain. ALADIN53 projects a positive annual mean change of 3.2$\%$ and RACMO22E of, -0.6$\%$. In absolute terms, values above 100 $\left[\si{\kilo\watthour\per\kilo\wattpeak}\right]$ are found for countries in Central Europe for ALADIN53 and in norht-eastern countries, values are lower than $-50$ $\left[\si{\kilo\watthour\per\kilo\wattpeak}\right]$ for models not including aerosols evolution, as can be seen in Figure \ref{fig:pvcountry}.
 %It is important to notice that for the ALADIN53 simulation including aerosols the sign in PV power output anomaly is positive and negative in the other cases. !!Besides, the RACMO anomaly is close to zero (although negative) whereas the rest of the simulation has the same magnitude order of the anomaly: ~ -2 to -4\%
 
-For summer months, which is the most important season for solar energy supply, the results are shown in figure \ref{fig:pvcountryjja}. In this case, the same pattern as in the annual PV yield is found, with the two models with evolving aerosols showing higher changes. All the simulations not including evolving aerosols have very similar values, close to zero in western and southern Europe a slightly negative for the rest of the countries. On the other hand, ALADIN53 gives an strong change for Central-Europe and countries with a maximum that ranges between 11-13\% of increase. RACMO22E has positive values but smaller in magnitude with the maximum values around the eastern-southern European countries.
+For summer months, which is the most important season for solar energy supply, the results are shown in Figure \ref{fig:pvcountryjja}. In this case, the same pattern as in the annual PV yield is found, with the two models with evolving aerosols showing higher changes. All the simulations not including evolving aerosols have very similar values, close to zero in western and southern Europe a slightly negative for the rest of the countries. On the other hand, ALADIN53 gives an strong change for Central-Europe and countries with a maximum that ranges between 11-13\% of increase. RACMO22E has positive values but smaller in magnitude with the maximum values around the eastern-southern European countries.
 
 \begin{figure}[h!]
-    \includegraphics[width=1\textwidth]{figs/capitulo7/bycountryJJArelativePuOr.pdf}
-    \caption[JJA mean change of PV productivity over Europe for the period 2021-2050 with respect of 1971-2000]{PV JJA mean change of 2021-2050 with respect to the reference period 1970-2021 $\left[\si{\kilo\watthour\per\kilo\wattpeak}\right]$}
+    \includegraphics[width=1\textwidth]{figs/capitulo7/bycountryJJArelative_area_newscriptall5.pdf}
+    \caption[JJA mean relative change of PV productivity over Europe for the period 2021-2050 with respect of 1971-2000]{PV JJA mean change of 2021-2050 with respect to the reference period 1970-2021 $\left[\%\right]$}
 \label{fig:pvcountryjja}
 \end{figure}
 
-At the country level, some representative ones have been included in table \ref{tb:pvanomalies}. For ALADIN53 values above 10$\%$ are found in Germany, Hungary, and the Czech Republic, whereas lower values are found for Spain (2.4$\%$), Italy (6.4$\%$) or Greece (4.6$\%$), although still positive. In the same countries, RACMO22E shows the highest increase in Hungary, 4$\%$,  and smaller values in the rest, from 0.4$\%$ in Spain to 2.5$\%$ in the Czech Republic.
+At the country level, some representative ones have been included in Table \ref{tb:pvanomalies}. For ALADIN53 values above 10$\%$ are found in Germany, Hungary, and the Czech Republic, whereas lower values are found for Spain (2.4$\%$), Italy (6.3$\%$) or Greece (4.6$\%$), although still positive. In the same countries, RACMO22E shows the highest increase in Hungary, 4$\%$,  and smaller values in the rest, from 0.3$\%$ in Spain to 2.4$\%$ in the Czech Republic.
  
 %Uncertainties due to the different AOD datasets used in the two RCMs and in the radiative transfer code of the model difficults the robust answer about the change magnitude. Averaging the results for the non-aerosols simulations and aerosols simulation, we obtain the results in fugure.
 
@@ -1485,7 +1484,7 @@ In addition, although an overestimation of SSR from climate models has been repo
 The study shows that regional climate models with evolving aerosols in the scenarios behave differently to those that have an aerosols climatology constant in time. In model using evolving aerosols, the sign of the SSR change is reversed, agreeing with the positive signal projected by their driving GCMs. This result is a relevant contribution to the explanation of the disagreement found in previous studies between GCMs and RCMs in the sign of future SSR change.
 % and the magnitude of the anomaly is important yearly and in summer months. The most impacted countries are those in Central-Europe.
 
-It has been shown also that the change of SSR is not directly linked with CLT anomaly in the case of the RCMs simulations that include evolving aerosols. The spatial correlation between SSR and CLT in these models is very low and AOD changes are needed to explain the SSR changes.
+It has been shown also that the change of SSR is not directly linked with change in CLT in the case of the RCMs simulations that include evolving aerosols. The spatial correlation between SSR and CLT in these models is very low and AOD changes are needed to explain the SSR changes.
 
 These results have been derived from the mid of the XXI century. Different changes could be found at the end of the century when the climate change signal is higher.
 
@@ -1500,81 +1499,80 @@ The study shows that regional climate models with time evolving aerosols in the 
 We can conclude that the impact of evolving aerosols on the SSR projections, could affect PV potential projections significantly. Insofar the uncertainty in aerosols datasets and schemes used in RCMs can be narrowed, more accurate projections could be achieved for the energy sector. The fact of the reversed signal in mid century for the PV anomalies in the case of simulations including evolving aerosols, highlights the risk of using an ensemble mean for renewable energy projections and the lack of a robust answer for now.   
 
 
-\begin{subappendices}
+%\begin{subappendices}
 
-  \section{Appendix}
+\section*{Appendix B}
 
-\subsubsection{Significance of PV changes in Euro-CORDEX}
+\subsection*{Significance of PV changes in Euro-CORDEX}
 
-The statistical significance of the changes of PV potential has been calculated for each simulation. Results of the significance after a t-test and with a threshold of the p-value of 0.05 are represented in figure \ref{fig:pvalor}
+The statistical significance of the changes of PV potential has been calculated for each simulation. Results of the significance after a t-test and with a threshold of the p-value of 0.05 are represented in Figure \ref{fig:pvalor}
 
 \begin{figure}[h]
     \includegraphics[width=1\textwidth]{figs/capitulo7/pvalor_prueba.pdf}
-    \caption[Statistical significance of PV anomalies]{Significance of the PV differences between 2021-2050 with respect to the reference period 1970-2021 using a t-test. Red color is for significant results and blue color for no significant.}
+    \caption[Statistical significance of PV changes]{Significance of the PV differences between 2021-2050 with respect to the reference period 1970-2021 using a t-test. Red color is for significant results and blue color for no significant.}
 \label{fig:pvalor}
 \end{figure}
 
 Significant values are found in ALADIN53 for the whole domain with the exception of certain areas in North-Africa. For the other models in the same family, CCLM and RCA4, the extension of significant areas is smaller. In the last one, significant differences are found in eastern Europe, the North-African continent and some dispersed areas like the British Islands and France. For the CCLM4-8-17 the differences are significant in the north of the African continent, the British Islands and some areas in the continental Eastern-Europe and the south of the Scandinavian Peninsula.
 
-In the second family, driven by the EC-EARTH model, significant differences for the RACMO22E model are less extended than for the other simulations. The significant values are around the south-east of Europe, which correspond to the area of higher PV anomaly. The spatial pattern of significant differences of CCLM and RCA4 is very similar, with significant values in the south of the domain, Eastern Europe and the North of the Scandinavian countries. For RCA4 significant values are also found over the IP. 
+In the second family, driven by the EC-EARTH model, significant differences for the RACMO22E model are less extended than for the other simulations. The significant values are around the south-east of Europe, which correspond to the area of higher PV change. The spatial pattern of significant differences of CCLM and RCA4 is very similar, with significant values in the south of the domain, Eastern Europe and the North of the Scandinavian countries. For RCA4 significant values are also found over the IP. 
 
-\subsection{Med-CORDEX analysis}
+\subsection*{Med-CORDEX analysis}
 
 As part of the CORDEX initiative, scientific groups involved in Med-CORDEX \cite*{Ruti2016} project provide simulations around the Mediterranean area over a domain that is slightly different to the one used in Euro-CORDEX (see Figure \ref{fig:cordexdomain}). An important characteristic in Med-CORDEX ensemble with respect to the Euro-CORDEX is that they provide atmosphere-ocean coupled simulations. A coupled simulation is able to reproduce interactive fluxes between the sea surface and the atmosphere, which will improve the representation of certain climate characteristics, specially in an area like the Mediterranean Sea.
 
 A first look into the Med-CORDEX simulations through an analysis  similar to the one developed in the previous chapter is shown in the next section. However, the Med-CORDEX ensemble is limited and only few simulations allow us to apply the pairwise or family comparison principle used before.
 
-\subsubsection{Climate models}
+\subsubsection*{Climate models}
 
 The only model available with aerosols evolution for scenarios in the Med-CORDEX ensemble is ALADIN-RCSM4 \cite*{Sevault2014}. In order to isolate the uncertainties coming from the GCMs forcing, RCMs forced with CNRM-CM5 are selected to be compared with ALADIN RCSM4. Only one model apart from ALADIN uses CNRM-CM5 as boundary conditions, the PROTHEUS RCM \cite*{Artale2010}
 
 The scenario RCP4.5 is the only available for the 2 models. The reference period is 1971-2000 and the future period is 2021-2050 as above.
 
-\subsubsection{Scenario RCP4.5 of relevant variables}
+\subsubsection*{Scenario RCP4.5 of relevant variables}
 
 The change of SSR and CLT for summer months with respect to the reference period is represented for the two model simulations.
 
 \begin{figure}[h!]
     \includegraphics[width=0.8\textwidth]{figs/capitulo7/diferences_ssr_medcordex.pdf}
-    \caption[Anomaly of summer SSR over Med-CORDEX domain for the period 2021-2050 with respect of 1971-2000 with different climate models]{SSR change [$\si{\watt\per\metro\squared}$] for the period 2021-2050 with respect to the reference period 1971-2000}
+    \caption[Summer SSR change over Med-CORDEX domain for the period 2021-2050 with respect of 1971-2000 with different climate models]{SSR change [$\si{\watt\per\metro\squared}$] for the period 2021-2050 with respect to the reference period 1971-2000}
     \label{fig:medcordexssr}
 \end{figure}
 
-The spatial pattern of SSR anomaly is different in the two simulations. The ALADIN-RCSM4 shows a generalized increase over the domain with values around 10 $\si{\watt\over\metro\squared}$ and reaching 15 $\si{\watt\over\metro\squared}$  in certain areas. For PROTHEUS, the spatial pattern shows negative anomalies in the North of the domain. Positive values are around 5 $\si{\watt\over\metro\squared}$ in the Southern part of Europe with some areas of 10 $\si{\watt\over\metro\squared}$. The south-western area of the domain, which roughly corresponds to the IP, shows the highest values of anomaly, close to 15 $\si{\watt\over\metro\squared}$.
+The spatial pattern of SSR change is different in the two simulations. The ALADIN-RCSM4 shows a generalized increase over the domain with values around 10 $\si{\watt\over\metro\squared}$ and reaching 15 $\si{\watt\over\metro\squared}$  in certain areas. For PROTHEUS, the spatial pattern shows negative changes in the North of the domain. Positive values are around 5 $\si{\watt\over\metro\squared}$ in the Southern part of Europe with some areas of 10 $\si{\watt\over\metro\squared}$. The south-western area of the domain, which roughly corresponds to the IP, shows the highest values of change, close to 15 $\si{\watt\over\metro\squared}$.
 
 \begin{figure}[h!]
     \includegraphics[width=0.8\textwidth]{figs/capitulo7/diferences_clt_medcordex.pdf}
-    \caption[Anomaly of summer CLT over Med-CORDEX domain for the period 2021-2050 with respect of 1971-2000 with different climate models]{CLT change [$\%$] for the period 2021-2050 with respect to the reference period 1971-2000}
+    \caption[Summer CLT change over Med-CORDEX domain for the period 2021-2050 with respect of 1971-2000 with different climate models]{CLT change [$\%$] for the period 2021-2050 with respect to the reference period 1971-2000}
 \label{fig:medcordexclt}
 \end{figure}
 
-In figure \ref{fig:medcordexclt} the CLT's change for the two models can be seen with respect to the reference period. In this case in opposition to the SSR anomaly, the spatial pattern of both models is similar, projecting a decrease of CLT for the Mediterranean area and a slight increase in Central to Northern Europe. Nevertheless, the decrease of CLT in ALADIN-RCSM4 is smaller.
+In Figure \ref{fig:medcordexclt} the change in CLT for the two models can be seen with respect to the reference period. In this case in opposition to the change in SSR, the spatial pattern of both models is similar, projecting a decrease of CLT for the Mediterranean area and a slight increase in Central to Northern Europe. Nevertheless, the decrease of CLT in ALADIN-RCSM4 is smaller.
 
-Differences in spatial pattern suggest that there are other factors affecting the resource anomaly in RCP4.5 projections. Spatial correlation between these variables is presented in table \ref{tb:medcordexspcor}.
+Differences in spatial pattern suggest that there are other factors affecting the resource change in RCP4.5 projections. Spatial correlation between these variables is presented in Table \ref{tb:medcordexspcor}.
 
-Mean anomaly for the whole domain is larger for ALADIN-RCSM4 than for PROTHEUS, but the CLT mean anomaly is similar for both. The spatial correlation between CLT and SSR is highly negative for PROTHEUS and less negative for ALADIN-RCSM4.
+Mean change for the whole domain is larger for ALADIN-RCSM4 than for PROTHEUS, but the CLT mean change is similar for both. The spatial correlation between CLT and SSR is highly negative for PROTHEUS and less negative for ALADIN-RCSM4.
 
-\begin{table}[h!]
-\caption[SSR, CLT anomalies and spatial correlation for Med-CORDEX models]{\label{tb:medcordexspcor}SSR (W/m²), CLT (\%) anomalies and spatial correlation between them.}
-%\footnotesize
+\begin{table}[H]
+\footnotesize
 \begin{tabular*}{0.8\textwidth}{@{}llllllll}
 \br
 & $\rho_{SSR,CLT}$  & $\rho_{SSR,AOD}$ & $\Delta{SSR}$ & $\Delta{CLT}$  \\
 \midrule
-%  \mr 
 ALADIN-RCSM4& -0.61 & -0.66 & 6.83 & -1.17 \\
 PROTHEUS& -0.90 & - &  0.67& -1.76 \\
 \bottomrule
-%  \br
 \end{tabular}\\
 \label{tb:medcordexspcor}
+\caption[Changes in SSR, CLT and spatial correlation for Med-CORDEX models]{\label{tb:medcordexspcor}Changes in SSR (W/m²), CLT (\%) and spatial correlation between them.}
 \end{table}
-%\normalsize
+\normalsize
  
-\subsubsection{Final comments}
+\subsection*{Final comments}
 
-Differences between anomalies in both climate models indicate that changes in SSR are not only influenced by cloudiness. In addition to the analyses developed in chapter 7, these preliminary results show that a deeper research on how aerosols influence future projections of solar resource should be done, air-sea coupling may also affect changes in SSR indirectly. The results from CORDEX initiative FPS-AEROSOLS, will help to reduce the uncertainty in shortwave solar radiation future projections, helping in the application of solar energy modeling for the future. 
+Differences between changes in both climate models indicate that changes in SSR are not only influenced by cloudiness. In addition to the analyses developed in chapter 7, these preliminary results show that a deeper research on how aerosols influence future projections of solar resource should be done, air-sea coupling may also affect changes in SSR indirectly. The results from CORDEX initiative FPS-AEROSOLS, will help to reduce the uncertainty in surface solar radiation future projections, helping in the application of solar energy modeling for the future. 
 
-\end{subappendices}
+A deeper study on coming simulations from the Med-CORDEX ensemble can be and important contribution to complete the work presented in this chapter, showing differences with the non-coupled models and it is expected to be done in future research.
+%\end{subappendices}
 
 % \end{document}
